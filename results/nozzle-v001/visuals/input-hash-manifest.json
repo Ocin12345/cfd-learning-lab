@@ -1,0 +1,127 @@
+{
+  "command_arguments": [
+    "--run",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001",
+    "--out",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-01-nozzle-paired-v002",
+    "--fluent-case",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-final.cas.h5",
+    "--fluent-data",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-final.dat.h5",
+    "--fluent-checks",
+    "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\fluent-checks-v002\\fluent-checks.json",
+    "--openfoam-case",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002",
+    "--openfoam-time",
+    "6000",
+    "--openfoam-log",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\solver.log",
+    "--openfoam-checks",
+    "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\openfoam-checks-v002\\openfoam-checks.json",
+    "--frames",
+    "48"
+  ],
+  "plotter_sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02",
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\fluent-checks-v002\\fluent-checks.json",
+      "bytes": 8291,
+      "sha256": "e922e6f40c6467f315642a0fdcac2b3fdc6999ac183c6f14f6c325c57821e640"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\fluent-checks-v002\\source-manifest.json",
+      "bytes": 12218,
+      "sha256": "095367fba64c26d23b626653ce40afccada420d281c2d3f661a8502e96f672c1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\openfoam-checks-v002\\openfoam-checks.json",
+      "bytes": 6939,
+      "sha256": "b813a8836343a8aeaa9dfe63225e10b0740aff0d472d5138a44a69d0ada1084f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\openfoam-checks-v002\\source-manifest.json",
+      "bytes": 14667,
+      "sha256": "58dc50e566971fd2e916b3838a002da88a0c351fe1a123f2db736ee16ed80c45"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-final.cas.h5",
+      "bytes": 745637,
+      "sha256": "118761b89b8d270da2b7ff5b0d75d1553a03c51591cdfdb948e34d1706c84aba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-final.dat.h5",
+      "bytes": 617753,
+      "sha256": "3db14a534ccdcf445b5ceef1d5cab9496dbab7f21bd05584407b4db998ea3093"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\geometry.npz",
+      "bytes": 247181,
+      "sha256": "216639f1dfb24f22120c0bc271f8416c396fb14af4562e1bd1308cd38d170720"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\setup.json",
+      "bytes": 1524,
+      "sha256": "9c72d7926ad7b3ebce2c9e4c1c27ed672aa2cd402982cbb6283693bcb156c170"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\boundary",
+      "bytes": 1406,
+      "sha256": "e2c9513a44a0a08bbf5861b0f2ecb0cf057007133b84bd7b20d880d5d9a9f611"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\faces",
+      "bytes": 959290,
+      "sha256": "3c0c70ad8ef7758fe715da1a5fc8354b1762b8286fc7b1a650cb9aa406edcdeb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\neighbour",
+      "bytes": 93505,
+      "sha256": "d8cb6334c0cae7dabfc0f495184c47fd14a4741dfb294d6e6767bb9214096513"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\owner",
+      "bytes": 189367,
+      "sha256": "c3aa0974cb3fc272bcf0e894969bd952c95c21a9fb7428332709072d7ac25fa8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\points",
+      "bytes": 815028,
+      "sha256": "8cc9e3052fa481837691bf4888c9c0efcb70c1e8c8d20e5a580f4e52ba2f004e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\C",
+      "bytes": 492372,
+      "sha256": "eaa1da6fccc515739082fcfb8574f23df124d4b8e091a99b07d8d72108ff19b0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\T",
+      "bytes": 154457,
+      "sha256": "117c42d9df0c26149f38b41b0d0f5e11d2d708f8bca3adc71b1b98cb7354f7dd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\U",
+      "bytes": 351498,
+      "sha256": "f514193fcbe7d857c3b9374fd3c694c36846a92730e47a30b0e97e2c3eda3468"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\p",
+      "bytes": 154546,
+      "sha256": "ad60de9960b45dda72f978d2b10277df30506a135cc038a15256a9858ff2a29d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\rho",
+      "bytes": 164446,
+      "sha256": "4283f423bca19fee5c17306bf8a751bbb462f376c62c4ec4b22d10d7db00db62"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\solver.log",
+      "bytes": 3253313,
+      "sha256": "64459b2129a2973e347075b5b57ca6097b892f6cc0eb80e79567d190e10ec7a8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_nozzle_native_v004.py",
+      "bytes": 42964,
+      "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "chord_m": 1,
+  "angle_degrees": 5.0,
+  "geometry": "scaled closed NACA0012",
+  "outer_radius_m": 20,
+  "density_kg_m3": 1,
+  "viscosity_Pa_s": 0.01,
+  "inlet_velocity_m_s": 1,
+  "reynolds_number": 100,
+  "cells": 61440,
+  "radial_layers": 160,
+  "circumferential_cells": 384
+}

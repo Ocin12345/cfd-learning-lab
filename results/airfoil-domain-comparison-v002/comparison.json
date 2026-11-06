@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "reynolds_number": 100.0,
+  "angle_degrees": 0,
+  "radii_over_chord": [
+    20.0,
+    40.0
+  ],
+  "records": [
+    {
+      "case": "baseline",
+      "solver": "Fluent",
+      "outer_radius_over_chord": 20.0,
+      "cells": 383562,
+      "Cd": 0.41589053,
+      "Cl": 9.1542336e-06,
+      "numerical_convergence_passed": true,
+      "symmetry_diagnostic_passed": true,
+      "numerical_checks_passed": true,
+      "failed_checks": [],
+      "cross_code_Cd_difference_percent": 1.7485211630709652,
+      "cross_code_target_pass": false,
+      "case_diagnostic_result": true,
+      "own_code_Cd_change_from_R20_percent": 0.0
+    },
+    {
+      "case": "baseline",
+      "solver": "OpenFOAM",
+      "outer_radius_over_chord": 20.0,
+      "cells": 383562,
+      "Cd": 0.408618596067742,
+      "Cl": -0.00289749640875593,
+      "numerical_convergence_passed": true,
+      "symmetry_diagnostic_passed": false,
+      "numerical_checks_passed": false,
+      "failed_checks": [
+        "openfoam.zero_angle_lift_diagnostic"
+      ],
+      "cross_code_Cd_difference_percent": 1.7485211630709652,
+      "cross_code_target_pass": false,
+      "case_diagnostic_result": true,
+      "own_code_Cd_change_from_R20_percent": 0.0
+    },
+    {
+      "case": "extended",
+      "solver": "Fluent",
+      "outer_radius_over_chord": 40.0,
+      "cells": 531018,
+      "Cd": 0.4146461,
+      "Cl": 8.4133735e-06,
+      "numerical_convergence_passed": true,
+      "symmetry_diagnostic_passed": true,
+      "numerical_checks_passed": true,
+      "failed_checks": [],
+      "cross_code_Cd_difference_percent": 1.7547827527853328,
+      "cross_code_target_pass": false,
+      "case_diagnostic_result": true,
+      "own_code_Cd_change_from_R20_percent": -0.29922056652743767
+    },
+    {
+      "case": "extended",
+      "solver": "OpenFOAM",
+      "outer_radius_over_chord": 40.0,
+      "cells": 531018,
+      "Cd": 0.407369961752103,
+      "Cl": -0.00290966080032981,
+      "numerical_convergence_passed": true,
+      "symmetry_diagnostic_passed": false,
+      "numerical_checks_passed": false,
+      "failed_checks": [
+        "openfoam.zero_angle_lift_diagnostic"
+      ],
+      "cross_code_Cd_difference_percent": 1.7547827527853328,
+      "cross_code_target_pass": false,
+      "case_diagnostic_result": true,
+      "own_code_Cd_change_from_R20_percent": -0.30557452050762357
+    }
+  ],
+  "own_code_Cd_change_percent": {
+    "Fluent": -0.29922056652743767,
+    "OpenFOAM": -0.30557452050762357
+  },
+  "delta_definition": "100*(Cd_R40-Cd_R20)/abs(Cd_R20); signed, within each code",
+  "inner_grid_preservation": {
+    "original_node_coordinates_exact": true,
+    "original_node_ids_preserved": true,
+    "original_cell_ids_and_triangles_exact": true,
+    "original_wall_edge_ids_exact": true,
+    "original_internal_face_cell_pairs_exact": true,
+    "former_boundary_edges_now_interior": 768,
+    "original_nodes": 192550,
+    "original_cells": 383562,
+    "added_nodes": 73728,
+    "added_cells": 147456,
+    "annulus_method": "deterministic_radial_triangles",
+    "radial_layers": 96,
+    "radial_topology_snapshot_verified": true
+  },
+  "openfoam_relaxation_schedule": [
+    {
+      "start_iteration": 0,
+      "U_equation_relaxation": 0.7
+    },
+    {
+      "start_iteration": 2000,
+      "U_equation_relaxation": 0.9
+    }
+  ],
+  "zero_angle_abs_lift_diagnostic_target": 0.001,
+  "native_input_hashes_verified": true,
+  "numerical_methods_and_references_matched": true,
+  "fluent_reference_display_labels_excluded": {
+    "zone": {
+      "baseline": "",
+      "extended": "fluid"
+    }
+  },
+  "reference_comparison_policy": "Every Fluent reference entry matches exactly except the string zone selector label; both excluded labels are recorded.",
+  "all_numerical_checks_passed": false,
+  "all_cross_code_targets_passed": false,
+  "diagnostic_result": true,
+  "mesh_independence_established": false,
+  "domain_independence_established": false,
+  "error_bound_established": false,
+  "convergence_order_established": false,
+  "physical_validation": false,
+  "note": "Two measured domains with the exact original inner grid retained. Added annulus discretization also changes. Failed checks are retained; no error bound, inferred order or domain-independence claim."
+}

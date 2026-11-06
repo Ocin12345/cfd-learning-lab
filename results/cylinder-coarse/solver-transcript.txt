@@ -1,0 +1,43 @@
+Reading "[local output path omitted]
+Buffering for file scan...
+
+   24832 nodes.
+   24576 quadrilateral cells, zone  2.
+   48896 2D interior faces, zone  3.
+     256 2D wall faces, zone  4.
+     128 2D velocity-inlet faces, zone  5.
+     128 2D pressure-outlet faces, zone  6.
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts..,
+		faces..,
+		nodes..,
+		cells..,
+        bandwidth reduction using Reverse Cuthill-McKee: 135/111 = 1.21622
+     materials,
+     interface,
+     domains,
+     zones,
+	outlet
+	inlet
+	cylinder
+	interior
+	fluid
+     parallel,
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.000000e+01, max (m) = 2.000000e+01
+   y-coordinate: min (m) = -2.000000e+01, max (m) = 2.000000e+01
+ Volume statistics:
+   minimum volume (m3): 8.739426e-05
+   maximum volume (m3): 4.768486e-01
+     total volume (m3): 1.255726e+03
+ Face area statistics:
+   minimum face area (m2): 7.072223e-03
+   maximum face area (m2): 9.963430e-01
+ Checking mesh.........................................
+ Done.

@@ -1,0 +1,154 @@
+{
+  "mesh_cells": 6400,
+  "Re": 100,
+  "wall_velocity_m_s": {
+    "top": [
+      1,
+      0
+    ],
+    "bottom": [
+      1,
+      0
+    ],
+    "sides": [
+      0,
+      0
+    ]
+  },
+  "solvers": {
+    "fluent": {
+      "final_iteration": 2000,
+      "terminal_residuals": {
+        "continuity": 1.4501420026423049e-08,
+        "x-velocity": 5.820799968588425e-10,
+        "y-velocity": 3.126961248910131e-10
+      },
+      "native_mesh_quality": {
+        "minimum_orthogonal_quality": 1.0,
+        "minimum_cell_volume_m3": 0.00015625,
+        "maximum_cell_volume_m3": 0.00015625,
+        "total_cell_volume_m3": 1.0,
+        "maximum_aspect_ratio": 1.41421,
+        "native_numeric_gate_pass": true,
+        "checked_before_flow": true
+      },
+      "continuity": {
+        "native_faces": 12960,
+        "native_cells": 6400,
+        "max_cell_absolute_mass_sum_kg_s": 3.273249726820637e-14,
+        "sum_cell_absolute_mass_sum_kg_s": 3.906776579345317e-11,
+        "max_dimensionless_divergence": 2.094879825165208e-10,
+        "rms_dimensionless_divergence": 4.817383429952853e-11,
+        "boundary_signed_mass_flux_kg_s": 0.0,
+        "boundary_absolute_face_mass_flux_sum_kg_s": 0.0,
+        "boundary_net_characteristic_normalized": 0.0,
+        "incidence_sum_matches_boundary": true,
+        "normalization": "Cell divergence: sum signed native SV_FLUX/(rho*cell area*depth)*L/U; volume-weighted RMS",
+        "boundary_limitation": "Closed wallNet0 is imposed by impermeability and is not sole conservation proof"
+      },
+      "velocity_relative_change": 2.0490043753357656e-06,
+      "mirror_symmetry_relative_L2": 2.669398756705361e-08,
+      "interpolated_centre_U_m_s": [
+        -0.4265223443765841,
+        1.2890849107561816e-09
+      ],
+      "native_vertex_set_mapping": {
+        "vertex_set_bijection": true,
+        "maximum_native_node_error_m": 0.0,
+        "source_quad_cells": 6400,
+        "native_layer": "native planar two-dimensional quads"
+      },
+      "checks": {
+        "terminal_residuals_le_1e_6": true,
+        "max_native_local_divergence_le_1e_5": true,
+        "rms_native_local_divergence_le_1e_6": true,
+        "normalized_wall_absolute_flux_le_1e_10": true,
+        "velocity_relative_change_1800_to_2000_le_1e_3": true
+      },
+      "failed_checks": [],
+      "all_declared_checks_passed": true
+    },
+    "openfoam": {
+      "final_iteration": 2000,
+      "terminal_residuals": {
+        "Ux": 6.9331858549137e-10,
+        "Uy": 8.5200172805805e-10,
+        "p": 6.3596046753975e-10
+      },
+      "native_mesh_quality": {
+        "cells": 6400,
+        "minimum_volume_m3": 1.5625e-06,
+        "maximum_nonorthogonality_degrees": 0.0,
+        "maximum_skewness": 7.8970646447247e-14
+      },
+      "continuity": {
+        "physical_boundary_signed_outward_volume_flux_m3_s": {
+          "lid": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "physical_boundary_absolute_volume_flux_m3_s": {
+          "lid": 0.0,
+          "bottom": 0.0,
+          "left": 0.0,
+          "right": 0.0
+        },
+        "net_outward_volume_flux_m3_s": 0.0,
+        "closed_wall_net_over_U_L_depth": 0.0,
+        "closed_wall_all_face_absolute_over_U_L_depth": 0.0,
+        "native_internal_face_count": 12640,
+        "native_physical_boundary_face_count": 320,
+        "native_empty_face_count": 12800,
+        "actual_native_cell_count": 6400,
+        "sum_cell_signed_phi_m3_s": -8.838887554806274e-20,
+        "cell_sum_minus_boundary_net_m3_s": -8.838887554806274e-20,
+        "local_divergence_scaled_max_abs": 9.087999450207994e-11,
+        "local_divergence_scaled_RMS": 6.1153476714801365e-12,
+        "local_divergence_scaled_volume_weighted_RMS": 6.1153476714801365e-12,
+        "local_divergence_definition": "sum signed outward native phi on every cell face / oriented native cell volume * L/U; L/U=1s",
+        "global_boundary_caveat": "Closed impermeable walls have zero expected net flux by boundary condition; this alone does not establish interior continuity. No inlet normalization exists.",
+        "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+      },
+      "velocity_relative_change": 7.02325352010518e-07,
+      "mirror_symmetry_relative_L2": 2.7437377172523124e-09,
+      "interpolated_centre_U_m_s": [
+        -0.42615791296517996,
+        -2.0348491489886877e-10
+      ],
+      "native_vertex_set_mapping": {
+        "vertex_set_bijection": true,
+        "maximum_native_node_error_m": 1.5700924586837752e-16,
+        "source_quad_cells": 6400,
+        "native_layer": "one native .01 m hexahedron layer projected to quads",
+        "maximum_saved_C_error_m": 5.077967508890597e-13
+      },
+      "checks": {
+        "terminal_residuals_le_1e_6": true,
+        "max_native_local_divergence_le_1e_5": true,
+        "rms_native_local_divergence_le_1e_6": true,
+        "normalized_wall_absolute_flux_le_1e_10": true,
+        "velocity_relative_change_1800_to_2000_le_1e_3": true
+      },
+      "failed_checks": [],
+      "all_declared_checks_passed": true
+    }
+  },
+  "paired_velocity_relative_L2_vs_openfoam": 0.006332297016238338,
+  "fixed_native_velocity_animation": {
+    "frames": 48,
+    "frame_delay_ms": 50,
+    "distinct_decoded_RGB_frames": 48,
+    "playback_duration_s": 2.4000000000000004,
+    "common_tracer_integration_duration_s": 8.0,
+    "method": "RK4, CFL limited, bilinear native-centre velocity interpolation",
+    "fixed_native_field": true,
+    "solver_time_evolution": false,
+    "forced_path_closure": false,
+    "boundary_values_appended": false,
+    "loop": "Replay restarts identical actual-velocity seeds"
+  },
+  "physical_validation": false,
+  "mesh_independence": false,
+  "source_bytes_unchanged": true
+}

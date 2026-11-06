@@ -1,0 +1,43 @@
+{
+  "model": "DFG-inspired cylinder in channel, Re=100 visual transient pilot",
+  "cells": 21598,
+  "nodes": 11189,
+  "mesh_type": "linear triangles",
+  "diameter_m": 0.1,
+  "cylinder_centre_m": [
+    0.2,
+    0.2
+  ],
+  "channel_length_m": 2.2,
+  "channel_height_m": 0.41,
+  "density_kg_m3": 1,
+  "dynamic_viscosity_Pa_s": 0.001,
+  "kinematic_viscosity_m2_s": 0.001,
+  "inlet_mean_velocity_m_s": 1,
+  "inlet_maximum_velocity_m_s": 1.5,
+  "reference_depth_m": 1,
+  "reference_area_m2": 0.1,
+  "Re_D": 100,
+  "dt_s": 0.005,
+  "pilot_end_time_s": 2,
+  "extension_end_time_s": 8,
+  "snapshot_interval_s": 0.025,
+  "cylinder_faces": 128,
+  "boundary_faces": {
+    "4": 128,
+    "5": 41,
+    "6": 41,
+    "7": 570
+  },
+  "minimum_triangle_area_m2": 1.9696106459698647e-06,
+  "fluid_polygon_area_m2": 0.8941491721076131,
+  "exact_circle_fluid_area_m2": 0.8941460183660256,
+  "inlet_midpoint_discrete_flow_m3_s": 0.41012195121951217,
+  "inlet_exact_flow_m3_s": 0.41,
+  "mesh_sha256": "e2f209fa90d32f5c9967f1733c2b2b9b10054e3bb3b408a8ed6a5f6addcbb837",
+  "gmsh_version": "4.15.2",
+  "unused_nodes": 0,
+  "mesh_independence": false,
+  "physical_validation": false,
+  "benchmark_note": "Geometry/properties/inlet follow DFG 2D-2; practical p0 outlets, mesh, numerics and short startup duration differ. No validation claim."
+}

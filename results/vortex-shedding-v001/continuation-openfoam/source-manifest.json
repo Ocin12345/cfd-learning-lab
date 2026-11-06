@@ -1,0 +1,270 @@
+{
+  "inputs_unchanged_during_analysis": true,
+  "native_fields_or_logs_copied_to_repository": false,
+  "sources": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\mesh\\setup.json",
+      "bytes": 1359,
+      "sha256_before": "a2b14a5c016aea01cf6c6191ae494bcf1dbb7861d41123578fdbfe4017ad0215",
+      "sha256_after": "a2b14a5c016aea01cf6c6191ae494bcf1dbb7861d41123578fdbfe4017ad0215"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\declared-comparison.json",
+      "bytes": 1932,
+      "sha256_before": "b609d44b45856bb6bc43ef4432fd4b66bed0b1a8cd07e97fde1017d3fe748da1",
+      "sha256_after": "b609d44b45856bb6bc43ef4432fd4b66bed0b1a8cd07e97fde1017d3fe748da1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\run-status.json",
+      "bytes": 281,
+      "sha256_before": "b3756560807acbb43360a9658940946a2dda112d6488b9081f9dd6c822902443",
+      "sha256_after": "b3756560807acbb43360a9658940946a2dda112d6488b9081f9dd6c822902443"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\preflight-validation.json",
+      "bytes": 503,
+      "sha256_before": "73fd220be8733f6f9d309913c0a087e48d86a06112c703b91b184ac4f3cc6c9e",
+      "sha256_after": "73fd220be8733f6f9d309913c0a087e48d86a06112c703b91b184ac4f3cc6c9e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\native-inlet-profile.json",
+      "bytes": 12036,
+      "sha256_before": "2290d1b5c55a642de60b292894dbb3135a94283057cfdb17a21f4f4dac251cf0",
+      "sha256_after": "2290d1b5c55a642de60b292894dbb3135a94283057cfdb17a21f4f4dac251cf0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\final-preparation-source-sha256-v002.json",
+      "bytes": 222,
+      "sha256_before": "540ff8d06ca4afc513557f3a372ca283b5e3a96e887d9c4dd6737aed74e4fd67",
+      "sha256_after": "540ff8d06ca4afc513557f3a372ca283b5e3a96e887d9c4dd6737aed74e4fd67"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_vortex_openfoam_v002.py",
+      "bytes": 30222,
+      "sha256_before": "de67e27133bedeeba031c5115e066bc780ed111a6275f24e710bb774828c8232",
+      "sha256_after": "de67e27133bedeeba031c5115e066bc780ed111a6275f24e710bb774828c8232"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\mesh\\vortex.msh",
+      "bytes": 1025403,
+      "sha256_before": "e2f209fa90d32f5c9967f1733c2b2b9b10054e3bb3b408a8ed6a5f6addcbb837",
+      "sha256_after": "e2f209fa90d32f5c9967f1733c2b2b9b10054e3bb3b408a8ed6a5f6addcbb837"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\input-vortex.msh",
+      "bytes": 1025403,
+      "sha256_before": "e2f209fa90d32f5c9967f1733c2b2b9b10054e3bb3b408a8ed6a5f6addcbb837",
+      "sha256_after": "e2f209fa90d32f5c9967f1733c2b2b9b10054e3bb3b408a8ed6a5f6addcbb837"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_vortex.py",
+      "bytes": 19828,
+      "sha256_before": "f4b0d3b257fb5652ff3d4f14b45dbea21d4e0f7b3b4c98d88cde143e9ad7903f",
+      "sha256_after": "f4b0d3b257fb5652ff3d4f14b45dbea21d4e0f7b3b4c98d88cde143e9ad7903f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\vortex-shedding-v001\\run-openfoam.sh",
+      "bytes": 5441,
+      "sha256_before": "f292122f7c464c27d8cb5701230a39e8b10e8fc1c34c9eb8e924b509222e0e7e",
+      "sha256_after": "f292122f7c464c27d8cb5701230a39e8b10e8fc1c34c9eb8e924b509222e0e7e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\system\\controlDict",
+      "bytes": 1928,
+      "sha256_before": "e295c32c212d2120acdb1eabaf5338f34b14c453dbfee716ae415ac7cbbf75db",
+      "sha256_after": "e295c32c212d2120acdb1eabaf5338f34b14c453dbfee716ae415ac7cbbf75db"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\system\\fvSchemes",
+      "bytes": 419,
+      "sha256_before": "10527a4b72853f3e8fa9d7b15643bac177e2f4df02214473f8a8f821fafc827c",
+      "sha256_after": "10527a4b72853f3e8fa9d7b15643bac177e2f4df02214473f8a8f821fafc827c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\system\\fvSolution",
+      "bytes": 561,
+      "sha256_before": "74d8143df5498fcf84cc4aa9bf7f4a58f8d763b1843ec41b8e0fa2344b1eb009",
+      "sha256_after": "74d8143df5498fcf84cc4aa9bf7f4a58f8d763b1843ec41b8e0fa2344b1eb009"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\constant\\physicalProperties",
+      "bytes": 137,
+      "sha256_before": "0c2cccd25f6ff7637351833f35ea078390e21633c99246122dc74f495fa94b0b",
+      "sha256_after": "0c2cccd25f6ff7637351833f35ea078390e21633c99246122dc74f495fa94b0b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\constant\\momentumTransport",
+      "bytes": 125,
+      "sha256_before": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844",
+      "sha256_after": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\system\\decomposeParDict",
+      "bytes": 178,
+      "sha256_before": "5c4d636cb3070a405d3437172ffbf73a3104582ae6347170c91cc11666011797",
+      "sha256_after": "5c4d636cb3070a405d3437172ffbf73a3104582ae6347170c91cc11666011797"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\U",
+      "bytes": 1908,
+      "sha256_before": "602bfad0c9ee7708445413db7e4b2e25e996e046e235bea7a9f59fc5876eb1a0",
+      "sha256_after": "602bfad0c9ee7708445413db7e4b2e25e996e046e235bea7a9f59fc5876eb1a0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\p",
+      "bytes": 364,
+      "sha256_before": "bb9817522929bdaa6ebb2239774819ef994c6f426ef34a85545a096e1dd16a56",
+      "sha256_after": "bb9817522929bdaa6ebb2239774819ef994c6f426ef34a85545a096e1dd16a56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\initial-system\\controlDict",
+      "bytes": 1926,
+      "sha256_before": "aea20f578218449b3b129bf1c1618b5637cdf23f1ce0652da78f341e42ceaab0",
+      "sha256_after": "aea20f578218449b3b129bf1c1618b5637cdf23f1ce0652da78f341e42ceaab0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\vortex-shedding-v001\\run-openfoam-v002.sh",
+      "bytes": 5521,
+      "sha256_before": "d0aea83676a19f729062d1a5ce2bc96042563c14744fd33c2726c11cc1326cdb",
+      "sha256_after": "d0aea83676a19f729062d1a5ce2bc96042563c14744fd33c2726c11cc1326cdb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\continuation-to-4s\\root-authorization.json",
+      "bytes": 293,
+      "sha256_before": "c1649f955ed110d6228a34f4d905740ea096f6191147c29ca8338cebe3f0c232",
+      "sha256_after": "c1649f955ed110d6228a34f4d905740ea096f6191147c29ca8338cebe3f0c232"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\continuation-to-4s\\pilot-fvSolution",
+      "bytes": 561,
+      "sha256_before": "ce259a6bd1ec9e8507155394be8d367d850146c0c4f0c73d4efa10578cae9349",
+      "sha256_after": "ce259a6bd1ec9e8507155394be8d367d850146c0c4f0c73d4efa10578cae9349"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\continuation-to-4s\\continuation-fvSolution",
+      "bytes": 561,
+      "sha256_before": "74d8143df5498fcf84cc4aa9bf7f4a58f8d763b1843ec41b8e0fa2344b1eb009",
+      "sha256_after": "74d8143df5498fcf84cc4aa9bf7f4a58f8d763b1843ec41b8e0fa2344b1eb009"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_vortex_v003.py",
+      "bytes": 21353,
+      "sha256_before": "d435ac5cc23ae55920fb3ca11067c2883bd71d264aa5a0341e9c16d7f511d43b",
+      "sha256_after": "d435ac5cc23ae55920fb3ca11067c2883bd71d264aa5a0341e9c16d7f511d43b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\vortex-shedding-v001\\run-openfoam-extended-to4s-v003.sh",
+      "bytes": 5613,
+      "sha256_before": "c3501cbcdcbb3faf4e56656e981f0f80a10ca24a829db240c048b6e9e8e27aaf",
+      "sha256_after": "c3501cbcdcbb3faf4e56656e981f0f80a10ca24a829db240c048b6e9e8e27aaf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\run-openfoam-continuation-to-4s.sh",
+      "bytes": 5613,
+      "sha256_before": "c3501cbcdcbb3faf4e56656e981f0f80a10ca24a829db240c048b6e9e8e27aaf",
+      "sha256_after": "c3501cbcdcbb3faf4e56656e981f0f80a10ca24a829db240c048b6e9e8e27aaf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\continuation-to-4s\\source-sha256.json",
+      "bytes": 603,
+      "sha256_before": "8614c6776ef942dfe333deb58953de21d6e10e83e92cc4c8d68a9365fec6dd27",
+      "sha256_after": "8614c6776ef942dfe333deb58953de21d6e10e83e92cc4c8d68a9365fec6dd27"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\mesh-check.log",
+      "bytes": 4213,
+      "sha256_before": "c201cc4ed03f03691cb1e73b71426c38bd7a1c08460c291bd8b563abb25d5b63",
+      "sha256_after": "c201cc4ed03f03691cb1e73b71426c38bd7a1c08460c291bd8b563abb25d5b63"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\points",
+      "bytes": 920128,
+      "sha256_before": "05f872c1a0b35839650a36b339456881ec7703e06d617f488f33b54a10a18341",
+      "sha256_after": "05f872c1a0b35839650a36b339456881ec7703e06d617f488f33b54a10a18341"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\faces",
+      "bytes": 1667202,
+      "sha256_before": "a46338b89ba82f636586b4280a829cf10169b2a3fb581074bcf039bc21b9c987",
+      "sha256_after": "a46338b89ba82f636586b4280a829cf10169b2a3fb581074bcf039bc21b9c987"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\boundary",
+      "bytes": 1399,
+      "sha256_before": "79264657962a42a5169087328957be831e5b7dba0bebaf68909c848b5d8966d7",
+      "sha256_after": "79264657962a42a5169087328957be831e5b7dba0bebaf68909c848b5d8966d7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\owner",
+      "bytes": 411834,
+      "sha256_before": "18c502458198703826d0eb28fecd3a3adc996c28cbfe5bc747d45464d784bb50",
+      "sha256_after": "18c502458198703826d0eb28fecd3a3adc996c28cbfe5bc747d45464d784bb50"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\neighbour",
+      "bytes": 182090,
+      "sha256_before": "653e97a2cb4539d4225b231968024438a166619f7325c96983eaf2fa192ea0e0",
+      "sha256_after": "653e97a2cb4539d4225b231968024438a166619f7325c96983eaf2fa192ea0e0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\solver.log",
+      "bytes": 1163110,
+      "sha256_before": "d5f13897cb4eab4e3f42eee12f6793285558f2241cc1857188398d089f4aaac7",
+      "sha256_after": "d5f13897cb4eab4e3f42eee12f6793285558f2241cc1857188398d089f4aaac7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\solver-continuation-to-4s.log",
+      "bytes": 2993960,
+      "sha256_before": "894be824c290c66441eda7bb71ae66025cf4a69bbe60e0ca56c88cfafae3a4cd",
+      "sha256_after": "894be824c290c66441eda7bb71ae66025cf4a69bbe60e0ca56c88cfafae3a4cd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\U",
+      "bytes": 829431,
+      "sha256_before": "2cbd65282f7c15631b3554a985f3d64b5c1d44bb1883e6b10f2972738c7e0c28",
+      "sha256_after": "2cbd65282f7c15631b3554a985f3d64b5c1d44bb1883e6b10f2972738c7e0c28"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\p",
+      "bytes": 384097,
+      "sha256_before": "22bba57289d92a71dbe98e15c44e76675c77311b195fc957893388d65e6bd39a",
+      "sha256_after": "22bba57289d92a71dbe98e15c44e76675c77311b195fc957893388d65e6bd39a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\C",
+      "bytes": 831148,
+      "sha256_before": "83cd69b2ec47882675d88e82361ef093b38b156196c4f7852bea2d106c230436",
+      "sha256_after": "83cd69b2ec47882675d88e82361ef093b38b156196c4f7852bea2d106c230436"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\phi",
+      "bytes": 619998,
+      "sha256_before": "44e7de176b9b12a27d3b0c20398b84f794326491232acfa93c54b27b08e9acf6",
+      "sha256_after": "44e7de176b9b12a27d3b0c20398b84f794326491232acfa93c54b27b08e9acf6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\numerical-summary-4s.json",
+      "bytes": 923,
+      "sha256_before": "a0a41c2d647f891ab1e3be228c14a64e2d5f88d1b80f6a143626cdd11e0f9703",
+      "sha256_after": "a0a41c2d647f891ab1e3be228c14a64e2d5f88d1b80f6a143626cdd11e0f9703"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\postProcessing\\forceCoefficients\\0\\forceCoeffs.dat",
+      "bytes": 52706,
+      "sha256_before": "a11b19da0a5fda8a31fe2e44f9ab78356a2d9aeaed3fae88ec2f1f6ca6f0a265",
+      "sha256_after": "a11b19da0a5fda8a31fe2e44f9ab78356a2d9aeaed3fae88ec2f1f6ca6f0a265"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\postProcessing\\forceCoefficients\\2\\forceCoeffs.dat",
+      "bytes": 52748,
+      "sha256_before": "570aef0ec86548c0abd8fb05694db9db3e7be55015d6cf90247b1e029e411f33",
+      "sha256_after": "570aef0ec86548c0abd8fb05694db9db3e7be55015d6cf90247b1e029e411f33"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\force-history.csv",
+      "bytes": 33978,
+      "sha256_before": "28dd1e38f8b4f6721dcc01417d5201b93117941d7287c21e89071ae6ea077b2c",
+      "sha256_after": "28dd1e38f8b4f6721dcc01417d5201b93117941d7287c21e89071ae6ea077b2c"
+    }
+  ]
+}

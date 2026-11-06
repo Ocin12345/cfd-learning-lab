@@ -1,0 +1,28 @@
+{
+  "repository_sources_sha256": {
+    "scripts/analyse_heated_channel_flow_openfoam_v002.py": "0dedfd416d414498068b99d4fbe60c7f193a0dfede0d0f53abb2b5e47e5e2672",
+    "scripts/analyse_heated_channel_fluent_pilot_v003.py": "00b940c068ec2547ea244265f7f4cd2ee3d39c52d27f9b905541f6c0ba5ec0bf",
+    "scripts/analyse_heated_channel_fluent_production_v001.py": "d14b2a94fbefbd6ab4c781723f3ba62c6e70273309efb430a6a023b5b6f1481e",
+    "scripts/analyse_heated_channel_pilot_openfoam_v003.py": "52d494048f6458aa2ccb62d1bb1d1f1bc946e723528f71b4f464292e60820faa",
+    "scripts/analyse_heated_channel_production_openfoam_v006.py": "16cccac8145e02708b7d5ae82f7f53add02cf049b95f757497e1439804cd189a",
+    "scripts/analyse_nozzle_fluent_v005.py": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e",
+    "scripts/heated_channel_fluent_common_v001.py": "693fc4140af280f7248fbe4e259aa97972340ab1eb3611534444bacbf7f05723",
+    "scripts/heated_channel_fluent_common_v002.py": "e223d728590e82d41918debc8818c1c9528aa5a052ef137a298d9a2cf44e349e",
+    "scripts/heated_channel_fluent_common_v003.py": "68f117466c256e750939c768f8b5640e37022e8ff12ccadbca4e7904ba1170e1",
+    "scripts/heated_channel_fluent_pilot_v001.py": "756c0d4fed006264e75d0c8ea54617ef04c009c7cd59e61f2f712bb100504529",
+    "scripts/heated_channel_fluent_pilot_v002.py": "6290040f8c9286ba0b53b13fe73ea41f800f05cca7bb4ab9e85c3d123de1ff2b",
+    "scripts/heated_channel_fluent_production_common_v001.py": "b85769c76ca3d992ba2e491865c3e813e8436a2baca8d1d30b4775f775213e09",
+    "scripts/heated_channel_fluent_production_v001.py": "5ca2264bce9008d9b88eea88a44811ab1cd4734adf03b3a1d7fcfacab228d788",
+    "scripts/heated_channel_mesh_v001.py": "6ff8fdda78ff1d97d24bf2e8b5dbde144a5c83cc3a180be1ad170ac5a474d8c6",
+    "scripts/plot_cavity_native_v003.py": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445",
+    "scripts/plot_heated_channel_native_scaffold_v001.py": "d5970e22c16877649fcf23db5986a1139a22194118188a773e9405c3d35bc21f",
+    "scripts/plot_heated_channel_native_v005.py": "fbae6b62b0170a7054ae224a6765b0613eb7662e3ce21e88288b95e839fc0fae",
+    "scripts/plot_nozzle_native_v004.py": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02",
+    "scripts/prepare_openfoam_heated_channel_pilot_v003.py": "807c30de1c7c7400ab38d2b4592896db774be4c98ec2b853afd2f9fff2ed90b0",
+    "scripts/prepare_openfoam_heated_channel_production_v005.py": "3b62ae10551d9cb3c62330469306215f82af706453400fbe2387a43f0ce9cd85",
+    "scripts/prepare_openfoam_heated_channel_v002.py": "d3e8bcaae9137aa6dfc3347727f982ddd711c7d0f9d37a8ad38a61eb360df0f1"
+  },
+  "native_and_raw_run_archives_external": true,
+  "record_scripts_are_guarded_not_turnkey": true,
+  "generated_run_manifests_authorization_settings_and_parent_snapshots_required": true
+}

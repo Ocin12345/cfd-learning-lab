@@ -1,0 +1,18 @@
+{
+  "outer_radius_m": 40,
+  "final_iteration": 164,
+  "final_scaled_residuals": [
+    1.5202e-13,
+    3.0262e-17,
+    4.7129e-18
+  ],
+  "minimum_orthogonal_quality": 0.999985,
+  "net_mass_kg_s": -1.4210855e-14,
+  "inlet_mass_kg_s": 80.0,
+  "relative_mass_imbalance": 1.776356875e-16,
+  "numerical_checks_passed": true,
+  "physical_validation": false,
+  "final_drag_coefficient": 2.0305332,
+  "last20_force_ranges_at_printed_precision": true,
+  "source_snapshot_sha256": "c969b4e507dfbd0775fef43a77511e56d2284ae44452fb4d677e9d82d17d5f92"
+}

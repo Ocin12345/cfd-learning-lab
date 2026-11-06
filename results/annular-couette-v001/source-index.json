@@ -1,0 +1,122 @@
+{
+  "public_code": [
+    {
+      "path": "scripts/analyse_annular_couette_fluent_pilot_v005.py",
+      "sha256": "5976db1c39965c3aa32d0d62bea41dbe80652b55fb1268e2c1b531fbc8dace29",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/analyse_annular_couette_fluent_production_v001.py",
+      "sha256": "90825c74a56ad740b03265579625bb78bf01a82eb5ef2b672556a87bdc5d70f4",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/analyse_annular_couette_openfoam_v002.py",
+      "sha256": "fb790d9e753b334f32b2673009156b902c6b71f514fdb6c49e24b78d5bc013e7",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/analyse_annular_couette_production_openfoam_v002.py",
+      "sha256": "923b1d594d1016ab8c31634780553b85856c4d69a1ea5566733d35ccb856cef9",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/annular_couette_fluent_common_v003.py",
+      "sha256": "85975e43cae0c3381eaf742aa752aff8a435f9daf615edbe4057202f336c649a",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/annular_couette_fluent_pilot_v004.py",
+      "sha256": "7de9f8781f861f5520de5758f2385b2d3052ef44b9486a1a2bb6f300e8efa0b2",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/annular_couette_fluent_production_v001.py",
+      "sha256": "40c0b59291675e604a702646bcf97b8835b882b23c22bf4f7b6262385c99c25a",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/annular_couette_mesh_v001.py",
+      "sha256": "c14b9b2edae03a758d3d1a9909001b8c77c36c8e014fb0684dfe24911d0b823f",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/plot_annular_couette_native_v004.py",
+      "sha256": "d5c4414beeed4bc6cb78795a06bf8d7e60445a476cd43eaa2ea9f818ce92884b",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/plot_cavity_native_v003.py",
+      "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/plot_nozzle_native_v004.py",
+      "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/prepare_openfoam_annular_couette_production_v001.py",
+      "sha256": "fb6393701e36768727343b39565a1c716f4da903d09a14cd2ed68a2688baf6d2",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/prepare_openfoam_annular_couette_v002.py",
+      "sha256": "9e07e2982beca3a34242478bb23bf98e7d8ccb14b00836e69831ffc713bdfe34",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/prepare_openfoam_annular_couette_v003.py",
+      "sha256": "576583b56881b4b9b01dc141b9acbd2dd0e86ab66cc9532650fa8b056705c7d8",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/validate_annular_openfoam_preflight_v001.py",
+      "sha256": "84bdaab73ca3205b07ec0aaa0162052659fbb386c265dc31f88b4861de0e2276",
+      "role": "Actual selected implementation or imported reproducibility dependency"
+    },
+    {
+      "path": "scripts/annular-couette-v001/Start-AnnularCouetteFluentPilot-v004.ps1",
+      "sha256": "2811ca202ba5a92918d6f478bff00543db3af48a2669394243e8d99af8cf20c5",
+      "role": "Guarded actual launch/preflight/continuation source; authorization records remain external"
+    },
+    {
+      "path": "scripts/annular-couette-v001/Start-AnnularCouetteFluentProduction-v001.ps1",
+      "sha256": "24beb52eb910c5607183ad6eb354274e2b245696058a4274557d32557870dd44",
+      "role": "Guarded actual launch/preflight/continuation source; authorization records remain external"
+    },
+    {
+      "path": "scripts/annular-couette-v001/Launch-OpenFOAM-v002.ps1",
+      "sha256": "7340b2a4b8551c803ec8fb108bc77627641173924119a9ab96ca50e6d147594e",
+      "role": "Guarded actual launch/preflight/continuation source; authorization records remain external"
+    },
+    {
+      "path": "scripts/annular-couette-v001/Launch-OpenFOAM-v003.ps1",
+      "sha256": "a92611f8324f8ea81f73f53299de0d61403b85394585f25651baa9b083445a65",
+      "role": "Guarded actual launch/preflight/continuation source; authorization records remain external"
+    },
+    {
+      "path": "scripts/annular-couette-v001/Launch-OpenFOAM-Production-v001.ps1",
+      "sha256": "9ce7e45ce1d35d0a6f5ddc4cd4ba9dd21f25d133098863bb7deeda51c4cfb2dc",
+      "role": "Guarded actual launch/preflight/continuation source; authorization records remain external"
+    },
+    {
+      "path": "scripts/annular-couette-v001/run-openfoam-v002.sh",
+      "sha256": "a66032376db8e86273b101fa0afe2377406fb0d72f2dff05f15b572242161180",
+      "role": "Guarded actual launch/preflight/continuation source; authorization records remain external"
+    },
+    {
+      "path": "scripts/annular-couette-v001/run-openfoam-v003.sh",
+      "sha256": "33ce3b6d486da511ac7a9b759f9c6d05be327d228511049e0f7d51697a76edb8",
+      "role": "Guarded actual launch/preflight/continuation source; authorization records remain external"
+    },
+    {
+      "path": "scripts/annular-couette-v001/run-openfoam-production-v001.sh",
+      "sha256": "6943c50f60e1be5bc560aeaa8d23d229310f058ee59054acc09469f5a1448d2a",
+      "role": "Guarded actual launch/preflight/continuation source; authorization records remain external"
+    }
+  ],
+  "raw_native_audit_manifests_external": true,
+  "targets_sha256": "4c3f6bdb49ffb208230a7c89f574d9c030fd0d97de800e256f791ecf64abfff9",
+  "outer_budget_amendment_sha256": "157b314383f9f70b780445bc773a07f0348a3b659fcbd1be54629965447f874c"
+}

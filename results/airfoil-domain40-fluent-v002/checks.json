@@ -1,0 +1,21 @@
+{
+  "cells": 531018,
+  "Re": 100,
+  "angle_degrees": 0,
+  "final_iteration": 810,
+  "final_scaled_residuals": [
+    4.0687e-09,
+    3.7464e-12,
+    9.4802e-13
+  ],
+  "minimum_orthogonal_quality": 0.502614,
+  "relative_mass_imbalance": 8.004263875e-13,
+  "final_Cd": 0.4146461,
+  "final_Cl": 8.4133735e-06,
+  "last20_Cd_relative_range": 0.0,
+  "last20_Cl_absolute_range": 3.830000000044312e-11,
+  "numerical_checks_passed": true,
+  "mesh_independence_established": false,
+  "physical_validation": false,
+  "source_snapshot_sha256": "f3b5d1449124913ea50c697f71dd5ca0b02df967bfd24c46a866f784c04abb35"
+}

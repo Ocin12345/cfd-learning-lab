@@ -1,0 +1,24 @@
+{
+  "Fluent": {
+    "aggregate": false,
+    "failed_checks": [
+      "final_residuals_le_1e_5"
+    ]
+  },
+  "OpenFOAM": {
+    "aggregate": true,
+    "failed_checks": []
+  },
+  "cross_code_coefficient_comparison": {
+    "definition": "100*(Fluent-OpenFOAM)/abs(OpenFOAM)",
+    "Cd_percent": 7.891251492868356,
+    "Cl_percent": 10.706430948344691,
+    "cause_unresolved": true,
+    "quantitative_agreement_established": false
+  },
+  "targets_unchanged": true,
+  "physical_validation": false,
+  "mesh_independence_established": false,
+  "induced_drag_separation_or_value_computed": false,
+  "owner_reflection_provided": false
+}

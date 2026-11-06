@@ -1,0 +1,195 @@
+"""Replay a saved cylinder case and measure forces for 100 extra iterations.
+
+The output directory must be fresh and outside this repository. Native reports,
+case/data and images remain there; publication is a separate reviewed step.
+"""
+from pathlib import Path
+import argparse
+import csv
+from datetime import datetime
+import hashlib
+import json
+import re
+import shutil
+import time
+import traceback
+
+
+def force_row(text):
+    rows = re.findall(r'^\s*Net\s+((?:[-+0-9.eE]+\s+){5}[-+0-9.eE]+)\s*$', text, re.M)
+    if not rows:
+        raise ValueError('No scalar Net force/coefficient row in Fluent report')
+    return [float(value) for value in rows[-1].split()]
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--case', required=True, type=Path)
+    parser.add_argument('--out', required=True, type=Path)
+    parser.add_argument('--mesh', type=Path)
+    parser.add_argument('--template-settings', type=Path)
+    args = parser.parse_args()
+    out = args.out.resolve()
+    repo = Path(__file__).resolve().parents[1]
+    if out.is_relative_to(repo) or out.exists():
+        raise ValueError('Choose a fresh output directory outside the repository')
+    if not args.case.is_file() or not args.case.with_name(args.case.name.replace('.cas.h5','.dat.h5')).is_file():
+        raise FileNotFoundError('Saved case/data pair is required')
+    if shutil.disk_usage(out.anchor).free < 5 * 1024**3:
+        raise RuntimeError('Less than 5 GiB free on output drive')
+    out.mkdir(parents=True)
+    source_bytes = Path(__file__).read_bytes()
+    (out/'executed-script.py').write_bytes(source_bytes)
+    (out/'code-provenance.json').write_text(json.dumps(dict(
+        source_sha256=hashlib.sha256(source_bytes).hexdigest(),
+        snapshot_before_solver_launch=True),indent=2))
+
+    def update(stage, **values):
+        record = dict(stage=stage,time=datetime.now().astimezone().isoformat(),**values)
+        (out/'status.json').write_text(json.dumps(record,indent=2))
+        print(json.dumps(record),flush=True)
+
+    update('importing_pyfluent')
+    import ansys.fluent.core as pf
+    pf.config.examples_path = str(out/'examples')
+    session = None
+    loaded = False
+    saved = False
+    # Learning targets declared before new results, not universal error bounds.
+    targets = dict(additional_iterations=100,last_window_samples=20,
+                   drag_relative_range_max=1e-4,lift_absolute_range_max=1e-5,
+                   lift_absolute_magnitude_max=1e-4,residual_target=1e-7,
+                   relative_mass_imbalance_max=1e-6)
+    (out/'declared-targets.json').write_text(json.dumps(targets,indent=2))
+    try:
+        import os
+        update('launching_single_session',solver_processes=2,ui_mode='hidden_gui')
+        session = pf.launch_fluent(fluent_path=os.environ['FLUENT_EXECUTABLE'],
+                                  dimension=2,precision='double',processor_count=2,
+                                  ui_mode='hidden_gui',cwd=str(out),
+                                  start_timeout=180,cleanup_on_exit=True)
+        update('solver_connected',version=str(session.get_fluent_version()),
+               licence='Live Fluent startup succeeded; no concurrent session launched')
+        session.transcript.start(file_name=str(out/'solver-transcript.txt'))
+        st = session.settings
+        if args.mesh:
+            if not args.template_settings:
+                raise ValueError('Fresh mesh runs require a numerical-settings template')
+            template = json.loads(args.template_settings.read_text())
+            st.file.read_mesh(file_name=str(args.mesh.resolve()))
+            st.setup.general.solver.type = 'pressure-based'
+            st.setup.general.solver.two_dim_space = 'planar'
+            st.setup.general.solver.time = 'steady'
+            st.setup.models.viscous.model = 'laminar'
+            st.setup.materials.fluid['air'].density.value = 1
+            st.setup.materials.fluid['air'].viscosity.value = .05
+            inlet = st.setup.boundary_conditions.velocity_inlet['inlet'].momentum
+            inlet.velocity_specification_method = 'Components'
+            inlet.velocity_components = [{'value':1},{'value':0}]
+            for key,value in dict(density=1,velocity=1,length=1,area=1).items():
+                setattr(st.setup.reference_values,key,value)
+            st.solution.methods.set_state(template['methods'])
+            for name in ['continuity','x-velocity','y-velocity']:
+                st.solution.monitor.residual.equations[name].absolute_criteria = 1e-8
+                st.solution.monitor.residual.equations[name].check_convergence = True
+            (out/'geometry-setup.json').write_text((args.mesh.parent/'setup.json').read_text())
+        else:
+            st.file.read_case_data(file_name=str(args.case.resolve()))
+        loaded = True
+        st.mesh.check()
+        st.mesh.quality()
+        state = dict(general=st.setup.general.get_state(),
+                     viscous=st.setup.models.viscous.get_state(),
+                     material=st.setup.materials.fluid['air'].get_state(),
+                     references=st.setup.reference_values.get_state(),
+                     inlet=st.setup.boundary_conditions.velocity_inlet['inlet'].get_state(),
+                     outlet=st.setup.boundary_conditions.pressure_outlet['outlet'].get_state(),
+                     methods=st.solution.methods.get_state(),
+                     residual=st.solution.monitor.residual.get_state())
+        (out/'loaded-settings.json').write_text(json.dumps(state,indent=2,default=str))
+        assert st.setup.models.viscous.model() == 'laminar'
+        assert abs(st.setup.materials.fluid['air'].density.value()-1) < 1e-12
+        assert abs(st.setup.materials.fluid['air'].viscosity.value()-.05) < 1e-12
+        if args.mesh:
+            update('initial_convergence',iteration_cap=600,residual_target=1e-8)
+            st.solution.initialization.hybrid_initialize()
+            st.solution.run_calculation.iterate(iter_count=600)
+        # Retain residual monitoring but prevent the old convergence target from
+        # stopping the deliberately extended 100-iteration observation window.
+        for name in ['continuity','x-velocity','y-velocity']:
+            st.solution.monitor.residual.equations[name].check_convergence = False
+        history = []
+        for additional in range(101):
+            if additional:
+                st.solution.run_calculation.iterate(iter_count=1)
+            data = dict(additional_iteration=additional)
+            for label,direction in [('drag',[1,0,0]),('lift',[0,1,0])]:
+                path = out/f'{label}-{additional:03d}.txt'
+                st.results.report.forces(option='forces',wall_zones=['cylinder'],
+                                        direction_vector=direction,write_to_file=True,file_name=str(path))
+                values = force_row(path.read_text())
+                data[label+'_force_N'] = values[2]
+                data[label+'_coefficient'] = values[5]
+                if label == 'drag':
+                    data['pressure_drag_N'],data['viscous_drag_N'] = values[:2]
+            history.append(data)
+            if additional % 10 == 0:
+                update('iterating',additional_iteration=additional,**{k:v for k,v in data.items() if k != 'additional_iteration'})
+            with (out/'force-history.csv').open('w',newline='') as f:
+                writer = csv.DictWriter(f,fieldnames=list(history[0]))
+                writer.writeheader()
+                writer.writerows(history)
+        st.results.report.fluxes.mass_flow(zones=['inlet','outlet'],write_to_file=True,file_name=str(out/'mass-balance.txt'))
+        st.solution.monitor.residual.write(file_name=str(out/'residuals.xy'))
+        graphics = st.results.graphics
+        graphics.picture.use_window_resolution = False
+        graphics.picture.x_resolution = 1600
+        graphics.picture.y_resolution = 1000
+        graphics.picture.invert_background = False
+        st.solution.monitor.residual.plot()
+        graphics.picture.save_picture(file_name=str(out/'residuals.png'))
+        graphics.views.camera.projection = 'orthographic'
+        for name,field in [('velocity','velocity-magnitude'),('pressure','pressure')]:
+            if name not in graphics.contour.get_object_names():
+                graphics.contour.create(name=name)
+            graphics.contour[name].field = field
+            graphics.contour[name].surfaces_list = []
+            graphics.contour[name].display()
+            graphics.views.camera.position = [1.5,0,50]
+            graphics.views.camera.target = [1.5,0,0]
+            graphics.views.camera.field = [10,6]
+            graphics.picture.save_picture(file_name=str(out/f'{name}.png'))
+        st.file.write_case_data(file_name=str(out/'cylinder-Re20-replay.cas.h5'))
+        saved = True
+        final = history[-20:]
+        cds = [row['drag_coefficient'] for row in final]
+        cls = [row['lift_coefficient'] for row in final]
+        drag_range = (max(cds)-min(cds))/abs(sum(cds)/len(cds))
+        lift_range = max(cls)-min(cls)
+        summary = dict(kind=('Fresh outer-domain calculation' if args.mesh else 'Saved-case replay')+'; no physical validation',
+                       additional_iterations=100,samples=len(history),
+                       initial=history[0],final=history[-1],
+                       last20_drag_relative_range=drag_range,
+                       last20_lift_absolute_range=lift_range,
+                       last20_max_absolute_lift=max(map(abs,cls)),
+                       drag_stability_pass=drag_range <= targets['drag_relative_range_max'],
+                       lift_stability_pass=lift_range <= targets['lift_absolute_range_max'] and max(map(abs,cls)) <= targets['lift_absolute_magnitude_max'],
+                       native_case_saved=True,convergence_checks_temporarily_disabled=True)
+        (out/'summary.json').write_text(json.dumps(summary,indent=2))
+        session.transcript.stop()
+        update('completed',**summary)
+    except Exception:
+        update('failed',error=traceback.format_exc())
+        raise
+    finally:
+        if session is not None:
+            if loaded and not saved:
+                try:
+                    session.settings.file.write_case_data(file_name=str(out/'recovery.cas.h5'))
+                except Exception as error:
+                    print('Recovery save failed: '+str(error),flush=True)
+            session.exit()
+
+
+if __name__ == '__main__':
+    main()

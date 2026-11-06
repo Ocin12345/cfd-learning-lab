@@ -1,0 +1,121 @@
+{
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\status.json",
+      "sha256": "0be5f37c55f5637e77313f51b8de48f432b5c661f2212f6dbcdfdac007a786e0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\summary.json",
+      "sha256": "090fcac41ed0b8276b3f1172c45362b97e786124a6e4b51e22c65bc2f9accc64"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\code-provenance.json",
+      "sha256": "9ae24566dc59fdad015475ce2d7a66a388d08edb32512ac37903d23eea33aba2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\authorization.json",
+      "sha256": "e85a01bf729d94fb8600abb0a237a118596b0be41d62c14bbf67bf4082c86847"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\declared-targets.json",
+      "sha256": "2312f03cb6b63ed43e758cc019463b429666aa057aafa8de266db0721d29214f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\geometry-quality.json",
+      "sha256": "83ffd0b6fd97615d5fb236258e049ef23dd976aa486d69373d68e4bd921dac1b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\final-settings.json",
+      "sha256": "16bc09288da1157a0abc88bc9b6939ae5129751b0f42d339c2e59c33f9f75517"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\native-physical-readback.json",
+      "sha256": "f9433c729cae973c58ada4949e7b9ded7fdb4f6f6fa7ff503b86e5789ec96011"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\executed-script.py",
+      "sha256": "c71f86d5c7aaebf451bbfff6122c3a43a445420a13056469b9385bda34384252"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\mesh\\tjunction.msh",
+      "sha256": "0de51603605decd4747a76322da8905516f2df194d2dd9c4158e08d8c5f0b555"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\mesh\\setup.json",
+      "sha256": "7871408e2b216744befe6c655eae73a82f1fdedac5978f49a44a2b078c71c912"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\mesh\\geometry.npz",
+      "sha256": "671236b7bf7658fcbae5330b4cd6ce66c8e2dee9ff06753ebfc45c0a4cfb2949"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-final.cas.h5",
+      "sha256": "14cf603e14b2e7bb8dd6c576f7f9ad4b424efb6c964e6a78f41ba8ea3dda208e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-final.dat.h5",
+      "sha256": "7ce091ffa89a1ad5db9627da5c711e0bea45780055ccbf5610bd691240931220"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1800.cas.h5",
+      "sha256": "63609f1b5b73a1817cc69b7a1ddb92339f839f206cffcbbdb5deee91525a2f35"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1800.dat.h5",
+      "sha256": "494bf32525cce9d81ad18a1ad2988969f64f9d96d4ec405991ddce9c7e08ae45"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter0500.cas.h5",
+      "sha256": "119613870db8693b898ea7acb617f3bddffdc28b2416c306ce9e8f154a8fd1ba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter0500.dat.h5",
+      "sha256": "507f560e917c8ede3e22e9ad4bb126dc62d6234f518e1f9d4f79873cdc45092e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1000.cas.h5",
+      "sha256": "eb0667b8e8dfe65594ed4de961a0dfa238e20a7e61e425945b9fe1a901c0661b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1000.dat.h5",
+      "sha256": "a76d10c6de667cd9ea37dc561701033b1dfd6be9824dfc77a675c6418423c7c5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1500.cas.h5",
+      "sha256": "77839126e919adba53d7be8fb8de20a5b76501f0c5a11da7554e737a51f4aea9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1500.dat.h5",
+      "sha256": "102038efd58601ced58ce28da3bc2704e802e5121f7ffc0b4f5595b7871c74b4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter2000.cas.h5",
+      "sha256": "5c62d7e9fa100d5800d34c13ab27d981b064e8f46c52bf92ab35b0e50b44fdc8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter2000.dat.h5",
+      "sha256": "7d0bf3ecbdd0e3da22507c480d242eb92847f52b25df7bdf4aa89c8199c17b48"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\solver-transcript.txt",
+      "sha256": "045eecd6db7b3a98a95adf88b83198ff2bd36a4bc59d59ff7080b1adbe3cd047"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\mass-balance.txt",
+      "sha256": "017cbe2e017ed61dc234bcb3e81b499643999f6e64777fa73b97ff83bac7c9e9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\massflow-history.out",
+      "sha256": "834510760615077353a5d8752494c877f9aa4010271f0d1b665e5b7c221628ab"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\field-monitor-history.out",
+      "sha256": "5155a2983f7c52eeb4b0cb82bf77e42b3c2cd446ed32def0e9e4cd26c05bda6d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\fluent-20261101-225747-91400.trn",
+      "sha256": "265110a56b67ee28fcb577c2aaa791b0ea5cf594aed3e38a1bd62afe9c3e066e"
+    }
+  ],
+  "all_inputs_unchanged": true
+}

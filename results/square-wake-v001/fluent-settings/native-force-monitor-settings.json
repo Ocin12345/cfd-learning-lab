@@ -1,0 +1,175 @@
+{
+  "report_definitions": {
+    "mesh": {},
+    "surface": {},
+    "volume": {
+      "mean_pressure": {
+        "name": "mean_pressure",
+        "report_type": "volume-average",
+        "field": "pressure",
+        "cell_zones": [
+          "fluid"
+        ],
+        "per_selection": false,
+        "average_over": 1,
+        "retain_instantaneous_values": false,
+        "output_parameter": false,
+        "create_report_file": true,
+        "create_report_plot": false
+      },
+      "mean_speed": {
+        "name": "mean_speed",
+        "report_type": "volume-average",
+        "field": "velocity-magnitude",
+        "cell_zones": [
+          "fluid"
+        ],
+        "per_selection": false,
+        "average_over": 1,
+        "retain_instantaneous_values": false,
+        "output_parameter": false,
+        "create_report_file": true,
+        "create_report_plot": false
+      }
+    },
+    "force": {},
+    "lift": {
+      "Cl": {
+        "name": "Cl",
+        "force_vector": [
+          0,
+          1,
+          0
+        ],
+        "reference_frame": "global",
+        "zones": [
+          "body"
+        ],
+        "per_selection": false,
+        "average_over": 1,
+        "retain_instantaneous_values": false,
+        "report_output_type": "Lift Coefficient",
+        "output_parameter": false,
+        "create_report_file": true,
+        "create_report_plot": false
+      }
+    },
+    "drag": {
+      "Cd": {
+        "name": "Cd",
+        "force_vector": [
+          1,
+          0,
+          0
+        ],
+        "reference_frame": "global",
+        "zones": [
+          "body"
+        ],
+        "per_selection": false,
+        "average_over": 1,
+        "retain_instantaneous_values": false,
+        "report_output_type": "Drag Coefficient",
+        "output_parameter": false,
+        "create_report_file": true,
+        "create_report_plot": false
+      }
+    },
+    "moment": {},
+    "time": {},
+    "flux": {
+      "mdot_inlet": {
+        "name": "mdot_inlet",
+        "report_type": "flux-massflow",
+        "boundaries": [
+          "inlet"
+        ],
+        "per_selection": false,
+        "average_over": 1,
+        "retain_instantaneous_values": false,
+        "output_parameter": false,
+        "create_report_file": true,
+        "create_report_plot": false
+      },
+      "mdot_outlet": {
+        "name": "mdot_outlet",
+        "report_type": "flux-massflow",
+        "boundaries": [
+          "outlet"
+        ],
+        "per_selection": false,
+        "average_over": 1,
+        "retain_instantaneous_values": false,
+        "output_parameter": false,
+        "create_report_file": true,
+        "create_report_plot": false
+      }
+    },
+    "vbm": {},
+    "user_defined": {},
+    "expression": {},
+    "single_valued_expression": {}
+  },
+  "report_files": {
+    "body_forces": {
+      "name": "body_forces",
+      "file_name": "E:\\\\CFD-Learning-Lab\\\\native\\\\runs\\\\2026-11-01-square-wake-v001\\\\fluent\\\\force-history.out",
+      "frequency_of": "iteration",
+      "frequency": 1,
+      "itr_index": "1",
+      "run_index": "0",
+      "report_defs": [
+        "Cd",
+        "Cl"
+      ],
+      "print": false,
+      "active": true,
+      "write_instantaneous_values": false
+    },
+    "flow_balance": {
+      "name": "flow_balance",
+      "file_name": "E:\\\\CFD-Learning-Lab\\\\native\\\\runs\\\\2026-11-01-square-wake-v001\\\\fluent\\\\massflow-history.out",
+      "frequency_of": "iteration",
+      "frequency": 1,
+      "itr_index": "1",
+      "run_index": "0",
+      "report_defs": [
+        "mdot_inlet",
+        "mdot_outlet"
+      ],
+      "print": false,
+      "active": true,
+      "write_instantaneous_values": false
+    },
+    "square_wake_fields": {
+      "name": "square_wake_fields",
+      "file_name": "E:\\\\CFD-Learning-Lab\\\\native\\\\runs\\\\2026-11-01-square-wake-v001\\\\fluent\\\\field-monitor-history.out",
+      "frequency_of": "iteration",
+      "frequency": 1,
+      "itr_index": "1",
+      "run_index": "0",
+      "report_defs": [
+        "mean_speed",
+        "mean_pressure"
+      ],
+      "print": false,
+      "active": true,
+      "write_instantaneous_values": false
+    }
+  },
+  "native_column_order": [
+    "iteration",
+    "Cd",
+    "Cl"
+  ],
+  "body_only": true,
+  "force_criteria": {
+    "window_first": 1801,
+    "window_last": 2000,
+    "samples": 200,
+    "Cd_peak_to_peak_over_abs_mean_max": 0.001,
+    "absolute_mean_Cl_max": 0.001,
+    "comparison_coefficient_absolute_tolerance_scale": 1e-06,
+    "force_normalization_N": 0.0005
+  }
+}

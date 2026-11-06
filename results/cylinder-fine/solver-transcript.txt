@@ -1,0 +1,149 @@
+Reading "[local output path omitted]
+Buffering for file scan...
+
+
+       Clearing partially read grid.
+   98816 nodes.
+   98304 quadrilateral cells, zone  2.
+  196096 2D interior faces, zone  3.
+     512 2D wall faces, zone  4.
+     256 2D velocity-inlet faces, zone  5.
+     256 2D pressure-outlet faces, zone  6.
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts..,
+		faces..,
+		nodes..,
+		cells..,
+        bandwidth reduction using Reverse Cuthill-McKee: 272/221 = 1.23077
+     materials,
+     interface,
+     domains,
+     zones,
+	outlet
+	inlet
+	cylinder
+	interior
+	fluid
+     parallel,
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.000000e+01, max (m) = 2.000000e+01
+   y-coordinate: min (m) = -2.000000e+01, max (m) = 2.000000e+01
+ Volume statistics:
+   minimum volume (m3): 2.148901e-05
+   maximum volume (m3): 1.222959e-01
+     total volume (m3): 1.255820e+03
+ Face area statistics:
+   minimum face area (m2): 3.490071e-03
+   maximum face area (m2): 5.046577e-01
+ Checking mesh.........................................
+ Done.
+
+Mesh Quality:
+
+Minimum Orthogonal Quality =  9.99985e-01 cell 21737 on zone 2 (ID: 223 on partition: 1) at location (-4.59932e-01,  2.00506e-01)
+
+
+Maximum Aspect Ratio =  2.31250e+00 cell 47294 on zone 2 (ID: 97994 on partition: 1) at location (-1.54937e+01,  1.22451e+01)
+
+Initialize using the hybrid initialization method.
+
+Checking case topology... 
+-This case has both inlets & outlets 
+-Pressure information is not available at the boundaries.
+ Case will be initialized with constant pressure
+
+	iter		scalar-0
+
+	1		1.000000e+00
+	2		1.565055e-06
+	3		1.486389e-07
+	4		1.380073e-08
+	5		1.311593e-09
+	6		1.122942e-10
+	7		1.061377e-11
+	8		9.944865e-13
+	9		9.545282e-14
+	10		9.020607e-15
+
+Hybrid initialization is done.
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+     1  1.0000e+00  2.4854e-03  2.0593e-03  0:00:51  599
+     2  4.1208e-01  1.4891e-03  9.4292e-04  0:01:05  598
+     3  2.5233e-01  8.8631e-04  4.9443e-04  0:01:03  597
+     4  1.9038e-01  5.2898e-04  2.7644e-04  0:01:01  596
+     5  1.5104e-01  3.2136e-04  1.7044e-04  0:01:00  595
+     6  1.1543e-01  2.0044e-04  1.1200e-04  0:00:57  594
+     7  8.3784e-02  1.2951e-04  7.7040e-05  0:00:56  593
+     8  6.0575e-02  8.5325e-05  5.4332e-05  0:00:55  592
+     9  4.3808e-02  5.7040e-05  3.8748e-05  0:00:54  591
+    10  3.1779e-02  3.8817e-05  2.7804e-05  0:00:55  590
+    11  2.2327e-02  2.6450e-05  1.9842e-05  0:00:55  589
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    12  1.5661e-02  1.8113e-05  1.4119e-05  0:00:57  588
+    13  1.0595e-02  1.2323e-05  9.9902e-06  0:00:58  587
+    14  7.4628e-03  8.4635e-06  7.0301e-06  0:00:58  586
+    15  5.1998e-03  5.8410e-06  4.9491e-06  0:00:59  585
+    16  3.6551e-03  4.0591e-06  3.4994e-06  0:00:59  584
+    17  2.6049e-03  2.8462e-06  2.4690e-06  0:00:59  583
+    18  1.8522e-03  1.9838e-06  1.7407e-06  0:01:00  582
+    19  1.3680e-03  1.3921e-06  1.2260e-06  0:01:00  581
+    20  1.0321e-03  9.9336e-07  8.6765e-07  0:01:02  580
+    21  7.8321e-04  7.0856e-07  6.1608e-07  0:01:05  579
+    22  5.8637e-04  5.1764e-07  4.3940e-07  0:01:04  578
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    23  4.2852e-04  3.8350e-07  3.1520e-07  0:01:04  577
+    24  3.0845e-04  2.8582e-07  2.2693e-07  0:01:04  576
+    25  2.1710e-04  2.1316e-07  1.6403e-07  0:01:03  575
+    26  1.5704e-04  1.5904e-07  1.1908e-07  0:01:02  574
+    27  1.1420e-04  1.1871e-07  8.6829e-08  0:01:02  573
+    28  8.3861e-05  8.8633e-08  6.3574e-08  0:01:01  572
+    29  6.1241e-05  6.6190e-08  4.6713e-08  0:01:02  571
+    30  4.4945e-05  4.9487e-08  3.4449e-08  0:01:01  570
+    31  3.3024e-05  3.7039e-08  2.5500e-08  0:01:01  569
+    32  2.4489e-05  2.7763e-08  1.8933e-08  0:01:05  568
+    33  1.8084e-05  2.0845e-08  1.4104e-08  0:01:05  567
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    34  1.3332e-05  1.5687e-08  1.0530e-08  0:01:05  566
+    35  9.8354e-06  1.1834e-08  7.8783e-09  0:01:05  565
+    36  7.2431e-06  8.9541e-09  5.9046e-09  0:01:04  564
+    37  5.3588e-06  6.7928e-09  4.4312e-09  0:01:03  563
+    38  3.9227e-06  5.1328e-09  3.3244e-09  0:01:02  562
+    39  2.8843e-06  3.9140e-09  2.4925e-09  0:01:01  561
+    40  2.1432e-06  2.9893e-09  1.8755e-09  0:00:59  560
+    41  1.5845e-06  2.2876e-09  1.4137e-09  0:01:00  559
+    42  1.1715e-06  1.7421e-09  1.0658e-09  0:00:59  558
+    43  8.6852e-07  1.3370e-09  8.0293e-10  0:00:58  557
+    44  6.4378e-07  1.0265e-09  6.0735e-10  0:00:57  556
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    45  4.8308e-07  7.8839e-10  4.6048e-10  0:00:56  555
+    46  3.5991e-07  6.0587e-10  3.4974e-10  0:00:57  554
+    47  2.6994e-07  4.6574e-10  2.6613e-10  0:00:57  553
+    48  2.0139e-07  3.5807e-10  2.0282e-10  0:00:57  552
+    49  1.5176e-07  2.7522e-10  1.5473e-10  0:00:57  551
+    50  1.1427e-07  2.1147e-10  1.1817e-10  0:00:56  550
+    51  8.5671e-08  1.6244e-10  9.0324e-11  0:00:55  549
+!   51 solution is converged
+Creating zone surface for fluid zone
+
+Writing to LOCAL-WORKSTATION:"[local output path omitted]
+Grouping cells for Laplace smoothing ...
+       98304 cells,     1 zone  ...
+      197120 faces,     4 zones ...
+       98816 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to LOCAL-WORKSTATION:"[local output path omitted]
+  Writing results.
+Done.

@@ -1,0 +1,27 @@
+{
+  "inlets": {
+    "inlet_left": {
+      "velocity_specification_method": "Components",
+      "velocity_m_s": [
+        0.1,
+        0
+      ]
+    },
+    "inlet_top": {
+      "velocity_specification_method": "Components",
+      "velocity_m_s": [
+        0,
+        -0.1
+      ]
+    }
+  },
+  "wall_motion": "Stationary Wall",
+  "wall_shear_condition": "No Slip",
+  "outlet_gauge_pressure_Pa": 0,
+  "operating_pressure_Pa": 0.0,
+  "reference_depth_m": 1,
+  "density": 1.0,
+  "viscosity": 0.001,
+  "viscous_model": "laminar",
+  "energy_enabled": false
+}

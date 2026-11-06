@@ -1,0 +1,20 @@
+{
+  "material": "generic constant solid",
+  "density_kg_m3": 1000,
+  "specific_heat_J_kg_K": 1000,
+  "thermal_conductivity_W_m_K": 10,
+  "solver": "2D planar solid energy only",
+  "time_integration": "first-order implicit Euler",
+  "time_step_s": 2,
+  "time_steps": 100,
+  "max_inner_iterations": 20,
+  "energy_residual_target": 1e-10,
+  "initial_temperature_K": 300,
+  "hot_temperature_K": 400,
+  "cold_temperature_K": 300,
+  "insulation_heat_flux_W_m2": 0,
+  "reference_depth_m": 1,
+  "processor_count": 2,
+  "ui_mode": "hidden_gui",
+  "first_step_gate_required": true
+}

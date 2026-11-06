@@ -1,0 +1,22 @@
+{
+  "reynolds_number": 20,
+  "density_kg_m3": 1,
+  "kinematic_viscosity_m2_s": 0.05,
+  "diameter_m": 1,
+  "velocity_m_s": 1,
+  "span_m": 1,
+  "reference_area_m2": 1,
+  "mesh_source_sha256": "a2ad96efdec66c69b06b471eea1911d8758706a801401f457c588028bbe80737",
+  "intended_cells": 98304,
+  "outer_radius_m": 20,
+  "solver": "OpenFOAM Foundation 14 incompressibleFluid",
+  "solve": "steady SIMPLE, least-squares gradients, linear-upwind momentum",
+  "target_iterations": 1200,
+  "final_force_window": 100,
+  "cd_relative_range_target": 0.0001,
+  "relative_boundary_mass_imbalance_target": 1e-06,
+  "initial_p_U_residual_learning_target": 1e-07,
+  "cross_code_cd_difference_learning_target_percent": 0.5,
+  "residual_norms_equivalent_to_fluent": false,
+  "physical_validation": false
+}

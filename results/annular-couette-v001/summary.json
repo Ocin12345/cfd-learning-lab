@@ -1,0 +1,377 @@
+{
+  "model": "Planar annular Couette spin-up",
+  "observed_physical_result": "Motion spreads outward from the spinning inner wall; both solvers settle to very similar circular shear profiles.",
+  "actual_steps_per_solver": 400,
+  "saved_native_states_per_solver": 401,
+  "time_step_s": 0.05,
+  "final_time_s": 20.0,
+  "solvers": {
+    "fluent": {
+      "solver": "fluent",
+      "metrics": {
+        "actual_steps": 400,
+        "inherited_steps": 5,
+        "additional_steps": 395,
+        "saved_states": 401,
+        "time_step_s": 0.05,
+        "final_time_s": 20.00000000000015,
+        "final_speed_range_m_s": [
+          0.0006532786115435074,
+          0.047951824664737054
+        ],
+        "maximum_dimensionless_divergence": 7.95833460079561e-10,
+        "maximum_volume_weighted_RMS_dimensionless_divergence": 1.950031531233728e-10,
+        "final_angular_momentum_per_depth_kg_m_s": 2.8349730362167567e-05,
+        "maximum_absolute_wall_native_face_flux": 0.0,
+        "maximum_absolute_signed_boundary_flux": 0.0,
+        "native_flux_units": "kg/s",
+        "steady_assessment": {
+          "from_step": 360,
+          "to_step": 400,
+          "U_weighted_L2_final_denominator": 3.5803225610218044e-05,
+          "relative_angular_momentum_change_final_denominator": 4.5179816295076234e-05,
+          "numerically_steady_for_this_run": true
+        },
+        "circular_steady_limit_descriptive": {
+          "final_vtheta_minus_circular_steady_limit_max_abs_m_s": 0.001132593099018489,
+          "accuracy_gate": false,
+          "steady_limit_not_startup_solution": true
+        },
+        "own_native_residuals": {
+          "maximum_terminal_scaled_residual": 9.995132138296064e-07,
+          "actual_total_inner_iterations": 7241,
+          "maximum_inner_iterations": 42
+        },
+        "failed_state_checks": []
+      },
+      "failed_checks": [],
+      "all_primary_checks_passed": true,
+      "raw_check_count": 10,
+      "raw_audit_file_sha256": "2babd27ece881dc815d49141c7156ce9fc5028b9385f0044437fbc3ea76d023f",
+      "raw_manifest_file_sha256": "ef12e9b4a49d41c8806b109110c254324ef99f475731a3f40a060783f2f94f48",
+      "audited_fields_sha256": "e129285593d5b0b4006f5a4c1d14eb69c0a829359b18048fc06fea2d0a48c473",
+      "raw_native_audit_and_full_provenance_external": true,
+      "solver_residual_norms_differ": true,
+      "torque_reported": false,
+      "torque_balance_claim": false,
+      "analytic_and_cross_code_accuracy_gate": false,
+      "physical_validation": false,
+      "mesh_independence": false,
+      "time_step_independence": false,
+      "three_dimensional_Taylor_vortex_claim": false,
+      "owner_reflection_provided": false
+    },
+    "openfoam": {
+      "solver": "openfoam",
+      "metrics": {
+        "actual_steps": 400,
+        "inherited_steps": 5,
+        "additional_steps": 395,
+        "saved_states": 401,
+        "time_step_s": 0.05,
+        "final_time_s": 20.0,
+        "final_speed_range_m_s": [
+          0.0006527492778604654,
+          0.047952267865380295
+        ],
+        "maximum_dimensionless_divergence": 2.5142549509981983e-10,
+        "maximum_volume_weighted_RMS_dimensionless_divergence": 3.3620704222347204e-11,
+        "final_angular_momentum_per_depth_kg_m_s": 2.8340791350928207e-05,
+        "maximum_absolute_wall_native_face_flux": 2.1175823681358e-22,
+        "maximum_absolute_signed_boundary_flux": 1.2440796412797833e-21,
+        "native_flux_units": "m3/s",
+        "steady_assessment": {
+          "from_step": 360,
+          "to_step": 400,
+          "U_weighted_L2_final_denominator": 3.5983427573900986e-05,
+          "relative_angular_momentum_change_final_denominator": 4.54161663708767e-05,
+          "numerically_steady_for_this_run": true
+        },
+        "circular_steady_limit_descriptive": {
+          "final_vtheta_minus_circular_steady_limit_max_abs_m_s": 0.0011395090773361725,
+          "accuracy_gate": false,
+          "steady_limit_not_startup_solution": true
+        },
+        "own_native_residuals": {
+          "maximum_last_outer_initial_residual": 8.1879021010999e-09,
+          "maximum_last_outer_final_linear_residual": 9.9979249837513e-11,
+          "minimum_outer_correctors": 30,
+          "maximum_outer_correctors": 30,
+          "actual_component_labels": [
+            "p",
+            "Ux",
+            "Uy"
+          ]
+        },
+        "failed_state_checks": []
+      },
+      "failed_checks": [],
+      "all_primary_checks_passed": true,
+      "raw_check_count": 18,
+      "raw_audit_file_sha256": "d4eb18eba51f4950867a9a45a21fa3a390eef4e0b05fdec79c086ac8db5cf652",
+      "raw_manifest_file_sha256": "dfdfd796a659d13b7bddab117ec1e48b7922d1f53dc130ff4472724d33ec3232",
+      "audited_fields_sha256": "0140e931ae1a8f91ddb24f55b3c89e3fbf4000260d72dd871f2bd5c2acec37e6",
+      "raw_native_audit_and_full_provenance_external": true,
+      "solver_residual_norms_differ": true,
+      "torque_reported": false,
+      "torque_balance_claim": false,
+      "analytic_and_cross_code_accuracy_gate": false,
+      "physical_validation": false,
+      "mesh_independence": false,
+      "time_step_independence": false,
+      "three_dimensional_Taylor_vortex_claim": false,
+      "owner_reflection_provided": false,
+      "execution_completion": {
+        "actual_solver_completed": true,
+        "inherited_actual_steps": 5,
+        "additional_actual_steps": 395,
+        "total_actual_steps": 400,
+        "native_rank_states": 401,
+        "solved_native_rank_clocks": 800,
+        "first_new_time_s": 0.3,
+        "first_new_index": 6,
+        "last_time_s": 20,
+        "deltaT_s": 0.05,
+        "native_End": true,
+        "parallel_finalisation": true,
+        "raw_wrapper_postcheck_passed": false,
+        "original_strict_all_prepared_inputs_unchanged": false,
+        "unchanged_prepared_input_count": 245,
+        "prepared_input_count": 247,
+        "no_native_or_status_modification": true,
+        "CFD_replayed": false,
+        "raw_wrapper_status": {
+          "stage": "failed",
+          "failed_stage": "checking_actual_End_395_new_steps_and_all_rank_states",
+          "exit_code": 1,
+          "solver_started": true,
+          "production_admitted": true
+        },
+        "raw_wrapper_status_sha256": "58e8a269c3dd2a936701a3e6de3d869778d0c5529a015d31c6d7f48e97f7d9e0",
+        "solver_log_sha256": "dbc3a8a3589e87c00d589b2468f3cf33ebdb0036768dac0cd5a72e2c17cf6506",
+        "execution_completion_receipt_sha256": "70e3d90a505f01fb6b0e7e241d8831b712e2d34c73c98633002f380c62d1beb2",
+        "diagnosis_sha256": "58daaec5c8dcdfe3f60c25977b89cc73085fbfce841a81d2194722c01a3996c2"
+      },
+      "diagnostic_comparisons": {
+        "original_strict_all_prepared_inputs_unchanged": false,
+        "raw_wrapper_postcheck_passed": false,
+        "prepared_input_count": 247,
+        "unchanged_prepared_input_count": 245,
+        "original_accepted_pilot_unchanged": true,
+        "primary_restart_inputs_unchanged": true,
+        "derived_restart_output_mutations": [
+          {
+            "path": "processor0/0.25/vorticity",
+            "original_accepted_sha256": "620cb9cfff6d548cf5605d308c1a41cafeef0e051f093915525ca497ec72bfcd",
+            "prepared_expected_sha256": "620cb9cfff6d548cf5605d308c1a41cafeef0e051f093915525ca497ec72bfcd",
+            "current_derived_sha256": "4b0786d3dadd1bb5a98bbe5d776fc360b594ce9b53b131ad39639be1dede7a7d",
+            "copied_file_byte_preserved": false,
+            "native_internal_max_abs_difference_s_inverse": 3.9968028886505635e-13,
+            "native_internal_changed_components": 918,
+            "diff_sha256": "2794feceec2af485b2d8ee6f081dc879aea7f9b7d45f41565b276e1783539102"
+          },
+          {
+            "path": "processor1/0.25/vorticity",
+            "original_accepted_sha256": "3fdad2c0d3518dcdce1f55776087dfeefc036ec6267653bc734b4409d1e45d3a",
+            "prepared_expected_sha256": "3fdad2c0d3518dcdce1f55776087dfeefc036ec6267653bc734b4409d1e45d3a",
+            "current_derived_sha256": "9d8c3425a24df640649b9c675e3eb35c9b8a3cf1c37083c236b15d6118b7d08a",
+            "copied_file_byte_preserved": false,
+            "native_internal_max_abs_difference_s_inverse": 3.9968028886505635e-13,
+            "native_internal_changed_components": 952,
+            "diff_sha256": "ff30c5df2ce9dcf7f760ed66b98518cbc23e095937e59be95a2a0a3f064674f8"
+          }
+        ]
+      }
+    }
+  },
+  "original_OpenFOAM_10_outer_pilot": {
+    "actual_steps": 5,
+    "passed_checks": 18,
+    "total_checks": 19,
+    "failed_checks": [
+      "every_step_last_outer_initial_p_U_residuals_le1e_6"
+    ],
+    "raw_audit_sha256": "5a65e0a88fff60890ec43c477240fc935410143ff374e40bc561dbd075574a66"
+  },
+  "amended_OpenFOAM_outer_budget": {
+    "prior": 10,
+    "selected": 30,
+    "thresholds_relaxed": false,
+    "amendment_sha256": "157b314383f9f70b780445bc773a07f0348a3b659fcbd1be54629965447f874c"
+  },
+  "preserved_attempts": [
+    {
+      "description": "Original genuine 10-outer five-step pilot:18/19 checks; pressure initial residual target missed",
+      "file_sha256": "5a65e0a88fff60890ec43c477240fc935410143ff374e40bc561dbd075574a66",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Explicit 30-outer-only budget amendment; physical settings and thresholds unchanged",
+      "file_sha256": "157b314383f9f70b780445bc773a07f0348a3b659fcbd1be54629965447f874c",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Independent actual native400-step completion; raw wrapper remains failed/exit1",
+      "file_sha256": "70e3d90a505f01fb6b0e7e241d8831b712e2d34c73c98633002f380c62d1beb2",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Exactly two copied derived vorticity outputs changed; strict byte-preservation and wrapper postcheck remain false",
+      "file_sha256": "58daaec5c8dcdfe3f60c25977b89cc73085fbfce841a81d2194722c01a3996c2",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Fluent SDK unit-spelling setup failure before actual transient steps",
+      "file_sha256": "890bd57287eb0106ebf3f8f7e6e0297636c97a3aec3d42aa7f23ee33b811b4f2",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Fresh corrected native Fluent moving-wall unit setup source",
+      "file_sha256": "c8f044cd5619d7bb742a9bd91fc483c1a747d27246bb2fa5644cc43376921983",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Native preflight completed; read-only boundary parser failure preserved before transient steps",
+      "file_sha256": "ff72cb9248c7b9fe7e904b2935bae4d73a7deb210204ebb5458cf1b720d7b302",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Read-only native preflight parser recovery; no native commands or CFD replay",
+      "file_sha256": "f3f551767965f01ada7b454029392a2cdfea20ea66061f03670c43d2a1a82796",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Preserved read-only pilot audit parser correction",
+      "file_sha256": "f1970315367f233acee992bf2fed0cb386bc52bfcaf214de022e23c8478539f2",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Independent final actual figure/CSV/hash readback; raw full fields remain external",
+      "file_sha256": "26444963274e5901f7a8d0701cb6dbd7ca9d7de96963ea287ab6717448739e6c",
+      "raw_evidence_external": true
+    }
+  ],
+  "animation": {
+    "frames": 101,
+    "actual_native_step_indices": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80,
+      84,
+      88,
+      92,
+      96,
+      100,
+      104,
+      108,
+      112,
+      116,
+      120,
+      124,
+      128,
+      132,
+      136,
+      140,
+      144,
+      148,
+      152,
+      156,
+      160,
+      164,
+      168,
+      172,
+      176,
+      180,
+      184,
+      188,
+      192,
+      196,
+      200,
+      204,
+      208,
+      212,
+      216,
+      220,
+      224,
+      228,
+      232,
+      236,
+      240,
+      244,
+      248,
+      252,
+      256,
+      260,
+      264,
+      268,
+      272,
+      276,
+      280,
+      284,
+      288,
+      292,
+      296,
+      300,
+      304,
+      308,
+      312,
+      316,
+      320,
+      324,
+      328,
+      332,
+      336,
+      340,
+      344,
+      348,
+      352,
+      356,
+      360,
+      364,
+      368,
+      372,
+      376,
+      380,
+      384,
+      388,
+      392,
+      396,
+      400
+    ],
+    "frame_delay_ms": 60,
+    "actual_times": true,
+    "interpolated_times": false,
+    "particles": false,
+    "mesh_motion": false,
+    "plateau_repeats_retained": true
+  },
+  "physical_validation": false,
+  "torque_balance_claim": false,
+  "mesh_independence": false,
+  "time_step_independence": false,
+  "three_dimensional_Taylor_vortex_claim": false,
+  "owner_reflection_provided": false,
+  "contributions": {
+    "user": "Directed model progression and visual priorities; reflection and independent execution unprovided",
+    "Codex": "Prepared meshes/scripts, operated background solvers, checked native evidence and assembled figures/records",
+    "ANSYS_Fluent_and_OpenFOAM": "Computed their own actual native transient fields and residuals"
+  }
+}

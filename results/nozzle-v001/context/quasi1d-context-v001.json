@@ -1,0 +1,26 @@
+{
+  "type": "Quasi-one-dimensional inviscid analytical context, not a CFD result or matching 2D validation",
+  "sources": [
+    "https://www.grc.nasa.gov/www/k-12/airplane/isentrop.html",
+    "https://www.grc.nasa.gov/www/k-12/airplane/normal.html"
+  ],
+  "gamma": 1.4,
+  "R_J_kg_K": 287.05,
+  "total_pressure_Pa": 200000.0,
+  "total_temperature_K": 300.0,
+  "back_pressure_Pa": 140000.0,
+  "throat_area_per_unit_depth_m": 0.08,
+  "choked_massflow_kg_s_per_m": 37.33368504817016,
+  "shock_x_estimate_m": 0.7038561524199645,
+  "shock_relations": {
+    "M1": 1.8627125267658449,
+    "M2": 0.6030716749878428,
+    "p2_p1": 3.8813142835987975,
+    "p02_p01": 0.7844503589976809,
+    "exit_Mach": 0.4066880870938605,
+    "exit_static_pressure_Pa": 140000.00000000015,
+    "shock_area_over_throat": 1.5100946975161593
+  },
+  "assumptions": "Uniform flow across each section, isentropic branches separated by one normal shock; real 2D turning/wave effects excluded",
+  "physical_validation": false
+}

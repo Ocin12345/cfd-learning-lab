@@ -1,0 +1,30 @@
+{
+  "kind": "Fresh outer-domain calculation; no physical validation",
+  "additional_iterations": 100,
+  "samples": 101,
+  "initial": {
+    "additional_iteration": 0,
+    "drag_force_N": 1.0006202,
+    "drag_coefficient": 2.0012404,
+    "pressure_drag_N": 0.60020503,
+    "viscous_drag_N": 0.40041518,
+    "lift_force_N": 1.8294255e-09,
+    "lift_coefficient": 3.6588511e-09
+  },
+  "final": {
+    "additional_iteration": 100,
+    "drag_force_N": 1.0006202,
+    "drag_coefficient": 2.0012404,
+    "pressure_drag_N": 0.60020503,
+    "viscous_drag_N": 0.40041518,
+    "lift_force_N": 1.4855738e-15,
+    "lift_coefficient": 2.9711476e-15
+  },
+  "last20_drag_relative_range": 0.0,
+  "last20_lift_absolute_range": 1.1952243999999997e-15,
+  "last20_max_absolute_lift": 3.7847329e-15,
+  "drag_stability_pass": true,
+  "lift_stability_pass": true,
+  "native_case_saved": true,
+  "convergence_checks_temporarily_disabled": true
+}

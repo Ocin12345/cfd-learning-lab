@@ -1,0 +1,617 @@
+{
+  "model": "Transient offset tandem-square wake",
+  "observed_physical_result": "The first square produces a low-speed wake that reaches the offset second square; the final native maps and profiles show interacting downstream velocity deficits. Finite-time lift histories vary during the run; sustained periodicity is not established.",
+  "actual_steps_per_solver": 800,
+  "saved_native_states_per_solver": 801,
+  "time_step_s": 0.05,
+  "final_time_s": 40.0,
+  "shared_cells": 9472,
+  "body_holes": 2,
+  "solvers": {
+    "fluent": {
+      "solver": "fluent",
+      "metrics": {
+        "actual_steps": 800,
+        "inherited_steps": 5,
+        "additional_steps": 795,
+        "native_states": 801,
+        "time_step_s": 0.05,
+        "final_time_s": 40.0,
+        "initial_boundary_ratio": {
+          "available": true,
+          "value": 1.0,
+          "solved_gate_applied": false
+        },
+        "initial_forces_available": false,
+        "initial_solved_conservation_claim": false,
+        "maximum_solved_dimensionless_divergence": 4.285909155354964e-07,
+        "maximum_solved_RMS_dimensionless_divergence": 1.4119237963213368e-08,
+        "maximum_solved_relative_boundary_imbalance": 1.4354429677595575e-08,
+        "maximum_native_flux_Courant_descriptive": 0.914306507487412,
+        "final_per_body_coefficients": {
+          "body1": {
+            "pressure": [
+              1.7380191178833384,
+              0.01795895518828825
+            ],
+            "viscous": [
+              0.24562750411278042,
+              0.002655136111142021
+            ],
+            "total": [
+              1.983646621996119,
+              0.020614091299430273
+            ]
+          },
+          "body2": {
+            "pressure": [
+              0.5111652762187933,
+              -0.18717962941774247
+            ],
+            "viscous": [
+              0.20224014941119106,
+              -0.08430771764419945
+            ],
+            "total": [
+              0.7134054256299842,
+              -0.27148734706194194
+            ]
+          }
+        },
+        "failed_state_checks": []
+      },
+      "all_primary_checks_passed": true,
+      "failed_checks": [],
+      "raw_check_count": 8,
+      "raw_audit_sha256": "a4880647dafb3f12f6edcc27b8ae19fd134a7caa177a12235381074fddc4faea",
+      "raw_manifest_sha256": "f5aa3fb2ec5e15c3ea23ca176a25a77235d6d780b62cd06dd611a198c8a267fb",
+      "actual_audited_fields_sha256": "351c45fc24d7c8acfba272c58b672fa16804c64c4f50e1feb054802684e73d22",
+      "full_native_provenance_external": true,
+      "native_solver_residual_norms_differ": true,
+      "physical_validation": false,
+      "mesh_independence": false,
+      "time_step_independence": false,
+      "periodicity_established": false,
+      "steady_force_plateau_claim": false,
+      "mean_lift_zero_gate": false,
+      "global_transient_momentum_balance_claim": false,
+      "owner_reflection_provided": false
+    },
+    "openfoam": {
+      "solver": "openfoam",
+      "metrics": {
+        "actual_steps": 800,
+        "inherited_steps": 5,
+        "additional_steps": 795,
+        "native_states": 801,
+        "time_step_s": 0.05,
+        "final_time_s": 40.0,
+        "initial_boundary_ratio": {
+          "available": true,
+          "value": 0.9999999999999999,
+          "solved_gate_applied": false
+        },
+        "initial_forces_available": false,
+        "initial_solved_conservation_claim": false,
+        "maximum_solved_dimensionless_divergence": 3.939120004573665e-07,
+        "maximum_solved_RMS_dimensionless_divergence": 1.2586348370063609e-08,
+        "maximum_solved_relative_boundary_imbalance": 1.4685166060610097e-11,
+        "maximum_native_flux_Courant_descriptive": 0.913082699018104,
+        "final_per_body_coefficients": {
+          "body1": {
+            "pressure": [
+              1.736820371314818,
+              0.01761199394625716
+            ],
+            "viscous": [
+              0.24835251239424797,
+              0.0026406814098178595
+            ],
+            "total": [
+              1.985172883709066,
+              0.020252675356075018
+            ]
+          },
+          "body2": {
+            "pressure": [
+              0.523538939148454,
+              -0.18912413636858938
+            ],
+            "viscous": [
+              0.20405824230089997,
+              -0.0828773956785002
+            ],
+            "total": [
+              0.7275971814493539,
+              -0.27200153204708954
+            ]
+          }
+        },
+        "failed_state_checks": []
+      },
+      "all_primary_checks_passed": true,
+      "failed_checks": [],
+      "raw_check_count": 21,
+      "raw_audit_sha256": "b884e4e162607b50ab73ed854c04ef5b48a29f2c9fa894f716cc5ca4e9b0434d",
+      "raw_manifest_sha256": "a1106b1ff2467ed6ef45f38ffc74275ff1cf250eb5684609d81fe22ce050aed8",
+      "actual_audited_fields_sha256": "76c3b9124f4b4d517d3141f359d0f47b0d46c3ee6475f67136ea1c47e2a648e8",
+      "full_native_provenance_external": true,
+      "native_solver_residual_norms_differ": true,
+      "physical_validation": false,
+      "mesh_independence": false,
+      "time_step_independence": false,
+      "periodicity_established": false,
+      "steady_force_plateau_claim": false,
+      "mean_lift_zero_gate": false,
+      "global_transient_momentum_balance_claim": false,
+      "owner_reflection_provided": false,
+      "execution_completion": {
+        "actual_solver_completed": true,
+        "inherited_actual_steps": 5,
+        "additional_actual_steps": 795,
+        "total_actual_steps": 800,
+        "first_new_time_s": 0.3,
+        "first_new_index": 6,
+        "native_rank_states": 801,
+        "rank_time_records": 1600,
+        "raw_wrapper_status": {
+          "stage": "finished_production_execution",
+          "solver_started": true,
+          "mpi_ranks": 2,
+          "inherited_actual_steps": 5,
+          "additional_actual_steps": 795,
+          "total_actual_steps": 800,
+          "physical_time_s": 40,
+          "deltaT_s": 0.05,
+          "native_rank_states": 801,
+          "outer_correctors": 30,
+          "serial_reconstruction_requested": false,
+          "production_admitted": true,
+          "numerical_analysis_pending": true
+        },
+        "serial_reconstruction_requested": false
+      },
+      "diagnostic_comparisons": {
+        "primary_prepared_and_original_pilot_inputs_unchanged": true,
+        "strict_all_derived_copies_preserved": false,
+        "derived_outputs": [
+          {
+            "path": "0/vorticity",
+            "original_sha256": "ea7654a69c429f836e10a2aa2f51d3b9e32b7f309de8370f8b0bdfeca272caa8",
+            "current_sha256": "ea7654a69c429f836e10a2aa2f51d3b9e32b7f309de8370f8b0bdfeca272caa8",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "0/wallShearStress",
+            "original_sha256": "05067024d702797ce9747280750adb3cd32850e0cb3456fc0700ca76b17669f6",
+            "current_sha256": "05067024d702797ce9747280750adb3cd32850e0cb3456fc0700ca76b17669f6",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0/vorticity",
+            "original_sha256": "41f8066630e99d7e30da261d5bf62b87ce4821be836bd96ee58ec550bb8f053f",
+            "current_sha256": "41f8066630e99d7e30da261d5bf62b87ce4821be836bd96ee58ec550bb8f053f",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0/wallShearStress",
+            "original_sha256": "ea6dc227047d8e5abdc1787c5e2104c2c19c37c26378697a045f7cfa6420f353",
+            "current_sha256": "ea6dc227047d8e5abdc1787c5e2104c2c19c37c26378697a045f7cfa6420f353",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.05/vorticity",
+            "original_sha256": "a1aba4da19dc158d26cdc9d014be0373c5fd2c477ae25c0146527ffbc06434ea",
+            "current_sha256": "a1aba4da19dc158d26cdc9d014be0373c5fd2c477ae25c0146527ffbc06434ea",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.05/wallShearStress",
+            "original_sha256": "44cd4437ad0fb790021df48f5c1c3773db0988f8723462a60ec7ca64a395c2da",
+            "current_sha256": "44cd4437ad0fb790021df48f5c1c3773db0988f8723462a60ec7ca64a395c2da",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.1/vorticity",
+            "original_sha256": "e558fb229df75e1914475c1b23b69b0a2cfa84d059ccf638ffd760d0bb228da4",
+            "current_sha256": "e558fb229df75e1914475c1b23b69b0a2cfa84d059ccf638ffd760d0bb228da4",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.1/wallShearStress",
+            "original_sha256": "abb1c5d07812483726c4ff5de1bfadd13d463e586f785f18496ee9ff5787618b",
+            "current_sha256": "abb1c5d07812483726c4ff5de1bfadd13d463e586f785f18496ee9ff5787618b",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.15/vorticity",
+            "original_sha256": "4b5be806a6a5ac8d20dfbd4cb67966afff99a8b56c31bcc57bed20988697c73a",
+            "current_sha256": "4b5be806a6a5ac8d20dfbd4cb67966afff99a8b56c31bcc57bed20988697c73a",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.15/wallShearStress",
+            "original_sha256": "9f85957f2e707b171c837dc4e2deb1bfdadc1513d3be323431c1c280a61580bf",
+            "current_sha256": "9f85957f2e707b171c837dc4e2deb1bfdadc1513d3be323431c1c280a61580bf",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.2/vorticity",
+            "original_sha256": "a00857abd2dab1cf48ae2027ec46c722f749a9d46d16b397118dfd33147b846d",
+            "current_sha256": "a00857abd2dab1cf48ae2027ec46c722f749a9d46d16b397118dfd33147b846d",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.2/wallShearStress",
+            "original_sha256": "460e9099cb189f721a5bf305a3c95f41bd80287904a2931dd146f25415827c4d",
+            "current_sha256": "460e9099cb189f721a5bf305a3c95f41bd80287904a2931dd146f25415827c4d",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.25/vorticity",
+            "original_sha256": "f115134a3a8df4218f561f35a803f25faaf2e69cbeca351590fef62ef61a859d",
+            "current_sha256": "2f4202de60147ec0dfc1fed9f0b666d9f5c85114184130e57b1a789b3c52837b",
+            "byte_preserved": false,
+            "native_internal_max_abs_difference": 1.000088900582341e-12,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor0/0.25/wallShearStress",
+            "original_sha256": "df2f558764623a7d7ace5387fbe3e98b228db6c26894749fff68782b97a15f68",
+            "current_sha256": "a5850271d94800856cb40b9ccf8949627c135617211c099d8edd1295ec27618d",
+            "byte_preserved": false,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0/vorticity",
+            "original_sha256": "3decd0a949bacd943dbdd6d5a2295c1428736d5efb10c0ba2ae0f9970fe18102",
+            "current_sha256": "3decd0a949bacd943dbdd6d5a2295c1428736d5efb10c0ba2ae0f9970fe18102",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0/wallShearStress",
+            "original_sha256": "e555f6492a8f1f0548a546b8f6ccc7a0eb6449f623d87f77f5d095674899c1a0",
+            "current_sha256": "e555f6492a8f1f0548a546b8f6ccc7a0eb6449f623d87f77f5d095674899c1a0",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.05/vorticity",
+            "original_sha256": "f41a0d65954bc135118512755130595393d3adb3e89810711605975708a0825a",
+            "current_sha256": "f41a0d65954bc135118512755130595393d3adb3e89810711605975708a0825a",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.05/wallShearStress",
+            "original_sha256": "abca582e992cb2c31c6223aec42ca48e4845df98a3b5928d1102d9fce5b475c8",
+            "current_sha256": "abca582e992cb2c31c6223aec42ca48e4845df98a3b5928d1102d9fce5b475c8",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.1/vorticity",
+            "original_sha256": "51487116800482866202dfd6fb87b512bd2f5b27aa787def2d9dccf49cebdff3",
+            "current_sha256": "51487116800482866202dfd6fb87b512bd2f5b27aa787def2d9dccf49cebdff3",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.1/wallShearStress",
+            "original_sha256": "14d135062aee4914e62732aed1f97f6edb312dea085783c8615f5019237e69e6",
+            "current_sha256": "14d135062aee4914e62732aed1f97f6edb312dea085783c8615f5019237e69e6",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.15/vorticity",
+            "original_sha256": "9cca16b100f5c2461daa6bb11d05da7c5c45f4e1e1b15e439281738312b85100",
+            "current_sha256": "9cca16b100f5c2461daa6bb11d05da7c5c45f4e1e1b15e439281738312b85100",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.15/wallShearStress",
+            "original_sha256": "cff080c4533f887eb1915a62c3dd74536b50818021d2267d5ce45dcc9c221a10",
+            "current_sha256": "cff080c4533f887eb1915a62c3dd74536b50818021d2267d5ce45dcc9c221a10",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.2/vorticity",
+            "original_sha256": "e69f943b82022eaa04630490e4015334065d6281e720aeadbbf827b2b71ece58",
+            "current_sha256": "e69f943b82022eaa04630490e4015334065d6281e720aeadbbf827b2b71ece58",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.2/wallShearStress",
+            "original_sha256": "4c8e0c3c332568feb245655a969aacf6d7ef02ab49fa7d3115109a81dec1fe04",
+            "current_sha256": "4c8e0c3c332568feb245655a969aacf6d7ef02ab49fa7d3115109a81dec1fe04",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.25/vorticity",
+            "original_sha256": "5dd4ecfef59a8a66ce3fbade66c5f7d231c17effe9107773e24f8be6aaf41aaf",
+            "current_sha256": "f35d9e04f8c6b15360c85cc3339a71946c723ced6b56555ba0797b92fb291990",
+            "byte_preserved": false,
+            "native_internal_max_abs_difference": 3.960482115799921e-13,
+            "both_fields_finite": true
+          },
+          {
+            "path": "processor1/0.25/wallShearStress",
+            "original_sha256": "1877e7d6c2d76492abf2e6c1fc8166c58491aca3bf7488a89fcd5682b0f97e8b",
+            "current_sha256": "1877e7d6c2d76492abf2e6c1fc8166c58491aca3bf7488a89fcd5682b0f97e8b",
+            "byte_preserved": true,
+            "native_internal_max_abs_difference": 0.0,
+            "both_fields_finite": true
+          }
+        ],
+        "original_pilot_diagnostics": {
+          "primary_initial_inputs_unchanged": true,
+          "strict_all_derived_copies_preserved": true,
+          "derived_outputs": [
+            {
+              "path": "0/vorticity",
+              "original_sha256": "ea7654a69c429f836e10a2aa2f51d3b9e32b7f309de8370f8b0bdfeca272caa8",
+              "current_sha256": "ea7654a69c429f836e10a2aa2f51d3b9e32b7f309de8370f8b0bdfeca272caa8",
+              "byte_preserved": true,
+              "native_internal_max_abs_difference": 0.0,
+              "both_fields_finite": true
+            },
+            {
+              "path": "0/wallShearStress",
+              "original_sha256": "05067024d702797ce9747280750adb3cd32850e0cb3456fc0700ca76b17669f6",
+              "current_sha256": "05067024d702797ce9747280750adb3cd32850e0cb3456fc0700ca76b17669f6",
+              "byte_preserved": true,
+              "native_internal_max_abs_difference": 0.0,
+              "both_fields_finite": true
+            },
+            {
+              "path": "processor0/0/vorticity",
+              "original_sha256": "41f8066630e99d7e30da261d5bf62b87ce4821be836bd96ee58ec550bb8f053f",
+              "current_sha256": "41f8066630e99d7e30da261d5bf62b87ce4821be836bd96ee58ec550bb8f053f",
+              "byte_preserved": true,
+              "native_internal_max_abs_difference": 0.0,
+              "both_fields_finite": true
+            },
+            {
+              "path": "processor0/0/wallShearStress",
+              "original_sha256": "ea6dc227047d8e5abdc1787c5e2104c2c19c37c26378697a045f7cfa6420f353",
+              "current_sha256": "ea6dc227047d8e5abdc1787c5e2104c2c19c37c26378697a045f7cfa6420f353",
+              "byte_preserved": true,
+              "native_internal_max_abs_difference": 0.0,
+              "both_fields_finite": true
+            },
+            {
+              "path": "processor1/0/vorticity",
+              "original_sha256": "3decd0a949bacd943dbdd6d5a2295c1428736d5efb10c0ba2ae0f9970fe18102",
+              "current_sha256": "3decd0a949bacd943dbdd6d5a2295c1428736d5efb10c0ba2ae0f9970fe18102",
+              "byte_preserved": true,
+              "native_internal_max_abs_difference": 0.0,
+              "both_fields_finite": true
+            },
+            {
+              "path": "processor1/0/wallShearStress",
+              "original_sha256": "e555f6492a8f1f0548a546b8f6ccc7a0eb6449f623d87f77f5d095674899c1a0",
+              "current_sha256": "e555f6492a8f1f0548a546b8f6ccc7a0eb6449f623d87f77f5d095674899c1a0",
+              "byte_preserved": true,
+              "native_internal_max_abs_difference": 0.0,
+              "both_fields_finite": true
+            }
+          ]
+        },
+        "original_pilot0_to5_authoritative": true
+      }
+    }
+  },
+  "preserved_attempts": [
+    {
+      "description": "Root accepted actual full native pair and primary outcomes, with artifact diagnostics separate",
+      "file_sha256": "04e66696df3c4c415c2533831b5a77aa200f50a8f2225975f896b602c11631f6",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Additional actual body wall-stress boundary comparison for changed derived restart copy",
+      "file_sha256": "7f2e428d822626bca735fed8ca889c2b99eccf8cc75921f619b2793ce42b2417",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Execution/archive prerequisites and supported standalone-functions semantics",
+      "file_sha256": "7c683064a7bbf69e99c8988f72fabf53e3e7f61b8a96dd34da7b38f1660a6d50",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Superseded unexecuted v001 preparation record; not a solver result",
+      "file_sha256": "7909fe023a8357e1dc88995bc9d754440e6743502c1cccbf425e0b3c6943c030",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Fresh v002 leastSquares/strict native-phi source adaptation",
+      "file_sha256": "bc5454bc0661c0e1c5745e05e534eb422fd1286e7e01364aa2bfddee25ecfc45",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Caption-only clarification: one profile between squares, two downstream, native raw startup forces separate",
+      "file_sha256": "e020de0d4b60fab6edf8d6f396530453f0179ea9857a45b092ade460677ccf38",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Read-only record endpoint comparisons use actual audited time/tolerance; no CFD replay",
+      "file_sha256": "4d92da964d1a21c9456bdc1d77bb6895e58933d96b7e791902888cd4b38cb2a5",
+      "raw_evidence_external": true
+    },
+    {
+      "description": "Actual Fluent800-step completion and saved native image evidence",
+      "file_sha256": "0e64714f1e0a0837abec41715bca3558e86aed68c16ad194b9b9419f3c61accf",
+      "raw_evidence_external": true
+    }
+  ],
+  "animation": {
+    "frames": 101,
+    "actual_native_step_indices": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80,
+      88,
+      96,
+      104,
+      112,
+      120,
+      128,
+      136,
+      144,
+      152,
+      160,
+      168,
+      176,
+      184,
+      192,
+      200,
+      208,
+      216,
+      224,
+      232,
+      240,
+      248,
+      256,
+      264,
+      272,
+      280,
+      288,
+      296,
+      304,
+      312,
+      320,
+      328,
+      336,
+      344,
+      352,
+      360,
+      368,
+      376,
+      384,
+      392,
+      400,
+      408,
+      416,
+      424,
+      432,
+      440,
+      448,
+      456,
+      464,
+      472,
+      480,
+      488,
+      496,
+      504,
+      512,
+      520,
+      528,
+      536,
+      544,
+      552,
+      560,
+      568,
+      576,
+      584,
+      592,
+      600,
+      608,
+      616,
+      624,
+      632,
+      640,
+      648,
+      656,
+      664,
+      672,
+      680,
+      688,
+      696,
+      704,
+      712,
+      720,
+      728,
+      736,
+      744,
+      752,
+      760,
+      768,
+      776,
+      784,
+      792,
+      800
+    ],
+    "frame_delay_ms": 60,
+    "temporal_interpolation": false,
+    "particles": false,
+    "forced_map_uniqueness": false,
+    "signed_vorticity_used": false
+  },
+  "compact_CSV_readback": {
+    "final_fields_rows": 18944,
+    "solved_history_rows": 800,
+    "native_profile_rows": 360,
+    "all_compact_values_match_audited_arrays": true
+  },
+  "physical_validation": false,
+  "periodicity_established": false,
+  "mesh_independence": false,
+  "time_step_independence": false,
+  "steady_force_plateau_claim": false,
+  "mean_lift_zero_gate": false,
+  "global_transient_momentum_balance_claim": false,
+  "owner_reflection_provided": false,
+  "contributions": {
+    "user": "Directed model progression and visual priorities; reflection/independent execution unprovided",
+    "Codex": "Prepared and operated model scripts; checked native evidence and assembled visuals/record",
+    "ANSYS_Fluent_and_OpenFOAM": "Computed their own actual native fields, forces and residuals"
+  }
+}

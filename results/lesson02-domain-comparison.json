@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "outer_radius_m": 20,
+      "drag_coefficient": 2.0731581,
+      "cells": 98304,
+      "change_from_preceding_percent": null
+    },
+    {
+      "outer_radius_m": 40,
+      "drag_coefficient": 2.0305332,
+      "cells": 112128,
+      "change_from_preceding_percent": 2.0991973930788377
+    },
+    {
+      "outer_radius_m": 80,
+      "drag_coefficient": 2.0126077,
+      "cells": 125952,
+      "change_from_preceding_percent": 0.8906604103720557
+    },
+    {
+      "outer_radius_m": 160,
+      "drag_coefficient": 2.0047797,
+      "cells": 139776,
+      "change_from_preceding_percent": 0.39046684281571636
+    },
+    {
+      "outer_radius_m": 320,
+      "drag_coefficient": 2.0012404,
+      "cells": 153600,
+      "change_from_preceding_percent": 0.1768553143340456
+    }
+  ],
+  "learning_target_percent": 0.2,
+  "physical_accuracy_bound": false,
+  "note": "Same original core grid through radius 20D; outer radial rings added. No benchmark validation."
+}

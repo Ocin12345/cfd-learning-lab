@@ -1,0 +1,43 @@
+FoamFile
+{
+ version 2.0;
+ format ascii;
+ class dictionary;
+ object functions;
+}
+
+transportTemperature
+{
+ type scalarTransport;
+ libs ("libsolverFunctionObjects.so");
+ field T;
+ phi phi;
+ diffusivity constant;
+ D 0.01;
+ executeControl timeStep;
+ executeInterval 1;
+ writeControl timeStep;
+ writeInterval 1;
+}
+temperatureGradient
+{
+ type grad;
+ libs ("libfieldFunctionObjects.so");
+ field T;
+ result gradT;
+ executeControl timeStep;
+ executeInterval 1;
+ writeControl timeStep;
+ writeInterval 1;
+}
+frozenRuntimeFields
+{
+ type writeObjects;
+ libs ("libutilityFunctionObjects.so");
+ objects (U p phi);
+ writeOption anyWrite;
+ executeControl timeStep;
+ executeInterval 1;
+ writeControl timeStep;
+ writeInterval 1;
+}

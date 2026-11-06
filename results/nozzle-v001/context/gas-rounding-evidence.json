@@ -1,0 +1,53 @@
+{
+  "reviewer": "root",
+  "method": "Effective gas constant p/(rho*T) inferred from selected native saved fields; total temperature T+|U|^2/(2Cp), nominal Cp1004.675",
+  "nominal_R_J_kg_K": 287.05,
+  "Fluent": {
+    "effective_R_J_kg_K": {
+      "minimum": 287.0503401690455,
+      "median": 287.05034016904557,
+      "maximum": 287.0503401690456
+    },
+    "total_temperature_K": {
+      "minimum": 299.97455877689345,
+      "median": 299.9995715646065,
+      "maximum": 300.02462731544057
+    }
+  },
+  "OpenFOAM": {
+    "effective_R_J_kg_K": {
+      "minimum": 287.05017168343204,
+      "median": 287.05017168345427,
+      "maximum": 287.05017168347683
+    },
+    "total_temperature_K": {
+      "minimum": 291.2737220719253,
+      "median": 300.06853079839374,
+      "maximum": 300.94208877073356
+    }
+  },
+  "interpretation": "Nominal gas constants match; installed property rounding differs at about one part per million. This does not establish convergence or physical validation and is not assumed to cause earlier instability.",
+  "sources": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\fluent-checks-v002\\native-cell-fields.npz",
+      "sha256": "48a36f0b05112f5d51d7fd55d4685a953423fc0bb3644d5ccf88b7da5bde4318"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\U",
+      "sha256": "f514193fcbe7d857c3b9374fd3c694c36846a92730e47a30b0e97e2c3eda3468"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\p",
+      "sha256": "ad60de9960b45dda72f978d2b10277df30506a135cc038a15256a9858ff2a29d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\T",
+      "sha256": "117c42d9df0c26149f38b41b0d0f5e11d2d708f8bca3adc71b1b98cb7354f7dd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\rho",
+      "sha256": "4283f423bca19fee5c17306bf8a751bbb462f376c62c4ec4b22d10d7db00db62"
+    }
+  ],
+  "physical_validation": false
+}

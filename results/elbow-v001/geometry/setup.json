@@ -1,0 +1,56 @@
+{
+  "model": "Planar90-degree channel bend",
+  "cells": 3200,
+  "dx_m": 0.01,
+  "dy_m": 0.01,
+  "density_kg_m3": 1.0,
+  "dynamic_viscosity_Pa_s": 0.001,
+  "kinematic_viscosity_m2_s": 0.001,
+  "inlet_velocity_m_s": [
+    0.1,
+    0.0
+  ],
+  "outlet_gauge_pressure_Pa": 0.0,
+  "Re_inlet": 20.0,
+  "reference_length_m": 0.2,
+  "reference_velocity_m_s": 0.1,
+  "reference_depth_m": 1.0,
+  "openfoam_extrusion_depth_m": 0.01,
+  "operating_pressure_Pa": 0.0,
+  "initial_velocity_m_s": [
+    0.0,
+    0.0
+  ],
+  "initial_pressure_Pa": 0.0,
+  "expected_flow_per_unit_depth_m2_s": {
+    "inlet": 0.02,
+    "outlet": 0.02
+  },
+  "boundary_names": [
+    "inlet",
+    "outlet",
+    "walls"
+  ],
+  "geometry_checks": {
+    "nodes": 3381,
+    "faces": 6580,
+    "interior_faces": 6220,
+    "boundary_faces": {
+      "inlet": 20,
+      "outlet": 20,
+      "walls": 320
+    },
+    "positive_areas": true,
+    "total_area_m2": 0.32000000000000006,
+    "minimum_area_m2": 9.999999999996123e-05,
+    "euler_characteristic": 1,
+    "orthogonality_proxy_min": 1.0
+  },
+  "mesh_sha256": "0cb3ecc6aa3c5cb0021b8b631c64c9494ec79edb5603298091ae342698a5dcb5",
+  "geometry_npz_sha256": "dcd16a32711d0c36317eb62c42b72459cf3cb902d3767229fa53d6cac9da6b29",
+  "generated_by": "Codex",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "scalar_mixing_simulated": false,
+  "three_dimensional_secondary_flow_simulated": false
+}

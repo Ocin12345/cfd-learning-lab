@@ -1,0 +1,30 @@
+{
+  "kind": "Saved-case replay; no physical validation",
+  "additional_iterations": 100,
+  "samples": 101,
+  "initial": {
+    "additional_iteration": 0,
+    "drag_force_N": 1.0365787,
+    "drag_coefficient": 2.0731574,
+    "pressure_drag_N": 0.62342185,
+    "viscous_drag_N": 0.41315685,
+    "lift_force_N": 1.8737109e-07,
+    "lift_coefficient": 3.7474219e-07
+  },
+  "final": {
+    "additional_iteration": 100,
+    "drag_force_N": 1.036579,
+    "drag_coefficient": 2.0731581,
+    "pressure_drag_N": 0.62342193,
+    "viscous_drag_N": 0.4131571,
+    "lift_force_N": 2.4147351e-15,
+    "lift_coefficient": 4.8294702e-15
+  },
+  "last20_drag_relative_range": 0.0,
+  "last20_lift_absolute_range": 3.2751578999999997e-15,
+  "last20_max_absolute_lift": 8.1046281e-15,
+  "drag_stability_pass": true,
+  "lift_stability_pass": true,
+  "native_case_saved": true,
+  "convergence_checks_temporarily_disabled": true
+}

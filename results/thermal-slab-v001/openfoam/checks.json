@@ -1,0 +1,1209 @@
+{
+  "solver": "OpenFOAM Foundation14 solid",
+  "actual_settings": {
+    "model": "Genuine transient 2D constant-property solid heat conduction",
+    "intended_cells": 2000,
+    "nx": 100,
+    "ny": 20,
+    "length_m": 0.1,
+    "height_m": 0.02,
+    "extrusion_depth_m": 0.01,
+    "rho_kg_m3": 1000,
+    "Cv_J_kg_K": 1000,
+    "Cp_J_kg_K": 1000,
+    "kappa_W_m_K": 10,
+    "alpha_m2_s": 1e-05,
+    "initial_T_K": 300,
+    "hot_T_K": 400,
+    "cold_T_K": 300,
+    "insulated_patches": [
+      "insulated_bottom",
+      "insulated_top"
+    ],
+    "temperature_only": true,
+    "solver": "OpenFOAM Foundation14 solid",
+    "material_model": "constSolidThermo; Cp() returns Cv(); e=Cv*T internally, e NO_WRITE",
+    "time_scheme": "Euler",
+    "time_step_s": 2,
+    "time_steps": 100,
+    "final_time_s": 200,
+    "saved_times_s": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46,
+      48,
+      50,
+      52,
+      54,
+      56,
+      58,
+      60,
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84,
+      86,
+      88,
+      90,
+      92,
+      94,
+      96,
+      98,
+      100,
+      102,
+      104,
+      106,
+      108,
+      110,
+      112,
+      114,
+      116,
+      118,
+      120,
+      122,
+      124,
+      126,
+      128,
+      130,
+      132,
+      134,
+      136,
+      138,
+      140,
+      142,
+      144,
+      146,
+      148,
+      150,
+      152,
+      154,
+      156,
+      158,
+      160,
+      162,
+      164,
+      166,
+      168,
+      170,
+      172,
+      174,
+      176,
+      178,
+      180,
+      182,
+      184,
+      186,
+      188,
+      190,
+      192,
+      194,
+      196,
+      198,
+      200
+    ],
+    "GIF_times_s": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80,
+      84,
+      88,
+      92,
+      96,
+      100,
+      104,
+      108,
+      112,
+      116,
+      120,
+      124,
+      128,
+      132,
+      136,
+      140,
+      144,
+      148,
+      152,
+      156,
+      160,
+      164,
+      168,
+      172,
+      176,
+      180,
+      184,
+      188,
+      192,
+      196,
+      200
+    ],
+    "mpi_processes": 2,
+    "PIMPLE_outer_correctors": 1,
+    "nonorthogonal_correctors": 0,
+    "linear_energy_solver": "PCG DIC; tolerance1e-12; relTol0",
+    "energy_relaxation": 1,
+    "final_linear_energy_residual_target": 1e-10,
+    "temperature_limits_K": [
+      300,
+      400
+    ],
+    "temperature_limit_tolerance_K": 1e-06,
+    "y_spread_target_K": 1e-06,
+    "native_heat_rate_convention": "wallHeatFlux positive INTO solid; native field W/m2; native table patch QW integrates actualfacearea once",
+    "energy_reference_T_K": 300,
+    "energy_definition": "sum actualcells rho*Cv*V*(T-300)",
+    "Qref_W": 2,
+    "Euler_energy_relative_definition": "abs((En-Eprev)/dt-sumQin)/max(sum(abs(Qin_each_wall)),abs((En-Eprev)/dt),Qref)",
+    "Euler_energy_relative_target": 1e-05,
+    "analytic_final_max_error_target_K": 0.5,
+    "analytic_final_RMS_error_target_K": 0.25,
+    "analytic_final_only_gate": true,
+    "analytic_series_terms": [
+      80,
+      160
+    ],
+    "analytic_series_difference_target_K": 1e-09,
+    "reference_sha256": "550c050d4294c08d0fb3905d06a2eeda7c82bb44397072a3dd261db1a6d9846a",
+    "mesh_source_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\mesh\\slab.msh",
+    "mesh_source_sha256": "2b67a0ec8233c6e34f51a413d6a1499b7a5d769a4e464854fd8f3ac86dfd5d3d",
+    "geometry_sha256": "3827f88fc975a0b30ae1d0739ff17ace05a31dd58f025cfb0fbc88e05e9fa96e",
+    "official_sources": {
+      "applications/solvers/foamRun/foamRun.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/applications/solvers/foamRun/foamRun.C",
+      "applications/modules/solid/solid.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/applications/modules/solid/solid.C",
+      "src/thermophysicalModels/solidThermo/constSolidThermo/constSolidThermo.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/thermophysicalModels/solidThermo/constSolidThermo/constSolidThermo.C",
+      "src/thermophysicalModels/solidThermo/solidThermo/solidThermo.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/thermophysicalModels/solidThermo/solidThermo/solidThermo.C",
+      "src/ThermophysicalTransportModels/solid/isotropic/isotropic.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/ThermophysicalTransportModels/solid/isotropic/isotropic.C",
+      "src/ThermophysicalTransportModels/solid/solidThermophysicalTransportModel/solidThermophysicalTransportModel.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/ThermophysicalTransportModels/solid/solidThermophysicalTransportModel/solidThermophysicalTransportModel.C",
+      "src/functionObjects/field/wallHeatFlux/wallHeatFlux.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/functionObjects/field/wallHeatFlux/wallHeatFlux.C",
+      "src/functionObjects/field/wallHeatFlux/wallHeatFlux.H": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/functionObjects/field/wallHeatFlux/wallHeatFlux.H",
+      "src/functionObjects/field/writeCellCentres/writeCellCentres.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/functionObjects/field/writeCellCentres/writeCellCentres.C",
+      "src/functionObjects/field/writeCellVolumes/writeCellVolumes.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/functionObjects/field/writeCellVolumes/writeCellVolumes.C",
+      "src/finiteVolume/finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.C": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/finiteVolume/finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.C",
+      "tutorials/multiRegion/CHT/coolingCylinder2D/constant/solid/physicalProperties": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/tutorials/multiRegion/CHT/coolingCylinder2D/constant/solid/physicalProperties",
+      "tutorials/multiRegion/CHT/coolingCylinder2D/system/solid/fvSolution": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/tutorials/multiRegion/CHT/coolingCylinder2D/system/solid/fvSolution",
+      "tutorials/multiRegion/CHT/coolingCylinder2D/system/solid/fvSchemes": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/tutorials/multiRegion/CHT/coolingCylinder2D/system/solid/fvSchemes"
+    },
+    "physical_validation": false,
+    "mesh_independence_established": false,
+    "time_step_independence_established": false,
+    "limitation": "First-order dt2s coarsely resolves initial incompatible hot-boundary jump; all-time analytic errors retained without all-time accuracy gate"
+  },
+  "case": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002",
+  "actual_native_mesh_quality": {
+    "cells": 2000,
+    "minimum_volume_m3": 9.9999999999998e-09,
+    "maximum_nonorthogonality_degrees": 0.0,
+    "maximum_skewness": 8.3266726846884e-14
+  },
+  "actual_native_patches": {
+    "hot": {
+      "kind": "wall",
+      "count": 20,
+      "start": 3880
+    },
+    "cold": {
+      "kind": "wall",
+      "count": 20,
+      "start": 3900
+    },
+    "insulated_bottom": {
+      "kind": "wall",
+      "count": 100,
+      "start": 3920
+    },
+    "insulated_top": {
+      "kind": "wall",
+      "count": 100,
+      "start": 4020
+    },
+    "frontAndBackPlanes": {
+      "kind": "empty",
+      "count": 4000,
+      "start": 4120
+    }
+  },
+  "actual_cell_mapping": {
+    "native_cells": 2000,
+    "source_cells": 2000,
+    "centre_max_error_m": 1.0005885009434223e-14,
+    "area_max_error_m2": 3.4961284897921246e-19,
+    "vertex_max_error_m": 1.3877787807814457e-17,
+    "source_vertices_per_plane": 2121,
+    "native_vertices": 4242,
+    "native_to_source_cells_bijective": true,
+    "native_to_grid_bijective": true,
+    "projected_vertex_bijection_each_plane": true,
+    "ordering_assumed": false
+  },
+  "actual_times_s": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98,
+    100,
+    102,
+    104,
+    106,
+    108,
+    110,
+    112,
+    114,
+    116,
+    118,
+    120,
+    122,
+    124,
+    126,
+    128,
+    130,
+    132,
+    134,
+    136,
+    138,
+    140,
+    142,
+    144,
+    146,
+    148,
+    150,
+    152,
+    154,
+    156,
+    158,
+    160,
+    162,
+    164,
+    166,
+    168,
+    170,
+    172,
+    174,
+    176,
+    178,
+    180,
+    182,
+    184,
+    186,
+    188,
+    190,
+    192,
+    194,
+    196,
+    198,
+    200
+  ],
+  "actual_time_metadata": [
+    {
+      "beginTime": 0.0,
+      "value": 2.0,
+      "index": 1.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 4.0,
+      "index": 2.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 6.0,
+      "index": 3.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 8.0,
+      "index": 4.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 10.0,
+      "index": 5.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 12.0,
+      "index": 6.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 14.0,
+      "index": 7.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 16.0,
+      "index": 8.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 18.0,
+      "index": 9.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 20.0,
+      "index": 10.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 22.0,
+      "index": 11.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 24.0,
+      "index": 12.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 26.0,
+      "index": 13.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 28.0,
+      "index": 14.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 30.0,
+      "index": 15.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 32.0,
+      "index": 16.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 34.0,
+      "index": 17.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 36.0,
+      "index": 18.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 38.0,
+      "index": 19.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 40.0,
+      "index": 20.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 42.0,
+      "index": 21.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 44.0,
+      "index": 22.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 46.0,
+      "index": 23.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 48.0,
+      "index": 24.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 50.0,
+      "index": 25.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 52.0,
+      "index": 26.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 54.0,
+      "index": 27.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 56.0,
+      "index": 28.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 58.0,
+      "index": 29.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 60.0,
+      "index": 30.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 62.0,
+      "index": 31.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 64.0,
+      "index": 32.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 66.0,
+      "index": 33.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 68.0,
+      "index": 34.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 70.0,
+      "index": 35.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 72.0,
+      "index": 36.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 74.0,
+      "index": 37.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 76.0,
+      "index": 38.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 78.0,
+      "index": 39.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 80.0,
+      "index": 40.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 82.0,
+      "index": 41.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 84.0,
+      "index": 42.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 86.0,
+      "index": 43.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 88.0,
+      "index": 44.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 90.0,
+      "index": 45.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 92.0,
+      "index": 46.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 94.0,
+      "index": 47.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 96.0,
+      "index": 48.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 98.0,
+      "index": 49.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 100.0,
+      "index": 50.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 102.0,
+      "index": 51.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 104.0,
+      "index": 52.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 106.0,
+      "index": 53.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 108.0,
+      "index": 54.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 110.0,
+      "index": 55.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 112.0,
+      "index": 56.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 114.0,
+      "index": 57.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 116.0,
+      "index": 58.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 118.0,
+      "index": 59.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 120.0,
+      "index": 60.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 122.0,
+      "index": 61.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 124.0,
+      "index": 62.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 126.0,
+      "index": 63.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 128.0,
+      "index": 64.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 130.0,
+      "index": 65.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 132.0,
+      "index": 66.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 134.0,
+      "index": 67.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 136.0,
+      "index": 68.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 138.0,
+      "index": 69.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 140.0,
+      "index": 70.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 142.0,
+      "index": 71.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 144.0,
+      "index": 72.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 146.0,
+      "index": 73.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 148.0,
+      "index": 74.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 150.0,
+      "index": 75.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 152.0,
+      "index": 76.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 154.0,
+      "index": 77.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 156.0,
+      "index": 78.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 158.0,
+      "index": 79.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 160.0,
+      "index": 80.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 162.0,
+      "index": 81.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 164.0,
+      "index": 82.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 166.0,
+      "index": 83.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 168.0,
+      "index": 84.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 170.0,
+      "index": 85.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 172.0,
+      "index": 86.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 174.0,
+      "index": 87.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 176.0,
+      "index": 88.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 178.0,
+      "index": 89.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 180.0,
+      "index": 90.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 182.0,
+      "index": 91.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 184.0,
+      "index": 92.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 186.0,
+      "index": 93.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 188.0,
+      "index": 94.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 190.0,
+      "index": 95.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 192.0,
+      "index": 96.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 194.0,
+      "index": 97.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 196.0,
+      "index": 98.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 198.0,
+      "index": 99.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    },
+    {
+      "beginTime": 0.0,
+      "value": 200.0,
+      "index": 100.0,
+      "deltaT": 2.0,
+      "deltaT0": 2.0
+    }
+  ],
+  "actual_saved_temperature_states": 101,
+  "actual_saved_temperature_values": 202000,
+  "native_volume_field": "Vc",
+  "native_initial_volume_field": "0/Vc",
+  "native_final_volume_field": "200/Vc",
+  "physical_time": true,
+  "flow_equations_solved": false,
+  "field_ranges": {
+    "Tmin_K": 300.0,
+    "Tmax_K": 399.3578673213,
+    "final_Tmin_K": 300.35887117022,
+    "final_Tmax_K": 399.3578673213,
+    "max_y_spread_K": 4.800426722795237e-10
+  },
+  "residuals": {
+    "definition": "Printed final PCG energy linear-system residual for each of100actual Euler steps; initial residual recorded separately and is not the gate",
+    "maximum_printed_initial_energy_residual": 0.99999999999997,
+    "maximum_printed_final_energy_residual": 9.9639575948522e-13,
+    "terminal_initial_energy_residual": 0.00088735978004945,
+    "terminal_final_energy_residual": 6.3641881003713e-13,
+    "norm_equivalent_to_fluent": false
+  },
+  "native_heat_rates": {
+    "patch_order": [
+      "hot",
+      "cold",
+      "insulated_bottom",
+      "insulated_top"
+    ],
+    "convention": "positive INTO solid; wallHeatFlux field W/m2 integrated once over actual nativefaceareas; native table Q alreadyW",
+    "table": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\postProcessing\\wallHeatRates\\0\\wallHeatFlux.dat",
+    "same_time_identical_duplicate_rows": 0,
+    "maximum_field_table_scaled_Q_difference": 1.3265486270428206e-14,
+    "field_table_scaled_Q_target": 1e-05,
+    "maximum_abs_insulated_Q_W": 0.0,
+    "final_Q_inward_W": [
+      2.56853071481801,
+      -1.435484680922988,
+      0.0,
+      0.0
+    ],
+    "final_energy_J": 885.1890498508678
+  },
+  "global_energy_balance": {
+    "definition": "Euler storage=sumrhoCvV(Tn-Tprev)/2s; residualstorage-sumQin; denominator max(sumabsQwalls,absstorage,Qref2W)",
+    "target": 1e-05,
+    "maximum_relative_error": 6.386218518425234e-12,
+    "maximum_absolute_residual_W": 2.5653479340803642e-11,
+    "final_relative_error": 3.5078919886466717e-12,
+    "all_cell_thermal_flux_conservation_claimed": false
+  },
+  "analytical_verification": {
+    "reference_sha256": "550c050d4294c08d0fb3905d06a2eeda7c82bb44397072a3dd261db1a6d9846a",
+    "cell_average": true,
+    "reference_terms": 80,
+    "series_check_terms": 160,
+    "max_series_difference_K": 0.0,
+    "final_t200_max_error_K": 0.1740601233519783,
+    "final_t200_volume_weighted_RMS_error_K": 0.1229763702719236,
+    "all_time_max_error_K": 12.527370478194882,
+    "all_time_max_error_time_s": 2,
+    "all_time_accuracy_gate": false,
+    "final_max_error_target_K": 0.5,
+    "final_RMS_error_target_K": 0.25,
+    "initial_T_reference_explicit300": true
+  },
+  "checks": {
+    "exact_Euler_solid_material_boundary_and_solver_dictionaries": true,
+    "source_mesh_geometry_reference_and_prepared_hashes_match": true,
+    "full_checkMesh_exact_native_topology_positive_oriented_volumes": true,
+    "actual_initial_final_C_Vc_match_static_oriented_geometry": true,
+    "actual_cells_grid_vertices_and_source_quads_bijective": true,
+    "every_step_final_linear_energy_residual_le_1e_10": true,
+    "all101_actual_native_T_states_finite_and_correct_counts": true,
+    "initial_actual_interior_temperature_exact300K": true,
+    "all_native_T_within_300_400_K_tolerance1e_6": true,
+    "all_times_max_y_spread_le_1e_6_K": true,
+    "actual_native_times_indices_and_dt2_match_all100_steps": true,
+    "native_wall_heat_field_table_Q_crosscheck_le_1e_5_scaled": true,
+    "actual_hot_heats_and_cold_cools_with_inward_Q_convention": true,
+    "analytic_80_vs160_series_terms_le_1e_9_K": true,
+    "every_Euler_step_global_energy_relative_error_le_1e_5": true,
+    "final_t200_cell_average_analytic_max_error_le_0p5K": true,
+    "final_t200_cell_average_analytic_RMS_error_le_0p25K": true,
+    "reviewed_thermal_execution_sources_match_root_authorization": true,
+    "actual_installed_solid_thermo_heat_flux_sources_hashes_match": true,
+    "all_native_and_source_inputs_unchanged_during_read_only_audit": true
+  },
+  "check_results": {
+    "exact_Euler_solid_material_boundary_and_solver_dictionaries": true,
+    "source_mesh_geometry_reference_and_prepared_hashes_match": true,
+    "full_checkMesh_exact_native_topology_positive_oriented_volumes": true,
+    "actual_initial_final_C_Vc_match_static_oriented_geometry": true,
+    "actual_cells_grid_vertices_and_source_quads_bijective": true,
+    "every_step_final_linear_energy_residual_le_1e_10": true,
+    "all101_actual_native_T_states_finite_and_correct_counts": true,
+    "initial_actual_interior_temperature_exact300K": true,
+    "all_native_T_within_300_400_K_tolerance1e_6": true,
+    "all_times_max_y_spread_le_1e_6_K": true,
+    "actual_native_times_indices_and_dt2_match_all100_steps": true,
+    "native_wall_heat_field_table_Q_crosscheck_le_1e_5_scaled": true,
+    "actual_hot_heats_and_cold_cools_with_inward_Q_convention": true,
+    "analytic_80_vs160_series_terms_le_1e_9_K": true,
+    "every_Euler_step_global_energy_relative_error_le_1e_5": true,
+    "final_t200_cell_average_analytic_max_error_le_0p5K": true,
+    "final_t200_cell_average_analytic_RMS_error_le_0p25K": true,
+    "reviewed_thermal_execution_sources_match_root_authorization": true,
+    "actual_installed_solid_thermo_heat_flux_sources_hashes_match": true,
+    "all_native_and_source_inputs_unchanged_during_read_only_audit": true
+  },
+  "failed_checks": [],
+  "all_checks_passed": true,
+  "all_declared_checks_passed": true,
+  "audited_fields_npz": "fields.npz",
+  "audited_fields_npz_sha256": "0acddf2fcdf9ca3e39984267e9fd31ef968f64eea05b4fcf8db9a2faff4e9dc4",
+  "physical_validation": false,
+  "mesh_independence_established": false,
+  "time_step_independence_established": false,
+  "limitations": "Ideal generic constant-property 1D conduction; boundary jump initially incompatible and early transient coarsely resolved by Euler2s; all-time errors retained",
+  "no_invented_initial_heat_rate_or_residual": true
+}

@@ -1,0 +1,340 @@
+{
+  "solver": "ANSYS Fluent Student 2026 R1",
+  "analysis_completed": true,
+  "check_results": {
+    "execution_status_read": true,
+    "summary_read": true,
+    "actual_settings_read": true,
+    "native_mesh_quality_read": true,
+    "declared_targets_read": true,
+    "source_provenance_read": true,
+    "recorded_mesh_folder_within_selected_run": true,
+    "shared_geometry_setup_read": true,
+    "declared_numerical_targets_unchanged": true,
+    "native_execution_completed": true,
+    "bounded_shared_mesh_count": true,
+    "native_mesh_quality_gate": true,
+    "executed_source_matches_prelaunch_hash": true,
+    "native_mesh_and_geometry_match_prelaunch_hashes": true,
+    "actual_settings_match_declared_physics_and_numerics": true,
+    "native_final_data_present": true,
+    "native_final_case_present": true,
+    "native_residual_history_valid": true,
+    "final_residuals_le_1e_5": false,
+    "actual_iteration_cap_1200": true,
+    "saved_native_iteration_matches_driver_summary": true,
+    "all_native_3d_fields_finite_and_materials_match": true,
+    "native_mass_balance_report_valid": true,
+    "relative_mass_imbalance_le_1e_4": true,
+    "native_per_iteration_force_history_valid": true,
+    "native_force_monitor_order_directions_and_wing_zone": true,
+    "native_force_final_iteration_matches_residual": true,
+    "force_stability_has_100_samples": true,
+    "last100_Cd_relative_range_le_1e_3": true,
+    "last100_Cl_relative_range_le_1e_3": true,
+    "shared_mesh_source_wing.msh": true,
+    "shared_mesh_source_geometry.npz": true,
+    "shared_mesh_source_executed-mesher.py": true,
+    "shared_mesh_source_profile.json": true,
+    "native_solver-transcript.txt": true,
+    "native_checkpoints.json": true,
+    "inputs_unchanged_during_analysis": true
+  },
+  "failed_checks": [
+    "final_residuals_le_1e_5"
+  ],
+  "evidence": {
+    "status": {
+      "stage": "completed",
+      "time": "2026-11-01T20:25:59.470556+08:00",
+      "kind": "finite-wing-steady-Re400",
+      "actual_iterations": 1200,
+      "total_iteration_cap": 1200,
+      "final_scaled_residuals": {
+        "continuity": 0.00015777199615669686,
+        "x-velocity": 9.819071018069798e-08,
+        "y-velocity": 1.9721832084935901e-07,
+        "z-velocity": 4.485385556306089e-08
+      },
+      "native_final_saved": true,
+      "native_case": "wing-final.cas.h5",
+      "native_data": "wing-final.dat.h5",
+      "native_per_iteration_force_file": "force-history.out",
+      "derived_force_csv": "force-history.csv",
+      "checkpoints": [
+        {
+          "iteration": 300,
+          "case": "wing-request01.cas.h5",
+          "data": "wing-request01.dat.h5",
+          "scaled_residuals": {
+            "continuity": 0.0001526591878453617,
+            "x-velocity": 9.621068827187991e-08,
+            "y-velocity": 1.9752923719540074e-07,
+            "z-velocity": 4.439642289453407e-08
+          }
+        },
+        {
+          "iteration": 600,
+          "case": "wing-request02.cas.h5",
+          "data": "wing-request02.dat.h5",
+          "scaled_residuals": {
+            "continuity": 0.00015776257289090993,
+            "x-velocity": 9.781159492244225e-08,
+            "y-velocity": 1.9713015442865195e-07,
+            "z-velocity": 4.4789849457674355e-08
+          }
+        },
+        {
+          "iteration": 900,
+          "case": "wing-request03.cas.h5",
+          "data": "wing-request03.dat.h5",
+          "scaled_residuals": {
+            "continuity": 0.00015755755066156207,
+            "x-velocity": 9.809613416051988e-08,
+            "y-velocity": 1.9709399964796297e-07,
+            "z-velocity": 4.459494817353852e-08
+          }
+        },
+        {
+          "iteration": 1200,
+          "case": "wing-request04.cas.h5",
+          "data": "wing-request04.dat.h5",
+          "scaled_residuals": {
+            "continuity": 0.00015777199615669686,
+            "x-velocity": 9.819071018069798e-08,
+            "y-velocity": 1.9721832084935901e-07,
+            "z-velocity": 4.485385556306089e-08
+          }
+        }
+      ],
+      "force_stability": "force-stability.json",
+      "targets": {
+        "maximum_total_iterations": 1200,
+        "checkpoints": [
+          300,
+          600,
+          900,
+          1200
+        ],
+        "residual_target": 1e-05,
+        "relative_mass_imbalance_target": 0.0001,
+        "minimum_orthogonal_quality": 0.1,
+        "force_stability_samples": 100,
+        "force_stability_relative_range_max": 0.001,
+        "force_stability_definition": "(max-min)/max(abs(mean),1e-3) for actual final100 consecutive iteration Cd and Cl",
+        "observation_after_convergence_maximum_iterations": 100,
+        "solver_processes": 2,
+        "mesh_independence": false,
+        "physical_validation": false,
+        "steady_visualization_only": true
+      },
+      "export_errors": [],
+      "physical_validation": false,
+      "numerical_checks": "Independent saved-native audit required; failed targets must remain visible",
+      "visualization": "Steady computed fields; animated tracers/cameras do not represent transient CFD"
+    },
+    "summary": {
+      "kind": "finite-wing-steady-Re400",
+      "actual_iterations": 1200,
+      "total_iteration_cap": 1200,
+      "final_scaled_residuals": {
+        "continuity": 0.00015777199615669686,
+        "x-velocity": 9.819071018069798e-08,
+        "y-velocity": 1.9721832084935901e-07,
+        "z-velocity": 4.485385556306089e-08
+      },
+      "native_final_saved": true,
+      "native_case": "wing-final.cas.h5",
+      "native_data": "wing-final.dat.h5",
+      "native_per_iteration_force_file": "force-history.out",
+      "derived_force_csv": "force-history.csv",
+      "checkpoints": [
+        {
+          "iteration": 300,
+          "case": "wing-request01.cas.h5",
+          "data": "wing-request01.dat.h5",
+          "scaled_residuals": {
+            "continuity": 0.0001526591878453617,
+            "x-velocity": 9.621068827187991e-08,
+            "y-velocity": 1.9752923719540074e-07,
+            "z-velocity": 4.439642289453407e-08
+          }
+        },
+        {
+          "iteration": 600,
+          "case": "wing-request02.cas.h5",
+          "data": "wing-request02.dat.h5",
+          "scaled_residuals": {
+            "continuity": 0.00015776257289090993,
+            "x-velocity": 9.781159492244225e-08,
+            "y-velocity": 1.9713015442865195e-07,
+            "z-velocity": 4.4789849457674355e-08
+          }
+        },
+        {
+          "iteration": 900,
+          "case": "wing-request03.cas.h5",
+          "data": "wing-request03.dat.h5",
+          "scaled_residuals": {
+            "continuity": 0.00015755755066156207,
+            "x-velocity": 9.809613416051988e-08,
+            "y-velocity": 1.9709399964796297e-07,
+            "z-velocity": 4.459494817353852e-08
+          }
+        },
+        {
+          "iteration": 1200,
+          "case": "wing-request04.cas.h5",
+          "data": "wing-request04.dat.h5",
+          "scaled_residuals": {
+            "continuity": 0.00015777199615669686,
+            "x-velocity": 9.819071018069798e-08,
+            "y-velocity": 1.9721832084935901e-07,
+            "z-velocity": 4.485385556306089e-08
+          }
+        }
+      ],
+      "force_stability": "force-stability.json",
+      "targets": {
+        "maximum_total_iterations": 1200,
+        "checkpoints": [
+          300,
+          600,
+          900,
+          1200
+        ],
+        "residual_target": 1e-05,
+        "relative_mass_imbalance_target": 0.0001,
+        "minimum_orthogonal_quality": 0.1,
+        "force_stability_samples": 100,
+        "force_stability_relative_range_max": 0.001,
+        "force_stability_definition": "(max-min)/max(abs(mean),1e-3) for actual final100 consecutive iteration Cd and Cl",
+        "observation_after_convergence_maximum_iterations": 100,
+        "solver_processes": 2,
+        "mesh_independence": false,
+        "physical_validation": false,
+        "steady_visualization_only": true
+      },
+      "export_errors": [],
+      "physical_validation": false,
+      "numerical_checks": "Independent saved-native audit required; failed targets must remain visible",
+      "visualization": "Steady computed fields; animated tracers/cameras do not represent transient CFD"
+    },
+    "mesh_quality": {
+      "minimum_orthogonal_quality": 0.106856,
+      "minimum_cell_volume_m3": 2.183165e-08,
+      "maximum_cell_volume_m3": 1.091489,
+      "total_cell_volume_m3": 1151.65,
+      "maximum_aspect_ratio": 12.3377,
+      "native_numeric_gate_pass": true,
+      "checked_before_flow": true,
+      "orthogonal_quality_floor": 0.1,
+      "positive_volume_required": true,
+      "source": "native mesh.check/quality transcript"
+    },
+    "declared_targets": {
+      "maximum_total_iterations": 1200,
+      "checkpoints": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "residual_target": 1e-05,
+      "relative_mass_imbalance_target": 0.0001,
+      "minimum_orthogonal_quality": 0.1,
+      "force_stability_samples": 100,
+      "force_stability_relative_range_max": 0.001,
+      "force_stability_definition": "(max-min)/max(abs(mean),1e-3) for actual final100 consecutive iteration Cd and Cl",
+      "observation_after_convergence_maximum_iterations": 100,
+      "solver_processes": 2,
+      "mesh_independence": false,
+      "physical_validation": false,
+      "steady_visualization_only": true
+    },
+    "residuals": {
+      "final_scaled": {
+        "iteration": 1200,
+        "continuity": 0.00015777199615669686,
+        "x-velocity": 9.819071018069798e-08,
+        "y-velocity": 1.9721832084935901e-07,
+        "z-velocity": 4.485385556306089e-08
+      },
+      "native_history_records": 1200,
+      "definition": "Saved native HDF residual data column0 / column1; no cross-code norm equivalence"
+    },
+    "fields": {
+      "SV_U": {
+        "cells": 169800,
+        "minimum": -0.0005431224541444547,
+        "maximum": 1.2173680943179768
+      },
+      "SV_V": {
+        "cells": 169800,
+        "minimum": -0.28474332293211946,
+        "maximum": 0.7671648530937014
+      },
+      "SV_W": {
+        "cells": 169800,
+        "minimum": -0.48615529337935703,
+        "maximum": 0.46779367408096145
+      },
+      "SV_P": {
+        "cells": 169800,
+        "minimum": -0.4721651380252237,
+        "maximum": 0.4994654241264761
+      },
+      "SV_DENSITY": {
+        "cells": 169800,
+        "minimum": 1.0,
+        "maximum": 1.0
+      },
+      "SV_MU_LAM": {
+        "cells": 169800,
+        "minimum": 0.0025,
+        "maximum": 0.0025
+      }
+    },
+    "mass_balance": {
+      "inlet": 96.0,
+      "outlet": -96.0,
+      "farfield": -0.0,
+      "Net": 2.7973212e-07,
+      "relative_imbalance": 2.91387625e-09,
+      "definition": "Native net mass flux / inlet mass flux; farfield row included in native net"
+    },
+    "forces": {
+      "samples": 1200,
+      "last": {
+        "iteration": 1200,
+        "Cd": 0.233084565694153,
+        "Cl": 0.3060407992125752
+      },
+      "stability": {
+        "Cd": {
+          "samples": 100,
+          "mean": 0.23308520490659956,
+          "minimum": 0.2330845153545402,
+          "maximum": 0.2330859186416011,
+          "relative_range": 6.020489638010553e-06
+        },
+        "Cl": {
+          "samples": 100,
+          "mean": 0.3060412749686028,
+          "minimum": 0.3060397046564903,
+          "maximum": 0.3060428641338995,
+          "relative_range": 1.0323697055314586e-05
+        }
+      },
+      "reference_area_m2": 4.0,
+      "reference_speed_m_s": 1.0,
+      "reference_density_kg_m3": 1.0
+    }
+  },
+  "errors": {},
+  "all_declared_checks_passed": false,
+  "physical_validation": false,
+  "mesh_independence_established": false,
+  "unsteady_stability_tested": false,
+  "solver_started_or_modified": false
+}

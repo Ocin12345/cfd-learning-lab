@@ -1,0 +1,188 @@
+{
+  "kind": "Fluent laminar T-junction merge saved-native audit",
+  "checks": {
+    "execution_status_read": true,
+    "summary_read": true,
+    "provenance_read": true,
+    "root_authorization_read": true,
+    "targets_read": true,
+    "native_quality_read": true,
+    "native_settings_read": true,
+    "native_physical_readback_read": true,
+    "native_inputs_bound_to_reviewed_authorization": true,
+    "native_completed_2000": true,
+    "native_quality_positive_volume_and_total0p44": true,
+    "native_final_physical_wall_and_numerical_settings": true,
+    "native_final_case_read": true,
+    "native_final_data_read": true,
+    "native1800_case_read": true,
+    "native1800_data_read": true,
+    "checkpoint500_case_read": true,
+    "checkpoint500_data_read": true,
+    "checkpoint1000_case_read": true,
+    "checkpoint1000_data_read": true,
+    "checkpoint1500_case_read": true,
+    "checkpoint1500_data_read": true,
+    "checkpoint1800_case_read": true,
+    "checkpoint1800_data_read": true,
+    "checkpoint2000_case_read": true,
+    "checkpoint2000_data_read": true,
+    "native_transcript_read": true,
+    "native_residual_history_complete": true,
+    "final_residuals_le_1e_6": true,
+    "source_geometry_read": true,
+    "native_topology_mapping_and_finite_fields": true,
+    "native1800_and2000_mesh_identical": true,
+    "final200_weighted_velocity_L2_relative_change_le_1e_3": true,
+    "full_native_face_flux_and_incidence_coverage": true,
+    "native_local_divergence_max_le_1e_5": true,
+    "native_local_divergence_rms_le_1e_6": true,
+    "native_face_relative_mass_imbalance_le_1e_4": true,
+    "native_wall_impermeable": true,
+    "native_incidence_sum_equals_boundary_flux": true,
+    "native_boundary_mass_report_read": true,
+    "native_report_relative_mass_imbalance_le_1e_4": true,
+    "native_per_iteration_mass_monitors_complete": true,
+    "native_per_iteration_monitors_complete": true,
+    "native_student_two_process_licence_and_no_fatal": true,
+    "saved_native_visualizations_created": true,
+    "all_hashed_native_inputs_unchanged": true
+  },
+  "evidence": {
+    "provenance": {
+      "source_sha256": "c71f86d5c7aaebf451bbfff6122c3a43a445420a13056469b9385bda34384252",
+      "mesh_sha256": "0de51603605decd4747a76322da8905516f2df194d2dd9c4158e08d8c5f0b555",
+      "geometry_npz_sha256": "671236b7bf7658fcbae5330b4cd6ce66c8e2dee9ff06753ebfc45c0a4cfb2949"
+    },
+    "settings": {
+      "inlets": {
+        "inlet_left": {
+          "velocity_specification_method": "Components",
+          "velocity_m_s": [
+            0.1,
+            0
+          ]
+        },
+        "inlet_top": {
+          "velocity_specification_method": "Components",
+          "velocity_m_s": [
+            0,
+            -0.1
+          ]
+        }
+      },
+      "wall_motion": "Stationary Wall",
+      "wall_shear_condition": "No Slip",
+      "outlet_gauge_pressure_Pa": 0,
+      "operating_pressure_Pa": 0.0,
+      "reference_depth_m": 1,
+      "density": 1.0,
+      "viscosity": 0.001,
+      "viscous_model": "laminar",
+      "energy_enabled": false
+    },
+    "native_residual_normalization_note": "If native momentum normalization is0 at iteration1 from rest, use its actual printed value verified against raw numerator. Later zero normalizations are rejected; terminal values match printed evidence.",
+    "final_scaled_residuals": {
+      "continuity": 1.8000808383934613e-14,
+      "x-velocity": 6.614958796638744e-17,
+      "y-velocity": 5.339744320163698e-17
+    },
+    "final200_max_scaled_residuals": {
+      "continuity": 1.893311135311295e-14,
+      "x-velocity": 6.938117805255283e-17,
+      "y-velocity": 5.660852304444764e-17
+    },
+    "unchanged_native_mesh_datasets": 32,
+    "velocity_stability": {
+      "endpoints": [
+        1800,
+        2000
+      ],
+      "weighted_velocity_L2_relative_change": 2.5904584844117e-16,
+      "definition": "sqrt(sum(source cell area*|U2000-U1800|\u00b2)/sum(source cell area*|U1800|\u00b2))"
+    },
+    "local_conservation": {
+      "native_faces": 9040,
+      "native_cells": 4400,
+      "max_cell_absolute_mass_sum_kg_s": 8.673617379884035e-19,
+      "sum_cell_absolute_mass_sum_kg_s": 4.443834776986171e-16,
+      "max_dimensionless_divergence": 1.7347234759768175e-14,
+      "rms_dimensionless_divergence": 3.589591977262608e-15,
+      "boundary_signed_mass_flux_kg_s": -6.5052130349130266e-18,
+      "boundary_absolute_face_mass_flux_sum_kg_s": 0.08,
+      "boundary_net_characteristic_normalized": 3.252606517456513e-16,
+      "incidence_sum_matches_boundary": true,
+      "normalization": "Cell divergence: sum signed native SV_FLUX/(rho*cell area*depth)*L/U; volume-weighted RMS",
+      "boundary_limitation": "Actual inlet and outlet mass fluxes define global conservation; local native all-cell flux divergence is checked separately",
+      "zones": {
+        "inlet_left": {
+          "faces": 20,
+          "native_signed_SV_FLUX_kg_s": -0.020000000000000004,
+          "absolute_face_flux_sum_kg_s": 0.020000000000000004
+        },
+        "inlet_top": {
+          "faces": 20,
+          "native_signed_SV_FLUX_kg_s": -0.020000000000000004,
+          "absolute_face_flux_sum_kg_s": 0.020000000000000004
+        },
+        "outlet": {
+          "faces": 20,
+          "native_signed_SV_FLUX_kg_s": 0.04,
+          "absolute_face_flux_sum_kg_s": 0.04
+        },
+        "walls": {
+          "faces": 420,
+          "native_signed_SV_FLUX_kg_s": 0.0,
+          "absolute_face_flux_sum_kg_s": 0.0
+        }
+      },
+      "actual_total_inlet_mass_flow_kg_s": 0.04000000000000001,
+      "relative_mass_imbalance": 1.6263032587282564e-16
+    },
+    "native_mass_report": {
+      "inlet_left": 0.02,
+      "inlet_top": 0.02,
+      "outlet": -0.04,
+      "walls": -0.0,
+      "Net": 1.3877788e-17,
+      "actual_total_inlet_mass_flow_kg_s": 0.04,
+      "relative_mass_imbalance": 3.469447e-16,
+      "definition": "abs(native Net)/actual sum of two positive native inlet mass flow reports; depth1m"
+    },
+    "massflow_monitors": {
+      "actual_rows": 2000,
+      "last": {
+        "iteration": 2000,
+        "mdot_inlet_left": 0.02000000000000001,
+        "mdot_inlet_top": 0.02000000000000001,
+        "mdot_outlet": -0.04000000000000001
+      }
+    },
+    "monitors": {
+      "actual_rows": 2000,
+      "last": {
+        "iteration": 2000,
+        "mean_speed": 0.1544103162270352,
+        "mean_pressure": 0.06827858416390659
+      }
+    },
+    "live_native_licence_and_log": {
+      "native_compute_processes": 2,
+      "student_version_verified": true
+    },
+    "derived_saved_native_images": [
+      "fluent-velocity.png",
+      "fluent-pressure.png",
+      "fluent-residuals.png"
+    ]
+  },
+  "errors": {},
+  "all_checks_passed": true,
+  "failed_checks": [],
+  "physical_validation": false,
+  "mesh_independence": false,
+  "boundary_note": "Global imbalance uses actual two-inlet mass flow sum; independent local divergence uses all native face fluxes.",
+  "pressure_note": "Native gauge pressure retained; outlet pressure0Pa.",
+  "analyser_sha256": "566d8dd4cc00ed66c3deaf2750e1c4a0221b4e030ad1369c5a5c066e2c9be3e4",
+  "mapping_helper_sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+}

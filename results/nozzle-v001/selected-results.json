@@ -1,0 +1,62 @@
+{
+  "selected_native_runs": {
+    "fluent": "fluent-order-control-v004",
+    "openfoam": "openfoam-order-control-v002"
+  },
+  "selection_reason": "One first-order control per code at unchanged mesh, physics, initialization, CFL schedule and original iteration caps; better numerical behaviour, with every genuine remaining miss retained. No additional CFD or iteration extensions.",
+  "selected_methods": {
+    "fluent": {
+      "scheme": "first-order-upwind",
+      "flux_type": "Roe-FDS",
+      "CFL": 3.0
+    },
+    "openfoam": {
+      "reconstruction": {
+        "rho": "upwind",
+        "U": "upwind",
+        "T": "upwind"
+      },
+      "flux_scheme": "Kurganov",
+      "time_scheme": "localEuler"
+    }
+  },
+  "Fluent": {
+    "aggregate": false,
+    "failed_checks": [
+      "final_residual_targets"
+    ]
+  },
+  "OpenFOAM": {
+    "aggregate": false,
+    "failed_checks": [
+      "final_native_relative_mass_imbalance_le_1e_4",
+      "last100_phi_history_max_relative_imbalance_le_1e_4",
+      "last_three_saved_states_relative_L2_U_p_T_le_1e_3"
+    ]
+  },
+  "preserved_preflow_attempts": [
+    {
+      "native_folder": "fluent",
+      "description": "API setup attempt; no flow iterations",
+      "stage": "failed",
+      "native_status_sha256": "79f26f1ba4fbe2f4169f9d1d9f2edd8ddbc75f3b8bff25d48697334cb9011b21"
+    },
+    {
+      "native_folder": "fluent-v002",
+      "description": "API setup attempt; no flow iterations",
+      "stage": "failed",
+      "native_status_sha256": "3fb583d01c3d8e9bba353d6fa2fbd82e869d3e5f583dad921c5783228e4a0da6"
+    },
+    {
+      "native_folder": "fluent-probe-v001",
+      "description": "Zero-iteration settings probe; not a flow solution",
+      "stage": "probe_completed",
+      "native_status_sha256": "4de0959b7f56a9fcb064fb4278a17b83bdf707e463d88a6206838a1030535d1b"
+    }
+  ],
+  "original_higher_order_diagnostics_preserved": true,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "owner_reflection_provided": false,
+  "first_order_numerical_diffusion_is_a_limitation": true
+}

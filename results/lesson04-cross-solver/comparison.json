@@ -1,0 +1,44 @@
+{
+  "reynolds_number": 20,
+  "cells": 98304,
+  "outer_radius_over_diameter": 20,
+  "span_m": 1,
+  "mesh_xy_max_difference_m": 0.0,
+  "source_mesh_sha256": "a2ad96efdec66c69b06b471eea1911d8758706a801401f457c588028bbe80737",
+  "openfoam": {
+    "final_iteration": 3000,
+    "Cd": 2.074829796625,
+    "Cl": -2.984396604373e-10,
+    "final_initial_residuals": {
+      "Ux": 1.82150248077e-09,
+      "Uy": 3.82028743973e-09,
+      "p": 2.55378364631e-10
+    },
+    "last100_Cd_relative_range": 3.7262375285113874e-07,
+    "boundary_mass_flux_kg_s": {
+      "inlet": -40.0,
+      "outlet": 39.99999999946612,
+      "cylinder": 0.0
+    },
+    "relative_mass_imbalance": 1.3347012384201662e-11
+  },
+  "fluent": {
+    "final_iteration": 151,
+    "Cd": 2.0731581,
+    "Cl": 4.8294702e-15,
+    "final_scaled_residuals": [
+      1.5088e-13,
+      2.9557e-17,
+      5.702e-18
+    ],
+    "last20_Cd_relative_range": 0.0,
+    "relative_mass_imbalance": 0.0,
+    "minimum_orthogonal_quality": 0.999985
+  },
+  "cross_code_Cd_difference_percent": 0.08063526968830237,
+  "cross_code_learning_target_percent": 0.5,
+  "cross_code_target_pass": true,
+  "numerical_checks_passed": true,
+  "physical_validation": false,
+  "note": "Distinct residual definitions and initialization; no performance or experimental-validation claim"
+}

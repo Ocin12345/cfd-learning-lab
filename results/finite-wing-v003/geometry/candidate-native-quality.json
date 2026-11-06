@@ -1,0 +1,16 @@
+{
+  "definition": "V / [(8/(9sqrt3))*R_circum^3], one minus equilateral volume skewness",
+  "minimum": 0.10685637448535378,
+  "percentile1": 0.2916690664427797,
+  "median": 0.7275878413058818,
+  "count_below_native_0p10": 0,
+  "count_below_candidate_0p105": 0,
+  "face_centre_orthogonality_proxy_minimum": 0.39430416121430595,
+  "required_candidate_floor": 0.105,
+  "all_candidate_tets_checked": 169800,
+  "candidate_gate_pass": true,
+  "native_fluent_quality_check_still_required": true,
+  "geometry_changed": false,
+  "repair_scope": "Interior relocation of only failing tetrahedron-star free nodes",
+  "witness": "node-relocation-witness.json"
+}

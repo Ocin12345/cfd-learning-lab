@@ -1,0 +1,15 @@
+{
+  "window": [
+    1801,
+    2000
+  ],
+  "samples": 200,
+  "mean_Cd": 2.8144310326314543,
+  "Cd_peak_to_peak": 3.1086244689504383e-15,
+  "Cd_peak_to_peak_over_abs_mean": 1.1045303412689837e-15,
+  "absolute_mean_Cl": 2.0555372047493733e-16,
+  "mean_Cl": -2.0555372047493733e-16,
+  "Cd_stability_pass": true,
+  "Cl_symmetry_pass": true,
+  "zero_mean_Cd_diagnostic": null
+}

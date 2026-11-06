@@ -1,0 +1,1018 @@
+{
+  "script_sha256": "74c510f1d3359ae3cdb018a05b35804615fafe82bd085efac51fd7428cdd960e",
+  "numerical_checks_passed": false,
+  "failed_checks": [
+    "openfoam.zero_angle_lift_diagnostic"
+  ],
+  "diagnostic_retention_requested": true,
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\input-airfoil.msh",
+      "sha256": "d9d0738a93516d8856b442422d5d65bbbf04ab088ac5ed6f1e218126d8eee4dc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\source-setup.json",
+      "sha256": "43bd49c7b2c2e5383a6f7206f0a10a0e765837a407cadb30704534c99f7e83e5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\declared-comparison.json",
+      "sha256": "72f5796a61440ca9b0926b3df9bd5d083a9e0b35e9c9221121a85581fcc9ab80"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\executed-prepare-script.py",
+      "sha256": "4116c711bee0eb2b015dbbbbbb0378c76f49fb4649e28da5587ad277d9eaced5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\preparation-provenance.json",
+      "sha256": "81255675720e02ea8324fff5a6196f9d81d1a1def2ec99864904314931021aa5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\run-status.json",
+      "sha256": "ad7e64a278011bb4697c174653ebdab877a98e034a74466a3da0eb357991ed4b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\mesh-check.log",
+      "sha256": "a3353592ae5e0dcb4a927e2dff0560025611e48a897c7c1cd2dd5b2954452e85"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\points",
+      "sha256": "fcc8162663235384bdde4f590682398f614373e9883f50213cea50ef3d3cfef6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\boundary",
+      "sha256": "95e6fde99696b257852e9f239d1d9d23f3a632ca91613c406f706a997194fb34"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\method-continuation-stage02.json",
+      "sha256": "2039d399f42c88ae7269b5d7b3f712dad20e2c0b3dd2a453e2aaf94ea11bc8f5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\system\\fvSolution.stage01",
+      "sha256": "a10306cf7fc880a7933e21368a4b0cc1b539361fb451cf5b7fa36ccfde2e15e2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\system\\fvSchemes.stage01",
+      "sha256": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\system\\controlDict.stage01",
+      "sha256": "e553ee732029de33cf09dc552f45e5aadcf722e6a74904714683b418e9af8f0a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\2000\\U",
+      "sha256": "d040e32eb51a3e778d5b5ea1e8171a25b9a893e5936ef0c927e9a0c2fc6fb9f7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\2000\\p",
+      "sha256": "0cb465febb8def5c22a235c3268eca8a526ce1657d58a304a6b58be7e77ebab6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\2000\\phi",
+      "sha256": "12d7f46c689e031a840808d2f072ec8a208a391980f131566498950b474d3bcb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\execution-continuations.json",
+      "sha256": "7861ba1d3028cc773520042b625b2d6eddcdf7d0997ffeb4c2997738877b2244"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\system\\controlDict.stage02",
+      "sha256": "64037d34debd0fc6d87da03176d8ed28a4925c4cd07d04b2a3ce8d7886ac5663"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\2500\\U",
+      "sha256": "9c1b65722e7a316539e123169ae75585cd3fc699b85c97c88ad3cfba72c409d4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\2500\\p",
+      "sha256": "8e44d85b9268619e89e3a8b0b59153352446c4307e13836e8ccfa7af13fde085"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\2500\\phi",
+      "sha256": "3d19bd09124f73cb16f998c889b360014a77fc535ba5b72463135f2a25701a56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\faces",
+      "sha256": "3816a5d60a406d0eeceba97a92f211c9f3d84ca917c3a6487f0e95f08d0cb17a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\owner",
+      "sha256": "1dc670ea4e80262293afc6cee1715c296c897f0ac050656c84175b1dce38f1aa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\neighbour",
+      "sha256": "3f8082a9d463b39f83d0be18d53f467e77fefa07585e04ccc25f7a21e55856ea"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_openfoam_airfoil_fields_v002.py",
+      "sha256": "4a1d09c8c4086e91952867983bcfa812fff67a1ed074522e729d675b1fca3abc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\5000\\p",
+      "sha256": "fa4445d3087a88a5976eb492a7c0f45f34dc3020eb8e61ef3c9559562462d277"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\5000\\U",
+      "sha256": "cc51c43dd09cf6687f7e92a5c112b09572b3a9831a556c470b5c0aacdcb2696f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\5000\\phi",
+      "sha256": "5366c0897af22573f8569c9c0335c96576943c54b6ff0160c4dffa0c57d933f7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\solver-stage02.log",
+      "sha256": "d907ffd6f95d03c88646b416ceed913e58550df51871b88ca9259920bb9c7701"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\solver-stage03.log",
+      "sha256": "a92d50f7e81c21fbcabfc0aac304dce557d055323cbaa42cc0b3f2070d3ceb4f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\solver.log",
+      "sha256": "b234b582bd9c74132a5da54a1cfc6bc1e9559c7bb67282f918f9e110bd8160d9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\postProcessing\\forceCoefficients\\0\\forceCoeffs.dat",
+      "sha256": "e006e4ad927b7341aff4331f4e1e8161f61d02d93f5aa5dcba25474c5fef1c91"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\postProcessing\\forceCoefficients\\2000\\forceCoeffs.dat",
+      "sha256": "68cff96e94c9eb29a48ccb8161cc7e210aa2c08f950f81474e75ac844b6e8e3a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\postProcessing\\forceCoefficients\\2500\\forceCoeffs.dat",
+      "sha256": "9c821b388d718b54b80e177f1b92f79a06979185882ed2c0a7540d19915e1485"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\system\\controlDict",
+      "sha256": "a140e131413f82849a691b48fc5cc71bb8d4a4d0de75ce823aae40ebd12727ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\system\\fvSchemes",
+      "sha256": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\system\\fvSolution",
+      "sha256": "d22639fb02f15d1bf337f3ea60c731d29a064173e3fd0cd4eebe3a5f4378d9b7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\constant\\physicalProperties",
+      "sha256": "a46dd6f0ebce97f252410989e7ab3c7f7a477d03e2de053390cec0e0de581a87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\constant\\momentumTransport",
+      "sha256": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\p",
+      "sha256": "43af3d525005e5fca04f883c76e3d53e2fc34da95b7e5ab6e2511f99c47a5239"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\U",
+      "sha256": "08f92b34323d4daea3defc9aaa3c360386f6cb112596f9690bd46e18a77ef74e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\loaded-settings.json",
+      "sha256": "a6d835bbdf5ec9954b4bb392d9116bf50844d4112866b84acb27e091caa8a8a5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\geometry-setup.json",
+      "sha256": "43bd49c7b2c2e5383a6f7206f0a10a0e765837a407cadb30704534c99f7e83e5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\declared-targets.json",
+      "sha256": "175449bb92d1f22fbd1cd4cf129271cef3e1ba61ea29ebd092a121f4a6115bfe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\summary.json",
+      "sha256": "2341161bb247cb0425d0c65e5f0471db967d8b36e1c08d126fbcc32ae2b33e3c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\force-history.csv",
+      "sha256": "02216660c26fd2eebae745bce4a9c1e0bfbff594b5b6b5687bc746dbd8c48d59"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\solver-transcript.txt",
+      "sha256": "062cffd6a963366231b10cc67806ad7c861758535d053c576b0d50bdeda02531"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\mass-balance.txt",
+      "sha256": "8bb884995fd07b8ad2fcccc5d0cfdf5e8cdc88b4f85a24e1a25305e2dfce589d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\airfoil-Re100-final.cas.h5",
+      "sha256": "1b4c437ad0b36669a6a35a7df7291ab33d57e9627731ee4ebbb8b473152967bb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\airfoil-Re100-final.dat.h5",
+      "sha256": "d6b9b04a50afa32f27537d3ca042c34bcecc06cac642d549fe79ad18f3c65d4f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-000.txt",
+      "sha256": "3c8d46cac129f2a13b99dd9bd22402aaa6657fac06055eca723cca68376f4088"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-000.txt",
+      "sha256": "0116234ce564028d50dcc8a362df1293ad1275c2b22afe3c6fba6eb976a14bed"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-001.txt",
+      "sha256": "99c50e0a5a546ad130c29771337a0c661230aa43105618d256368ad32469d395"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-001.txt",
+      "sha256": "ee8a58bdde383873852e567d09ea01b19cd6738b765111eba8aaa7767383b619"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-002.txt",
+      "sha256": "244fe2ccd6e4e71ce4dbfe13ba93b99b8648529a23a970f6702b615c59d39183"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-002.txt",
+      "sha256": "50f7a212b00b82dd6ea748148814ceff8cfb029f5e01c1afe9ef610b3e462290"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-003.txt",
+      "sha256": "f0dc682a1a579a13d7ca478fd6764d5e263b27c29527ce1b9498759f3d1a17ea"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-003.txt",
+      "sha256": "3045c8a34b9e3d97440bb228bc16ee80000b11388373fecf10544d2b00895c90"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-004.txt",
+      "sha256": "232742eec72fd465af2fe9e09691a49ae142a1fa01c4458fa0e3ddfcd89ba245"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-004.txt",
+      "sha256": "5a0a40856c98f4cf56ce4e7ce97e11a5844b8610a9a52eb781bc06929bc52acd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-005.txt",
+      "sha256": "7a1d1a13bce6ed8dd59ac296edc0472315819af47e095453b3b58ccd2bd60455"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-005.txt",
+      "sha256": "f257495fab029bff6ceb26521c31122003fb6d6130518b55ba71af74f1d591cb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-006.txt",
+      "sha256": "083e161be4f33ee144d3b5ed0ba31d74478b964165f7f06b79eeca0f95448930"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-006.txt",
+      "sha256": "2b3e6d84b65a4e39eabb47d640daaa39b8679d4bed8f835d8f008ce0a593787d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-007.txt",
+      "sha256": "11c5afeaa183073b5bb0903c36e9130f63ba00f09ba2cb0fa9676ae468f4e57d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-007.txt",
+      "sha256": "5908f8e7a40124754853b1085c18a7395497a41211de2bda7d0efb53c9d06a42"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-008.txt",
+      "sha256": "64cc907dc8b4649e2c1cc99ea542bfc6895932739827921ac95b1d076c61ecf2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-008.txt",
+      "sha256": "39ca5e6fe394278e13ba8547a52a42a024389f5781615b0838ebf08885cd1725"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-009.txt",
+      "sha256": "04b2f5235f43e6aad55b299f9454a3d14a29fd28a53b5f0293ecf66b8b4b943c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-009.txt",
+      "sha256": "ab01b0a51591a057e5ebb0a029715da6d95063f36cb65e7815e7700088d0b482"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-010.txt",
+      "sha256": "fbb38aadcb9094386b2eb87e01e0e8aa7a6dfa066239370a76c25c704bc513b6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-010.txt",
+      "sha256": "123512b78c96f02499eab954c8c5e4572db1aebea16a3e07ab887ea81df12cfb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-011.txt",
+      "sha256": "26c7099afaf0f41fd20d1534b976688cc179cd430deb18440d58ff329af7cf30"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-011.txt",
+      "sha256": "1756745122b1703d99678ade3b527f365b996696f80e18f38bd6ca8a03e5fbb1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-012.txt",
+      "sha256": "2406d6ce2b3145671a86eac148da1b751704c6a9463c39303c7e0d78c8b58413"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-012.txt",
+      "sha256": "8058c541edaf36c4bdac3bf94075dc96fa668183bf3af990cbd29e902e0a97b8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-013.txt",
+      "sha256": "4bc36ce83424bb1dc967b6f97af577ed8ad827cb020c7e1e3c99efbbfa2fe250"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-013.txt",
+      "sha256": "aca784f9e51b35b437a90c8d66813678b4dbacd060335e6355780767ba5a9305"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-014.txt",
+      "sha256": "ee71d532f2923e50792389b51ccbe2897dbd35bd73f2e412f06e90fb787bfe31"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-014.txt",
+      "sha256": "a7ee9da75385735fbc0059409050e98df0b1f4c69730e275496f30e8ce24894d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-015.txt",
+      "sha256": "68a6a23ab07804e143fc903640fd3e16b2cc58e491d7a1ef7d492f7863bf77f6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-015.txt",
+      "sha256": "47d9b1ac4b8d7bacc16de4385aa0d88b1f14b129f68fdb2f36e7510f12f96738"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-016.txt",
+      "sha256": "77861adedb601288d98e99bdc688ffa4582a6c8be5590cc9d31db010d3ff6f3a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-016.txt",
+      "sha256": "dded1a8a5996adbd4d8a5856be6f4d94051ed1ed131a4eb503d53e84d1786cc2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-017.txt",
+      "sha256": "7429fd512375bf147c0a08aab4a378ab99cf87b531c22921bdc833b6249e4d7c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-017.txt",
+      "sha256": "4a2f60f628863f649cb719d06473e470c4b3b6ca37d20638ac9acbb79ebc3dad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-018.txt",
+      "sha256": "39d5f7dec1af74889ea22c425fe277b93c694037a250d7f2f0e5335451cc349c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-018.txt",
+      "sha256": "100ef28553cdee5c6f227bff947627132750f5f96b93aa2c25b2f1542313ae6c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-019.txt",
+      "sha256": "c2f5757e4ebeb303549e3f44f222e25ee44bab0d469fab35d5c7213b7f4a6e93"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-019.txt",
+      "sha256": "2eecbd7e8f57777e8a1597755a67b3243442bb66624e5dd7509c241aa4481b7e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-020.txt",
+      "sha256": "3239250b6fe83180502f5271e800cb3f9b962920b3e4e4670eba443ba3fb2eea"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-020.txt",
+      "sha256": "a2c4faa5e7f052c44182d8ba8174be2905b40963c1378a6d93683f0f0581651c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-021.txt",
+      "sha256": "db3358e763710dd129f1a34e1d635f0801257e7e4fd7ec08dfbf1b83df3dd7e2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-021.txt",
+      "sha256": "dacef16538ea3631d5dfe014e91c1f3e503517a2c6eb18c808318794b4ddf0e3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-022.txt",
+      "sha256": "793591639948ac15f98a50fdb6b11e4e5573374c85b45bdb3dd254272b59c088"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-022.txt",
+      "sha256": "47adcc9f96b78f7f560ca03e0ad0c65f1aaaf4e9b716b5e0a83b267f9fe42cae"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-023.txt",
+      "sha256": "f3b17e4f3252327e728f959848036ffb11885aa7b723189e7f5eede922d510c8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-023.txt",
+      "sha256": "2c41bde3d08e1550d07b4189b6fddcef28a8f8bd9cc749c52008d303586685de"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-024.txt",
+      "sha256": "35336bd49e12798b14664edab57283794eae634753febe1ea3635f2209fd4889"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-024.txt",
+      "sha256": "54b090e99d6e0b0679f74a5e3e624c84a121b6e44b96134a7279ba3fbc49c122"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-025.txt",
+      "sha256": "2651f5692e52974c9c343c384198e1752a9f2d53ed84757368ecb6df17759ee4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-025.txt",
+      "sha256": "385885ff68f2a7d9a1d4beb4abea3bb841cdd55d126400f8138d648de3126e61"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-026.txt",
+      "sha256": "ce77582093bb958ed57b141d638684e23fa2b4e5a656a78bc0c13812a47bbda4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-026.txt",
+      "sha256": "7cf17236bdf56c9a13df5f683a63e56c3770a648cca36dd57be1418ac7e1a14d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-027.txt",
+      "sha256": "d7a7a783e2138dd5c2841e81105d20a4c4228b7db55c6b1c4bb6a07ac8eed89c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-027.txt",
+      "sha256": "704de63917c35cd5e119f2981f04e0ef80932c1b587943b099f07ca0c933a8e8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-028.txt",
+      "sha256": "c5448c2a27aa92a4e723c49f3f342ae0266b593235d99acf5c6058476ffeb38f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-028.txt",
+      "sha256": "8c4d47fdd4c42402700caf2912759a30afd1238153108a58f99e5594fa1e645a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-029.txt",
+      "sha256": "c916a80ab73329c1c3ae40537d648b22fa0c7d23bfce928013d94df022403161"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-029.txt",
+      "sha256": "8ede4557b228438caa7491858f44bf31564532a8f5aa36428763d7ec329a2df4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-030.txt",
+      "sha256": "6beab899ae3660381be0087469fa335436d34a9290b881132652ade009784224"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-030.txt",
+      "sha256": "645083850cc4ac34bdd05282ff1763fb2fd126e5cbac9927f7a30d2a12bb4538"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-031.txt",
+      "sha256": "ce9bca0af2081120b0411512061edd17cdd3094a0cfba8a0a80d1cc7c0968cf7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-031.txt",
+      "sha256": "99992bbcc77485f8a3e099df84f63b86da15e7f833453fc031c2b5f4052e9b90"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-032.txt",
+      "sha256": "2ca5f7bd18bccb1d481e537427c9aa47ddceb6d91a4d93f50e43276a0d108b1a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-032.txt",
+      "sha256": "fc73b98d8acf1b246fec88db360c568e6b59ed19138ccc1af4e8244de9a10f54"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-033.txt",
+      "sha256": "6d7c318b623c4bb7c6cb48bee9a021701e926969d6ab5e53257f2631896894c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-033.txt",
+      "sha256": "310fbbddc983ad1999b5e56ca976baf18f5f7311132f33f8a9f2b23af207a8cf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-034.txt",
+      "sha256": "eefee778423d75a3e6aed0b1dcc522ebe8f4c3f66b49ab450f9e44c8ab190773"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-034.txt",
+      "sha256": "81afc412878744922a3317a4129ad65b00d7f844729aa2b69995882c10eca405"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-035.txt",
+      "sha256": "38ba4f6cd37be6278dd5308b58dbded252d3948c8f4f07acd6b3bd54b538851f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-035.txt",
+      "sha256": "fa6bc6cca8040622deaa9f933a761b5bcee528b0cb487b632b3bc35e381485ef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-036.txt",
+      "sha256": "1b564633340ec42b236ed963f24877975d06f549b6712a4d62b8f97f8b9ac6aa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-036.txt",
+      "sha256": "f595be56d86014a824a3593955c7891cb8c670a9f0427aaafcbada8e5fd2e8d8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-037.txt",
+      "sha256": "883b9b5f520a39da6fdeabc8e6af7f1b803dcc62200d9a0482c9cffe96ecc6f8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-037.txt",
+      "sha256": "d807842b993934d9a50dfae026fc1686ae7347e4b4f5f99facb52e53928034a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-038.txt",
+      "sha256": "323e16379c762bbf5a1e07a032fbe620b061c17d79f9b965915b1ce33991af72"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-038.txt",
+      "sha256": "cb2415cb3483c28bfcef4db27a3009d30ba3c1e8ab3816ae87cd360f55718427"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-039.txt",
+      "sha256": "889405437cae8c35b131e1e0775c521bd4e7aa7dc3b5110b43c699162169d185"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-039.txt",
+      "sha256": "8a5833148da6e5c867e05fbb263785c9c7e59e462b8fb0210eaa0e70bf0f60d7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-040.txt",
+      "sha256": "98efd317390ef55c9e88db8afa2cbab1d8dc03c5ec1a48e713c28c45d110cfc8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-040.txt",
+      "sha256": "4a3fd3b606020de66c2f73ef380ceeca7ee5874ce4279f204e0c5ce4a985b0fa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-041.txt",
+      "sha256": "71a65b96a15773e7fee91eefffec6a3c3c7b135dc448022acfe9b30fa279f825"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-041.txt",
+      "sha256": "ae3078fb8553f8d71da5df55b6efaf2e67cba88b72cdc04655b88ce8f0d29fd0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-042.txt",
+      "sha256": "a09d0564f40b2e12fb4c0cf95ea2d979ad51ab36e869d60660c99c610a88f6af"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-042.txt",
+      "sha256": "f300e32d27a23c8f97507ec6d62cf52a7075f362ea1793343ebcd04c1674cdac"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-043.txt",
+      "sha256": "8c612188db20e9d94529869156908005bb1910c84c7fe3a3f76780a7c6b2f2e9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-043.txt",
+      "sha256": "b615c256d1e0c927652e370e88767ec7a8973c347950ae6ed917b02808e65ef5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-044.txt",
+      "sha256": "573a6d5b1089952f0806a0dc3e2664b04818320cb8a29ae02bf3897d51419064"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-044.txt",
+      "sha256": "afc8314f8169c1cc86a9c4cffacc1a1862c2ae8e2368e13658e64089c76f21a4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-045.txt",
+      "sha256": "ee08132fa472ed4de302618326b72a79ef06737d070b4305b1e8fe58414a8094"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-045.txt",
+      "sha256": "b5c8b57c241e1a0c99c617ba130a714ba6e7345292049dcc84837db830d99f1a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-046.txt",
+      "sha256": "c57ad2f091498178fe3fbee3018824bc04b48d71779ecc12d9da8c6d2296186a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-046.txt",
+      "sha256": "22be306aa4c4deed56bdc174eab0efcb37d6652d7f3267780ef503e6f9c936e5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-047.txt",
+      "sha256": "5efc8a58db63c98dccc570380750b734ac8c9404cb4b9d6bcb44ce8ad6357d84"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-047.txt",
+      "sha256": "7c144f6e0861b531e69a6aa74baf0816fd003da69bedd12d9c8f1361e50a3c52"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-048.txt",
+      "sha256": "edf8663867f63afce800145ddcac77283c7ea2da42a2afd41da102c15200fcfb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-048.txt",
+      "sha256": "e275dc7b2025cdc8b9909dd28765c7c4adf9c741bbe86f4e208c333de514ad00"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-049.txt",
+      "sha256": "2584277270958fdfd3531e8b7ce56af4802b0ac28bda05ef6e8851c73e08be44"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-049.txt",
+      "sha256": "a436fb29603fed52aa0b74bbfc4ca9dfe97b06b1b1e705601c92238ec7efd1aa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-050.txt",
+      "sha256": "143fcbb5712b96884ce33b9370619cd355a4425ab75d4ede9b8401c4bd80e78b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-050.txt",
+      "sha256": "3195fff9fda4a5011bc75a04fd05ef44c1e23e19448e23da3867674f0bfbabad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-051.txt",
+      "sha256": "096e2df4a42c97b8297d8af1be0433d7fba041a97a3823cdca0fb4f6496272e0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-051.txt",
+      "sha256": "2a35acf1aede311d2c7383ac7120ef5ed93389b447577f1bb295d21e6fa4d688"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-052.txt",
+      "sha256": "662755bc4835bd130ba649c4c37e7b438235bf87471750236dc7e7e79ea2edaa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-052.txt",
+      "sha256": "29b7859aba1bd9c1737d774a144d020413443ddb383aa68e4805f715b94866c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-053.txt",
+      "sha256": "28487e8cfbe5bf5cb38085d639a17cce9bc8b86506122bf4f802064ca67b6c5a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-053.txt",
+      "sha256": "73288fc3dd207ffa189f8d827741809fe5b690b85e456b4991b1f74e59f27aad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-054.txt",
+      "sha256": "259d89b4c6b8f951d21665ce8f0ab1a76fdfeba8c74ce6515d608c5a90332691"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-054.txt",
+      "sha256": "022f03293c4a226c7a47e847a4052e6ca926822de64d1b21cf6f13d8147d0f85"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-055.txt",
+      "sha256": "c9d8c1421eea75486e6393539e4c6f9f8b1aa897de58797f7e6409757999a2ff"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-055.txt",
+      "sha256": "82c7c85e336e998005b487ba46a371f3a9390fab45be55ca846ebc9dd50c78b3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-056.txt",
+      "sha256": "2838151805e8aedd998f0e9222a98700665c64201784ede8980bfbe45ead915f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-056.txt",
+      "sha256": "ef0b373fb198572a49e06a5f35b86b1ec676bfde38e153ca97469c154bc43253"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-057.txt",
+      "sha256": "60e22d47199ca1e87adeff8c32169453dac5735cad4ebe7b3d9627d97ff7125b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-057.txt",
+      "sha256": "9d5d9eb2b4b682476b7d9d4cd3c7d35ed2aadffa55c1f6fbf555b88be615a93d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-058.txt",
+      "sha256": "a910cebea9ee7e68731133f72af776356ea57134655972ac6667c7c5470c676b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-058.txt",
+      "sha256": "ebb119d4c3ae18deceec67a4814d780434803eb216ffe399615fe632edb9de25"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-059.txt",
+      "sha256": "339b151dd3dea30a88f1fed88d003fe111acd22ccbd85a64c6c83fb3f03a9f53"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-059.txt",
+      "sha256": "6eef75a23ee88cc743647ce350c0f1fd673373f402c943fd809a8f8974b163de"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-060.txt",
+      "sha256": "8994d0baf274dab792fd723265c86e02b6b3245c1d6aaa1ae8227b14ca2eaa81"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-060.txt",
+      "sha256": "b871891b6a31a10ff61af70962ba8d0e87fa2a19db24df3e9572d5926668169d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-061.txt",
+      "sha256": "57ea77ced926390255aaad3d39234b5c229b58fb8249c90c2702811cb00f065c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-061.txt",
+      "sha256": "c044d6f6ed7d8ad34c53a3e6f1d504f57bbc108d5814cec89e28a8450f251998"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-062.txt",
+      "sha256": "a456906c59a43fb47c2e4e075a019269e5dde63438a09c492b0ae2d7582df0e1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-062.txt",
+      "sha256": "26e1db40173c7960bb9565945152581dd32b61743ff9d9c2d8d2cee28289b54b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-063.txt",
+      "sha256": "f4617b8aef6ab7178447360f45b293c74da3d03d2a2222f85f8fe93c7718c949"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-063.txt",
+      "sha256": "7f8d3c54aad13c19a82e8663d043a741dc4947e3d18196d573c8f08fabf725d4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-064.txt",
+      "sha256": "99abf3c7ba0bd06d85e19501f0d2989e1ab2a4368564552159a4126397688f4e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-064.txt",
+      "sha256": "3707c71b5a6108e58eca7f1208abdf4d5d25edda4e0b4f4e67b1b7b3dde1d662"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-065.txt",
+      "sha256": "a3c82b863e2f48e685d2ca8e2563083d4a7cee3e15e77cb994ec5e9963d3a069"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-065.txt",
+      "sha256": "2a6f47337c1ce293d8f623fb672ece1bb63336c5195747626b77f01f90a7ca47"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-066.txt",
+      "sha256": "9bcbf895e469307a23665a3e4adf6585028d2d6d7b00cd66153b8411a9d59756"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-066.txt",
+      "sha256": "c75231916d96f420791b96324802b67439df53ff03a94aff63e2db19577b08eb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-067.txt",
+      "sha256": "63dbf5d8a1fdd9c02e7ee6d1b4377bde52725d612ec0938cbb4db41102a4a5c3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-067.txt",
+      "sha256": "a5ebb2cf591578bd65ec53d41aaf10a85ff137362f602c7b110807a1afa84978"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-068.txt",
+      "sha256": "44eeed0e0a1ddd1026d13981114b3b40dd067a1cab4560df45e0df24d87789b4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-068.txt",
+      "sha256": "0bcabc8d5a74995b38ead0931fa2b00a6c779734d1df68a23735a128bcc8c1ce"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-069.txt",
+      "sha256": "52ceca1c8793494aa1f17019c3ae99abcfa95b17e951bd414aac9e57e489ff62"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-069.txt",
+      "sha256": "cd8f8a397ecced81b16045e2b0f08adab013f29a759c890f4a77876e4d3dbd5c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-070.txt",
+      "sha256": "e6e95d482c1a7e0d72b9a0c12502fdf673711bd850232d745b1b43cf46f4e24f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-070.txt",
+      "sha256": "2a1302f69c95348572088928138ccb2fb5f940b2b1e04468a16f0ddaf916ce25"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-071.txt",
+      "sha256": "7f4c6a1592b642ebecaf4248384b8f04413fdb91419963f627ddb008ebba3701"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-071.txt",
+      "sha256": "aefd4a908d1c7eff1cc9490b0f45865a71aa29dffe334bd2b91fd3005de8c983"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-072.txt",
+      "sha256": "7d56457b278c9becd2ea3b629a3325fe5c8f00777905eca97d994711fa859f7b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-072.txt",
+      "sha256": "709c0cd89192d21f0f08f98317d88ac4cbaa5048ddb506dd850b1677de2127e0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-073.txt",
+      "sha256": "14bb08c2ef61d6c3a0bdba6cd6a49fd389ca77bf55acedb269db8abaa6208c76"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-073.txt",
+      "sha256": "827256506a95695aeaf1421d6239551ce294666a0d32d9ac0a221907869a7240"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-074.txt",
+      "sha256": "739509d842dcb71dba3d282dcc02c376789eb182be3060e4fdd0c15bee16b360"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-074.txt",
+      "sha256": "8de3a7d452484bc4cba1f542809b736b1c9145559adecb2897236036c0cdd3a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-075.txt",
+      "sha256": "5c97d4a185820877d4add056df5495a6c1ea6b817e1d3d0d44d5ff20cc9e49a5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-075.txt",
+      "sha256": "c110a954ef1a4ccf1510588947ac70028cba1bd4278ad80d74addbd16fe09768"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-076.txt",
+      "sha256": "601aa7931c37e64211d6e7eae6533e65522e98ad6676493007c6e1fa23c0e912"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-076.txt",
+      "sha256": "e632f07b64847c13437d0fb76cd568925dcf5da8c21f8d6526fadbc7d7e5a44b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-077.txt",
+      "sha256": "9e445d329b5a7eb11ffed6498b1e654f0489865922c238fa43f55532ebce4e99"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-077.txt",
+      "sha256": "54ab531ddf291c6e25d59fe6c4d177b8c73e557e36635ac9ba84e9fc85d8fe21"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-078.txt",
+      "sha256": "8e4350c39a99bce3dcbe01b6fde1bcc791d8910aa31092bd2818a102c37486ed"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-078.txt",
+      "sha256": "2f80b42dd11e3274093d78ec568fc075b566d4917a8d8b603be31ca8535a1d86"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-079.txt",
+      "sha256": "5b98406e4a6a7e6088a6b44871e7e2489b22efa303a1165b235b5ccdfbbc5fb5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-079.txt",
+      "sha256": "2c25fa9cc65950876bc8efd46c14d6aa2b52dda6bc6c98e0354d85c53c200455"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-080.txt",
+      "sha256": "1de8cbf2311de4cddbb82015abed358f9cc3a29e627b25aff453d8fc886e42dd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-080.txt",
+      "sha256": "e1b7246626e7f10b14273317e36cdb0094cbd595d7adf482fb111687d6ecf63c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-081.txt",
+      "sha256": "363cadb42b1945675c82a374eaa8260307de69c30475664a621e99d79ce21fa0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-081.txt",
+      "sha256": "b03e9a9384855225cbfde32e0e60d158323a8d134a94e6fd9556861504daf291"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-082.txt",
+      "sha256": "9ba2ced20c4b999221362068f1fc1567e0753436e75acc7a761ed5bfef4866bf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-082.txt",
+      "sha256": "12d2eb81343ab35879713a55a111de176fae9dd7009a0deaa9ac08e9b0fdc908"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-083.txt",
+      "sha256": "044e1efb4931080805bdc7c3e774ff6c70b21927ae8cc42e509a4ce5635d103b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-083.txt",
+      "sha256": "a324aa56dbc9185f6c6ff52bc1b545db10e0636308658f6a3924dcca754ee827"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-084.txt",
+      "sha256": "b78b4c308e7c4848ddfe49fdf65fb19f0371a4d59b7b229305ed7857ae866943"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-084.txt",
+      "sha256": "163825c5ba680b98e5bff4dc8bd70349d48c549efa0e51c9f24765ef53ce195d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-085.txt",
+      "sha256": "05ce19afbde826852ff340f3c89a6947fa39e3a753246ce01e0578fcbabd06e8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-085.txt",
+      "sha256": "e55738439e9c36e49bdad9e522f1037caacd76892f578a1eeedec26e5cc806cc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-086.txt",
+      "sha256": "256aa3efaccabe7c53eabf67c04d54bfd9b4d95e73ea05752d0e464e578f2048"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-086.txt",
+      "sha256": "a8f9590ca698fe03dd86f04c1dfa8d2c22a8cef41790c048b8b469d870bbb2ad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-087.txt",
+      "sha256": "93563487378c39d404dee8d1d355c64f27a35bc1a592df70c032626845f3aff6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-087.txt",
+      "sha256": "f190b5d101a4bca1cb02b5661e452e786b6655b9f4a0f095a650d5e8e803f440"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-088.txt",
+      "sha256": "6737e3bc0089991e0c8542ebe04bb75d0a415fff8eaba508c4bde71bffea2725"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-088.txt",
+      "sha256": "f623b625a31f87d706a954ad05a1f1e8a66adbe334c14d021f6023cabb59dd40"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-089.txt",
+      "sha256": "ff61ab3daefaf0a335cdfd9cc82f29438ee61c0313bd746e2b02c693cf6d3a38"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-089.txt",
+      "sha256": "43194e6667f4ba71d31bbd7281742688316690a3ae54b5c974b3bd823438666b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-090.txt",
+      "sha256": "35123912eb54db54eac4611715cdc81e0e289c8fddf2ec5a27862703226f7009"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-090.txt",
+      "sha256": "a39dad28a4f027d0f739db7a5ac201f305676e904f2eca9e69e5990d9ce7214f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-091.txt",
+      "sha256": "85d4ddf4605e1e905b0f2d450209b7eae0ba7653dad4692c2bd070b59f0f4ad9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-091.txt",
+      "sha256": "8b96b22a568cc942047753428885e683fe496300032a8169581d22ba3f51b0c1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-092.txt",
+      "sha256": "5c85a12363a744c26d64ef8b16e55ad96f9928ad44c6c5c2d170fd2f685edd9c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-092.txt",
+      "sha256": "04198088d61f8bf2c81f17e3d674dd7644a44cf3fd5aa9c744af70d4c1673be7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-093.txt",
+      "sha256": "4052604bed9613ae58d6fc6ec9340be57302ff86f3a06d403ad94763f3e7dc21"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-093.txt",
+      "sha256": "eba2d0a5a7236fa961be354a33530068ed91b29410e91fa536bb636cf0c467a3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-094.txt",
+      "sha256": "eb5fe5d42ec67b84215339944bafcd1de08e20eff81b3741ddeffb1a24b19476"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-094.txt",
+      "sha256": "aef001e4ac5f9e0a3135706b0430df18a20c907342db782c86e8fadd66c9151d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-095.txt",
+      "sha256": "281e8d0fbd939ab2d5b957bafecabc289efc80a9cb5ca59a5fe0c2b0ea74ee12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-095.txt",
+      "sha256": "e591837a6b699d7cc4def2c23626e5cf34968549518e36482e12ed961dc5ee23"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-096.txt",
+      "sha256": "17ba251ddfb8a8c2beee0a4d2c1ba6ac7db257dcdef1494315f87bfb333e9df7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-096.txt",
+      "sha256": "badc2bfc596e38d70f2af85a563639443f16b046de76be26d26d96d48ce2a255"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-097.txt",
+      "sha256": "9339ea428a3a5fdd3f02e08b16489d1611553079bdc25c7f083cbf66b573a17c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-097.txt",
+      "sha256": "01d8e8bcc78f9b66c49efd7c04a86815f05a674f4eabc5d5fca576a486e80af9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-098.txt",
+      "sha256": "40b27baeec6037c05bf492635890370f11323447def1b889efee0826d72a6d47"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-098.txt",
+      "sha256": "210ffda4842de98686a9f5510f90ec219c73b760bd259989a8e384d6fdb756ff"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-099.txt",
+      "sha256": "394693ecee37ba50e70b8e643d091441bde26e9f806b9e0596b5c89f79f966b4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-099.txt",
+      "sha256": "990cbc1ec4b0bf2025332650dd9036465be8b61c439f2f4f08e672c7b091f634"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\drag-100.txt",
+      "sha256": "bf940559a765fa9e139b41350529275ef0e3c05a4833b395afd4cc6b82be8c10"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\lift-100.txt",
+      "sha256": "01e225c0e2ad60d5252a1fd9a93bd0d7f15634be52c0ac89064e198e0d7e63da"
+    }
+  ]
+}

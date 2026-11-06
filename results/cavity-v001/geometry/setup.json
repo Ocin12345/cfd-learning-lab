@@ -1,0 +1,51 @@
+{
+  "model": "Full-square lid-driven cavity, steady incompressible laminar Re100",
+  "nx": 80,
+  "ny": 80,
+  "cells": 6400,
+  "length_m": 1.0,
+  "height_m": 1.0,
+  "density_kg_m3": 1.0,
+  "dynamic_viscosity_Pa_s": 0.01,
+  "kinematic_viscosity_m2_s": 0.01,
+  "lid_velocity_m_s": [
+    1.0,
+    0.0
+  ],
+  "Re": 100.0,
+  "reference_depth_m": 1.0,
+  "openfoam_extrusion_depth_m": 0.01,
+  "operating_pressure_Pa": 0.0,
+  "initial_velocity_m_s": [
+    0.0,
+    0.0
+  ],
+  "initial_pressure_Pa": 0.0,
+  "boundary_names": [
+    "lid",
+    "bottom",
+    "left",
+    "right"
+  ],
+  "corner_lid_velocity_discontinuity": true,
+  "geometry_checks": {
+    "nodes": 6561,
+    "faces": 12960,
+    "interior_faces": 12640,
+    "wall_faces": {
+      "lid": 80,
+      "bottom": 80,
+      "left": 80,
+      "right": 80
+    },
+    "positive_areas": true,
+    "total_area_m2": 1.0,
+    "minimum_area_m2": 0.0001562499999998579,
+    "euler_characteristic": 1,
+    "orthogonality_proxy_min": 1.0
+  },
+  "mesh_sha256": "5d76acfc9cf94c23150a1d80488a9aaa2a795ea6be0a6aebfdb20fe7bc6b9795",
+  "geometry_npz_sha256": "3b82e075d8d083ee1c653dd9c1b5afac92d1d65857adb31d75216c0de7bc4aec",
+  "physical_validation": false,
+  "generated_by": "Codex"
+}

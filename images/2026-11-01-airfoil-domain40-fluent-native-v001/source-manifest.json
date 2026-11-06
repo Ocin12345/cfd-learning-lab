@@ -1,0 +1,89 @@
+{
+  "kind": "Unchanged native Fluent PNG exports",
+  "final_iteration": 810,
+  "cells": 531018,
+  "source_run": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001",
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\residuals.png",
+      "sha256": "386b87d2d8e8bb10c6d7c8b3659f98a81b59a8530ee9e68f62361ae233ebfbda"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\velocity.png",
+      "sha256": "a0c7a201f93083355ab6b8a01bfd0af14c304eda9cbe2abb8c833b8cc7781384"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\pressure.png",
+      "sha256": "6494eb631e0488ccf10e91ba30b1af622ec2632f7c987eaf5f10458e7a718da4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\status.json",
+      "sha256": "d33e75f0bb40c995617b94cd5e8b4a60bb63b78d21b4ed76cee794d44b4905b0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\summary.json",
+      "sha256": "2341161bb247cb0425d0c65e5f0471db967d8b36e1c08d126fbcc32ae2b33e3c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\solver-transcript.txt",
+      "sha256": "062cffd6a963366231b10cc67806ad7c861758535d053c576b0d50bdeda02531"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "residuals.png",
+      "sha256": "386b87d2d8e8bb10c6d7c8b3659f98a81b59a8530ee9e68f62361ae233ebfbda"
+    },
+    {
+      "path": "velocity.png",
+      "sha256": "a0c7a201f93083355ab6b8a01bfd0af14c304eda9cbe2abb8c833b8cc7781384"
+    },
+    {
+      "path": "pressure.png",
+      "sha256": "6494eb631e0488ccf10e91ba30b1af622ec2632f7c987eaf5f10458e7a718da4"
+    },
+    {
+      "path": "caption.md",
+      "sha256": "8585bcbc102ae96ea11360a8e6a4dd3836a74634a04d9083c6209d09588ce33c"
+    }
+  ],
+  "byte_identical_native_images": true,
+  "image_dimensions_px": {
+    "residuals.png": [
+      1600,
+      1000
+    ],
+    "velocity.png": [
+      1600,
+      1000
+    ],
+    "pressure.png": [
+      1600,
+      1000
+    ]
+  },
+  "visually_inspected": [
+    "residuals.png",
+    "velocity.png",
+    "pressure.png"
+  ],
+  "visual_review": "Labels, legends and airfoil are legible; no clipped plot content observed.",
+  "displayed_ranges": {
+    "residuals": [
+      1e-14,
+      1.0
+    ],
+    "velocity_m_s": [
+      0.0,
+      1.09
+    ],
+    "static_pressure_Pa": [
+      -0.667,
+      0.842
+    ]
+  },
+  "ranges_are_rounded_native_legend_labels": true,
+  "common_scale_comparison": false,
+  "physical_validation": false,
+  "flow_iterations_executed": 0
+}

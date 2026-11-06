@@ -1,0 +1,43 @@
+{
+  "window_metrics": {
+    "fluent": {
+      "first_iteration": 1801,
+      "last_iteration": 2000,
+      "samples": 200,
+      "mean_Cd": 2.8144310326314543,
+      "mean_Cl": -2.0555372047493733e-16,
+      "Cd_peak_to_peak": 3.1086244689504383e-15,
+      "Cd_peak_to_peak_over_abs_mean": 1.1045303412689837e-15,
+      "Cd_mean_nonzero": true,
+      "Cd_stability_target": 0.001,
+      "lift_symmetry_target": 0.001,
+      "Cd_stability_pass": true,
+      "lift_symmetry_pass": true,
+      "source_force_CSV_path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\fluent-checks-v002\\fluent-force-history.csv",
+      "source_force_CSV_sha256": "0d96cdd998b22af60a14fb98e6b25a2a53161d67d490838caae9e366c397a718"
+    },
+    "openfoam": {
+      "first_iteration": 1801,
+      "last_iteration": 2000,
+      "samples": 200,
+      "mean_Cd": 2.8187666062523586,
+      "mean_Cl": -7.994678121012351e-14,
+      "Cd_peak_to_peak": 8.260059303211165e-12,
+      "Cd_peak_to_peak_over_abs_mean": 2.930380715057917e-12,
+      "Cd_mean_nonzero": true,
+      "Cd_stability_target": 0.001,
+      "lift_symmetry_target": 0.001,
+      "Cd_stability_pass": true,
+      "lift_symmetry_pass": true,
+      "source_force_CSV_path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\openfoam-checks-v001\\force-history.csv",
+      "source_force_CSV_sha256": "501aaff3900d63e0d489010fff6a8d9c01782356f1e8c981b200c9e1ac4a9398"
+    }
+  },
+  "definition": "abs(mean_Cd_F_1801_2000 - mean_Cd_OF_1801_2000) / abs(mean_Cd_F_1801_2000)",
+  "relative_mean_Cd_difference": 0.0015404796104918613,
+  "target": 0.01,
+  "defined": true,
+  "declared_paired_Cd_target_passed": true,
+  "benchmark_comparison": false,
+  "physical_validation": false
+}

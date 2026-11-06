@@ -1,0 +1,693 @@
+{
+  "command_arguments": [
+    "--run",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001",
+    "--out",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-01-tjunction-paired-v001",
+    "--geometry",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\mesh\\geometry.npz",
+    "--fluent-case",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-final.cas.h5",
+    "--fluent-data",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-final.dat.h5",
+    "--fluent-audit",
+    "E:\\CFD-Learning-Lab\\local\\tjunction-v001\\fluent-checks-v001\\fluent-checks.json",
+    "--fluent-iteration",
+    "2000",
+    "--openfoam-case",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam",
+    "--openfoam-time",
+    "2000",
+    "--openfoam-log",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\solver.log",
+    "--openfoam-audit",
+    "E:\\CFD-Learning-Lab\\local\\tjunction-v001\\openfoam-checks-v001\\checks.json"
+  ],
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\tjunction-v001\\fluent-checks-v001\\fluent-checks.json",
+      "bytes": 7199,
+      "sha256": "8743bbb4680d094f9fcc2e09285a1f1a753262f99e5e37bbbc51203ed030733b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\tjunction-v001\\fluent-checks-v001\\fluent-source-manifest.json",
+      "bytes": 6024,
+      "sha256": "851e7e18e7f1abb0b828a2870cda5aedb01e60dcf4ea4a9f3a7dda8ed60ae8d3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\tjunction-v001\\openfoam-checks-v001\\checks.json",
+      "bytes": 66650,
+      "sha256": "271facd6bd630203d450a24411e773f0353f9a7e4397fb5ed2cb47f2ffdf3cff"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\tjunction-v001\\openfoam-checks-v001\\source-manifest.json",
+      "bytes": 31356,
+      "sha256": "b2e46287db68880b7b5fabfc55f6ea61030c96398b2126acbf103e251fe0934f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\authorization.json",
+      "bytes": 476,
+      "sha256": "e85a01bf729d94fb8600abb0a237a118596b0be41d62c14bbf67bf4082c86847"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\code-provenance.json",
+      "bytes": 785,
+      "sha256": "9ae24566dc59fdad015475ce2d7a66a388d08edb32512ac37903d23eea33aba2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\declared-targets.json",
+      "bytes": 1029,
+      "sha256": "2312f03cb6b63ed43e758cc019463b429666aa057aafa8de266db0721d29214f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\executed-script.py",
+      "bytes": 20559,
+      "sha256": "c71f86d5c7aaebf451bbfff6122c3a43a445420a13056469b9385bda34384252"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\field-monitor-history.out",
+      "bytes": 86656,
+      "sha256": "5155a2983f7c52eeb4b0cb82bf77e42b3c2cd446ed32def0e9e4cd26c05bda6d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\final-settings.json",
+      "bytes": 31987,
+      "sha256": "16bc09288da1157a0abc88bc9b6939ae5129751b0f42d339c2e59c33f9f75517"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\fluent-20261101-225747-91400.trn",
+      "bytes": 135313,
+      "sha256": "265110a56b67ee28fcb577c2aaa791b0ea5cf594aed3e38a1bd62afe9c3e066e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\geometry-quality.json",
+      "bytes": 255,
+      "sha256": "83ffd0b6fd97615d5fb236258e049ef23dd976aa486d69373d68e4bd921dac1b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\mass-balance.txt",
+      "bytes": 483,
+      "sha256": "017cbe2e017ed61dc234bcb3e81b499643999f6e64777fa73b97ff83bac7c9e9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\massflow-history.out",
+      "bytes": 130738,
+      "sha256": "834510760615077353a5d8752494c877f9aa4010271f0d1b665e5b7c221628ab"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\native-physical-readback.json",
+      "bytes": 579,
+      "sha256": "f9433c729cae973c58ada4949e7b9ded7fdb4f6f6fa7ff503b86e5789ec96011"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\solver-transcript.txt",
+      "bytes": 132618,
+      "sha256": "045eecd6db7b3a98a95adf88b83198ff2bd36a4bc59d59ff7080b1adbe3cd047"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\status.json",
+      "bytes": 3441,
+      "sha256": "0be5f37c55f5637e77313f51b8de48f432b5c661f2212f6dbcdfdac007a786e0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\summary.json",
+      "bytes": 3369,
+      "sha256": "090fcac41ed0b8276b3f1172c45362b97e786124a6e4b51e22c65bc2f9accc64"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-final.cas.h5",
+      "bytes": 626104,
+      "sha256": "14cf603e14b2e7bb8dd6c576f7f9ad4b424efb6c964e6a78f41ba8ea3dda208e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-final.dat.h5",
+      "bytes": 388330,
+      "sha256": "7ce091ffa89a1ad5db9627da5c711e0bea45780055ccbf5610bd691240931220"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter0500.cas.h5",
+      "bytes": 626099,
+      "sha256": "119613870db8693b898ea7acb617f3bddffdc28b2416c306ce9e8f154a8fd1ba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter0500.dat.h5",
+      "bytes": 349317,
+      "sha256": "507f560e917c8ede3e22e9ad4bb126dc62d6234f518e1f9d4f79873cdc45092e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1000.cas.h5",
+      "bytes": 626104,
+      "sha256": "eb0667b8e8dfe65594ed4de961a0dfa238e20a7e61e425945b9fe1a901c0661b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1000.dat.h5",
+      "bytes": 364760,
+      "sha256": "a76d10c6de667cd9ea37dc561701033b1dfd6be9824dfc77a675c6418423c7c5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1500.cas.h5",
+      "bytes": 626104,
+      "sha256": "77839126e919adba53d7be8fb8de20a5b76501f0c5a11da7554e737a51f4aea9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1500.dat.h5",
+      "bytes": 375583,
+      "sha256": "102038efd58601ced58ce28da3bc2704e802e5121f7ffc0b4f5595b7871c74b4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1800.cas.h5",
+      "bytes": 626104,
+      "sha256": "63609f1b5b73a1817cc69b7a1ddb92339f839f206cffcbbdb5deee91525a2f35"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter1800.dat.h5",
+      "bytes": 383256,
+      "sha256": "494bf32525cce9d81ad18a1ad2988969f64f9d96d4ec405991ddce9c7e08ae45"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter2000.cas.h5",
+      "bytes": 626104,
+      "sha256": "5c62d7e9fa100d5800d34c13ab27d981b064e8f46c52bf92ab35b0e50b44fdc8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\fluent\\tjunction-iter2000.dat.h5",
+      "bytes": 388339,
+      "sha256": "7d0bf3ecbdd0e3da22507c480d242eb92847f52b25df7bdf4aa89c8199c17b48"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\mesh\\geometry.npz",
+      "bytes": 60380,
+      "sha256": "671236b7bf7658fcbae5330b4cd6ce66c8e2dee9ff06753ebfc45c0a4cfb2949"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\mesh\\setup.json",
+      "bytes": 1497,
+      "sha256": "7871408e2b216744befe6c655eae73a82f1fdedac5978f49a44a2b078c71c912"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\mesh\\tjunction.msh",
+      "bytes": 303179,
+      "sha256": "0de51603605decd4747a76322da8905516f2df194d2dd9c4158e08d8c5f0b555"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\0\\U",
+      "bytes": 362,
+      "sha256": "20d044009d348b4b2f9d02d4267f3553946a8df14de72ccc7ac73bec55e8bb73"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\0\\p",
+      "bytes": 330,
+      "sha256": "b924d1937b553d1e117a10122287c43bcb611ef98d58de27697cdfc51857aef9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\0\\polyMesh\\boundary",
+      "bytes": 1355,
+      "sha256": "9477afc789398c6b5cb04f47e16f4da31366cb4c77241afd07b650385f9c5ae3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\0\\polyMesh\\faces",
+      "bytes": 402975,
+      "sha256": "88d69b94df238306e640d2fb84023adb03c0ea444e7d51853ab7f6128f1ba7c4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\0\\polyMesh\\neighbour",
+      "bytes": 41624,
+      "sha256": "27417a229df86f7595a1c6b80456e471f13623f85a4018988bd5d8a0c0d7d42c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\0\\polyMesh\\owner",
+      "bytes": 85243,
+      "sha256": "cb51aee434aa97699ab5bcbc19efa30c8ad28a6c5fcc261286c14acd6c838a4c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\0\\polyMesh\\points",
+      "bytes": 175157,
+      "sha256": "4ed23a6780c60d44eca673224a919763a905496439c2c024e7bcd71a5cc1fe90"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1000\\U",
+      "bytes": 181279,
+      "sha256": "91ffd6f94d85872059044124cde1ea0fd8fbb053ccf6be00e0ed3269ccdfb4c3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1000\\p",
+      "bytes": 78458,
+      "sha256": "1ec505596fa870e2ce9db32d536603961743e1c73f91b3b5df06c110ba7f94da"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1000\\phi",
+      "bytes": 174442,
+      "sha256": "ca702e4b0e13bfb9150ebe01ae1b21108e7e2fff8045fcd47afe826eaad0c86f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\100\\U",
+      "bytes": 181628,
+      "sha256": "e292e025ddebcac0896f89de58d5fe41172c41f5c8ec979e98e0c9b15b1e8389"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\100\\p",
+      "bytes": 78487,
+      "sha256": "1b6e25a0d9e2d1672b58c69e620952f3047973e8e17363411cc2f4645bf77e9b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\100\\phi",
+      "bytes": 174827,
+      "sha256": "0fe04ba09048233fa2eb4f34ee29949afcc144756ee1a5d64275a337501d8d09"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1100\\U",
+      "bytes": 181247,
+      "sha256": "7fa2f799a8ab4c65dc7840c9c19c05cb2ed5780f8b91dfdfe3da6b549872ead3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1100\\p",
+      "bytes": 78458,
+      "sha256": "1ff6f8dc5e57358ca57c82bccbebed48bca1016299d67bc82814ca7f96b70a2b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1100\\phi",
+      "bytes": 174453,
+      "sha256": "b1351e5c2448e7929fb8f3eee4dc011b7b8c1d729c66f007fe11560484eed569"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1200\\U",
+      "bytes": 181286,
+      "sha256": "3ab1c64b68e085c57b38dbb443014c98a39fcf49ef69813cbb29983cf3c8bd4c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1200\\p",
+      "bytes": 78458,
+      "sha256": "8da476f815ddd3d8d902d8ffaf1636f7b9629ffd7eea4ea456b67e38b597f5f6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1200\\phi",
+      "bytes": 174461,
+      "sha256": "9c760d530760e595b6e7708b265728e646e7373b9ccc053c8dc535f0ee387182"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1300\\U",
+      "bytes": 181220,
+      "sha256": "b2656dbb3e989a7d678e20ce565ab25f2f44886c65033332e95793c7a158e7c6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1300\\p",
+      "bytes": 78458,
+      "sha256": "b3749f5c6fe3e56974dbfecc0c57c367a608d9306172431f6a07f3d39ab9fe72"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1300\\phi",
+      "bytes": 174463,
+      "sha256": "322f6be782ccdb70e5e9afbb11bf9d8f053d206b3bcbb1fc0bc633f1fff8083b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1400\\U",
+      "bytes": 181287,
+      "sha256": "97483d734be880bc9aadc04f86086b2b1737ace78c91a7f1ed4053a7d98d7d9e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1400\\p",
+      "bytes": 78458,
+      "sha256": "e83d484fe1bdf35404297409def2483199b6ea4fbaa2a1a94e7ada9df10110c1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1400\\phi",
+      "bytes": 174444,
+      "sha256": "2689a14f47714bf240a92396086b6ddc0f62642994fae8989839602ecf8ab21b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1500\\U",
+      "bytes": 181266,
+      "sha256": "cde3051722c0dfd727635ca181472b89bd957b033233949251206e800e99f81d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1500\\p",
+      "bytes": 78458,
+      "sha256": "87f606d1e1137f0faa6075e8f974807faf6c0a5fb179bda3b683e64048856297"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1500\\phi",
+      "bytes": 174460,
+      "sha256": "41164f6a23fe67c876f13d2287e870ebd1b8b4d553845ef93fc08c1ae873a87b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1600\\U",
+      "bytes": 181286,
+      "sha256": "c94509e6653b0d56512e49cc6aea6888546424d50086b56c7af9c47511261a8b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1600\\p",
+      "bytes": 78458,
+      "sha256": "4d4b031ac6a58b58bb528c8b0ab912e1c3bc77eb939d784e83880358753a5600"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1600\\phi",
+      "bytes": 174445,
+      "sha256": "848ab0d1828c68da27f26c826d2f70671b3ceb49a6d2efdb37c2abad679fc6a8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1700\\U",
+      "bytes": 181270,
+      "sha256": "d84ded46f0eec04a23cc2c91c3b342d45ef80287d11c0b6fbb209e8ea1362d8c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1700\\p",
+      "bytes": 78458,
+      "sha256": "4b2db85d2f7cf6be02930efdfedd9712e9ba090e23f1eb36a1c6ca48c2be8579"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1700\\phi",
+      "bytes": 174435,
+      "sha256": "f77edb5a376b54bbe81019a1f928c8b4b5d10a7efdf1ed2c8c1295c247fe5ac2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1800\\U",
+      "bytes": 181276,
+      "sha256": "1996a93c12af8ccd35db379601b867f17695a25aee90f5e352c9e4b287707330"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1800\\p",
+      "bytes": 78458,
+      "sha256": "f85e521cb03229a647ef67e11ae9f4d270333fdb38746d3dae5363568ba33dce"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1800\\phi",
+      "bytes": 174443,
+      "sha256": "61eb71d310951eba187c38161ab9ec3e8b7f8106d3e0c50a848733a60d3c6c1f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1900\\U",
+      "bytes": 181267,
+      "sha256": "4d11c96005895c51edea851c97a4d65ecc157dc177f09a8bafd75da42c2730b3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1900\\p",
+      "bytes": 78458,
+      "sha256": "d1bc798da9f9bc21d6033e9a19873ee822a06ca3ffd1e297387badca1a92f377"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\1900\\phi",
+      "bytes": 174459,
+      "sha256": "a3ad430c9822d7dab3ef638e2be1579186ecf74f6bf8277f08b1b59719b49445"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\2000\\C",
+      "bytes": 112012,
+      "sha256": "0c2944fab92e741af5b8c22136c71c038a030e41b1698683718017af1e0d0e64"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\2000\\U",
+      "bytes": 181251,
+      "sha256": "8ce4d8686c153d41337bec12f838f62ec6d19e3d15b360a5f96e57ffefec4128"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\2000\\p",
+      "bytes": 78458,
+      "sha256": "f595250f38d3b44299710d60c9cbe8704941a9245fc82f1d7579f8dd464fb4ae"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\2000\\phi",
+      "bytes": 174444,
+      "sha256": "6d69c6d4d2496a3dab9e7499d1f9f01dc5ad88bd4f30935b8e473d1b83c1de24"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\200\\U",
+      "bytes": 181214,
+      "sha256": "ee9f94721dd4bedd8041d2dfca4b43c34b87331cb242ca794a3d907975ef5708"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\200\\p",
+      "bytes": 78459,
+      "sha256": "cad923440d84fc6de0577d06a048a17be48c3436aaf1b8d937173c88bfb9482e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\200\\phi",
+      "bytes": 174407,
+      "sha256": "2e9f5c64a4dde37e5fe0e1956b57f5a8644fcd48957205358b03dc96c9a2a49f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\300\\U",
+      "bytes": 181264,
+      "sha256": "bcb8df62ba1d916faeb27c627987f176284c4c1bf0c5290afd87f7683a2d3753"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\300\\p",
+      "bytes": 78454,
+      "sha256": "74b3b0daccc1db373cfbf198962af1189ee94e1d7917ef0df2e82a4250ce146f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\300\\phi",
+      "bytes": 174492,
+      "sha256": "b95bf0fe010b2169ac238c7b0097f50123e1c2a72dd11150c464a217e461bd3a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\400\\U",
+      "bytes": 181311,
+      "sha256": "2253c670642c63f6eb61fd336f217ccf4be353f55b354675963f6c8e3f228f8e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\400\\p",
+      "bytes": 78481,
+      "sha256": "b7a4c68f1ea57c27db69068e595feab61296c6c079dc8ea07047a69bc8e6e737"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\400\\phi",
+      "bytes": 174437,
+      "sha256": "6d0d290746a680a3834c85c7ce178c8835637d604eec3f90f3bf5ead881657c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\500\\U",
+      "bytes": 181264,
+      "sha256": "d1422490711991e651b2684b107e887c437e8588b01c4e2d589a4c07870b118a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\500\\p",
+      "bytes": 78500,
+      "sha256": "ac50afb4b8ca5e11649d84b4d34bb0ea546a7b6b72fcf22628168cea916bca7f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\500\\phi",
+      "bytes": 174462,
+      "sha256": "e88667576c3e8a560ac8584a26f19c01258bb15ae9587d9a9f1743985f2de4fa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\600\\U",
+      "bytes": 181300,
+      "sha256": "4be7d02ff8bd829203a4fbbf16a0880a62407b23b497c3a72b19a9bc0444b670"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\600\\p",
+      "bytes": 78464,
+      "sha256": "46022f218c0decdc83b63c7a378685cdda5d70ad75badd87541ccc3ddd29aad1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\600\\phi",
+      "bytes": 174479,
+      "sha256": "0343e8e8fa419aa6e55a4defc43691196b9454262a8c809dc3f498064fcfba03"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\700\\U",
+      "bytes": 181255,
+      "sha256": "f93c84965a750a4bebf8617493f70e521bf5d84e73d5a175f15d2e6b4339539b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\700\\p",
+      "bytes": 78463,
+      "sha256": "faafa83d6f31e8833fb52d6363ef1bedcf9270ccc6b79f7fac50eda37680aee5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\700\\phi",
+      "bytes": 174518,
+      "sha256": "4f50c0bf366fca4e78925232e74a48a6558e89b74b0270f5d64281b8fbf2b9b8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\800\\U",
+      "bytes": 181276,
+      "sha256": "9b64385306fd9409bf5af3f7696cd859a94226d022cd74f5f582e05718e1bcca"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\800\\p",
+      "bytes": 78457,
+      "sha256": "99f92f4328ae01cd1306d8e066043968628b6a4ae1cfe26f8379388fcb1c6b67"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\800\\phi",
+      "bytes": 174457,
+      "sha256": "e436f737d03bc78ea783905bcf0914cc5f30f2b4aeecb8affb7089812ce5528c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\900\\U",
+      "bytes": 181245,
+      "sha256": "4eb83416bbc48340166c209864fc65db8d8bd6c0799abf6e904850221642729c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\900\\p",
+      "bytes": 78457,
+      "sha256": "9001d3053ba922c558150a2374878a12647716140ce3c9162764ede6063bce67"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\900\\phi",
+      "bytes": 174459,
+      "sha256": "ca81f1594f9eac4d81f6896a699c35ff72e5eaabd57282740dd655556adaa780"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\constant\\momentumTransport",
+      "bytes": 113,
+      "sha256": "5679d1df75842397f41b474d876d9f58a62610c650df49bc949c447458deb338"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\constant\\physicalProperties",
+      "bytes": 125,
+      "sha256": "507936c055ba8fd03ce65d8096cc47b8481d55e17dd1effb6d148f0b5de0f6bf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\declared-comparison.json",
+      "bytes": 3371,
+      "sha256": "dec1e8620e6853861a612c0c53fb3e23b476856502457cb09945a484c54104ce"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\input-tjunction.msh",
+      "bytes": 303179,
+      "sha256": "0de51603605decd4747a76322da8905516f2df194d2dd9c4158e08d8c5f0b555"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\mesh-check.log",
+      "bytes": 4151,
+      "sha256": "b6f5055b01c048ddb877234475b64c3685a1bda460a5a78cf254eed111484bd5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\DESIGN.md",
+      "bytes": 2982,
+      "sha256": "bf0d7e3f7d69ebdb2273522b8bcd790a4ab083816618a78fef143b9d611902a9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\Launch-OpenFOAM.ps1",
+      "bytes": 4746,
+      "sha256": "86114a5a298459cd7a6997e099de9ba417d1ad5ce8af9a0f25ba208f5739d546"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\geometry.npz",
+      "bytes": 60380,
+      "sha256": "671236b7bf7658fcbae5330b4cd6ce66c8e2dee9ff06753ebfc45c0a4cfb2949"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\installed-source-sha256.txt",
+      "bytes": 555,
+      "sha256": "921c4ca6c15c3be0fcba5f11280ae04b107cdc8089d11e5a2c1fc207d835ba0d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\0\\U",
+      "bytes": 1084,
+      "sha256": "72093fe6b4d82a0595f8ad6e6ed8d24557ce26089fba1d26c9321939351c8717"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\0\\p",
+      "bytes": 1092,
+      "sha256": "94ae0226dfd80d253aa6f4c04b18605bc83612ff65a6d68b43a4b0f11a0536e8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\system\\fvSchemes",
+      "bytes": 1366,
+      "sha256": "f295385ead9669b050a25ea2d9026ca3811a6a04a4bc0afe2e08baf1f7f1d94e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\system\\fvSolution",
+      "bytes": 1562,
+      "sha256": "302286621e2c82a857a65d47bc76c266279f4b0016234b7582a18e773a2c2e00"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\mesh-independent-review-v001.json",
+      "bytes": 322,
+      "sha256": "2ba2a3a1d4dd30424ce266835b9956e43bdeefe641e3503a88b80bceabfd8e0d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\preflight-validation.json",
+      "bytes": 1645,
+      "sha256": "a8cb8b94fc03972519085872bad6dc0e967a615a0cffb79cfad9e7d54f8eb719"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\prepare_openfoam_tjunction_v001.py",
+      "bytes": 15338,
+      "sha256": "16ded13dcc9d8e7e315f5aaefe24d84af2963e910efda6b48c0d355fe04965d4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\prepared-input-sha256.json",
+      "bytes": 1646,
+      "sha256": "e1c7d677b93c3882e780c1c470ee501ffd8b7dd0654249b63e139f5b0fed8196"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\root-run-authorization.json",
+      "bytes": 524,
+      "sha256": "cd1499840bf2c15bfa83a4ee81ca933fc74848d70af9c951f42e78f00becfb8c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\run-openfoam-executed.sh",
+      "bytes": 5444,
+      "sha256": "0d165914a95a89675273bf4e04611a033c6a79124fc3ef0da7a38f04d730aa8a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\run-openfoam.sh",
+      "bytes": 5444,
+      "sha256": "0d165914a95a89675273bf4e04611a033c6a79124fc3ef0da7a38f04d730aa8a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\provenance\\setup.json",
+      "bytes": 1497,
+      "sha256": "7871408e2b216744befe6c655eae73a82f1fdedac5978f49a44a2b078c71c912"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\run-status.json",
+      "bytes": 312,
+      "sha256": "62e978c6c610482626c95b7f156eda6e252a696f8f9903160a46f9473d1a6726"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\solver.log",
+      "bytes": 1101598,
+      "sha256": "c1c9c53e00ffe2d7f0cf93276ef7622a22c4cdd86b474f41c17a6a348476de84"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\system\\controlDict",
+      "bytes": 363,
+      "sha256": "876ded5b10149370041c929ff19c47a192a66f57ed6d5b0c166f82965b9cb091"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\system\\decomposeParDict",
+      "bytes": 166,
+      "sha256": "ddb5382347794fb453c78e81b977665ce8b4658f6b620ac06d9454b4ebd9a930"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\system\\fvSchemes",
+      "bytes": 409,
+      "sha256": "021d0af39e30e44f02049832103bc6addb12bf9a156f9e33221a9bcbd9af2858"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\openfoam\\system\\fvSolution",
+      "bytes": 349,
+      "sha256": "474e5ba0563ab61f7e38aa1ae254558ad3ee56343c605ddd834a593f74596c95"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_tjunction_openfoam_v001.py",
+      "bytes": 25177,
+      "sha256": "8d87c1aab5a92cfd4c86d499ce83d2317965df4f490ad830d01f37934f674f00"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_cavity_native_v003.py",
+      "bytes": 40050,
+      "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_nozzle_native_v004.py",
+      "bytes": 42964,
+      "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_tjunction_native_v001.py",
+      "bytes": 26940,
+      "sha256": "f48aef40a75ca89aadd9caa42520b08a8cedfc2ead63e4d1a0f9349a9b54a835"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_tjunction_v001.py",
+      "bytes": 15338,
+      "sha256": "16ded13dcc9d8e7e315f5aaefe24d84af2963e910efda6b48c0d355fe04965d4"
+    }
+  ]
+}

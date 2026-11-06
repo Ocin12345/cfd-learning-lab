@@ -1,0 +1,13 @@
+{
+  "diameter_m": 1,
+  "outer_radius_m": 80.0,
+  "density_kg_m3": 1,
+  "viscosity_Pa_s": 0.05,
+  "inlet_velocity_m_s": 1,
+  "reynolds_number": 20,
+  "cells": 125952,
+  "radial_layers": 246,
+  "circumferential_cells": 512,
+  "preserved_radius20_radial_layers": 192,
+  "inner_nodes_preserved": true
+}

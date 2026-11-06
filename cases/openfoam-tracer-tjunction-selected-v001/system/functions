@@ -1,0 +1,26 @@
+FoamFile
+{
+ version 2.0;
+ format ascii;
+ class dictionary;
+ object functions;
+}
+
+transportTracer
+{
+ type scalarTransport;
+ libs ("libsolverFunctionObjects.so");
+ field tracer; phi phi;
+ diffusivity constant; D 0.001;
+ executeControl timeStep; executeInterval 1;
+ writeControl timeStep; writeInterval 1;
+}
+frozenRuntimeFields
+{
+ type writeObjects;
+ libs ("libutilityFunctionObjects.so");
+ objects (U p phi);
+ writeOption anyWrite;
+ executeControl timeStep; executeInterval 1;
+ writeControl timeStep; writeInterval 1;
+}

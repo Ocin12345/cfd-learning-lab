@@ -1,0 +1,2961 @@
+{
+  "command_arguments": [
+    "--geometry",
+    "E:/CFD-Learning-Lab/native/runs/2026-11-01-thermal-slab-v001/mesh/geometry.npz",
+    "--out",
+    "E:/CFD-Learning-Lab/exports/figures/2026-11-01-thermal-slab-paired-v002",
+    "--fluent-run",
+    "E:/CFD-Learning-Lab/native/runs/2026-11-01-thermal-slab-v001/fluent-v004",
+    "--fluent-audit",
+    "E:/CFD-Learning-Lab/local/thermal-slab-v001/fluent-checks-v001/fluent-checks.json",
+    "--fluent-fields",
+    "E:/CFD-Learning-Lab/local/thermal-slab-v001/fluent-checks-v001/fluent-fields-common.npz",
+    "--fluent-fields-sha256",
+    "8b1f5a032850e9730cf4a1c287a8abb529262fa62a95edbcb25bbd2dc3efbc10",
+    "--openfoam-run",
+    "E:/CFD-Learning-Lab/native/runs/2026-11-01-thermal-slab-v001/openfoam-v002",
+    "--openfoam-audit",
+    "E:/CFD-Learning-Lab/local/thermal-slab-v001/openfoam-checks-v001/checks.json",
+    "--openfoam-fields",
+    "E:/CFD-Learning-Lab/local/thermal-slab-v001/openfoam-checks-v001/fields.npz",
+    "--openfoam-fields-sha256",
+    "0acddf2fcdf9ca3e39984267e9fd31ef968f64eea05b4fcf8db9a2faff4e9dc4"
+  ],
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\environments\\fluent\\Lib\\site-packages\\ansys\\fluent\\core\\offline\\_lispy.py",
+      "bytes": 18256,
+      "sha256": "1eec6d9b4e2c7bf480671061d56a1421e08a8157b5a571ec58e0836a5d19f9e9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\thermal-slab-v001\\fluent-checks-v001\\fluent-checks.json",
+      "bytes": 14239,
+      "sha256": "8bc5e29f1666129337a96375c85ba408174ffcfe932725852ed5c747972b02c4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\thermal-slab-v001\\fluent-checks-v001\\fluent-fields-common.npz",
+      "bytes": 921131,
+      "sha256": "8b1f5a032850e9730cf4a1c287a8abb529262fa62a95edbcb25bbd2dc3efbc10"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\thermal-slab-v001\\fluent-checks-v001\\fluent-source-manifest.json",
+      "bytes": 51841,
+      "sha256": "b7f5cfa7bb543288dfa80bbfeb5da55c364b00786247a3c97f4cc230ef560121"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\thermal-slab-v001\\openfoam-checks-v001\\checks.json",
+      "bytes": 27280,
+      "sha256": "a3a879fd7458cbe92909823c830bc8bb7ee4e86ec60ed71914ba0970a82fc20a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\thermal-slab-v001\\openfoam-checks-v001\\fields.npz",
+      "bytes": 974420,
+      "sha256": "0acddf2fcdf9ca3e39984267e9fd31ef968f64eea05b4fcf8db9a2faff4e9dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\thermal-slab-v001\\openfoam-checks-v001\\source-manifest.json",
+      "bytes": 115784,
+      "sha256": "eebfef3513e0ac5ba428f2a480f799df054e79f0914c375853d9d6fbb8063aa3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\authorization.json",
+      "bytes": 732,
+      "sha256": "d52e3e56fa95b4d8d407b41a84e189bd02c97c832c047bf69a7eaa7bccc446d1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\code-provenance.json",
+      "bytes": 1137,
+      "sha256": "3f81d3c948d58addcc10a54de801c0da3a3243dd3bddfe715dccec70cb9b5185"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\declared-targets.json",
+      "bytes": 1215,
+      "sha256": "02c5ec83743cbfd3b379b01bbab2398a385e2925819929683f60790e7ed92ddd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\executed-script.py",
+      "bytes": 14958,
+      "sha256": "ce7372f2b83446630b8bd292d10cbe83457221bce7aca82eb2c78b732ed2ed64"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\final-settings.json",
+      "bytes": 31610,
+      "sha256": "7a8ea0453d715bfc7384090e355eac5f607cda2633cb50a87d2435d88ea14eec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\first-step-gate.json",
+      "bytes": 1427,
+      "sha256": "f53c5d94ca9a102a5e1d952509e46e5d5cba74a054478d8fea18ddb913420477"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\first-step-settings.json",
+      "bytes": 31608,
+      "sha256": "8f730a0afeee902aea490ddc282330320ca59f941e49457cdf08fae1cced4b6c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\fluent-20261101-234309-106456.trn",
+      "bytes": 73179,
+      "sha256": "9ee6983340c80e7789f72d9f1761f887bc2bf62302be8fffdd2f66e545ae6850"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\geometry-quality.json",
+      "bytes": 264,
+      "sha256": "1d45d48f491a1df71afccb7fb1dc48649a5ed76ea578acd1901e4ba427c4ca89"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000001.txt",
+      "bytes": 483,
+      "sha256": "bb9f70eb12eda59a0dc3f5bb98a10de009f6f43fd6fe612e735cfaed5f0da4b3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000002.txt",
+      "bytes": 483,
+      "sha256": "acf2d268b8d8a302ad5cd6a86b35c6008a7ab2ee31cea200004f485996fc964a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000003.txt",
+      "bytes": 483,
+      "sha256": "fbba6b2f24c907d55a5a21af6f6255cadf5ade716e4a92fc4896ace91dc63b6b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000004.txt",
+      "bytes": 483,
+      "sha256": "3266cdc4b7f4e00926f286e90168b40647abde3cde4ab1c0cef747f40df19722"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000005.txt",
+      "bytes": 483,
+      "sha256": "b08d75d1da0bdd25e92c2e9965b1c2af37eb3529a1b6bdb8afe457c26d03d3e1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000006.txt",
+      "bytes": 483,
+      "sha256": "4a8966dd57182c6196f0aaff08c9175a3fd20076182fe6ba4e0b9cb3bb35e53b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000007.txt",
+      "bytes": 483,
+      "sha256": "3aa82a0fe804fdda6130298541f539791f91484767816d956b4e0c639cea7354"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000008.txt",
+      "bytes": 483,
+      "sha256": "e8bbab05964de2f534b102c604c97dd43cfd2fe9c414157e877f8ada0b140aa7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000009.txt",
+      "bytes": 483,
+      "sha256": "d65e277e44d227b14e1e7435a0e055f5c6078938ad39f500dc7feba8bcf0298a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000010.txt",
+      "bytes": 483,
+      "sha256": "dfcd3cdf91adb5b475ad7aead473d6211f1a916e88f29629f16a66f18f6dcd7d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000011.txt",
+      "bytes": 483,
+      "sha256": "6cf14835048ad7647b331bfab6f7366e797f0d95f3ada9d74c649437b2b617be"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000012.txt",
+      "bytes": 483,
+      "sha256": "b64c6ed498385f2382cff3f82a78fcb8852a2e66df1937817b94187a86a7222d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000013.txt",
+      "bytes": 483,
+      "sha256": "cb138e616feb72bf511fd3fb2b6e2f07f83d2e57f24c9248524679170ca77f15"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000014.txt",
+      "bytes": 483,
+      "sha256": "32b28160d03b8af847ceee17b5a73ef51c6ff520b7a377eea7ca67c371c31830"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000015.txt",
+      "bytes": 483,
+      "sha256": "1a9d6966d654bfdc4c33bb0085ee96185e428f159c2733a5ab3561cfd9229fcf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000016.txt",
+      "bytes": 483,
+      "sha256": "5860566c9291124b6a703549bddbe87263a17c8a02c33aee4c8214601d3ccce3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000017.txt",
+      "bytes": 483,
+      "sha256": "0b63ad037561347e39f144a2c48fb48e1dd48d2acc54d1fbb609978db9196cce"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000018.txt",
+      "bytes": 483,
+      "sha256": "b1de20d77b714f38da4e4952cbe0161f4e5a76fdc150cb0a172b71d0688d4126"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000019.txt",
+      "bytes": 483,
+      "sha256": "d6eaaa837906dcb2e3e36506d4c6945e2e2c658d4c1a7a3cf0a66e885af75c09"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000020.txt",
+      "bytes": 483,
+      "sha256": "54de98f1c175bb18e25d24cf8f5461b704601b5062c361164864d82286525ecb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000021.txt",
+      "bytes": 483,
+      "sha256": "5ee226012f85b12ffe41e79352ef6bd95c31049909694e8b4934a6f3cfe91637"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000022.txt",
+      "bytes": 483,
+      "sha256": "79de618f19e027e83f0e98c3dc2664cdad00d3e2675053cc52fb13d6cd832322"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000023.txt",
+      "bytes": 483,
+      "sha256": "c1d0344cd4893657e34e9f9f54ccf49826aab8190f44cc8d822a578c501a65a3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000024.txt",
+      "bytes": 483,
+      "sha256": "71c4f50e3b2080c05ab4b4b3f92f6f4fc505ea7feaec5ea34c4bc14797ac39c2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000025.txt",
+      "bytes": 483,
+      "sha256": "e879333b211a5d867e05b47b2c585b352c2028b57fc7aa207fab8648436290c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000026.txt",
+      "bytes": 483,
+      "sha256": "80363de44f95fe8b0945ada5f8c7b3a82bacc8bef1539b028fa839f6eaddabce"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000027.txt",
+      "bytes": 483,
+      "sha256": "efdb917f3d329244677fdf001fe1281afc64cf7b1c51805c7ef195a3baecc3f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000028.txt",
+      "bytes": 483,
+      "sha256": "fe840b971b41a1b7921513b902ef4bc0fb3e45cdb09bed74958a80bcdeae5c21"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000029.txt",
+      "bytes": 483,
+      "sha256": "9df9b80677c8f40518df2c9aa19b1412b33e6b87d08c635479eb5ccffb849926"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000030.txt",
+      "bytes": 483,
+      "sha256": "1d65c6a4a79c9286eeb7542dc866dd403feed435b340f47d7289e0afc68b08b4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000031.txt",
+      "bytes": 483,
+      "sha256": "8986e8b54654a351949e9f73adc21bf5b4fa0328dabc5caee88b86fc9c3dfe4b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000032.txt",
+      "bytes": 483,
+      "sha256": "16b81644f6f11f562060acb259d4a44feedb7c8254ab9c41d56b199d8112cb61"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000033.txt",
+      "bytes": 483,
+      "sha256": "869ee876a60af452b8e920dc580dfa0e1cc6fdba4c6ed69bfe71d4fbdb5d8c3e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000034.txt",
+      "bytes": 483,
+      "sha256": "5ed7b2a0f145118dc1fe8591b21d4b10a89c317512b7bc890dbb4ebcb7649ec4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000035.txt",
+      "bytes": 483,
+      "sha256": "6577e617ff8f80f37a93d2bc563bdc888078f5d2d025ae176ee93dcd50336f90"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000036.txt",
+      "bytes": 483,
+      "sha256": "685395e35a419b48bc423ae0b6262ecb217d8c6c7797ed6036ed2bc04db6361b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000037.txt",
+      "bytes": 483,
+      "sha256": "62af83c89175a467453156afbd8749405bc84470cf0275998c187fb211a15808"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000038.txt",
+      "bytes": 483,
+      "sha256": "6365943cb3058ecc1e816106e0b4f1ba201d76fb89c825c4a6d07c2c0b7dbfcc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000039.txt",
+      "bytes": 483,
+      "sha256": "399fbdda6091766b3ef1f9ddba858780b35ebb036d3ef5f23240e4e68d143b8b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000040.txt",
+      "bytes": 483,
+      "sha256": "d0139c783f3a5200a5ac72618db107e797b14373408fc3f94b2c4f6e6e1fc3d1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000041.txt",
+      "bytes": 483,
+      "sha256": "118ec18c58d1510be8fd85a8ef28dfeca393879114cb306d236324b2828ce448"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000042.txt",
+      "bytes": 483,
+      "sha256": "ad474c9a514374edd2a4885573ac457ef1a874d1575c9aa75f5c9680abcf6ea0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000043.txt",
+      "bytes": 483,
+      "sha256": "9246bad250e18b0502ce24ae19943185f8e7ccf7e06cf63d25a7f5dd84a95b36"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000044.txt",
+      "bytes": 483,
+      "sha256": "800f4a7f4792c68b6c9beea98642a171c5e490aab3e10820d3e80b1718267d9a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000045.txt",
+      "bytes": 483,
+      "sha256": "4690c917d1850fda4b3aeb29ad0c2aca70931faed98dca75571bd1f282f448db"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000046.txt",
+      "bytes": 483,
+      "sha256": "ce81f40aaf69924b0a9c4a7c3edbd0dc86d6f24e0ec2daa6ab4caf44a4a6ccde"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000047.txt",
+      "bytes": 483,
+      "sha256": "a04310858d30bf0e1dd3e04c504026e8ee083651dbaff8d51ba2fdb244a66b36"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000048.txt",
+      "bytes": 483,
+      "sha256": "15bb3a2e7890070b3d6122fcd22668f9f569c03a1ff429330bc8e12484b062dc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000049.txt",
+      "bytes": 483,
+      "sha256": "baa67ba9f9831f64e85bd76c5a9503141e0a933896c773f8d4467c68562d9221"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000050.txt",
+      "bytes": 483,
+      "sha256": "99b658fcfe52adb075980d194b9d62c06d6cb9319015c9664c018ee03e74c1df"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000051.txt",
+      "bytes": 483,
+      "sha256": "65da16a826af6a4d7b126d5d5641e692a129d6a2b6b294c2b665e133818e588b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000052.txt",
+      "bytes": 483,
+      "sha256": "365d141994545c2d359975342132a936281a0803a79bba966efee3b022913b32"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000053.txt",
+      "bytes": 483,
+      "sha256": "1e53ef2363695d35c57ff1bb6cd32179394cf9a0c08738bc09a0c99cff582fc0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000054.txt",
+      "bytes": 483,
+      "sha256": "36041144b189dd8a8093147bb5e5bcbafd753cf15d1d4a32496a60d842f7b0c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000055.txt",
+      "bytes": 483,
+      "sha256": "e87eebb0f0c8e20731dca6c38a8b7d3f908ad87a40bc566c4dbe2c00eb0963b8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000056.txt",
+      "bytes": 483,
+      "sha256": "96178836533c97b80c2aacafd13e9594d7bea592819ff330d486010d8bc727d3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000057.txt",
+      "bytes": 483,
+      "sha256": "048a83a829824f86636309d925c1fbece67cbb6bd17159657e7e8b6a980091c3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000058.txt",
+      "bytes": 483,
+      "sha256": "f328620159634c4380c4a7aa0b2a0bd5c732907d610752b4cb5e4400c58d98ee"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000059.txt",
+      "bytes": 483,
+      "sha256": "f126141cfed921ab7f342c68bcd4dbecdca92d3bb9bca376e8d61c245b7725f6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000060.txt",
+      "bytes": 483,
+      "sha256": "fb2d70d7f203621e375f312a5cd7599287d04eef28d04ce506bc799d401c7a66"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000061.txt",
+      "bytes": 483,
+      "sha256": "d2afa02eb94f2ad5af81e825d221518dc0a64a64e0943ab9722143a30b471809"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000062.txt",
+      "bytes": 483,
+      "sha256": "59439bd764923c24fe3da137a65be15ce1537cf919556345b9735b828b2a0f51"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000063.txt",
+      "bytes": 483,
+      "sha256": "9285e2001d67d270f7611c19ce3eabcf382f08b79daf94b155fac0ae119bc0c7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000064.txt",
+      "bytes": 483,
+      "sha256": "7621d11f04ae0e8c64989fe36f5d0926562ec512311642b2057ceb52f7a07fa7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000065.txt",
+      "bytes": 483,
+      "sha256": "de7f8c849e34742dceae6166b9828809aac0d31fc081a13fc4677ad6ec278c91"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000066.txt",
+      "bytes": 483,
+      "sha256": "59a8375b5e8470a21f0af6ab7656658f9189b64cd342f6b3fa07b92310cca065"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000067.txt",
+      "bytes": 483,
+      "sha256": "4e33f2e77f00ec66bc220ac11909aa67c71d3e089a9ef07876d15f0fd982861d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000068.txt",
+      "bytes": 483,
+      "sha256": "40e615149d0b732d2a76d2f026ac985da1e683c54a75a27774eefe4877176ef2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000069.txt",
+      "bytes": 483,
+      "sha256": "8af0316793d0979bcb6615181019fac4c4a74e2e124503eaa4df7fd8081a4f90"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000070.txt",
+      "bytes": 483,
+      "sha256": "32f22dfb06bba194b951161fbc7b41755ff37bad3865734e5ac185e9cbf4d698"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000071.txt",
+      "bytes": 483,
+      "sha256": "d07a53a7b0a93493662124f3476ba38a605fe5ef9407a02ba5fa6275e5232377"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000072.txt",
+      "bytes": 483,
+      "sha256": "87e98dcd3e4faab2ed5a0ebad39fd52f67f4613edb91c379c743884b6fb98111"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000073.txt",
+      "bytes": 483,
+      "sha256": "2a64638db7ae90efdc752812fdf8cfb55574c4ab5ae8176b7bc7fe275b6d0f1e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000074.txt",
+      "bytes": 483,
+      "sha256": "102e3af8d8b96f9e153485ea53d3b93a4dc8cb8908caaed3f60c538a3ff4cfc1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000075.txt",
+      "bytes": 483,
+      "sha256": "94e33b46c9e37ef9e0eceda2ae887d7109e058fc1f0726465f8258baf51846d7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000076.txt",
+      "bytes": 483,
+      "sha256": "9bd6abceddd0e7c69b5cf5633d19be634256dd80f450f9f9feee267f2d273aa0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000077.txt",
+      "bytes": 483,
+      "sha256": "0306ed3822062e5b75b1b039975d8050e08eaa1deb912087d369b045f3acf078"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000078.txt",
+      "bytes": 483,
+      "sha256": "0b3b4d281b239b0a82de2b135e005e4bd3001185fa3008629185114a52748230"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000079.txt",
+      "bytes": 483,
+      "sha256": "78d2540a2298a37650b140aad78b9aed443a2f946ef61209e18ce8b87ef75c57"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000080.txt",
+      "bytes": 483,
+      "sha256": "6cd2c0a01253f2cd673610f24579e7e4f17afe41fe0ef60e6d5f8ba266cd6586"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000081.txt",
+      "bytes": 483,
+      "sha256": "3f0f5c2479470c25b4c46df2053705ede8b765c61b5dd15c32a4a6c739838245"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000082.txt",
+      "bytes": 483,
+      "sha256": "215d9ec2e38fa9855816189608817f561247167496deb0fb3dca559fd3a27db8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000083.txt",
+      "bytes": 483,
+      "sha256": "1faafade205904d26450fb7e5e2257071f12152088aee5147882356c6ce53752"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000084.txt",
+      "bytes": 483,
+      "sha256": "7a16a3dcf837d11762fa67cf945c3fc21f5211d68b162e8c3f20d2edf5bcdede"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000085.txt",
+      "bytes": 483,
+      "sha256": "0f6755b409b9d3996d8f1bd4535974005dcbb69a16cf6fc49514292d8205af55"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000086.txt",
+      "bytes": 483,
+      "sha256": "bcea48e1fb2163b498d9ee2f9df80fbe2e8b939c742ba1b8789d1303587fa30b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000087.txt",
+      "bytes": 483,
+      "sha256": "3d5af31816e673c95cef2dded6f2924fefb0a048c92eb14b55baa7236fd9fe38"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000088.txt",
+      "bytes": 483,
+      "sha256": "26bb267e0907c380a04df846753f2a1ef4b91d7da6c615bc63d70b6481f47691"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000089.txt",
+      "bytes": 483,
+      "sha256": "ebf80fd8daf9590b8904349c7b3eef1e178855203653b8b9f1edf737816e5dc0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000090.txt",
+      "bytes": 483,
+      "sha256": "d8921c259c960e5ece736fe1dbb47f48f8fad66e210c6309459b9da53f07769a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000091.txt",
+      "bytes": 483,
+      "sha256": "dcb7249d3de25622c22b93dbe8b5eee69bb52fcac510aba2639444234990e66f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000092.txt",
+      "bytes": 483,
+      "sha256": "cb0496aff7e305fcaa4c855b2ffd82bff2f60b01ebff8d61052767cbeef8e5b5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000093.txt",
+      "bytes": 483,
+      "sha256": "af0c5d0d672462701833fde251046ec4880e26fd118caac0010786a84db9bbbf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000094.txt",
+      "bytes": 483,
+      "sha256": "34818bbcd67bb742169cc3b3a87264b73e5184893ca4c2964fca11c3946412ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000095.txt",
+      "bytes": 483,
+      "sha256": "7a05275394247ac8a2a79408dcfcefcc4eec3d9871658ea787a48f2f6336e225"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000096.txt",
+      "bytes": 483,
+      "sha256": "052179bd5393e423ca850fd74539ea961d718069344a2395e166c64e516d680b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000097.txt",
+      "bytes": 483,
+      "sha256": "b2925ec351d45844b0a3f049275e35b9c079f6958d08bf2da4ae66b8aaf6000e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000098.txt",
+      "bytes": 483,
+      "sha256": "2b756a8fb3023377752de2f0ed6fd2d8c97b9b23772031d41104fb2ad9191b60"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000099.txt",
+      "bytes": 483,
+      "sha256": "10664e91c3dbaece9c7186a831f7664681cf1d8340892843f052c47ae7a4a054"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\heat-reports\\step-000100.txt",
+      "bytes": 483,
+      "sha256": "bf7a57f31fb87298690d780bf833a680fda29fe235d48af85b3dd545dfdd8012"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\initialized-settings.json",
+      "bytes": 31606,
+      "sha256": "e919e13ba493844cd26f4b69683cdbc01ea5b30b75788d750a12f044f2e26387"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\loaded-settings.json",
+      "bytes": 31497,
+      "sha256": "df263a322d20bac51e6b68400bdf6ef016ae89eead4ad951d6b8db5931429cad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\slab-final.cas.h5",
+      "bytes": 601294,
+      "sha256": "c233cd9ec1fe65ae664ff421982698d69afdd4a63ab3421700ecc219a104d4a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\slab-final.dat.h5",
+      "bytes": 158900,
+      "sha256": "2936d83cfee3d8a253755a2548ceb8cb892ddb6eefa17758f65377dab6194fc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\slab.cas.h5",
+      "bytes": 601112,
+      "sha256": "9ac753374ca10372ad706ffe4125640970381aeee0cb18b312443874ea2941f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000000.dat.h5",
+      "bytes": 67215,
+      "sha256": "bda495221acf9ff1c4bae897d122ca9142ca0f3deae1a569670c53a129da0f06"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000001.dat.h5",
+      "bytes": 128594,
+      "sha256": "aab63f2950ca1491bb180e59b5746f269a496b62969024e7d609599833bee791"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000002.dat.h5",
+      "bytes": 145862,
+      "sha256": "c5a3b0051d09d58db633e978e71de2c7ad218c9c9a5465d65c84f3794bb0657d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000003.dat.h5",
+      "bytes": 145521,
+      "sha256": "fdc7d1a33485bc47f32e04e56a6b9ad4a0dc5181020712feb52c2656fe83a2fe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000004.dat.h5",
+      "bytes": 146082,
+      "sha256": "b490742f67c91a8f42a27f95670e089b97ee6955a1eb76c850e606b093989704"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000005.dat.h5",
+      "bytes": 146112,
+      "sha256": "f47bd131abca454daf1db1fba493471fd5be22f8ac10d1d6979cee40c8c3a68c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000006.dat.h5",
+      "bytes": 146386,
+      "sha256": "fd74bcaa74fd14a49b93e6d63afa3f21c4617d0b5468d496d486c99ebdd70cf1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000007.dat.h5",
+      "bytes": 146747,
+      "sha256": "079af8bb8a63c9e00c42ae79b794ea895d13667b2a51603b95ff31a159b38c08"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000008.dat.h5",
+      "bytes": 146942,
+      "sha256": "907ef3a1c3f05765ad944620c34a1fba0172924fae688d92d431ed2d37468483"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000009.dat.h5",
+      "bytes": 146951,
+      "sha256": "d59a393001f040e08f9aa1703ee1446bcfed07bc13b58705906894ac07de24db"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000010.dat.h5",
+      "bytes": 148956,
+      "sha256": "f6fe10467665f771c9de31673927561d6dde0534d3178698fd24db7f15944965"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000011.dat.h5",
+      "bytes": 148846,
+      "sha256": "67b79f548e64094db59de2c51c2be59a6e2da93603dbff4f60877d897aad80ca"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000012.dat.h5",
+      "bytes": 148676,
+      "sha256": "8dd5f89284860b810af19ce92f63224f1a83b57cb1bbc7b1be4fe004fae9ee57"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000013.dat.h5",
+      "bytes": 148515,
+      "sha256": "d3c8047951a48ded6093f2847c1e6fb2734da3a710d67041ebdf239cc17505aa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000014.dat.h5",
+      "bytes": 148316,
+      "sha256": "322d877f761918f004db2b061fac3f92504300584f617c60204c2d76e83b4386"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000015.dat.h5",
+      "bytes": 150015,
+      "sha256": "05c9ec1d93bd2bf748ec55491d349c6b4785c8511c4ee2cb927c36886e3f4993"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000016.dat.h5",
+      "bytes": 151950,
+      "sha256": "f2797e0c7114301620ca500883e9e59dbb45bb0a8cc921d421ad8bb6ac80d6fa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000017.dat.h5",
+      "bytes": 152105,
+      "sha256": "e284001e403cb61a0b22eef005e03d74d49a49b18142c085a5f67bb81e689076"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000018.dat.h5",
+      "bytes": 152068,
+      "sha256": "8a7b76efb5955c4967e4311c826d48bbf3305acadfc1a253ce3e76b1bc8fc168"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000019.dat.h5",
+      "bytes": 151917,
+      "sha256": "b2467b71d3b8d73aa7a34c17fe470c2fdbc195ed0fd1ac612713a7b55ee640a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000020.dat.h5",
+      "bytes": 151717,
+      "sha256": "b5c7e9a5af9ed36855638ef7df8940648a86e6ba214c6994d4feb4b44fb9a8cd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000021.dat.h5",
+      "bytes": 151578,
+      "sha256": "9edbc8768fdf3ba2c297b885556ff9da9c34681ca38f7668882afbccc48dea7b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000022.dat.h5",
+      "bytes": 151196,
+      "sha256": "135355a1c2a1d568a4519f82451cf0059d8e47483ebc39c068b0f93519580cfe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000023.dat.h5",
+      "bytes": 150597,
+      "sha256": "c414de92eeffd372d66d056f36f74df8edf64eb391f46d3fe8c7dc07ce9dc01a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000024.dat.h5",
+      "bytes": 150230,
+      "sha256": "0ac072e9353a231294172bedd4a804877b87ff09f39fdd8530b514bca63107a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000025.dat.h5",
+      "bytes": 152094,
+      "sha256": "00ed9f7e24e1a5bcb842032975d216b1d6bfd4265afbe025e7bcfe18c3e89372"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000026.dat.h5",
+      "bytes": 151972,
+      "sha256": "2ffd3b52928483a8c8f4703dda2ab6913e9c06853f91dee7ba4a07e8da11c6c7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000027.dat.h5",
+      "bytes": 151856,
+      "sha256": "60736265b9ac1a4bb4e985924a9d0f2117cdc341d1bcef80d40a94881c64061c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000028.dat.h5",
+      "bytes": 151864,
+      "sha256": "058232959f7223ccabfd938b130be656345defdd9a78057148fe10d079ceb24f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000029.dat.h5",
+      "bytes": 151878,
+      "sha256": "9d64889d5b7974878e233a0975028c645d3010d3b9ccaafa20094490acf0f2d5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000030.dat.h5",
+      "bytes": 151525,
+      "sha256": "e5ab310057c5bf21f1cbe10e2c3d65de356d68c9a89c53b0fe67348d56a1bb2d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000031.dat.h5",
+      "bytes": 150989,
+      "sha256": "f2e592d69141de694299ec30408c29c129c26597aac42662326b6d96b19b1906"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000032.dat.h5",
+      "bytes": 150719,
+      "sha256": "9022985ca7a99f52d4f83cfc176d5fef46a408a3b4902b1c843bb739629b0116"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000033.dat.h5",
+      "bytes": 150644,
+      "sha256": "344339cfb76764f51ef759f16de841daec12f68de1ec65c74c898c8434b73f53"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000034.dat.h5",
+      "bytes": 150650,
+      "sha256": "c413db55e21473d8b80ef648d216acc5f8b1cd639998678fb0d4d4514a41ce18"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000035.dat.h5",
+      "bytes": 150658,
+      "sha256": "56bca9ffef2e9b3f13852f9adf448486464bf323623eb9ffd5bba821b5404b82"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000036.dat.h5",
+      "bytes": 152538,
+      "sha256": "164104edf3a8d0526cf0814d3a8454647086be6f29475f75cbed9a78d448b1d7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000037.dat.h5",
+      "bytes": 154638,
+      "sha256": "ce7da26fbd2c91cc796a5d810f2a8ef98545c3fd9873dc68eaf91ed31bd087af"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000038.dat.h5",
+      "bytes": 154930,
+      "sha256": "daa5ea5da36c0b1fecc87663a22d80938fa613ce59a97af7bbf26f9f532378d8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000039.dat.h5",
+      "bytes": 155021,
+      "sha256": "37d79dd769c2ff1a7f7816ca7ad2548f5ec3190bd04d8a27269e20569873e94f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000040.dat.h5",
+      "bytes": 155068,
+      "sha256": "a82b29c064c1abfe835245e713d5979fbce2c6c3caed82e61682d36187f9c8b7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000041.dat.h5",
+      "bytes": 155135,
+      "sha256": "71ae2ab99e8892ee23e1460cfe104afba83b2210103b00b3361f75ecd6641e76"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000042.dat.h5",
+      "bytes": 155171,
+      "sha256": "fd7a01da589c13bd0237d05dccf4ed27d4eab34ea4100050ee7e22090778cce3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000043.dat.h5",
+      "bytes": 155221,
+      "sha256": "0202481a6d63e9b57bdf01bae557258d3707cfcd275d894f79920fa235bd7e72"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000044.dat.h5",
+      "bytes": 155221,
+      "sha256": "58591c8a68d55eec4730b8622b6590fdcdda353f92fb06fb7b98fa2d1f991733"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000045.dat.h5",
+      "bytes": 155189,
+      "sha256": "378e5201ecebbc9fc1944d403fdd312f89d1f164fa2a1704fe9ffd1ce9e92326"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000046.dat.h5",
+      "bytes": 155195,
+      "sha256": "76b9235644ad79a13921c61d5021a1529f5235ba4de4d373af8aa0553045bf21"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000047.dat.h5",
+      "bytes": 155246,
+      "sha256": "77455d32e025e9b2458d08419bfde1613ee00a2d137d265ea5174226d855d11d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000048.dat.h5",
+      "bytes": 155275,
+      "sha256": "f48b30c871cf688e3454ff758d883f9366400c37952b1333a0f4b41f993a6855"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000049.dat.h5",
+      "bytes": 155314,
+      "sha256": "a3340c984add577898499a87f03708053860132466b5bfbc3a36022982cf7020"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000050.dat.h5",
+      "bytes": 155374,
+      "sha256": "909b94d06ee1fbb80e1df8b4ec227159d1a101757083d9ca1b791dca41193087"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000051.dat.h5",
+      "bytes": 155407,
+      "sha256": "384d3e38ea2e619192e41974c60de7c5d8293bcb2cad78e6dda7b16d9eea552a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000052.dat.h5",
+      "bytes": 155404,
+      "sha256": "a2f28d3c10ffba6e5a7be638ab812459694fcd7cb622f3c5bfd5cba27be0fcca"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000053.dat.h5",
+      "bytes": 155433,
+      "sha256": "e1db7f5fa436d1747ba677a1602d5cfe8746aeeca8c88c17dc18446b2fc142ba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000054.dat.h5",
+      "bytes": 155505,
+      "sha256": "8920059d85e04ab8e9ddeb950321436287b21d7814237002efb4092311069139"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000055.dat.h5",
+      "bytes": 155546,
+      "sha256": "33597eda1779d95f0ab8b2c178c23c1ff736688a0050eaab37f362ecb65fbb81"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000056.dat.h5",
+      "bytes": 155584,
+      "sha256": "e1a7dad43fcf0d6cd4c4bd18e5fd07ca1b364957656eb07708af43804f36928c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000057.dat.h5",
+      "bytes": 155583,
+      "sha256": "d105d05dff4ccd4c4e1285cf7583606ab46b300ad7c8629e540935ce3d5b820f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000058.dat.h5",
+      "bytes": 155634,
+      "sha256": "2ceab0f18f459d0a439406d292c6f77fb5a6a1ec3485d7d5296f2832c7480747"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000059.dat.h5",
+      "bytes": 155671,
+      "sha256": "8e72bfd7dcfc3442a7af4f937740857b95b7b9c7de58950690c881fc23eb5318"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000060.dat.h5",
+      "bytes": 155679,
+      "sha256": "a0949547ab5ea03371bb955ee418f6b5e14297a7e42e218cc6276c7f22bb5533"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000061.dat.h5",
+      "bytes": 155739,
+      "sha256": "0ef4d99c1de9d144abd0b875d566107e0effd6d9880d5705d2195a3b5c1d161f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000062.dat.h5",
+      "bytes": 155730,
+      "sha256": "20e21e221268b701bb7a0b141191421b0922c1f33c8fd08f6020f9ceb1c61e77"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000063.dat.h5",
+      "bytes": 155730,
+      "sha256": "82d3c31b791086e656aa3611d559505e4bd97dac1ef7f2a32ce04c66819c78eb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000064.dat.h5",
+      "bytes": 155802,
+      "sha256": "7200bbbe53729ef41c8e042ed7187db9b3b1faef8abd803e8aef0c9bfd02f02f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000065.dat.h5",
+      "bytes": 157893,
+      "sha256": "b90a1744b2a11f9c25cc0e2680ba72738928dcb2e273213e782a66b161ff9d85"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000066.dat.h5",
+      "bytes": 157920,
+      "sha256": "8b851836cafbf2c30774e8e5339bf27c348918df1227d5db6c6be72b4ef86739"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000067.dat.h5",
+      "bytes": 157917,
+      "sha256": "2921c890edf2d43e7827711e1ebd3de98a927e2f6f085a872a6c68d2cd1728e2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000068.dat.h5",
+      "bytes": 157932,
+      "sha256": "0a9afd4bb0d24f31924ab2c0e22a1224964885406f3579250b5e4e2d09911a49"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000069.dat.h5",
+      "bytes": 157980,
+      "sha256": "8578361fb1ace97ce0fd7350d953b371b1c4e0ec91ac4f5238ac6c0e21a8e925"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000070.dat.h5",
+      "bytes": 157985,
+      "sha256": "cae8b483a586ad25f68ed9765314d3b4ea40f7ca5c2a51d5552934f9f604452d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000071.dat.h5",
+      "bytes": 158042,
+      "sha256": "7e1587f2c55e4ac4263119a9f2a0a81f0b589dd250d5ea81392821cf6fdac3e3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000072.dat.h5",
+      "bytes": 158104,
+      "sha256": "2a7ac656262da187ee7efd63e0045f3dcdf20fa2b950e9e77f45e6b0bd6cc5d3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000073.dat.h5",
+      "bytes": 158084,
+      "sha256": "fda7fa400598d7d55c794d734afab71872795ee7359a3c7f1486ba7242023909"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000074.dat.h5",
+      "bytes": 158117,
+      "sha256": "de706a0513bb66b9cae9984d03082b3d4c351e190937a850a052fe20ec974e67"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000075.dat.h5",
+      "bytes": 158197,
+      "sha256": "d3042a7cf497485754b317c844e7f90c9f7e52ed349f023a4249c568c71ae092"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000076.dat.h5",
+      "bytes": 158241,
+      "sha256": "4f3bdc6af20b3b421945a1b4024c1e97b2adf1af2561716fb9221e50d2951e49"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000077.dat.h5",
+      "bytes": 158280,
+      "sha256": "df466ea36bf5eb3a5559e4e479a35acb6f0cb2d88325cfacf0a824e0b4ccf487"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000078.dat.h5",
+      "bytes": 158277,
+      "sha256": "d889c361c285dfdcfd43dc23af06707a73c6a261eab97cede2f8217d2248d3ef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000079.dat.h5",
+      "bytes": 158286,
+      "sha256": "ff68db97ff4624a0ce2ecd4f191dd9afe30420dc0004d9140c29b294fd142d09"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000080.dat.h5",
+      "bytes": 158349,
+      "sha256": "add0d695c5e357e3dd4d1b4b559e9534581ce701f5c95a4098b8231cd1065ce6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000081.dat.h5",
+      "bytes": 158376,
+      "sha256": "884f575d61f3017484a49602154254c78025ff2ceb10269e0bd648836dd23a89"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000082.dat.h5",
+      "bytes": 158413,
+      "sha256": "911664bdadc8a8e8cee8e68e7445136d95cdfd54f4bc66950b9a209cb3879efc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000083.dat.h5",
+      "bytes": 158449,
+      "sha256": "41441453a47f2a617063e68566a9d1a4b6d94cc36e16a57262eb431b97aad618"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000084.dat.h5",
+      "bytes": 158471,
+      "sha256": "6f03003ec0449454379cd772c58ae66ec74f389a6a8a67b43db8864d13a45f0a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000085.dat.h5",
+      "bytes": 158512,
+      "sha256": "fd4663f6d186d255405f847463a7213792b34b19de17f94facc9a0d2ac03c361"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000086.dat.h5",
+      "bytes": 158538,
+      "sha256": "694bae18afcef91606c2df265ed36fb487c3cf3f98ddf7ba67137225fdfbd77f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000087.dat.h5",
+      "bytes": 158554,
+      "sha256": "397bb22ca7398ec17a6b41f3b54e2c1e68d73487c3f7d9a633f11bfbf73e5443"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000088.dat.h5",
+      "bytes": 158575,
+      "sha256": "f95a76b0b52ba18681471fb86cdb272e86813365c36bffe9538b6fb2fe22b3e5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000089.dat.h5",
+      "bytes": 158555,
+      "sha256": "ef6c391d8f21134c1dcfc3868d4867a1cb70a1304fc48b51be73f035f5742baf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000090.dat.h5",
+      "bytes": 158598,
+      "sha256": "4f997203bd981a74137ab4c1e455760ba4cb9f530b6c627c6bd99a4aab1beb44"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000091.dat.h5",
+      "bytes": 158666,
+      "sha256": "629c8be9726988ff27d88e4ddf4013e104b699af8cc5a99e8d6179d10d33abbd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000092.dat.h5",
+      "bytes": 158685,
+      "sha256": "8bf368ccb36e520c02f9efeeb3bfea0243b62fcf371a6db3f3b29f0648bce9cd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000093.dat.h5",
+      "bytes": 158748,
+      "sha256": "0f5b63a56881052c7ddc0d13033403cb825d5a68d52f89bed097dfb76fc4d61a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000094.dat.h5",
+      "bytes": 158780,
+      "sha256": "3971e746ea30ca6e83254e6d36b54ec821c9359a9401313091b39d8f970a589f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000095.dat.h5",
+      "bytes": 158787,
+      "sha256": "5e06fa22d884976490bb114d09bf69501da19996ef5b8351106890b4851dd0bd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000096.dat.h5",
+      "bytes": 158832,
+      "sha256": "18c48346dffb83b05ac267bd6b60623e8c2948e95c4d9534e9eafaa2d756fa84"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000097.dat.h5",
+      "bytes": 158853,
+      "sha256": "3430b3464c5285be75ecdb179c68361b79d3cd428512241351a0597056be459a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000098.dat.h5",
+      "bytes": 158811,
+      "sha256": "06953ea95aafae47a5d01cf2ef2c35165f40b1cb1ea0594c525e6912e3b85a74"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000099.dat.h5",
+      "bytes": 158822,
+      "sha256": "100289c0c114197cbb5dac6e3b38dded6f2e0db1ba6fc90a5676998536d1587c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\snapshots\\step-000100.dat.h5",
+      "bytes": 158899,
+      "sha256": "1c960324590d6c1336aa6f721eee624f17531caad0dc503259cfcc31ab26455b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\solver-transcript.txt",
+      "bytes": 70468,
+      "sha256": "f54a23c8c4eb550acc3035f36c8e795a90f980bd872e44e6166c8785c5fdad14"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\sources\\analyse_nozzle_fluent_v005.py",
+      "bytes": 19025,
+      "sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\sources\\thermal_slab_fluent_common_v004.py",
+      "bytes": 11672,
+      "sha256": "95df311781d4deb5b0404e4916d905e32ca7816b60f7e1b61332da2d6ede005a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\sources\\thermal_slab_reference_v001.py",
+      "bytes": 1792,
+      "sha256": "550c050d4294c08d0fb3905d06a2eeda7c82bb44397072a3dd261db1a6d9846a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\status.json",
+      "bytes": 2983,
+      "sha256": "6b4344c3d0166efec19f7dca5c4947eac44486c2286c0a3e773d1fff78c28348"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\summary.json",
+      "bytes": 2911,
+      "sha256": "88825054757012ea6a0f3f8e3fbd76a038b3ca0e3423e4d5616fc568159e75ed"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\temperature.png",
+      "bytes": 51797,
+      "sha256": "615b628a102520cedfc45073ff505c09728d8d1d4e00beaaab312cc6c7356e7c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\fluent-v004\\time-history.json",
+      "bytes": 105020,
+      "sha256": "7b9fc5bc885006dcb38e49b2c065ae0121598edeb711519eccdc003edc2bb949"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\mesh\\geometry.npz",
+      "bytes": 29380,
+      "sha256": "3827f88fc975a0b30ae1d0739ff17ace05a31dd58f025cfb0fbc88e05e9fa96e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\mesh\\setup.json",
+      "bytes": 1447,
+      "sha256": "9a5793d5de246216db4cd6ee90288b8c56d943eeb632ba275e9e9fc16092cd51"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\mesh\\slab.msh",
+      "bytes": 133120,
+      "sha256": "2b67a0ec8233c6e34f51a413d6a1499b7a5d769a4e464854fd8f3ac86dfd5d3d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\0\\C",
+      "bytes": 51421,
+      "sha256": "854db30ad2a6e3826ccb5f9e789119d59860e40d71988dfa6f6f33c9af96a59d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\0\\T",
+      "bytes": 356,
+      "sha256": "2470d862387f73d37ec3c1be35c9070c7ce10cfd2a21aefeea8de6165be80f52"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\0\\Vc",
+      "bytes": 15533,
+      "sha256": "428060b20a913a203d822aaa0b549d7429e67f3af43648978ed00691bb9f5354"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\0\\polyMesh\\boundary",
+      "bytes": 1491,
+      "sha256": "116343b63017335f1fdecb842ae8f82a4431ea5d7fe12995f1c8fa902bf16592"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\0\\polyMesh\\faces",
+      "bytes": 179252,
+      "sha256": "b6e876317c1e6e97b8a7c7f2a1157f2768c3ece7794d731d40c82dc1c937234c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\0\\polyMesh\\neighbour",
+      "bytes": 18166,
+      "sha256": "3f73be7dc705db896a976dd46a66d0d94a52677d0e9d8bc07c9e02d93813b03a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\0\\polyMesh\\owner",
+      "bytes": 36698,
+      "sha256": "22450edfeef9640848d3c511dc8089913e3b02a3807e79481b6a82f7e9718389"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\0\\polyMesh\\points",
+      "bytes": 85803,
+      "sha256": "341d83f651fb9cbaa6882e840c55144f2fcfea143739a730284a92985f992bc3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\100\\T",
+      "bytes": 32943,
+      "sha256": "139868e3b44f3396672f4a8c59f1902df76e8bc96cb6326f9133d10855c111f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\100\\uniform\\time",
+      "bytes": 798,
+      "sha256": "f4525f0b1273ff84b10dc68f702a744137acc1934d0ba9785d1b5b909567ec59"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\100\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "1226d84b756564c45fb624fa14bd8940a0eb74815e2a409d69c7fd9d21b14358"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\102\\T",
+      "bytes": 32939,
+      "sha256": "0e082add7c86eff68436777d23c38adc45273958b202ed52b398b522d359aa38"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\102\\uniform\\time",
+      "bytes": 798,
+      "sha256": "97d357766dfe70789d395692c71c6b299a11a616e9b67dc67eec6fdcee773ff4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\102\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "eb2bb75df991e8ed7ddd3ee4ed10464e99d2aff843f5a3cb2a8def55ece80d36"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\104\\T",
+      "bytes": 32958,
+      "sha256": "562f385870b327619af04560d7bb87a99b6f7706df1448c17be3f093fcac0ca5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\104\\uniform\\time",
+      "bytes": 798,
+      "sha256": "087ec35c8d485e68db37d13613a0fc86caf5eb157ceeca10db4e285dab63b6cb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\104\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "22ed9769d044d328b33bf497ba745bb3fd5576920414081dd9ac1d6920b6c417"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\106\\T",
+      "bytes": 32947,
+      "sha256": "1d743246f8f39156d5195d12dceff4ca020ae621bec64b544aaf101094c6d0ef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\106\\uniform\\time",
+      "bytes": 798,
+      "sha256": "0e5dd0bd5e111b8c48ff28094af52b995b4031d39b13368e2fec071e1c72dd92"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\106\\wallHeatFlux",
+      "bytes": 1916,
+      "sha256": "a74b6dba59de408b2ce7b0ce4339521fc19b82d7c72f61d23e78a0e20e22dfe9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\108\\T",
+      "bytes": 32925,
+      "sha256": "41d60353ed0ab991c23ff8b635a2caa755896dd764a051499e5e16c14ef893de"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\108\\uniform\\time",
+      "bytes": 798,
+      "sha256": "cef5111837b470def15611a08b0d7376486a209d725dfec9961e39fc6f097496"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\108\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "bcc358e4b11566a099e232f0cc55cb7e4b5e69d68c8d556f3f49045b633af2d1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\10\\T",
+      "bytes": 32895,
+      "sha256": "cb65359f7ad8eef98888b9086b32cc24a3ac2de181b5e89a377956a43cbb2e0d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\10\\uniform\\time",
+      "bytes": 794,
+      "sha256": "e87ac057e6ec54402189fb34d99b8897bd8648f7a5afd10ddf396caea9cadc5a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\10\\wallHeatFlux",
+      "bytes": 1953,
+      "sha256": "7194253094aba32289048b912faebd5fde4f6c8fee2ccc733ba27985b8a51e53"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\110\\T",
+      "bytes": 32935,
+      "sha256": "b2d4ed257947c9cbce9f1a2bfe2406dac2192210709e10cf86d5116f722b98b9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\110\\uniform\\time",
+      "bytes": 798,
+      "sha256": "d79740796362900c117ef60b64580fdcdc0a5d26fc0e70701c9d0c8973fe6bb2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\110\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "f54cf523918a420a3e777ced48ade52b37f2d3599c17cceab494f4df0c9366d3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\112\\T",
+      "bytes": 32923,
+      "sha256": "8b655216f07a28704357c45483c4d95465b2196f12e4edba9c9dc4ea0373c8cb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\112\\uniform\\time",
+      "bytes": 798,
+      "sha256": "487bad13cd5567c28327f73e53ccf6f2c0d61ca3c6e913bc52c80b611e0f5331"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\112\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "a1d4ae6b32d29ee36340ff0fb6a582e015191f70a15e9c5c804a346ba08786e4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\114\\T",
+      "bytes": 32950,
+      "sha256": "6745dbcdb1017a98107533caeac3e0fa41d3949b00a3258d12ee84c4784c61f2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\114\\uniform\\time",
+      "bytes": 798,
+      "sha256": "c97e1f79017546bd9dd401b9bd66a0e53d2bf49342e96277137c6c769131e210"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\114\\wallHeatFlux",
+      "bytes": 1915,
+      "sha256": "7674f6f3e6789f4613d83b553b45c8d8392f320861cec29bfd0d5a99f06e540c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\116\\T",
+      "bytes": 32950,
+      "sha256": "b32ba2a5f15ccd15fab41e96f9d259f7d77c8214612478cba7d4891e77c8c409"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\116\\uniform\\time",
+      "bytes": 798,
+      "sha256": "9f811ab405f8c975644d6063fb50fe3eeac8d2482cccbab0dfe5c50b02f45c3c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\116\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "9900cfbade1a786dffb74c4cf8458cf8060bcd7e7b61019a965ea78f57ef4063"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\118\\T",
+      "bytes": 32945,
+      "sha256": "55ca73a19075ead2a812486fd50b71c5f7f7a1f66e1be7d68137518a8b3d0302"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\118\\uniform\\time",
+      "bytes": 798,
+      "sha256": "28a896be65a684e6c6ad1d65243f6aacad091358918c726ba78dbc4359a57698"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\118\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "3dafc666bf2b7a9b283e5fe479f03d03c11a846ae696faf1528b81f69e6f5f7b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\120\\T",
+      "bytes": 32936,
+      "sha256": "a3b6896fa12fd9055c1f9be846581bd23d1d65bc2f0432420342381448c057b3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\120\\uniform\\time",
+      "bytes": 798,
+      "sha256": "80f7fa9fff9cc47a0e392df801eaff72c49074f95b20f589462556bfec5637b3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\120\\wallHeatFlux",
+      "bytes": 1916,
+      "sha256": "d0502aa51fdf9278e8cbda342b505cc7c2afd05a72f37fdc4d55a7984aa39c68"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\122\\T",
+      "bytes": 32962,
+      "sha256": "bf2d3626a591c380dfcaa38fb6060de3f25eef237400934137e36d8b18d4e7f3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\122\\uniform\\time",
+      "bytes": 798,
+      "sha256": "0af4df9b8bb355a7c825973e807cb2bd52ca3cf49acc504fcffd6aeb05dafeb0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\122\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "230b93de64e4fe5c1c10b840f1d6e69bd41856f94f2366e9ba9ad758486fd854"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\124\\T",
+      "bytes": 32963,
+      "sha256": "506e57cde9152ac4053640920d8050e8cf756d24b413b8708c39ca16f3a65d45"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\124\\uniform\\time",
+      "bytes": 798,
+      "sha256": "71957fb4af4ee9027b1703e675dc7f1dccfb89facb9c23b6c12d8e0b9754a2ae"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\124\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "530c3f8d4f2f96a271d3b90cb6e9a5c00adee89d279d76560558a6dddc1e47e2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\126\\T",
+      "bytes": 32994,
+      "sha256": "87bd07b1e4bf8784268aeb1de5777762448cafdbbc26e80e391b9315332d57f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\126\\uniform\\time",
+      "bytes": 798,
+      "sha256": "4b796029170279089b9ffebadcb449d4c93370927b82483507fd1a5b51f82a39"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\126\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "ad023b050f7ed2ab9a37bc355f2feb556b3d75f42a6f0b57ae2af900dd969435"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\128\\T",
+      "bytes": 32924,
+      "sha256": "2439b87656d165351245258021e52659a4dbde640a8ba3993a6616a2f7703102"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\128\\uniform\\time",
+      "bytes": 798,
+      "sha256": "19ef76a9f369a4c25df5bf0bd6dfaf089f1d2654cbb5ba83f515180623bff9d3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\128\\wallHeatFlux",
+      "bytes": 1910,
+      "sha256": "74b066cc759a799ed07c040a589d7b3563467daf3398fbcce3bd3ef50130c45e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\12\\T",
+      "bytes": 32971,
+      "sha256": "a3e3ff5bcac6347b3e16f0ca09cc71596ea1b8aae4652de19ef0e8fde7ea4318"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\12\\uniform\\time",
+      "bytes": 794,
+      "sha256": "a390d3379937cece246a7952b6184cf6d9dd9f1efb4f0c9aedb427c44e93baba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\12\\wallHeatFlux",
+      "bytes": 1933,
+      "sha256": "4a8b7a6cc5dd72d23745276fbaf6ed9df052953ff015c6f1289f49f8f47ed64b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\130\\T",
+      "bytes": 32923,
+      "sha256": "08af2ceb2a2d995c3293d64e492e7de7f56ea6051694078943a88cf151e50dbb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\130\\uniform\\time",
+      "bytes": 798,
+      "sha256": "00c164eed5bcf6f374c4f72e9bdc5ec2a33a752c76fb924b1722ddeae54a5980"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\130\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "103fd95c894cba56f22fd30299c09846f14ec45bdfe3dc05cbfa2a0972cfc213"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\132\\T",
+      "bytes": 32939,
+      "sha256": "533b77a0be2a72f8bcb4752d6d8125a445c76cae668123f624febe243e3a31fe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\132\\uniform\\time",
+      "bytes": 798,
+      "sha256": "2ae9efb7380a478faa92d5a0286cef561437fc98aa3f8cffc82c60256f614b8f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\132\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "cac054a89ae0e7a73d911dcf80b4c88d4f258c681d821aa48b925c7006872a8f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\134\\T",
+      "bytes": 32942,
+      "sha256": "bb8ffa3c378eedd9e76ff98352af2763ab6cbba4ceca7a25f5613d217d9d1533"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\134\\uniform\\time",
+      "bytes": 798,
+      "sha256": "93a2710ae65f2b42e88b94d625338b7504b583c0380181127db588192d57d979"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\134\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "b38e70bb719c9fcac44de48bd11c289350b7b64373dbff57ef319a0ff42be409"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\136\\T",
+      "bytes": 32937,
+      "sha256": "64520e9432edd91a098f94bd7278b7feafebf2122df4324538d7ddab11d314e8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\136\\uniform\\time",
+      "bytes": 798,
+      "sha256": "cdd42da4278f71bd1e13e7c7385a9dd9ca2f3cf2b0cfc290e9c6e1e66da9c6a3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\136\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "349c3fb5cbacd58d557422787d64b9875ebe29dd4d7c199c32487f18020cc780"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\138\\T",
+      "bytes": 32952,
+      "sha256": "7c396ea18cbe0a5415351c73c816443b0a1622c3f13d23bbd86736440a55d99e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\138\\uniform\\time",
+      "bytes": 798,
+      "sha256": "4fcfde77650808a9a3c0a4f7c410843006d5847ec56d982f313e119d50cc4c80"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\138\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "ff253be7cd16dd65b160823eebad13cbd619d5c243a93aa87cfabef9351ee748"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\140\\T",
+      "bytes": 32941,
+      "sha256": "94488fb73d834dff08633df66a48f6e716d8197ec52168ebc1cc1db6ae90a3a6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\140\\uniform\\time",
+      "bytes": 798,
+      "sha256": "1fb2eb52efac86de1d30c5f24b86eb1c6659ce2b4d143e29bc57cb79bea29ee0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\140\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "aa72b2a042792648688d09834e4bbcb1c310d60120ed8173859578c5d9c4865d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\142\\T",
+      "bytes": 32905,
+      "sha256": "987bf17eb9b2f76425514b5eab36673cf37accaa9dae196f3c8bfe4d71deb8be"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\142\\uniform\\time",
+      "bytes": 798,
+      "sha256": "ed0974745ef5c80b91e802865d45a261e6ad90789c1275a202d4c849c435926c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\142\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "26f33dd18064d4d28aa237feeb96508e4770888803f6a00120687eea8d68fc34"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\144\\T",
+      "bytes": 32938,
+      "sha256": "615711fc6156a75a63f0c7659a286661aaa3d9d232b685744d08d30f2b55a328"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\144\\uniform\\time",
+      "bytes": 798,
+      "sha256": "d5886fe44e01f95c78a9a36d45272b743a1b68a6a9d5f953a45a3dae448406f8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\144\\wallHeatFlux",
+      "bytes": 1917,
+      "sha256": "64d24527a39c0fe046dc285e3d32fc46d268fabe153627b361eab2095ed03b47"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\146\\T",
+      "bytes": 32907,
+      "sha256": "49f767403ed8e4a438f966f8694f63c1d38eb3e6b93b82bd7fc2c259f400e97b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\146\\uniform\\time",
+      "bytes": 798,
+      "sha256": "8e7db290970b53bf90a47e18f76da0887c551c49de237ece85dc724a0ed73210"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\146\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "4e337150626e27191c689b8751a88d4c895b45ef28e5880a9a37f270e3fadb29"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\148\\T",
+      "bytes": 32964,
+      "sha256": "f7fdb261d0cfac7a651fd784e4345bcc8a8940f4cdffcbf19d58e8b3fc6314c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\148\\uniform\\time",
+      "bytes": 798,
+      "sha256": "02d0dd215588d5f6edac7c1d977e088862b0729119cfbc6b7a9c363a7511e6d6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\148\\wallHeatFlux",
+      "bytes": 1915,
+      "sha256": "c8a8ce7ee97f5b5c854145f279efa28d5db76f60eb6d85213623e35e4605eec7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\14\\T",
+      "bytes": 32935,
+      "sha256": "76c1d24b46904ab2320ef44ba1a9b0d2002e06438788b26a02826fd1a500483d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\14\\uniform\\time",
+      "bytes": 794,
+      "sha256": "b32832fadc0400de955fc69de7790db720ca69b30d74cb089935ee59c4e2d0a4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\14\\wallHeatFlux",
+      "bytes": 1930,
+      "sha256": "68a4e229999d544f1859fb0d98b7ab743f5db6ab746803ee0fd1d3804ffe53dd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\150\\T",
+      "bytes": 32973,
+      "sha256": "5269ae3baeb214ad43b8363e032c225e4e7470692c887eef7116bb549efbfc41"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\150\\uniform\\time",
+      "bytes": 798,
+      "sha256": "01673347c2f43dcfbf0c8dc045ab8cfc399111df51f69b2a7890f8ba4924aaa0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\150\\wallHeatFlux",
+      "bytes": 1915,
+      "sha256": "f20aed63d6c6eb17d265da92b11396959f7042c6d00b6a83d5544e9f6191b2f2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\152\\T",
+      "bytes": 32913,
+      "sha256": "29f7abebdcecd5619a50d0ff93ecd38ab4c3c4d154c47f3363de3b6c2cc21cb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\152\\uniform\\time",
+      "bytes": 798,
+      "sha256": "79e7ce4c3cebbde1c90e12a9d5a9898a5fd150848b5a83a14c27b8e808f61bf0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\152\\wallHeatFlux",
+      "bytes": 1915,
+      "sha256": "bf0f3b20d3010f09e8978f1679836a5ca69bae958fd195ead7105f6cc1b4ba79"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\154\\T",
+      "bytes": 32962,
+      "sha256": "a8785b037f1a238734f87f0567c2ec21cfb3da1c19872a8b477b312258bb103d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\154\\uniform\\time",
+      "bytes": 798,
+      "sha256": "6656d29decc277ff3e3494faf3bcd28f3689e31e1fd3a0d7a065344cb9d15ce5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\154\\wallHeatFlux",
+      "bytes": 1915,
+      "sha256": "0f70ea55b129b43c1cdecafe771fb35ef92f35edf3a3927e339620552322407d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\156\\T",
+      "bytes": 32964,
+      "sha256": "8be144d6941ad5e25c74dfa5e37296238175c6274c0308cbaf7a594838f1b1ba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\156\\uniform\\time",
+      "bytes": 798,
+      "sha256": "a280627df2641b9a5acb9fa5aef035186cd9c7227590d17a0cf291dc2cb24481"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\156\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "e4c91608e549101f11a78193ed2fe0fd905877b3499c51946a5edc06a625cfe4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\158\\T",
+      "bytes": 32911,
+      "sha256": "8d8e73806f5042befe225b56154df908eb0217079bcde37c37b8f345564de915"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\158\\uniform\\time",
+      "bytes": 798,
+      "sha256": "c22645b9571767ba0c88e01fc1c786e3589d65bf42c026c13795abdb59fdbaf8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\158\\wallHeatFlux",
+      "bytes": 1916,
+      "sha256": "3440483cfc66b7c91094e8e4eeb3b68b840b44046731404c651ce85e55458bc9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\160\\T",
+      "bytes": 32935,
+      "sha256": "aac78a3263ea1d2974d6d8625768d1faa6bc8e3f44002f365a1494f8fad99fcf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\160\\uniform\\time",
+      "bytes": 798,
+      "sha256": "cb4ceca3b5e5dcac8b3547beccbe4f868599679b54f77811977624dc3ecd5695"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\160\\wallHeatFlux",
+      "bytes": 1916,
+      "sha256": "2fa9b3cd299f2d72ecd1d33ca77f89fbb87d0c3ff52467c95e56a88696506492"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\162\\T",
+      "bytes": 32905,
+      "sha256": "de920e25af4e9abe65544c154fbf166516a5839bb8ea9aa6bc483c1a4ec7e368"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\162\\uniform\\time",
+      "bytes": 798,
+      "sha256": "ad5922c535e8e9f5cac5d08003916a018015032bb2a6dae2cdeeb4ea0404860f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\162\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "703d8a39acbd3331bc969626328682b2f894a0220dc3db762c0ad3ca45e96768"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\164\\T",
+      "bytes": 32960,
+      "sha256": "428569a6d061c701adda3962f7e4770dc2bd120f6016e0d7169a6b47e242ef8d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\164\\uniform\\time",
+      "bytes": 798,
+      "sha256": "5604b8392c582756c8ff45311797d2d30e9d00cffd6d94991362629661a12833"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\164\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "3b958174b3a523443f3b04e0fb7c75cbddc977ed23901554672a5fa40d327956"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\166\\T",
+      "bytes": 32895,
+      "sha256": "9cd6709fd31a1d68aafa7220d2e402dac196e571e6f43071f8945d1bb45ca8cb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\166\\uniform\\time",
+      "bytes": 798,
+      "sha256": "bad6d0c97d50f748e85803d96285cd97a226a314e0a9433d88282b99c56e90d6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\166\\wallHeatFlux",
+      "bytes": 1910,
+      "sha256": "9d2c50e779bd0fe034323284d446ea06befab97046146ce9c8897082bd1e8837"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\168\\T",
+      "bytes": 32925,
+      "sha256": "2e6b95aac1a5a05ba0dac394cdaeca64bd8fe625d45cdb70516828792026b882"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\168\\uniform\\time",
+      "bytes": 798,
+      "sha256": "ed14803bc20080abe2a3940f24ed4a7305ceeb4468584a66e559168228702f75"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\168\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "d13bf962a7e076efc880574eb1aad76adc308b05907f44da86ae193ebc473881"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\16\\T",
+      "bytes": 32980,
+      "sha256": "91a32d86e47d141bd94006b15809030223bdfa85a243738cac8a109ce309ba65"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\16\\uniform\\time",
+      "bytes": 794,
+      "sha256": "2f79b916b203d5625da5ed9f875dcf1f95e09cc25cd37aa67b0a6ccfd94d638e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\16\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "c918fd65278f3a0c61a9ad630da5cbcabced95f24ed3a3a957d3d926ba3bd3f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\170\\T",
+      "bytes": 32931,
+      "sha256": "e6840ebf7dbc8115ceb32c0899b678aa800cb532ee243dbe6581b6f3523c263a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\170\\uniform\\time",
+      "bytes": 798,
+      "sha256": "e47e7dcf241fe3476c83b76156d336c1862913adf4c71a39792e72afc5a68b82"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\170\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "8b5b3e344e0b3fb20a88340fead4ed71d417c5370b202cb84ffe1befe7eb43c5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\172\\T",
+      "bytes": 33005,
+      "sha256": "ce8b60fc82a86681a895663d840e067494a9982e2b4bc00cf420753e46440c19"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\172\\uniform\\time",
+      "bytes": 798,
+      "sha256": "3ee79d004372aabe62ae08fb0eb947759cf3865db4e81cdc0c879e916f1a8f27"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\172\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "54b846c8e9b672bff4e2ab916034230d6f4eff750b3b161d401eec705e7cf101"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\174\\T",
+      "bytes": 32937,
+      "sha256": "d1957980e5c221d1e4279e09fb01340a9b20bcb8902e6ae04ef5eb958bf7d519"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\174\\uniform\\time",
+      "bytes": 798,
+      "sha256": "70573e0b9e2189ba728116233026826d5a980a8f699ae3cc3a63c6bc4abccbae"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\174\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "e640153a2571d9f273280519a4d6216b6b0bb13409c25d3638b68e3adc882aba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\176\\T",
+      "bytes": 32980,
+      "sha256": "053e677407135f1746b8db761ec774757535a12cf705e2df251d2f9a4b5a37ac"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\176\\uniform\\time",
+      "bytes": 798,
+      "sha256": "3715ee240a7dc1109902e045fe75d7e1df42ee2ff065a83e0f4313db917a4604"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\176\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "af49d6113b690789b23013e8343292572721897aba14005eed0562f782463e1b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\178\\T",
+      "bytes": 32887,
+      "sha256": "d67e90e65afeac6029b3aa9971d5692242ffe75a1b0344754eff290f49a1fdd6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\178\\uniform\\time",
+      "bytes": 798,
+      "sha256": "75f8f273b0340e5343aab3389885926f8e2f761e390891b0874c6d0278da1606"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\178\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "9c402ee5292ad49e1f0c06d406bf59ced599e3b5400dc08a09bbc1794ce579d5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\180\\T",
+      "bytes": 32922,
+      "sha256": "b96a7b1a5c2f31a86287d9a7139d3536280471778cad296a843a778a4287ea5a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\180\\uniform\\time",
+      "bytes": 798,
+      "sha256": "a39035c37b5d9baaa3b5df914764fcaaa9ac026f9adfc955dd96d89e6635b417"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\180\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "90461a1fd6ec8dfac683260a8578ab809ed70aa35735b2faafad5e1b238e62cf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\182\\T",
+      "bytes": 32928,
+      "sha256": "efa0d597fc55c90b4816b054db0303c47c4bf9ac79c9c2d810c601d08669eb0c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\182\\uniform\\time",
+      "bytes": 798,
+      "sha256": "a3cd0a95f4f2b672757791282a3d895e16fd9c6ffb165e9f70a41b911af00a8f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\182\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "8639c292f154cf61c92ed6b6b2f68fa9cbce791f0a6a81d0961a2912b1940b9f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\184\\T",
+      "bytes": 33001,
+      "sha256": "5efbf94bca766723770190c57a25a0f02f437b8e9c1eed93e203f2e9f22a697e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\184\\uniform\\time",
+      "bytes": 798,
+      "sha256": "1c7562d146b47b0390963efc6d96e0ed75e253926f661f068d3d6429584d31b6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\184\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "1bb6fc1a1f4bd3ff57b8f383a5b4fb5d0c11f4531c83593a4b6a0a3bcdeadb1e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\186\\T",
+      "bytes": 32935,
+      "sha256": "d6f381e0b00406a96bbcef94f891a7dea03732dcb1b56a9141b489f4df1d4afa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\186\\uniform\\time",
+      "bytes": 798,
+      "sha256": "10f0498194ed13dc65d79756018cd3a945296efa07396c0771a79d3298a185f8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\186\\wallHeatFlux",
+      "bytes": 1908,
+      "sha256": "75c8adb603d53e81dc62bca5a604f3d570dbdcc4edf8d46e476f83f21a88a8ca"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\188\\T",
+      "bytes": 32945,
+      "sha256": "5a476b94139409dc07d64b1315e449c0d50f0275bd744659b7eec39fc020a190"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\188\\uniform\\time",
+      "bytes": 798,
+      "sha256": "56026d0041803859ac9cfeedaafdc1724efb2176e07364a90362e407adfaf63b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\188\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "c472c05ac0b960a74467c7567bdbcf75508220e21524cadea736739cf0293387"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\18\\T",
+      "bytes": 32965,
+      "sha256": "9f14b3836a88921620389cd11717a559351d1185cba972f28a799e7a9bd41f84"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\18\\uniform\\time",
+      "bytes": 794,
+      "sha256": "e43f3ae923360194bee59d1218bde963961a67a8cf9ee9e28f7ff165327de080"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\18\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "f5fb1e046472c763bddaea50565d8a32e3442867310c0b785489b8c1dc055c0e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\190\\T",
+      "bytes": 32961,
+      "sha256": "fcfd25d72c1f1bcdd6cead523829127bce7b65f199215e0a3887ce0f7cb2e173"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\190\\uniform\\time",
+      "bytes": 798,
+      "sha256": "b8e3ea5aff6a9f327e950ce187cd6a7c4c042b14fb88a757aa211e934cffd63a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\190\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "42bf91303a74384fa887c49a002fea30f77886da33a3d201dbe8f38c794dd1ba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\192\\T",
+      "bytes": 32936,
+      "sha256": "01e16605b773293c1e4688a33049d228cd2241f20167217fe1e45383db36ed3f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\192\\uniform\\time",
+      "bytes": 798,
+      "sha256": "b684939a35037a953b9982d75f5abf35fdb52922241851cde5b3f29df39cd41c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\192\\wallHeatFlux",
+      "bytes": 1916,
+      "sha256": "733098f87911d11ca0660ff0fce59fbde5ff6146259ecfe5c01470aeea9ff9c1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\194\\T",
+      "bytes": 32973,
+      "sha256": "11da3018e6f01c309ff79b6b76a8fdade7ac68a65e3b5b52ebfa09b04097c7e2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\194\\uniform\\time",
+      "bytes": 798,
+      "sha256": "9f485788fdef4edcd40acb88a0ea1450aebb333ad15fd7d2261d9f20cbc2c238"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\194\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "240bbe7fc8341b8bbfd685ef6a3c12952e6007441a0343b9bf62673757f5aacb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\196\\T",
+      "bytes": 32968,
+      "sha256": "a1a63cc20ffae2c84fc96b261a94401c0b295e1360147a12c35d0e65ba0ba2a4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\196\\uniform\\time",
+      "bytes": 798,
+      "sha256": "d2c483a4f8c1f0d5330fa36c75c43ed974563f75583d4a20d55869f66bc98136"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\196\\wallHeatFlux",
+      "bytes": 1909,
+      "sha256": "e19e55a714de6140299c48238bd3ad00d55acc32556bebe6d63e6006000cf19f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\198\\T",
+      "bytes": 32890,
+      "sha256": "1612316491939a6ceadf948cca95ada474bc263d1c5b1fe12f04148913ee5e53"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\198\\uniform\\time",
+      "bytes": 798,
+      "sha256": "0d36632d6e22de54d3e5975595cfcc772e64e2b18c75ec13ecab6c71a9cd2621"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\198\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "9b0319528cc4bfb2792ccacee90326ea5b1157c23bef4f1da5fb7f21e45ec631"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\200\\C",
+      "bytes": 51423,
+      "sha256": "8af9b4d91f1362bc362aa93a473e14607bda85155e5883d2486d9a3a08a08118"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\200\\T",
+      "bytes": 32910,
+      "sha256": "df37818b033a246767e740e4a0f6849a39ceb09ea88aab4d24b03d99900a64d6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\200\\Vc",
+      "bytes": 15535,
+      "sha256": "b6cc3e162324992bec0e805381c0b2af1e64387e7aff6ab70ef5f0882aa4e5a3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\200\\uniform\\time",
+      "bytes": 799,
+      "sha256": "24a6c2370b5b55800a1815df7176cac97b027338bef3ab82d1860e91d6823fd7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\200\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "53bf7be3918b1c2ed45f8bd5b32c6b22cc15a430f67f4001c4a8ec17f5e1e90e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\20\\T",
+      "bytes": 32933,
+      "sha256": "0634f45e4ea959cd0945a18cb96d8ea9649d9a2db69c07c7c3b1643255249481"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\20\\uniform\\time",
+      "bytes": 795,
+      "sha256": "95dd44319061d8ae78a3ea201dfed4a1556318a0798506d633548355e9180c98"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\20\\wallHeatFlux",
+      "bytes": 1915,
+      "sha256": "388a02d4136b8750cd0ca9424a27125befb97670e4d9faf1539d109cbca832d9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\22\\T",
+      "bytes": 32951,
+      "sha256": "efc704796977b1c8f972f052c4b56d4e3670e682ab4e8742f29fdbd58bcc76f5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\22\\uniform\\time",
+      "bytes": 795,
+      "sha256": "15bbc84d16a4492882d333df24eb1917ce600f1907fceca7136689227596bbcb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\22\\wallHeatFlux",
+      "bytes": 1910,
+      "sha256": "63d7f33a68217afdf2003eeb0bf4ba55298f6504f9b65b963d75a02555da3e6a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\24\\T",
+      "bytes": 32939,
+      "sha256": "cf9e3151656d4729278e368a7cd4d5cedf9db911621c496645102a4d1aadaf9b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\24\\uniform\\time",
+      "bytes": 795,
+      "sha256": "2c1d04a20a6e7642cdc3785dcfd16311bff4a2ffcbc3a20852003674c99b79d5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\24\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "3fb45ece99183197087c633e8ca26491be708959f448ace09c3caef095ecb481"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\26\\T",
+      "bytes": 32928,
+      "sha256": "506813fbb90afa4c6665846f99210bd649beea85017481a6da741673198326f8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\26\\uniform\\time",
+      "bytes": 795,
+      "sha256": "9dec28d0422ef3eb6d6d077daab8f0939b83f702c66bf851ac532428e4084ff9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\26\\wallHeatFlux",
+      "bytes": 1909,
+      "sha256": "62db0be9d664d40dc6649fd7cb7ef29d5e6ff4bae48b5ee4d54026b1c3e8a68b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\28\\T",
+      "bytes": 32972,
+      "sha256": "9c09b69c65a6ecd477ee95aeb5a7af05ff2bc3fd4cfe8371315eb2716b09b8f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\28\\uniform\\time",
+      "bytes": 795,
+      "sha256": "3bd202ee234de8c140738a77ede91436087e07abbcf82f6b46232a14b648bbb5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\28\\wallHeatFlux",
+      "bytes": 1909,
+      "sha256": "575eb5d1142338dc6645043be61593203c3bdfd4e28d77bd008706d607318b56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\2\\T",
+      "bytes": 32944,
+      "sha256": "21c379c4e54c19a8d829584a4df96e34f58252d27bdfbd95f5f33ed7d6bf673f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\2\\uniform\\time",
+      "bytes": 791,
+      "sha256": "2ca4e381df1d1d8fb1ad636f25ce4868f7d4c69842f5042ef380bffc04a635a6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\2\\wallHeatFlux",
+      "bytes": 1993,
+      "sha256": "a1476ce4143a84acdf569015ff057bb6025c941ccf61d9e0dd2c20babb77055c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\30\\T",
+      "bytes": 32947,
+      "sha256": "8373df606aa6eac098a3858812325dae45ffb49236bf622c7fe37556f18134ed"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\30\\uniform\\time",
+      "bytes": 795,
+      "sha256": "994ce33343a847eb28cb88bdee0a136c4557a62ea176751b53486c6d77e52e34"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\30\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "2a295bfd4ea3c456a9743a8d2dd627e2aeee896565cb48857e3551c411abf162"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\32\\T",
+      "bytes": 32916,
+      "sha256": "e3410125cba62cf7d1e9e00fa68304e9e292beaf80f0b7df8626b17d2ad02f04"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\32\\uniform\\time",
+      "bytes": 795,
+      "sha256": "6ca632603295ced240d6c49b969f038452c7bf8dedbb82e4a3f0e57d0ca0f75b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\32\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "3fad5b7914d47fb5d8d7545b4701121c20cf2991e2f6f254cb5f480a77d0da82"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\34\\T",
+      "bytes": 32940,
+      "sha256": "502d10fb5d38f0ff8ef070563615f0788374c363a58048f471c5beb2ba98537c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\34\\uniform\\time",
+      "bytes": 795,
+      "sha256": "674f635d10d34dbb30f6438628947d6f7982ec5799dd35cca63d1ca00c36aaea"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\34\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "02414878714ad54c48dadc3356b7eee49b789b80ba68340b5f5ac771563f05e2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\36\\T",
+      "bytes": 32957,
+      "sha256": "9df28d11cdf28e578859521e6cc83d5b0bcec22cc662b040672fd4794117d5b9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\36\\uniform\\time",
+      "bytes": 795,
+      "sha256": "f2a06932b7058738301c6745a5eca5e69df84ab8eb509d57a86d34c6bc550291"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\36\\wallHeatFlux",
+      "bytes": 1915,
+      "sha256": "82ad8890ca0b93d2f6df4b061eace511df95c601a05c931b701b6da82d91fbb2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\38\\T",
+      "bytes": 32943,
+      "sha256": "a69836e6613f6148a26752644ccd2702aaea1271a60cce604ac5bcfc5fe9555a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\38\\uniform\\time",
+      "bytes": 795,
+      "sha256": "830b94aaad8e9e2a9bb228b40c22989ff5458f21c6cb0a75d2adc0b324673342"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\38\\wallHeatFlux",
+      "bytes": 1909,
+      "sha256": "140c39edc381800721c6132566b83148d35c8451ad6da99fa48d5ba507429cf9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\40\\T",
+      "bytes": 32926,
+      "sha256": "815aa10efba19f75498aad0c0ea6b5f0755800cb2de11fc82482c2ad54630b46"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\40\\uniform\\time",
+      "bytes": 795,
+      "sha256": "919811f102f26472cd2bdf42f5f0593e716cd0eaecbfb0c69c6b7e56be0e5881"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\40\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "3a2c26bcfbf1f91000a9f8bde11d6e0bb997a9f440bc4332b581f71fffb35528"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\42\\T",
+      "bytes": 32934,
+      "sha256": "6fd0a0230635cb61462497a36eb154930bf0da1071d91e037ba2e55c3d6560cb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\42\\uniform\\time",
+      "bytes": 795,
+      "sha256": "43123c0111bad1a37dd1389af38973e7a8244ef63fdd7c8300b3b2fd47c97a74"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\42\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "2d86a057d37231791817ef297f7b3ad1a5cec80db70dc9685b1f7c9911a1949e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\44\\T",
+      "bytes": 32935,
+      "sha256": "97606957c41475f08704cf9abb2bdad9507e2434343deca5eb4342ca8da47d6a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\44\\uniform\\time",
+      "bytes": 795,
+      "sha256": "2aae58a95f9b0cb83fd9753df77fee545ef84eb7ab0fdff78790d1b768147170"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\44\\wallHeatFlux",
+      "bytes": 1910,
+      "sha256": "27ef8ce86ac02df5846b19701e5a6e504727aa87dc2f8f1a1a70d7f00d8c23dc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\46\\T",
+      "bytes": 32955,
+      "sha256": "813ce9d448f6cf192a9055a3f2da6d44c7450652b4a80e02a555bae3431a3720"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\46\\uniform\\time",
+      "bytes": 795,
+      "sha256": "db5830025d395fbea4e81fe18ff3e836f16955799bef0aed74a03bfe4929d119"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\46\\wallHeatFlux",
+      "bytes": 1909,
+      "sha256": "71db9ece393edd2e715ffa2699a01ebbc489a92a838856932b87827663d09454"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\48\\T",
+      "bytes": 32907,
+      "sha256": "55f13ebb2ef251483ba762882e7f91518868caeb8ff0ad0f35a74117c5f0116d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\48\\uniform\\time",
+      "bytes": 795,
+      "sha256": "083c378596875c3003063084448d4ae3c533e0ee31159450378f8bdda85544e7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\48\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "4a2e52d6d0d778fff45d1ba7f390b6d09c310a28d96ccc26b05dbfce61ae3eed"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\4\\T",
+      "bytes": 32939,
+      "sha256": "e453e67f0b855789c06f723accaafc859cf678e9db0260cac69dc5361722526f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\4\\uniform\\time",
+      "bytes": 791,
+      "sha256": "f9dcf1f6471b6e7f73b57aad743190c55d16188dcf25559afa391f1c5821cffa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\4\\wallHeatFlux",
+      "bytes": 1968,
+      "sha256": "963263065ff58eb9127d4acc09b418fdaa56a3cf86acc2e217bb7de76476bbc6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\50\\T",
+      "bytes": 32991,
+      "sha256": "8b370b3f41e8ce09bdefe005c549c6f72db3a0a22b623a349a142c0abb95c488"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\50\\uniform\\time",
+      "bytes": 795,
+      "sha256": "3b5c3d2f4328bd0a62d15b1793bd36015b214c8ac5673cb0e2c9011c4694be2b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\50\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "f4975974a9bf3124ffbed3dc5acff7a71b927ad079f79d942cfc79c022940aba"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\52\\T",
+      "bytes": 32945,
+      "sha256": "38a8b22f7f4589eb7c653358ca23073af9884b3d2a593a28836452a059edd853"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\52\\uniform\\time",
+      "bytes": 795,
+      "sha256": "315fccbfd84b62b831b313b833f1e127fc3440de6a08358c42ba6835e2e1c164"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\52\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "45a393a705feafe0031f5da5a9ac5ceb32141f59a0eb572616a6e2487576c3ad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\54\\T",
+      "bytes": 32904,
+      "sha256": "fa0ddc8bdf0bfcc48c1a936825ebb931c0a4189f51214c687cdc4d565f158c3e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\54\\uniform\\time",
+      "bytes": 795,
+      "sha256": "1d69eef205f6f7a699aa795ef5d6dcd173d41f845dd94a56b7a101ca19cda556"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\54\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "98e8eed4f9f367fb842c1d66fe65e6c576bee2bb07f92e9ab315590bf0bdab22"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\56\\T",
+      "bytes": 32914,
+      "sha256": "d402897fa5de7973689b1e536eb509734bf94b216f72f5620b654adfeb397592"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\56\\uniform\\time",
+      "bytes": 795,
+      "sha256": "0be0344b94372f0384c97a8dc865b3f92f9625a7af79ac6672e179bf5071dd5f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\56\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "f9a69af4583da930372c6732622e1c729760a28647867cbc4c52ef26c11d5d1e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\58\\T",
+      "bytes": 32968,
+      "sha256": "91d1e46ff597ab67afc36d6b23f03c86b4c436b19b6dcef221c39d2f42be8fec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\58\\uniform\\time",
+      "bytes": 795,
+      "sha256": "361c803e80d0d219befcac029f601cc6002e92baaac872af73e67801aa4a9819"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\58\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "52171d016b632bf1ca5746f2aff388669457586537ecec01f8ab4d49ef03cd58"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\60\\T",
+      "bytes": 32953,
+      "sha256": "e29374e8441ea1dc325ebcefc2cd5e758434c3f9e7706951e9a0a6fc104a0995"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\60\\uniform\\time",
+      "bytes": 795,
+      "sha256": "760820bf771f78019d2e3de30d4c59ba06a04b18f6585b124d7effba543a1842"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\60\\wallHeatFlux",
+      "bytes": 1910,
+      "sha256": "65a3c5a786ca2bb831eb13a1d1d25bfe526338252a0a203abcba06fc42cb18fa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\62\\T",
+      "bytes": 32958,
+      "sha256": "e213b631601e4212c3ae03124bbcb989ac5b31dd221d53472ad6cbd2df1e02db"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\62\\uniform\\time",
+      "bytes": 795,
+      "sha256": "f94b9402c2e5e53ffab18c55d3ac8ef015cb7a49a9662e36f0aee500a30a3b4e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\62\\wallHeatFlux",
+      "bytes": 1901,
+      "sha256": "97e6cd478fd8504deef3278dfe13ceeaec07bd71d8669db8855dc45308a18d25"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\64\\T",
+      "bytes": 32998,
+      "sha256": "1d7a33fcb3753f90a665a5b30272a05fd030f5abb5815e6013c038fafb4d69a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\64\\uniform\\time",
+      "bytes": 795,
+      "sha256": "3b527a45bf5fde0dc84e124e22a17197fd2ab76ef1d2c892f6a48209e14c8e97"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\64\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "e50b96729ff9ab5f04311ab36321f37a3e34bb55151bb64045d0e0d0880c6dc1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\66\\T",
+      "bytes": 32947,
+      "sha256": "e554c2d18df870e871fb456afee69e8f64803a64f5e800588021d895d9cfd570"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\66\\uniform\\time",
+      "bytes": 795,
+      "sha256": "1c12f8e1cc0219d1698450e03478b49032929d983c24a20f024700153310046b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\66\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "1ddf64e116ea8f2c5e715dbf7f4cf1e4c6a9f3192b8af4456c103d09ce809aaf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\68\\T",
+      "bytes": 32976,
+      "sha256": "505eeaba19a868eb26c2d49083ffd4a4d1e8b4982c7bb7de10589a011d64be60"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\68\\uniform\\time",
+      "bytes": 795,
+      "sha256": "9fbd90d6e109d3ad1f97bf57e20032d9ebb405b90b7ad5bc22122ab7c9bf1f78"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\68\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "80fa08383ee74ba00426f310a2caea881d4100613bb26374ccb2eb0e93429f3d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\6\\T",
+      "bytes": 32952,
+      "sha256": "cc38e082bfe173091b1ec0592317bb6ff390edec32bd435f9139818fd8c6b62f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\6\\uniform\\time",
+      "bytes": 791,
+      "sha256": "c87ece8bbc5dee441e2ba629a3b73943181abb2719be2de6817b97061b043c5a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\6\\wallHeatFlux",
+      "bytes": 1967,
+      "sha256": "32ba0521368ab1c2573991fef850b00410d84e82cf602c3252dfea5cb31b8254"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\70\\T",
+      "bytes": 32966,
+      "sha256": "5a619dcfc68771724feaa489daa08a39270ed14b8848553c8a096627910fbde0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\70\\uniform\\time",
+      "bytes": 795,
+      "sha256": "6e8f51fd15455f6488588c4a0b38d8da1f2d2d316a5f57dbf5a726570a19e163"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\70\\wallHeatFlux",
+      "bytes": 1910,
+      "sha256": "0e05b71a6b725e218b90875d32798e144a538915fa41cb1d40260b3e243b1dd0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\72\\T",
+      "bytes": 32943,
+      "sha256": "c258077cb068be1e346ab2771fca55dd2b75c0e122f8fdaede7d73f125da27ee"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\72\\uniform\\time",
+      "bytes": 795,
+      "sha256": "72520df4d648ca05e5ba860108767fba48222fc10a81f1f80b4911d98e4030e8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\72\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "b071267c36630ff2e1db6075afaa16e4e6560d83c6551e47c6aacd468f1d70ef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\74\\T",
+      "bytes": 32961,
+      "sha256": "d07692236969bda1a28aeb376dc3d29fbdfab51d1774c21bd384edfe01ed916d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\74\\uniform\\time",
+      "bytes": 795,
+      "sha256": "de936b1d6c38e7f5720915bd3613dc3a9ed16183f3bba45302cfb985722dda27"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\74\\wallHeatFlux",
+      "bytes": 1910,
+      "sha256": "62e7f79d4ee2bb47a26df4c6cbf90758e7e6be666730d90d0292ad7ac11e4e33"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\76\\T",
+      "bytes": 32944,
+      "sha256": "5a1d6bd73045323d4a508f1b3a3b12b4b46267f65ace4ad8eb8a6bdd6fb4d615"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\76\\uniform\\time",
+      "bytes": 795,
+      "sha256": "c094894168d40450f953b5487c0e0c34c8348927d9fa274e6eff1397977758a7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\76\\wallHeatFlux",
+      "bytes": 1911,
+      "sha256": "a07ff513cd34cf0c7265a368d4586c375be3f1f2da75bfa7c07df9ef586cd56c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\78\\T",
+      "bytes": 32942,
+      "sha256": "eccbb3af1a36f608ac92231d469817cae026b060ed35c0f877b6a559c3beb4c4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\78\\uniform\\time",
+      "bytes": 795,
+      "sha256": "fb8409c928bb4a2d7baad98cf5f6c15419e89dd0abc189c0d342811a5666c3db"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\78\\wallHeatFlux",
+      "bytes": 1909,
+      "sha256": "5cec81c2208594ef196e90ccae098aec7b1a4ed0ec15acf32cfa3a18ae457f50"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\80\\T",
+      "bytes": 32952,
+      "sha256": "de8f9a21ec66531eae624ae1298d5a77c14aa64de2bc177a0e767ae447a7d209"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\80\\uniform\\time",
+      "bytes": 795,
+      "sha256": "d2dd846d4d8fa5ea12ba9811d7c5d755a2c9cd58e199715179a21e870af2dc7a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\80\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "39bc03876190c30ff18f5cceeb74d0ad8c7a1cdad2520dbcdefbed2b0837b888"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\82\\T",
+      "bytes": 32969,
+      "sha256": "2fd7aac79a4e2be92e5a6920c4644259c6b6105997e29868d93746667c20f9f2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\82\\uniform\\time",
+      "bytes": 795,
+      "sha256": "2e0d28ecbcaf19d70e80f6c1661c9b6fc26dc5a8724a548f855a0ddc955a574e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\82\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "eb61868d0dca802827870eba0dc273343927d601c329fa31ae2e79d1be386443"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\84\\T",
+      "bytes": 32948,
+      "sha256": "a03978ba4e8a963bc5d7450931cc3c27da2f67c7c42e05f322b4cfa74be8025e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\84\\uniform\\time",
+      "bytes": 795,
+      "sha256": "a0f91369be38b3f5fb5ceeef42ec32db4b349f4861fdcaa8f8a4785270c8d27b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\84\\wallHeatFlux",
+      "bytes": 1909,
+      "sha256": "32822965948b1be76965241296056a37e89fc6e27a072bb984ef28d965da4a67"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\86\\T",
+      "bytes": 32922,
+      "sha256": "f233ac5438316c8a2290d6bb41fd539c969637253593fc51923ad9bdba1331f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\86\\uniform\\time",
+      "bytes": 795,
+      "sha256": "575a88a1851aa39756e94d08f2af31ec8f998e96dce5da2a8d3bb2e8c571200a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\86\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "2338eb2c3271ce42331d67e201662117d69859f3f4e7138dd98a085d14f6396c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\88\\T",
+      "bytes": 32927,
+      "sha256": "fb327d5f248f40e932b6f4c44acee9d6a3696985461e7a6c02f59841cf930811"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\88\\uniform\\time",
+      "bytes": 795,
+      "sha256": "92ddec25a715fcc72a5487110e7569e2e3b086cfa39e7c40a19349b46b589536"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\88\\wallHeatFlux",
+      "bytes": 1913,
+      "sha256": "cc0fbe7bc54737db59ab9243c05d67db55c5a7af9aea0cf02fa6a7f9583d6a7e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\8\\T",
+      "bytes": 32962,
+      "sha256": "dbcea3d453044855cf21d22bc92bda5660c293589a0c843398ac4b063be59cd4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\8\\uniform\\time",
+      "bytes": 791,
+      "sha256": "cecc82d6207f41dc7d5381baad99ad678d48883372c805504832a4e13b213fdf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\8\\wallHeatFlux",
+      "bytes": 1953,
+      "sha256": "e194a2f67a6c3b6137b6e5058d153d1d01346fde5fff8f53fba165a3b3ec182f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\90\\T",
+      "bytes": 32975,
+      "sha256": "c770865b87868eb47d9f90ef5e08efe9c311810f205f17cad72a884a3069e036"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\90\\uniform\\time",
+      "bytes": 795,
+      "sha256": "d9d3856153057f43670f0bbdb92e8c5843b3fddf91a4b740a3c00c8b480c3217"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\90\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "9551a906d94c90cf192754d2bbf6840090cd7d50568b021a044ee9356f61d9f4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\92\\T",
+      "bytes": 32979,
+      "sha256": "a4ae7c890dd286a212c3d77a41fbf3d923baad56ec12421a274d3ccdba1e8fd1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\92\\uniform\\time",
+      "bytes": 795,
+      "sha256": "3c6f5b5f95e0e8a00a211c9dc7736126d5720e61a65bf590cef2db3b48603da9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\92\\wallHeatFlux",
+      "bytes": 1914,
+      "sha256": "2f91fb23874853d25673797239649821965a7f96f4eb3d297edf41346845677d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\94\\T",
+      "bytes": 32942,
+      "sha256": "a1ddb33b2b8640a5a913f388044f93c79591d47697c25948f01f2bb89ca72fa7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\94\\uniform\\time",
+      "bytes": 795,
+      "sha256": "7895c8f83f61e04080b087109135e319bf8581d6c2c4312a534ede8540d28b41"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\94\\wallHeatFlux",
+      "bytes": 1908,
+      "sha256": "8e92531dedd5e37d06aef150aa8cb915d9c1b7aba1daefc297ece9ab8d5f90d7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\96\\T",
+      "bytes": 32919,
+      "sha256": "927011827cba2fa5b28e5ddb4fc26a17117f6fffbbf89503ce9c03e9acf545e5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\96\\uniform\\time",
+      "bytes": 795,
+      "sha256": "9484fd0f5ae6a53d5469091cc99b24182b0f3848323c56cae1ca6090083e1a75"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\96\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "03761c53b9d92f820a87e8240ee103c29ef45333418afc8a054130cc16b64ab2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\98\\T",
+      "bytes": 32952,
+      "sha256": "aa8d71e4df228098c03a81de19526858a1a2dbe0e310749efed99266560e1445"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\98\\uniform\\time",
+      "bytes": 795,
+      "sha256": "203766ea7c85db40b4e34fc0d6b161295a1865b888788c867079fe6bbccae3ad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\98\\wallHeatFlux",
+      "bytes": 1912,
+      "sha256": "53e93066a36f7c355889edb04ed1edd92e465f6deb63940da8faba5085c07db5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\constant\\physicalProperties",
+      "bytes": 220,
+      "sha256": "aa5d17a95eaa0e402a36d9e72165deb35ab3c955518d575503d517239b6bd280"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\declared-comparison.json",
+      "bytes": 6490,
+      "sha256": "4511f8efe9fea3ca10ac47119d894c93149fe4629a0336c9b692f89f26042c6c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\input-slab.msh",
+      "bytes": 133120,
+      "sha256": "2b67a0ec8233c6e34f51a413d6a1499b7a5d769a4e464854fd8f3ac86dfd5d3d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\mesh-check.log",
+      "bytes": 4120,
+      "sha256": "f41d1df1db715ec402050605915e52b3c107cb1a985b0d19e2310aaf10d49d0c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\postProcessing\\wallHeatRates\\0\\wallHeatFlux.dat",
+      "bytes": 47021,
+      "sha256": "d5a5bc21ce463d0e227c14bd3af0d0a9078501363c534d209295e3fcad15b6e4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\DESIGN.md",
+      "bytes": 5543,
+      "sha256": "236ee2735d919a9c05ee71ebd0f1d26b4e70c13fca5e92a408e83b25ee0f8d7d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\Launch-OpenFOAM-v002.ps1",
+      "bytes": 5079,
+      "sha256": "0a5f417378c41d2f7245fde4a6d3dce6d7b439f43c2629f493f3a2d2e3c9ebd1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\geometry.npz",
+      "bytes": 29380,
+      "sha256": "3827f88fc975a0b30ae1d0739ff17ace05a31dd58f025cfb0fbc88e05e9fa96e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-source-sha256.txt",
+      "bytes": 2048,
+      "sha256": "ed676c2a57e00354865ab41f20065fe29fafbfc9ea86f6bbbb65c8def66da01b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\applications\\modules\\solid\\solid.C",
+      "bytes": 4779,
+      "sha256": "cd02f2e987521b9a4fecc3b72bbf5be836226d57228b060c1dbb957d4b1efe99"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\applications\\solvers\\foamRun\\foamRun.C",
+      "bytes": 5730,
+      "sha256": "5c1e6e34c4bd253f5cc4665a8672f21b6ded2c7a5e391c67419f7586a7b5de91"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\ThermophysicalTransportModels\\solid\\isotropic\\isotropic.C",
+      "bytes": 3983,
+      "sha256": "59ffe181aa80eeb00ab7e8589e1f4824914e900cc55474986388ab95bd199bef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\ThermophysicalTransportModels\\solid\\solidThermophysicalTransportModel\\solidThermophysicalTransportModel.C",
+      "bytes": 4553,
+      "sha256": "0b6d3f411f74331040db8fa7b02f68b7949a01b2ee4e51d01206f10ac8cfb6a2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\finiteVolume\\finiteVolume\\ddtSchemes\\EulerDdtScheme\\EulerDdtScheme.C",
+      "bytes": 17068,
+      "sha256": "5450404723d4d8089a7aa561b4ec4c01744d4dd941d0f998e4de762c293d356e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\functionObjects\\field\\wallHeatFlux\\wallHeatFlux.C",
+      "bytes": 7629,
+      "sha256": "f873644d6a8e314351bb40d21ef81baf3b275d5bd9dfeca6a655472673fcb964"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\functionObjects\\field\\wallHeatFlux\\wallHeatFlux.H",
+      "bytes": 4918,
+      "sha256": "5d3bc32ef9ab8dec5fd737e60aa4f5e98fbd8a16c306cc20f95bbbc50c2fba3a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\functionObjects\\field\\writeCellCentres\\writeCellCentres.C",
+      "bytes": 3308,
+      "sha256": "3ab2c3eebd0181d39fbab20ebf34ede5e4ea0e90e1753a2abe9c74fc6289d384"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\functionObjects\\field\\writeCellVolumes\\writeCellVolumes.C",
+      "bytes": 2814,
+      "sha256": "c8dacad77f966dd72cd60b891cb7f19a4f6e8567b45baa2f9c27a7faeeb95818"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\thermophysicalModels\\solidThermo\\constSolidThermo\\constSolidThermo.C",
+      "bytes": 7921,
+      "sha256": "c1c8095da6f9a89b2e9930b29f76000df62cd9d9b3040d8822528045bd255061"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\src\\thermophysicalModels\\solidThermo\\solidThermo\\solidThermo.C",
+      "bytes": 2464,
+      "sha256": "46b4e99af7f64ca3343590e0d96ec19ab6eb2b6113e76c973bb31b12f36cc834"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\tutorials\\multiRegion\\CHT\\coolingCylinder2D\\constant\\solid\\physicalProperties",
+      "bytes": 894,
+      "sha256": "5eaa2f0f7b2b8741d535af3c1e7e67c331b766a7426550a8c6ef6be061ccac2f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\tutorials\\multiRegion\\CHT\\coolingCylinder2D\\system\\solid\\fvSchemes",
+      "bytes": 986,
+      "sha256": "fcd3406ecb868535ea8293d122fe62fb5829174de28eb8a82d78e76910f276a5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\installed-sources\\tutorials\\multiRegion\\CHT\\coolingCylinder2D\\system\\solid\\fvSolution",
+      "bytes": 1003,
+      "sha256": "f54f591524569910dde3b0f81885a829aae99b56c08c5ed76b42b052f9b7d61b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\preflight-validation.json",
+      "bytes": 2021,
+      "sha256": "6476c72fdd4a7d4081de8fc31988cb4b717525806a346e362e940aaeda210505"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\prepare_openfoam_thermal_slab_v002.py",
+      "bytes": 17639,
+      "sha256": "f601a23f879eff677b9a92e1d2e2b148ffbdc986501b59a9a949f350c673972e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\prepared-input-sha256.json",
+      "bytes": 1474,
+      "sha256": "29a21886bd4cfdaee52ee5e0faa9ac2a6b9b56ecc31147fd181ba648f0e0d551"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\root-run-authorization.json",
+      "bytes": 589,
+      "sha256": "31d5859292264fe9189f87e59f8c5aa9ef3fbd4de8bbf43518490581cb81a1d9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\run-openfoam-executed.sh",
+      "bytes": 6581,
+      "sha256": "1a5cc58f15658a941a709e3ba6a18b0123d5fe7490523ed06d8c2639433dbc6a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\run-openfoam-v002.sh",
+      "bytes": 6581,
+      "sha256": "1a5cc58f15658a941a709e3ba6a18b0123d5fe7490523ed06d8c2639433dbc6a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\setup.json",
+      "bytes": 1447,
+      "sha256": "9a5793d5de246216db4cd6ee90288b8c56d943eeb632ba275e9e9fc16092cd51"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\provenance\\thermal_slab_reference_v001.py",
+      "bytes": 1792,
+      "sha256": "550c050d4294c08d0fb3905d06a2eeda7c82bb44397072a3dd261db1a6d9846a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\run-status.json",
+      "bytes": 1093,
+      "sha256": "5aa655831d5c3c79373d3ccb9abb05e33709f2610313afe3a19698be251d0745"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\solver.log",
+      "bytes": 19492,
+      "sha256": "d2d7d7f72de3730f70d94be24d62e8014d2704e4d75800df2cabc1008fb1b4d8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\system\\controlDict",
+      "bytes": 621,
+      "sha256": "d6d1547671d837fd7c3889a1556f71f55b0ab05556ed94753208996733611830"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\system\\decomposeParDict",
+      "bytes": 166,
+      "sha256": "ddb5382347794fb453c78e81b977665ce8b4658f6b620ac06d9454b4ebd9a930"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\system\\fvSchemes",
+      "bytes": 313,
+      "sha256": "e6031d6074bf43ba9bc83d3ef6b99a083e37659b5635cb1b9ea97ef8d24d3924"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-thermal-slab-v001\\openfoam-v002\\system\\fvSolution",
+      "bytes": 286,
+      "sha256": "e675684518e90df9d7d006500ebe3f8b08c9b62375b1576286283cfa383923a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_nozzle_fluent_v005.py",
+      "bytes": 19025,
+      "sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_thermal_slab_openfoam_v002.py",
+      "bytes": 24285,
+      "sha256": "26d0b05fd91449f57f457094dc51aba33570e0eaebfa4c2d172e9ba9a8ba0e93"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_cavity_native_v003.py",
+      "bytes": 40050,
+      "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_nozzle_native_v004.py",
+      "bytes": 42964,
+      "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_thermal_slab_native_v002.py",
+      "bytes": 33361,
+      "sha256": "32729addccd5f12db118dbdf62b571d51b21dcf8f25a5c00f21468519ae81b92"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_thermal_slab_v002.py",
+      "bytes": 17639,
+      "sha256": "f601a23f879eff677b9a92e1d2e2b148ffbdc986501b59a9a949f350c673972e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\thermal_slab_reference_v001.py",
+      "bytes": 1792,
+      "sha256": "550c050d4294c08d0fb3905d06a2eeda7c82bb44397072a3dd261db1a6d9846a"
+    }
+  ]
+}

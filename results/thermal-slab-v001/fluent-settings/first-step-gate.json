@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "actual_step": 1,
+  "actual_time_s": 2.0,
+  "solid_zone": "slab",
+  "fluid_zones_absent": true,
+  "constant_material_verified": true,
+  "native_temperature_time_verified": true,
+  "all240_native_boundary_heat_powers_verified": true,
+  "report_HDF_integrated_W_inward_sign_verified": true,
+  "global_Euler_energy_balance_verified": true,
+  "metrics": {
+    "step": 1,
+    "time_s": 2.0,
+    "native_dt_s": 2.0,
+    "native_time_index": 1,
+    "native_iteration": 7,
+    "inner_iterations": 7,
+    "energy_residual": 7.571541379170063e-11,
+    "wall_heat_in_W": {
+      "hot": 4444.44436904248,
+      "cold": -1.811740919947624e-06,
+      "insulated_bottom": 0.0,
+      "insulated_top": 0.0
+    },
+    "native_wall_report_W": {
+      "hot": 4444.4444,
+      "cold": -1.8117409e-06,
+      "insulated_bottom": -0.0,
+      "insulated_top": -0.0,
+      "Net": 4444.4444
+    },
+    "storage_power_W": 4444.4444455045705,
+    "net_inward_heat_W": 4444.444367230739,
+    "energy_defect_W": 7.82738316047471e-05,
+    "energy_balance_relative": 1.761161210686723e-08,
+    "temperature_min_K": 300.00000000450086,
+    "temperature_max_K": 388.8888889172051,
+    "max_y_spread_K": 6.145592124084942e-07,
+    "energy_J": 8888.888891009141,
+    "analytic_max_error_K": 12.527370562631688,
+    "analytic_rms_error_K": 2.7576697236183443,
+    "series80_vs160_max_K": 0.0
+  }
+}

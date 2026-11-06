@@ -1,0 +1,107 @@
+{
+  "public_code": [
+    {
+      "path": "scripts/tracer_tjunction_fluent_setup_probe_v012.py",
+      "sha256": "6ac86a99d4b6fd858742734a91dbdc78d4982c61ff9b766979d8970d58501af8",
+      "role": "Executed zero-step native UDS setup qualification; no time integration claimed"
+    },
+    {
+      "path": "scripts/tracer_tjunction_fluent_qualification_v002.py",
+      "sha256": "87650ec97332de81f285a04661a7788c4cd15e4048190036f0467dab90dffdf6",
+      "role": "Executed separate five-step constant-control and pulse qualification"
+    },
+    {
+      "path": "scripts/tracer_tjunction_fluent_production_v002.py",
+      "sha256": "9b10b7f3cc016153eec6be7cba08569cbf0ddb56788a25fccca789226210c42c",
+      "role": "Computed795 new native scalar steps; original archive check interrupted after complete native saving"
+    },
+    {
+      "path": "scripts/audit_tracer_tjunction_fluent_production_v002.py",
+      "sha256": "9dff240e8343eaf1a6a97344002983a773641924fcce3bcbf83a5e0cd1dd3aa5",
+      "role": "Executed accepted independent full801-state Fluent audit after original archive interruption"
+    },
+    {
+      "path": "scripts/prepare_openfoam_tracer_qualification_v004.py",
+      "sha256": "278e6948a244e82887d8eb8dc2da90b502a14a7165de2238c3ba1e01b2890888",
+      "role": "Executed qualified tracer parser/setup and PBiCGStab/DILU control/pulse preparation"
+    },
+    {
+      "path": "scripts/run-openfoam-tracer-qualification-v004.sh",
+      "sha256": "a4e4437d8ccd241c724d99148a9a9b3b4c4764785ad01e6b516ea08187082c41",
+      "role": "Executed qualified two-rank five-step native wrapper"
+    },
+    {
+      "path": "scripts/Launch-OpenFOAM-TracerQualification-v004.ps1",
+      "sha256": "e4c7f96819c3a4bdf25681c68c517e5ec7a107866529f2b171c5540096ec268c",
+      "role": "Executed hidden native qualifier launcher"
+    },
+    {
+      "path": "scripts/audit_openfoam_tracer_qualification_v003.py",
+      "sha256": "98bbb0764bd1ce9b8da5c325a296044689fddbe2a3a82e1250abab177fca173f",
+      "role": "Executed accepted independent OpenFOAM qualifier audit"
+    },
+    {
+      "path": "scripts/prepare_openfoam_tracer_production_v001.py",
+      "sha256": "eab29753a8a63047c1bdf21953630d418cde5f68a46b81846937cd8a52b980ac",
+      "role": "Executed accepted pulse restart preparation for795 new scalar steps"
+    },
+    {
+      "path": "scripts/run-openfoam-tracer-production-v001.sh",
+      "sha256": "bb9ba176ef243fb8fa3baaf707249456dcb6ae558927c9e6a8df46d90125e8aa",
+      "role": "Computed795 new scalar steps; original reconstruction interrupted after solver completion"
+    },
+    {
+      "path": "scripts/Launch-OpenFOAM-TracerProduction-v001.ps1",
+      "sha256": "64ea9e1fff0e4a63331fc019b9bedad8cce5991775eb8c2e6e7f0840f7983ec7",
+      "role": "Executed hidden two-rank scalar continuation launcher"
+    },
+    {
+      "path": "scripts/audit_openfoam_tracer_production_v005.py",
+      "sha256": "7832c8285d45e7f4dfdc2a40efbff741320b4c265625b568c70c661cf0f01c1e",
+      "role": "Executed accepted independent full801-state OpenFOAM audit of byte-verified reconstructed copy"
+    },
+    {
+      "path": "scripts/scalar_fv_audit_v002.py",
+      "sha256": "75ceec60add2f5c53fb82585d105dcc5cd7c9d8d19e1ea8ac3f2dde14aa455cd",
+      "role": "Executed reconstructed orthogonal Euler scalar-budget helper; never native matrix flux"
+    },
+    {
+      "path": "scripts/scalar_native_geometry_v003.py",
+      "sha256": "06f6b4089116d8e7cdab8b4050c30d2939d3876381ebbaa878c7908e6f2d1903",
+      "role": "Executed authenticated native/source geometry adapter"
+    },
+    {
+      "path": "scripts/plot_tracer_tjunction_native_v004.py",
+      "sha256": "60c1bb85858beedbd6f68c08818bc620a942339ed4640a76d061bf5cabc906d2",
+      "role": "Executed actual-native paired renderer and full scalar CSV exporter"
+    },
+    {
+      "path": "scripts/build_tracer_visual_selection_v005.py",
+      "sha256": "6abd5dc62a2c40013582429f585dc4f8f708755a2f5a7c6a65bc349dfb5eda0d",
+      "role": "Executed actual accepted full-audit visual adapter builder"
+    },
+    {
+      "path": "scripts/verify_tracer_visual_exports_v001.py",
+      "sha256": "b2ba96e1b18cb3fcc92675dc0dd6ee015779ea2d57f42f6309123662d601bdc9",
+      "role": "Executed independent full CSV/native-frame/GIF artifact verification"
+    },
+    {
+      "path": "scripts/repair_tracer_selected_layout_v001.py",
+      "sha256": "4324524c877ca07597b6eb93fe2d183ceffe3f5b16fa77a683f7c50f2807691d",
+      "role": "Executed snapshot-only layout correction in a byte-verified complete export copy"
+    },
+    {
+      "path": "scripts/recover_tracer_reconstruction_v001.py",
+      "sha256": "a7c77ab3bc27d24fffeeedcb8b7de83bfe62c91852444f27a546bc35c7dcaaac",
+      "role": "Executed preserved-copy native frame reconstruction and owned temporary storage closure; no CFD replay"
+    },
+    {
+      "path": "scripts/run-tracer-reconstruction-recovery-v001.sh",
+      "sha256": "53f579508bddbf7a689514f5bc3d02661a17ec320e877927e26c9310a491f242",
+      "role": "Executed environment wrapper for saved-field postprocessing only"
+    }
+  ],
+  "production_targets_sha256": "07f5b0745fc71758b9cf5678171ce17fd558f00a01cd773560911920e91318ba",
+  "qualification_targets_sha256": "173fa3a540d36e4dad195f25db5586d6c15527a6df592dca8076b1999ecb41cd",
+  "external_native_archive_required": true
+}

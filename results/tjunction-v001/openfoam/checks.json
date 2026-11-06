@@ -1,0 +1,1723 @@
+{
+  "solver": "OpenFOAM Foundation14 incompressibleFluid",
+  "actual_settings": {
+    "model": "2D steady laminar T-junction merge",
+    "intended_cells": 4400,
+    "dx_m": 0.01,
+    "dy_m": 0.01,
+    "density_kg_m3": 1,
+    "dynamic_viscosity_Pa_s": 0.001,
+    "kinematic_viscosity_m2_s": 0.001,
+    "Re_each_inlet": 20,
+    "Re_outlet_expected": 40,
+    "reference_length_m": 0.2,
+    "reference_velocity_m_s": 0.1,
+    "extrusion_depth_m": 0.01,
+    "x_bounds_m": [
+      -0.4,
+      1.2
+    ],
+    "y_bounds_m": [
+      -0.1,
+      0.7
+    ],
+    "z_bounds_m": [
+      -0.005,
+      0.005
+    ],
+    "geometry": "Union horizontal x[-.4,1.2] y[-.1,.1] and top stem x[-.1,.1] y[.1,.7]; sparse4400-cell occupancy in80x160 background",
+    "inlet_left_U_m_s": [
+      0.1,
+      0,
+      0
+    ],
+    "inlet_top_U_m_s": [
+      0,
+      -0.1,
+      0
+    ],
+    "outlet": "zeroGradient U,fixedValue kinematic p0",
+    "walls": "stationary noSlip",
+    "initial_U_m_s": [
+      0,
+      0,
+      0
+    ],
+    "initial_p": 0,
+    "pressure": "kinematic p; gauge Pa=rho*p; outlet0; zeroGradient p at both inlets and walls",
+    "solver": "OpenFOAM Foundation14 incompressibleFluid",
+    "algorithm": "steady SIMPLE consistent",
+    "U_equation_relaxation": 0.7,
+    "nonorthogonal_correctors": 0,
+    "gradient": "Gauss linear",
+    "advection": "bounded Gauss linearUpwind grad(U)",
+    "mpi_processes": 2,
+    "max_iterations": 2000,
+    "saved_iterations": [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000,
+      1100,
+      1200,
+      1300,
+      1400,
+      1500,
+      1600,
+      1700,
+      1800,
+      1900,
+      2000
+    ],
+    "selected_iterations": [
+      500,
+      1000,
+      1500,
+      1800,
+      2000
+    ],
+    "stability_iterations": [
+      1800,
+      2000
+    ],
+    "printed_p_Ux_Uy_residual_target": 1e-06,
+    "relative_L2_U_target": 0.001,
+    "native_local_divergence_definition": "sum signed outward native face phi / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+    "native_local_divergence_max_target": 1e-05,
+    "native_local_divergence_RMS_target": 1e-06,
+    "relative_all_boundary_mass_imbalance_target": 0.0001,
+    "mass_normalization": "abs(sum signed outward phi on inlet_left,inlet_top,outlet,walls) / actual sum magnitude inward native phi at inlet_left and inlet_top",
+    "expected_per_depth_volume_flow_m2_s": {
+      "inlet_left": 0.02,
+      "inlet_top": 0.02,
+      "outlet": 0.04
+    },
+    "mesh_source_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-tjunction-v001\\mesh\\tjunction.msh",
+    "mesh_source_sha256": "0de51603605decd4747a76322da8905516f2df194d2dd9c4158e08d8c5f0b555",
+    "geometry_sha256": "671236b7bf7658fcbae5330b4cd6ce66c8e2dee9ff06753ebfc45c0a4cfb2949",
+    "official_sources": {
+      "velocity": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/tutorials/incompressibleFluid/pitzDailySteady/0/U",
+      "pressure": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/tutorials/incompressibleFluid/pitzDailySteady/0/p",
+      "steady_schemes": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/tutorials/incompressibleFluid/pitzDailySteady/system/fvSchemes",
+      "steady_SIMPLE": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/tutorials/incompressibleFluid/pitzDailySteady/system/fvSolution",
+      "noSlip": "https://cpp.openfoam.org/v14/classFoam_1_1noSlipFvPatchVectorField.html"
+    },
+    "physical_validation": false,
+    "mesh_independence_established": false,
+    "residual_norms_equivalent_to_fluent": false,
+    "scalar_mixing_simulated": false
+  },
+  "steady_iteration_indices_are_not_physical_time": true,
+  "mesh_cells": 4400,
+  "mesh_quality": {
+    "cells": 4400,
+    "minimum_volume_m3": 9.9999999999998e-07,
+    "maximum_nonorthogonality_degrees": 0.0,
+    "maximum_skewness": 1.3153663391286e-13
+  },
+  "actual_native_patches": {
+    "inlet_left": {
+      "kind": "patch",
+      "count": 20,
+      "start": 8560
+    },
+    "inlet_top": {
+      "kind": "patch",
+      "count": 20,
+      "start": 8580
+    },
+    "outlet": {
+      "kind": "patch",
+      "count": 20,
+      "start": 8600
+    },
+    "walls": {
+      "kind": "wall",
+      "count": 420,
+      "start": 8620
+    },
+    "frontAndBackPlanes": {
+      "kind": "empty",
+      "count": 8800,
+      "start": 9040
+    }
+  },
+  "native_geometry": {
+    "points": 9282,
+    "faces": 17840,
+    "internal_faces": 8560,
+    "cell_volume_min_m3": 9.999999999998816e-07,
+    "cell_volume_max_m3": 1.0000000000001253e-06,
+    "total_volume_m3": 0.0044,
+    "bounds_m": [
+      [
+        -0.4,
+        1.2
+      ],
+      [
+        -0.1,
+        0.7
+      ],
+      [
+        -0.005,
+        0.005
+      ]
+    ]
+  },
+  "actual_cell_mapping": {
+    "native_cells": 4400,
+    "source_cells": 4400,
+    "unique_sparse_grid_keys": 4400,
+    "background_grid_cells": 12800,
+    "void_background_cells": 8400,
+    "centre_max_mapping_error_m": 6.505906924303417e-14,
+    "native_source_area_max_error_m2": 1.8973538018496328e-17,
+    "native_to_source_bijective": true,
+    "native_to_sparse_grid_bijective": true,
+    "ordering_assumed": false,
+    "void_indices": -1,
+    "projected_native_vertices": 9282,
+    "source_vertices_per_plane": 4641,
+    "native_to_source_vertex_bijection_each_plane": true,
+    "vertex_max_mapping_error_m": 2.220446049250313e-16
+  },
+  "native_fields": {
+    "100": {
+      "U_min_m_s": [
+        -0.027925577820191,
+        -0.18706370711099,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.3017913979498,
+        0.027916726959518,
+        0.0
+      ],
+      "speed_min_m_s": 0.0039676411615893244,
+      "speed_max_m_s": 0.30189423481370464,
+      "raw_kinematic_pressure_min": 0.00029821542664671,
+      "raw_kinematic_pressure_max": 0.14121338874596,
+      "area_mean_pressure_Pa": 0.06831027014359,
+      "mean_subtracted_pressure_min_Pa": -0.06801205471694328,
+      "mean_subtracted_pressure_max_Pa": 0.07290311860237002,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "200": {
+      "U_min_m_s": [
+        -0.027925576885564,
+        -0.18710254622262,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.3017811104469,
+        0.027916727318816,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676601605599,
+      "speed_max_m_s": 0.3018832026577978,
+      "raw_kinematic_pressure_min": 0.00029839252125957,
+      "raw_kinematic_pressure_max": 0.14120401844079,
+      "area_mean_pressure_Pa": 0.06829804698629967,
+      "mean_subtracted_pressure_min_Pa": -0.0679996544650401,
+      "mean_subtracted_pressure_max_Pa": 0.07290597145449033,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "300": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473133,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564608,
+        0.02791672731865,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706662731,
+      "speed_max_m_s": 0.30188319782596074,
+      "raw_kinematic_pressure_min": 0.00029845690268047,
+      "raw_kinematic_pressure_max": 0.14120402814123,
+      "area_mean_pressure_Pa": 0.06829805493078246,
+      "mean_subtracted_pressure_min_Pa": -0.06799959802810199,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321044755,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "400": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473301,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564893,
+        0.02791672731865,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706684014,
+      "speed_max_m_s": 0.30188319782851825,
+      "raw_kinematic_pressure_min": 0.00029845731431875,
+      "raw_kinematic_pressure_max": 0.14120402815189,
+      "area_mean_pressure_Pa": 0.06829805493977936,
+      "mean_subtracted_pressure_min_Pa": -0.06799959762546061,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321211065,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "500": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473304,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564902,
+        0.02791672731865,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706674773,
+      "speed_max_m_s": 0.30188319782859824,
+      "raw_kinematic_pressure_min": 0.00029845733325711,
+      "raw_kinematic_pressure_max": 0.14120402815212,
+      "area_mean_pressure_Pa": 0.0682980549400353,
+      "mean_subtracted_pressure_min_Pa": -0.06799959760677819,
+      "mean_subtracted_pressure_max_Pa": 0.0729059732120847,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "600": {
+      "U_min_m_s": [
+        -0.027925576885356,
+        -0.18710255473309,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564906,
+        0.02791672731865,
+        0.0
+      ],
+      "speed_min_m_s": 0.0039676767066802055,
+      "speed_max_m_s": 0.30188319782863304,
+      "raw_kinematic_pressure_min": 0.00029845733721413,
+      "raw_kinematic_pressure_max": 0.14120402815062,
+      "area_mean_pressure_Pa": 0.06829805493874332,
+      "mean_subtracted_pressure_min_Pa": -0.06799959760152918,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321187668,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "700": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473313,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564898,
+        0.02791672731865,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706684417,
+      "speed_max_m_s": 0.30188319782855577,
+      "raw_kinematic_pressure_min": 0.00029845733823401,
+      "raw_kinematic_pressure_max": 0.14120402815013,
+      "area_mean_pressure_Pa": 0.06829805493836406,
+      "mean_subtracted_pressure_min_Pa": -0.06799959760013005,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321176594,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "800": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473312,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564916,
+        0.02791672731865,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706685009,
+      "speed_max_m_s": 0.30188319782873646,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "900": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473317,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.3017811056491,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706687193,
+      "speed_max_m_s": 0.30188319782867706,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1000": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.1871025547332,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564908,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.0039676767066880066,
+      "speed_max_m_s": 0.3018831978286529,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1100": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688438,
+      "speed_max_m_s": 0.3018831978286394,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1200": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688457,
+      "speed_max_m_s": 0.30188319782863804,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1300": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688493,
+      "speed_max_m_s": 0.30188319782863754,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1400": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688552,
+      "speed_max_m_s": 0.30188319782863743,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1500": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688552,
+      "speed_max_m_s": 0.3018831978286374,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1600": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688552,
+      "speed_max_m_s": 0.3018831978286374,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1700": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688552,
+      "speed_max_m_s": 0.3018831978286374,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1800": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688552,
+      "speed_max_m_s": 0.3018831978286374,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "1900": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688552,
+      "speed_max_m_s": 0.3018831978286374,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    },
+    "2000": {
+      "U_min_m_s": [
+        -0.027925576885357,
+        -0.18710255473322,
+        0.0
+      ],
+      "U_max_m_s": [
+        0.30178110564907,
+        0.027916727318651,
+        0.0
+      ],
+      "speed_min_m_s": 0.003967676706688552,
+      "speed_max_m_s": 0.3018831978286374,
+      "raw_kinematic_pressure_min": 0.00029845733853359,
+      "raw_kinematic_pressure_max": 0.14120402814996,
+      "area_mean_pressure_Pa": 0.06829805493807582,
+      "mean_subtracted_pressure_min_Pa": -0.06799959759954223,
+      "mean_subtracted_pressure_max_Pa": 0.07290597321188418,
+      "max_abs_out_of_plane_U_m_s": 0.0
+    }
+  },
+  "native_continuity_all_saved_states": {
+    "100": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00040000004826213465,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00040000004826213465,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00040000004826213465,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00040000004826213465,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": 4.826213463159784e-11,
+      "relative_all_boundary_mass_imbalance": 1.206553365789946e-07,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.040000004826213464,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": 4.826213459342966e-11,
+      "cell_sum_minus_boundary_net_m3_s": -3.816818141472808e-20,
+      "local_divergence_scaled_max_abs": 4.0069438042643406e-07,
+      "local_divergence_scaled_RMS": 8.83355354926465e-08,
+      "local_divergence_scaled_volume_weighted_RMS": 8.83355354926465e-08,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "200": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00040000000000219965,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00040000000000219965,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00040000000000219965,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00040000000000219965,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": 2.1996293675385914e-15,
+      "relative_all_boundary_mass_imbalance": 5.4990734188464785e-12,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.040000000000219964,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": 2.1995691487899975e-15,
+      "cell_sum_minus_boundary_net_m3_s": -6.021874859386041e-20,
+      "local_divergence_scaled_max_abs": 3.2029873274061674e-09,
+      "local_divergence_scaled_RMS": 6.011130735071352e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 6.011130735071354e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "300": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.0003999999999986894,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.0003999999999986894,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.0003999999999986894,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.0003999999999986894,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -1.310637796209102e-15,
+      "relative_all_boundary_mass_imbalance": 3.276594490522755e-12,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.03999999999986894,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -1.3106692265908372e-15,
+      "cell_sum_minus_boundary_net_m3_s": -3.143038173517739e-20,
+      "local_divergence_scaled_max_abs": 1.4016159110077659e-09,
+      "local_divergence_scaled_RMS": 2.0971741173974766e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 2.0971741173974766e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "400": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.0004000000000014323,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.0004000000000014323,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.0004000000000014323,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.0004000000000014323,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": 1.4322852799619756e-15,
+      "relative_all_boundary_mass_imbalance": 3.580713199904939e-12,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.04000000000014323,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": 1.4322990963597471e-15,
+      "cell_sum_minus_boundary_net_m3_s": 1.381639777147322e-20,
+      "local_divergence_scaled_max_abs": 1.1209362973419841e-08,
+      "local_divergence_scaled_RMS": 5.893439165299254e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 5.893439165299294e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "500": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999784576,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999784576,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999784576,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999784576,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -2.154255506620073e-15,
+      "relative_all_boundary_mass_imbalance": 5.3856387665501826e-12,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.039999999999784576,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -2.1542107255432513e-15,
+      "cell_sum_minus_boundary_net_m3_s": 4.478107682178326e-20,
+      "local_divergence_scaled_max_abs": 4.019571134272968e-09,
+      "local_divergence_scaled_RMS": 3.7585238575857226e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 3.758523857585723e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "600": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.0004000000000035174,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.0004000000000035174,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.0004000000000035174,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.0004000000000035174,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": 3.5173686879774735e-15,
+      "relative_all_boundary_mass_imbalance": 8.793421719943684e-12,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.04000000000035174,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": 3.517440011625791e-15,
+      "cell_sum_minus_boundary_net_m3_s": 7.132364831738481e-20,
+      "local_divergence_scaled_max_abs": 3.2443132178697343e-09,
+      "local_divergence_scaled_RMS": 3.5136882395421616e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 3.51368823954216e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "700": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.000399999999999388,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.000399999999999388,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.000399999999999388,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.000399999999999388,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -6.120321263680673e-16,
+      "relative_all_boundary_mass_imbalance": 1.5300803159201681e-12,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.0399999999999388,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -6.120283850301567e-16,
+      "cell_sum_minus_boundary_net_m3_s": 3.741337910577344e-21,
+      "local_divergence_scaled_max_abs": 1.8323304706207174e-09,
+      "local_divergence_scaled_RMS": 1.5627196134642658e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.562719613464264e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "800": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999809887,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999809887,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999809887,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999809887,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -1.901148509453332e-15,
+      "relative_all_boundary_mass_imbalance": 4.75287127363333e-12,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.03999999999980989,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -1.9011090223324306e-15,
+      "cell_sum_minus_boundary_net_m3_s": 3.948712090144388e-20,
+      "local_divergence_scaled_max_abs": 1.3854748511649109e-09,
+      "local_divergence_scaled_RMS": 2.365769635806559e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 2.3657696358065583e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "900": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.0003999999999958891,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.0003999999999958891,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.0003999999999958891,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.0003999999999958891,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.110915167304663e-15,
+      "relative_all_boundary_mass_imbalance": 1.0277287918261657e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.03999999999958891,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.110899292054347e-15,
+      "cell_sum_minus_boundary_net_m3_s": 1.5875250316117707e-20,
+      "local_divergence_scaled_max_abs": 1.1798016990444e-09,
+      "local_divergence_scaled_RMS": 1.9324262616429947e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.9324262616429942e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1000": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.0003999999999958249,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.0003999999999958249,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.0003999999999958249,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.0003999999999958249,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.175099935915805e-15,
+      "relative_all_boundary_mass_imbalance": 1.0437749839789512e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.039999999999582495,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.175175970357711e-15,
+      "cell_sum_minus_boundary_net_m3_s": -7.60344419058743e-20,
+      "local_divergence_scaled_max_abs": 1.172144521201221e-09,
+      "local_divergence_scaled_RMS": 1.931843618212962e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.9318436182129616e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1100": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999549863,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999549863,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999549863,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999549863,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.501390579725317e-15,
+      "relative_all_boundary_mass_imbalance": 1.1253476449313293e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.03999999999954986,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.501413184917097e-15,
+      "cell_sum_minus_boundary_net_m3_s": -2.260519177984914e-20,
+      "local_divergence_scaled_max_abs": 1.1740486512666487e-09,
+      "local_divergence_scaled_RMS": 1.9320425644567058e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.9320425644567053e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1200": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999553126,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999553126,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999553126,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999553126,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.468756094333504e-15,
+      "relative_all_boundary_mass_imbalance": 1.1171890235833759e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.03999999999955312,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.4687176635222444e-15,
+      "cell_sum_minus_boundary_net_m3_s": 3.8430811259213666e-20,
+      "local_divergence_scaled_max_abs": 1.1718328130766315e-09,
+      "local_divergence_scaled_RMS": 1.9321713989704554e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.932171398970455e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1300": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.0003999999999954926,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.0003999999999954926,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.0003999999999954926,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.0003999999999954926,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.507407901782612e-15,
+      "relative_all_boundary_mass_imbalance": 1.126851975445653e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.03999999999954926,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.5074438444345885e-15,
+      "cell_sum_minus_boundary_net_m3_s": -3.594265197665416e-20,
+      "local_divergence_scaled_max_abs": 1.1704707840974466e-09,
+      "local_divergence_scaled_RMS": 1.9323893748931494e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.9323893748931486e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1400": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999544935,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999544935,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999544935,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999544935,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.5506675684647835e-15,
+      "relative_all_boundary_mass_imbalance": 1.1376668921161959e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.039999999999544934,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.550586948133562e-15,
+      "cell_sum_minus_boundary_net_m3_s": 8.062033122186829e-20,
+      "local_divergence_scaled_max_abs": 1.1696373036773483e-09,
+      "local_divergence_scaled_RMS": 1.9324089942054225e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.932408994205422e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1500": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.0003999999999954262,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.0003999999999954262,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.0003999999999954262,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.0003999999999954262,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.573815284847349e-15,
+      "relative_all_boundary_mass_imbalance": 1.1434538212118373e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.03999999999954262,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.573796994229644e-15,
+      "cell_sum_minus_boundary_net_m3_s": 1.8290617704772548e-20,
+      "local_divergence_scaled_max_abs": 1.1693052667620246e-09,
+      "local_divergence_scaled_RMS": 1.9324956989319553e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.9324956989319548e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1600": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999541693,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999541693,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999541693,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999541693,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.5830852134221e-15,
+      "relative_all_boundary_mass_imbalance": 1.145771303355525e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.039999999999541694,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.58313172082486e-15,
+      "cell_sum_minus_boundary_net_m3_s": -4.650740276018143e-20,
+      "local_divergence_scaled_max_abs": 1.1692036228083541e-09,
+      "local_divergence_scaled_RMS": 1.9325572337992274e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.932557233799227e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1700": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999541677,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999541677,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999541677,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999541677,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.583247843747973e-15,
+      "relative_all_boundary_mass_imbalance": 1.1458119609369932e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.03999999999954167,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.583167296208645e-15,
+      "cell_sum_minus_boundary_net_m3_s": 8.054753932796362e-20,
+      "local_divergence_scaled_max_abs": 1.16918329401762e-09,
+      "local_divergence_scaled_RMS": 1.9324931240730975e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.932493124073097e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1800": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999541574,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.584277835811834e-15,
+      "relative_all_boundary_mass_imbalance": 1.1460694589529585e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.039999999999541576,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.5841877591518495e-15,
+      "cell_sum_minus_boundary_net_m3_s": 9.00766599845745e-20,
+      "local_divergence_scaled_max_abs": 1.169176517754042e-09,
+      "local_divergence_scaled_RMS": 1.9324993565461792e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.9324993565461786e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "1900": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999541574,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.584277835811834e-15,
+      "relative_all_boundary_mass_imbalance": 1.1460694589529585e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.039999999999541576,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.584195594206612e-15,
+      "cell_sum_minus_boundary_net_m3_s": 8.224160522247222e-20,
+      "local_divergence_scaled_max_abs": 1.169176517754042e-09,
+      "local_divergence_scaled_RMS": 1.9324737558301804e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.93247375583018e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    },
+    "2000": {
+      "physical_boundary_signed_outward_volume_flux_m3_s": {
+        "inlet_left": -0.0002,
+        "inlet_top": -0.0002,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "physical_boundary_absolute_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "physical_boundary_inward_volume_flux_m3_s": {
+        "inlet_left": 0.0002,
+        "inlet_top": 0.0002,
+        "outlet": -0.0,
+        "walls": -0.0
+      },
+      "physical_boundary_outward_volume_flux_m3_s": {
+        "inlet_left": 0.0,
+        "inlet_top": 0.0,
+        "outlet": 0.00039999999999541574,
+        "walls": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 0.0004,
+      "total_outward_volume_flux_m3_s": 0.00039999999999541574,
+      "total_inlet_inward_volume_flux_m3_s": 0.0004,
+      "net_outward_volume_flux_m3_s": -4.584277835811834e-15,
+      "relative_all_boundary_mass_imbalance": 1.1460694589529585e-11,
+      "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+      "patch_signed_flow_per_unit_depth_m2_s": {
+        "inlet_left": -0.02,
+        "inlet_top": -0.02,
+        "outlet": 0.039999999999541576,
+        "walls": 0.0
+      },
+      "walls_absolute_volume_flux_m3_s": 0.0,
+      "native_internal_face_count": 8560,
+      "native_physical_boundary_face_count": 480,
+      "native_empty_face_count": 8800,
+      "actual_native_cell_count": 4400,
+      "sum_cell_signed_phi_m3_s": -4.584196441239559e-15,
+      "cell_sum_minus_boundary_net_m3_s": 8.139457227521792e-20,
+      "local_divergence_scaled_max_abs": 1.16918329401762e-09,
+      "local_divergence_scaled_RMS": 1.9324735774421951e-10,
+      "local_divergence_scaled_volume_weighted_RMS": 1.9324735774421944e-10,
+      "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+      "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+    }
+  },
+  "final_native_continuity": {
+    "physical_boundary_signed_outward_volume_flux_m3_s": {
+      "inlet_left": -0.0002,
+      "inlet_top": -0.0002,
+      "outlet": 0.00039999999999541574,
+      "walls": 0.0
+    },
+    "physical_boundary_absolute_volume_flux_m3_s": {
+      "inlet_left": 0.0002,
+      "inlet_top": 0.0002,
+      "outlet": 0.00039999999999541574,
+      "walls": 0.0
+    },
+    "physical_boundary_inward_volume_flux_m3_s": {
+      "inlet_left": 0.0002,
+      "inlet_top": 0.0002,
+      "outlet": -0.0,
+      "walls": -0.0
+    },
+    "physical_boundary_outward_volume_flux_m3_s": {
+      "inlet_left": 0.0,
+      "inlet_top": 0.0,
+      "outlet": 0.00039999999999541574,
+      "walls": 0.0
+    },
+    "total_inward_volume_flux_m3_s": 0.0004,
+    "total_outward_volume_flux_m3_s": 0.00039999999999541574,
+    "total_inlet_inward_volume_flux_m3_s": 0.0004,
+    "net_outward_volume_flux_m3_s": -4.584277835811834e-15,
+    "relative_all_boundary_mass_imbalance": 1.1460694589529585e-11,
+    "mass_normalization": "abs(sum actual signed outward phi on every physical boundary face)/sum magnitude actual inward phi on inlet_left and inlet_top; rho1kg/m3",
+    "patch_signed_flow_per_unit_depth_m2_s": {
+      "inlet_left": -0.02,
+      "inlet_top": -0.02,
+      "outlet": 0.039999999999541576,
+      "walls": 0.0
+    },
+    "walls_absolute_volume_flux_m3_s": 0.0,
+    "native_internal_face_count": 8560,
+    "native_physical_boundary_face_count": 480,
+    "native_empty_face_count": 8800,
+    "actual_native_cell_count": 4400,
+    "sum_cell_signed_phi_m3_s": -4.584196441239559e-15,
+    "cell_sum_minus_boundary_net_m3_s": 8.139457227521792e-20,
+    "local_divergence_scaled_max_abs": 1.16918329401762e-09,
+    "local_divergence_scaled_RMS": 1.9324735774421951e-10,
+    "local_divergence_scaled_volume_weighted_RMS": 1.9324735774421944e-10,
+    "local_divergence_definition": "sum signed outward native phi on every cell face / actual oriented native cell volume * Lref/Uref; Lref/Uref=2s",
+    "owner_neighbour_orientation": "phi positive outward from owner; sign reversed for neighbour"
+  },
+  "residuals": {
+    "final_maximum_printed_initial_residual_per_variable": {
+      "p": 6.9621972978725e-11,
+      "Ux": 2.5162252458652e-16,
+      "Uy": 1.5850248017078e-16
+    },
+    "last100_maximum_printed_initial_residual_per_variable": {
+      "p": 6.9622332796255e-11,
+      "Ux": 2.5807339593938e-16,
+      "Uy": 1.5850248017078e-16
+    },
+    "definition": "Maximum printed initial linear-system residual per variable in a steady SIMPLE iteration",
+    "norm_equivalent_to_fluent": false
+  },
+  "U_stability": {
+    "from_iteration": 1800,
+    "to_iteration": 2000,
+    "volume_weighted_relative_L2": 2.8628525205666777e-15,
+    "definition": "sqrt(sum(V*|U2000-U1800|^2)/sum(V*|U2000|^2))"
+  },
+  "final_iteration": 2000,
+  "saved_iterations": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    2000
+  ],
+  "selected_iterations": [
+    500,
+    1000,
+    1500,
+    1800,
+    2000
+  ],
+  "native_wall_value_semantics": "Exact native noSlip fixes zero stationary wallU; explicit values checked if present; two inlets fixedValue; outlet UzeroGradient/pfixed0",
+  "noSlip_official_source": "https://cpp.openfoam.org/v14/classFoam_1_1noSlipFvPatchVectorField.html",
+  "pressure_comparison": "Gauge Pa=rho*p, rho1kg/m3, common zero gauge at outlet; raw gauge fields compared directly",
+  "check_results": {
+    "actual_native_dictionaries_match_exact_settings": true,
+    "prepared_sources_and_shared_mesh_hashes_match": true,
+    "full_checkMesh_positive_actual_volumes_and_exact_native_counts_passed": true,
+    "actual_C_source_and_sparse_grid_mappings_bijective": true,
+    "actual_native_cell_vertices_match_canonical_source_quads_both_planes": true,
+    "all20_saved_native_U_p_phi_finite_correct_counts_dimensions_and_wall_values": true,
+    "final_native_local_divergence_max_le_1e_5": true,
+    "final_native_local_divergence_RMS_le_1e_6": true,
+    "two_actual_inlets_inward_and_outlet_outward": true,
+    "relative_all_boundary_mass_imbalance_le_1e_4": true,
+    "native_wall_absolute_flux_le_1e_14_m3_s": true,
+    "actual_native_2D_Uz_max_le_1e_12": true,
+    "terminal_printed_p_Ux_Uy_initial_residuals_le_1e_6": true,
+    "U_1800_to_2000_volume_weighted_relative_L2_le_1e_3": true,
+    "reviewed_execution_sources_match_root_authorization": true,
+    "installed_official_sources_match_recorded_hashes": true,
+    "inputs_unchanged_during_read_only_analysis": true
+  },
+  "failed_checks": [],
+  "all_declared_checks_passed": true,
+  "physical_validation": false,
+  "mesh_independence_established": false,
+  "benchmark_validation": false,
+  "scalar_mixing_simulated": false,
+  "interpretation": "AI-assisted educational steady one-mesh T-junction merge; seed colours are entry labels only; numerical target misses retained without extension"
+}

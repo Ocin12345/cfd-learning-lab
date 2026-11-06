@@ -1,0 +1,65 @@
+{
+  "parent_inputs_unchanged": true,
+  "files": [
+    {
+      "name": "candidate-native-quality.json",
+      "sha256": "2f29fd7928e82db3d9d6c37b1596cadb24b8b6aeba37e91ed37d452edd6de45c",
+      "bytes": 665
+    },
+    {
+      "name": "executed-mesh-helper.py",
+      "sha256": "0d54f0dc2d4d7228604de53a7b0850ec60caff78a4e84baed6626d6fafff7f52",
+      "bytes": 18801
+    },
+    {
+      "name": "executed-mesher.py",
+      "sha256": "6b466fb9197f359938fe1f4bc78e7b291c017732eaf3eb54af9991a87f94090c",
+      "bytes": 13991
+    },
+    {
+      "name": "executed-parent-mesher.py",
+      "sha256": "0d54f0dc2d4d7228604de53a7b0850ec60caff78a4e84baed6626d6fafff7f52",
+      "bytes": 18801
+    },
+    {
+      "name": "geometry.brep",
+      "sha256": "2143c479a422b058107c6f2ae189c92f9507f27a1770abcc8bc42bc4516ffd5c",
+      "bytes": 37143
+    },
+    {
+      "name": "geometry.npz",
+      "sha256": "9f5c51477eb17debbfe4c6b2019320809901efd0f9b8a5238fbf44d50a0a5e5f",
+      "bytes": 11961774
+    },
+    {
+      "name": "node-relocation-witness.json",
+      "sha256": "e72f33b4a92e125c824cc118130bf0cd356ae404641f718e62dbe579779c66c2",
+      "bytes": 5627
+    },
+    {
+      "name": "profile.json",
+      "sha256": "30c9e6342fdc2b96b9d329aa80c825b441e4133419e4938e12d9e041a2c461a4",
+      "bytes": 18554
+    },
+    {
+      "name": "setup.json",
+      "sha256": "9b0e49b54d0bf68d85138a96d73a0aa1a13d6c935e270173d692cd41b18f3ac9",
+      "bytes": 4422
+    },
+    {
+      "name": "source-gmsh.msh",
+      "sha256": "5dbe9bdc254b814ebf3fa9d8869ec3eb03ecdbc9cb34a8c51f5e4e9ded16e4e6",
+      "bytes": 9253014
+    },
+    {
+      "name": "wing-surface.stl",
+      "sha256": "890d1d4f4b05bf3377e5acc520a35d05e6437cac056bbe9a3dc0fe483e8fb587",
+      "bytes": 7003900
+    },
+    {
+      "name": "wing.msh",
+      "sha256": "e2d189579699b6e4102d717868b26907c3a20c227e748c57303206b3fd43b38c",
+      "bytes": 10995543
+    }
+  ]
+}

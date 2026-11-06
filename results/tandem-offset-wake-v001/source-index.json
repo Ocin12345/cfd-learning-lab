@@ -1,0 +1,113 @@
+{
+  "public_code": [
+    {
+      "path": "scripts/analyse_tandem_offset_wake_openfoam_production_v001.py",
+      "sha256": "e7851133e755041b7fb68144c5087bc2d87e01634ef555f391c65cb0c586a055",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/analyse_tandem_offset_wake_openfoam_v002.py",
+      "sha256": "8875723bd4df1af8f99ebc0573712b66db4fcd400238972acef3806267cca7a8",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/plot_annular_couette_native_v004.py",
+      "sha256": "d5c4414beeed4bc6cb78795a06bf8d7e60445a476cd43eaa2ea9f818ce92884b",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/plot_cavity_native_v003.py",
+      "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/plot_nozzle_native_v004.py",
+      "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/plot_tandem_offset_wake_native_v002.py",
+      "sha256": "420820b2991c90f7fcb72ad578a6604620c124edaa20f529f7978c2c13565bce",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/prepare_openfoam_tandem_offset_wake_production_v001.py",
+      "sha256": "4006701e9e32a7326c4064c5b89f54e73c931bacfe7d1093d3c65b19658c581d",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/prepare_openfoam_tandem_offset_wake_v002.py",
+      "sha256": "8c92ec571ec735e886fe7e464425654fb92f5d16fd7e649d1e7890fefd8eac48",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/tandem_offset_openfoam_common_v002.py",
+      "sha256": "d0f0a34cc0bc50533f9072fee1d4329156bd52da5a178318003d857ff8fd98e9",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/tandem_offset_wake_fluent_audit_v001.py",
+      "sha256": "04c30b23be6dfaee9f05867c2eb9d429bb73f0610582e081a1dfc440c3b4ddbe",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/tandem_offset_wake_fluent_common_v001.py",
+      "sha256": "46a5b53aad554a6072a7407a78dc21a9c6a2c687b89b5295cbb85d6b9b3d832a",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/tandem_offset_wake_fluent_pilot_v001.py",
+      "sha256": "976d1fc1d7b3129ee4dd853cc18a2fa3a161b2aaf564a1f46777e6e9b61e4280",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/tandem_offset_wake_fluent_production_v001.py",
+      "sha256": "65813164d0bfaadd26c57d5f4801bb5a3bb2ef81843ab42e8087a17d86d0dc00",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/tandem_offset_wake_mesh_v001.py",
+      "sha256": "3ab58ad8c694eca07254c1fc82783bb1ca01b10b6334600f9bbeeb9425247ae8",
+      "role": "Actual selected model implementation or imported technical dependency"
+    },
+    {
+      "path": "scripts/tandem-offset-wake-v001/Start-TandemOffsetWakeFluentPilot-v001.ps1",
+      "sha256": "51dff4702968e1d54ffc1c2d7b3d5fac2c91db2f8f8a929d16517f55cdea5ca2",
+      "role": "Guarded actual launch/preflight/continuation/render source; authorization payload remains external"
+    },
+    {
+      "path": "scripts/tandem-offset-wake-v001/Start-TandemOffsetWakeFluentProduction-v001.ps1",
+      "sha256": "b5971714596857d75e8bd06a00ce1eef17c8dc767d6fdcb6e7ba056c6d84d849",
+      "role": "Guarded actual launch/preflight/continuation/render source; authorization payload remains external"
+    },
+    {
+      "path": "scripts/tandem-offset-wake-v001/Launch-OpenFOAM-v002.ps1",
+      "sha256": "3547681e80b9eb7fb52e8400b8db564d89beca2558cb2932ce2cb2a904ee3114",
+      "role": "Guarded actual launch/preflight/continuation/render source; authorization payload remains external"
+    },
+    {
+      "path": "scripts/tandem-offset-wake-v001/Launch-OpenFOAM-Production-v001.ps1",
+      "sha256": "0d261918e6798104cb533ed56e721c00010cdb19de175a076e0bcc24af038414",
+      "role": "Guarded actual launch/preflight/continuation/render source; authorization payload remains external"
+    },
+    {
+      "path": "scripts/tandem-offset-wake-v001/run-openfoam-v002.sh",
+      "sha256": "5e0943b4253719c9e005220a4ffae4302b00f4c71fbe07c45e949bd333ed5a89",
+      "role": "Guarded actual launch/preflight/continuation/render source; authorization payload remains external"
+    },
+    {
+      "path": "scripts/tandem-offset-wake-v001/run-openfoam-production-v001.sh",
+      "sha256": "f05a57446b00fbe029928e57cbae4a7b3abc2337e58ee42e80713552ac1665c7",
+      "role": "Guarded actual launch/preflight/continuation/render source; authorization payload remains external"
+    },
+    {
+      "path": "scripts/tandem-offset-wake-v001/Render-Paired-v002.ps1",
+      "sha256": "ffd422c44bf78fc4e4d71e5401bc9bc6494cebaf6b33556e4e288cd8c7dc924d",
+      "role": "Guarded actual launch/preflight/continuation/render source; authorization payload remains external"
+    }
+  ],
+  "raw_native_provenance_external": true,
+  "targets_sha256": "426448b7e6909e75dbf08f065d93f90699b98f12be007891631d9ed9b10f71d7",
+  "plan_sha256": "79f894cdddbf65209b91b6cfd0121909eb69428e9dcf101ae267c0112ec5e055",
+  "record_scope": "Actual tandem wake only; other preparation source files are not a result claim"
+}

@@ -1,0 +1,81 @@
+{
+  "kind": "Geometry and mesh only",
+  "script_sha256": "4c0e6b31cf8328ee7dc4ffb5d9af7cc82f63ba8ab3e6f6c21d3a57c3f3618696",
+  "checks": {
+    "original_node_ids_and_coordinates_exact": true,
+    "original_cell_ids_and_triangles_exact": true,
+    "original_wall_edge_identity_exact": true,
+    "former_farfield_edges_now_interior": 768,
+    "new_outer_patch_assignment_verified": true,
+    "source_and_preparation_hashes_verified": true
+  },
+  "source_cells": 383562,
+  "extended_cells": 531018,
+  "source_nodes": 192550,
+  "extended_nodes": 266278,
+  "annulus_method": {
+    "method": "deterministic_radial_triangles",
+    "gmsh_used": false,
+    "radial_layers": 96,
+    "new_ring_vertices_per_layer": 768,
+    "radius_schedule": "R_j = R0 * (R/R0)**(j/layers)",
+    "radial_growth_factor": 1.007246412223704,
+    "diagonal": "Alternate by parity of angular segment plus radial strip",
+    "inner_segments": 768,
+    "outer_segments": 768
+  },
+  "canvas_inches": [
+    7.05,
+    3.3
+  ],
+  "raster_dpi": 600,
+  "zoom_limits": [
+    20.15,
+    20.85,
+    -0.35,
+    0.35
+  ],
+  "visible_zoom_edges": {
+    "retained": 43,
+    "added": 45,
+    "shared": 6
+  },
+  "software": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
+  },
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local\\airfoil.msh",
+      "sha256": "8e5275ba9a9496880ea9613f562d72f03e653b6aa59551c215ea415c0b6e6081"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\mesh\\airfoil.msh",
+      "sha256": "d9d0738a93516d8856b442422d5d65bbbf04ab088ac5ed6f1e218126d8eee4dc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local\\setup.json",
+      "sha256": "f18fcd7cb8f4fe2fbd31123e1fad5bb6033fefe29e380ef4d42e10ac90aca26f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\mesh\\setup.json",
+      "sha256": "43bd49c7b2c2e5383a6f7206f0a10a0e765837a407cadb30704534c99f7e83e5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\mesh\\domain-extension-provenance.json",
+      "sha256": "0bb52f78d23f7792301881c9a27fd92cea0205c235984b3a03be5b1a21b6e85d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_openfoam_airfoil_fields.py",
+      "sha256": "be3c91f714886d6cf4089d70405730c7760b502a008a00df9b16e2e81b92dc09"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\mesh\\executed-mesher.py",
+      "sha256": "b40f53efcd31b8d252e295311174cf576f4b682f475febeed8148010a4e04360"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\mesh\\executed-source-reader.py",
+      "sha256": "be3c91f714886d6cf4089d70405730c7760b502a008a00df9b16e2e81b92dc09"
+    }
+  ]
+}

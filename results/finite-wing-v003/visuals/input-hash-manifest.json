@@ -1,0 +1,195 @@
+{
+  "command_arguments": [
+    "--run",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003",
+    "--out",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-01-finite-wing-paired-v002",
+    "--geometry",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\geometry.npz",
+    "--fluent-case",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\wing-final.cas.h5",
+    "--fluent-data",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\wing-final.dat.h5",
+    "--openfoam-case",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam",
+    "--openfoam-time",
+    "1200",
+    "--frames",
+    "48",
+    "--slice-x",
+    "1.5",
+    "--trace-duration",
+    "5"
+  ],
+  "plotter_sha256": "0f36f3a2e2c9bbbce70aa296543a83a8fcc98c4b0cc600481ce5f3be2c96d8f1",
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\wing-final.cas.h5",
+      "bytes": 4705926,
+      "sha256": "35c22b80ebccf6035c2d49e735ad1b4a1a684ad1a44ea973304be50088ad2191"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\wing-final.dat.h5",
+      "bytes": 11156991,
+      "sha256": "532368c1a61a01c62c45a61738526ac7cf9b8accab68e00fd237609740ae5bc1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\geometry.npz",
+      "bytes": 11961774,
+      "sha256": "9f5c51477eb17debbfe4c6b2019320809901efd0f9b8a5238fbf44d50a0a5e5f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\setup.json",
+      "bytes": 4422,
+      "sha256": "9b0e49b54d0bf68d85138a96d73a0aa1a13d6c935e270173d692cd41b18f3ac9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\boundary",
+      "bytes": 1190,
+      "sha256": "a794768b3118c3e96b40c39f7fc9b97409fa5c78f2d262bfee10a1c8b8cf21eb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\faces",
+      "bytes": 7171576,
+      "sha256": "9f560617c4f8effb51538311ec1ad725ac29ca456d58fa84a2f508e3a0357e54"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\neighbour",
+      "bytes": 2149498,
+      "sha256": "b30dc58a1732d1a468b14be147e266b65744940c40f8384dc9dfeda59ce14f65"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\owner",
+      "bytes": 2162004,
+      "sha256": "11853d27afe68667ec1823a529b3fd9d08369e3ced86853c1443c2badf78aa12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\points",
+      "bytes": 1934279,
+      "sha256": "9799238cdf30e4d015411ac1dc14cba3d98a801fca35b9a522e24e7dd865bee4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\1200\\C",
+      "bytes": 10297372,
+      "sha256": "338428d17dd0deab25996d6ad788230ed77cffd742fb98bf0a038fbf73b5b6fc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\1200\\U",
+      "bytes": 9677242,
+      "sha256": "3c5b349569b4272fe499c79144c3f20e703bc91066542a34a407957532384d5d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\1200\\p",
+      "bytes": 3154843,
+      "sha256": "5472be0e6bd9ebb079e6b0870f56b4a275c22a1c4d956de3010989a85ae03cd2"
+    }
+  ],
+  "verified_final_native_sources": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\final-settings.json",
+      "bytes": 29467,
+      "sha256": "042c25d6d25586ace5413dbd9b8a4a56b9c7665378e9ce94d410b3a51f569f3e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\loaded-settings.json",
+      "bytes": 29643,
+      "sha256": "443e7ddaafc91371e424384aebe29211b06392b96df6e5c2d4174a92aade11a7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\wing-final.cas.h5",
+      "bytes": 4705926,
+      "sha256": "35c22b80ebccf6035c2d49e735ad1b4a1a684ad1a44ea973304be50088ad2191"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\wing-final.dat.h5",
+      "bytes": 11156991,
+      "sha256": "532368c1a61a01c62c45a61738526ac7cf9b8accab68e00fd237609740ae5bc1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\geometry.npz",
+      "bytes": 11961774,
+      "sha256": "9f5c51477eb17debbfe4c6b2019320809901efd0f9b8a5238fbf44d50a0a5e5f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\profile.json",
+      "bytes": 18554,
+      "sha256": "30c9e6342fdc2b96b9d329aa80c825b441e4133419e4938e12d9e041a2c461a4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\setup.json",
+      "bytes": 4422,
+      "sha256": "9b0e49b54d0bf68d85138a96d73a0aa1a13d6c935e270173d692cd41b18f3ac9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\boundary",
+      "bytes": 1190,
+      "sha256": "a794768b3118c3e96b40c39f7fc9b97409fa5c78f2d262bfee10a1c8b8cf21eb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\faces",
+      "bytes": 7171576,
+      "sha256": "9f560617c4f8effb51538311ec1ad725ac29ca456d58fa84a2f508e3a0357e54"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\neighbour",
+      "bytes": 2149498,
+      "sha256": "b30dc58a1732d1a468b14be147e266b65744940c40f8384dc9dfeda59ce14f65"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\owner",
+      "bytes": 2162004,
+      "sha256": "11853d27afe68667ec1823a529b3fd9d08369e3ced86853c1443c2badf78aa12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\0\\polyMesh\\points",
+      "bytes": 1934279,
+      "sha256": "9799238cdf30e4d015411ac1dc14cba3d98a801fca35b9a522e24e7dd865bee4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\1200\\C",
+      "bytes": 10297372,
+      "sha256": "338428d17dd0deab25996d6ad788230ed77cffd742fb98bf0a038fbf73b5b6fc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\1200\\U",
+      "bytes": 9677242,
+      "sha256": "3c5b349569b4272fe499c79144c3f20e703bc91066542a34a407957532384d5d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\1200\\p",
+      "bytes": 3154843,
+      "sha256": "5472be0e6bd9ebb079e6b0870f56b4a275c22a1c4d956de3010989a85ae03cd2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\declared-comparison.json",
+      "bytes": 2801,
+      "sha256": "88022b4d86ab635d8054c130dce052b56959b78f1bfcf92524aeb5c0331cfa99"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\solver.log",
+      "bytes": 952929,
+      "sha256": "d41853bfd1e695ecf8b3f7a5ebc02a0aee28a38e067499a35b69354d48c62608"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\system\\controlDict",
+      "bytes": 1890,
+      "sha256": "4eed4f767b7618961e834e64ca7cfab7c258cd1168b8d284f233265c528d6b33"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\system\\fvSchemes",
+      "bytes": 430,
+      "sha256": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\system\\fvSolution",
+      "bytes": 373,
+      "sha256": "d3d8b1950a7e0943e8b79b8db779c6c6501d96bec73729e8d0eb9dfa064108a4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_finite_wing_native_v002.py",
+      "bytes": 47687,
+      "sha256": "0f36f3a2e2c9bbbce70aa296543a83a8fcc98c4b0cc600481ce5f3be2c96d8f1"
+    }
+  ],
+  "executed_render_verifier_sha256": "ce92e426ca726d9d6e8ab51e29dab36e72aca8780e01ef5b2606649120acf2db"
+}

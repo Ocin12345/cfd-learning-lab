@@ -1,0 +1,33 @@
+{
+  "kind": "Fresh airfoil mesh calculation; no physical validation",
+  "additional_iterations": 100,
+  "samples": 101,
+  "initial": {
+    "additional_iteration": 0,
+    "drag_force_N": 0.20791931,
+    "drag_coefficient": 0.41583862,
+    "pressure_drag_N": 0.037676705,
+    "viscous_drag_N": 0.17024261,
+    "lift_force_N": -1.7419042e-05,
+    "lift_coefficient": -3.4838084e-05
+  },
+  "final": {
+    "additional_iteration": 100,
+    "drag_force_N": 0.20791931,
+    "drag_coefficient": 0.41583862,
+    "pressure_drag_N": 0.037676705,
+    "viscous_drag_N": 0.17024261,
+    "lift_force_N": -1.7419025e-05,
+    "lift_coefficient": -3.4838049e-05
+  },
+  "last20_drag_relative_range": 0.0,
+  "last20_lift_absolute_range": 0.0,
+  "last20_max_absolute_lift": 3.4838049e-05,
+  "drag_stability_pass": true,
+  "lift_stability_pass": true,
+  "zero_angle_abs_lift_diagnostic_target": 0.001,
+  "minimum_orthogonal_quality": 0.334853,
+  "native_case_saved": true,
+  "convergence_checks_temporarily_disabled": true,
+  "convergence_checks_restored_before_save": true
+}

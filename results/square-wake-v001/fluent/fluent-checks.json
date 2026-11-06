@@ -1,0 +1,922 @@
+{
+  "kind": "Fluent confined square-obstacle wake saved-native audit",
+  "checks": {
+    "execution_status_read": true,
+    "summary_read": true,
+    "provenance_read": true,
+    "root_authorization_read": true,
+    "targets_read": true,
+    "native_quality_read": true,
+    "native_settings_read": true,
+    "native_physical_readback_read": true,
+    "native_inputs_bound_to_reviewed_authorization": true,
+    "native_completed_2000": true,
+    "native_quality_positive_volume_and_total1p59": true,
+    "native_final_physical_wall_and_numerical_settings": true,
+    "native_final_case_read": true,
+    "native_final_data_read": true,
+    "native1800_case_read": true,
+    "native1800_data_read": true,
+    "checkpoint500_case_read": true,
+    "checkpoint500_data_read": true,
+    "checkpoint1000_case_read": true,
+    "checkpoint1000_data_read": true,
+    "checkpoint1500_case_read": true,
+    "checkpoint1500_data_read": true,
+    "checkpoint1800_case_read": true,
+    "checkpoint1800_data_read": true,
+    "checkpoint2000_case_read": true,
+    "checkpoint2000_data_read": true,
+    "native_transcript_read": true,
+    "native_residual_history_complete": true,
+    "final_residuals_le_1e_6": true,
+    "native_body_CdCl_history_complete1to2000": true,
+    "last200_Cd_peak_to_peak_over_absmean_le1e_3": true,
+    "last200_absolute_mean_Cl_le1e_3": true,
+    "source_geometry_read": true,
+    "native_topology_mapping_and_finite_fields": true,
+    "native1800_and2000_mesh_identical": true,
+    "final200_weighted_velocity_L2_relative_change_le_1e_3": true,
+    "full_native_face_flux_and_incidence_coverage": true,
+    "native_local_divergence_max_le_1e_5": true,
+    "native_local_divergence_rms_le_1e_6": true,
+    "native_face_relative_mass_imbalance_le_1e_4": true,
+    "native_body_and_symmetries_zero_normal_flux": true,
+    "native_incidence_sum_equals_boundary_flux": true,
+    "native_boundary_mass_report_read": true,
+    "native_report_relative_mass_imbalance_le_1e_4": true,
+    "native_per_iteration_mass_monitors_complete": true,
+    "native_per_iteration_monitors_complete": true,
+    "native_student_two_process_licence_and_no_fatal": true,
+    "saved_native_visualizations_created": true,
+    "native_body_HDF_report_monitor_force_match_iter500": true,
+    "native_body_HDF_report_monitor_force_match_iter1000": true,
+    "native_body_HDF_report_monitor_force_match_iter1500": true,
+    "native_body_HDF_report_monitor_force_match_iter1800": true,
+    "native_body_HDF_report_monitor_force_match_iter2000": true,
+    "native_final_body_HDF_report_monitor_force_match": true,
+    "all_hashed_native_inputs_unchanged": true
+  },
+  "evidence": {
+    "provenance": {
+      "source_sha256": "cea7eab351f415c0337ee85089e4a8dc4cdfbd8260faa9586cb99697f2148511",
+      "mesh_sha256": "ee23f1eece6c0c6ff420a162e155643be809f1acc6db5060a68d4c09f3d435d4",
+      "geometry_npz_sha256": "1b154cc6c9c0d8856e00ca1305a8d99ce5f30ef245fa6f4e0193c2a516960829"
+    },
+    "settings": {
+      "inlets": {
+        "inlet": {
+          "velocity_specification_method": "Components",
+          "velocity_m_s": [
+            0.1,
+            0
+          ]
+        }
+      },
+      "wall_motion": "Stationary Wall",
+      "wall_shear_condition": "No Slip",
+      "outlet_gauge_pressure_Pa": 0,
+      "operating_pressure_Pa": 0.0,
+      "reference_depth_m": 1,
+      "density": 1.0,
+      "viscosity": 0.0005,
+      "viscous_model": "laminar",
+      "energy_enabled": false
+    },
+    "native_residual_normalization_note": "If native momentum normalization is0 at iteration1 from rest, use its actual printed value verified against raw numerator. Later zero normalizations are rejected; terminal values match printed evidence.",
+    "final_scaled_residuals": {
+      "continuity": 1.5902690993284656e-14,
+      "x-velocity": 2.8135862221901946e-17,
+      "y-velocity": 8.95145401919294e-18
+    },
+    "final200_max_scaled_residuals": {
+      "continuity": 1.6527501970709628e-14,
+      "x-velocity": 2.8879281906597873e-17,
+      "y-velocity": 9.991502940826916e-18
+    },
+    "body_force_stability": {
+      "window": [
+        1801,
+        2000
+      ],
+      "samples": 200,
+      "mean_Cd": 2.8144310326314543,
+      "Cd_peak_to_peak": 3.1086244689504383e-15,
+      "Cd_peak_to_peak_over_abs_mean": 1.1045303412689837e-15,
+      "absolute_mean_Cl": 2.0555372047493733e-16,
+      "mean_Cl": -2.0555372047493733e-16,
+      "Cd_stability_pass": true,
+      "Cl_symmetry_pass": true,
+      "zero_mean_Cd_diagnostic": null
+    },
+    "unchanged_native_mesh_datasets": 32,
+    "velocity_stability": {
+      "endpoints": [
+        1800,
+        2000
+      ],
+      "weighted_velocity_L2_relative_change": 7.269861682063812e-16,
+      "definition": "sqrt(sum(source cell area*|U2000-U1800|\u864f)/sum(source cell area*|U1800|\u864f))"
+    },
+    "local_conservation": {
+      "native_faces": 32100,
+      "native_cells": 15900,
+      "max_cell_absolute_mass_sum_kg_s": 4.336808689942018e-19,
+      "sum_cell_absolute_mass_sum_kg_s": 1.056648902543944e-15,
+      "max_dimensionless_divergence": 4.336808689942106e-15,
+      "rms_dimensionless_divergence": 1.1593612836983962e-15,
+      "boundary_signed_mass_flux_kg_s": -6.938893903907228e-18,
+      "boundary_absolute_face_mass_flux_sum_kg_s": 0.16,
+      "boundary_net_characteristic_normalized": 6.938893903907227e-16,
+      "incidence_sum_matches_boundary": true,
+      "normalization": "Cell divergence: sum signed native SV_FLUX/(rho*cell area*depth)*L/U; volume-weighted RMS",
+      "boundary_limitation": "Actual inlet and outlet mass fluxes define global conservation; local native all-cell flux divergence is checked separately",
+      "zones": {
+        "inlet": {
+          "faces": 80,
+          "native_signed_SV_FLUX_kg_s": -0.08,
+          "absolute_face_flux_sum_kg_s": 0.08
+        },
+        "outlet": {
+          "faces": 80,
+          "native_signed_SV_FLUX_kg_s": 0.08,
+          "absolute_face_flux_sum_kg_s": 0.08
+        },
+        "top": {
+          "faces": 200,
+          "native_signed_SV_FLUX_kg_s": 0.0,
+          "absolute_face_flux_sum_kg_s": 0.0
+        },
+        "bottom": {
+          "faces": 200,
+          "native_signed_SV_FLUX_kg_s": 0.0,
+          "absolute_face_flux_sum_kg_s": 0.0
+        },
+        "body": {
+          "faces": 40,
+          "native_signed_SV_FLUX_kg_s": 0.0,
+          "absolute_face_flux_sum_kg_s": 0.0
+        }
+      },
+      "actual_total_inlet_mass_flow_kg_s": 0.08,
+      "relative_mass_imbalance": 8.673617379884035e-17
+    },
+    "native_mass_report": {
+      "inlet": 0.08,
+      "outlet": -0.08,
+      "body": -0.0,
+      "Net": 5.5511151e-17,
+      "actual_total_inlet_mass_flow_kg_s": 0.08,
+      "relative_mass_imbalance": 6.938893874999999e-16,
+      "definition": "abs(native Net)/actual positive native inlet mass flow report; depth1m",
+      "reported_boundary_names": [
+        "inlet",
+        "outlet",
+        "body"
+      ],
+      "symmetry_rows_omitted_from_native_text": [
+        "top",
+        "bottom"
+      ],
+      "symmetry_note": "Native mass report omits symmetry rows; do not manufacture textual flux values. All200top+200bottom native SV_FLUX values are checked independently for zero normal flux."
+    },
+    "massflow_monitors": {
+      "actual_rows": 2000,
+      "last": {
+        "iteration": 2000,
+        "mdot_inlet": 0.08000000000000004,
+        "mdot_outlet": -0.07999999999999999
+      }
+    },
+    "monitors": {
+      "actual_rows": 2000,
+      "last": {
+        "iteration": 2000,
+        "mean_speed": 0.1008804531072701,
+        "mean_pressure": -1.900878220144212e-05
+      }
+    },
+    "live_native_licence_and_log": {
+      "native_compute_processes": 2,
+      "student_version_verified": true
+    },
+    "derived_saved_native_images": [
+      "fluent-velocity.png",
+      "fluent-pressure.png",
+      "fluent-residuals.png"
+    ],
+    "body_forces": {
+      "500": {
+        "native_HDF": {
+          "pressure_force_N": [
+            0.0009817396517602934,
+            7.76147316582836e-12
+          ],
+          "viscous_force_N": [
+            0.00042547595925272383,
+            3.990435101163277e-11
+          ],
+          "total_force_N": [
+            0.0014072156110130174,
+            4.7665824177461127e-11
+          ],
+          "Cd": 2.814431222026035,
+          "Cl": 9.533164835492225e-08,
+          "body_faces": 40,
+          "body_closed_oriented_edgearea_sum_m2": [
+            0.0,
+            0.0
+          ],
+          "face_zone_types": {
+            "interior": 2,
+            "inlet": 10,
+            "outlet": 5,
+            "top": 7,
+            "bottom": 7,
+            "body": 3
+          },
+          "interpretation": "Pressure=sum(nativefaceSV_P*outward-from-fluid edgearea*depth1); viscous=-sum(nativeSV_WALL_SHEAR), integratedN. Both require matching this run native force report; no extra area multiplier on shear."
+        },
+        "drag_report": {
+          "pressure_force_N": 0.00098173965,
+          "viscous_force_N": 0.00042547596,
+          "total_force_N": 0.0014072156,
+          "pressure_coefficient": 1.9634793,
+          "viscous_coefficient": 0.85095192,
+          "total_coefficient": 2.8144312,
+          "vectors": [
+            [
+              0.00098173965,
+              7.7614732e-12,
+              0.0
+            ],
+            [
+              0.00042547596,
+              3.9904351e-11,
+              0.0
+            ],
+            [
+              0.0014072156,
+              4.7665824e-11,
+              0.0
+            ],
+            [
+              1.9634793,
+              1.5522946e-08,
+              0.0
+            ],
+            [
+              0.85095192,
+              7.9808702e-08,
+              0.0
+            ],
+            [
+              2.8144312,
+              9.5331648e-08,
+              0.0
+            ]
+          ]
+        },
+        "lift_report": {
+          "pressure_force_N": 7.7614732e-12,
+          "viscous_force_N": 3.9904351e-11,
+          "total_force_N": 4.7665824e-11,
+          "pressure_coefficient": 1.5522946e-08,
+          "viscous_coefficient": 7.9808702e-08,
+          "total_coefficient": 9.5331648e-08,
+          "vectors": [
+            [
+              0.00098173965,
+              7.7614732e-12,
+              0.0
+            ],
+            [
+              0.00042547596,
+              3.9904351e-11,
+              0.0
+            ],
+            [
+              0.0014072156,
+              4.7665824e-11,
+              0.0
+            ],
+            [
+              1.9634793,
+              1.5522946e-08,
+              0.0
+            ],
+            [
+              0.85095192,
+              7.9808702e-08,
+              0.0
+            ],
+            [
+              2.8144312,
+              9.5331648e-08,
+              0.0
+            ]
+          ]
+        },
+        "monitor": {
+          "iteration": 500,
+          "Cd": 2.814431222026033,
+          "Cl": 9.533164837186289e-08
+        }
+      },
+      "1000": {
+        "native_HDF": {
+          "pressure_force_N": [
+            0.0009817395965147555,
+            2.4199236635814164e-14
+          ],
+          "viscous_force_N": [
+            0.0004254759198010768,
+            5.994242527064238e-15
+          ],
+          "total_force_N": [
+            0.0014072155163158324,
+            3.01934791628784e-14
+          ],
+          "Cd": 2.814431032631665,
+          "Cl": 6.03869583257568e-11,
+          "body_faces": 40,
+          "body_closed_oriented_edgearea_sum_m2": [
+            0.0,
+            0.0
+          ],
+          "face_zone_types": {
+            "interior": 2,
+            "inlet": 10,
+            "outlet": 5,
+            "top": 7,
+            "bottom": 7,
+            "body": 3
+          },
+          "interpretation": "Pressure=sum(nativefaceSV_P*outward-from-fluid edgearea*depth1); viscous=-sum(nativeSV_WALL_SHEAR), integratedN. Both require matching this run native force report; no extra area multiplier on shear."
+        },
+        "drag_report": {
+          "pressure_force_N": 0.0009817396,
+          "viscous_force_N": 0.00042547592,
+          "total_force_N": 0.0014072155,
+          "pressure_coefficient": 1.9634792,
+          "viscous_coefficient": 0.85095184,
+          "total_coefficient": 2.814431,
+          "vectors": [
+            [
+              0.0009817396,
+              2.4199237e-14,
+              0.0
+            ],
+            [
+              0.00042547592,
+              5.994218e-15,
+              0.0
+            ],
+            [
+              0.0014072155,
+              3.0193455e-14,
+              0.0
+            ],
+            [
+              1.9634792,
+              4.8398473e-11,
+              0.0
+            ],
+            [
+              0.85095184,
+              1.1988436e-11,
+              0.0
+            ],
+            [
+              2.814431,
+              6.0386909e-11,
+              0.0
+            ]
+          ]
+        },
+        "lift_report": {
+          "pressure_force_N": 2.4199237e-14,
+          "viscous_force_N": 5.994218e-15,
+          "total_force_N": 3.0193455e-14,
+          "pressure_coefficient": 4.8398473e-11,
+          "viscous_coefficient": 1.1988436e-11,
+          "total_coefficient": 6.0386909e-11,
+          "vectors": [
+            [
+              0.0009817396,
+              2.4199237e-14,
+              0.0
+            ],
+            [
+              0.00042547592,
+              5.994218e-15,
+              0.0
+            ],
+            [
+              0.0014072155,
+              3.0193455e-14,
+              0.0
+            ],
+            [
+              1.9634792,
+              4.8398473e-11,
+              0.0
+            ],
+            [
+              0.85095184,
+              1.1988436e-11,
+              0.0
+            ],
+            [
+              2.814431,
+              6.0386909e-11,
+              0.0
+            ]
+          ]
+        },
+        "monitor": {
+          "iteration": 1000,
+          "Cd": 2.814431032631664,
+          "Cl": 6.038690919784585e-11
+        }
+      },
+      "1500": {
+        "native_HDF": {
+          "pressure_force_N": [
+            0.0009817395965146898,
+            -1.8905775382715984e-18
+          ],
+          "viscous_force_N": [
+            0.00042547591980103777,
+            -1.0410034921755351e-18
+          ],
+          "total_force_N": [
+            0.0014072155163157274,
+            -2.9315810304471335e-18
+          ],
+          "Cd": 2.8144310326314548,
+          "Cl": -5.863162060894267e-15,
+          "body_faces": 40,
+          "body_closed_oriented_edgearea_sum_m2": [
+            0.0,
+            0.0
+          ],
+          "face_zone_types": {
+            "interior": 2,
+            "inlet": 10,
+            "outlet": 5,
+            "top": 7,
+            "bottom": 7,
+            "body": 3
+          },
+          "interpretation": "Pressure=sum(nativefaceSV_P*outward-from-fluid edgearea*depth1); viscous=-sum(nativeSV_WALL_SHEAR), integratedN. Both require matching this run native force report; no extra area multiplier on shear."
+        },
+        "drag_report": {
+          "pressure_force_N": 0.0009817396,
+          "viscous_force_N": 0.00042547592,
+          "total_force_N": 0.0014072155,
+          "pressure_coefficient": 1.9634792,
+          "viscous_coefficient": 0.85095184,
+          "total_coefficient": 2.814431,
+          "vectors": [
+            [
+              0.0009817396,
+              -1.8905775e-18,
+              0.0
+            ],
+            [
+              0.00042547592,
+              -9.5926481e-19,
+              0.0
+            ],
+            [
+              0.0014072155,
+              -2.8498424e-18,
+              0.0
+            ],
+            [
+              1.9634792,
+              -3.7811551e-15,
+              0.0
+            ],
+            [
+              0.85095184,
+              -1.9185296e-15,
+              0.0
+            ],
+            [
+              2.814431,
+              -5.6996847e-15,
+              0.0
+            ]
+          ]
+        },
+        "lift_report": {
+          "pressure_force_N": -1.8905775e-18,
+          "viscous_force_N": -9.5926481e-19,
+          "total_force_N": -2.8498424e-18,
+          "pressure_coefficient": -3.7811551e-15,
+          "viscous_coefficient": -1.9185296e-15,
+          "total_coefficient": -5.6996847e-15,
+          "vectors": [
+            [
+              0.0009817396,
+              -1.8905775e-18,
+              0.0
+            ],
+            [
+              0.00042547592,
+              -9.5926481e-19,
+              0.0
+            ],
+            [
+              0.0014072155,
+              -2.8498424e-18,
+              0.0
+            ],
+            [
+              1.9634792,
+              -3.7811551e-15,
+              0.0
+            ],
+            [
+              0.85095184,
+              -1.9185296e-15,
+              0.0
+            ],
+            [
+              2.814431,
+              -5.6996847e-15,
+              0.0
+            ]
+          ]
+        },
+        "monitor": {
+          "iteration": 1500,
+          "Cd": 2.814431032631455,
+          "Cl": -5.699684702074185e-15
+        }
+      },
+      "1800": {
+        "native_HDF": {
+          "pressure_force_N": [
+            0.0009817395965146898,
+            1.7618285302889447e-19
+          ],
+          "viscous_force_N": [
+            0.0004254759198010376,
+            6.140988867593677e-20
+          ],
+          "total_force_N": [
+            0.0014072155163157274,
+            2.3759274170483125e-19
+          ],
+          "Cd": 2.8144310326314548,
+          "Cl": 4.751854834096625e-16,
+          "body_faces": 40,
+          "body_closed_oriented_edgearea_sum_m2": [
+            0.0,
+            0.0
+          ],
+          "face_zone_types": {
+            "interior": 2,
+            "inlet": 10,
+            "outlet": 5,
+            "top": 7,
+            "bottom": 7,
+            "body": 3
+          },
+          "interpretation": "Pressure=sum(nativefaceSV_P*outward-from-fluid edgearea*depth1); viscous=-sum(nativeSV_WALL_SHEAR), integratedN. Both require matching this run native force report; no extra area multiplier on shear."
+        },
+        "drag_report": {
+          "pressure_force_N": 0.0009817396,
+          "viscous_force_N": 0.00042547592,
+          "total_force_N": 0.0014072155,
+          "pressure_coefficient": 1.9634792,
+          "viscous_coefficient": 0.85095184,
+          "total_coefficient": 2.814431,
+          "vectors": [
+            [
+              0.0009817396,
+              1.7618285e-19,
+              0.0
+            ],
+            [
+              0.00042547592,
+              8.0044614e-20,
+              0.0
+            ],
+            [
+              0.0014072155,
+              2.5622747e-19,
+              0.0
+            ],
+            [
+              1.9634792,
+              3.5236571e-16,
+              0.0
+            ],
+            [
+              0.85095184,
+              1.6008923e-16,
+              0.0
+            ],
+            [
+              2.814431,
+              5.1245493e-16,
+              0.0
+            ]
+          ]
+        },
+        "lift_report": {
+          "pressure_force_N": 1.7618285e-19,
+          "viscous_force_N": 8.0044614e-20,
+          "total_force_N": 2.5622747e-19,
+          "pressure_coefficient": 3.5236571e-16,
+          "viscous_coefficient": 1.6008923e-16,
+          "total_coefficient": 5.1245493e-16,
+          "vectors": [
+            [
+              0.0009817396,
+              1.7618285e-19,
+              0.0
+            ],
+            [
+              0.00042547592,
+              8.0044614e-20,
+              0.0
+            ],
+            [
+              0.0014072155,
+              2.5622747e-19,
+              0.0
+            ],
+            [
+              1.9634792,
+              3.5236571e-16,
+              0.0
+            ],
+            [
+              0.85095184,
+              1.6008923e-16,
+              0.0
+            ],
+            [
+              2.814431,
+              5.1245493e-16,
+              0.0
+            ]
+          ]
+        },
+        "monitor": {
+          "iteration": 1800,
+          "Cd": 2.814431032631454,
+          "Cl": 5.124549330888516e-16
+        }
+      },
+      "2000": {
+        "native_HDF": {
+          "pressure_force_N": [
+            0.0009817395965146896,
+            6.098637220230962e-20
+          ],
+          "viscous_force_N": [
+            0.0004254759198010377,
+            1.8211208365967457e-20
+          ],
+          "total_force_N": [
+            0.0014072155163157272,
+            7.919758056827708e-20
+          ],
+          "Cd": 2.8144310326314543,
+          "Cl": 1.5839516113655416e-16,
+          "body_faces": 40,
+          "body_closed_oriented_edgearea_sum_m2": [
+            0.0,
+            0.0
+          ],
+          "face_zone_types": {
+            "interior": 2,
+            "inlet": 10,
+            "outlet": 5,
+            "top": 7,
+            "bottom": 7,
+            "body": 3
+          },
+          "interpretation": "Pressure=sum(nativefaceSV_P*outward-from-fluid edgearea*depth1); viscous=-sum(nativeSV_WALL_SHEAR), integratedN. Both require matching this run native force report; no extra area multiplier on shear."
+        },
+        "drag_report": {
+          "pressure_force_N": 0.0009817396,
+          "viscous_force_N": 0.00042547592,
+          "total_force_N": 0.0014072155,
+          "pressure_coefficient": 1.9634792,
+          "viscous_coefficient": 0.85095184,
+          "total_coefficient": 2.814431,
+          "vectors": [
+            [
+              0.0009817396,
+              6.0986372e-20,
+              0.0
+            ],
+            [
+              0.00042547592,
+              2.4140439e-20,
+              0.0
+            ],
+            [
+              0.0014072155,
+              8.5126811e-20,
+              0.0
+            ],
+            [
+              1.9634792,
+              1.2197274e-16,
+              0.0
+            ],
+            [
+              0.85095184,
+              4.8280878e-17,
+              0.0
+            ],
+            [
+              2.814431,
+              1.7025362e-16,
+              0.0
+            ]
+          ]
+        },
+        "lift_report": {
+          "pressure_force_N": 6.0986372e-20,
+          "viscous_force_N": 2.4140439e-20,
+          "total_force_N": 8.5126811e-20,
+          "pressure_coefficient": 1.2197274e-16,
+          "viscous_coefficient": 4.8280878e-17,
+          "total_coefficient": 1.7025362e-16,
+          "vectors": [
+            [
+              0.0009817396,
+              6.0986372e-20,
+              0.0
+            ],
+            [
+              0.00042547592,
+              2.4140439e-20,
+              0.0
+            ],
+            [
+              0.0014072155,
+              8.5126811e-20,
+              0.0
+            ],
+            [
+              1.9634792,
+              1.2197274e-16,
+              0.0
+            ],
+            [
+              0.85095184,
+              4.8280878e-17,
+              0.0
+            ],
+            [
+              2.814431,
+              1.7025362e-16,
+              0.0
+            ]
+          ]
+        },
+        "monitor": {
+          "iteration": 2000,
+          "Cd": 2.814431032631454,
+          "Cl": 1.702536223981143e-16
+        }
+      },
+      "final": {
+        "native_HDF": {
+          "pressure_force_N": [
+            0.0009817395965146896,
+            6.098637220230962e-20
+          ],
+          "viscous_force_N": [
+            0.0004254759198010377,
+            1.8211208365967457e-20
+          ],
+          "total_force_N": [
+            0.0014072155163157272,
+            7.919758056827708e-20
+          ],
+          "Cd": 2.8144310326314543,
+          "Cl": 1.5839516113655416e-16,
+          "body_faces": 40,
+          "body_closed_oriented_edgearea_sum_m2": [
+            0.0,
+            0.0
+          ],
+          "face_zone_types": {
+            "interior": 2,
+            "inlet": 10,
+            "outlet": 5,
+            "top": 7,
+            "bottom": 7,
+            "body": 3
+          },
+          "interpretation": "Pressure=sum(nativefaceSV_P*outward-from-fluid edgearea*depth1); viscous=-sum(nativeSV_WALL_SHEAR), integratedN. Both require matching this run native force report; no extra area multiplier on shear."
+        },
+        "drag_report": {
+          "pressure_force_N": 0.0009817396,
+          "viscous_force_N": 0.00042547592,
+          "total_force_N": 0.0014072155,
+          "pressure_coefficient": 1.9634792,
+          "viscous_coefficient": 0.85095184,
+          "total_coefficient": 2.814431,
+          "vectors": [
+            [
+              0.0009817396,
+              6.0986372e-20,
+              0.0
+            ],
+            [
+              0.00042547592,
+              2.4140439e-20,
+              0.0
+            ],
+            [
+              0.0014072155,
+              8.5126811e-20,
+              0.0
+            ],
+            [
+              1.9634792,
+              1.2197274e-16,
+              0.0
+            ],
+            [
+              0.85095184,
+              4.8280878e-17,
+              0.0
+            ],
+            [
+              2.814431,
+              1.7025362e-16,
+              0.0
+            ]
+          ]
+        },
+        "lift_report": {
+          "pressure_force_N": 6.0986372e-20,
+          "viscous_force_N": 2.4140439e-20,
+          "total_force_N": 8.5126811e-20,
+          "pressure_coefficient": 1.2197274e-16,
+          "viscous_coefficient": 4.8280878e-17,
+          "total_coefficient": 1.7025362e-16,
+          "vectors": [
+            [
+              0.0009817396,
+              6.0986372e-20,
+              0.0
+            ],
+            [
+              0.00042547592,
+              2.4140439e-20,
+              0.0
+            ],
+            [
+              0.0014072155,
+              8.5126811e-20,
+              0.0
+            ],
+            [
+              1.9634792,
+              1.2197274e-16,
+              0.0
+            ],
+            [
+              0.85095184,
+              4.8280878e-17,
+              0.0
+            ],
+            [
+              2.814431,
+              1.7025362e-16,
+              0.0
+            ]
+          ]
+        },
+        "monitor": {
+          "iteration": 2000,
+          "Cd": 2.814431032631454,
+          "Cl": 1.702536223981143e-16
+        }
+      }
+    }
+  },
+  "errors": {},
+  "all_checks_passed": true,
+  "failed_checks": [],
+  "physical_validation": false,
+  "mesh_independence": false,
+  "boundary_note": "Global imbalance uses actual inlet mass flow; independent local divergence uses all native face fluxes.",
+  "pressure_note": "Native gauge pressure retained; outlet pressure0Pa.",
+  "analyser_sha256": "1c5b33d60fd218a4eec2740042dd153b48925d8ad95b64c626e7c96036975f32",
+  "mapping_helper_sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+}

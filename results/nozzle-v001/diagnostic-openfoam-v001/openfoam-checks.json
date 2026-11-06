@@ -1,0 +1,202 @@
+{
+  "solver": "OpenFOAM Foundation14 shockFluid",
+  "analysis_completed": true,
+  "mesh_cells": 9600,
+  "final_pseudo_iteration": 6000,
+  "physical_time": false,
+  "diagonal_solver_residuals_are_not_convergence_proof": true,
+  "mesh_quality": {
+    "cells": 9600,
+    "minimum_volume_m3": 8.3338291102506e-08,
+    "maximum_nonorthogonality_degrees": 12.935783116728,
+    "maximum_skewness": 0.20141162060017
+  },
+  "centre_mapping": {
+    "bijective": true,
+    "maximum_coordinate_error_m": 2.646007898324097e-13,
+    "tolerance_m": 1e-09,
+    "method": "Unique nativeC to true source polygoncentroid bijection, independent of cell order"
+  },
+  "boundary_mass_balance_by_pseudo_iteration": {
+    "5000": {
+      "signed_mass_flux_kg_s": {
+        "upper_wall": 2.6020852139652e-18,
+        "lower_wall": 2.6020852139652e-18,
+        "inlet": -0.3647536798794616,
+        "outlet": 0.46993698315342836
+      },
+      "signed_mass_flux_kg_s_per_m_depth": {
+        "upper_wall": 2.6020852139652e-16,
+        "lower_wall": 2.6020852139652e-16,
+        "inlet": -36.47536798794616,
+        "outlet": 46.99369831534283
+      },
+      "relative_imbalance": 0.288368038695939,
+      "definition": "abs(sum signed outward native phi over4 physicalpatches)/abs(inlet sum); emptyplanes excluded"
+    },
+    "5500": {
+      "signed_mass_flux_kg_s": {
+        "upper_wall": 0.0,
+        "lower_wall": -3.4694469519536e-18,
+        "inlet": -0.36874344571885587,
+        "outlet": 0.36316230280387646
+      },
+      "signed_mass_flux_kg_s_per_m_depth": {
+        "upper_wall": 0.0,
+        "lower_wall": -3.4694469519536e-16,
+        "inlet": -36.87434457188559,
+        "outlet": 36.31623028038764
+      },
+      "relative_imbalance": 0.015135571844806944,
+      "definition": "abs(sum signed outward native phi over4 physicalpatches)/abs(inlet sum); emptyplanes excluded"
+    },
+    "6000": {
+      "signed_mass_flux_kg_s": {
+        "upper_wall": 0.0,
+        "lower_wall": -1.04083408558608e-17,
+        "inlet": -0.3731384439644367,
+        "outlet": 0.31266971239887154
+      },
+      "signed_mass_flux_kg_s_per_m_depth": {
+        "upper_wall": 0.0,
+        "lower_wall": -1.04083408558608e-15,
+        "inlet": -37.31384439644367,
+        "outlet": 31.26697123988715
+      },
+      "relative_imbalance": 0.16205441316394711,
+      "definition": "abs(sum signed outward native phi over4 physicalpatches)/abs(inlet sum); emptyplanes excluded"
+    }
+  },
+  "mass_flux_history": {
+    "samples": 6000,
+    "last100_maximum_relative_imbalance": 0.46853321153422645,
+    "final_relative_imbalance": 0.16205441316395117,
+    "mass_flux_units": "kg/s through0.01m depth",
+    "history_is_pseudo_iteration_not_time": true
+  },
+  "final_field_statistics": {
+    "p": {
+      "minimum": 16824.384423388,
+      "maximum": 435995.07090532,
+      "area_weighted_mean": 151649.16255857903
+    },
+    "T": {
+      "minimum": 135.94748382676,
+      "maximum": 373.97037624591,
+      "area_weighted_mean": 269.08875857228844
+    },
+    "rho": {
+      "minimum": 0.43113193987942,
+      "maximum": 4.0615010251516,
+      "area_weighted_mean": 1.8902952384182938
+    },
+    "Mach": {
+      "minimum": 0.010050110430042603,
+      "maximum": 1.9684868583539334,
+      "area_weighted_mean": 0.5362461075342269
+    }
+  },
+  "gas_EOS_relative_error_by_iteration": {
+    "5000": 5.98096082164834e-07,
+    "5500": 5.980960802635224e-07,
+    "6000": 5.98096078732487e-07
+  },
+  "last_three_saved_state_relative_L2_change": {
+    "5000_to_5500": {
+      "U": 0.4654371788291972,
+      "p": 0.3400028915655414,
+      "T": 0.11461533358087317
+    },
+    "5500_to_6000": {
+      "U": 0.45759508269043403,
+      "p": 0.33399924899865974,
+      "T": 0.1160003932013369
+    },
+    "5000_to_6000": {
+      "U": 0.4992847878704935,
+      "p": 0.3509069454706785,
+      "T": 0.12359356293439808
+    }
+  },
+  "field_change_definition": "sqrt(sum(area*(old-new)^2)/sum(area*new^2)); vectorcomponents summed; savedendpoint comparisons not everyiteration stability",
+  "centerline_compression_crossing_by_iteration": {
+    "5000": {
+      "detected": true,
+      "x_m": 0.618199059446531,
+      "bracket_x_m": [
+        0.6145859934642542,
+        0.6187526667972851
+      ],
+      "bracket_Mach": [
+        1.720098757101851,
+        0.8896638015591014
+      ],
+      "bracket_static_p_Pa": [
+        22011.5169732965,
+        61965.9459709455
+      ],
+      "description": "Centerline compression crossing consistent with a numerically smeared shock; two central cellrows averaged; no exact normalshock jump validation"
+    },
+    "5500": {
+      "detected": true,
+      "x_m": 0.6161494663749587,
+      "bracket_x_m": [
+        0.6145859934642542,
+        0.6187526667972851
+      ],
+      "bracket_Mach": [
+        1.189081898569221,
+        0.6851764588694396
+      ],
+      "bracket_static_p_Pa": [
+        90877.3840565035,
+        108762.89224485299
+      ],
+      "description": "Centerline compression crossing consistent with a numerically smeared shock; two central cellrows averaged; no exact normalshock jump validation"
+    },
+    "6000": {
+      "detected": true,
+      "x_m": 0.6122715515222849,
+      "bracket_x_m": [
+        0.6104193185376154,
+        0.6145859934642542
+      ],
+      "bracket_Mach": [
+        1.213961367515179,
+        0.732646396518715
+      ],
+      "bracket_static_p_Pa": [
+        102493.431956592,
+        164211.60634483502
+      ],
+      "description": "Centerline compression crossing consistent with a numerically smeared shock; two central cellrows averaged; no exact normalshock jump validation"
+    }
+  },
+  "centerline_compression_location_range_m": 0.005927507924246123,
+  "compression_crossing_detected_all_three_saved_states": true,
+  "shock_location_check_applicable": true,
+  "shock_detection_is_observation_not_convergence_requirement": true,
+  "check_results": {
+    "actual_fixedcap_saved_execution_present": true,
+    "native_mesh_check_passed": true,
+    "shared_geometry_and_prepared_inputs_unchanged": true,
+    "actual_cellcentre_bijection_passed": true,
+    "expected_inviscid_gas_LTS_settings_match": true,
+    "finite_positive_gas_fields": true,
+    "gas_EOS_max_relative_error_le_1e_5": true,
+    "final_native_relative_mass_imbalance_le_1e_4": false,
+    "last100_phi_history_max_relative_imbalance_le_1e_4": false,
+    "last_three_saved_states_relative_L2_U_p_T_le_1e_3": false,
+    "compression_crossing_location_stable_if_detected": true
+  },
+  "failed_checks": [
+    "final_native_relative_mass_imbalance_le_1e_4",
+    "last100_phi_history_max_relative_imbalance_le_1e_4",
+    "last_three_saved_states_relative_L2_U_p_T_le_1e_3"
+  ],
+  "all_declared_checks_passed": false,
+  "physical_validation": false,
+  "benchmark_validation": false,
+  "mesh_independence_established": false,
+  "limitation": "Bounded steadyseeking Euler calculation onone modestmesh. LTSindices andtracers are not physical transient CFD. A centerline compression crossing does not validate exact shock position/jump."
+}

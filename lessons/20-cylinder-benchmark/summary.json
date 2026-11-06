@@ -1,0 +1,113 @@
+{
+  "native_window_s": [
+    2.05,
+    4.0
+  ],
+  "D_m": 0.1,
+  "mean_inlet_U_m_s": 1.0,
+  "method": "Rising Cl zero crossings estimated linearly between adjacent saved force samples; no phase alignment.",
+  "sources": {
+    "fluent": {
+      "file": "fluent-force-history.csv",
+      "sha256": "f4c499c24b07527f1fc62a6401e469c10f06077d3801c792ea0b5530d7bc8702"
+    },
+    "openfoam": {
+      "file": "openfoam-force-history.csv",
+      "sha256": "28dd1e38f8b4f6721dcc01417d5201b93117941d7287c21e89071ae6ea077b2c"
+    }
+  },
+  "actual": {
+    "fluent": {
+      "actual_rows": 79,
+      "native_sample_spacing_s": 0.025,
+      "sampled_extrema": {
+        "Cd": [
+          3.0689549,
+          3.2208121
+        ],
+        "Cl": [
+          -0.98629747,
+          0.95581623
+        ]
+      },
+      "rising_zero_crossings_s": [
+        2.246192416133552,
+        2.57693722100854,
+        2.909229812179466,
+        3.242507163986718,
+        3.576622569385877,
+        3.9108978292260317
+      ],
+      "cycle_periods_s": [
+        0.33074480487498814,
+        0.33229259117092624,
+        0.3332773518072516,
+        0.3341154053991593,
+        0.3342752598401546
+      ],
+      "St_per_cycle": [
+        0.3023479084963922,
+        0.3009396015951542,
+        0.30005039183650933,
+        0.29929778269437324,
+        0.29915465490272447
+      ],
+      "St_from_mean_period": 0.30035344155646315
+    },
+    "openfoam": {
+      "actual_rows": 391,
+      "native_sample_spacing_s": 0.005,
+      "sampled_extrema": {
+        "Cd": [
+          3.06557288955513,
+          3.21852770695978
+        ],
+        "Cl": [
+          -0.97856198104446,
+          0.965131614730632
+        ]
+      },
+      "rising_zero_crossings_s": [
+        2.2236333342838734,
+        2.5543604117683487,
+        2.8868121522143193,
+        3.2203554116248885,
+        3.554493980287716,
+        3.8889710930233075
+      ],
+      "cycle_periods_s": [
+        0.3307270774844753,
+        0.3324517404459706,
+        0.33354325941056917,
+        0.3341385686628273,
+        0.33447711273559166
+      ],
+      "St_per_cycle": [
+        0.30236411472747987,
+        0.3007955376195476,
+        0.29981118544178637,
+        0.29927703467512023,
+        0.2989741186837237
+      ],
+      "St_from_mean_period": 0.300239394306697
+    }
+  },
+  "reference": {
+    "values": {
+      "Cd": [
+        3.168,
+        3.23
+      ],
+      "Cl": [
+        -1.023,
+        0.987
+      ],
+      "St": 0.3
+    },
+    "source": "https://riemann.mathematik.uni-dortmund.de/papers/HuebnerMahmoodTurek2012.pdf",
+    "locator": "Table 8 reference values"
+  },
+  "reference_extrema_are_acceptance_bounds": false,
+  "matched_periodic_benchmark_established": false,
+  "physical_validation": false
+}

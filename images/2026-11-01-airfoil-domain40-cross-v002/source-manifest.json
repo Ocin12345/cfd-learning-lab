@@ -1,0 +1,13 @@
+{
+  "numerical_checks_passed": false,
+  "diagnostic": true,
+  "failed_checks": [
+    "openfoam.zero_angle_lift_diagnostic"
+  ],
+  "sources": {
+    "comparison.json": "d5f830abea94c20b4436d77a00577700dad476b758e20b27840efae13605fe06",
+    "declared-comparison.json": "72f5796a61440ca9b0926b3df9bd5d083a9e0b35e9c9221121a85581fcc9ab80",
+    "openfoam-force-history.csv": "7768bc19810dd8fb52691ec4e23d9769022b942bde5520db6af1f515aeb38d8d",
+    "openfoam-initial-residuals.csv": "c337d706bb5e1281ade73a3dcec20db05a87f0a0b87376e7e95320e5dfecc96a"
+  }
+}

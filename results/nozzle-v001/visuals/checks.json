@@ -1,0 +1,529 @@
+{
+  "model": "Planar converging-diverging inviscid ideal-gas nozzle",
+  "solvers": [
+    "fluent",
+    "openfoam"
+  ],
+  "paired": true,
+  "actual_native_fields": true,
+  "native_cell_to_source_quad_bijective": true,
+  "common_cells": 9600,
+  "common_nodes": 9881,
+  "input_hashes_stable_after_loading": true,
+  "gamma": 1.4,
+  "R_J_kg_K": 287.05,
+  "inlet_total_pressure_Pa": 200000.0,
+  "inlet_total_temperature_K": 300.0,
+  "outlet_back_pressure_Pa": 140000.0,
+  "Mach_shared_limits": [
+    0.0,
+    2.0
+  ],
+  "absolute_static_pressure_shared_limits_kPa": [
+    30,
+    200
+  ],
+  "animation": {
+    "frames": 48,
+    "frame_delay_ms": 50,
+    "playback_fps": 20,
+    "playback_duration_s": 2.4,
+    "actual_saved_field": true,
+    "fixed_snapshot": true,
+    "solver_transient_time": false,
+    "native_velocity_RK4": true,
+    "shared_Mach_limits": [
+      0.0,
+      2.0
+    ],
+    "distinct_decoded_RGB_frames": 48,
+    "interpolation": "Bilinear in axial and normalized-height coordinates between actual mapped cell-centre velocities; no appended wall or boundary velocity",
+    "loops": "Fixed phase offsets and recycling along actual integrated trajectories; not flow unsteadiness"
+  },
+  "numerical_analysis": {
+    "fluent": {
+      "path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\fluent-checks-v002\\fluent-checks.json",
+      "source_manifest_path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\fluent-checks-v002\\source-manifest.json",
+      "native_source_hashes": {
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\status.json": "eced6d84f9e55c056842b0c75c3602279e231d3bdcb54ab7960f553b1471b460",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\summary.json": "8f46a8163bc345a3f77a29fe2de167c373d66daee0eb198c6acc259574b277ff",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\final-settings.json": "59b9f2a744ce615015c54c4b03de560af4d7dd8fa2f6e2b11ada5627d32ffdc9",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\geometry-quality.json": "8153d0b5193ed74b096b09bb06b25b75e2c808da83f7f266022f99db6369d117",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\declared-targets.json": "e1075f87129887a93ce2a79844af138b23a32da99b18c4730d86f7742779f1bd",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\code-provenance.json": "35f75b625b1d982cc0edf60372df32281eca46c5ca1996fc50b827deb2b8fa70",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\gas-constant-readback.json": "657d71fac6db87522a24d3df4c95db262b6f5cddc5057843e89c43395466ac45",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\authorization.json": "0c525a1471dd4f9dfc9600eeb6fabee0ddde042a4e8786c01295f6de6fe78637",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\executed-script.py": "5329d72e58419adbdf962c01b23bcadbfb67cceb5b91168604b5a2efbc277503",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\nozzle.msh": "57c661f58ffe3366f6c31b2667855bcf18d404f36eb0899f7e1a7b67da40319a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\setup.json": "9c72d7926ad7b3ebce2c9e4c1c27ed672aa2cd402982cbb6283693bcb156c170",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\geometry.npz": "216639f1dfb24f22120c0bc271f8416c396fb14af4562e1bd1308cd38d170720",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-final.dat.h5": "3db14a534ccdcf445b5ceef1d5cab9496dbab7f21bd05584407b4db998ea3093",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\checkpoints.json": "be98710d43d283012f18949846f0bdb53a92a5bbd4d4bec47d918d9cc89430e7",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0300.cas.h5": "3d6cfdd13a55c4918c7e26ffa0b2611ff2e1c7ebcc85b051539f97dc0a83cbbe",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0300.dat.h5": "d3d6a66849d47c0ccdc59b15ee7d1c7b6ced05775a500e023479b36d720421fa",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0600.cas.h5": "f4f64c6e076b875a0977ed247129cf78e09d02b954f30052a1d4c12f2541436b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0600.dat.h5": "a65c550be04170050a501160943efc5474858c0a221267ee00673d44cfd1a6ac",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0900.cas.h5": "6aa6d51d3bdcb1343071a7ce333c57993fbbe87101f16fb7955457f61810240b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0900.dat.h5": "bcc15b0c35e36592a17df598de3f82eac48698ed41b383698c528b612fb91152",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1200.cas.h5": "00a16b2824c1fdc3ac6d39de931a59730b01e415b934090f0495595b7d84083f",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1200.dat.h5": "b9b7317598f28114a66c57efda73d366943522ce309887abcc376d68acdf7bcf",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1500.cas.h5": "fa7954a3d762c82d22ab84c5e23cd3a3d5bffc159af728ad4e200f32bf3a3ba9",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1500.dat.h5": "90366263c147ff7a8ef5ed04b1f73ab5ae81f445b69a87d91bc78e32ca732481",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1800.cas.h5": "f9bdee506df4e67bec2bad178d7fdfeac6d7e73ad7ee4960df2a8cb08c5a365e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1800.dat.h5": "c7c5cb320b7c3447d785caf3c78410bcd08ca481e83b5a22e89eb9ddddff787a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter2000.cas.h5": "37d66fe4e0732162c5a4643539aa887cc0ed5f6c0368917a207bee9eafd387ae",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter2000.dat.h5": "23d2a04cc6e1bee4043a77833434970ec34ff761371528feda64d6284f7a8e07",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\initialized-settings.json": "6afad9ce2be337150222ee10ae46feb824bcfeec6fe0f3f2bbe6a400589b4a3d",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\order-control-stage2-settings.json": "59b9f2a744ce615015c54c4b03de560af4d7dd8fa2f6e2b11ada5627d32ffdc9",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\massflow-history.out": "61eeb88fc3de33cc5019dce819683237f0783e3c79bcf2d4a0c2b2a66c7e7174",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\mass-balance.txt": "09866fccd064a7b888bafdb2e75c104ee74347abbc0c629108742b162ad74528",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-final.cas.h5": "118761b89b8d270da2b7ff5b0d75d1553a03c51591cdfdb948e34d1706c84aba"
+      },
+      "all_declared_checks_passed": false,
+      "failed_checks": [
+        "final_residual_targets"
+      ],
+      "short_note": "ANSYS Fluent: 1 numerical check missed"
+    },
+    "openfoam": {
+      "path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\openfoam-checks-v002\\openfoam-checks.json",
+      "source_manifest_path": "E:\\CFD-Learning-Lab\\local\\nozzle-v001\\openfoam-checks-v002\\source-manifest.json",
+      "native_source_hashes": {
+        "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_nozzle_openfoam_v002.py": "efd0fb408d51a0c12db132aa35f2d107636e78bec627e315a75d7994897984de",
+        "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_nozzle_v002.py": "35693407c1ab6dfba2c6c0bb79ae7b35bca070622ab46ac3245783831a557270",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\declared-comparison.json": "8d1a402a28cb854da1668312e5cb6b1b3f2ecf1d5cc1c88ab245a68f8373b4e2",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\run-status.json": "073b64fa9c4353c3e0c44a5be7114f3867a4e98d1097700c196aa99cf5361de4",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\setup.json": "9c72d7926ad7b3ebce2c9e4c1c27ed672aa2cd402982cbb6283693bcb156c170",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\geometry.npz": "216639f1dfb24f22120c0bc271f8416c396fb14af4562e1bd1308cd38d170720",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\nozzle.msh": "57c661f58ffe3366f6c31b2667855bcf18d404f36eb0899f7e1a7b67da40319a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\input-nozzle.msh": "57c661f58ffe3366f6c31b2667855bcf18d404f36eb0899f7e1a7b67da40319a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\solver.log": "64459b2129a2973e347075b5b57ca6097b892f6cc0eb80e79567d190e10ec7a8",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\mesh-check.log": "e0aa32677d8848f034faefe31404e7f20575967966ce92b030aac3e458dbbf0e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\reconstruction.log": "9dcd36a1aacfe2eace02fab1ee449f7719554f4feb44aec5cf396bc99d1a6801",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\cell-centres.log": "e87578051b77b03e38dd0e3e2b6fdc7e6032f6fea47f7df85c5e74032abc5cf7",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\C": "eaa1da6fccc515739082fcfb8574f23df124d4b8e091a99b07d8d72108ff19b0",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\points": "8cc9e3052fa481837691bf4888c9c0efcb70c1e8c8d20e5a580f4e52ba2f004e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\faces": "3c0c70ad8ef7758fe715da1a5fc8354b1762b8286fc7b1a650cb9aa406edcdeb",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\owner": "c3aa0974cb3fc272bcf0e894969bd952c95c21a9fb7428332709072d7ac25fa8",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\neighbour": "d8cb6334c0cae7dabfc0f495184c47fd14a4741dfb294d6e6767bb9214096513",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\0\\polyMesh\\boundary": "e2c9513a44a0a08bbf5861b0f2ecb0cf057007133b84bd7b20d880d5d9a9f611",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\system\\controlDict": "1eb36c385efaa52427bd0f44ba6ee15d3a17b7971b6bba2950a266c3d4d6275b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\system\\decomposeParDict": "ddb5382347794fb453c78e81b977665ce8b4658f6b620ac06d9454b4ebd9a930",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\system\\fvSchemes": "06a4619259adb0d1c19f4825b1918c295e5546436cb966e3dacc1fd5e13e7e76",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\system\\fvSolution": "34efd46bea9a576b2562872f97ccc0d0355af722c5282d1c60a0d791c020b4f5",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\constant\\physicalProperties": "1f401f407ae286938fd67d8997c1b1520f599a3cd37726327fbae5727fecdcfa",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-source-sha256.txt": "4b3f24b9b30c923507b007d40d7f3160bdfce90c9be24eaefa466c2e7976e6d5",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\applications\\modules\\shockFluid\\fluxPredictor.C": "bd6c1b655f7ee0112b7e23aa8c24fa81f8698326208dd119b584d8a1fb47999d",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\applications\\modules\\shockFluid\\setRDeltaT.C": "3296ed9951f86453c35ce5d1ab1cfccd369cc6c6560e83f2dbd81a8b930f1663",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\applications\\modules\\shockFluid\\shockFluid.C": "a1b89a5d779d314073a646d3824de706032ae3d16beb163809119a884c9ea37c",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\applications\\modules\\shockFluid\\thermophysicalPredictor.C": "64e3ed56492589cd43b7489126b5eaac25f1ddd41a70444600329354e365c694",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\src\\finiteVolume\\fields\\fvPatchFields\\derived\\dynamicPressure\\dynamicPressureFvPatchScalarField.C": "d6cd19cc4453112b3e96592f6733b9207fe100a23d5162f932a8e43d8815a123",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\src\\finiteVolume\\fields\\fvPatchFields\\derived\\totalPressure\\totalPressureFvPatchScalarField.C": "6064940874aee1d845e4b4168b67a518a97b03923fd9885d6a6748b9f556d1cf",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\src\\finiteVolume\\fields\\fvPatchFields\\derived\\totalTemperature\\totalTemperatureFvPatchScalarField.C": "9766f5ff2e25f750d3ea982c39321272915d1c41e5040f98da3434132f3ce3cd",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\src\\finiteVolume\\interpolation\\surfaceInterpolation\\limitedSchemes\\upwind\\upwind.H": "2b2233282c81110642207b090fc7a489679c4ae10fc573f82d7d354e164b2a00",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\installed-sources\\tutorials\\shockFluid\\forwardStep\\system\\fvSchemes": "1188751d12399baafa5163db03e6a874859f19e3610b80285ded31aa99335377",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\Launch-OpenFOAM-order-control-v002.ps1": "be975bc3f3792f6d6a95d10314be67445cfb00a61cd0da5fffc7177f53b285be",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\preflight-validation.json": "6f3b90a7e40baacac224cddeeb9ece56898a5c3ded43eca677ab019f605dae57",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\prepare_openfoam_nozzle_v002.py": "35693407c1ab6dfba2c6c0bb79ae7b35bca070622ab46ac3245783831a557270",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\prepared-input-sha256.json": "43a6e132fb35a3a593a902c59abde0d193b86a440bff5c1926e982e538b5f9db",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\root-run-authorization.json": "cdf9c41d35f2525e7642f5ff2bceaba38b92a4893c6e23a1c9b4ab6e7e11e2b4",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\run-openfoam-executed.sh": "064da4895312a68c51e7f900e2142ffd4fc639b6bf4a8cb10b45554ad918b41f",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\run-openfoam-order-control-v002.sh": "064da4895312a68c51e7f900e2142ffd4fc639b6bf4a8cb10b45554ad918b41f",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\provenance\\setup.json": "9c72d7926ad7b3ebce2c9e4c1c27ed672aa2cd402982cbb6283693bcb156c170",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5000\\U": "0030892dd22fd2ab458b4dba6d29e1c5a708e3fd0edd589a87f6b061309c1868",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5000\\p": "319399c020bc68d9c42072bf4eafbdc9cf7c90941c801cdc966cacac34e6cfd3",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5000\\T": "55e47b4cac044d7d7d76519868acdd618037dee5cc53dba5cdea271b501472be",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5000\\rho": "bcc7610a709685169776f7f9ebf88104fe2c858328653903d394209d6840fc0a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5000\\phi": "2dcc8351e809de8b952aa690e62eb5262a78dc9830e8060c860ea0c8d263c8fb",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5500\\U": "387e55d499e8c515dca1ab80c7a4716789e8ac0d34de727fb451675bb44b71d1",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5500\\p": "05951aaa5d528942f97534f4ba1a075a6b60c2314459f021541058f56cd99649",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5500\\T": "c44e7b68acfa2fff8582b011cbcc4f34278f2d96363864f4e9314587a5323abb",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5500\\rho": "fd8e77bce55f69f000fcc1217aab890f87d2cbfc8148ae89b5dbaa9d491d8caf",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\5500\\phi": "30ec854f6f8c93d09a642806ec8f026fb58496939a9c71c767202c84d6a2d398",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\U": "f514193fcbe7d857c3b9374fd3c694c36846a92730e47a30b0e97e2c3eda3468",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\p": "ad60de9960b45dda72f978d2b10277df30506a135cc038a15256a9858ff2a29d",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\T": "117c42d9df0c26149f38b41b0d0f5e11d2d708f8bca3adc71b1b98cb7354f7dd",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\rho": "4283f423bca19fee5c17306bf8a751bbb462f376c62c4ec4b22d10d7db00db62",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\6000\\phi": "3f12d2bd10a76964f13b1d6f7eec68cb35ebd79a25d95d491b679aa48106a141",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\postProcessing\\flux_inlet\\0\\surfaceFieldValue.dat": "086e787ab500eafc4647cba01393afb0be1d37586161ca8e2b98c45e578858fc",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\postProcessing\\flux_outlet\\0\\surfaceFieldValue.dat": "cc6170b634c9943c22d864d205e7c073e030722b54881dd4f5f67d8a7ae06de9",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\postProcessing\\flux_upper_wall\\0\\surfaceFieldValue.dat": "cd654c63b0385c8e91c8c7793d7d679ac3cdf9b06599fe4246cd640680550424",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\postProcessing\\flux_lower_wall\\0\\surfaceFieldValue.dat": "f5b34c6b96eb13c1c3f8b07f1d95492df5481e8d0a46409ece8361429d104e73"
+      },
+      "all_declared_checks_passed": false,
+      "failed_checks": [
+        "final_native_relative_mass_imbalance_le_1e_4",
+        "last100_phi_history_max_relative_imbalance_le_1e_4",
+        "last_three_saved_states_relative_L2_U_p_T_le_1e_3"
+      ],
+      "short_note": "OpenFOAM: 3 numerical checks missed"
+    }
+  },
+  "native_scheme_settings": {
+    "fluent": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\final-settings.json",
+      "amg_c": "first-order-upwind",
+      "flux_type": "Roe-FDS",
+      "courant_number": 3.0,
+      "short_label": "first order upwind",
+      "first_order": true
+    },
+    "openfoam": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\system\\fvSchemes",
+      "reconstruct": {
+        "rho": "upwind",
+        "U": "upwind",
+        "T": "upwind"
+      },
+      "flux_scheme": "Kurganov",
+      "time_scheme": "localEuler pseudo-time",
+      "short_label": "first-order upwind",
+      "first_order": true
+    }
+  },
+  "native_mapping": {
+    "fluent": {
+      "native_cell_to_common_quad_bijective": true,
+      "vertex_set_mapping": true,
+      "maximum_native_node_error_m": 0.0,
+      "projected_single_layer": "native planar2D quads"
+    },
+    "openfoam": {
+      "native_cell_to_common_quad_bijective": true,
+      "vertex_set_mapping": true,
+      "maximum_native_node_error_m": 4.469295454798209e-16,
+      "projected_single_layer": "one native hexahedron layer projected to source quads",
+      "maximum_saved_C_centroid_error_m": 2.646007898324097e-13
+    }
+  },
+  "native_solve_evidence": {
+    "fluent": {
+      "actual_terminal_iteration": 2000,
+      "terminal_scaled_residuals": {
+        "continuity": 0.0004769478834009375,
+        "energy": 0.0004222352198547506,
+        "x-velocity": 0.0008498024235996194,
+        "y-velocity": 0.001005544188260254
+      },
+      "operating_pressure_Pa": 0.0,
+      "initialized_only_data_refused": true
+    },
+    "openfoam": {
+      "saved_pseudo_iteration": 6000.0,
+      "solver_time_is_physical": false,
+      "native_solver_log": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\openfoam-order-control-v002\\solver.log",
+      "initialized_only_data_refused": true
+    }
+  },
+  "actual_field_ranges": {
+    "fluent": {
+      "Mach": [
+        0.22562032904889687,
+        1.841997059550329
+      ],
+      "p": [
+        32188.475834992085,
+        193034.67062940288
+      ],
+      "T": [
+        178.72052201936873,
+        296.9765094791604
+      ],
+      "speed": [
+        77.94388897779284,
+        493.64976904784885
+      ]
+    },
+    "openfoam": {
+      "Mach": [
+        0.2304154844827471,
+        1.8339109772953222
+      ],
+      "p": [
+        32376.725781678,
+        193114.85890229
+      ],
+      "T": [
+        178.96645832564,
+        297.01964012164
+      ],
+      "speed": [
+        79.59281253077052,
+        492.72542071840564
+      ]
+    }
+  },
+  "centreline_shock_candidates": {
+    "fluent": [
+      {
+        "x_left_m": 0.6979192007510611,
+        "x_right_m": 0.7020858490575844,
+        "upstream_Mach": 1.8395191294147901,
+        "downstream_Mach": 0.5140557643505874,
+        "pressure_jump_Pa": 104916.57975777588,
+        "description": "Adjacent centreline M1 crossing and positive pressure jump; candidate only, not shock validation"
+      }
+    ],
+    "openfoam": [
+      {
+        "x_left_m": 0.6979192007510611,
+        "x_right_m": 0.7020858490575844,
+        "upstream_Mach": 1.1286522688257665,
+        "downstream_Mach": 0.7231842294074478,
+        "pressure_jump_Pa": 39655.07646481,
+        "description": "Adjacent centreline M1 crossing and positive pressure jump; candidate only, not shock validation"
+      }
+    ]
+  },
+  "tracer_diagnostics": {
+    "fluent": [
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.08399325397957848
+        ],
+        "samples": 800,
+        "integration_time_s": 0.005970344069088715,
+        "x_endpoint_m": 0.9973414207139827,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.06872175325601876
+        ],
+        "samples": 795,
+        "integration_time_s": 0.005929659226244581,
+        "x_endpoint_m": 0.9969509553141148,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.05345025253245903
+        ],
+        "samples": 794,
+        "integration_time_s": 0.005951810169993475,
+        "x_endpoint_m": 0.997489408629488,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.03817875180889931
+        ],
+        "samples": 786,
+        "integration_time_s": 0.005662330566916686,
+        "x_endpoint_m": 0.996543852783158,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.02290725108533959
+        ],
+        "samples": 785,
+        "integration_time_s": 0.0057246571290652925,
+        "x_endpoint_m": 0.9978547031522716,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.007635750361779867
+        ],
+        "samples": 784,
+        "integration_time_s": 0.00576226093301044,
+        "x_endpoint_m": 0.9977972889583836,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.007635750361779855
+        ],
+        "samples": 784,
+        "integration_time_s": 0.005762258460183073,
+        "x_endpoint_m": 0.997797289617241,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.02290725108533957
+        ],
+        "samples": 785,
+        "integration_time_s": 0.005724661410424893,
+        "x_endpoint_m": 0.9978546900861458,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.0381787518088993
+        ],
+        "samples": 786,
+        "integration_time_s": 0.005662364361055411,
+        "x_endpoint_m": 0.9965438657885665,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.05345025253245903
+        ],
+        "samples": 794,
+        "integration_time_s": 0.00595179803674728,
+        "x_endpoint_m": 0.9974914632803649,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.06872175325601874
+        ],
+        "samples": 795,
+        "integration_time_s": 0.005929657286995802,
+        "x_endpoint_m": 0.9969508015751295,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.08399325397957848
+        ],
+        "samples": 800,
+        "integration_time_s": 0.005970338179196949,
+        "x_endpoint_m": 0.9973415631281284,
+        "stop": "RK4 stage reached interpolation envelope"
+      }
+    ],
+    "openfoam": [
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.08399325397957848
+        ],
+        "samples": 796,
+        "integration_time_s": 0.005913255814862023,
+        "x_endpoint_m": 0.9975783942176816,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.06872175325601876
+        ],
+        "samples": 793,
+        "integration_time_s": 0.005879951805892322,
+        "x_endpoint_m": 0.9972330578151063,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.05345025253245903
+        ],
+        "samples": 790,
+        "integration_time_s": 0.005844253035424014,
+        "x_endpoint_m": 0.9966379623452334,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.03817875180889931
+        ],
+        "samples": 788,
+        "integration_time_s": 0.005819244884693751,
+        "x_endpoint_m": 0.9968428674762859,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.02290725108533959
+        ],
+        "samples": 787,
+        "integration_time_s": 0.005805867379395664,
+        "x_endpoint_m": 0.9975847303184514,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          -0.007635750361779867
+        ],
+        "samples": 786,
+        "integration_time_s": 0.005793873949108277,
+        "x_endpoint_m": 0.9972745774180298,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.007635750361779855
+        ],
+        "samples": 786,
+        "integration_time_s": 0.005793873949108273,
+        "x_endpoint_m": 0.9972745774180298,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.02290725108533957
+        ],
+        "samples": 787,
+        "integration_time_s": 0.005805867379395664,
+        "x_endpoint_m": 0.997584730318451,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.0381787518088993
+        ],
+        "samples": 788,
+        "integration_time_s": 0.005819244884693747,
+        "x_endpoint_m": 0.9968428674762853,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.05345025253245903
+        ],
+        "samples": 790,
+        "integration_time_s": 0.005844253035424014,
+        "x_endpoint_m": 0.9966379623452333,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.06872175325601874
+        ],
+        "samples": 793,
+        "integration_time_s": 0.005879951805892322,
+        "x_endpoint_m": 0.9972330578151061,
+        "stop": "RK4 stage reached interpolation envelope"
+      },
+      {
+        "seed": [
+          0.0020832785567159308,
+          0.08399325397957848
+        ],
+        "samples": 796,
+        "integration_time_s": 0.005913255814862024,
+        "x_endpoint_m": 0.9975783942176816,
+        "stop": "RK4 stage reached interpolation envelope"
+      }
+    ]
+  },
+  "imposed_shock": false,
+  "synthetic_flow": false,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "quantitative_acceptance": "Separate native numerical checks; visual appearance is not convergence evidence"
+}

@@ -1,0 +1,38 @@
+FoamFile
+{
+ version 2.0;
+ format ascii;
+ class dictionary;
+ object controlDict;
+}
+
+solver solid;
+startFrom startTime;
+startTime 0;
+stopAt endTime;
+endTime 200;
+deltaT 2;
+adjustTimeStep false;
+writeControl timeStep;
+writeInterval 1;
+purgeWrite 0;
+writeFormat ascii;
+writePrecision 14;
+writeCompression off;
+timeFormat general;
+timePrecision 8;
+runTimeModifiable false;
+functions
+{
+ wallHeatRates
+ {
+  type wallHeatFlux;
+  libs ("libfieldFunctionObjects.so");
+  patches (hot cold insulated_bottom insulated_top);
+  log false;
+  executeControl timeStep;
+  executeInterval 1;
+  writeControl timeStep;
+  writeInterval 1;
+ }
+}

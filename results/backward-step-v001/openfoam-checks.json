@@ -1,0 +1,170 @@
+{
+  "solver": "OpenFOAM Foundation14 incompressibleFluid",
+  "mesh_cells": 8800,
+  "mesh_check": {
+    "minimum_volume_m3": 4.9999999999998e-05,
+    "maximum_nonorthogonality_degrees": 0.0
+  },
+  "residuals": {
+    "final_iteration": 2000,
+    "final_initial_residuals": {
+      "Ux": 2.3399373362074e-13,
+      "Uy": 6.7981510591277e-13,
+      "p": 8.6641284538316e-11
+    },
+    "maximum_initial_residuals_last100": {
+      "Ux": 5.3821753471977e-13,
+      "Uy": 1.7385669948951e-12,
+      "p": 8.8498964416775e-11
+    },
+    "definition": "Maximum printed initial residual per variable within each steady iteration",
+    "cross_solver_residual_norm_equivalence": false
+  },
+  "boundary_mass_balance": {
+    "1900": {
+      "signed_volume_flux_m3_s": {
+        "inlet": -0.10000000000000002,
+        "outlet": 0.10000000000026531,
+        "walls": 0.0
+      },
+      "net_outward_volume_flux_m3_s": 2.6528779173418116e-13,
+      "relative_imbalance": 2.652877917341811e-12,
+      "definition": "abs(sum outward inlet,outlet,walls phi)/abs(inlet phi sum); empty planes excluded"
+    },
+    "2000": {
+      "signed_volume_flux_m3_s": {
+        "inlet": -0.10000000000000002,
+        "outlet": 0.10000000000069316,
+        "walls": 0.0
+      },
+      "net_outward_volume_flux_m3_s": 6.931399898491009e-13,
+      "relative_imbalance": 6.931399898491007e-12,
+      "definition": "abs(sum outward inlet,outlet,walls phi)/abs(inlet phi sum); empty planes excluded"
+    }
+  },
+  "final100_endpoint_stability": {
+    "iterations": [
+      1900,
+      2000
+    ],
+    "maximum_all_fluid_component_change_over_Uin": 1.8789969580268462e-11,
+    "maximum_component_changes_over_Uin": {
+      "Ux": 1.8789969580268462e-11,
+      "Uy": 3.323839982546581e-12,
+      "Uz": 1.859996936447354e-31
+    },
+    "downstream_pressure_drop_interval_m": [
+      0.8049999999999999,
+      1.7950000000000002
+    ],
+    "pressure_drop_Pa": {
+      "1900": 0.12232561834563699,
+      "2000": 0.12232561834563699
+    },
+    "pressure_drop_absolute_change_Pa": 0.0,
+    "pressure_drop_relative_change": 0.0,
+    "pressure_drop_change_over_rho_Uin_squared": 0.0,
+    "limitation": "Two saved endpoints only; does not establish every-iteration stability"
+  },
+  "native_mapping_checks": {
+    "1900": {
+      "cells": 8800,
+      "native_centres_bijective": true,
+      "solid_slots_masked": 800,
+      "centre_tolerance_m": 1e-09,
+      "maximum_centre_mapping_error_m": 2.220446049250313e-16,
+      "finite_native_fields": true,
+      "topology": "Native 2000/C mapped onto unchanged static 0/polyMesh for both endpoints",
+      "min_u_m_s": -0.16276282788354,
+      "max_u_m_s": 1.4626141225321,
+      "min_u_native_centre_m": [
+        0.215,
+        0.0275
+      ],
+      "negative_u_cell_count": 466,
+      "downstream_below_step_negative_cell_count": 466,
+      "speed_range_m_s": [
+        6.874499995642869e-05,
+        1.46308952310214
+      ],
+      "pressure_range_Pa": [
+        -0.11654859593405,
+        1.1927045001211
+      ],
+      "near_bottom_first_cell_zero_u_proxy": {
+        "status": "first negative-to-nonnegative crossing after first negative cell",
+        "first_cell_y_m": 0.0025,
+        "first_cell_y_over_h": 0.024999999999999998,
+        "negative_first_cell_count": 47,
+        "x_m": 0.4837862863897549,
+        "x_over_h": 4.8378628638975485,
+        "first_negative_x_m": 0.014999999999999986,
+        "bracket_x_m": [
+          0.475,
+          0.485
+        ],
+        "bracket_u_m_s": [
+          -0.0023818765523982,
+          0.00032902592304983
+        ]
+      }
+    },
+    "2000": {
+      "cells": 8800,
+      "native_centres_bijective": true,
+      "solid_slots_masked": 800,
+      "centre_tolerance_m": 1e-09,
+      "maximum_centre_mapping_error_m": 2.220446049250313e-16,
+      "finite_native_fields": true,
+      "topology": "Native 2000/C mapped onto unchanged static 0/polyMesh for both endpoints",
+      "min_u_m_s": -0.16276282788266,
+      "max_u_m_s": 1.4626141225321,
+      "min_u_native_centre_m": [
+        0.215,
+        0.0275
+      ],
+      "negative_u_cell_count": 466,
+      "downstream_below_step_negative_cell_count": 466,
+      "speed_range_m_s": [
+        6.874499996267482e-05,
+        1.46308952310214
+      ],
+      "pressure_range_Pa": [
+        -0.11654859593405,
+        1.1927045001211
+      ],
+      "near_bottom_first_cell_zero_u_proxy": {
+        "status": "first negative-to-nonnegative crossing after first negative cell",
+        "first_cell_y_m": 0.0025,
+        "first_cell_y_over_h": 0.024999999999999998,
+        "negative_first_cell_count": 47,
+        "x_m": 0.4837862863890935,
+        "x_over_h": 4.837862863890934,
+        "first_negative_x_m": 0.014999999999999986,
+        "bracket_x_m": [
+          0.475,
+          0.485
+        ],
+        "bracket_u_m_s": [
+          -0.0023818765522247,
+          0.00032902592322994
+        ]
+      }
+    }
+  },
+  "check_results": {
+    "full_mesh_check_passed": true,
+    "shared_source_mesh_hash_matches": true,
+    "actual_dictionaries_match_declared_settings": true,
+    "native_centres_bijective_8800_and_800_solid_masked": true,
+    "residual_initial_final_le_1e_6": true,
+    "residual_initial_last100_le_1e_6": true,
+    "relative_mass_imbalance_le_1e_5": true,
+    "maximum_all_fluid_component_endpoint_change_le_0p1percent": true,
+    "pressure_drop_endpoint_change_le_0p1percent": true
+  },
+  "all_declared_checks_passed": true,
+  "mesh_independence_established": false,
+  "experimental_validation": false,
+  "interpretation": "Bounded numerical checks on one teaching mesh; no benchmark validation claimed"
+}

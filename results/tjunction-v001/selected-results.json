@@ -1,0 +1,47 @@
+{
+  "selected_runs": {
+    "fluent": "fluent",
+    "openfoam": "openfoam"
+  },
+  "selection_reason": "Both original fixed2000 calculations completed and passed their independent declared native numerical checks. Selected actual fields, unchanged source hashes and raw outlet gauge pressure0 are bound to the paired visualization; no additional iterations or changed targets were needed.",
+  "numerical_outcomes": {
+    "fluent": {
+      "aggregate": true,
+      "failed_checks": []
+    },
+    "openfoam": {
+      "aggregate": true,
+      "failed_checks": []
+    }
+  },
+  "metrics": {
+    "fluent": {
+      "residuals": {
+        "continuity": 1.8000808383934613e-14,
+        "x-velocity": 6.614958796638744e-17,
+        "y-velocity": 5.339744320163698e-17
+      },
+      "max_div": 1.7347234759768175e-14,
+      "rms_div": 3.589591977262608e-15,
+      "mass_imbalance": 1.6263032587282564e-16,
+      "U_change": 2.5904584844117e-16
+    },
+    "openfoam": {
+      "residuals": {
+        "p": 6.9621972978725e-11,
+        "Ux": 2.5162252458652e-16,
+        "Uy": 1.5850248017078e-16
+      },
+      "max_div": 1.16918329401762e-09,
+      "rms_div": 1.9324735774421951e-10,
+      "mass_imbalance": 1.1460694589529585e-11,
+      "U_change": 2.8628525205666777e-15
+    }
+  },
+  "preserved_evidence": [],
+  "artifact_integrity": "Verified separately from numerical outcomes",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "scalar_mixing_simulated": false,
+  "owner_reflection_provided": false
+}

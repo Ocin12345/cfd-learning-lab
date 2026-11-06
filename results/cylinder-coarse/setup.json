@@ -1,0 +1,11 @@
+{
+  "diameter_m": 1,
+  "outer_radius_m": 20,
+  "density_kg_m3": 1,
+  "viscosity_Pa_s": 0.05,
+  "inlet_velocity_m_s": 1,
+  "reynolds_number": 20,
+  "cells": 24576,
+  "radial_layers": 96,
+  "circumferential_cells": 256
+}

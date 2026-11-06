@@ -1,0 +1,149 @@
+{
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\status.json",
+      "sha256": "9990ec973c4f613d2f9ad099388e0b533b01b213d160812427c12aeb1bba09c6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\summary.json",
+      "sha256": "93275cb9084a2ef3394c09c5bb6808ac53a22e037c8ee47bdeda2aae2ee2cf77"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\code-provenance.json",
+      "sha256": "8a51f35523b10727374cf2b2901163b6cba404a6fd83f71af1f68b5e2aa31695"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\authorization.json",
+      "sha256": "d7ff5e87541a2a9bf729e2204bd39aa1af3f7a968234a55c33d2ec131862eefa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\declared-targets.json",
+      "sha256": "9bc69929ca542ef0dcf88807050007e771baac7116ddb380c0a2502d3a5a3e88"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\geometry-quality.json",
+      "sha256": "aaa5cf88e247bcc9e9c68edfee5120b94f4a333d6d7221285f68fb3340de0b66"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\final-settings.json",
+      "sha256": "0e10b7d87b322f67540cc274329e51e419618a4c5feb86379b24788ef8c98e6e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\native-physical-readback.json",
+      "sha256": "df81ed1c068faaba1a39298c9aacb523b14c9ac4860bdc4abfe4c14ae5d0ce6b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\executed-script.py",
+      "sha256": "b5d823e50b1caa972defa40602860145f5c9ba79d2667e6c13581256a2fc59b5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\mesh\\cavity.msh",
+      "sha256": "5d76acfc9cf94c23150a1d80488a9aaa2a795ea6be0a6aebfdb20fe7bc6b9795"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\mesh\\setup.json",
+      "sha256": "77a8ba5fd6509e9a77f597f298e5e36d8371060079786e0be9ac5a9c2d49341f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\mesh\\geometry.npz",
+      "sha256": "3b82e075d8d083ee1c653dd9c1b5afac92d1d65857adb31d75216c0de7bc4aec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\driver-helper-source.py",
+      "sha256": "a2ad962d04c4ce302f1f77c895a4a683754acf2e9f9d96a7f21d51b8e163e85e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\cavity-final.cas.h5",
+      "sha256": "0af08bd36464070bb69d7778247d4731443f5bb54ac06a7876b80b6f01601034"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\cavity-final.dat.h5",
+      "sha256": "40f730999292e7a4b099f978f74010de4263dbde9b1bf86bfc9ce8da39954568"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\cavity-final.cas.h5",
+      "sha256": "443fe103c807f758f35e5b69f9b7a54f5db1781c677798f6567c8b7c97b4b8ef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\cavity-final.dat.h5",
+      "sha256": "86709094b0ce30c92c881e813eb87a9ac1c540c5b5fae3e48509a4ca6283b518"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\cavity-iter2300.cas.h5",
+      "sha256": "784db56b970a592ea78ba958d9a2f373565302a2b3ea029c0af159fb99532fac"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\cavity-iter2300.dat.h5",
+      "sha256": "dbfc78f25e23e2d5b3de6088141b73c8f83e04bc45bd5a90bec2037671986f7d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\cavity-iter2500.cas.h5",
+      "sha256": "c99f38072cebf64b5feb6037db5c83dced904b9f784140bb0393d87222f2eabd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\cavity-iter2500.dat.h5",
+      "sha256": "e2b36cab848506359b5958768a674ae07e8015f2c18bc7129e7f4b2053b4587d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\solver-transcript.txt",
+      "sha256": "0db2eb79444d53bff155da3a97a4193c326a2821f8850b8d5d759c445613e241"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\solver-transcript.txt",
+      "sha256": "b7d5f2b41d55b23dfcae1b64c323cd2615cc7503f9010d0d546baface0148c84"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\wall-mass-balance.txt",
+      "sha256": "c8eca9c82ef9a709c16e1b8022f7c1471b1f5f630fd1211ccd585c62f0c8bbef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\field-monitor-history.out",
+      "sha256": "7432d16ca97a7a38590da4be7e23831982355f33eeb00032b2f290cab04ad9bd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\field-monitor-history.out",
+      "sha256": "f78c7a15638ff419c6d375cdf9acae524712cb329f43b51593fa0f5118303b98"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\fluent-20261101-225137-92004.trn",
+      "sha256": "a5d963f67d5e8879ceb72affe5c42ea874c86233b4b5eb660c5fc76e164c5687"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\parent-input-manifest-before.json",
+      "sha256": "219fa6e49d5d26a4c4363949add28c11d86419aaf6c7aee49ce2e7175d9045a3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent-extended-v003\\parent-input-manifest-after.json",
+      "sha256": "53651160db524e70745d5e2f19ec8a4d58444acc43fd68d75454d5937e074ad9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\final-settings.json",
+      "sha256": "1f281dc940e70102d7828dbba9f09d06e2156cdb16400f18e1e531b6cf9395b0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\summary.json",
+      "sha256": "f111140824371a128d2baf0ea7997dee256ec491514487b5b62b46e09e267bd9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\declared-targets.json",
+      "sha256": "03d10e9751c1c9aafb677cfea6c01c887db24824ca81e80677a715bc174a182d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\code-provenance.json",
+      "sha256": "710fc462230175eda6c5ccb1b750cbcf9129eb9f34601e5d3340dc7c700e225f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\executed-script.py",
+      "sha256": "a2ad962d04c4ce302f1f77c895a4a683754acf2e9f9d96a7f21d51b8e163e85e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\authorization.json",
+      "sha256": "74b546beb272b193741ecb09172f7d3f31ddbc769d492bbe768716e6d73e5d46"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\fluent\\native-physical-readback.json",
+      "sha256": "df81ed1c068faaba1a39298c9aacb523b14c9ac4860bdc4abfe4c14ae5d0ce6b"
+    }
+  ],
+  "all_inputs_unchanged": true
+}

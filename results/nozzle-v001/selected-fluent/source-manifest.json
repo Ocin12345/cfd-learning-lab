@@ -1,0 +1,238 @@
+{
+  "source_files": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\status.json",
+      "sha256": "eced6d84f9e55c056842b0c75c3602279e231d3bdcb54ab7960f553b1471b460",
+      "after_sha256": "eced6d84f9e55c056842b0c75c3602279e231d3bdcb54ab7960f553b1471b460",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\summary.json",
+      "sha256": "8f46a8163bc345a3f77a29fe2de167c373d66daee0eb198c6acc259574b277ff",
+      "after_sha256": "8f46a8163bc345a3f77a29fe2de167c373d66daee0eb198c6acc259574b277ff",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\final-settings.json",
+      "sha256": "59b9f2a744ce615015c54c4b03de560af4d7dd8fa2f6e2b11ada5627d32ffdc9",
+      "after_sha256": "59b9f2a744ce615015c54c4b03de560af4d7dd8fa2f6e2b11ada5627d32ffdc9",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\geometry-quality.json",
+      "sha256": "8153d0b5193ed74b096b09bb06b25b75e2c808da83f7f266022f99db6369d117",
+      "after_sha256": "8153d0b5193ed74b096b09bb06b25b75e2c808da83f7f266022f99db6369d117",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\declared-targets.json",
+      "sha256": "e1075f87129887a93ce2a79844af138b23a32da99b18c4730d86f7742779f1bd",
+      "after_sha256": "e1075f87129887a93ce2a79844af138b23a32da99b18c4730d86f7742779f1bd",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\code-provenance.json",
+      "sha256": "35f75b625b1d982cc0edf60372df32281eca46c5ca1996fc50b827deb2b8fa70",
+      "after_sha256": "35f75b625b1d982cc0edf60372df32281eca46c5ca1996fc50b827deb2b8fa70",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\gas-constant-readback.json",
+      "sha256": "657d71fac6db87522a24d3df4c95db262b6f5cddc5057843e89c43395466ac45",
+      "after_sha256": "657d71fac6db87522a24d3df4c95db262b6f5cddc5057843e89c43395466ac45",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\authorization.json",
+      "sha256": "0c525a1471dd4f9dfc9600eeb6fabee0ddde042a4e8786c01295f6de6fe78637",
+      "after_sha256": "0c525a1471dd4f9dfc9600eeb6fabee0ddde042a4e8786c01295f6de6fe78637",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\executed-script.py",
+      "sha256": "5329d72e58419adbdf962c01b23bcadbfb67cceb5b91168604b5a2efbc277503",
+      "after_sha256": "5329d72e58419adbdf962c01b23bcadbfb67cceb5b91168604b5a2efbc277503",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\nozzle.msh",
+      "sha256": "57c661f58ffe3366f6c31b2667855bcf18d404f36eb0899f7e1a7b67da40319a",
+      "after_sha256": "57c661f58ffe3366f6c31b2667855bcf18d404f36eb0899f7e1a7b67da40319a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\setup.json",
+      "sha256": "9c72d7926ad7b3ebce2c9e4c1c27ed672aa2cd402982cbb6283693bcb156c170",
+      "after_sha256": "9c72d7926ad7b3ebce2c9e4c1c27ed672aa2cd402982cbb6283693bcb156c170",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\mesh\\geometry.npz",
+      "sha256": "216639f1dfb24f22120c0bc271f8416c396fb14af4562e1bd1308cd38d170720",
+      "after_sha256": "216639f1dfb24f22120c0bc271f8416c396fb14af4562e1bd1308cd38d170720",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-final.dat.h5",
+      "sha256": "3db14a534ccdcf445b5ceef1d5cab9496dbab7f21bd05584407b4db998ea3093",
+      "after_sha256": "3db14a534ccdcf445b5ceef1d5cab9496dbab7f21bd05584407b4db998ea3093",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\checkpoints.json",
+      "sha256": "be98710d43d283012f18949846f0bdb53a92a5bbd4d4bec47d918d9cc89430e7",
+      "after_sha256": "be98710d43d283012f18949846f0bdb53a92a5bbd4d4bec47d918d9cc89430e7",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0300.cas.h5",
+      "sha256": "3d6cfdd13a55c4918c7e26ffa0b2611ff2e1c7ebcc85b051539f97dc0a83cbbe",
+      "after_sha256": "3d6cfdd13a55c4918c7e26ffa0b2611ff2e1c7ebcc85b051539f97dc0a83cbbe",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0300.dat.h5",
+      "sha256": "d3d6a66849d47c0ccdc59b15ee7d1c7b6ced05775a500e023479b36d720421fa",
+      "after_sha256": "d3d6a66849d47c0ccdc59b15ee7d1c7b6ced05775a500e023479b36d720421fa",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0600.cas.h5",
+      "sha256": "f4f64c6e076b875a0977ed247129cf78e09d02b954f30052a1d4c12f2541436b",
+      "after_sha256": "f4f64c6e076b875a0977ed247129cf78e09d02b954f30052a1d4c12f2541436b",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0600.dat.h5",
+      "sha256": "a65c550be04170050a501160943efc5474858c0a221267ee00673d44cfd1a6ac",
+      "after_sha256": "a65c550be04170050a501160943efc5474858c0a221267ee00673d44cfd1a6ac",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0900.cas.h5",
+      "sha256": "6aa6d51d3bdcb1343071a7ce333c57993fbbe87101f16fb7955457f61810240b",
+      "after_sha256": "6aa6d51d3bdcb1343071a7ce333c57993fbbe87101f16fb7955457f61810240b",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter0900.dat.h5",
+      "sha256": "bcc15b0c35e36592a17df598de3f82eac48698ed41b383698c528b612fb91152",
+      "after_sha256": "bcc15b0c35e36592a17df598de3f82eac48698ed41b383698c528b612fb91152",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1200.cas.h5",
+      "sha256": "00a16b2824c1fdc3ac6d39de931a59730b01e415b934090f0495595b7d84083f",
+      "after_sha256": "00a16b2824c1fdc3ac6d39de931a59730b01e415b934090f0495595b7d84083f",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1200.dat.h5",
+      "sha256": "b9b7317598f28114a66c57efda73d366943522ce309887abcc376d68acdf7bcf",
+      "after_sha256": "b9b7317598f28114a66c57efda73d366943522ce309887abcc376d68acdf7bcf",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1500.cas.h5",
+      "sha256": "fa7954a3d762c82d22ab84c5e23cd3a3d5bffc159af728ad4e200f32bf3a3ba9",
+      "after_sha256": "fa7954a3d762c82d22ab84c5e23cd3a3d5bffc159af728ad4e200f32bf3a3ba9",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1500.dat.h5",
+      "sha256": "90366263c147ff7a8ef5ed04b1f73ab5ae81f445b69a87d91bc78e32ca732481",
+      "after_sha256": "90366263c147ff7a8ef5ed04b1f73ab5ae81f445b69a87d91bc78e32ca732481",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1800.cas.h5",
+      "sha256": "f9bdee506df4e67bec2bad178d7fdfeac6d7e73ad7ee4960df2a8cb08c5a365e",
+      "after_sha256": "f9bdee506df4e67bec2bad178d7fdfeac6d7e73ad7ee4960df2a8cb08c5a365e",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter1800.dat.h5",
+      "sha256": "c7c5cb320b7c3447d785caf3c78410bcd08ca481e83b5a22e89eb9ddddff787a",
+      "after_sha256": "c7c5cb320b7c3447d785caf3c78410bcd08ca481e83b5a22e89eb9ddddff787a",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter2000.cas.h5",
+      "sha256": "37d66fe4e0732162c5a4643539aa887cc0ed5f6c0368917a207bee9eafd387ae",
+      "after_sha256": "37d66fe4e0732162c5a4643539aa887cc0ed5f6c0368917a207bee9eafd387ae",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-iter2000.dat.h5",
+      "sha256": "23d2a04cc6e1bee4043a77833434970ec34ff761371528feda64d6284f7a8e07",
+      "after_sha256": "23d2a04cc6e1bee4043a77833434970ec34ff761371528feda64d6284f7a8e07",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\initialized-settings.json",
+      "sha256": "6afad9ce2be337150222ee10ae46feb824bcfeec6fe0f3f2bbe6a400589b4a3d",
+      "after_sha256": "6afad9ce2be337150222ee10ae46feb824bcfeec6fe0f3f2bbe6a400589b4a3d",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\order-control-stage2-settings.json",
+      "sha256": "59b9f2a744ce615015c54c4b03de560af4d7dd8fa2f6e2b11ada5627d32ffdc9",
+      "after_sha256": "59b9f2a744ce615015c54c4b03de560af4d7dd8fa2f6e2b11ada5627d32ffdc9",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\massflow-history.out",
+      "sha256": "61eeb88fc3de33cc5019dce819683237f0783e3c79bcf2d4a0c2b2a66c7e7174",
+      "after_sha256": "61eeb88fc3de33cc5019dce819683237f0783e3c79bcf2d4a0c2b2a66c7e7174",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\mass-balance.txt",
+      "sha256": "09866fccd064a7b888bafdb2e75c104ee74347abbc0c629108742b162ad74528",
+      "after_sha256": "09866fccd064a7b888bafdb2e75c104ee74347abbc0c629108742b162ad74528",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-nozzle-v001\\fluent-order-control-v004\\nozzle-final.cas.h5",
+      "sha256": "118761b89b8d270da2b7ff5b0d75d1553a03c51591cdfdb948e34d1706c84aba",
+      "after_sha256": "118761b89b8d270da2b7ff5b0d75d1553a03c51591cdfdb948e34d1706c84aba",
+      "unchanged": true
+    }
+  ],
+  "analysis_source": {
+    "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_nozzle_fluent_v005.py",
+    "sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+  },
+  "output_files": [
+    {
+      "path": "executed-analysis.py",
+      "sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e",
+      "bytes": 19025
+    },
+    {
+      "path": "fluent-centreline.csv",
+      "sha256": "a37018931aa9cf8219136d09574476c1bfa18fd3eb964345785ba9b90ed29e56",
+      "bytes": 32763
+    },
+    {
+      "path": "fluent-checks.json",
+      "sha256": "e922e6f40c6467f315642a0fdcac2b3fdc6999ac183c6f14f6c325c57821e640",
+      "bytes": 8291
+    },
+    {
+      "path": "fluent-massflows.csv",
+      "sha256": "f7cc7a2d90e907e78e688f1f3874cf51cb14c7f1cf0c4f501fcc776d5717ceac",
+      "bytes": 84516
+    },
+    {
+      "path": "fluent-residuals.csv",
+      "sha256": "34acabc57259f2f74a46db951f8dd70ad24473ec5b6600f159098e3ed7fb7d88",
+      "bytes": 172971
+    },
+    {
+      "path": "native-cell-fields.npz",
+      "sha256": "48a36f0b05112f5d51d7fd55d4685a953423fc0bb3644d5ccf88b7da5bde4318",
+      "bytes": 531609
+    }
+  ]
+}

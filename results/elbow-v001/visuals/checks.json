@@ -1,0 +1,526 @@
+{
+  "model": "Laminar planar right-angle elbow",
+  "actual_native_fields": true,
+  "synthetic_flow": false,
+  "common_cell_count": 3200,
+  "native_mapping": {
+    "fluent": {
+      "vertex_set_bijection": true,
+      "maximum_native_node_error_m": 0.0,
+      "source_quad_cells": 3200,
+      "sparse_lattice_shape": [
+        100,
+        80
+      ],
+      "occupied_cells": 3200,
+      "masked_void_cells": 4800,
+      "native_layer": "native planar two-dimensional quads"
+    },
+    "openfoam": {
+      "vertex_set_bijection": true,
+      "maximum_native_node_error_m": 1.1102230246251565e-16,
+      "source_quad_cells": 3200,
+      "sparse_lattice_shape": [
+        100,
+        80
+      ],
+      "occupied_cells": 3200,
+      "masked_void_cells": 4800,
+      "native_layer": "one native .01 m hexahedron layer projected to quads",
+      "maximum_saved_C_error_m": 1.4498590585730863e-13
+    }
+  },
+  "input_hashes_stable": true,
+  "explicitly_selected_steady_iterations": {
+    "fluent": 2000,
+    "openfoam": 2000
+  },
+  "common_unclipped_colour_limits": {
+    "speed": [
+      0.0,
+      0.15897200914051715
+    ],
+    "pressure": [
+      0.00014821221746328,
+      0.074265798722096
+    ]
+  },
+  "animation": {
+    "frames": 48,
+    "frame_delay_ms": 50,
+    "distinct_decoded_RGB_frames": 48,
+    "playback_duration_s": 2.4,
+    "common_tracer_integration_duration_s": 24.0,
+    "method": "RK4 CFL limited, bilinear interpolation only across four actual fluid cell centres",
+    "fixed_native_field": true,
+    "solver_time_evolution": false,
+    "forced_path_closure": false,
+    "boundary_values_appended": false,
+    "entry_seed_colours_are_not_scalar_mixing": true,
+    "seed_injection_travel_times_s": [
+      0.0,
+      6.0,
+      12.0,
+      18.0
+    ],
+    "loop": "Replay restarts the actual-velocity inlet seed injections"
+  },
+  "numerical_audits": {
+    "fluent": {
+      "path": "E:\\CFD-Learning-Lab\\local\\elbow-v001\\fluent-checks-v001\\fluent-checks.json",
+      "source_manifest_path": "E:\\CFD-Learning-Lab\\local\\elbow-v001\\fluent-checks-v001\\fluent-source-manifest.json",
+      "native_source_hashes": {
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\status.json": "bef036ab6652377741ab5231800d5284437168f91c7bb2c3b8bf82d97860d68e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\summary.json": "0b4f90cc92704ff2a86af7a4ebc48123c0c5929eb797613b6c2eead1b626d57b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\code-provenance.json": "2148569d09024a6d9b4516bbd56a97015cd2913a5d777e50dca6d04c63f8819e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\authorization.json": "f1addbfa963ec71b7ffb49a6f971c6f902402089bd773f21b1c2afca1a72784f",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\declared-targets.json": "c82203b5fb834adc75906843a5e56996a842a7d0b8584447304bee617cda9677",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\geometry-quality.json": "21b3d62bd89261677dce90f83c5a406343ddffa4adadeeb4ac8ccc653ce594ce",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\final-settings.json": "0ad682a80425e305039af1daaf1ce4b8ef5186d8144e2c1fc807e8d34a619f45",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\native-physical-readback.json": "53dff6ea2aa74dfea4e945436755c72dcff06527fc9ddf7cac452a7ab1df3cef",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\executed-script.py": "7f33d468f1b3ea193e6d95871c5072a381a61a8d8d6028a4530b988387097a89",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\mesh\\elbow.msh": "0cb3ecc6aa3c5cb0021b8b631c64c9494ec79edb5603298091ae342698a5dcb5",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\mesh\\setup.json": "97ecbfdbbc2e71fbc816d593eb0f783c7288bc479911b1b05c9fc3877d5ea7ea",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\mesh\\geometry.npz": "dcd16a32711d0c36317eb62c42b72459cf3cb902d3767229fa53d6cac9da6b29",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-final.cas.h5": "99d9621387a6aba73717156d7eff1461a05361c5497a4ff7f20a97757e813728",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-final.dat.h5": "9a2ce1272decceffc50bb507a0c873126d1491848e4cbe6c75a43be21d117bf2",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter1800.cas.h5": "af50b2bda928a13683c3b51c32b946f5d9d8b65e04bd13d54082f77f994ba46a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter1800.dat.h5": "de7fc61fa2788161350192b61e4245363f7248e9caa218a772697dff4ffde250",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter0500.cas.h5": "44ac0b9d71345b5f933d6dfa8cdf16aa940e91f5a1d0af6da61a8d546652859d",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter0500.dat.h5": "d2db8b7835a98dab2343329ac095cc4a28326c02a32c5cf3e6c5fb6426c2dc35",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter1000.cas.h5": "e90f4fe6b87b457b8ec223a1a6d87e7296b0329ef84951781ea4e4f5a040c2fd",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter1000.dat.h5": "b328f51b5a933586f024bb5282b5dcc9410c8429513e40b02d3701cde88bf8b7",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter1500.cas.h5": "a8d08cfba5e007eff646368d16bf7b62afe721cb875b1fc179369661b22d65e0",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter1500.dat.h5": "411e15b060f97ad84b5587dab63d86c76fe983b75e82544abb866de8dc287908",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter2000.cas.h5": "3a1baf3fba799fd7cec0feda8a7e93325fc987b62a0a689f13b25277a08ecb95",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\elbow-iter2000.dat.h5": "c6e75936195dbddc98fc545b8e45ec2dfca38e883034c0b13fbfd1cdcd9f8090",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\solver-transcript.txt": "75dfa2c509d44aee24d1bc60f5f801d07f55574f98d5b511fdc9ee5be273284b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\mass-balance.txt": "93aae303c51e4766e89b2ba2a85c9938d4efa3fff4c99155231719045a4e28ec",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\massflow-history.out": "0fbe7cdf2d666169e26d8b6fbd586896fc9a6d51120f77602aaae291696784bd",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\field-monitor-history.out": "627a7eabfb8b01d63b26fc7836ebd2222ffdb54d53bd32b7ba0e6de13235fd24",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\fluent\\fluent-20261101-231231-99964.trn": "99a2732473bcd6e8266498919e627da2bc8dbdf940f896a52a3ec9e8dea87fbb"
+      },
+      "all_declared_checks_passed": true,
+      "failed_checks": [],
+      "checks": {
+        "execution_status_read": true,
+        "summary_read": true,
+        "provenance_read": true,
+        "root_authorization_read": true,
+        "targets_read": true,
+        "native_quality_read": true,
+        "native_settings_read": true,
+        "native_physical_readback_read": true,
+        "native_inputs_bound_to_reviewed_authorization": true,
+        "native_completed_2000": true,
+        "native_quality_positive_volume_and_total0p32": true,
+        "native_final_physical_wall_and_numerical_settings": true,
+        "native_final_case_read": true,
+        "native_final_data_read": true,
+        "native1800_case_read": true,
+        "native1800_data_read": true,
+        "checkpoint500_case_read": true,
+        "checkpoint500_data_read": true,
+        "checkpoint1000_case_read": true,
+        "checkpoint1000_data_read": true,
+        "checkpoint1500_case_read": true,
+        "checkpoint1500_data_read": true,
+        "checkpoint1800_case_read": true,
+        "checkpoint1800_data_read": true,
+        "checkpoint2000_case_read": true,
+        "checkpoint2000_data_read": true,
+        "native_transcript_read": true,
+        "native_residual_history_complete": true,
+        "final_residuals_le_1e_6": true,
+        "source_geometry_read": true,
+        "native_topology_mapping_and_finite_fields": true,
+        "native1800_and2000_mesh_identical": true,
+        "final200_weighted_velocity_L2_relative_change_le_1e_3": true,
+        "full_native_face_flux_and_incidence_coverage": true,
+        "native_local_divergence_max_le_1e_5": true,
+        "native_local_divergence_rms_le_1e_6": true,
+        "native_face_relative_mass_imbalance_le_1e_4": true,
+        "native_wall_impermeable": true,
+        "native_incidence_sum_equals_boundary_flux": true,
+        "native_boundary_mass_report_read": true,
+        "native_report_relative_mass_imbalance_le_1e_4": true,
+        "native_per_iteration_mass_monitors_complete": true,
+        "native_per_iteration_monitors_complete": true,
+        "native_student_two_process_licence_and_no_fatal": true,
+        "saved_native_visualizations_created": true,
+        "all_hashed_native_inputs_unchanged": true
+      }
+    },
+    "openfoam": {
+      "path": "E:\\CFD-Learning-Lab\\local\\elbow-v001\\openfoam-checks-v001\\checks.json",
+      "source_manifest_path": "E:\\CFD-Learning-Lab\\local\\elbow-v001\\openfoam-checks-v001\\source-manifest.json",
+      "native_source_hashes": {
+        "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_elbow_openfoam_v001.py": "3627084805d944c87450adeac08b344db67a686d45b2ab3ce46a0f72589ea97e",
+        "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_elbow_v001.py": "5110fb34b68c4df92212923e4835fdaf40374fe033087350d19c9b6a13a98348",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\declared-comparison.json": "c598f219ce4872f74040a24556cb7cb3164fd9952b3e44febf94ca6154f773d8",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\run-status.json": "62e978c6c610482626c95b7f156eda6e252a696f8f9903160a46f9473d1a6726",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\system\\controlDict": "876ded5b10149370041c929ff19c47a192a66f57ed6d5b0c166f82965b9cb091",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\system\\fvSchemes": "021d0af39e30e44f02049832103bc6addb12bf9a156f9e33221a9bcbd9af2858",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\system\\fvSolution": "474e5ba0563ab61f7e38aa1ae254558ad3ee56343c605ddd834a593f74596c95",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\system\\decomposeParDict": "ddb5382347794fb453c78e81b977665ce8b4658f6b620ac06d9454b4ebd9a930",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\constant\\physicalProperties": "507936c055ba8fd03ce65d8096cc47b8481d55e17dd1effb6d148f0b5de0f6bf",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\constant\\momentumTransport": "5679d1df75842397f41b474d876d9f58a62610c650df49bc949c447458deb338",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\0\\U": "50e2127d07ad477885dbbe6db03c289773ba0245588e9e93f107931fd0e6537b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\0\\p": "2b20c98448fd1e77bef8c95b4844388bf7a2fcb12f8d90408becf1963a326356",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\prepared-input-sha256.json": "0190beedefe4041ae26ee4f922b107d5b90f7bb35eb0ad2a3448ffa3e81d3daa",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\input-elbow.msh": "0cb3ecc6aa3c5cb0021b8b631c64c9494ec79edb5603298091ae342698a5dcb5",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\DESIGN.md": "216b03e66387f3a9e25b181db14aa6787c90caaf346017985ce9a39db4d5a599",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\geometry.npz": "dcd16a32711d0c36317eb62c42b72459cf3cb902d3767229fa53d6cac9da6b29",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\Launch-OpenFOAM.ps1": "8540265079c0d23ca794fdd53f3c5a9afe43691a0c42b88140fbcd769b3983ce",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\prepare_openfoam_elbow_v001.py": "5110fb34b68c4df92212923e4835fdaf40374fe033087350d19c9b6a13a98348",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\run-openfoam.sh": "ffec1abcbb1e6a5e193e21041932e9ee4e7e66e540970a4c1a30839ae670d502",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\setup.json": "97ecbfdbbc2e71fbc816d593eb0f783c7288bc479911b1b05c9fc3877d5ea7ea",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\preflight-validation.json": "c39404d68814fa23c6120f2b34b206d712a95910bcdbc5add2994b6edcdac59a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\0\\polyMesh\\points": "f76632ac6c531dbe377e68535643c90a19aa3d5a0dbd3724cecc7288c6cfe084",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\0\\polyMesh\\faces": "73a41620102d206e2a60b020b021aa836094784bda911aae7c0037d1f3d3b145",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\0\\polyMesh\\owner": "c8767e2b577b8dad282f8b760de52967fec0eb4953466c699a9021c7aba7e00b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\0\\polyMesh\\neighbour": "0234c52bd92935c6e27c71aeacb7d5927687fe7743edae04e456cba616667bf6",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\0\\polyMesh\\boundary": "8cdf08c6e9542e584dff228767670e8e6299adf23da68c1a141768bf9b790dc5",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\mesh-check.log": "c8488649f901a0d4bea751150f78115e040ae284cc8a99b7e09165833b10857c",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\2000\\C": "90dba3ad1f1a0a4afbfaf40cb2a91b20cb2d7b27b5af6382c9bf488fbc63657a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\100\\U": "1998178006efcadfc731d9c278e3905c217c58f1ec2492fe2b32c70ee8da97ee",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\100\\p": "1c47b7f34090eab90ddbc0beff5d757cde368e752eb3014a9dd217f3d2e23bf7",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\100\\phi": "fdc257c15e3872af80ffd043006465df76d6a46c8df5add7f3feba7178ee9f6b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\200\\U": "35145f51804c1f0efe7c5b1789509633be54070fc93d420de6493be18e45b273",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\200\\p": "549d67f299aa821049d54fd78fcb85d93007345ca602e81d897a441d4ea34093",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\200\\phi": "32fb5f717187f0bbf0c61b498d177c5845612280ffc58d963c7818311bd71a97",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\300\\U": "935390a069a3154d21d8d5afd2b7e5d26ad378797ab55d51f0c9b1188147d62d",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\300\\p": "644500fb19295495e1473ee24d49604e934466b64f5ef1a394fffa436110f4cd",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\300\\phi": "84e9219b6301b8a5d17ea00a25bacd9b3388bcb4e3b9709ac39d678252d0025e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\400\\U": "9a1f4cdcb09eb69d4c5d832a279925224611dc0148146e31623d379d5ca437a0",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\400\\p": "5ef39da7d0f1cd38017f5682afffc601ceccf4819f3b82807d5e4a99431730dd",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\400\\phi": "24109e5f3e8b514758540ec7c7dfdb270780c4df257a62286829c7c1f8891771",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\500\\U": "79f56d334d1fd59e479692fb057efef6f0c0858ca8060972c5dcf2370a7c4332",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\500\\p": "bf862231844aa16ad7577036f582391074cdbb98cb1e12afa0bb0ff384cc954d",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\500\\phi": "75d653aed92cf2dc30bb9eda4e9d2f2b0d6ea8001675a612112075907c1dc4a9",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\600\\U": "026e61f5172359b9d62ffa02774bc28ac920b329af930c7f06eb09392ff9a1c9",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\600\\p": "23bffb069accfdc3e70919ea645892333ca929ca9fc97282ff5c74690c91557d",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\600\\phi": "92f789a10d2796b1df82c41870ffbcde0c5116b7a4337e1a9989192b8df5a2b4",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\700\\U": "bc8f05fe27a421905c86f83789a1044b02b836ca340274e580b9a7d474c3884c",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\700\\p": "af13ec85dbf11b66874d8e1d3b2a7d3e83baa4db5c0ea06b5d42865f34cd74fd",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\700\\phi": "5f354e2d85da989f31bbb5b5ee4ab082a1cc4e2e4fb3c2640b99669b9fc9dea7",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\800\\U": "aa88f34450cc7c864082a501ec922791084c9617f301e7b32175197f76598dff",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\800\\p": "cccf9edf50df05eeac228aed0895f221f8fc041142af04c830f7af5f09e93ed1",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\800\\phi": "e83081d2591f7ea85aa10a6605a7f8af172b76772873d59e22f70fc30ccf6463",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\900\\U": "cf72813006b3ccc71874561357ca4033b3a439176e43490d498d6c25d21edf68",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\900\\p": "5fe9c466831a905215bf097ed7d163b64ea927dce41633b3edc405480db43e3e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\900\\phi": "05868f8d6f08ebec686d7fe4e96c9d10f7255fc6437b24a12e936ce6c9b010a7",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1000\\U": "d5100795f016b815d9bf05ba3338e5abc9fa0724281df775df1ff263f40738f4",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1000\\p": "84336c183b1b5579f56ee66b875160d6e57ca2f1a5fcf12158c1f16c824950bc",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1000\\phi": "7f8c668c62c266e0cb6f734a97bfa562a7412ef522c172a1a7daaa3f12496ce3",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1100\\U": "b1ab3e934fd78c73d958b9d538faf08400b079f380a6d76d647b43181edbbeea",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1100\\p": "102f8e3f92a5fb78816b16852fc9a042716233c3d01436bd14174e7518e78254",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1100\\phi": "638dd54f66fd595d1e38b4992461ee45e1491d54c93cb2e0aad4f1afad579b82",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1200\\U": "938fbc85c16fd5cbde5f452e00e1a24d88e4cdf2abad50378f45621216a95115",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1200\\p": "c100c03381c8e6e27df3029752bb3e43c5414d02293751f2692f394c71a308e3",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1200\\phi": "d15bbd4181b9aa5adc4cd725d43fd1ff6f03e1a01ac2d509c19814416a88024f",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1300\\U": "8b8ddb654878e32c9a6d6566a969a5f242df742d5afbc5104c2303f21df74da2",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1300\\p": "1fc264607305930bb25d2be3e54a001700071a68329b7a5c65f8130bd41b25c6",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1300\\phi": "aeaf6c62ceee8d6b2b08dbd2c9d0046cdbf1ff1776f0c77d9319bd838fad53e4",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1400\\U": "0b11171d49c9a9061b4de602064cc1ffbe586d5ede4fac437b6f6c30dfebb684",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1400\\p": "6024281e5c20262ac8eec9e128f76ee8e2dc665cd3672b25c3bc292d24cbe504",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1400\\phi": "4dee75686fecd46470e9cf7e83e49dbc074bbd081559560fb05e031e9a36950a",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1500\\U": "86621748993269f5558131b507c491dded71366ec26e0d22c978b0acae6c091e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1500\\p": "b7ad2d3f7bc3cb149ff0fed8cb30def5cd3b552b1fd944761c7ab29ac25e836c",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1500\\phi": "9526c9dc676df8f9703230924beb1925584ccdff7ae77eb805af84ef73d63f63",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1600\\U": "11308705ad85be89bf81df91bc5ef2a9fd4ebd7eecbc7077df7c379b3543e534",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1600\\p": "3acc656efb1ed3bfe0425e109c4d4c6b64ef2374661bc425f5ca98dcedf77203",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1600\\phi": "afb1b14ebb8a94520b7f75c62f592d6ef13da82da6dac68013465e78d7c38cda",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1700\\U": "d810b075291095340a992d31528508a6ca8d588fbb20e8f51a22be581d9c182b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1700\\p": "cf692dcb8eb316e84a6b80f3d09b62afcb879123b1e4a6cd61455a7cf6c5dfc3",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1700\\phi": "b604f8bf434556bb205081195bc38bad037661bd143bd2ab8d5060424ec3ce74",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1800\\U": "530fe2f1aa168944dbbb2957083421309595afc56211620093d35f4d10c287d5",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1800\\p": "8f20e950172a7b62b0aacbeb7562802f50be496c7cf692d8d9ce93d6fc7448bf",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1800\\phi": "b6cb5a49f6fca3fdade39f4e82822fedc72ab1e03d667c876343ce4451f31200",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1900\\U": "d100c4733ff675ca3c02e3c865b964660b53adaa42da2099049ee8c84618db6c",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1900\\p": "34c7bc6edbbd5cbe81cfdbe5049d53d034a77c4238cccef466f5ce031f1a72b5",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\1900\\phi": "f4d9ffbed61d7dddeff1dd92b17a1ce80a18897dfdddc9ea3cc0cfc6d6f04b2e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\2000\\U": "fbf7caf0f70e990e6cc21d7b7a2c2a5f1b0bcb89a3c5558180b61277653f93c9",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\2000\\p": "e2f61042d6df3f7d19afe807312655ee4b94254732d2e12c474a2d37420aba83",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\2000\\phi": "daef6fe6df05dde032370dfe453389e1ca83e2e6b8c7ba26199645bbd5b2a68b",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\solver.log": "094fafdb47773071065c3bdcc69296660eb5b09553c95b2c6e9979c395155d50",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\root-run-authorization.json": "8feb9aa39645b884912eaf9eb3cebc43d01895b8a29f7ad1a6e589af71ac5c70",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\run-openfoam-executed.sh": "ffec1abcbb1e6a5e193e21041932e9ee4e7e66e540970a4c1a30839ae670d502",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\installed-source-sha256.txt": "921c4ca6c15c3be0fcba5f11280ae04b107cdc8089d11e5a2c1fc207d835ba0d",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\0\\U": "72093fe6b4d82a0595f8ad6e6ed8d24557ce26089fba1d26c9321939351c8717",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\0\\p": "94ae0226dfd80d253aa6f4c04b18605bc83612ff65a6d68b43a4b0f11a0536e8",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\system\\fvSchemes": "f295385ead9669b050a25ea2d9026ca3811a6a04a4bc0afe2e08baf1f7f1d94e",
+        "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\system\\fvSolution": "302286621e2c82a857a65d47bc76c266279f4b0016234b7582a18e773a2c2e00"
+      },
+      "all_declared_checks_passed": true,
+      "failed_checks": [],
+      "checks": {
+        "actual_native_dictionaries_match_exact_settings": true,
+        "prepared_sources_and_shared_mesh_hashes_match": true,
+        "full_checkMesh_positive_actual_volumes_and_exact_native_counts_passed": true,
+        "actual_C_source_and_sparse_grid_mappings_bijective": true,
+        "actual_native_cell_vertices_match_canonical_source_quads_both_planes": true,
+        "all20_saved_native_U_p_phi_finite_correct_counts_dimensions_and_wall_values": true,
+        "final_native_local_divergence_max_le_1e_5": true,
+        "final_native_local_divergence_RMS_le_1e_6": true,
+        "actual_inlet_inward_and_outlet_outward": true,
+        "relative_all_boundary_mass_imbalance_le_1e_4": true,
+        "native_wall_absolute_flux_le_1e_14_m3_s": true,
+        "actual_native_2D_Uz_max_le_1e_12": true,
+        "terminal_printed_p_Ux_Uy_initial_residuals_le_1e_6": true,
+        "U_1800_to_2000_volume_weighted_relative_L2_le_1e_3": true,
+        "reviewed_execution_sources_match_root_authorization": true,
+        "installed_official_sources_match_recorded_hashes": true,
+        "inputs_unchanged_during_read_only_analysis": true
+      }
+    }
+  },
+  "gauge_pressure_reference": "Common specified outlet gauge pressure 0Pa; raw native pressure, rho1; no mean subtraction",
+  "pressure_mean_subtracted": false,
+  "void_cells_masked": true,
+  "void_field_values_fabricated": false,
+  "four_native_fluid_centres_required_for_interpolation": true,
+  "scalar_mixing_simulated": false,
+  "three_dimensional_flow_simulated": false,
+  "Dean_vortex_claim": false,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "resource_floor_checks": {
+    "before": {
+      "available_RAM_GiB": 6.910167694091797,
+      "E_free_GiB": 472.983642578125,
+      "required_floor_RAM_GiB": 2.5,
+      "required_floor_E_GiB": 10.0
+    },
+    "after": {
+      "available_RAM_GiB": 7.28021240234375,
+      "E_free_GiB": 472.9774169921875,
+      "required_floor_RAM_GiB": 2.5,
+      "required_floor_E_GiB": 10.0
+    }
+  },
+  "actual_field_ranges": {
+    "fluent": {
+      "speed": [
+        4.236006696843228e-05,
+        0.1587801636194978
+      ],
+      "p": [
+        0.0001486848027071371,
+        0.07031529450091144
+      ]
+    },
+    "openfoam": {
+      "speed": [
+        4.003736647118269e-05,
+        0.15897200914051715
+      ],
+      "p": [
+        0.00014821221746328,
+        0.074265798722096
+      ]
+    }
+  },
+  "native_solve_evidence": {
+    "fluent": {
+      "actual_terminal_iteration": 2000,
+      "terminal_scaled_residuals": {
+        "continuity": 1.3311030732529432e-14,
+        "x-velocity": 4.46408572826261e-17,
+        "y-velocity": 4.955788215864678e-17
+      }
+    },
+    "openfoam": {
+      "saved_pseudo_iteration": 2000.0,
+      "solver_time_is_physical": false,
+      "native_solver_log": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-elbow-v001\\openfoam\\solver.log",
+      "initialized_only_data_refused": true
+    }
+  },
+  "tracer_diagnostics": {
+    "fluent": [
+      {
+        "seed": [
+          -0.585,
+          0.025
+        ],
+        "entry": "left",
+        "samples": 647,
+        "duration_s": 17.1822301691285,
+        "endpoint_m": [
+          0.1588814918783034,
+          0.9933766665067706
+        ],
+        "integrated_path_length_m": 1.6148344998835775,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.055
+        ],
+        "entry": "left",
+        "samples": 626,
+        "duration_s": 11.917697587345295,
+        "endpoint_m": [
+          0.13192937529744644,
+          0.9928933743930974
+        ],
+        "integrated_path_length_m": 1.5628176913735812,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.08499999999999999
+        ],
+        "entry": "left",
+        "samples": 611,
+        "duration_s": 10.529540327765073,
+        "endpoint_m": [
+          0.11030373279030554,
+          0.992714363968514
+        ],
+        "integrated_path_length_m": 1.5254664596824559,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.11499999999999999
+        ],
+        "entry": "left",
+        "samples": 598,
+        "duration_s": 10.23089641536965,
+        "endpoint_m": [
+          0.08979125534655479,
+          0.992551148747264
+        ],
+        "integrated_path_length_m": 1.4929662459007276,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.145
+        ],
+        "entry": "left",
+        "samples": 586,
+        "duration_s": 10.886878616733371,
+        "endpoint_m": [
+          0.06818691736438857,
+          0.9939065615131296
+        ],
+        "integrated_path_length_m": 1.4628163014838411,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.175
+        ],
+        "entry": "left",
+        "samples": 571,
+        "duration_s": 14.37944925956849,
+        "endpoint_m": [
+          0.041216780489560456,
+          0.9929329510531567
+        ],
+        "integrated_path_length_m": 1.4248238528801411,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      }
+    ],
+    "openfoam": [
+      {
+        "seed": [
+          -0.585,
+          0.025
+        ],
+        "entry": "left",
+        "samples": 647,
+        "duration_s": 16.971405251999027,
+        "endpoint_m": [
+          0.1581709477958801,
+          0.9940947558829442
+        ],
+        "integrated_path_length_m": 1.6148485099360914,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.055
+        ],
+        "entry": "left",
+        "samples": 626,
+        "duration_s": 11.88905542781243,
+        "endpoint_m": [
+          0.13158228670251204,
+          0.9930223451492071
+        ],
+        "integrated_path_length_m": 1.5628249074377727,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.08499999999999999
+        ],
+        "entry": "left",
+        "samples": 611,
+        "duration_s": 10.519667264022395,
+        "endpoint_m": [
+          0.11011715567814949,
+          0.9926314754846911
+        ],
+        "integrated_path_length_m": 1.525470080119472,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.11499999999999999
+        ],
+        "entry": "left",
+        "samples": 599,
+        "duration_s": 10.241214733132965,
+        "endpoint_m": [
+          0.08973259583765845,
+          0.9948319863842856
+        ],
+        "integrated_path_length_m": 1.4954690285076506,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.145
+        ],
+        "entry": "left",
+        "samples": 586,
+        "duration_s": 10.87498888345138,
+        "endpoint_m": [
+          0.06825363520478363,
+          0.9934978514515858
+        ],
+        "integrated_path_length_m": 1.4628209293071905,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      },
+      {
+        "seed": [
+          -0.585,
+          0.175
+        ],
+        "entry": "left",
+        "samples": 572,
+        "duration_s": 14.279724597658799,
+        "endpoint_m": [
+          0.04164577897974739,
+          0.9944633603101996
+        ],
+        "integrated_path_length_m": 1.4273421568661322,
+        "stop": "RK4 stage reached void, wall or centre envelope"
+      }
+    ]
+  }
+}

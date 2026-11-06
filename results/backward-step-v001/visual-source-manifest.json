@@ -1,0 +1,38 @@
+{
+  "plotter_sha256": "b2fd33eedffc52b3da4f59c58a784ca4da78a18e95bfd212ca155ff6b47ab076",
+  "command_arguments": [
+    "--run",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001",
+    "--out",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-01-step-paired-v001",
+    "--solver",
+    "both"
+  ],
+  "solver_selection": "both",
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\mesh\\setup.json",
+      "sha256": "cc3bab0be7ad3f6863901f0978012e6ba9e4fb0536919fead78e57e662fc35ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\step-final.cas.h5",
+      "sha256": "ec606f9676b372c9f7a28bee6b163a7a863982279e64245f6cc465656f395218"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\step-final.dat.h5",
+      "sha256": "4ba9ec1a3d7e95d29ef92a001c52b6f2c3bbef04827b07f98e77d6908a27a649"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\openfoam\\2000\\C",
+      "sha256": "b399fa752f1e9d03fa23ef49a66e979e1252eb9f0ebfd004a3316703b7d2b27b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\openfoam\\2000\\U",
+      "sha256": "a2e18d5bdcce8268260cdcc6696ae592c0d8b2ed3101dfa1a1cad79c4bbd5e08"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\openfoam\\2000\\p",
+      "sha256": "cb32443aa0409947a898eee42ac17f4933fda584bbdc7e89bb4a53bb09fba467"
+    }
+  ]
+}

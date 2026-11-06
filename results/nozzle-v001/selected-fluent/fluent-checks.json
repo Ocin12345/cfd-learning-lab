@@ -1,0 +1,236 @@
+{
+  "model": "Planar full converging-diverging nozzle; steady inviscid ideal-gas Euler",
+  "checks": {
+    "execution_status_read": true,
+    "summary_read": true,
+    "settings_read": true,
+    "quality_read": true,
+    "targets_read": true,
+    "provenance_read": true,
+    "gas_readback_read": true,
+    "root_authorization_read": true,
+    "source_binding": true,
+    "fixed_run_completed": true,
+    "native_mesh_positive_and_quality": true,
+    "actual_Euler_gas_boundary_settings": true,
+    "native_residual_history": true,
+    "actual_iteration_count_and_coverage": true,
+    "final_residual_targets": false,
+    "driver_residual_readback_matches": true,
+    "bounded_schedule_and_native_checkpoints": true,
+    "native_per_iteration_massflows": true,
+    "massflow_iteration_coverage": true,
+    "massflow_stability_target": true,
+    "native_mass_report_read": true,
+    "mass_balance_target": true,
+    "native_report_and_monitor_agree": true,
+    "native_positive_fields_ideal_gas_and_common_mesh": true,
+    "optional_exports_without_error": true,
+    "all_input_hashes_unchanged": true
+  },
+  "failed_checks": [
+    "final_residual_targets"
+  ],
+  "all_declared_checks_passed": false,
+  "evidence": {
+    "source_binding": {
+      "source_sha256": "5329d72e58419adbdf962c01b23bcadbfb67cceb5b91168604b5a2efbc277503",
+      "mesh_sha256": "57c661f58ffe3366f6c31b2667855bcf18d404f36eb0899f7e1a7b67da40319a",
+      "geometry_npz_sha256": "216639f1dfb24f22120c0bc271f8416c396fb14af4562e1bd1308cd38d170720"
+    },
+    "native_quality": {
+      "minimum_orthogonal_quality": 0.973982,
+      "minimum_cell_volume_m3": 8.333829e-06,
+      "maximum_cell_volume_m3": 2.083166e-05,
+      "total_cell_volume_m3": 0.128,
+      "maximum_aspect_ratio": 2.3289,
+      "native_numeric_gate_pass": true,
+      "checked_before_flow": true,
+      "orthogonal_quality_floor": 0.15,
+      "positive_volume_required": true,
+      "source": "native mesh.check/quality transcript"
+    },
+    "actual_settings": {
+      "density_model": "ideal-gas",
+      "Cp_J_kg_K": 1004.675,
+      "molecular_weight_kg_kmol": 28.96520682164515,
+      "universal_R_J_kmol_K": 8314.46261815324,
+      "derived_R_J_kg_K": 287.05,
+      "derived_gamma": 1.4,
+      "operating_pressure_Pa": 0.0,
+      "reference_depth_m": 1.0,
+      "viscous_model": "inviscid"
+    },
+    "final_scaled_residuals": {
+      "continuity": 0.0004769478834009375,
+      "x-velocity": 0.0008498024235996194,
+      "y-velocity": 0.001005544188260254,
+      "energy": 0.0004222352198547506
+    },
+    "checkpoints": [
+      {
+        "iteration": 300,
+        "case": "nozzle-iter0300.cas.h5",
+        "data": "nozzle-iter0300.dat.h5",
+        "scaled_residuals": {
+          "continuity": 0.5872636316905809,
+          "x-velocity": 0.447319970217801,
+          "y-velocity": 0.26993932747900456,
+          "energy": 0.7509736069300109
+        },
+        "spatial_scheme": "first-order-upwind",
+        "courant_number": 1.0
+      },
+      {
+        "iteration": 600,
+        "case": "nozzle-iter0600.cas.h5",
+        "data": "nozzle-iter0600.dat.h5",
+        "scaled_residuals": {
+          "continuity": 0.13698617310081235,
+          "x-velocity": 0.04102940475963239,
+          "y-velocity": 0.041191037953160314,
+          "energy": 0.09444939743254577
+        },
+        "spatial_scheme": "first-order-upwind",
+        "courant_number": 3.0
+      },
+      {
+        "iteration": 900,
+        "case": "nozzle-iter0900.cas.h5",
+        "data": "nozzle-iter0900.dat.h5",
+        "scaled_residuals": {
+          "continuity": 0.20946565376124593,
+          "x-velocity": 0.022632559310268262,
+          "y-velocity": 0.09315181560336346,
+          "energy": 0.1358398054135082
+        },
+        "spatial_scheme": "first-order-upwind",
+        "courant_number": 3.0
+      },
+      {
+        "iteration": 1200,
+        "case": "nozzle-iter1200.cas.h5",
+        "data": "nozzle-iter1200.dat.h5",
+        "scaled_residuals": {
+          "continuity": 0.0640409123905534,
+          "x-velocity": 0.013984802783999164,
+          "y-velocity": 0.1127929799250249,
+          "energy": 0.04366465107688958
+        },
+        "spatial_scheme": "first-order-upwind",
+        "courant_number": 3.0
+      },
+      {
+        "iteration": 1500,
+        "case": "nozzle-iter1500.cas.h5",
+        "data": "nozzle-iter1500.dat.h5",
+        "scaled_residuals": {
+          "continuity": 0.010349600836382512,
+          "x-velocity": 0.0092314580431517,
+          "y-velocity": 0.02310051194783108,
+          "energy": 0.007723281664190259
+        },
+        "spatial_scheme": "first-order-upwind",
+        "courant_number": 3.0
+      },
+      {
+        "iteration": 1800,
+        "case": "nozzle-iter1800.cas.h5",
+        "data": "nozzle-iter1800.dat.h5",
+        "scaled_residuals": {
+          "continuity": 0.0017626526844162769,
+          "x-velocity": 0.004550309653801226,
+          "y-velocity": 0.004997544564570101,
+          "energy": 0.0016152057696490762
+        },
+        "spatial_scheme": "first-order-upwind",
+        "courant_number": 3.0
+      },
+      {
+        "iteration": 2000,
+        "case": "nozzle-iter2000.cas.h5",
+        "data": "nozzle-iter2000.dat.h5",
+        "scaled_residuals": {
+          "continuity": 0.0004769478834009375,
+          "x-velocity": 0.0008498024235996194,
+          "y-velocity": 0.001005544188260254,
+          "energy": 0.0004222352198547506
+        },
+        "spatial_scheme": "first-order-upwind",
+        "courant_number": 3.0
+      }
+    ],
+    "final100_massflow_stability": {
+      "mdot_in_kg_s_per_m_depth": {
+        "mean": 37.07645401400955,
+        "relative_range": 2.093176499845693e-06
+      },
+      "mdot_out_kg_s_per_m_depth": {
+        "mean": -37.07880740526445,
+        "relative_range": 7.972499704348073e-05
+      }
+    },
+    "mass_balance": {
+      "inlet": 37.076488,
+      "outlet": -37.079825,
+      "upper_wall": -0.0,
+      "lower_wall": -0.0,
+      "Net": -0.0033364796,
+      "reference_depth_m": 1.0,
+      "relative_imbalance": 8.99890949757701e-05,
+      "definition": "Absolute native Net mass flux / absolute inlet mass flux; includes both slip wall rows; depth1m"
+    },
+    "native_field_checks": {
+      "cells": 9600,
+      "field_ranges": {
+        "SV_U": {
+          "minimum": 77.9332649216203,
+          "maximum": 493.2522008653284
+        },
+        "SV_V": {
+          "minimum": -50.04374574070776,
+          "maximum": 50.04374085081749
+        },
+        "SV_P": {
+          "minimum": 32188.475834992085,
+          "maximum": 193034.67062940288
+        },
+        "SV_DENSITY": {
+          "minimum": 0.627433817467907,
+          "maximum": 2.2644225313384485
+        },
+        "SV_T": {
+          "minimum": 178.72052201936873,
+          "maximum": 296.9765094791604
+        }
+      },
+      "Mach_range": [
+        0.22562032904889687,
+        1.841997059550329
+      ],
+      "maximum_relative_ideal_gas_density_error": 1.1850515438149331e-06,
+      "common_cell_mapping": "All native face-derived quad node sets matched bijectively to shared geometry; no ordering assumption",
+      "native_Mach_derivation": "sqrt(Ux^2+Uy^2)/sqrt(gamma*R*T), saved native static T and U; gamma1.4,R287.05",
+      "shock_diagnostic": {
+        "method": "Steepest positive centreline dp/dx within .42<x<.98m; arithmetic average of two cells straddling centreline",
+        "candidate_x_m": 0.6979192007510846,
+        "candidate_dp_dx_Pa_m": 12537879.45681009,
+        "upstream_sample_x_m": 0.681252597731533,
+        "downstream_sample_x_m": 0.7145857885689362,
+        "upstream_Mach": 1.8015801665286253,
+        "downstream_Mach": 0.5861965565619047,
+        "pressure_ratio_samples": 3.6212195218331944,
+        "resolved_compressive_supersonic_to_subsonic_transition": true,
+        "mesh_independence": false,
+        "benchmark_validation": false
+      }
+    },
+    "optional_export_errors": []
+  },
+  "errors": {},
+  "actual_final_iteration": 2000,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "interpretation": "A numerical calculation and cross-code illustration; convergence alone does not establish accuracy or physical validation",
+  "analysis_source_sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+}

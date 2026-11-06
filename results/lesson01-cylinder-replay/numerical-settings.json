@@ -1,0 +1,185 @@
+{
+  "solver": {
+    "type": "pressure-based",
+    "two_dim_space": "planar",
+    "velocity_formulation": "absolute",
+    "time": "steady"
+  },
+  "methods": {
+    "p_v_coupling": {
+      "flow_scheme": "Coupled",
+      "flux_type": "Rhie-Chow: momentum based",
+      "flux_auto_select": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "mom": "second-order-upwind",
+        "pressure": "second-order"
+      }
+    },
+    "pseudo_time_method": {
+      "formulation": {
+        "coupled_solver": "global-time-step"
+      }
+    },
+    "expert": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "high_order_term_relaxation": {
+      "enable": false,
+      "relaxation_factor": 0.25,
+      "select_variables": "flow-variables",
+      "type": "standard"
+    },
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "references": {
+    "area": 1,
+    "depth": 1,
+    "density": 1,
+    "enthalpy": 0,
+    "length": 1,
+    "pressure": 0,
+    "temperature": 288.16,
+    "yplus": 300,
+    "velocity": 1,
+    "viscosity": 1.7894e-05,
+    "ratio_of_specific_heats": 1.4,
+    "zone": "fluid"
+  },
+  "viscous": {
+    "model": "laminar",
+    "options": {}
+  },
+  "residual": {
+    "equations": {
+      "continuity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-07
+      },
+      "x-velocity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-07
+      },
+      "y-velocity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-07
+      }
+    },
+    "options": {
+      "criterion_type": "absolute",
+      "n_save": 1000,
+      "normalize": false,
+      "residual_values": {
+        "scale_residuals": true,
+        "compute_local_scale": false
+      },
+      "print": true,
+      "plot": true,
+      "n_display": 1000
+    },
+    "axes": {
+      "x": {
+        "label": "",
+        "log_scale": false,
+        "number_format": {
+          "format_type": "float",
+          "precision": 0
+        },
+        "auto_range": {
+          "min_auto": true,
+          "max_auto": true
+        },
+        "show_major_gridlines": false,
+        "show_minor_gridlines": false
+      },
+      "y": {
+        "label": "",
+        "log_scale": true,
+        "number_format": {
+          "format_type": "exponential",
+          "precision": 0
+        },
+        "auto_range": {
+          "min_auto": true,
+          "max_auto": true
+        },
+        "show_major_gridlines": false,
+        "show_minor_gridlines": false
+      }
+    },
+    "curves": {
+      "continuity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "monte carlo green"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "monte carlo green"
+        }
+      },
+      "x-velocity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "lavender gray"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "lavender gray"
+        }
+      },
+      "y-velocity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "scarlet red"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "scarlet red"
+        }
+      }
+    }
+  }
+}

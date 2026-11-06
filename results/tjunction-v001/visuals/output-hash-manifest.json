@@ -1,0 +1,82 @@
+[
+  {
+    "path": "CAPTIONS.md",
+    "bytes": 1729,
+    "sha256": "a41c20575ffa580661a934c271e6f19c3e768f4ad16a2f43c73043f394352a2f"
+  },
+  {
+    "path": "actual-RK4-tracer-paths.csv.gz",
+    "bytes": 581696,
+    "sha256": "6e13aa6074199d7dc891cb270f0db52d0f013a874c00c7c8ace8614674a00a00"
+  },
+  {
+    "path": "actual-native-cell-fields.csv",
+    "bytes": 1156430,
+    "sha256": "4f451c27c3a6a1b48f0acdb41368b16fc4ea9fc7fc256968e285dad7ca07ee71"
+  },
+  {
+    "path": "checks.json",
+    "bytes": 39113,
+    "sha256": "68b43c371e507413b6c1d7af4f55868f36f9274de3678680f58a52e5d248dbae"
+  },
+  {
+    "path": "executed-plotter.py",
+    "bytes": 26940,
+    "sha256": "f48aef40a75ca89aadd9caa42520b08a8cedfc2ead63e4d1a0f9349a9b54a835"
+  },
+  {
+    "path": "input-hash-manifest.json",
+    "bytes": 31769,
+    "sha256": "7e4fb97981edaffca1c8748a4c55f5c7d1836ee2e7b96a95b1bd21eba36de7c8"
+  },
+  {
+    "path": "observed-openfoam-solve-block.txt",
+    "bytes": 593,
+    "sha256": "45be9ff12de5ce087294112822ce958e5a759151774dab194bd8d31a15905dc6"
+  },
+  {
+    "path": "reused-cavity-helper.py",
+    "bytes": 40050,
+    "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445"
+  },
+  {
+    "path": "reused-native-readers.py",
+    "bytes": 42964,
+    "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02"
+  },
+  {
+    "path": "tjunction-decoded-GIF-contact-sheet.png",
+    "bytes": 290373,
+    "sha256": "6efc8fd83957906a64bac628307c21ed505a9e697398433281f7b17867d6cde5"
+  },
+  {
+    "path": "tjunction-native-field-comparison-text-bounds.json",
+    "bytes": 4913,
+    "sha256": "166fd1b96bc52f4c99e88abbdfa658a7757e8f235590861ab2544ee89bafe459"
+  },
+  {
+    "path": "tjunction-native-field-comparison.png",
+    "bytes": 283855,
+    "sha256": "de1509cb55b78131070dd800173c6e2e3d87a59c725bc916861c7e025a8757c8"
+  },
+  {
+    "path": "tjunction-native-field-comparison.svg",
+    "bytes": 231137,
+    "sha256": "b141f8e0c07ed9649cdd52ba27a17dcaf27262951e4066d45bc014ae53cb1cd2"
+  },
+  {
+    "path": "tjunction-steady-field-tracers.gif",
+    "bytes": 3310872,
+    "sha256": "4a2ec44308b27e2fadab2e9bef9f8fa2df110ea0be4c220fed2bb2b80e53b4b3"
+  },
+  {
+    "path": "tjunction-steady-tracers-text-bounds.json",
+    "bytes": 3770,
+    "sha256": "a4d8557ffc1c16667f15b6c8a0c87841044387a9f8304c3df44fbcc416990b15"
+  },
+  {
+    "path": "tjunction-steady-tracers.png",
+    "bytes": 115126,
+    "sha256": "4cb10b55302c4de34bdd25fde07f3abe3dbb2553f44363810e83b6c5ef452434"
+  }
+]

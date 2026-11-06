@@ -1,0 +1,992 @@
+{
+  "command_arguments": [
+    "--geometry",
+    "E:/CFD-Learning-Lab/native/runs/2026-11-01-square-wake-v001/mesh/geometry.npz",
+    "--out",
+    "E:/CFD-Learning-Lab/exports/figures/2026-11-01-square-wake-paired-v002",
+    "--fluent-case",
+    "E:/CFD-Learning-Lab/native/runs/2026-11-01-square-wake-v001/fluent/square-wake-final.cas.h5",
+    "--fluent-data",
+    "E:/CFD-Learning-Lab/native/runs/2026-11-01-square-wake-v001/fluent/square-wake-final.dat.h5",
+    "--fluent-iteration",
+    "2000",
+    "--fluent-audit",
+    "E:/CFD-Learning-Lab/local/square-wake-v001/fluent-checks-v002/fluent-checks.json",
+    "--fluent-fields",
+    "E:/CFD-Learning-Lab/local/square-wake-v001/fluent-checks-v002/fluent-fields-common.npz",
+    "--fluent-fields-sha256",
+    "96372b3248111048a5daea6f67b3bb2f3076cf265ba2eb5225bfb8d6df14932a",
+    "--fluent-force-history",
+    "E:/CFD-Learning-Lab/local/square-wake-v001/fluent-checks-v002/fluent-force-history.csv",
+    "--openfoam-case",
+    "E:/CFD-Learning-Lab/native/runs/2026-11-01-square-wake-v001/openfoam-v003",
+    "--openfoam-log",
+    "E:/CFD-Learning-Lab/native/runs/2026-11-01-square-wake-v001/openfoam-v003/solver.log",
+    "--openfoam-time",
+    "2000",
+    "--openfoam-audit",
+    "E:/CFD-Learning-Lab/local/square-wake-v001/openfoam-checks-v001/checks.json",
+    "--openfoam-fields",
+    "E:/CFD-Learning-Lab/local/square-wake-v001/openfoam-checks-v001/fields.npz",
+    "--openfoam-fields-sha256",
+    "7c2322202b2e8d79ffbe1199f5204fece91699eeff4e2825ed4c75f6736cdf1f",
+    "--openfoam-force-history",
+    "E:/CFD-Learning-Lab/local/square-wake-v001/openfoam-checks-v001/force-history.csv",
+    "--tracer-duration",
+    "40",
+    "--seed-injection-period",
+    "6"
+  ],
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\fluent-checks-v002\\fluent-checks.json",
+      "bytes": 26809,
+      "sha256": "7207254894111bf29099813e80ccaa8aa8ac54539ed919257ade01b8398abb6b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\fluent-checks-v002\\fluent-fields-common.npz",
+      "bytes": 828058,
+      "sha256": "96372b3248111048a5daea6f67b3bb2f3076cf265ba2eb5225bfb8d6df14932a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\fluent-checks-v002\\fluent-force-history.csv",
+      "bytes": 91472,
+      "sha256": "0d96cdd998b22af60a14fb98e6b25a2a53161d67d490838caae9e366c397a718"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\fluent-checks-v002\\fluent-source-manifest.json",
+      "bytes": 11178,
+      "sha256": "88f446f1bdc8ee170c36b36b517602cfb64374d5dafef56baaad699ce9302f60"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\openfoam-checks-v001\\checks.json",
+      "bytes": 94028,
+      "sha256": "2d19f0391e5c885d676a347f7dac4728c00a6c3b0da1697a2a7f215e458ed083"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\openfoam-checks-v001\\fields.npz",
+      "bytes": 10912213,
+      "sha256": "7c2322202b2e8d79ffbe1199f5204fece91699eeff4e2825ed4c75f6736cdf1f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\openfoam-checks-v001\\force-history.csv",
+      "bytes": 412903,
+      "sha256": "501aaff3900d63e0d489010fff6a8d9c01782356f1e8c981b200c9e1ac4a9398"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\local\\square-wake-v001\\openfoam-checks-v001\\source-manifest.json",
+      "bytes": 44808,
+      "sha256": "f9439e38f49fa2fffab1877e87aea4668ab7bd161ee231425e8e034bb70528cd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\authorization.json",
+      "bytes": 905,
+      "sha256": "adcad7ef1ab47d9e723e6482aca5ec111c6204f3750a10e6e217ecb673b8808f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\code-provenance.json",
+      "bytes": 1034,
+      "sha256": "3e1e12201b0194a5b9cf7e4a7c5cf05d449b8d61bc45db5c9a3d79bda117bbf0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\declared-targets.json",
+      "bytes": 1362,
+      "sha256": "13e2c7a266e04c2facf80f84582a3f8a370f59906decef19c7db314e73ff8418"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\executed-script.py",
+      "bytes": 23431,
+      "sha256": "cea7eab351f415c0337ee85089e4a8dc4cdfbd8260faa9586cb99697f2148511"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\field-monitor-history.out",
+      "bytes": 91897,
+      "sha256": "e30fd7451aa74b2bc2106ee6949774b89056004c90c5765016d69719a7332ba0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\final-settings.json",
+      "bytes": 32485,
+      "sha256": "b57b41ad8d6d1bc8b3eaf90364640d6c58c3629825fc0cf69c92749a5d4ace7f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\fluent-20261102-000315-108156.trn",
+      "bytes": 135407,
+      "sha256": "b30afa74f1fc0930e5b7d2c92ebc30aefd6a2ff170ba68c150e2867c2792ea51"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-history.out",
+      "bytes": 89524,
+      "sha256": "84d4e577f5d31206436bb84e416536a0a2688e9839acb9e7af416b8360b6a79b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\drag-final.txt",
+      "bytes": 2229,
+      "sha256": "6f3383742446c6cbabac7bbee50e5fd3fa7d33ed6ad344432898029cc4c2c8a8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter0500-drag.txt",
+      "bytes": 2229,
+      "sha256": "8cee96766e7c2734af7972510bb663373f11e7133eaad3c453ccab5ad814d075"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter0500-lift.txt",
+      "bytes": 2229,
+      "sha256": "0a7a4ed08621d92837fbd200c3dae32911e2cb6c769d8cda43fdc6713116ec47"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter1000-drag.txt",
+      "bytes": 2229,
+      "sha256": "4c2c460345306a1e24a841aca2574ec73f9ad6d77fdf9e4b093a9a49d4261fbe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter1000-lift.txt",
+      "bytes": 2229,
+      "sha256": "3312aee3461de7367d672f1d06a6da70f5c7744e4d7c4d4b8bed6f00c4e73745"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter1500-drag.txt",
+      "bytes": 2229,
+      "sha256": "076daaf419b0c92d5b2d0906e90c1e3ece3f4de752da8041df6d3d080d4a0201"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter1500-lift.txt",
+      "bytes": 2229,
+      "sha256": "d9df1074cb644d7ac3858ac27ffd9fedc009a29f9d56054f468b024c4dd6764c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter1800-drag.txt",
+      "bytes": 2229,
+      "sha256": "890da3a67ce0993683018052a0ecfbfbecde5692bc6a96fea6a5f795cf13d048"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter1800-lift.txt",
+      "bytes": 2229,
+      "sha256": "35f1ebaf9af15651c73e9af6af7588b7c049f1c1afd35a4e3aa57eb9a6969a3b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter2000-drag.txt",
+      "bytes": 2229,
+      "sha256": "6f3383742446c6cbabac7bbee50e5fd3fa7d33ed6ad344432898029cc4c2c8a8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\iter2000-lift.txt",
+      "bytes": 2229,
+      "sha256": "3e661a71e93e911579e0afd6e92effde5920c83dfd31dd81b808a5c3eb163766"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\force-reports\\lift-final.txt",
+      "bytes": 2229,
+      "sha256": "3e661a71e93e911579e0afd6e92effde5920c83dfd31dd81b808a5c3eb163766"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\geometry-quality.json",
+      "bytes": 255,
+      "sha256": "7160a244129d300aea950cd15b9a89a3cfc8c3fbdb9271e8cc5b59f8a2ec8bdd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\mass-balance.txt",
+      "bytes": 428,
+      "sha256": "164261ed47c430a5d3901c3f593694797bb6a5f8926ec4e353a3f1294ad28cfc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\massflow-history.out",
+      "bytes": 88268,
+      "sha256": "e4278fdf4de687d35d04f35591ffa54b881e8126b494ac1e8781236954fa8de6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\native-physical-readback.json",
+      "bytes": 433,
+      "sha256": "a1556c702ee9bb245140c06ab9f8e2b18179d9e86aa7cb3ec6ba6d2a04702874"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\solver-transcript.txt",
+      "bytes": 132707,
+      "sha256": "8671e46fd825d841680ea93225faa02320a3419d6ae1affba2e69769814a48d1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\sources\\analyse_nozzle_fluent_v005.py",
+      "bytes": 19025,
+      "sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\sources\\square_wake_fluent_common_v001.py",
+      "bytes": 6875,
+      "sha256": "2637a1d2c1cdd5f5628f25e8c56946554969f80164a4b795b4e3aa2fcbf5cf0f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-final.cas.h5",
+      "bytes": 767807,
+      "sha256": "6e2c7d116728406cef1af3527249bc2544a8f7db823b9c389aa075c70733a2de"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-final.dat.h5",
+      "bytes": 974265,
+      "sha256": "aca418b91f98347f7895291eaec644d6c2008a89d48dbf8f69eb0b4d365e54ac"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter0500.cas.h5",
+      "bytes": 767801,
+      "sha256": "900a77f72a1673f84a6ca941054ea4fffc92e5df62e9989438abfd6b4ccac3a3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter0500.dat.h5",
+      "bytes": 967473,
+      "sha256": "59d7df0827882498390fdca9f50268b0cff4f87d1616f7d5f61a65684b9e9e42"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter1000.cas.h5",
+      "bytes": 767807,
+      "sha256": "85ea0b18a8b34ee4c4d5f80112635d68043d8dc09de2801934dc62430073d932"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter1000.dat.h5",
+      "bytes": 974443,
+      "sha256": "746b3797bf7f30053076c2ace95e8bba0b859bb1a6ed662446c6cebcfd7c7bdf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter1500.cas.h5",
+      "bytes": 767808,
+      "sha256": "c11ff0c971fa4e67f2f86d15c0c4dd658d521129690f7fbb5bbfaf91ad1d9cef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter1500.dat.h5",
+      "bytes": 972548,
+      "sha256": "f49b2f11c880fe4cdef793cb02f0746c1974723438e24e8a91294f102f752511"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter1800.cas.h5",
+      "bytes": 767790,
+      "sha256": "f15173c0ee8dca51d57e30ac941ba81d3c2c163bd2931f99f7518b73e6fdd927"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter1800.dat.h5",
+      "bytes": 972136,
+      "sha256": "c1596561c82036e5e4ae0956d9fe14a6568d39cf0c44221bd76ba27848220307"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter2000.cas.h5",
+      "bytes": 767807,
+      "sha256": "258ab01de3701ed62aaa8db9829f3bae065e74faa3949c6bb05586a270686595"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\square-wake-iter2000.dat.h5",
+      "bytes": 974274,
+      "sha256": "02e4d1dce6cdce2b85c6a211bbf24b2651c0a1b6c96f7a3f79f8df953321c486"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\status.json",
+      "bytes": 4146,
+      "sha256": "90832a149220daeecfacfcf13a7415b8d52a0352654926cb6c81f16fbbe777ea"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\fluent\\summary.json",
+      "bytes": 4074,
+      "sha256": "565bce9cb13f80af86020861ef04fe2ae9a5ccf11b4cbe185ce04a9b87dab115"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\mesh\\geometry.npz",
+      "bytes": 180198,
+      "sha256": "1b154cc6c9c0d8856e00ca1305a8d99ce5f30ef245fa6f4e0193c2a516960829"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\mesh\\setup.json",
+      "bytes": 2048,
+      "sha256": "454d6a3fd7872d4eb4566ba46d45333433b462df961afd90052d791067c9574d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\mesh\\square-wake.msh",
+      "bytes": 1105785,
+      "sha256": "ee23f1eece6c0c6ff420a162e155643be809f1acc6db5060a68d4c09f3d435d4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\C",
+      "bytes": 373508,
+      "sha256": "db6ad0c21be820a26175e112534b86bfb959dd4c3cda1bfe02abc4b476e77730"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\U",
+      "bytes": 349,
+      "sha256": "c1859848c44722bad68696afce652b4e43ccf00247a0377ed88105e3faf37501"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\Vc",
+      "bytes": 139466,
+      "sha256": "cb29bebe67845ebab222e92b315601120d5f5cdd6e0a6e43d46f0891c90e745b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\p",
+      "bytes": 341,
+      "sha256": "a95f52cf0ae9828d95a4d11fc6d4d93972514eb6f3a02e3540bc689ef9e9726f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\polyMesh\\boundary",
+      "bytes": 1565,
+      "sha256": "1e2beba4b0cc3cad15edd2d96c547364d9e152baf4bfa72e082c7dd79fa1b08c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\polyMesh\\faces",
+      "bytes": 1639079,
+      "sha256": "a75a2a85107950ee97a2a25ae061fc910e672782656aed95cf386994c48a529a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\polyMesh\\neighbour",
+      "bytes": 168137,
+      "sha256": "eee5eb9f3ec980552a1d3cf8e719a4202db3d1f540072a86cbe4472e8c25f7c4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\polyMesh\\owner",
+      "bytes": 339137,
+      "sha256": "12cb50b368b3c348f70ffd8fc4efc8adba153b849cd9bdff98b32ace1a1ca3ab"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\0\\polyMesh\\points",
+      "bytes": 607369,
+      "sha256": "fb4d6f6886e6f252d305baae59ef6cc8e9d49a96ed2ad27cce338cdaf6be2ae5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1000\\U",
+      "bytes": 652294,
+      "sha256": "33baa0dc646bd718e4fb7f4c06d85eb4bb6e4ec596cc8e4c9b6601e45f3e20ff"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1000\\p",
+      "bytes": 324264,
+      "sha256": "11842d42bb6226c0f33cb4d8f313c5f0d45e5d9964536ecb7733645908f01102"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1000\\phi",
+      "bytes": 637313,
+      "sha256": "aed38847be7375fe5baedbf5a4f8d4b6b25aa01a95ca12a5bf8d8d60246c0e32"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1000\\wallShearStress",
+      "bytes": 3028,
+      "sha256": "6fcd555dbe01d3725a11af7a242e8b00b3f410584158109aafa2e174f7a1f361"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\100\\U",
+      "bytes": 651600,
+      "sha256": "2ca5508cd4ba1a1a4bc0595ef56de5537eeba2a74d0717b8b2691702a1e15a42"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\100\\p",
+      "bytes": 320200,
+      "sha256": "c2469859e1a09347036f078824f484c1118e08eb27f9c6c11e82a0f1aba36635"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\100\\phi",
+      "bytes": 637260,
+      "sha256": "3ed6bce120c4905c866a22d54cedd628d0453054f282efb21d4f3d8d3fa53a3b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\100\\wallShearStress",
+      "bytes": 3030,
+      "sha256": "14361954553eee59726436f8809d58a51f4deef2f6d99bec3d476bce92f605d4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1100\\U",
+      "bytes": 652236,
+      "sha256": "acc3f00ca599ba28122d9c724d95b2a50bd1e000e96b7e5e557b1a5234d7371a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1100\\p",
+      "bytes": 324360,
+      "sha256": "25affd3734482df8fb0e1c9ed884a5add93fbaefddceade7f59ceb4e085ddd74"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1100\\phi",
+      "bytes": 637364,
+      "sha256": "e1793ec1debd68e771ead47d56db4812487a1a302abc1fb59c4f7250dd3484f9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1100\\wallShearStress",
+      "bytes": 3028,
+      "sha256": "a6fdf14aade765276600e1ed945f9802bd48e6e58713bf58bd51d46cb32c259b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1200\\U",
+      "bytes": 652220,
+      "sha256": "2b00177e4f1cb9f0142561477d7e7ce1b733c12ec5057dc42513c749d6272022"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1200\\p",
+      "bytes": 324324,
+      "sha256": "10e7e5c5f6c202d9f382d34305aa06e4b8bff09d35707696892ebbc686cee0a8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1200\\phi",
+      "bytes": 637277,
+      "sha256": "8d18ef24ad9d9a61c6431660a21384ff79cb005fa623206d7935c33496ee3c5b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1200\\wallShearStress",
+      "bytes": 3029,
+      "sha256": "be001e5a84b367e9ea886b20801fc9f445e5b4cded584a1cc69d737529afedaf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1300\\U",
+      "bytes": 652178,
+      "sha256": "ce9d92fae7120cf638f298932b1ad22eff9d0af4e98b006be913c20b5aaceae7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1300\\p",
+      "bytes": 324449,
+      "sha256": "c4a07072144466adc07139367e06ea5e7501ae507ed78ac43e9a2476c1096b40"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1300\\phi",
+      "bytes": 637471,
+      "sha256": "dc482d6661306326883819d2fd0ba724a5e3d81fc51be977cc6c48faaeb59180"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1300\\wallShearStress",
+      "bytes": 3024,
+      "sha256": "ddd5ad0a6fb795845684fc0629b9a7e6bde8847fcdaf91adac8227acfbb2c359"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1400\\U",
+      "bytes": 652258,
+      "sha256": "e3833f23e0d34381151884a07eba2e1451f278bed4f1ac2400c716461bd4b500"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1400\\p",
+      "bytes": 324374,
+      "sha256": "6ad10c4bebeb344e0324d1cfb72b95ffbb7b464900ab63f66b1c91b8c309cdeb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1400\\phi",
+      "bytes": 637336,
+      "sha256": "060aa4e13251151c4fcc97c0d710e4b92e68f422aff985b98f0da8870bccfb72"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1400\\wallShearStress",
+      "bytes": 3031,
+      "sha256": "48b102d9c2fe7f3cd2eff3056b33a019ce7f8a061ffaae5fd0d47ea1a4796010"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1500\\U",
+      "bytes": 652248,
+      "sha256": "5ff8b7e596a4ded1a649e4a906204403cc498dab11a11b566352f005f407d2cc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1500\\p",
+      "bytes": 324325,
+      "sha256": "b49d979456298540a2347beb007696e499799d85180cb4c8448c3f6105833d30"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1500\\phi",
+      "bytes": 637279,
+      "sha256": "7a0fa07f806068df5c91896282d10082455569df2b26aae0b631c5e7dc4c106a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1500\\wallShearStress",
+      "bytes": 3030,
+      "sha256": "21a05eaf5e45d64a0e5083b74b5be3e249146e2ce4fa4eeac1ab2d5545023c09"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1600\\U",
+      "bytes": 652158,
+      "sha256": "5abfe2bf308e7fb411f31c07bd0cc91db464976f76a4cd97e07e2b0efb47bf19"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1600\\p",
+      "bytes": 324345,
+      "sha256": "742c0e94186d515db0ab737271367c3d8f4f8dacb70950598aa415e392c399d7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1600\\phi",
+      "bytes": 637270,
+      "sha256": "6b329465d05be9281319d2f3f2f3f9a5bf89b5dbb5d4b5af40e64e3d57cf8960"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1600\\wallShearStress",
+      "bytes": 3027,
+      "sha256": "9c047bb1f68d4e0685797610d67daa6ba0f60fc7872b1d89e2db9dec3cb94b64"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1700\\U",
+      "bytes": 652260,
+      "sha256": "c4999eb3a3d7b472a59d468e4801ea5d6102fd0d3a6a349121e13440ee08ba3d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1700\\p",
+      "bytes": 324444,
+      "sha256": "2dccf870cf384a47e482fa632ea74a771ad7457fb2520d921aaaa3659233329f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1700\\phi",
+      "bytes": 637375,
+      "sha256": "c85e15cda03af29e1be7bda38b9c72d1d6a86a9709a237703abf94cc93af6a2d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1700\\wallShearStress",
+      "bytes": 3033,
+      "sha256": "77aa0d4b6ac4c65f681f3ae3547914dd70fe131582471d7eeef349360dd8aa96"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1800\\U",
+      "bytes": 652167,
+      "sha256": "2d1564b4fcf30e07b0646b87a7a13e986cdec2a322d0651ba00224013401debb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1800\\p",
+      "bytes": 324351,
+      "sha256": "425b6b35d09b5adb7213e4e7b81001ca09f57244926b736f8ddfd5aa47f34b44"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1800\\phi",
+      "bytes": 637218,
+      "sha256": "f1a7cc3d7d5db13462843d5e412e9db797abc3d851fe5ee6e5cda234c3d7cfa4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1800\\wallShearStress",
+      "bytes": 3029,
+      "sha256": "14e5af43cef3cef3d6640e84fe91f891eff3981ae6297c43955cf336ae5f595b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1900\\U",
+      "bytes": 652272,
+      "sha256": "83248909438e4c342d63c3c14166df6ff983def307fbcf2f569cec314b36151a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1900\\p",
+      "bytes": 324360,
+      "sha256": "709c572770635e6750fdeb9c7a80ae4c2a9727dc31e14b8580e57f747e72ca16"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1900\\phi",
+      "bytes": 637400,
+      "sha256": "31ce9f18a495a8740cfc20bc2384503a152557335c37bcf8a2f73b4b27897045"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\1900\\wallShearStress",
+      "bytes": 3031,
+      "sha256": "19afad06ec36c97bbc6cddae1f644f1a1ed62d686f90d037b506d4020be434ff"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\2000\\C",
+      "bytes": 373511,
+      "sha256": "6f3aba60b4c660b7b25df81d9b9d2e89a8c2beb2b681911b8097323a9f2d5a6d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\2000\\U",
+      "bytes": 652112,
+      "sha256": "1be3a23db00f1adfed38981663c62c8a385788ce609c2437eb5adf997bc15fdc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\2000\\Vc",
+      "bytes": 139469,
+      "sha256": "cf5c008c3ddca7f327c1d72aa9fdb30ea9b2ae472488776f252e1669965736a0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\2000\\p",
+      "bytes": 324288,
+      "sha256": "87a66b9eb8e8ea0dfde7af96a59863d9014cc08f36dbc3154f93db3c8ff7ee7a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\2000\\phi",
+      "bytes": 637378,
+      "sha256": "89088edce8c1611e8a352b4f8f2298b680a5cfaa1d9ae2186c4c8ce84c8ff01c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\2000\\wallShearStress",
+      "bytes": 3031,
+      "sha256": "5fc89c417971e34eb0c00bfa889f88c196840e38361f5dc1c75daced15e7b358"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\200\\U",
+      "bytes": 649554,
+      "sha256": "9bc5fd99653e038a6dd04a44f6640f79e14dacd975125ddc8905e57ecd916667"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\200\\p",
+      "bytes": 323240,
+      "sha256": "45f2fb8ad9413f2d08dd138e75115b603ba3b09a411a4c28602b33555b64c6f2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\200\\phi",
+      "bytes": 637375,
+      "sha256": "25f148abf7915cc47e3639698f2cb932a85131d13134694257a408ffc5555749"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\200\\wallShearStress",
+      "bytes": 3026,
+      "sha256": "b681ffa8080e8b8c71d899b61ca4237720d90339a5cff010372d077950a1f501"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\300\\U",
+      "bytes": 651068,
+      "sha256": "90014c5015456f192df10d22c8e1466f0aa95a1340029f5927be567a1fc3d498"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\300\\p",
+      "bytes": 324138,
+      "sha256": "2e33b4af6a819ee4c2b58d87b41d6945af87bd5755ae02d447c99a99ed0c9c08"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\300\\phi",
+      "bytes": 637374,
+      "sha256": "7f9e1bdde3e4541ab5134f951db046a0df8da0ab56dbfaec00116f951522de2f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\300\\wallShearStress",
+      "bytes": 3028,
+      "sha256": "bbc3cfdfb195c5149b5f77b6bec61f9732ea01de40e27705bf9b5d745b00c838"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\400\\U",
+      "bytes": 652019,
+      "sha256": "236ff67e9edf432b64eb39c7cc29ebab04c4bb06590847d02fe959ad4e60667b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\400\\p",
+      "bytes": 324355,
+      "sha256": "025b49c10a7dee0df3fc4b3317ed25affd3efb16a71b9c45e329ac9d4d88332e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\400\\phi",
+      "bytes": 637293,
+      "sha256": "221ce7d56b1593549981dbc6e62025c5b55afeebfbd4b1e600d1f1c3e09fa96a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\400\\wallShearStress",
+      "bytes": 3023,
+      "sha256": "71d1ffce03a7b311d19e3a66b761044286f7c52b3cffb9738c291461e01ee712"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\500\\U",
+      "bytes": 652248,
+      "sha256": "514feadce5bc510880dc2ade40c741a72b417ed3cd42c32df77f50b614fc98df"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\500\\p",
+      "bytes": 324381,
+      "sha256": "640d89cddad0dd04881cd45cf1198c361b730fc69f8f2b452f10a8f5104e78bf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\500\\phi",
+      "bytes": 637292,
+      "sha256": "a9819fe5cdacd48db3a07c95f79a489ab52687a8ffd176ede5144d80be7dde55"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\500\\wallShearStress",
+      "bytes": 3031,
+      "sha256": "bf3ce642c1f419f907c2a18e5bef304e7609edf9072954e360c3a41bc8fb5bf2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\600\\U",
+      "bytes": 652270,
+      "sha256": "bc43001ddb00cc9f44608a78af54ca4ec249ad14c9783655719c155c75f772b0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\600\\p",
+      "bytes": 324423,
+      "sha256": "2a72aae8d5302fbbfaf4660db91bf4c2d6d09bdde2d69fdb14f683a7370b03dd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\600\\phi",
+      "bytes": 637366,
+      "sha256": "e97dc7cbd6436ea2294ba39d422eaf4b1bec0763a05deac03cb39447010f8ac3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\600\\wallShearStress",
+      "bytes": 3026,
+      "sha256": "ce2a5f08a7d51f91fcd9eae8bdd3c1ea9034b4abca4cc51ac5f9efc31cd3cd67"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\700\\U",
+      "bytes": 652299,
+      "sha256": "999967e5f31db60094bff3defd757857da52189e3bcbfcafee2f9c16c5a9572b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\700\\p",
+      "bytes": 324418,
+      "sha256": "a2ca18b5fff4f660d3abfb5b5d286a495d552fb2538b7eeea035972448e1aad8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\700\\phi",
+      "bytes": 637292,
+      "sha256": "6c3e9da17a915bd4d1847a192a79a9f0923c3512400899c82644a6abe3bb1f0a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\700\\wallShearStress",
+      "bytes": 3027,
+      "sha256": "87c03a754831009dd5ee3b2d67960413686896b8b6b86bdbfce9012c1adf28ee"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\800\\U",
+      "bytes": 652260,
+      "sha256": "3a46fdfcbba57d0a18496909912f2e8ac082a1cc9833b5b2bd44101c7fcb0613"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\800\\p",
+      "bytes": 324434,
+      "sha256": "b43c6e84ced2883b933b01717041901f94fd78b7a6eb59f5556b03e852396902"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\800\\phi",
+      "bytes": 637280,
+      "sha256": "f0e4d04dc04c87097d3db70521092bd6127c53591404f98482e5da2a18ad1cd1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\800\\wallShearStress",
+      "bytes": 3033,
+      "sha256": "708f6ffec958c970da969179f85f08a88e632f9c0f64b3c72d26e72d6197e545"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\900\\U",
+      "bytes": 652164,
+      "sha256": "4096d79139088cfa6115d7feb5fbf264143c7ca89bfb2dc62c526c6cf4e37814"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\900\\p",
+      "bytes": 324348,
+      "sha256": "3fbeae550f02a6d807b07dc7a450d2cd37556c9086bce40a578d38ed4283efb2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\900\\phi",
+      "bytes": 637256,
+      "sha256": "0a63508346b1b216f39901a0031998fdd307031c9ec70552b5acf5b514aa486f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\900\\wallShearStress",
+      "bytes": 3029,
+      "sha256": "cfa474fed8dab8278bf361885b8d28a705d60d67be45116f3a1f3ef58012d031"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\constant\\momentumTransport",
+      "bytes": 113,
+      "sha256": "5679d1df75842397f41b474d876d9f58a62610c650df49bc949c447458deb338"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\constant\\physicalProperties",
+      "bytes": 126,
+      "sha256": "60a740f36c41987812a4d505ec35cc00da9e21dfca0d45f9243b3550cd5baec7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\declared-comparison.json",
+      "bytes": 5471,
+      "sha256": "b56057ebc15c66f2c3ff262cc6674b4299b2ea5310f055498de5e7cd53b4ec25"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\input-square-wake.msh",
+      "bytes": 1105785,
+      "sha256": "ee23f1eece6c0c6ff420a162e155643be809f1acc6db5060a68d4c09f3d435d4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\mesh-check.log",
+      "bytes": 4278,
+      "sha256": "98cc4b2d4537934366fa244383a2c1be473ced11b247d5e04f8e319eb09c7309"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\postProcessing\\bodyCoefficients\\0\\forceCoeffs.dat",
+      "bytes": 260764,
+      "sha256": "2de48712fea5a19544911c8218b1ad9dda39e59c3bd646ef3ee68a1ca3d1cd5f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\postProcessing\\bodyForces\\0\\forces.dat",
+      "bytes": 578491,
+      "sha256": "5025bbfa535326816d1232d189495e04214d9a480605ee3ec55d09f813c76520"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\DESIGN.md",
+      "bytes": 4039,
+      "sha256": "1a0497cd5e29f9ca2eb547d4e55842ef8d4ab5dc282425b805c9c5f6f6657abe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\FORCE_TARGETS.md",
+      "bytes": 1459,
+      "sha256": "b3bba17db26576bd791075bab16d982a7446bce7f345d4d9b1d3b88112f28188"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\Launch-OpenFOAM-v003.ps1",
+      "bytes": 4781,
+      "sha256": "2404dbedc0e5002e64ea1b565a50e7702806b60cfa4fc4f0c6ac86dadf0202f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\geometry.npz",
+      "bytes": 180198,
+      "sha256": "1b154cc6c9c0d8856e00ca1305a8d99ce5f30ef245fa6f4e0193c2a516960829"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-source-sha256.txt",
+      "bytes": 1730,
+      "sha256": "c50569962a92df2502934eac87b08610a65b0e15380ecda8acc57806e0a6be81"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\applications\\modules\\incompressibleFluid\\incompressibleFluid.C",
+      "bytes": 5679,
+      "sha256": "9e1cac27826bb98318b95fabe66fc2350ff5dc8cc2997eb0cee2592b677f4105"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\applications\\utilities\\postProcessing\\foamPostProcess\\foamPostProcess.C",
+      "bytes": 10563,
+      "sha256": "c8e701d85048fb6d977d5b0e5e6651cfe7e3dd77da6712d61931d8306c48dbb4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\src\\OpenFOAM\\db\\functionObjects\\functionObjectList\\functionObjectList.C",
+      "bytes": 11950,
+      "sha256": "a810c981a7b86e9c5f1c3177b48027686bccddfbac3831be4906a3d4aa5a89a3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\src\\finiteVolume\\fields\\fvPatchFields\\constraint\\symmetry\\symmetryFvPatchField.C",
+      "bytes": 3096,
+      "sha256": "644b42149b34ae2b340adaf801a6040d887577400609f8a55a5c0658659ab1a9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\src\\functionObjects\\field\\wallShearStress\\wallShearStress.C",
+      "bytes": 6974,
+      "sha256": "d36322feab19006cd6e64de3f43eff7b2278a84d351d20224e85dd75334a383f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\src\\functionObjects\\field\\writeCellCentres\\writeCellCentres.C",
+      "bytes": 3308,
+      "sha256": "3ab2c3eebd0181d39fbab20ebf34ede5e4ea0e90e1753a2abe9c74fc6289d384"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\src\\functionObjects\\field\\writeCellVolumes\\writeCellVolumes.C",
+      "bytes": 2814,
+      "sha256": "c8dacad77f966dd72cd60b891cb7f19a4f6e8567b45baa2f9c27a7faeeb95818"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\src\\functionObjects\\forces\\forceCoeffs\\forceCoeffs.C",
+      "bytes": 7672,
+      "sha256": "3423841bd79ded77a29b3697b12a5eca37526403a63ce22f44a3cb46f4be2ff9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\src\\functionObjects\\forces\\forcesBase\\forcesBase.C",
+      "bytes": 24496,
+      "sha256": "e337ddee7c464287737fb13f40c511a0430caab8478481c135c9a0e24fb0a99a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\src\\functionObjects\\forces\\forces\\forces.C",
+      "bytes": 2879,
+      "sha256": "bb0ad7b13aa19e9f34102d56d50af172c18d69c629d7175cf463f1eb4bef07fe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\system\\fvSchemes",
+      "bytes": 1366,
+      "sha256": "f295385ead9669b050a25ea2d9026ca3811a6a04a4bc0afe2e08baf1f7f1d94e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\system\\fvSolution",
+      "bytes": 1562,
+      "sha256": "302286621e2c82a857a65d47bc76c266279f4b0016234b7582a18e773a2c2e00"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\mesh-independent-review-v001.json",
+      "bytes": 1554,
+      "sha256": "9449b9cc867ab5ab13a83a70c255b054fd2808e13a6d69975bea6f35e78d5cb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\preflight-validation.json",
+      "bytes": 2063,
+      "sha256": "67bf8d5697d30eddeec9ac5e81026914cc0437f7c00f1d7479c523f112dc2762"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\prepare_openfoam_square_wake_v003.py",
+      "bytes": 20034,
+      "sha256": "7267d7eaf7b9d061c799b3b82a5f0250eb04598063b6a0c64f590c10431b0ece"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\prepared-input-sha256.json",
+      "bytes": 1856,
+      "sha256": "65f8bdf41a631c40a9e44d557746db71ecfa78b0bf2673c7a1d907de9fd10ecf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\root-run-authorization.json",
+      "bytes": 675,
+      "sha256": "84a8aa4ccad6d808c42f58e437793c4913d03821c80ad9eb68f4db7afd8b1e34"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\run-openfoam-executed.sh",
+      "bytes": 6743,
+      "sha256": "26e59368cb01d27ece42f4f979a4096de6c59b32964ec0588fe96c083749b414"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\run-openfoam-v003.sh",
+      "bytes": 6743,
+      "sha256": "26e59368cb01d27ece42f4f979a4096de6c59b32964ec0588fe96c083749b414"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\provenance\\setup.json",
+      "bytes": 2048,
+      "sha256": "454d6a3fd7872d4eb4566ba46d45333433b462df961afd90052d791067c9574d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\run-status.json",
+      "bytes": 312,
+      "sha256": "62e978c6c610482626c95b7f156eda6e252a696f8f9903160a46f9473d1a6726"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\solver.log",
+      "bytes": 1103591,
+      "sha256": "774245cfeb79e9acf4d822b4556e73d18c2330654865eebc4cc41039df2e7f9b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\system\\controlDict",
+      "bytes": 1176,
+      "sha256": "a5e703378d92b2567d7f74a201561fb0f462538959bc91a3b645d4484766895b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\system\\decomposeParDict",
+      "bytes": 166,
+      "sha256": "ddb5382347794fb453c78e81b977665ce8b4658f6b620ac06d9454b4ebd9a930"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\system\\forcePreflight",
+      "bytes": 884,
+      "sha256": "6233a818fd2be6b8f82850cc177e0f6a37ddc4e6bf7075d1dcb60c115ecda11c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\system\\fvSchemes",
+      "bytes": 409,
+      "sha256": "021d0af39e30e44f02049832103bc6addb12bf9a156f9e33221a9bcbd9af2858"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-square-wake-v001\\openfoam-v003\\system\\fvSolution",
+      "bytes": 347,
+      "sha256": "18c9b79cc47ef688a257d40e58f7db721da4fe16779ae0d0db096029bde0e394"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_nozzle_fluent_v005.py",
+      "bytes": 19025,
+      "sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_square_wake_openfoam_v003.py",
+      "bytes": 34725,
+      "sha256": "90cf3e6068af3f5f5ddcd86f099de52dc91c87b22c644a11c96a35412621b093"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_cavity_native_v003.py",
+      "bytes": 40050,
+      "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_elbow_native_v001.py",
+      "bytes": 27914,
+      "sha256": "fc8fc0272c6f539cbe19533ef7efbef265009435643efbb08a3685fb0773b7a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_nozzle_native_v004.py",
+      "bytes": 42964,
+      "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_square_wake_native_v002.py",
+      "bytes": 41277,
+      "sha256": "35660ed66f14dfc9d76c4314224f0e8e28aa390af16e00b0d1b06344168ab6a5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_square_wake_v003.py",
+      "bytes": 20034,
+      "sha256": "7267d7eaf7b9d061c799b3b82a5f0250eb04598063b6a0c64f590c10431b0ece"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\square_wake_fluent_common_v001.py",
+      "bytes": 6875,
+      "sha256": "2637a1d2c1cdd5f5628f25e8c56946554969f80164a4b795b4e3aa2fcbf5cf0f"
+    }
+  ]
+}

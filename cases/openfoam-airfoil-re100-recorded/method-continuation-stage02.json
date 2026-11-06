@@ -1,0 +1,16 @@
+{
+  "prior_iteration": 2000,
+  "prior_fvSolution_sha256": "a10306cf7fc880a7933e21368a4b0cc1b539361fb451cf5b7fa36ccfde2e15e2",
+  "current_fvSolution_sha256": "d22639fb02f15d1bf337f3ea60c731d29a064173e3fd0cd4eebe3a5f4378d9b7",
+  "declared_comparison_sha256": "d0d26c5aee8c2420573dfafe0dfcd8f65536696c274aa7c648b79aa3b69ad02c",
+  "U_equation_relaxation": 0.9,
+  "n_nonorthogonal_correctors": 2,
+  "stage02_end_iteration": 2500,
+  "prior_fvSchemes_sha256": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0",
+  "current_fvSchemes_sha256": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0",
+  "prior_controlDict_sha256": "e553ee732029de33cf09dc552f45e5aadcf722e6a74904714683b418e9af8f0a",
+  "current_controlDict_sha256": "64037d34debd0fc6d87da03176d8ed28a4925c4cd07d04b2a3ce8d7886ac5663",
+  "accuracy_criteria_unchanged": true,
+  "initialization": "Continue preserved cold-start solution from2000; no Fluent fields imported",
+  "reason": "Smooth but slow force/residual decay in initial2000; assess a500-iteration higher-relaxation continuation before further changes"
+}

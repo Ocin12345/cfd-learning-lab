@@ -1,0 +1,54 @@
+{
+  "selected_runs": {
+    "fluent": "fluent",
+    "openfoam": "openfoam"
+  },
+  "selection_reason": "Both original fixed2000 calculations completed and passed all declared native numerical checks without extra iterations or target changes. Source-bound native fields retain raw outlet gauge pressure0. The24s tracer clock and6s seed period cover actual10.23-17.18s computed transit times in both saved velocity fields.",
+  "numerical_outcomes": {
+    "fluent": {
+      "aggregate": true,
+      "failed_checks": []
+    },
+    "openfoam": {
+      "aggregate": true,
+      "failed_checks": []
+    }
+  },
+  "metrics": {
+    "fluent": {
+      "residuals": {
+        "continuity": 1.3311030732529432e-14,
+        "x-velocity": 4.46408572826261e-17,
+        "y-velocity": 4.955788215864678e-17
+      },
+      "max_div": 8.673617379884088e-15,
+      "rms_div": 2.1310034219642754e-15,
+      "mass_imbalance": 4.336808689942018e-17,
+      "U_change": 2.0402034717111797e-16
+    },
+    "openfoam": {
+      "residuals": {
+        "p": 1.0303925290148e-10,
+        "Ux": 1.7891856057138e-12,
+        "Uy": 4.8483386785619e-13
+      },
+      "max_div": 1.770552969645501e-10,
+      "rms_div": 2.4637770345784645e-11,
+      "mass_imbalance": 7.360377498460968e-13,
+      "U_change": 8.280548402150795e-12
+    }
+  },
+  "preserved_evidence": [
+    {
+      "description": "A tracer timing probe was held below the unchanged memory floor during Fluent execution; after Fluent closed, the same read-only probe completed without native changes.",
+      "sha256": "5aa8dc46b1625365f69ff96f387df7133d5fd8cd0d3271a84ded47031fba99da"
+    }
+  ],
+  "artifact_integrity": "Verified separately from numerical outcomes",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "scalar_mixing_simulated": false,
+  "three_dimensional_flow_simulated": false,
+  "Dean_vortex_claim": false,
+  "owner_reflection_provided": false
+}

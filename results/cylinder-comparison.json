@@ -1,0 +1,30 @@
+{
+  "solver": "ANSYS Fluent Student 2026 R1",
+  "mode": "hidden_gui",
+  "solver_processes": 2,
+  "rows": [
+    {
+      "mesh": "Original",
+      "cells": 24576,
+      "drag_coefficient": 2.0721663,
+      "iterations": 56,
+      "mass_imbalance_kg_s": 1.279048e-10
+    },
+    {
+      "mesh": "Medium",
+      "cells": 55296,
+      "drag_coefficient": 2.0728375,
+      "iterations": 51,
+      "mass_imbalance_kg_s": 3.5560106e-09
+    },
+    {
+      "mesh": "Fine",
+      "cells": 98304,
+      "drag_coefficient": 2.0731574,
+      "iterations": 51,
+      "mass_imbalance_kg_s": 3.9050008e-10
+    }
+  ],
+  "medium_to_fine_change_percent": 0.015430569815877926,
+  "scope": "Three meshes at fixed outer radius; not a domain-independence or experimental validation study."
+}

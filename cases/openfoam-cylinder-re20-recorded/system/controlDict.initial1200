@@ -1,0 +1,46 @@
+FoamFile
+{
+    version 2.0;
+    format ascii;
+    class dictionary;
+    object controlDict;
+}
+
+solver incompressibleFluid;
+startFrom startTime;
+startTime 0;
+stopAt endTime;
+endTime 1200;
+deltaT 1;
+writeControl timeStep;
+writeInterval 1200;
+purgeWrite 0;
+writeFormat ascii;
+writePrecision 12;
+writeCompression off;
+timeFormat general;
+timePrecision 8;
+runTimeModifiable true;
+functions
+{
+    forceCoefficients
+    {
+        type forceCoeffs;
+        libs ("libforces.so");
+        patches (cylinder);
+        rho rhoInf;
+        rhoInf 1;
+        p p;
+        U U;
+        CofR (0 0 0);
+        liftDir (0 1 0);
+        dragDir (1 0 0);
+        pitchAxis (0 0 1);
+        magUInf 1;
+        lRef 1;
+        Aref 1;
+        log false;
+        writeControl timeStep;
+        writeInterval 1;
+    }
+}

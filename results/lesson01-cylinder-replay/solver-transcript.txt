@@ -1,0 +1,476 @@
+Fast-loading "[local path]"
+Done.
+
+Reading from [host]:"[local path]" in NODE0 mode ...
+  Reading mesh ...
+       98304 cells,     1 cell zone  ...
+          98304 quadrilateral cells,  zone id: 2
+      197120 faces,     4 face zones ...
+         196096 2D interior faces,  zone id: 3
+            512 2D wall faces,  zone id: 4
+            256 2D velocity-inlet faces,  zone id: 5
+            256 2D pressure-outlet faces,  zone id: 6
+       98816 nodes,     1 node zone  ...
+  Done.
+
+
+Building...
+     mesh
+	distributing mesh
+		parts..,
+		faces..,
+		nodes..,
+		cells..,
+        bandwidth reduction using Reverse Cuthill-McKee: 272/221 = 1.23077
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet
+	inlet
+	cylinder
+	interior
+	fluid
+     parallel,
+Done.
+
+Reading from [host]:"[local path]" in NODE0 mode ...
+
+
+  Reading results.
+Parallel variables...
+Done.
+
+ Domain Extents:
+   x-coordinate: min (m) = -2.000000e+01, max (m) = 2.000000e+01
+   y-coordinate: min (m) = -2.000000e+01, max (m) = 2.000000e+01
+ Volume statistics:
+   minimum volume (m3): 2.148901e-05
+   maximum volume (m3): 1.222959e-01
+     total volume (m3): 1.255820e+03
+ Face area statistics:
+   minimum face area (m2): 3.490071e-03
+   maximum face area (m2): 5.046577e-01
+ Checking mesh.........................................
+ Done.
+
+Mesh Quality:
+
+Minimum Orthogonal Quality =  9.99985e-01 cell 21737 on zone 2 (ID: 223 on partition: 1) at location (-4.59932e-01,  2.00506e-01)
+
+
+Maximum Aspect Ratio =  2.31250e+00 cell 47294 on zone 2 (ID: 97994 on partition: 1) at location (-1.54937e+01,  1.22451e+01)
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    51  8.5671e-08  1.6244e-10  9.0324e-11  0:00:00    1
+!   51 solution is converged
+    52  6.4636e-08  1.2476e-10  6.9118e-11  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    52  6.4636e-08  1.2476e-10  6.9118e-11  0:00:00    1
+    53  4.8795e-08  9.5808e-11  5.2942e-11  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    53  4.8795e-08  9.5808e-11  5.2942e-11  0:00:00    1
+    54  3.6859e-08  7.3540e-11  4.0582e-11  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    54  3.6859e-08  7.3540e-11  4.0582e-11  0:00:00    1
+    55  2.7887e-08  5.6423e-11  3.1125e-11  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    55  2.7887e-08  5.6423e-11  3.1125e-11  0:00:00    1
+    56  2.1043e-08  4.3271e-11  2.3884e-11  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    56  2.1043e-08  4.3271e-11  2.3884e-11  0:00:00    1
+    57  1.6008e-08  3.3176e-11  1.8328e-11  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    57  1.6008e-08  3.3176e-11  1.8328e-11  0:00:00    1
+    58  1.2136e-08  2.5431e-11  1.4069e-11  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    58  1.2136e-08  2.5431e-11  1.4069e-11  0:00:00    1
+    59  9.1863e-09  1.9487e-11  1.0800e-11  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    59  9.1863e-09  1.9487e-11  1.0800e-11  0:00:00    1
+    60  6.9755e-09  1.4926e-11  8.2903e-12  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    60  6.9755e-09  1.4926e-11  8.2903e-12  0:00:00    1
+    61  5.2880e-09  1.1428e-11  6.3628e-12  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    61  5.2880e-09  1.1428e-11  6.3628e-12  0:00:00    1
+    62  4.0263e-09  8.7485e-12  4.8820e-12  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    62  4.0263e-09  8.7485e-12  4.8820e-12  0:00:00    1
+    63  3.0500e-09  6.6959e-12  3.7447e-12  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    63  3.0500e-09  6.6959e-12  3.7447e-12  0:00:00    1
+    64  2.3098e-09  5.1229e-12  2.8714e-12  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    64  2.3098e-09  5.1229e-12  2.8714e-12  0:00:00    1
+    65  1.7576e-09  3.9181e-12  2.2008e-12  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    65  1.7576e-09  3.9181e-12  2.2008e-12  0:00:00    1
+    66  1.3378e-09  2.9958e-12  1.6862e-12  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    66  1.3378e-09  2.9958e-12  1.6862e-12  0:00:00    1
+    67  1.0208e-09  2.2900e-12  1.2916e-12  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    67  1.0208e-09  2.2900e-12  1.2916e-12  0:00:00    1
+    68  7.7660e-10  1.7501e-12  9.8904e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    68  7.7660e-10  1.7501e-12  9.8904e-13  0:00:00    1
+    69  5.8993e-10  1.3371e-12  7.5710e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    69  5.8993e-10  1.3371e-12  7.5710e-13  0:00:00    1
+    70  4.4894e-10  1.0213e-12  5.7935e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    70  4.4894e-10  1.0213e-12  5.7935e-13  0:00:00    1
+    71  3.4184e-10  7.7984e-13  4.4326e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    71  3.4184e-10  7.7984e-13  4.4326e-13  0:00:00    1
+    72  2.6097e-10  5.9537e-13  3.3906e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    72  2.6097e-10  5.9537e-13  3.3906e-13  0:00:00    1
+    73  1.9886e-10  4.5444e-13  2.5927e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    73  1.9886e-10  4.5444e-13  2.5927e-13  0:00:00    1
+    74  1.5098e-10  3.4680e-13  1.9819e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    74  1.5098e-10  3.4680e-13  1.9819e-13  0:00:00    1
+    75  1.1480e-10  2.6461e-13  1.5146e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    75  1.1480e-10  2.6461e-13  1.5146e-13  0:00:00    1
+    76  8.7487e-11  2.0187e-13  1.1572e-13  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    76  8.7487e-11  2.0187e-13  1.1572e-13  0:00:00    1
+    77  6.6784e-11  1.5399e-13  8.8403e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    77  6.6784e-11  1.5399e-13  8.8403e-14  0:00:00    1
+    78  5.0832e-11  1.1744e-13  6.7520e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    78  5.0832e-11  1.1744e-13  6.7520e-14  0:00:00    1
+    79  3.8581e-11  8.9564e-14  5.1560e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    79  3.8581e-11  8.9564e-14  5.1560e-14  0:00:00    1
+    80  2.9310e-11  6.8297e-14  3.9367e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    80  2.9310e-11  6.8297e-14  3.9367e-14  0:00:00    1
+    81  2.2300e-11  5.2076e-14  3.0053e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    81  2.2300e-11  5.2076e-14  3.0053e-14  0:00:00    1
+    82  1.7001e-11  3.9704e-14  2.2939e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    82  1.7001e-11  3.9704e-14  2.2939e-14  0:00:00    1
+    83  1.2950e-11  3.0270e-14  1.7506e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    83  1.2950e-11  3.0270e-14  1.7506e-14  0:00:00    1
+    84  9.8560e-12  2.3076e-14  1.3357e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    84  9.8560e-12  2.3076e-14  1.3357e-14  0:00:00    1
+    85  7.4996e-12  1.7592e-14  1.0191e-14  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    85  7.4996e-12  1.7592e-14  1.0191e-14  0:00:00    1
+    86  5.7211e-12  1.3410e-14  7.7736e-15  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    86  5.7211e-12  1.3410e-14  7.7736e-15  0:00:00    1
+    87  4.3779e-12  1.0222e-14  5.9294e-15  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    87  4.3779e-12  1.0222e-14  5.9294e-15  0:00:00    1
+    88  3.3604e-12  7.7918e-15  4.5221e-15  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    88  3.3604e-12  7.7918e-15  4.5221e-15  0:00:00    1
+    89  2.5821e-12  5.9394e-15  3.4485e-15  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    89  2.5821e-12  5.9394e-15  3.4485e-15  0:00:00    1
+    90  1.9950e-12  4.5274e-15  2.6295e-15  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    90  1.9950e-12  4.5274e-15  2.6295e-15  0:00:00    1
+    91  1.5542e-12  3.4514e-15  2.0049e-15  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    91  1.5542e-12  3.4514e-15  2.0049e-15  0:00:00    1
+    92  1.2212e-12  2.6313e-15  1.5286e-15  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    92  1.2212e-12  2.6313e-15  1.5286e-15  0:00:00    1
+    93  9.6765e-13  2.0064e-15  1.1654e-15  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    93  9.6765e-13  2.0064e-15  1.1654e-15  0:00:00    1
+    94  7.7729e-13  1.5303e-15  8.8840e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    94  7.7729e-13  1.5303e-15  8.8840e-16  0:00:00    1
+    95  6.3441e-13  1.1677e-15  6.7728e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    95  6.3441e-13  1.1677e-15  6.7728e-16  0:00:00    1
+    96  5.2413e-13  8.9171e-16  5.1630e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    96  5.2413e-13  8.9171e-16  5.1630e-16  0:00:00    1
+    97  4.4545e-13  6.8172e-16  3.9361e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    97  4.4545e-13  6.8172e-16  3.9361e-16  0:00:00    1
+    98  3.8167e-13  5.2192e-16  3.0011e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    98  3.8167e-13  5.2192e-16  3.0011e-16  0:00:00    1
+    99  3.3571e-13  4.0052e-16  2.2890e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+    99  3.3571e-13  4.0052e-16  2.2890e-16  0:00:00    1
+   100  3.0150e-13  3.0860e-16  1.7467e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   100  3.0150e-13  3.0860e-16  1.7467e-16  0:00:00    1
+   101  2.7553e-13  2.3891e-16  1.3342e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   101  2.7553e-13  2.3891e-16  1.3342e-16  0:00:00    1
+   102  2.5739e-13  1.8631e-16  1.0212e-16  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   102  2.5739e-13  1.8631e-16  1.0212e-16  0:00:00    1
+   103  2.4167e-13  1.4637e-16  7.8426e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   103  2.4167e-13  1.4637e-16  7.8426e-17  0:00:00    1
+   104  2.3211e-13  1.1660e-16  6.0483e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   104  2.3211e-13  1.1660e-16  6.0483e-17  0:00:00    1
+   105  2.2508e-13  9.4041e-17  4.6999e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   105  2.2508e-13  9.4041e-17  4.6999e-17  0:00:00    1
+   106  2.1880e-13  7.7437e-17  3.6887e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   106  2.1880e-13  7.7437e-17  3.6887e-17  0:00:00    1
+   107  2.1385e-13  6.5070e-17  2.9420e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   107  2.1385e-13  6.5070e-17  2.9420e-17  0:00:00    1
+   108  2.1052e-13  5.5929e-17  2.3788e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   108  2.1052e-13  5.5929e-17  2.3788e-17  0:00:00    1
+   109  2.0562e-13  4.8898e-17  1.9570e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   109  2.0562e-13  4.8898e-17  1.9570e-17  0:00:00    1
+   110  2.0073e-13  4.3846e-17  1.6402e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   110  2.0073e-13  4.3846e-17  1.6402e-17  0:00:00    1
+   111  1.9963e-13  4.0183e-17  1.4119e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   111  1.9963e-13  4.0183e-17  1.4119e-17  0:00:00    1
+   112  1.9690e-13  3.7456e-17  1.2331e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   112  1.9690e-13  3.7456e-17  1.2331e-17  0:00:00    1
+   113  1.9492e-13  3.5563e-17  1.1123e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   113  1.9492e-13  3.5563e-17  1.1123e-17  0:00:00    1
+   114  1.9287e-13  3.4357e-17  1.0224e-17  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   114  1.9287e-13  3.4357e-17  1.0224e-17  0:00:00    1
+   115  1.8748e-13  3.3231e-17  9.5734e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   115  1.8748e-13  3.3231e-17  9.5734e-18  0:00:00    1
+   116  1.9045e-13  3.2282e-17  9.0790e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   116  1.9045e-13  3.2282e-17  9.0790e-18  0:00:00    1
+   117  1.8654e-13  3.1682e-17  8.6822e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   117  1.8654e-13  3.1682e-17  8.6822e-18  0:00:00    1
+   118  1.8229e-13  3.1389e-17  8.4432e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   118  1.8229e-13  3.1389e-17  8.4432e-18  0:00:00    1
+   119  1.8457e-13  3.0899e-17  8.1467e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   119  1.8457e-13  3.0899e-17  8.1467e-18  0:00:00    1
+   120  1.8030e-13  3.0479e-17  8.2157e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   120  1.8030e-13  3.0479e-17  8.2157e-18  0:00:00    1
+   121  1.7875e-13  3.0150e-17  7.9080e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   121  1.7875e-13  3.0150e-17  7.9080e-18  0:00:00    1
+   122  1.7448e-13  3.0014e-17  7.3180e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   122  1.7448e-13  3.0014e-17  7.3180e-18  0:00:00    1
+   123  1.7649e-13  3.0106e-17  7.8202e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   123  1.7649e-13  3.0106e-17  7.8202e-18  0:00:00    1
+   124  1.6949e-13  3.0039e-17  7.2295e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   124  1.6949e-13  3.0039e-17  7.2295e-18  0:00:00    1
+   125  1.6747e-13  2.9891e-17  6.9958e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   125  1.6747e-13  2.9891e-17  6.9958e-18  0:00:00    1
+   126  1.6545e-13  2.9937e-17  7.0653e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   126  1.6545e-13  2.9937e-17  7.0653e-18  0:00:00    1
+   127  1.7413e-13  2.9383e-17  7.4408e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   127  1.7413e-13  2.9383e-17  7.4408e-18  0:00:00    1
+   128  1.6940e-13  2.9592e-17  6.8844e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   128  1.6940e-13  2.9592e-17  6.8844e-18  0:00:00    1
+   129  1.6041e-13  2.9813e-17  6.4525e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   129  1.6041e-13  2.9813e-17  6.4525e-18  0:00:00    1
+   130  1.6725e-13  2.9715e-17  6.7335e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   130  1.6725e-13  2.9715e-17  6.7335e-18  0:00:00    1
+   131  1.6976e-13  2.9520e-17  7.1813e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   131  1.6976e-13  2.9520e-17  7.1813e-18  0:00:00    1
+   132  1.6106e-13  2.9702e-17  6.6193e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   132  1.6106e-13  2.9702e-17  6.6193e-18  0:00:00    1
+   133  1.5606e-13  2.9942e-17  6.3321e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   133  1.5606e-13  2.9942e-17  6.3321e-18  0:00:00    1
+   134  1.6235e-13  2.9478e-17  6.7233e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   134  1.6235e-13  2.9478e-17  6.7233e-18  0:00:00    1
+   135  1.6011e-13  2.9679e-17  6.3534e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   135  1.6011e-13  2.9679e-17  6.3534e-18  0:00:00    1
+   136  1.5682e-13  2.9606e-17  6.2623e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   136  1.5682e-13  2.9606e-17  6.2623e-18  0:00:00    1
+   137  1.5480e-13  2.9742e-17  6.1597e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   137  1.5480e-13  2.9742e-17  6.1597e-18  0:00:00    1
+   138  1.5414e-13  2.9627e-17  6.0778e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   138  1.5414e-13  2.9627e-17  6.0778e-18  0:00:00    1
+   139  1.6099e-13  2.9344e-17  6.4742e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   139  1.6099e-13  2.9344e-17  6.4742e-18  0:00:00    1
+   140  1.5516e-13  2.9806e-17  6.2530e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   140  1.5516e-13  2.9806e-17  6.2530e-18  0:00:00    1
+   141  1.5813e-13  2.9528e-17  6.3257e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   141  1.5813e-13  2.9528e-17  6.3257e-18  0:00:00    1
+   142  1.5433e-13  2.9593e-17  6.0356e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   142  1.5433e-13  2.9593e-17  6.0356e-18  0:00:00    1
+   143  1.5110e-13  2.9759e-17  5.8596e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   143  1.5110e-13  2.9759e-17  5.8596e-18  0:00:00    1
+   144  1.5479e-13  2.9665e-17  6.1358e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   144  1.5479e-13  2.9665e-17  6.1358e-18  0:00:00    1
+   145  1.5329e-13  2.9755e-17  6.1301e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   145  1.5329e-13  2.9755e-17  6.1301e-18  0:00:00    1
+   146  1.5650e-13  2.9395e-17  6.3873e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   146  1.5650e-13  2.9395e-17  6.3873e-18  0:00:00    1
+   147  1.5138e-13  2.9588e-17  5.9467e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   147  1.5138e-13  2.9588e-17  5.9467e-18  0:00:00    1
+   148  1.5001e-13  2.9720e-17  5.6857e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   148  1.5001e-13  2.9720e-17  5.6857e-18  0:00:00    1
+   149  1.5179e-13  2.9653e-17  6.0071e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   149  1.5179e-13  2.9653e-17  6.0071e-18  0:00:00    1
+   150  1.5330e-13  2.9546e-17  6.1368e-18  0:00:00    0
+
+  iter  continuity  x-velocity  y-velocity     time/iter
+   150  1.5330e-13  2.9546e-17  6.1368e-18  0:00:00    1
+   151  1.5088e-13  2.9557e-17  5.7020e-18  0:00:00    0
+
+Writing to [host]:"[local path]" in NODE0 mode and compression level 1 ...
+Grouping cells for Laplace smoothing ...
+       98304 cells,     1 zone  ...
+      197120 faces,     4 zones ...
+       98816 nodes,     1 zone  ...
+  Done.
+Done.
+
+Writing to [host]:"[local path]" in NODE0 mode and compression level 1 ...
+  Writing results.
+Done.

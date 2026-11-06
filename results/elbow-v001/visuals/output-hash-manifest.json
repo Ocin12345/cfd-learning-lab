@@ -1,0 +1,82 @@
+[
+  {
+    "path": "CAPTIONS.md",
+    "bytes": 1807,
+    "sha256": "b9f0caf0e6b32f5b80ee5d6091c0b61be54c1455a3ebb63019a73479b4ad7fe4"
+  },
+  {
+    "path": "actual-RK4-tracer-paths.csv.gz",
+    "bytes": 264638,
+    "sha256": "bf138e22e281cbed5840a90fc31d02238340f0ba21f8fd3bf72ae762e810cc79"
+  },
+  {
+    "path": "actual-native-cell-fields.csv",
+    "bytes": 842634,
+    "sha256": "6631961381a39ed0fb360fa2dbd4d06c1a5a455b9fea7f3e435ebbbf8ad5eff6"
+  },
+  {
+    "path": "checks.json",
+    "bytes": 33664,
+    "sha256": "4523aeaf3686302e27a9faa96c20f668f2e327152018057181da822845504f05"
+  },
+  {
+    "path": "elbow-decoded-GIF-contact-sheet.png",
+    "bytes": 273733,
+    "sha256": "d6f56ce13546bff489d93a455a4532592923ca3b59764e3c36c5102d4fbe991d"
+  },
+  {
+    "path": "elbow-native-field-comparison-text-bounds.json",
+    "bytes": 4982,
+    "sha256": "6926c35ea9d0ca4ae20fb0542feaf59867eb6c35a1e88fc1d29a8e4d5a859726"
+  },
+  {
+    "path": "elbow-native-field-comparison.png",
+    "bytes": 274089,
+    "sha256": "71610a9946189564546de956ad89fd878bc6047f27e4e04d12e0efee1f4c6f16"
+  },
+  {
+    "path": "elbow-native-field-comparison.svg",
+    "bytes": 221330,
+    "sha256": "d092b92efd179f6f8519a75967b6b95289910aef9b747a8a4afe8b352bc6dc00"
+  },
+  {
+    "path": "elbow-steady-field-tracers.gif",
+    "bytes": 3711328,
+    "sha256": "551a94c7384d6e04ed0dc3bee88078e7209fa27d0c39f8def0551daf12fa833b"
+  },
+  {
+    "path": "elbow-steady-tracers-text-bounds.json",
+    "bytes": 3794,
+    "sha256": "7627d2a1fb475422d49bad04a351ba2660e619986219fa46b2c41c6e07e818d1"
+  },
+  {
+    "path": "elbow-steady-tracers.png",
+    "bytes": 105154,
+    "sha256": "2c7ba252a69d3c805b47e1fcf231e61a15b4445ab446fe3c9b0668d6a7c6a5cc"
+  },
+  {
+    "path": "executed-plotter.py",
+    "bytes": 27914,
+    "sha256": "fc8fc0272c6f539cbe19533ef7efbef265009435643efbb08a3685fb0773b7a1"
+  },
+  {
+    "path": "input-hash-manifest.json",
+    "bytes": 30965,
+    "sha256": "6b9e95021512bc458f760cea6e0ad2cefae4aea63c97e66183f628b1fd25a8be"
+  },
+  {
+    "path": "observed-openfoam-solve-block.txt",
+    "bytes": 593,
+    "sha256": "93b1d5f3a7f6da291f0cc6e908437d42326e6981617a2ba368b16c90fff68994"
+  },
+  {
+    "path": "reused-cavity-helper.py",
+    "bytes": 40050,
+    "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445"
+  },
+  {
+    "path": "reused-native-readers.py",
+    "bytes": 42964,
+    "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "path": "CAPTIONS.md",
+    "bytes": 2394,
+    "sha256": "f3ea10a86186e5a172ab78db2a8c0c92158b333bafe53386bb066c85d79518ad"
+  },
+  {
+    "path": "actual-native-temperatures.csv.gz",
+    "bytes": 7689403,
+    "sha256": "b0ff0f0a46c4ee3a0daacb3f57112e182db666e5079194c99f642128dbc8d44a"
+  },
+  {
+    "path": "actual-time-metrics.csv",
+    "bytes": 34570,
+    "sha256": "7760ed0c402f4662bf64594a102fbd6d1733a242ad7bef739cb04dc92c9a1c91"
+  },
+  {
+    "path": "analytical-reference.py",
+    "bytes": 1792,
+    "sha256": "550c050d4294c08d0fb3905d06a2eeda7c82bb44397072a3dd261db1a6d9846a"
+  },
+  {
+    "path": "checks.json",
+    "bytes": 143789,
+    "sha256": "77feaa886bde3f1614ce6bcf4e596a83f7ed2993d5cf775f20e59a2fa896ae04"
+  },
+  {
+    "path": "executed-plotter.py",
+    "bytes": 33361,
+    "sha256": "32729addccd5f12db118dbdf62b571d51b21dcf8f25a5c00f21468519ae81b92"
+  },
+  {
+    "path": "input-hash-manifest.json",
+    "bytes": 143052,
+    "sha256": "1d85a418d63517691228c5a78f47a34c0d478a49c49906d55ec7e2a4f51dc97e"
+  },
+  {
+    "path": "reused-cavity-helper.py",
+    "bytes": 40050,
+    "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445"
+  },
+  {
+    "path": "reused-native-mapping-helper.py",
+    "bytes": 19025,
+    "sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+  },
+  {
+    "path": "reused-native-readers.py",
+    "bytes": 42964,
+    "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02"
+  },
+  {
+    "path": "thermal-slab-actual-transient.gif",
+    "bytes": 4611163,
+    "sha256": "7beb0b4a21d1331c4da556a614423048114d8636530ee3379dd0d9e81488a8ea"
+  },
+  {
+    "path": "thermal-slab-decoded-GIF-contact-sheet.png",
+    "bytes": 285787,
+    "sha256": "078801077b9e52ac46392d5f71e7e22863ca8e001a5a8755ff0cb908dd78fed5"
+  },
+  {
+    "path": "thermal-slab-energy-balance-text-bounds.json",
+    "bytes": 3300,
+    "sha256": "3bf64155f70a431f9db77f6c35d03fb35c3aae151eb007e1300dfac77c956957"
+  },
+  {
+    "path": "thermal-slab-energy-balance.png",
+    "bytes": 255769,
+    "sha256": "8d2f82a6960ed52dd095dd1cef0ccf0d3735b52cf1aa32a4e0d8798c55263016"
+  },
+  {
+    "path": "thermal-slab-energy-balance.svg",
+    "bytes": 191114,
+    "sha256": "4d980ab60ff0b2544cdf9e6dd630c1bfa7db019173919091ff92c2fd2e3b0071"
+  },
+  {
+    "path": "thermal-slab-native-temperature-text-bounds.json",
+    "bytes": 4222,
+    "sha256": "f8dfb174582b4a3b384c3f694db9a1302334274377a0bfcffc12357a28421ab5"
+  },
+  {
+    "path": "thermal-slab-native-temperature.png",
+    "bytes": 105251,
+    "sha256": "f793977470a6250f0db1940b40561ebe9716b818c95c30a53e5c3780c614709e"
+  },
+  {
+    "path": "thermal-slab-temperature-error-text-bounds.json",
+    "bytes": 3285,
+    "sha256": "cd16c6bdf30e4d3444bd9ef555c8fb3fbbbd4ce66bd0bba2ec9c90484715b5a9"
+  },
+  {
+    "path": "thermal-slab-temperature-error.png",
+    "bytes": 232368,
+    "sha256": "98e45ec4338280eb084180332abc7cf166a747303f33298208f733eeb3f2a34e"
+  },
+  {
+    "path": "thermal-slab-temperature-error.svg",
+    "bytes": 153464,
+    "sha256": "1640d7df3797851b66b17f1b6a2f6751184794371b6d6f44a85cfc260951ea50"
+  }
+]

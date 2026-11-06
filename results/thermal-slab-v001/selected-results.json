@@ -1,0 +1,109 @@
+{
+  "selected_runs": {
+    "fluent": "fluent-v004",
+    "openfoam": "openfoam-v002"
+  },
+  "selection_reason": "The selected Fluent v004 and OpenFOAM v002 runs contain complete matched histories: 100 implicit Euler steps of 2 s on the same 2,000-cell geometry. Physical properties, time limits and numerical targets remained unchanged through the documented compatibility corrections. Earlier attempts are preserved. The selected figure v002 improves label readability.",
+  "numerical_outcomes": {
+    "fluent": {
+      "aggregate": true,
+      "failed_checks": []
+    },
+    "openfoam": {
+      "aggregate": true,
+      "failed_checks": []
+    }
+  },
+  "metrics": {
+    "fluent": {
+      "native_states": 101,
+      "solved_steps": 100,
+      "final_time_s": 200,
+      "time_step_s": 2,
+      "depth_m": 1.0,
+      "temperature_range_K": [
+        300.0,
+        399.35786732322606
+      ],
+      "final_energy_J": 88518.90493197009,
+      "maximum_thermal_residual": 9.822242141807367e-11,
+      "maximum_global_energy_relative_error": 8.565010678625376e-08,
+      "final_analytic_max_error_K": 0.17406020008468204,
+      "final_analytic_weighted_RMS_error_K": 0.12297640164163436,
+      "all_time_max_analytic_error_K": 12.527370562631688,
+      "all_time_max_error_time_s": 2,
+      "final_wall_Q_into_solid_W": [
+        256.8530672318945,
+        -143.5484740475528,
+        0.0,
+        0.0
+      ]
+    },
+    "openfoam": {
+      "native_states": 101,
+      "solved_steps": 100,
+      "final_time_s": 200,
+      "time_step_s": 2,
+      "depth_m": 0.01,
+      "temperature_range_K": [
+        300.0,
+        399.3578673213
+      ],
+      "final_energy_J": 885.1890498508678,
+      "maximum_thermal_residual": 9.9639575948522e-13,
+      "maximum_global_energy_relative_error": 6.386218518425234e-12,
+      "final_analytic_max_error_K": 0.1740601233519783,
+      "final_analytic_weighted_RMS_error_K": 0.1229763702719236,
+      "all_time_max_analytic_error_K": 12.527370478194882,
+      "all_time_max_error_time_s": 2,
+      "final_wall_Q_into_solid_W": [
+        2.56853071481801,
+        -1.435484680922988,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "preserved_evidence": [
+    {
+      "description": "The original OpenFOAM preparation expected V; the actual volume export is Vc. That preparation stopped before any time steps.",
+      "sha256": "290548f40b042f80bd76c1f2b5dd3f04f92539b8f14a475be7aea39b6af005e4"
+    },
+    {
+      "description": "The original Fluent conversion produced a solid zone, but an inactive fluid-setting read stopped setup before any time steps. No saved recovery case or data is claimed.",
+      "sha256": "252f3862de4a0a5e61373484b998ce7e5909187bceaacb624c8ba0b48be1e363"
+    },
+    {
+      "description": "Native constant-property settings use the canonical value option. An unused inactive duration setter was removed; the earlier zero-step attempt is retained.",
+      "sha256": "9c2b82841aebec0483d0384b5f9dc2e848db3105ab6bb7e2ae461591a3ae6703"
+    },
+    {
+      "description": "The actual first 2 s state passed numerical checks. The native [W] report label required a parser correction; the first-step fields and recovery files are retained.",
+      "sha256": "0b3c79a45c8a714df3dd80e3f29702d5c63ee41c2bfe604a02d17c8b201376b9"
+    },
+    {
+      "description": "Root independently checked the actual first-step signed heat powers, energy storage and residual before the complete rerun.",
+      "sha256": "d9d0515046120a2a1ad6ed0f48e5b84cca4c9184e74c10682e466423d7419d79"
+    },
+    {
+      "description": "The analytical proof permits a documented 5.7e-13 K floating-point discrepancy. The reference formula and source are unchanged.",
+      "sha256": "868da59d7f6ad5374e2f5be4572bd28372b8601106cf4e020f77adf65dd9e3cf"
+    },
+    {
+      "description": "Independent comparison maps all 404,000 audited native temperatures to the same cells and physical times.",
+      "sha256": "66c389b8d4aed4e57c80197ae0b807aea4aa6bbac56886cfdaadc3cd777f232f"
+    },
+    {
+      "description": "Presentation changes wrap labels and space displayed units; previous figures remain preserved.",
+      "sha256": "c22579891f66c2c3883af98390e8a457f731c597433060f2e812f8be1d3044a9"
+    }
+  ],
+  "artifact_integrity": "Verified separately from numerical outcomes",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "time_step_independence": false,
+  "flow_equations_solved": false,
+  "all_cell_thermal_flux_conservation_claim": false,
+  "all_time_accuracy_threshold_imposed": false,
+  "owner_reflection_provided": false
+}

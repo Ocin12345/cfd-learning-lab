@@ -1,0 +1,30 @@
+{
+  "plotter_sha256": "6474331d8200452a0488dafed01f933ba209827af9142997668a6f758ce566c7",
+  "solver_selection": "both",
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\mesh\\setup.json",
+      "sha256": "f608c1e265fb9a0e8027de18a87727b96da096b0b583ac4e2954b1d9a631ace6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\fluent\\channel-final.cas.h5",
+      "sha256": "d9dfa64fc42a17c1a7b70176468ee09f5053b5096acafd45b70426058fcf85be"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\fluent\\channel-final.dat.h5",
+      "sha256": "8c16ab5dc3665763ffb11aacec53ae7f1853cdc501bf1e4c85f58363e36c2367"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\openfoam\\800\\C",
+      "sha256": "ef50f5a10a93c63cf66025f595b68406410002ce9ce87775e13422db7a53451a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\openfoam\\800\\U",
+      "sha256": "4411d88cc6176643cc7670c0468771099729b7aea049ec45be7516fcf76beb00"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\openfoam\\800\\p",
+      "sha256": "24772a8c8b2c29e46fb834f9a911a36403d7b7bd8ac3829f4d8281914cf5e15a"
+    }
+  ]
+}

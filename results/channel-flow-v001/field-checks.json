@@ -1,0 +1,94 @@
+{
+  "solvers": {
+    "fluent": {
+      "cells": 7680,
+      "native_centres_bijective": true,
+      "centre_tolerance_m": 1e-09,
+      "maximum_centre_mapping_error_m": 1.1102230246251565e-16,
+      "finite_native_fields": true,
+      "topology": "Four distinct saved vertices per verified rectangular Fluent cell",
+      "speed_range_m_s": [
+        0.09345075665922999,
+        1.4972918849584347
+      ],
+      "pressure_range_Pa": [
+        0.025406753496695626,
+        17.80814967248563
+      ],
+      "profile_x_m": 0.7979166666666667,
+      "profile_rms_error_over_Umean": 0.0009977230796538359,
+      "centreline_interpolated_u_m_s": 1.4970749285833012,
+      "centreline_target_m_s": 1.5,
+      "pressure_fit_interval_m": [
+        0.6,
+        0.9
+      ],
+      "pressure_fit_intercept_Pa": 11.97639563400697,
+      "developed_dp_dx_Pa_m": -11.976625313752214,
+      "analytical_dp_dx_Pa_m": -11.999999999999996,
+      "relative_pressure_gradient_error": 0.001947890520648551,
+      "check_results": {
+        "downstream_profile_rms_le_2percent_Umean": true,
+        "centreline_within_2percent_of_1p5U": true,
+        "developed_pressure_gradient_error_le_3percent": true
+      },
+      "analytical_targets_passed": true
+    },
+    "openfoam": {
+      "cells": 7680,
+      "native_centres_bijective": true,
+      "centre_tolerance_m": 1e-09,
+      "maximum_centre_mapping_error_m": 3.4416913763379853e-15,
+      "finite_native_fields": true,
+      "topology": "Native writeCellCentres C field; no imported-order assumption",
+      "speed_range_m_s": [
+        0.09347123378516184,
+        1.4973389958927499
+      ],
+      "pressure_range_Pa": [
+        0.024951266983254,
+        18.939568868517
+      ],
+      "profile_x_m": 0.7979166666666667,
+      "profile_rms_error_over_Umean": 0.0009973357626263074,
+      "centreline_interpolated_u_m_s": 1.4970760233932001,
+      "centreline_target_m_s": 1.5,
+      "pressure_fit_interval_m": [
+        0.6,
+        0.9
+      ],
+      "pressure_fit_intercept_Pa": 11.976608187047992,
+      "developed_dp_dx_Pa_m": -11.976608187050287,
+      "analytical_dp_dx_Pa_m": -11.999999999999996,
+      "relative_pressure_gradient_error": 0.0019493177458091246,
+      "check_results": {
+        "downstream_profile_rms_le_2percent_Umean": true,
+        "centreline_within_2percent_of_1p5U": true,
+        "developed_pressure_gradient_error_le_3percent": true
+      },
+      "analytical_targets_passed": true
+    }
+  },
+  "analytical_targets_passed": true,
+  "colour_limits": {
+    "speed_m_s": [
+      0.0,
+      1.6
+    ],
+    "gauge_pressure_Pa": [
+      0.0,
+      19.12896455720217
+    ]
+  },
+  "pressure_conventions": {
+    "fluent": "Gauge pressure in Pa",
+    "openfoam": "Kinematic p multiplied by density to obtain Pa"
+  },
+  "profile_rms_definition": "sqrt(mean((u/Umean - 6*eta*(1-eta))**2)) at nearest native column to x=.8 m",
+  "centreline_definition": "Linear interpolation of the two central saved-cell values at x nearest .8 m",
+  "pressure_gradient_definition": "Least-squares slope of cross-channel cell-mean gauge pressure for .6 <= x <= .9 m",
+  "residual_and_mass_checks": "Separate native-run checks; not assessed by this plotter",
+  "mesh_independence_established": false,
+  "experimental_validation": false,
+  "scope": "Educational comparison with the analytical fully developed planar-channel solution"
+}

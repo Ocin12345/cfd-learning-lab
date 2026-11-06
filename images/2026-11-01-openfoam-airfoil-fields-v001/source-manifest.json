@@ -1,0 +1,106 @@
+{
+  "script_sha256": "be3c91f714886d6cf4089d70405730c7760b502a008a00df9b16e2e81b92dc09",
+  "measured_ranges": {
+    "speed": [
+      0.00036443239466194314,
+      1.088870824111812
+    ],
+    "Cp": [
+      -1.56740942798526,
+      1.70306941744152
+    ]
+  },
+  "diagnostic": true,
+  "numerical_checks_passed": false,
+  "failed_checks": [
+    "openfoam.zero_angle_lift_diagnostic"
+  ],
+  "colour_limits": {
+    "speed": [
+      0,
+      1.2
+    ],
+    "Cp": [
+      -2,
+      2
+    ]
+  },
+  "software": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
+  },
+  "canvas_inches": [
+    7.05,
+    4.6
+  ],
+  "raster_dpi": 600,
+  "topology_checks": {
+    "cells": 383562,
+    "points": 385100,
+    "faces": 1343236,
+    "internal_faces": 574574,
+    "source_mesh_sha256": "8e5275ba9a9496880ea9613f562d72f03e653b6aa59551c215ea415c0b6e6081",
+    "projected_xy_max_difference_m": 0.0,
+    "coordinate_tolerance_m": 1e-10,
+    "six_xyz_and_three_xy_vertices_per_cell": true,
+    "five_faces_per_prism": true,
+    "one_cap_on_each_z_plane_per_cell": true,
+    "imported_cell_triangles_verified": true,
+    "vertical_face_cell_pairs_verified": true,
+    "source_patch_face_identities_verified": true
+  },
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\input-airfoil.msh",
+      "sha256": "8e5275ba9a9496880ea9613f562d72f03e653b6aa59551c215ea415c0b6e6081"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\declared-comparison.json",
+      "sha256": "d0d26c5aee8c2420573dfafe0dfcd8f65536696c274aa7c648b79aa3b69ad02c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\points",
+      "sha256": "8313077fb139395975e8828b332e3fcd80d771f4da34629bad02796b55ac15fb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\faces",
+      "sha256": "2adef1bf813523538fdf6b447e17fc0be0c87a9a43c247b9dba34885d2551de8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\owner",
+      "sha256": "d0bd62362ffcd8dcf971a13dab3b079a61e8bdef33c00e6de03d52ed90b9ffd9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\neighbour",
+      "sha256": "bc2907988de7ded95cc8e26aac8e96443018c2951e9a95218b251dffca941047"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\boundary",
+      "sha256": "cc60122c9afb97c5c71e06c709b782c402d6417487771dfadc83217ebddf0d96"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\5000\\U",
+      "sha256": "5837a02da67d50279a90923be0afc316da4fd0ede93c9a09bed16b12e27249ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\5000\\p",
+      "sha256": "542b4d19c683eb717f4c5c3252885f88583d596ab0588f4b0c796753bf174ded"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_openfoam_airfoil_fields.py",
+      "sha256": "be3c91f714886d6cf4089d70405730c7760b502a008a00df9b16e2e81b92dc09"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-cross-solver-v001\\comparison.json",
+      "sha256": "fe2a07127eceda887cc4d2d277b069dc6ae02766b3e82a2d56e94a0cc91c51de"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-cross-solver-v001\\source-manifest.json",
+      "sha256": "255f68d36ea4d7f8755863597f2f2b7e2a8b1150f9df315c8c62006eadfe56fe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\run-status.json",
+      "sha256": "ad7e64a278011bb4697c174653ebdab877a98e034a74466a3da0eb357991ed4b"
+    }
+  ]
+}

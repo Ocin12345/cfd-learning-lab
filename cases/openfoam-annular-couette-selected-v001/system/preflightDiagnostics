@@ -1,0 +1,22 @@
+FoamFile
+{
+ version 2.0;
+ format ascii;
+ class dictionary;
+ object preflightDiagnostics;
+}
+
+nativeCentres { type writeCellCentres; libs ("libfieldFunctionObjects.so"); }
+nativeVolumes { type writeCellVolumes; libs ("libfieldFunctionObjects.so"); }
+nativeInitialFields { type writeObjects; libs ("libutilityFunctionObjects.so"); objects (U p phi); writeOption anyWrite; }
+nativeVorticity
+{
+ type vorticity;
+ libs ("libfieldFunctionObjects.so");
+ field U;
+ result vorticity;
+ executeControl timeStep;
+ executeInterval 1;
+ writeControl timeStep;
+ writeInterval 1;
+}

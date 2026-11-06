@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-01",
+  "kind": "Audit of existing evidence; no new solver run",
+  "cases": [
+    {
+      "case": "cylinder-coarse",
+      "converged_iteration": 56,
+      "final_scaled_residuals": {
+        "continuity": 8.1248e-08,
+        "x_velocity": 3.9349e-11,
+        "y_velocity": 2.4286e-11
+      },
+      "net_mass_kg_s": 1.279048e-10,
+      "inlet_mass_kg_s": 40.0,
+      "relative_mass_imbalance": 3.19762e-12,
+      "minimum_orthogonal_quality": null,
+      "force_iteration_history_available": false
+    },
+    {
+      "case": "cylinder-medium",
+      "converged_iteration": 51,
+      "final_scaled_residuals": {
+        "continuity": 9.9036e-08,
+        "x_velocity": 1.0965e-10,
+        "y_velocity": 4.3191e-11
+      },
+      "net_mass_kg_s": 3.5560106e-09,
+      "inlet_mass_kg_s": 40.0,
+      "relative_mass_imbalance": 8.8900265e-11,
+      "minimum_orthogonal_quality": 0.999973,
+      "force_iteration_history_available": false
+    },
+    {
+      "case": "cylinder-fine",
+      "converged_iteration": 51,
+      "final_scaled_residuals": {
+        "continuity": 8.5671e-08,
+        "x_velocity": 1.6244e-10,
+        "y_velocity": 9.0324e-11
+      },
+      "net_mass_kg_s": 3.9050008e-10,
+      "inlet_mass_kg_s": 40.0,
+      "relative_mass_imbalance": 9.762502e-12,
+      "minimum_orthogonal_quality": 0.999985,
+      "force_iteration_history_available": false
+    },
+    {
+      "case": "airfoil-0deg",
+      "converged_iteration": 79,
+      "final_scaled_residuals": {
+        "continuity": 9.2146e-08,
+        "x_velocity": 9.8955e-10,
+        "y_velocity": 2.091e-09
+      },
+      "net_mass_kg_s": -1.4866472e-09,
+      "inlet_mass_kg_s": 40.0,
+      "relative_mass_imbalance": 3.716618e-11,
+      "minimum_orthogonal_quality": 0.0658879,
+      "force_iteration_history_available": false
+    },
+    {
+      "case": "airfoil-5deg",
+      "converged_iteration": 106,
+      "final_scaled_residuals": {
+        "continuity": 9.4298e-08,
+        "x_velocity": 9.4371e-10,
+        "y_velocity": 1.877e-09
+      },
+      "net_mass_kg_s": 8.2892626e-10,
+      "inlet_mass_kg_s": 39.999405,
+      "relative_mass_imbalance": 2.0723464761538328e-11,
+      "minimum_orthogonal_quality": 0.0658879,
+      "force_iteration_history_available": false
+    }
+  ],
+  "medium_to_fine_drag_change_percent": 0.015430569815877928,
+  "original_manifest_entries_verified": 44,
+  "licence_status": "ANSYS utility returned no feature list; live Student checkout unconfirmed",
+  "github_status": "No matching repository found via connector search and accessible repository listing; not published",
+  "pending": [
+    "owner prediction",
+    "saved-case replay and force histories",
+    "owner reflection",
+    "domain sensitivity",
+    "physical validation"
+  ]
+}

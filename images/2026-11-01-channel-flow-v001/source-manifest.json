@@ -1,0 +1,45 @@
+{
+  "native_field_sources": {
+    "plotter_sha256": "6474331d8200452a0488dafed01f933ba209827af9142997668a6f758ce566c7",
+    "solver_selection": "both",
+    "inputs": [
+      {
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\mesh\\setup.json",
+        "sha256": "f608c1e265fb9a0e8027de18a87727b96da096b0b583ac4e2954b1d9a631ace6"
+      },
+      {
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\fluent\\channel-final.cas.h5",
+        "sha256": "d9dfa64fc42a17c1a7b70176468ee09f5053b5096acafd45b70426058fcf85be"
+      },
+      {
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\fluent\\channel-final.dat.h5",
+        "sha256": "8c16ab5dc3665763ffb11aacec53ae7f1853cdc501bf1e4c85f58363e36c2367"
+      },
+      {
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\openfoam\\800\\C",
+        "sha256": "ef50f5a10a93c63cf66025f595b68406410002ce9ce87775e13422db7a53451a"
+      },
+      {
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\openfoam\\800\\U",
+        "sha256": "4411d88cc6176643cc7670c0468771099729b7aea049ec45be7516fcf76beb00"
+      },
+      {
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-channel-flow-v001\\openfoam\\800\\p",
+        "sha256": "24772a8c8b2c29e46fb834f9a911a36403d7b7bd8ac3829f4d8281914cf5e15a"
+      }
+    ]
+  },
+  "outputs": {
+    "CAPTIONS.md": "a9ad502d2c3ce645daf676f4a6f528088b64220ffb3c320ecae5ba8bf617f531",
+    "channel-computed-fields.png": "8e86303b0499eb4865b4e371d5f84490ea4f34f151cf3d17a6d8de8c6377edef",
+    "channel-computed-fields.svg": "b03438df0821915f7b0f06d4d07da12d2bbc61a121c75625c677ee6ef0dd38b4",
+    "channel-velocity-profiles.png": "2ad68ee861bf449490ea86e510c9318a2bb1d6d412961561152c0c8e73f00514",
+    "channel-velocity-profiles.svg": "6395410543aa511b180a5f57e1a68fe43a3bb1c6faa69e8e363e4bfa6be9df6b",
+    "fluent-native-pressure.png": "cc4fc631ef7190777cbaa5562d7d5f26a15ee6ad87c64031e66da4ed6b111178",
+    "fluent-native-velocity.png": "2414b8f4316913bf2a168caaae07130c2e3d43322a6b45d7cd749806a23ea0c1",
+    "input-hash-manifest.json": "44ffd82a69a317bdc3dd694220aa71532b92d7b7a7f9b7ab76e33dd38a38cfbd"
+  },
+  "root_visual_review": "Paired fields and profile PNGs inspected; all panels, labels, legends, scales and streamlines visible; native Fluent velocity image also inspected.",
+  "solver_images_not_AI_generated": true,
+  "publication_occurred": false
+}

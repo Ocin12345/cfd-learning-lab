@@ -1,0 +1,10 @@
+{
+  "candidate": "alpha0-medium triangular mesh, preserved boundary polygon",
+  "cells": 19646,
+  "minimum_orthogonal_quality": 0.0375223,
+  "old_ogrid_minimum_orthogonal_quality": 0.0658879,
+  "declared_quality_gate": 0.2,
+  "accepted": false,
+  "flow_solved": false,
+  "action": "Preserve rejected candidate; repair local trailing-edge sizing before another flow run"
+}

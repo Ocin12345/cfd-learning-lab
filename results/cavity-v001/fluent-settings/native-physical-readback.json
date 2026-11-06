@@ -1,0 +1,22 @@
+{
+  "lid_wall_motion": "Moving Wall",
+  "lid_relative": "Absolute",
+  "lid_velocity_spec": "Components",
+  "lid_velocity_components": [
+    {
+      "option": "value",
+      "value": 1.0
+    },
+    {
+      "option": "value",
+      "value": 0
+    }
+  ],
+  "lid_shear_condition": "No Slip",
+  "operating_pressure_Pa": 0.0,
+  "reference_depth_m": 1,
+  "density": 1.0,
+  "viscosity": 0.01,
+  "viscous_model": "laminar",
+  "energy_enabled": false
+}

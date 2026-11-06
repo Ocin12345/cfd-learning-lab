@@ -1,0 +1,5 @@
+case,solver,outer_radius_over_chord,cells,Cd,Cl,numerical_convergence_passed,symmetry_diagnostic_passed,numerical_checks_passed,failed_checks,cross_code_Cd_difference_percent,cross_code_target_pass,case_diagnostic_result,own_code_Cd_change_from_R20_percent
+baseline,Fluent,20.0,383562,0.41589053,9.1542336e-06,True,True,True,,1.7485211630709652,False,True,0.0
+baseline,OpenFOAM,20.0,383562,0.408618596067742,-0.00289749640875593,True,False,False,openfoam.zero_angle_lift_diagnostic,1.7485211630709652,False,True,0.0
+extended,Fluent,40.0,531018,0.4146461,8.4133735e-06,True,True,True,,1.7547827527853328,False,True,-0.29922056652743767
+extended,OpenFOAM,40.0,531018,0.407369961752103,-0.00290966080032981,True,False,False,openfoam.zero_angle_lift_diagnostic,1.7547827527853328,False,True,-0.30557452050762357

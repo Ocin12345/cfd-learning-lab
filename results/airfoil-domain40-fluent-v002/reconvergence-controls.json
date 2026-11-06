@@ -1,0 +1,19 @@
+{
+  "initial_iteration_cap": 1200,
+  "retained_saved_fields": true,
+  "hybrid_initialization_executed": false,
+  "residual_equations": {
+    "continuity": {
+      "absolute_criteria": 1e-08,
+      "check_convergence": true
+    },
+    "x-velocity": {
+      "absolute_criteria": 1e-08,
+      "check_convergence": true
+    },
+    "y-velocity": {
+      "absolute_criteria": 1e-08,
+      "check_convergence": true
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "completion_date": "2026-11-02",
+  "folder_namespace": "2026-11-01 overnight batch",
+  "selected_runs": {
+    "fluent": "fluent",
+    "openfoam": "openfoam-v003"
+  },
+  "selection_reason": "Select the completed fixed 2,000-iteration Fluent run and corrected OpenFOAM v003 setup. Both own numerical audits pass; their separate predeclared paired drag target also passes. Preserve all earlier preparation and parser evidence; no numerical threshold was relaxed.",
+  "numerical_outcomes": {
+    "fluent": {
+      "aggregate": true,
+      "failed_checks": []
+    },
+    "openfoam": {
+      "aggregate": true,
+      "failed_checks": []
+    }
+  },
+  "paired_force_outcome": {
+    "window_metrics": {
+      "fluent": {
+        "window_first": 1801,
+        "window_last": 2000,
+        "samples": 200,
+        "mean_Cd": 2.8144310326314543,
+        "mean_Cl": -2.0555372047493733e-16,
+        "Cd_peak_to_peak": 3.1086244689504383e-15,
+        "Cd_peak_to_peak_over_abs_mean": 1.1045303412689837e-15,
+        "Cd_mean_nonzero": true,
+        "Cd_stability_pass": true,
+        "lift_symmetry_pass": true,
+        "undefined_reason": null
+      },
+      "openfoam": {
+        "window_first": 1801,
+        "window_last": 2000,
+        "samples": 200,
+        "mean_Cd": 2.8187666062523586,
+        "mean_Cl": -7.994678121012351e-14,
+        "Cd_peak_to_peak": 8.260059303211165e-12,
+        "Cd_peak_to_peak_over_abs_mean": 2.930380715057917e-12,
+        "Cd_mean_nonzero": true,
+        "Cd_stability_pass": true,
+        "lift_symmetry_pass": true,
+        "undefined_reason": null
+      }
+    },
+    "relative_mean_Cd_difference": 0.0015404796104918613,
+    "target": 0.01,
+    "defined": true,
+    "declared_paired_Cd_target_passed": true,
+    "physical_validation": false,
+    "benchmark_comparison": false
+  },
+  "metrics": {
+    "fluent": {
+      "residuals": {
+        "continuity": 1.5902690993284656e-14,
+        "x-velocity": 2.8135862221901946e-17,
+        "y-velocity": 8.95145401919294e-18
+      },
+      "max_div": 4.336808689942106e-15,
+      "rms_div": 1.1593612836983962e-15,
+      "mass_imbalance": 8.673617379884035e-17,
+      "U_change": 7.269861682063812e-16
+    },
+    "openfoam": {
+      "residuals": {
+        "p": 1.0201347945396e-10,
+        "Ux": 1.7510340110079e-13,
+        "Uy": 3.3075075570158e-13
+      },
+      "max_div": 8.295840685408618e-12,
+      "rms_div": 4.801502385066377e-13,
+      "mass_imbalance": 1.7753810574450135e-14,
+      "U_change": 1.1882748851932893e-12
+    }
+  },
+  "preserved_evidence": [
+    {
+      "description": "Original mesher precision assertion failed before outputs; same geometry with local-origin arithmetic retained in v002.",
+      "sha256": "4fa409d2f4039984091b583a152d2d303875c0ffe563e569a6402fbdcf967c5e"
+    },
+    {
+      "description": "Unexecuted OpenFOAM v001 nonzero internal U corrected before admission; original preserved.",
+      "sha256": "70aba397626b6d940f6e6f7d12bb00934b8940d76110a071b89b6efe9e6f9366"
+    },
+    {
+      "description": "OpenFOAM v002 converted mesh passed but initial native postprocess rejected symmetryPlane fields on symmetry patches; v003 matches actual native symmetry type without changing planar slip physics.",
+      "sha256": "49f57542cf57a1ec8fd903e61068d0741eaee78dc3ccd2279f1530dfe2cdb54b"
+    },
+    {
+      "description": "Earlier read-only audit failed only on missing symmetry text rows; native face fluxes and force checks passed.",
+      "sha256": "c9fadda2cdd7a0a0326799e3658a536012f7b5ac0557b8a791a94870414cf136"
+    },
+    {
+      "description": "Read-only parser correction records omitted symmetry text rows and independently keeps all 400 native symmetry face zero-flux checks.",
+      "sha256": "ba6bc3472e56fc3d55680b57a4cb9850a7465f647f39cc42557404c4f3a403db"
+    },
+    {
+      "description": "First figure export stopped on a cropped pressure colourbar label; display-only v002 corrects label/annotation layout while retaining all native data and thresholds.",
+      "sha256": "30e97f6f43d78c4dbb1332b810e2cd1c2157215abcd9aacc1067ee1673c75952"
+    }
+  ],
+  "artifact_integrity": "Verified separately from native numerical and paired outcomes",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "domain_independence": false,
+  "benchmark_validation": false,
+  "unbounded_freestream_claim": false,
+  "transient_shedding_simulated": false,
+  "owner_reflection_provided": false
+}

@@ -1,0 +1,9 @@
+{
+  "additional_iterations": 100,
+  "last_window_samples": 20,
+  "drag_relative_range_max": 0.0001,
+  "lift_absolute_range_max": 1e-05,
+  "lift_absolute_magnitude_max": 0.0001,
+  "residual_target": 1e-07,
+  "relative_mass_imbalance_max": 1e-06
+}

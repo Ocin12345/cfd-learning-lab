@@ -1,0 +1,51 @@
+{
+  "selected_runs": {
+    "fluent": "fluent-extended-v003",
+    "openfoam": "openfoam"
+  },
+  "selection_reason": "Fluent original2000 continuity miss is retained. One separately admitted500-iteration saved-state continuation, without reinitialization or changed targets, produces selected2500. OpenFOAM retains its original2000 cap. Both selected native audits pass all declared checks; this is not physical validation.",
+  "numerical_outcomes": {
+    "fluent": {
+      "all_declared_checks_passed": true,
+      "failed_checks": []
+    },
+    "openfoam": {
+      "all_declared_checks_passed": true,
+      "failed_checks": []
+    }
+  },
+  "preserved_corrections": [
+    {
+      "description": "Preserved parser/startup/serialization corrections are technical workflow history, separate from the real original2000 continuity miss; no target was relaxed.",
+      "evidence_sha256": "892377c15da265ffdd842cbb80eb415673478335a38617a12e8747f78be9dc54"
+    }
+  ],
+  "fluent_final_iteration": 2500,
+  "fluent_stability_endpoints": [
+    2300,
+    2500
+  ],
+  "preserved_history": {
+    "original-parser-audit": {
+      "aggregate": false,
+      "failed_checks": [
+        "native_residual_history_complete"
+      ],
+      "parser_or_source_errors": {
+        "native_residual_history_complete": "AssertionError: "
+      }
+    },
+    "original2000-corrected-audit": {
+      "aggregate": false,
+      "failed_checks": [
+        "final_residuals_le_1e_6"
+      ],
+      "parser_or_source_errors": {}
+    }
+  },
+  "artifact_integrity": "Separate final private verifier; numerical booleans above remain unchanged",
+  "physical_validation": false,
+  "benchmark_validation": false,
+  "mesh_independence": false,
+  "owner_reflection_provided": false
+}

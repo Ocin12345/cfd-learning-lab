@@ -1,0 +1,1134 @@
+{
+  "script_sha256": "2c8145020049601a6a6c086f5b67a04648e088ab9fbaed200ecad71b604492a8",
+  "evidence_consistency_checks_passed": true,
+  "numerical_checks_passed": false,
+  "failed_checks": [
+    "openfoam.zero_angle_lift_diagnostic"
+  ],
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-cross-solver-v001\\comparison.json",
+      "sha256": "fe2a07127eceda887cc4d2d277b069dc6ae02766b3e82a2d56e94a0cc91c51de"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-cross-solver-v001\\source-manifest.json",
+      "sha256": "255f68d36ea4d7f8755863597f2f2b7e2a8b1150f9df315c8c62006eadfe56fe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\input-airfoil.msh",
+      "sha256": "8e5275ba9a9496880ea9613f562d72f03e653b6aa59551c215ea415c0b6e6081"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\source-setup.json",
+      "sha256": "f18fcd7cb8f4fe2fbd31123e1fad5bb6033fefe29e380ef4d42e10ac90aca26f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\declared-comparison.json",
+      "sha256": "d0d26c5aee8c2420573dfafe0dfcd8f65536696c274aa7c648b79aa3b69ad02c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\executed-prepare-script.py",
+      "sha256": "4116c711bee0eb2b015dbbbbbb0378c76f49fb4649e28da5587ad277d9eaced5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\preparation-provenance.json",
+      "sha256": "cb7e7ce0c25f8d47a9e71060525bfb1d3d1e6b589cd9f0cf74f6513d41544423"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\run-status.json",
+      "sha256": "ad7e64a278011bb4697c174653ebdab877a98e034a74466a3da0eb357991ed4b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\mesh-check.log",
+      "sha256": "90a90d2bb70c3c34fed9c5e8a2283912a1d90b437f8e9d089c69ff04cebbb401"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\points",
+      "sha256": "8313077fb139395975e8828b332e3fcd80d771f4da34629bad02796b55ac15fb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\boundary",
+      "sha256": "cc60122c9afb97c5c71e06c709b782c402d6417487771dfadc83217ebddf0d96"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\method-continuation-stage02.json",
+      "sha256": "535dcf4b262addf7b02cba182aeeca525136aa87f6f885b5f7f31e1b5c6544aa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\system\\fvSolution.stage01",
+      "sha256": "a10306cf7fc880a7933e21368a4b0cc1b539361fb451cf5b7fa36ccfde2e15e2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\system\\fvSchemes.stage01",
+      "sha256": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\system\\controlDict.stage01",
+      "sha256": "e553ee732029de33cf09dc552f45e5aadcf722e6a74904714683b418e9af8f0a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\2000\\U",
+      "sha256": "55aa2573e73dfd6221fc351fc0ca97f05e5a7db8de3981815234faaef832b266"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\2000\\p",
+      "sha256": "a9ebd682aed6b7547d45922c322f08c791a3d85261fb0c90fc915c8847802602"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\2000\\phi",
+      "sha256": "2fc5a18bbf0ce84db443ab6097979d94b7d2a7647184d3fc823738d8c4db4839"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\execution-continuations.json",
+      "sha256": "e8893df6b35eab7c309bfbfdf37f7962cf2f1b233b07782a04c5b6ed734b74c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\system\\controlDict.stage02",
+      "sha256": "64037d34debd0fc6d87da03176d8ed28a4925c4cd07d04b2a3ce8d7886ac5663"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\2500\\U",
+      "sha256": "8dcefb821e789d848ce4b5cf6e056d87068b59fc4556e856a11baf04eda36eab"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\2500\\p",
+      "sha256": "45b8538fa6aac161faa796dd4a16f937e2d3194b784513557d1ae2cdd106d408"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\2500\\phi",
+      "sha256": "45e6ec968e1fecbf267a1a733b63957492db639aa13a089b74b3297a5dcabb51"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\faces",
+      "sha256": "2adef1bf813523538fdf6b447e17fc0be0c87a9a43c247b9dba34885d2551de8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\owner",
+      "sha256": "d0bd62362ffcd8dcf971a13dab3b079a61e8bdef33c00e6de03d52ed90b9ffd9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\polyMesh\\neighbour",
+      "sha256": "bc2907988de7ded95cc8e26aac8e96443018c2951e9a95218b251dffca941047"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_openfoam_airfoil_fields.py",
+      "sha256": "be3c91f714886d6cf4089d70405730c7760b502a008a00df9b16e2e81b92dc09"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\5000\\p",
+      "sha256": "542b4d19c683eb717f4c5c3252885f88583d596ab0588f4b0c796753bf174ded"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\5000\\U",
+      "sha256": "5837a02da67d50279a90923be0afc316da4fd0ede93c9a09bed16b12e27249ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\5000\\phi",
+      "sha256": "5804a07480e56372658cfc5ab1fcdf1e40f3c5a4d6219cf0cac25ebb5f649f20"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\solver-stage02.log",
+      "sha256": "3a39f3541ece69f631b6bb6acafa663a8ed76acc7a205ca40a58ed3fd8df2dad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\solver-stage03.log",
+      "sha256": "c80c38c69799f72bd092d36c272635aec336e35f2e03c5ccbf89fe346add0a36"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\solver.log",
+      "sha256": "fd76884b27b912d6cb0237842fa4bd2c88678c2216548f9b89e3d796c0483445"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\postProcessing\\forceCoefficients\\0\\forceCoeffs.dat",
+      "sha256": "415619e234a6b06a002312683d44f54da49819f0c2462b8e7439315f67b3deb1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\postProcessing\\forceCoefficients\\2000\\forceCoeffs.dat",
+      "sha256": "029e23fa9d0931f52bc35e92eae35410ab8449c2d2311f7f8a0d9c0a73696e1a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\postProcessing\\forceCoefficients\\2500\\forceCoeffs.dat",
+      "sha256": "711969904c125ba457f3905e2b819adf19f1ab49db4764acd2c38ca8167df4c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\system\\controlDict",
+      "sha256": "a140e131413f82849a691b48fc5cc71bb8d4a4d0de75ce823aae40ebd12727ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\system\\fvSchemes",
+      "sha256": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\system\\fvSolution",
+      "sha256": "d22639fb02f15d1bf337f3ea60c731d29a064173e3fd0cd4eebe3a5f4378d9b7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\constant\\physicalProperties",
+      "sha256": "a46dd6f0ebce97f252410989e7ab3c7f7a477d03e2de053390cec0e0de581a87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\constant\\momentumTransport",
+      "sha256": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\p",
+      "sha256": "43af3d525005e5fca04f883c76e3d53e2fc34da95b7e5ab6e2511f99c47a5239"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-paired-v001\\openfoam\\0\\U",
+      "sha256": "08f92b34323d4daea3defc9aaa3c360386f6cb112596f9690bd46e18a77ef74e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\loaded-settings.json",
+      "sha256": "e579cad266f6a60f7f4386cd5ccb59bccb63de84c4e98ac535209e3f775defa6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\geometry-setup.json",
+      "sha256": "f18fcd7cb8f4fe2fbd31123e1fad5bb6033fefe29e380ef4d42e10ac90aca26f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\declared-targets.json",
+      "sha256": "175449bb92d1f22fbd1cd4cf129271cef3e1ba61ea29ebd092a121f4a6115bfe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\summary.json",
+      "sha256": "9bb67a5effed0a900953fb0e097ae5cb8c39bf453aa92255597f9ffa2dafb580"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\force-history.csv",
+      "sha256": "47d9016009e9d934fada1bb33ae5baf6dd16586a7cb82d505b61912493984c3a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\solver-transcript.txt",
+      "sha256": "b66ed012189bca00d606a11b695468a93c52464588e52c4fcaac54a4420d0d1b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\mass-balance.txt",
+      "sha256": "0ffb51310cab260f4db6123934a273941385fd01d1d065473528a014c5e06377"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\airfoil-Re100-final.cas.h5",
+      "sha256": "591391a2c41d4c0ec4438237b0a191b51adf831cec84f6a8b0779f8d168ad7d5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\airfoil-Re100-final.dat.h5",
+      "sha256": "fe953cbd9607cc8a2b2a525655cc7dda76640c7d8cd0e1aa6d120467f10be636"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-000.txt",
+      "sha256": "1e4b7763dd86bccacbe1e78946b02ea25dc7c751474d0ec7e756618465b8857e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-000.txt",
+      "sha256": "a90b9f215e09aa02108cea3f2c302f2a2f537db2cb799339a71fcf6e354cba97"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-001.txt",
+      "sha256": "75f56061c11cd68c2f3701173981bc89e0d42d80c384471d3127e140f975f27b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-001.txt",
+      "sha256": "ab55c58e0d303ed0643618aee5b91552cbcad8b2de70d8c40139cd021f19f1f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-002.txt",
+      "sha256": "22ccc2d95074e9bd735c91fd4224da92a5e7321181e0f8958075b5be0116688e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-002.txt",
+      "sha256": "f1b9f786a719cb44f6d96fe4f9a22401e31052930c1b8cad082203e4a3f7233a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-003.txt",
+      "sha256": "7c19e0e1034f75b7ef5646ff84a9dfd1d770324fb8bf9fcc0dd106df5c9b384d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-003.txt",
+      "sha256": "c9b731c9194a94951972137c3e2eb1a7eec4c85bb32de3bbacd07a05bd604295"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-004.txt",
+      "sha256": "8bedc4be266a6ed5e7a7648b78608a51b5de5b27a0082b0c15f828f9c86d6e68"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-004.txt",
+      "sha256": "78c8123e1f0024a1d044586d8ab9be66c8e666fbedfc9ea79f2dd697b5708aa3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-005.txt",
+      "sha256": "2fc87cbe05034c72123d4fbb5a55ec62bfb04cd9db3f921e1891e9fa89c401fe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-005.txt",
+      "sha256": "08ab6ec3da807b9f9e064fb4c95528035d8cf37b88eff718b0ee0fe44572693d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-006.txt",
+      "sha256": "9aadf049f70ec049d93f3ca037a0a53cbe4a763c4e98ac215f179571aa1c7c64"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-006.txt",
+      "sha256": "c6766fb2c9897632c4f2308f9e14460e14615ac66bbb37c24f60a2e386729716"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-007.txt",
+      "sha256": "351f72df7bd2b2f20326da6f3b91b7e0240bdc126dddc75999519ccaced8b8c1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-007.txt",
+      "sha256": "dc1a13d9fa907b53f6e9b98b9f165df37956072f02185c737bffa163aec55395"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-008.txt",
+      "sha256": "8fe8b1923205c162ff7538748eaebb12864c021fb065fc7e9100460fa0ff26b9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-008.txt",
+      "sha256": "9315baab71c38150f5f4ca177fff6610f34bc1c63fa1805e3a0b6d1e4638f9cb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-009.txt",
+      "sha256": "be8582cd0936c3a0b993ea6700364bec0e803dca1c48ccbcf88412b403c3422d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-009.txt",
+      "sha256": "1f5ac138ffdce3176aa108609d8c03c778a57492f76f2274aaf58f1868b90e1d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-010.txt",
+      "sha256": "a5be56bd26f3a2cb6da8504a1ed2779b9ce725cda785219b8ebe7c95be14573d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-010.txt",
+      "sha256": "289402cbf621077b7a175c329e364e4bb8b5e93aced00bce19216651811563bb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-011.txt",
+      "sha256": "f7e9d25d56f46f740531f25e330b2380695b72a1d25542bfd36893ee12095ac9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-011.txt",
+      "sha256": "8f49d364a7d5e61551273d7b254de4c7adc81d70aafbc7643474f4810077c488"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-012.txt",
+      "sha256": "a558c5cbac05f76f4f1ea20cc78de4dd4ab7fc8d3e44346be6e6400aff92d78b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-012.txt",
+      "sha256": "da59378c5380523bbc1ad9206dba662aa25093c7a746faec30b386b191af85dc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-013.txt",
+      "sha256": "b1ca4c31368ee6df0b981721b1fa1a78b6db6f929018c9008fe57f00db2df2f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-013.txt",
+      "sha256": "5b77839f205ff4709c4c440ee57bf9bc1fdfc77260e0a0f425db8559de7677d5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-014.txt",
+      "sha256": "19c6a22efcd55304058d130d83c17f549e49601ce37b139244dd570d1d6c9475"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-014.txt",
+      "sha256": "c51108e9d49981888d0461342aa02717f01915c7dba3362f69dfd7746befee2e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-015.txt",
+      "sha256": "6aef97b04267973a559793c4e138014a5365ab60309028f161bee849f12a4a22"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-015.txt",
+      "sha256": "195a7feeb7371c57278e6d40ecc6c2a85195af06c76b3013f010226cd507660d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-016.txt",
+      "sha256": "c48314a9e920e25e4531158241e7671f3b9f89a9ea4e873222271ba30d2e81f9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-016.txt",
+      "sha256": "b02ea6f16dfe87b39ba1a2051bdc1ecd287457de2264da198657027e3e895b31"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-017.txt",
+      "sha256": "c48314a9e920e25e4531158241e7671f3b9f89a9ea4e873222271ba30d2e81f9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-017.txt",
+      "sha256": "b02ea6f16dfe87b39ba1a2051bdc1ecd287457de2264da198657027e3e895b31"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-018.txt",
+      "sha256": "e5fcc0afc1a493c8231c6ceb82c0cad84903f8902238e712ca4080c3b0d298b5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-018.txt",
+      "sha256": "9d65625b735510460f8a452b47e0aefd802051c5b718c27835d0a3bf55f3856b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-019.txt",
+      "sha256": "d543da318b5bf1a30cb7119c4978d74c1b5a8cf725adab314051ba7d03169111"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-019.txt",
+      "sha256": "6ad84b87b33733a6fc431688590c0dd8c4658d5db420262456fd4fc260463e27"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-020.txt",
+      "sha256": "22c186994d84716de81d64d48c316c78d399328b27dc41ef96c2ccb83295275b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-020.txt",
+      "sha256": "c8a05d2d625c0ad69c27c34d8fbbda527101fd508b8fb50d2073b39a5b2303d5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-021.txt",
+      "sha256": "80361eb53d13fd1518dcb3382ecf26ef6c12f4f24dd6d5782fa6d3ecb06eca62"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-021.txt",
+      "sha256": "8e7c2c9a8f9033f084c759284060b6b8cd6f7ff0aa3835c4d3acc30815b01060"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-022.txt",
+      "sha256": "80361eb53d13fd1518dcb3382ecf26ef6c12f4f24dd6d5782fa6d3ecb06eca62"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-022.txt",
+      "sha256": "8e7c2c9a8f9033f084c759284060b6b8cd6f7ff0aa3835c4d3acc30815b01060"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-023.txt",
+      "sha256": "7122007dcca3ceabd5800333ec4f093367d9892e3409fa694e6d99922b97d29c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-023.txt",
+      "sha256": "3f3bb8f7022d0725f97c28078bfbc17fbea0925a3d00d4581f04467aa16fc139"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-024.txt",
+      "sha256": "7122007dcca3ceabd5800333ec4f093367d9892e3409fa694e6d99922b97d29c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-024.txt",
+      "sha256": "3f3bb8f7022d0725f97c28078bfbc17fbea0925a3d00d4581f04467aa16fc139"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-025.txt",
+      "sha256": "cb798d055ad62005aebf15a97839ea36ff84f050f174c5ed59767bfeb2c03c7c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-025.txt",
+      "sha256": "4aa05edd9bbe706ecee37baed3d7d0ad86e5dcc5e72805ef9b52999ff25d64f7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-026.txt",
+      "sha256": "cb798d055ad62005aebf15a97839ea36ff84f050f174c5ed59767bfeb2c03c7c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-026.txt",
+      "sha256": "4aa05edd9bbe706ecee37baed3d7d0ad86e5dcc5e72805ef9b52999ff25d64f7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-027.txt",
+      "sha256": "daa29a3d3c557a1627835913f096be0434b2be3e55c06372529524539c05a289"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-027.txt",
+      "sha256": "b99d8532108ef9db22ec258149ce078be002474ebbebbfdc42ca2beede95b042"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-028.txt",
+      "sha256": "daa29a3d3c557a1627835913f096be0434b2be3e55c06372529524539c05a289"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-028.txt",
+      "sha256": "b99d8532108ef9db22ec258149ce078be002474ebbebbfdc42ca2beede95b042"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-029.txt",
+      "sha256": "0b1c88233800c407172d17ec709f264fde4a230a5adb8d3e73c26bc284ab96f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-029.txt",
+      "sha256": "1cab588890404739f80b632f449b855774222d9ceffdbd3eaa31e73ee4029dcc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-030.txt",
+      "sha256": "0b1c88233800c407172d17ec709f264fde4a230a5adb8d3e73c26bc284ab96f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-030.txt",
+      "sha256": "1cab588890404739f80b632f449b855774222d9ceffdbd3eaa31e73ee4029dcc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-031.txt",
+      "sha256": "0b1c88233800c407172d17ec709f264fde4a230a5adb8d3e73c26bc284ab96f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-031.txt",
+      "sha256": "1cab588890404739f80b632f449b855774222d9ceffdbd3eaa31e73ee4029dcc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-032.txt",
+      "sha256": "0b1c88233800c407172d17ec709f264fde4a230a5adb8d3e73c26bc284ab96f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-032.txt",
+      "sha256": "1cab588890404739f80b632f449b855774222d9ceffdbd3eaa31e73ee4029dcc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-033.txt",
+      "sha256": "0b1c88233800c407172d17ec709f264fde4a230a5adb8d3e73c26bc284ab96f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-033.txt",
+      "sha256": "1cab588890404739f80b632f449b855774222d9ceffdbd3eaa31e73ee4029dcc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-034.txt",
+      "sha256": "0b1c88233800c407172d17ec709f264fde4a230a5adb8d3e73c26bc284ab96f0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-034.txt",
+      "sha256": "1cab588890404739f80b632f449b855774222d9ceffdbd3eaa31e73ee4029dcc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-035.txt",
+      "sha256": "6624b34d0ebd9df7fe5eeadddd59ca9019c764c52a248c402bc7fe9205516f1a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-035.txt",
+      "sha256": "6d1e8a70e0787292f3a5b3fad0ef3fbfada6e6a267b70aa3133a579d6061042e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-036.txt",
+      "sha256": "96992a4cf6f47ffc5d412db91cb513e1f9b7a1ab5a39a753320ceb145666a910"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-036.txt",
+      "sha256": "3967e3658d1a8e42e82085848db659cea39f036891f647347b6404ce71fc291b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-037.txt",
+      "sha256": "96992a4cf6f47ffc5d412db91cb513e1f9b7a1ab5a39a753320ceb145666a910"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-037.txt",
+      "sha256": "3967e3658d1a8e42e82085848db659cea39f036891f647347b6404ce71fc291b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-038.txt",
+      "sha256": "fba5ef8ee3390991bb271f57be894302710085ec4acfe8a2e0c00c7a6062656a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-038.txt",
+      "sha256": "f9de722d6db8e5554e92deef0e4c8100f6af00b10f02f7cfbf72a19f8a090976"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-039.txt",
+      "sha256": "fba5ef8ee3390991bb271f57be894302710085ec4acfe8a2e0c00c7a6062656a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-039.txt",
+      "sha256": "f9de722d6db8e5554e92deef0e4c8100f6af00b10f02f7cfbf72a19f8a090976"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-040.txt",
+      "sha256": "fba5ef8ee3390991bb271f57be894302710085ec4acfe8a2e0c00c7a6062656a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-040.txt",
+      "sha256": "f9de722d6db8e5554e92deef0e4c8100f6af00b10f02f7cfbf72a19f8a090976"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-041.txt",
+      "sha256": "fba5ef8ee3390991bb271f57be894302710085ec4acfe8a2e0c00c7a6062656a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-041.txt",
+      "sha256": "f9de722d6db8e5554e92deef0e4c8100f6af00b10f02f7cfbf72a19f8a090976"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-042.txt",
+      "sha256": "fba5ef8ee3390991bb271f57be894302710085ec4acfe8a2e0c00c7a6062656a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-042.txt",
+      "sha256": "f9de722d6db8e5554e92deef0e4c8100f6af00b10f02f7cfbf72a19f8a090976"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-043.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-043.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-044.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-044.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-045.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-045.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-046.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-046.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-047.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-047.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-048.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-048.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-049.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-049.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-050.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-050.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-051.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-051.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-052.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-052.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-053.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-053.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-054.txt",
+      "sha256": "c2ea0014044df911de73de592a005ef9aa2dfd5b1e46f1673e6333b648821fb3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-054.txt",
+      "sha256": "50af9006a0317391fe6e297903b93def9368cd7428a19af0c60bb8f528a6482b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-055.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-055.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-056.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-056.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-057.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-057.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-058.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-058.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-059.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-059.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-060.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-060.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-061.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-061.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-062.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-062.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-063.txt",
+      "sha256": "8cf5ad51ae9bf6befcb3bc80cde026bd28ebf7aff2e15a1e1dcda0d42974a80a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-063.txt",
+      "sha256": "8044657dcb22b5a78e4c1b32dd5312ac0bb6ee0eb3acd76fcc4b5bc08dc30f56"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-064.txt",
+      "sha256": "a412303bbd9d8740e727834c28359aa443449dcd0c33ae0dbb4950d8ffed573d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-064.txt",
+      "sha256": "b41b97a88835b733f34abf8cfecb84be3d1285bc9ca899f2860ce3dafb1d9bbf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-065.txt",
+      "sha256": "a412303bbd9d8740e727834c28359aa443449dcd0c33ae0dbb4950d8ffed573d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-065.txt",
+      "sha256": "b41b97a88835b733f34abf8cfecb84be3d1285bc9ca899f2860ce3dafb1d9bbf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-066.txt",
+      "sha256": "a412303bbd9d8740e727834c28359aa443449dcd0c33ae0dbb4950d8ffed573d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-066.txt",
+      "sha256": "b41b97a88835b733f34abf8cfecb84be3d1285bc9ca899f2860ce3dafb1d9bbf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-067.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-067.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-068.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-068.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-069.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-069.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-070.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-070.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-071.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-071.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-072.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-072.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-073.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-073.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-074.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-074.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-075.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-075.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-076.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-076.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-077.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-077.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-078.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-078.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-079.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-079.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-080.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-080.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-081.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-081.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-082.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-082.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-083.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-083.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-084.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-084.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-085.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-085.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-086.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-086.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-087.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-087.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-088.txt",
+      "sha256": "5ca776b0c1fca9379a54232c65c764690687ee580ed60ee881db6d3fe487bad3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-088.txt",
+      "sha256": "865188c9ae81eecf08b444c0183097532dd640dec4773c21dae9c9661eb08d12"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-089.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-089.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-090.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-090.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-091.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-091.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-092.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-092.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-093.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-093.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-094.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-094.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-095.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-095.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-096.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-096.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-097.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-097.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-098.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-098.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-099.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-099.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\drag-100.txt",
+      "sha256": "59b28f0c2c49643684531ed5fc83cc216c96e9a781d782a83abfe44fb8dc1d87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\lift-100.txt",
+      "sha256": "117d5c1e776889591a775186879e14e8500ae3e73cd74848f0ee4d19750d8dc4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\force-components.json",
+      "sha256": "df6c722eca8957c03ee49376774597364504d40e1c35e44a4215dde46259a9ff"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\input-manifest.json",
+      "sha256": "f0f8545a3e1648dff4d4624af02b22b2ae53e2121669638c1c094cf43dddd908"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\5000\\U",
+      "sha256": "5837a02da67d50279a90923be0afc316da4fd0ede93c9a09bed16b12e27249ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\5000\\p",
+      "sha256": "542b4d19c683eb717f4c5c3252885f88583d596ab0588f4b0c796753bf174ded"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\5000\\phi",
+      "sha256": "5804a07480e56372658cfc5ab1fcdf1e40f3c5a4d6219cf0cac25ebb5f649f20"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\constant\\polyMesh\\points",
+      "sha256": "8313077fb139395975e8828b332e3fcd80d771f4da34629bad02796b55ac15fb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\constant\\polyMesh\\faces",
+      "sha256": "2adef1bf813523538fdf6b447e17fc0be0c87a9a43c247b9dba34885d2551de8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\constant\\polyMesh\\owner",
+      "sha256": "d0bd62362ffcd8dcf971a13dab3b079a61e8bdef33c00e6de03d52ed90b9ffd9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\constant\\polyMesh\\neighbour",
+      "sha256": "bc2907988de7ded95cc8e26aac8e96443018c2951e9a95218b251dffca941047"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\constant\\polyMesh\\boundary",
+      "sha256": "cc60122c9afb97c5c71e06c709b782c402d6417487771dfadc83217ebddf0d96"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\constant\\physicalProperties",
+      "sha256": "a46dd6f0ebce97f252410989e7ab3c7f7a477d03e2de053390cec0e0de581a87"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\constant\\momentumTransport",
+      "sha256": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\system\\fvSchemes",
+      "sha256": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\system\\fvSolution",
+      "sha256": "d22639fb02f15d1bf337f3ea60c731d29a064173e3fd0cd4eebe3a5f4378d9b7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\evidence\\declared-comparison.json",
+      "sha256": "d0d26c5aee8c2420573dfafe0dfcd8f65536696c274aa7c648b79aa3b69ad02c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\evidence\\run-status.json",
+      "sha256": "ad7e64a278011bb4697c174653ebdab877a98e034a74466a3da0eb357991ed4b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\evidence\\source-controlDict",
+      "sha256": "a140e131413f82849a691b48fc5cc71bb8d4a4d0de75ce823aae40ebd12727ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\evidence\\source-forceCoeffs.dat",
+      "sha256": "711969904c125ba457f3905e2b819adf19f1ab49db4764acd2c38ca8167df4c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\system\\controlDict",
+      "sha256": "cf660a8bb8b701c4d632cb6c39deaa66763c447ecfd48d3574a02908b163193f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\system\\functions",
+      "sha256": "f796fd794e79777b84841efc918efcd89a174117fdb7a76b7a5efbdcf1780a30"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\executed-helper.py",
+      "sha256": "e069cb54df41c60854aa807f7e07ac2a59d1830030809b2b6756785a0d7a2c37"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\run-postprocess.sh",
+      "sha256": "d3d0b60359be9875bc6fbfa6e5eedbf8918ebfa3c26128852f4ab071df1af4e9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\postProcessing\\forcesDiagnostic\\5000\\forces.dat",
+      "sha256": "8fb975df553452165ff8568c938efe26d2bbc52d06f8d8851600697cfbb997d1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\postProcessing\\coefficientsReplay\\5000\\forceCoeffs.dat",
+      "sha256": "7a7ad0920c3bcdbd96f99ed83c1c0fdc6375b945c6dedae1fe819575dd54f9db"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\postprocessing\\2026-11-01-airfoil-forces-r20-v003\\postprocess.log",
+      "sha256": "cf0d99c8e7d70d23839f78da29469b6dd9e5d3a2175c74cd9dc30391b625b581"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-cross-solver-v001\\declared-comparison.json",
+      "sha256": "d0d26c5aee8c2420573dfafe0dfcd8f65536696c274aa7c648b79aa3b69ad02c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local-quality\\status.json",
+      "sha256": "938044daab55d1f299372ddfa8a7f79ad0ee16a84249b3fe77edbd591bdabc49"
+    }
+  ]
+}

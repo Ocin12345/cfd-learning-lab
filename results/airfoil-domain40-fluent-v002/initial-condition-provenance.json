@@ -1,0 +1,20 @@
+{
+  "kind": "Saved-case continuation",
+  "initialization": "Retain saved fields; no hybrid initialization",
+  "initial_iteration_cap": 1200,
+  "snapshot_before_solver_launch": true,
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent\\airfoil-Re100-final.cas.h5",
+      "sha256": "2f4847b7a911e8f5a8e19fd9a5c1b21092bb54f0d3f86b40037e687a213e09f4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent\\airfoil-Re100-final.dat.h5",
+      "sha256": "168bce8c8358b14ccb32bdb113552ea5547c52213ca852b16c5a090556e3f9a1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent\\geometry-setup.json",
+      "sha256": "43bd49c7b2c2e5383a6f7206f0a10a0e765837a407cadb30704534c99f7e83e5"
+    }
+  ]
+}

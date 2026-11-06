@@ -1,0 +1,43 @@
+{
+  "log_transition": {
+    "solver.log": {
+      "physical_steps": 400,
+      "first_time_s": 0.005,
+      "last_time_s": 2.0,
+      "outer_corrections_each_step": 3,
+      "all_iteration_sequences_exact": true
+    },
+    "solver-continuation-to-4s.log": {
+      "physical_steps": 400,
+      "first_time_s": 2.005,
+      "last_time_s": 4.0,
+      "outer_corrections_each_step": 8,
+      "all_iteration_sequences_exact": true
+    }
+  },
+  "mixed_snapshot_grid": {
+    "nonzero_snapshots": 120,
+    "pilot_interval_s": 0.025,
+    "continuation_interval_s": 0.05,
+    "pilot_frames": 80,
+    "continuation_frames": 40,
+    "passed": true
+  },
+  "actual_continuation_source_binding": {
+    "driver_sha256": "d435ac5cc23ae55920fb3ca11067c2883bd71d264aa5a0341e9c16d7f511d43b",
+    "wrapper_sha256": "c3501cbcdcbb3faf4e56656e981f0f80a10ca24a829db240c048b6e9e8e27aaf",
+    "executed_wrapper_sha256": "c3501cbcdcbb3faf4e56656e981f0f80a10ca24a829db240c048b6e9e8e27aaf",
+    "passed": true
+  },
+  "source_inputs_unchanged": true,
+  "all_checks_passed": true,
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\solver.log": "d5f13897cb4eab4e3f42eee12f6793285558f2241cc1857188398d089f4aaac7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\solver-continuation-to-4s.log": "894be824c290c66441eda7bb71ae66025cf4a69bbe60e0ca56c88cfafae3a4cd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\continuation-to-4s\\source-sha256.json": "8614c6776ef942dfe333deb58953de21d6e10e83e92cc4c8d68a9365fec6dd27",
+    "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_vortex_v003.py": "d435ac5cc23ae55920fb3ca11067c2883bd71d264aa5a0341e9c16d7f511d43b",
+    "E:\\CFD-Learning-Lab\\local\\vortex-shedding-v001\\run-openfoam-extended-to4s-v003.sh": "c3501cbcdcbb3faf4e56656e981f0f80a10ca24a829db240c048b6e9e8e27aaf",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\provenance\\run-openfoam-continuation-to-4s.sh": "c3501cbcdcbb3faf4e56656e981f0f80a10ca24a829db240c048b6e9e8e27aaf"
+  },
+  "solver_started": false
+}

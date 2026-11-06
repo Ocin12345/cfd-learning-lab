@@ -1,0 +1,90 @@
+{
+  "model": "Steady laminar square-obstacle confined wake",
+  "cells": 15900,
+  "nx": 200,
+  "ny": 80,
+  "dx_m": 0.01,
+  "dy_m": 0.01,
+  "density_kg_m3": 1.0,
+  "dynamic_viscosity_Pa_s": 0.0005,
+  "kinematic_viscosity_m2_s": 0.0005,
+  "inlet_velocity_m_s": [
+    0.1,
+    0.0
+  ],
+  "outlet_gauge_pressure_Pa": 0.0,
+  "Re_body": 20.0,
+  "body_side_m": 0.1,
+  "body_x_bounds_m": [
+    0.45,
+    0.55
+  ],
+  "body_y_bounds_m": [
+    -0.05,
+    0.05
+  ],
+  "domain_x_bounds_m": [
+    0.0,
+    2.0
+  ],
+  "domain_y_bounds_m": [
+    -0.4,
+    0.4
+  ],
+  "reference_length_m": 0.1,
+  "reference_velocity_m_s": 0.1,
+  "reference_area_m2": 0.1,
+  "reference_depth_m": 1.0,
+  "openfoam_extrusion_depth_m": 0.01,
+  "operating_pressure_Pa": 0.0,
+  "initial_velocity_m_s": [
+    0.0,
+    0.0
+  ],
+  "initial_pressure_Pa": 0.0,
+  "expected_flow_per_unit_depth_m2_s": {
+    "inlet": 0.08,
+    "outlet": 0.08
+  },
+  "boundary_names": [
+    "inlet",
+    "outlet",
+    "top",
+    "bottom",
+    "body"
+  ],
+  "boundary_types": {
+    "inlet": "velocity-inlet",
+    "outlet": "pressure-outlet",
+    "top": "symmetry",
+    "bottom": "symmetry",
+    "body": "wall"
+  },
+  "boundary_face_counts": {
+    "inlet": 80,
+    "outlet": 80,
+    "top": 200,
+    "bottom": 200,
+    "body": 40
+  },
+  "geometry_checks": {
+    "nodes": 16200,
+    "faces": 32100,
+    "interior_faces": 31500,
+    "positive_areas": true,
+    "total_area_m2": 1.5900000000000003,
+    "minimum_area_m2": 9.99999999999974e-05,
+    "euler_characteristic": 0,
+    "holes": 1,
+    "orthogonality_proxy_min": 1.0
+  },
+  "mesh_sha256": "ee23f1eece6c0c6ff420a162e155643be809f1acc6db5060a68d4c09f3d435d4",
+  "geometry_npz_sha256": "1b154cc6c9c0d8856e00ca1305a8d99ce5f30ef245fa6f4e0193c2a516960829",
+  "generated_by": "Codex",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "confined_domain": true,
+  "domain_height_over_bodyD": 8.0,
+  "blockage_ratio": 0.125,
+  "transient_shedding_simulated": false
+}

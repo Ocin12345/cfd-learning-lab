@@ -1,0 +1,37 @@
+{
+  "script_sha256": "85caaca51bc50c3ed0f1d07d678eaff669102220fb0e96602c9f610f784992f1",
+  "diagnostic_result": true,
+  "all_numerical_checks_passed": false,
+  "all_cross_code_targets_passed": false,
+  "native_manifest_inputs_verified": 519,
+  "canvas_inches": [
+    7.05,
+    3.1
+  ],
+  "png_dpi": 600,
+  "software": {
+    "matplotlib": "3.11.2"
+  },
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-domain-comparison-v002\\comparison.json",
+      "sha256": "699543a82928e0a63bd6ef557ca14e2790416092b52649b5b3636f359f5087c8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-domain-comparison-v002\\comparison.csv",
+      "sha256": "3674188e712a67bcbb5bd055635219b21b705bb825762a5227c6eda0222a8231"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-domain-comparison-v002\\source-manifest.json",
+      "sha256": "528f55e11265070b4152f333de7129bf64d785e1b401c4537e6f15549bc39b83"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_airfoil_domain.py",
+      "sha256": "85caaca51bc50c3ed0f1d07d678eaff669102220fb0e96602c9f610f784992f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_airfoil_domain.py",
+      "sha256": "d26d891d85173b0ebc327151ebdb6b575595e3f679b0c2c7cb5e609a21703292"
+    }
+  ]
+}

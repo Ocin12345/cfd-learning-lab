@@ -1,0 +1,23 @@
+{
+  "definition": "V / [(8/(9sqrt3))*R_circum^3], one minus equilateral volume skewness",
+  "minimum": 0.08388553642817853,
+  "percentile1": 0.2916718982831598,
+  "median": 0.7276105834945481,
+  "count_below_native_0p10": 2,
+  "count_below_candidate_0p105": 2,
+  "face_centre_orthogonality_proxy_minimum": 0.39430416121430595,
+  "required_candidate_floor": 0.105,
+  "all_candidate_tets_checked": 169800,
+  "candidate_gate_pass": false,
+  "matched_v001_native_minimum": 0.029756453880275018,
+  "native_fluent_quality_check_still_required": true,
+  "cap_surfaces": [
+    2,
+    3
+  ],
+  "cap_surface_size_m": 0.0075,
+  "cap_growth": 0.32,
+  "cap_distance_sampling": 400,
+  "geometry_changed": false,
+  "repair_scope": "Full-span trailing cap size field only; one authorized candidate"
+}

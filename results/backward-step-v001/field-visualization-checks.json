@@ -1,0 +1,116 @@
+{
+  "solvers": {
+    "fluent": {
+      "cells": 8800,
+      "native_centres_bijective": true,
+      "solid_slots_masked": 800,
+      "centre_tolerance_m": 1e-09,
+      "maximum_centre_mapping_error_m": 4.440892098500626e-16,
+      "finite_native_fields": true,
+      "topology": "Four distinct saved vertices per verified rectangular Fluent cell",
+      "min_u_m_s": -0.1627301726854488,
+      "max_u_m_s": 1.462310207039291,
+      "min_u_native_centre_m": [
+        0.215,
+        0.0275
+      ],
+      "negative_u_cell_count": 468,
+      "downstream_below_step_negative_cell_count": 468,
+      "speed_range_m_s": [
+        2.3815892044931352e-05,
+        1.4626286450270505
+      ],
+      "pressure_range_Pa": [
+        -0.11094633107699545,
+        1.0560612816047148
+      ],
+      "near_bottom_first_cell_zero_u_proxy": {
+        "status": "first negative-to-nonnegative crossing after first negative cell",
+        "first_cell_y_m": 0.0025,
+        "first_cell_y_over_h": 0.024999999999999998,
+        "negative_first_cell_count": 48,
+        "x_m": 0.4837684397339328,
+        "x_over_h": 4.837684397339328,
+        "first_negative_x_m": 0.0050000000000000044,
+        "bracket_x_m": [
+          0.475,
+          0.485
+        ],
+        "bracket_u_m_s": [
+          -0.002413351774698318,
+          0.0003389643133725556
+        ]
+      }
+    },
+    "openfoam": {
+      "cells": 8800,
+      "native_centres_bijective": true,
+      "solid_slots_masked": 800,
+      "centre_tolerance_m": 1e-09,
+      "maximum_centre_mapping_error_m": 2.220446049250313e-16,
+      "finite_native_fields": true,
+      "topology": "Native writeCellCentres C field; no imported-order assumption",
+      "min_u_m_s": -0.16276282788266,
+      "max_u_m_s": 1.4626141225321,
+      "min_u_native_centre_m": [
+        0.215,
+        0.0275
+      ],
+      "negative_u_cell_count": 466,
+      "downstream_below_step_negative_cell_count": 466,
+      "speed_range_m_s": [
+        6.874499996267482e-05,
+        1.46308952310214
+      ],
+      "pressure_range_Pa": [
+        -0.11654859593405,
+        1.1927045001211
+      ],
+      "near_bottom_first_cell_zero_u_proxy": {
+        "status": "first negative-to-nonnegative crossing after first negative cell",
+        "first_cell_y_m": 0.0025,
+        "first_cell_y_over_h": 0.024999999999999998,
+        "negative_first_cell_count": 47,
+        "x_m": 0.4837862863890935,
+        "x_over_h": 4.837862863890934,
+        "first_negative_x_m": 0.014999999999999986,
+        "bracket_x_m": [
+          0.475,
+          0.485
+        ],
+        "bracket_u_m_s": [
+          -0.0023818765522247,
+          0.00032902592322994
+        ]
+      }
+    }
+  },
+  "solver_selection": "both",
+  "colour_limits": {
+    "axial_velocity_m_s": [
+      -0.16276282788266,
+      1.4626141225321
+    ],
+    "zero_centred": true,
+    "normalization": "Separate linear negative/positive intervals meeting at zero",
+    "recirculation_zoom_x_over_h": [
+      -0.65,
+      5.6499999999999995
+    ],
+    "reverse_flow_seed_counts": {
+      "fluent": 3,
+      "openfoam": 3
+    }
+  },
+  "near_bottom_proxy_definition": "Linear u_x zero crossing between consecutive downstream first-row cell centres, after the first negative cell; grid dependent and not exact wall reattachment",
+  "streamline_method": "One Matplotlib streamplot call per panel through saved mapped cell vectors, with three actual negative-u native-centre seeds and eight inlet seeds; shared occupancy mask and broken_streamlines=True prevent repeated orbits; no invented vortex or appended wall values",
+  "residual_mass_and_stability_checks": "Separate native-run evidence; not assessed by this plotter",
+  "analytical_poiseuille_checks_applied": false,
+  "mesh_independence_established": false,
+  "physical_validation": false,
+  "scope": "Bounded educational visualization of saved backward-step fields",
+  "cross_solver_axial_difference_m_s": {
+    "max_abs": 0.047891745502067984,
+    "rms": 0.0014246423424756727
+  }
+}

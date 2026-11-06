@@ -1,0 +1,53 @@
+{
+  "model": "Transient solid conduction slab",
+  "cells": 2000,
+  "nx": 100,
+  "ny": 20,
+  "length_m": 0.1,
+  "height_m": 0.02,
+  "dx_m": 0.001,
+  "dy_m": 0.001,
+  "density_kg_m3": 1000.0,
+  "specific_heat_J_kg_K": 1000.0,
+  "thermal_conductivity_W_m_K": 10.0,
+  "thermal_diffusivity_m2_s": 1e-05,
+  "initial_temperature_K": 300.0,
+  "hot_temperature_K": 400.0,
+  "cold_temperature_K": 300.0,
+  "time_step_s": 2.0,
+  "time_steps": 100,
+  "final_time_s": 200.0,
+  "reference_depth_m": 1.0,
+  "openfoam_extrusion_depth_m": 0.01,
+  "cell_zone_name": "slab",
+  "import_zone_type": "fluid",
+  "solved_zone_type": "solid",
+  "boundary_names": [
+    "hot",
+    "cold",
+    "insulated_bottom",
+    "insulated_top"
+  ],
+  "boundary_face_counts": {
+    "hot": 20,
+    "cold": 20,
+    "insulated_bottom": 100,
+    "insulated_top": 100
+  },
+  "geometry_checks": {
+    "nodes": 2121,
+    "faces": 4120,
+    "interior_faces": 3880,
+    "positive_areas": true,
+    "total_area_m2": 0.002,
+    "minimum_area_m2": 9.99999999999699e-07,
+    "euler_characteristic": 1,
+    "orthogonality_proxy_min": 1.0
+  },
+  "mesh_sha256": "2b67a0ec8233c6e34f51a413d6a1499b7a5d769a4e464854fd8f3ac86dfd5d3d",
+  "geometry_npz_sha256": "3827f88fc975a0b30ae1d0739ff17ace05a31dd58f025cfb0fbc88e05e9fa96e",
+  "generated_by": "Codex",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "time_step_independence": false
+}

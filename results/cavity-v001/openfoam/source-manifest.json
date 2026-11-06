@@ -1,0 +1,588 @@
+{
+  "inputs_unchanged_during_analysis": true,
+  "sources": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_cavity_openfoam_v003.py",
+      "bytes": 19954,
+      "sha256_before": "a8b7337a04d2cbfe03eca31a5eac61840e1f329cb3fd33ca80eee43e43c120b3",
+      "sha256_after": "a8b7337a04d2cbfe03eca31a5eac61840e1f329cb3fd33ca80eee43e43c120b3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\prepare_openfoam_cavity_v001.py",
+      "bytes": 14753,
+      "sha256_before": "261c2cec3625aca272fd945696c9a7326ee38c102a1a226438277244d26eeb6d",
+      "sha256_after": "261c2cec3625aca272fd945696c9a7326ee38c102a1a226438277244d26eeb6d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\declared-comparison.json",
+      "bytes": 3081,
+      "sha256_before": "4a69a3c4e0792e83e600db38e31b2a7404f31e24116ad25afab6dbd273192036",
+      "sha256_after": "4a69a3c4e0792e83e600db38e31b2a7404f31e24116ad25afab6dbd273192036"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\run-status.json",
+      "bytes": 312,
+      "sha256_before": "62e978c6c610482626c95b7f156eda6e252a696f8f9903160a46f9473d1a6726",
+      "sha256_after": "62e978c6c610482626c95b7f156eda6e252a696f8f9903160a46f9473d1a6726"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\system\\controlDict",
+      "bytes": 363,
+      "sha256_before": "876ded5b10149370041c929ff19c47a192a66f57ed6d5b0c166f82965b9cb091",
+      "sha256_after": "876ded5b10149370041c929ff19c47a192a66f57ed6d5b0c166f82965b9cb091"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\system\\fvSchemes",
+      "bytes": 409,
+      "sha256_before": "021d0af39e30e44f02049832103bc6addb12bf9a156f9e33221a9bcbd9af2858",
+      "sha256_after": "021d0af39e30e44f02049832103bc6addb12bf9a156f9e33221a9bcbd9af2858"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\system\\fvSolution",
+      "bytes": 376,
+      "sha256_before": "55a8fb20b52e558f9d541cb57872f0d42c83b64d9b640b994d7003a62eabf890",
+      "sha256_after": "55a8fb20b52e558f9d541cb57872f0d42c83b64d9b640b994d7003a62eabf890"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\system\\decomposeParDict",
+      "bytes": 166,
+      "sha256_before": "ddb5382347794fb453c78e81b977665ce8b4658f6b620ac06d9454b4ebd9a930",
+      "sha256_after": "ddb5382347794fb453c78e81b977665ce8b4658f6b620ac06d9454b4ebd9a930"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\constant\\physicalProperties",
+      "bytes": 124,
+      "sha256_before": "b74261eb6edc8d7202e75461e52137f04931e24961a35814fb9113c9574dfdac",
+      "sha256_after": "b74261eb6edc8d7202e75461e52137f04931e24961a35814fb9113c9574dfdac"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\constant\\momentumTransport",
+      "bytes": 113,
+      "sha256_before": "5679d1df75842397f41b474d876d9f58a62610c650df49bc949c447458deb338",
+      "sha256_after": "5679d1df75842397f41b474d876d9f58a62610c650df49bc949c447458deb338"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\0\\U",
+      "bytes": 312,
+      "sha256_before": "69149e0aee9e6ab25e9e327922c4a011ddbb4f314197a6a34ffb7a0fc08b7677",
+      "sha256_after": "69149e0aee9e6ab25e9e327922c4a011ddbb4f314197a6a34ffb7a0fc08b7677"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\0\\p",
+      "bytes": 303,
+      "sha256_before": "49922907862a06861f54c18cff8c3faaef837cf96f0b471acf1c72acee5ddc5c",
+      "sha256_after": "49922907862a06861f54c18cff8c3faaef837cf96f0b471acf1c72acee5ddc5c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\prepared-input-sha256.json",
+      "bytes": 1445,
+      "sha256_before": "59b18fd5333d4986f2be243bf021542148205d740d1267a54385de51a75e942b",
+      "sha256_after": "59b18fd5333d4986f2be243bf021542148205d740d1267a54385de51a75e942b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\input-cavity.msh",
+      "bytes": 446151,
+      "sha256_before": "5d76acfc9cf94c23150a1d80488a9aaa2a795ea6be0a6aebfdb20fe7bc6b9795",
+      "sha256_after": "5d76acfc9cf94c23150a1d80488a9aaa2a795ea6be0a6aebfdb20fe7bc6b9795"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\geometry.npz",
+      "bytes": 79310,
+      "sha256_before": "3b82e075d8d083ee1c653dd9c1b5afac92d1d65857adb31d75216c0de7bc4aec",
+      "sha256_after": "3b82e075d8d083ee1c653dd9c1b5afac92d1d65857adb31d75216c0de7bc4aec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\Launch-OpenFOAM.ps1",
+      "bytes": 4727,
+      "sha256_before": "a0c1728a21738fcba1962a9fedce8e9f603427e67b6955fc3ea437b5967b5fa9",
+      "sha256_after": "a0c1728a21738fcba1962a9fedce8e9f603427e67b6955fc3ea437b5967b5fa9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\prepare_openfoam_cavity_v001.py",
+      "bytes": 14753,
+      "sha256_before": "261c2cec3625aca272fd945696c9a7326ee38c102a1a226438277244d26eeb6d",
+      "sha256_after": "261c2cec3625aca272fd945696c9a7326ee38c102a1a226438277244d26eeb6d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\run-openfoam.sh",
+      "bytes": 5525,
+      "sha256_before": "db9a2b428ce0b56a54d4637fadb10589fd3738bf933a9c2c9eb2f32671586839",
+      "sha256_after": "db9a2b428ce0b56a54d4637fadb10589fd3738bf933a9c2c9eb2f32671586839"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\setup.json",
+      "bytes": 1267,
+      "sha256_before": "77a8ba5fd6509e9a77f597f298e5e36d8371060079786e0be9ac5a9c2d49341f",
+      "sha256_after": "77a8ba5fd6509e9a77f597f298e5e36d8371060079786e0be9ac5a9c2d49341f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\preflight-validation.json",
+      "bytes": 1626,
+      "sha256_before": "ccc022a6e4e46006d25274d868114eea974e38afb18e8b7b8fada5110ece49d6",
+      "sha256_after": "ccc022a6e4e46006d25274d868114eea974e38afb18e8b7b8fada5110ece49d6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\0\\polyMesh\\points",
+      "bytes": 270982,
+      "sha256_before": "f961afb662b50b33b5f66f23938e17365478bd1f14f6e24661a811a2e5e2bd67",
+      "sha256_after": "f961afb662b50b33b5f66f23938e17365478bd1f14f6e24661a811a2e5e2bd67"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\0\\polyMesh\\faces",
+      "bytes": 609383,
+      "sha256_before": "794c5cdc0a7b95a5811a576dda38d93dce208e1d15ab25ab77d0807377b01f19",
+      "sha256_after": "794c5cdc0a7b95a5811a576dda38d93dce208e1d15ab25ab77d0807377b01f19"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\0\\polyMesh\\owner",
+      "bytes": 124938,
+      "sha256_before": "4079ad7405f3a4192fa984323f261573397dd8a2f5387a18e47ce56aaf4a2c46",
+      "sha256_after": "4079ad7405f3a4192fa984323f261573397dd8a2f5387a18e47ce56aaf4a2c46"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\0\\polyMesh\\neighbour",
+      "bytes": 61934,
+      "sha256_before": "e0378887e94b013278705baa5aec8cc856c4ec497a4dd3745aca69ec3266a7c9",
+      "sha256_after": "e0378887e94b013278705baa5aec8cc856c4ec497a4dd3745aca69ec3266a7c9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\0\\polyMesh\\boundary",
+      "bytes": 1477,
+      "sha256_before": "d4e089b28748f6fdb2553d80bd0ac2692a26eff15aa361513cdc10d46e35b3fb",
+      "sha256_after": "d4e089b28748f6fdb2553d80bd0ac2692a26eff15aa361513cdc10d46e35b3fb"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\mesh-check.log",
+      "bytes": 4061,
+      "sha256_before": "1b50cec80f85ddded1c3b8fb2ca24ee3e033efbfd4c59196bdca3da817b933f7",
+      "sha256_after": "1b50cec80f85ddded1c3b8fb2ca24ee3e033efbfd4c59196bdca3da817b933f7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\2000\\C",
+      "bytes": 164757,
+      "sha256_before": "4771bd79cd5cad9b6a4ec08ba525b1023f2124bd745540d9a7fce03b5520ccc8",
+      "sha256_after": "4771bd79cd5cad9b6a4ec08ba525b1023f2124bd745540d9a7fce03b5520ccc8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\100\\U",
+      "bytes": 264962,
+      "sha256_before": "09ff1b3f36c1269509f6b5c1ae32f9a689194537d1f0f9a59027283c21e1dae6",
+      "sha256_after": "09ff1b3f36c1269509f6b5c1ae32f9a689194537d1f0f9a59027283c21e1dae6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\100\\p",
+      "bytes": 121425,
+      "sha256_before": "ec6999c8803ec932e9aab02def1065b95d9ba546f08d90f24b7d60eab92945ca",
+      "sha256_after": "ec6999c8803ec932e9aab02def1065b95d9ba546f08d90f24b7d60eab92945ca"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\100\\phi",
+      "bytes": 260891,
+      "sha256_before": "632120a4f177634c1034a5fa2b096d1be061ae259aacf5b3b73fe739c0f5ad7a",
+      "sha256_after": "632120a4f177634c1034a5fa2b096d1be061ae259aacf5b3b73fe739c0f5ad7a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\200\\U",
+      "bytes": 263568,
+      "sha256_before": "9e1b5f476f1bd5b646f8a3364a9601a34b9e5c4165070b9f1e21de28949e7b72",
+      "sha256_after": "9e1b5f476f1bd5b646f8a3364a9601a34b9e5c4165070b9f1e21de28949e7b72"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\200\\p",
+      "bytes": 122612,
+      "sha256_before": "292d31a84c177d6733a037ea0d760b442f1bb3b82ab2188a6e01ee578ddc525a",
+      "sha256_after": "292d31a84c177d6733a037ea0d760b442f1bb3b82ab2188a6e01ee578ddc525a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\200\\phi",
+      "bytes": 260687,
+      "sha256_before": "3c9dd04badc11e314a026194b1d41b166e65729d233ee02c6f905e6aa706c2c2",
+      "sha256_after": "3c9dd04badc11e314a026194b1d41b166e65729d233ee02c6f905e6aa706c2c2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\300\\U",
+      "bytes": 262756,
+      "sha256_before": "ba1f6b13b2387b86033c96ec94823c1439af703943f4045d97e479283751818f",
+      "sha256_after": "ba1f6b13b2387b86033c96ec94823c1439af703943f4045d97e479283751818f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\300\\p",
+      "bytes": 123140,
+      "sha256_before": "732466f47984824bd282b259d9894c929e55982b547e39b8004b40c4a927df0b",
+      "sha256_after": "732466f47984824bd282b259d9894c929e55982b547e39b8004b40c4a927df0b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\300\\phi",
+      "bytes": 260667,
+      "sha256_before": "8d6ce2cbd8738c2aae8c679bde97a3002494a0c971f27975e43b2ad68038401c",
+      "sha256_after": "8d6ce2cbd8738c2aae8c679bde97a3002494a0c971f27975e43b2ad68038401c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\400\\U",
+      "bytes": 262391,
+      "sha256_before": "0234c7b3caffb89a8e9da3df61a7f788d836fd4c006e212fcb3b1834e2edbced",
+      "sha256_after": "0234c7b3caffb89a8e9da3df61a7f788d836fd4c006e212fcb3b1834e2edbced"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\400\\p",
+      "bytes": 123275,
+      "sha256_before": "a64cfdf49cee3ef5fc976b63a971b7afea07b11fea7f3892ea909128f3d39627",
+      "sha256_after": "a64cfdf49cee3ef5fc976b63a971b7afea07b11fea7f3892ea909128f3d39627"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\400\\phi",
+      "bytes": 260551,
+      "sha256_before": "bca8fa2009953fb4cdac109e418b0c2e65a2f863257f4bae71a6b9f44c0ef1ef",
+      "sha256_after": "bca8fa2009953fb4cdac109e418b0c2e65a2f863257f4bae71a6b9f44c0ef1ef"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\500\\U",
+      "bytes": 262025,
+      "sha256_before": "a4d764f4748eba8b8cc5f8415ca90b2acf2c9e5b63283bc574ce011c9c2d139c",
+      "sha256_after": "a4d764f4748eba8b8cc5f8415ca90b2acf2c9e5b63283bc574ce011c9c2d139c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\500\\p",
+      "bytes": 123403,
+      "sha256_before": "46ebaf06bcc9fc5eea219f83957d1079cfcb1a69079aca13df4a8ff780022ada",
+      "sha256_after": "46ebaf06bcc9fc5eea219f83957d1079cfcb1a69079aca13df4a8ff780022ada"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\500\\phi",
+      "bytes": 260512,
+      "sha256_before": "b0c18e658326ac2a31cd22380d355deb924d08d83afc99d3bc65098c2c657fc3",
+      "sha256_after": "b0c18e658326ac2a31cd22380d355deb924d08d83afc99d3bc65098c2c657fc3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\600\\U",
+      "bytes": 261787,
+      "sha256_before": "52ac876adcf14de007caf7cf27e82d9e5efd6aaec5307c7b38fc1732fe0e121d",
+      "sha256_after": "52ac876adcf14de007caf7cf27e82d9e5efd6aaec5307c7b38fc1732fe0e121d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\600\\p",
+      "bytes": 123489,
+      "sha256_before": "b8cc0ef0325256ed5250869b5951c203b29efdded48d59b54bc5a598ecfe4f85",
+      "sha256_after": "b8cc0ef0325256ed5250869b5951c203b29efdded48d59b54bc5a598ecfe4f85"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\600\\phi",
+      "bytes": 260502,
+      "sha256_before": "dde66fdfd7efa94670c4f72e3546c3aa5a38b577bdd0c34ab6b73bd4533f2530",
+      "sha256_after": "dde66fdfd7efa94670c4f72e3546c3aa5a38b577bdd0c34ab6b73bd4533f2530"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\700\\U",
+      "bytes": 261644,
+      "sha256_before": "878966fae9d23b7343b868cf3008a7c99fa0403689ebbc2d3b7ade20382b0492",
+      "sha256_after": "878966fae9d23b7343b868cf3008a7c99fa0403689ebbc2d3b7ade20382b0492"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\700\\p",
+      "bytes": 123594,
+      "sha256_before": "d335e7da9dabbf6a013953c0e8fc00a34efa8945d6814086543d8f6196dc7bde",
+      "sha256_after": "d335e7da9dabbf6a013953c0e8fc00a34efa8945d6814086543d8f6196dc7bde"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\700\\phi",
+      "bytes": 260550,
+      "sha256_before": "76dfbac13bffe06ff14726c6b83e0dfdceff0d264c8f81805c729cbabed2bb0d",
+      "sha256_after": "76dfbac13bffe06ff14726c6b83e0dfdceff0d264c8f81805c729cbabed2bb0d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\800\\U",
+      "bytes": 261643,
+      "sha256_before": "e6c845cccf33d050f17821ecbcee45f289dce80453e0f3fb23a738b217abac7b",
+      "sha256_after": "e6c845cccf33d050f17821ecbcee45f289dce80453e0f3fb23a738b217abac7b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\800\\p",
+      "bytes": 123567,
+      "sha256_before": "f5f22fbc3ab24a2f396b0303117b7c4c7c47910e95466d61da5cdc4c2d8065cd",
+      "sha256_after": "f5f22fbc3ab24a2f396b0303117b7c4c7c47910e95466d61da5cdc4c2d8065cd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\800\\phi",
+      "bytes": 260485,
+      "sha256_before": "1a4dd97f80f31bc633e0ad48dd05f7cd04a60f6427eaaedaef2af3f58ba494f9",
+      "sha256_after": "1a4dd97f80f31bc633e0ad48dd05f7cd04a60f6427eaaedaef2af3f58ba494f9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\900\\U",
+      "bytes": 261547,
+      "sha256_before": "ad9dfc003e40ae65ebf194ea0bb9bf3c3e1a14bd1c8fc64e4d5ace89a99186a4",
+      "sha256_after": "ad9dfc003e40ae65ebf194ea0bb9bf3c3e1a14bd1c8fc64e4d5ace89a99186a4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\900\\p",
+      "bytes": 123536,
+      "sha256_before": "e999e40732bce96f6282d9ff4d15befce228bded75c7ebbffb658efb22311dbf",
+      "sha256_after": "e999e40732bce96f6282d9ff4d15befce228bded75c7ebbffb658efb22311dbf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\900\\phi",
+      "bytes": 260567,
+      "sha256_before": "bd527394036847ac695a3ac2d9d4de88f420cc97393f6b944a9281ec53084da0",
+      "sha256_after": "bd527394036847ac695a3ac2d9d4de88f420cc97393f6b944a9281ec53084da0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1000\\U",
+      "bytes": 261504,
+      "sha256_before": "1adaca70c09a64d259d696aaa9864310e9cf5e6dda1c639e52ac1a455408b731",
+      "sha256_after": "1adaca70c09a64d259d696aaa9864310e9cf5e6dda1c639e52ac1a455408b731"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1000\\p",
+      "bytes": 123614,
+      "sha256_before": "885b3930f2fdd7061fc440ee6b59fa794875524fa044b22c0a4241f14a21806d",
+      "sha256_after": "885b3930f2fdd7061fc440ee6b59fa794875524fa044b22c0a4241f14a21806d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1000\\phi",
+      "bytes": 260542,
+      "sha256_before": "eac3ea80aea262056fecf0b949873f3c6c325f08ea0846e7994d67d93a4dcd47",
+      "sha256_after": "eac3ea80aea262056fecf0b949873f3c6c325f08ea0846e7994d67d93a4dcd47"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1100\\U",
+      "bytes": 261509,
+      "sha256_before": "8d3bfdd6b0ad1fe5b2091db9f59f303bbffd75ad11f1b25caaad9a36e9065cff",
+      "sha256_after": "8d3bfdd6b0ad1fe5b2091db9f59f303bbffd75ad11f1b25caaad9a36e9065cff"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1100\\p",
+      "bytes": 123596,
+      "sha256_before": "fa729fa6c97f485aa37d8033e1e923e734435843ce1d9f92de3f7f21a544d013",
+      "sha256_after": "fa729fa6c97f485aa37d8033e1e923e734435843ce1d9f92de3f7f21a544d013"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1100\\phi",
+      "bytes": 260462,
+      "sha256_before": "49baa403f64573284885939080c3b381454e74256623703c49488c4e03b53d9a",
+      "sha256_after": "49baa403f64573284885939080c3b381454e74256623703c49488c4e03b53d9a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1200\\U",
+      "bytes": 261550,
+      "sha256_before": "877ee4126c98f5aaafb98b66a12fa822dc2a20125fc2062ed274acff370a9be9",
+      "sha256_after": "877ee4126c98f5aaafb98b66a12fa822dc2a20125fc2062ed274acff370a9be9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1200\\p",
+      "bytes": 123578,
+      "sha256_before": "d6222c3eaf3290de911096639b31244d35d4abb9174f74b76cf477fb3e0aefe0",
+      "sha256_after": "d6222c3eaf3290de911096639b31244d35d4abb9174f74b76cf477fb3e0aefe0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1200\\phi",
+      "bytes": 260465,
+      "sha256_before": "8eba69946a29d3486a4e68be6af250d9f9f68af9f33440010271fca87f82d956",
+      "sha256_after": "8eba69946a29d3486a4e68be6af250d9f9f68af9f33440010271fca87f82d956"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1300\\U",
+      "bytes": 261493,
+      "sha256_before": "f3c279b82f43a14812236cc0f574ce5d4e46ac6d27809f5b56af35063fa6205b",
+      "sha256_after": "f3c279b82f43a14812236cc0f574ce5d4e46ac6d27809f5b56af35063fa6205b"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1300\\p",
+      "bytes": 123557,
+      "sha256_before": "11c1bc8661c4eb40871adf313b163bccaf6edbe4b0578fac875b16dbabcf0cc0",
+      "sha256_after": "11c1bc8661c4eb40871adf313b163bccaf6edbe4b0578fac875b16dbabcf0cc0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1300\\phi",
+      "bytes": 260509,
+      "sha256_before": "603970af8fb1fed8c5af843a789dc0ba948be9c2c90a66f7f34d0804caa6acfd",
+      "sha256_after": "603970af8fb1fed8c5af843a789dc0ba948be9c2c90a66f7f34d0804caa6acfd"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1400\\U",
+      "bytes": 261535,
+      "sha256_before": "bcb02cfab5c02d8cd2d5308e1147ba3baced285c28efa2d041ea247762fddb41",
+      "sha256_after": "bcb02cfab5c02d8cd2d5308e1147ba3baced285c28efa2d041ea247762fddb41"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1400\\p",
+      "bytes": 123576,
+      "sha256_before": "e990e53e979c67773b9df33b52a55087d797c165181bf019bf432c9a613be637",
+      "sha256_after": "e990e53e979c67773b9df33b52a55087d797c165181bf019bf432c9a613be637"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1400\\phi",
+      "bytes": 260538,
+      "sha256_before": "610eb96f5d62ada20cbbd4624e789e0b8f8d668b098ba5b9506ac1c5f6485276",
+      "sha256_after": "610eb96f5d62ada20cbbd4624e789e0b8f8d668b098ba5b9506ac1c5f6485276"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1500\\U",
+      "bytes": 261481,
+      "sha256_before": "2d28f638f348388f9224c0ad5620f1a8712bfd84c1afbe2a648928f5523f44a3",
+      "sha256_after": "2d28f638f348388f9224c0ad5620f1a8712bfd84c1afbe2a648928f5523f44a3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1500\\p",
+      "bytes": 123634,
+      "sha256_before": "de3b1447c9a1834766d83ff013345ff9056e895739ffaa7c0d147563b31eb107",
+      "sha256_after": "de3b1447c9a1834766d83ff013345ff9056e895739ffaa7c0d147563b31eb107"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1500\\phi",
+      "bytes": 260492,
+      "sha256_before": "2f29efeb7306421af56dd5f6dfc59eaa5ae66a7c4b03ac303d3511c935edb551",
+      "sha256_after": "2f29efeb7306421af56dd5f6dfc59eaa5ae66a7c4b03ac303d3511c935edb551"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1600\\U",
+      "bytes": 261443,
+      "sha256_before": "7864a013ead796aa4e5b89e1699a7a81d302006edfa24c0ed09d9c4ce81dfc68",
+      "sha256_after": "7864a013ead796aa4e5b89e1699a7a81d302006edfa24c0ed09d9c4ce81dfc68"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1600\\p",
+      "bytes": 123618,
+      "sha256_before": "a3e7f16bbab39a1cd7abd00452bba7755e24175d86d59de8058ea2415bb0cc14",
+      "sha256_after": "a3e7f16bbab39a1cd7abd00452bba7755e24175d86d59de8058ea2415bb0cc14"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1600\\phi",
+      "bytes": 260458,
+      "sha256_before": "c5002e857f58762a5d09cf968e82b530bcf261d6f32a41547462505a93068656",
+      "sha256_after": "c5002e857f58762a5d09cf968e82b530bcf261d6f32a41547462505a93068656"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1700\\U",
+      "bytes": 261517,
+      "sha256_before": "6c4bf5945962bc1ccf99154f98ad50adb5923a815e837a3233fa44851285d05d",
+      "sha256_after": "6c4bf5945962bc1ccf99154f98ad50adb5923a815e837a3233fa44851285d05d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1700\\p",
+      "bytes": 123623,
+      "sha256_before": "cda40d777954a54dae43d055b6e95bee82ab5ed0f50682f5d81499ea72271301",
+      "sha256_after": "cda40d777954a54dae43d055b6e95bee82ab5ed0f50682f5d81499ea72271301"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1700\\phi",
+      "bytes": 260515,
+      "sha256_before": "0680ed02f5f518f6432ba395dae763683a9085ff3af084008bb4e0f31c6e170a",
+      "sha256_after": "0680ed02f5f518f6432ba395dae763683a9085ff3af084008bb4e0f31c6e170a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1800\\U",
+      "bytes": 261458,
+      "sha256_before": "a31659e304cbabc3cb8865e55b1a1a7e83c355e41c3740b5959a8eaee1f33490",
+      "sha256_after": "a31659e304cbabc3cb8865e55b1a1a7e83c355e41c3740b5959a8eaee1f33490"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1800\\p",
+      "bytes": 123576,
+      "sha256_before": "87b0d80d04184ede42a97a7bf7297304ff628f3de67ef78bab184862698242d7",
+      "sha256_after": "87b0d80d04184ede42a97a7bf7297304ff628f3de67ef78bab184862698242d7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1800\\phi",
+      "bytes": 260485,
+      "sha256_before": "63954d9a88bd0d4fb2c8da843f946d754d35af03e4ee876dfc19c66c62fe8698",
+      "sha256_after": "63954d9a88bd0d4fb2c8da843f946d754d35af03e4ee876dfc19c66c62fe8698"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1900\\U",
+      "bytes": 261452,
+      "sha256_before": "3c2096f305f816d3ef30acb8073d0a66a190a8ab5d85f12cf634e410a27c2d96",
+      "sha256_after": "3c2096f305f816d3ef30acb8073d0a66a190a8ab5d85f12cf634e410a27c2d96"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1900\\p",
+      "bytes": 123520,
+      "sha256_before": "1f5a9f22307d50f9a59b5196bde4f8f5c7a0fc1349f86a3de4e8437d9bd6f730",
+      "sha256_after": "1f5a9f22307d50f9a59b5196bde4f8f5c7a0fc1349f86a3de4e8437d9bd6f730"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\1900\\phi",
+      "bytes": 260508,
+      "sha256_before": "a337516d432542285cd01726e7fe9f005c502b0b17b4069f3c480d6f686005fe",
+      "sha256_after": "a337516d432542285cd01726e7fe9f005c502b0b17b4069f3c480d6f686005fe"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\2000\\U",
+      "bytes": 261553,
+      "sha256_before": "11e5b33e8701002f4121dc33d256f5dd1514ab4ab9fc01b1eae1001c6f3c7d64",
+      "sha256_after": "11e5b33e8701002f4121dc33d256f5dd1514ab4ab9fc01b1eae1001c6f3c7d64"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\2000\\p",
+      "bytes": 123561,
+      "sha256_before": "cf3616173d4bb93ff1fd32f6cd8a15710ac9d92c8bfcd3070343ffc199b70828",
+      "sha256_after": "cf3616173d4bb93ff1fd32f6cd8a15710ac9d92c8bfcd3070343ffc199b70828"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\2000\\phi",
+      "bytes": 260459,
+      "sha256_before": "0266fbae72c26c684c10cacdccbfae0db020b7710b8e1913c10f9c6561724c8e",
+      "sha256_after": "0266fbae72c26c684c10cacdccbfae0db020b7710b8e1913c10f9c6561724c8e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\solver.log",
+      "bytes": 1100901,
+      "sha256_before": "d6977f8ea0b0fba0c1314389213a3ab487827618918ba0cd44c05e5f46c7bfce",
+      "sha256_after": "d6977f8ea0b0fba0c1314389213a3ab487827618918ba0cd44c05e5f46c7bfce"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\root-run-authorization.json",
+      "bytes": 506,
+      "sha256_before": "810b6644ad4e3bc8042837b9b7e3e30da702b47a778d7c3f4e293665cedc4507",
+      "sha256_after": "810b6644ad4e3bc8042837b9b7e3e30da702b47a778d7c3f4e293665cedc4507"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\run-openfoam-executed.sh",
+      "bytes": 5525,
+      "sha256_before": "db9a2b428ce0b56a54d4637fadb10589fd3738bf933a9c2c9eb2f32671586839",
+      "sha256_after": "db9a2b428ce0b56a54d4637fadb10589fd3738bf933a9c2c9eb2f32671586839"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\installed-source-sha256.txt",
+      "bytes": 821,
+      "sha256_before": "fc0956155c0a5601494b44ca7bdd0132eabdcf082084fe1fb3dc8800ed0233ad",
+      "sha256_after": "fc0956155c0a5601494b44ca7bdd0132eabdcf082084fe1fb3dc8800ed0233ad"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\cavity\\0\\U",
+      "bytes": 968,
+      "sha256_before": "f2b22e66d91f51c1af9ab16c8a686097b9df5faae3ee307cbb0f199e2d187b40",
+      "sha256_after": "f2b22e66d91f51c1af9ab16c8a686097b9df5faae3ee307cbb0f199e2d187b40"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\cavity\\0\\p",
+      "bytes": 938,
+      "sha256_before": "c433d48e026228f5420308843ef10601ce657a49c2d0e27bc8c24a70bfb82340",
+      "sha256_after": "c433d48e026228f5420308843ef10601ce657a49c2d0e27bc8c24a70bfb82340"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\cavity\\system\\fvSolution",
+      "bytes": 1221,
+      "sha256_before": "8eb5ef30605057f5fa32ea15e422825237ddad926dea499c44083bdf500a84d0",
+      "sha256_after": "8eb5ef30605057f5fa32ea15e422825237ddad926dea499c44083bdf500a84d0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\cavity\\constant\\physicalProperties",
+      "bytes": 740,
+      "sha256_before": "252125572901fbbdb2ac151021a0a13643365b1fda77af66ee8086e9424cf2b5",
+      "sha256_after": "252125572901fbbdb2ac151021a0a13643365b1fda77af66ee8086e9424cf2b5"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\system\\fvSchemes",
+      "bytes": 1366,
+      "sha256_before": "f295385ead9669b050a25ea2d9026ca3811a6a04a4bc0afe2e08baf1f7f1d94e",
+      "sha256_after": "f295385ead9669b050a25ea2d9026ca3811a6a04a4bc0afe2e08baf1f7f1d94e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-cavity-v001\\openfoam\\provenance\\installed-sources\\tutorials\\incompressibleFluid\\pitzDailySteady\\system\\fvSolution",
+      "bytes": 1562,
+      "sha256_before": "302286621e2c82a857a65d47bc76c266279f4b0016234b7582a18e773a2c2e00",
+      "sha256_after": "302286621e2c82a857a65d47bc76c266279f4b0016234b7582a18e773a2c2e00"
+    }
+  ],
+  "solver_started_or_modified": false
+}

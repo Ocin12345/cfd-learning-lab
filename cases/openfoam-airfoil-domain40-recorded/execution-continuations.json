@@ -1,0 +1,23 @@
+[
+  {
+    "prior_iteration": 2500,
+    "end_iteration": 5000,
+    "archived_control_path": "system/controlDict.stage02",
+    "archived_control_sha256": "64037d34debd0fc6d87da03176d8ed28a4925c4cd07d04b2a3ce8d7886ac5663",
+    "current_control_sha256": "a140e131413f82849a691b48fc5cc71bb8d4a4d0de75ce823aae40ebd12727ec",
+    "declared_comparison_sha256": "72f5796a61440ca9b0926b3df9bd5d083a9e0b35e9c9221121a85581fcc9ab80",
+    "reason": "Continue the declared domain comparison cold-start schedule with unchanged methods and thresholds",
+    "diagnostic": {
+      "iteration": 2500,
+      "Cd": 0.416663632214421,
+      "Cl": 0.00517597258976144,
+      "last100_Cd_relative_range": 0.008864571117428891,
+      "last100_Cl_absolute_range": 0.00196437599566729,
+      "final_initial_residuals": {
+        "Ux": 1.9996600026396e-05,
+        "Uy": 9.8928831881893e-05,
+        "p": 0.00011600573980676
+      }
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "angle_degrees": 0,
+      "cells": 61440,
+      "lift_coefficient": -1.7462444e-05,
+      "drag_coefficient": 0.41608387,
+      "iterations": 79,
+      "minimum_orthogonal_quality": 0.0658879,
+      "net_mass_imbalance_kg_s": -1.4866472e-09
+    },
+    {
+      "angle_degrees": 5,
+      "cells": 61440,
+      "lift_coefficient": 0.26789722,
+      "drag_coefficient": 0.42587812,
+      "iterations": 106,
+      "minimum_orthogonal_quality": 0.0658879,
+      "net_mass_imbalance_kg_s": 8.2892626e-10
+    }
+  ],
+  "limits": "Single mesh per angle, illustrative Re100 laminar flow. No mesh/domain independence or experimental validation."
+}

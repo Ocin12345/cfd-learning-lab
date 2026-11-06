@@ -1,0 +1,101 @@
+{
+  "chord_m": 1,
+  "angle_degrees": 0.0,
+  "geometry": "original scaled closed NACA0012 polygon",
+  "outer_radius_m": 40.0,
+  "density_kg_m3": 1,
+  "viscosity_Pa_s": 0.01,
+  "inlet_velocity_m_s": 1,
+  "reynolds_number": 100,
+  "cells": 531018,
+  "nodes": 266278,
+  "mesh_type": "triangles",
+  "size_scale": 1.0,
+  "local_edge_sizing": true,
+  "preserved_source_polygon_vertices": true,
+  "source_mesh_sha256": "8e5275ba9a9496880ea9613f562d72f03e653b6aa59551c215ea415c0b6e6081",
+  "minimum_triangle_area_m2": 4.092402361278549e-10,
+  "gmsh_version": "4.15.2",
+  "domain_extension": {
+    "operation": "annulus-only domain extension; no CFD",
+    "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-lesson03-airfoil-mesh-v002\\alpha0-local\\airfoil.msh",
+    "source_sha256": "8e5275ba9a9496880ea9613f562d72f03e653b6aa59551c215ea415c0b6e6081",
+    "source_setup_sha256": "f18fcd7cb8f4fe2fbd31123e1fad5bb6033fefe29e380ef4d42e10ac90aca26f",
+    "source_reader_sha256": "be3c91f714886d6cf4089d70405730c7760b502a008a00df9b16e2e81b92dc09",
+    "script_sha256": "b40f53efcd31b8d252e295311174cf576f4b682f475febeed8148010a4e04360",
+    "old_radius_m": 20.0,
+    "new_radius_m": 40.0,
+    "centre_m": [
+      0.5,
+      0
+    ],
+    "nodes": 266278,
+    "cells": 531018,
+    "preservation_checks": {
+      "original_node_coordinates_exact": true,
+      "original_node_ids_preserved": true,
+      "original_cell_ids_and_triangles_exact": true,
+      "original_wall_edge_ids_exact": true,
+      "former_boundary_edges_now_interior": 768,
+      "manifold_oriented_faces": true,
+      "connected_cell_graph": true,
+      "all_added_centroids_outside_source_polygon": true,
+      "original_nodes": 192550,
+      "original_cells": 383562,
+      "added_nodes": 73728,
+      "added_cells": 147456,
+      "total_area_m2": 5026.24318708698,
+      "original_fluid_area_m2": 1256.5002203444171,
+      "annulus_area_m2": 3769.742966742562,
+      "polygon_expected_area_m2": 5026.24318708698,
+      "minimum_triangle_area_m2": 4.092402361278549e-10,
+      "wall_perimeter_m": 2.039086901106595,
+      "original_farfield_perimeter_m": 125.6623043164744,
+      "outer_perimeter_m": 251.32460863294884,
+      "original_farfield_geometry": {
+        "radius_vertices": 384,
+        "chord_subdivision_nodes": 384,
+        "node_radius_min_m": 19.999330678347118,
+        "node_radius_max_m": 20.000000000000465
+      },
+      "outer_farfield_geometry": {
+        "radius_vertices": 384,
+        "chord_subdivision_nodes": 384,
+        "node_radius_min_m": 39.998661356694235,
+        "node_radius_max_m": 40.00000000000093
+      },
+      "outer_polygon_uniform_radial_scale": true,
+      "boundary_faces": {
+        "4": 770,
+        "5": 384,
+        "6": 384
+      },
+      "written_fluent_readback_exact": true
+    },
+    "mesher": {
+      "method": "deterministic_radial_triangles",
+      "gmsh_used": false,
+      "radial_layers": 96,
+      "new_ring_vertices_per_layer": 768,
+      "radius_schedule": "R_j = R0 * (R/R0)**(j/layers)",
+      "radial_growth_factor": 1.007246412223704,
+      "diagonal": "Alternate by parity of angular segment plus radial strip",
+      "inner_segments": 768,
+      "outer_segments": 768
+    },
+    "mesh_sha256": "d9d0738a93516d8856b442422d5d65bbbf04ab088ac5ed6f1e218126d8eee4dc",
+    "radial_topology_file": "radial-annulus-topology.npz",
+    "radial_topology_sha256": "efddaa625407418909e44e89382548f3a45b841265afa8b46f8369911ae4a462",
+    "centroid_cosine_diagnostic": {
+      "definition": "Minimum absolute cosine of oriented face normal with each incident cell-centroid-to-face-centre vector and, for interior faces, the cell-centroid connection",
+      "scope": "Mesh-only geometric diagnostic; not the Fluent orthogonal-quality metric or solver admission",
+      "minimum_all_faces_cosine": 0.714294487144139,
+      "minimum_former_interface_cosine": 0.8708248171657439,
+      "minimum_faces_incident_to_annulus_cosine": 0.8677689039027296
+    },
+    "boundary_assignment": "Original wall unchanged; former inlet/outlet edges interior; new outer xmid<0.5 inlet, other outlet",
+    "scientific_scope": "Exact inner mesh held fixed; outer domain and added annulus discretization change. This is not mesh independence or physical validation."
+  },
+  "preserved_source_node_coordinates": true,
+  "preserved_source_triangle_cell_ids": true
+}

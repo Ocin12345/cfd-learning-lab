@@ -1,0 +1,143 @@
+{
+  "kind": "Versioned native-image caption erratum; unchanged image bytes",
+  "utc": "2026-11-01T07:13:04.595273+00:00",
+  "replaces_caption_directory": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001",
+  "source_run": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001",
+  "correction": {
+    "old_incorrect_operating_pressure_Pa": 0,
+    "actual_operating_pressure_Pa": 101325,
+    "outlet_gauge_pressure_Pa": 0,
+    "reference_gauge_pressure_Pa": 0,
+    "material_dynamic_viscosity_Pa_s": 0.01,
+    "legacy_reference_viscosity_Pa_s": 1.7894e-05,
+    "Re": 100
+  },
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\loaded-settings.json",
+      "sha256": "a6d835bbdf5ec9954b4bb392d9116bf50844d4112866b84acb27e091caa8a8a5",
+      "bytes": 24903
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\airfoil-Re100-final.cas.h5",
+      "sha256": "1b4c437ad0b36669a6a35a7df7291ab33d57e9627731ee4ebbb8b473152967bb",
+      "bytes": 10328657
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\airfoil-Re100-final.dat.h5",
+      "sha256": "d6b9b04a50afa32f27537d3ca042c34bcecc06cac642d549fe79ad18f3c65d4f",
+      "bytes": 24183776
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\status.json",
+      "sha256": "d33e75f0bb40c995617b94cd5e8b4a60bb63b78d21b4ed76cee794d44b4905b0",
+      "bytes": 1161
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\summary.json",
+      "sha256": "2341161bb247cb0425d0c65e5f0471db967d8b36e1c08d126fbcc32ae2b33e3c",
+      "bytes": 1089
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001\\residuals.png",
+      "sha256": "386b87d2d8e8bb10c6d7c8b3659f98a81b59a8530ee9e68f62361ae233ebfbda",
+      "bytes": 95511
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001\\velocity.png",
+      "sha256": "a0c7a201f93083355ab6b8a01bfd0af14c304eda9cbe2abb8c833b8cc7781384",
+      "bytes": 266486
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001\\pressure.png",
+      "sha256": "6494eb631e0488ccf10e91ba30b1af622ec2632f7c987eaf5f10458e7a718da4",
+      "bytes": 240159
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001\\caption.md",
+      "sha256": "8585bcbc102ae96ea11360a8e6a4dd3836a74634a04d9083c6209d09588ce33c",
+      "bytes": 1259
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001\\source-manifest.json",
+      "sha256": "09028b15c07ce35944ba2bcf69ddece36e920997341380e7c345ce398b73a373",
+      "bytes": 2938
+    }
+  ],
+  "images": [
+    {
+      "source_path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001\\residuals.png",
+      "native_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\residuals.png",
+      "source_sha256": "386b87d2d8e8bb10c6d7c8b3659f98a81b59a8530ee9e68f62361ae233ebfbda",
+      "native_sha256": "386b87d2d8e8bb10c6d7c8b3659f98a81b59a8530ee9e68f62361ae233ebfbda",
+      "output_path": "residuals.png",
+      "output_sha256": "386b87d2d8e8bb10c6d7c8b3659f98a81b59a8530ee9e68f62361ae233ebfbda",
+      "bytes": 95511
+    },
+    {
+      "source_path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001\\velocity.png",
+      "native_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\velocity.png",
+      "source_sha256": "a0c7a201f93083355ab6b8a01bfd0af14c304eda9cbe2abb8c833b8cc7781384",
+      "native_sha256": "a0c7a201f93083355ab6b8a01bfd0af14c304eda9cbe2abb8c833b8cc7781384",
+      "output_path": "velocity.png",
+      "output_sha256": "a0c7a201f93083355ab6b8a01bfd0af14c304eda9cbe2abb8c833b8cc7781384",
+      "bytes": 266486
+    },
+    {
+      "source_path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v001\\pressure.png",
+      "native_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\fluent-continuation-v001\\pressure.png",
+      "source_sha256": "6494eb631e0488ccf10e91ba30b1af622ec2632f7c987eaf5f10458e7a718da4",
+      "native_sha256": "6494eb631e0488ccf10e91ba30b1af622ec2632f7c987eaf5f10458e7a718da4",
+      "output_path": "pressure.png",
+      "output_sha256": "6494eb631e0488ccf10e91ba30b1af622ec2632f7c987eaf5f10458e7a718da4",
+      "bytes": 240159
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\images\\2026-11-01-airfoil-domain40-fluent-native-v002\\caption.md",
+      "sha256": "5ff5185227d321c71b2258eb569911e61cd77f94a07bc94abd8c21e48f68edf0",
+      "bytes": 1496
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\docs\\ERRATA.md",
+      "sha256": "e8f5af5966df24c8877d1455a1161e33e1debc1c982582c7129d352a4250bdb4",
+      "bytes": 2356
+    }
+  ],
+  "image_dimensions_px": {
+    "residuals.png": [
+      1600,
+      1000
+    ],
+    "velocity.png": [
+      1600,
+      1000
+    ],
+    "pressure.png": [
+      1600,
+      1000
+    ]
+  },
+  "byte_identical_to_v001_and_native": true,
+  "old_v001_files_unchanged": true,
+  "native_saved_conditions_unchanged": true,
+  "visual_review": "All three original native images inspected during this correction; legends, airfoil and residual axes are legible. No image transformation.",
+  "displayed_ranges": {
+    "scaled_residuals": [
+      1e-14,
+      1
+    ],
+    "velocity_m_s": [
+      0,
+      1.09
+    ],
+    "static_gauge_pressure_Pa": [
+      -0.667,
+      0.842
+    ]
+  },
+  "rounded_native_legend_ranges": true,
+  "flow_iterations_executed": 0,
+  "physical_validation": false
+}

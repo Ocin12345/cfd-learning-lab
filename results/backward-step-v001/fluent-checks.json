@@ -1,0 +1,249 @@
+{
+  "solver": "ANSYS Fluent Student 2026 R1",
+  "mesh_cells": 8800,
+  "startup": {
+    "actual_compute_processes": 2,
+    "licensed_parallel_limit": 4
+  },
+  "mesh_quality": {
+    "minimum_volume_m3": 5e-05,
+    "maximum_volume_m3": 5e-05,
+    "total_volume_m3": 0.44,
+    "minimum_orthogonal_quality": 1.0,
+    "maximum_aspect_ratio": 2.23607,
+    "same_saved_native_mesh_datasets": 32,
+    "full_native_mesh_check_completed": true
+  },
+  "governing_settings": {
+    "solver": {
+      "type": "pressure-based",
+      "two_dim_space": "planar",
+      "velocity_formulation": "absolute",
+      "time": "steady"
+    },
+    "viscous": "laminar",
+    "material": {
+      "name": "air",
+      "chemical_formula": "",
+      "density": {
+        "option": "value",
+        "value": 1.0
+      },
+      "viscosity": {
+        "option": "value",
+        "value": 0.001
+      }
+    },
+    "fluid_material": "air",
+    "inlet": {
+      "velocity_specification_method": "Components",
+      "reference_frame": "Absolute",
+      "initial_gauge_pressure": {
+        "option": "value",
+        "value": 0
+      },
+      "velocity_components": [
+        {
+          "option": "value",
+          "value": 1.0
+        },
+        {
+          "option": "value",
+          "value": 0
+        }
+      ]
+    },
+    "outlet_gauge_Pa": 0,
+    "walls": {
+      "wall_motion": "Stationary Wall",
+      "shear_condition": "No Slip"
+    },
+    "methods": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "mom": "second-order-upwind",
+        "pressure": "second-order"
+      }
+    },
+    "coupling": "SIMPLE",
+    "references": {
+      "area": 0.1,
+      "depth": 1,
+      "density": 1.0,
+      "enthalpy": 0,
+      "length": 0.1,
+      "pressure": 0,
+      "temperature": 288.16,
+      "yplus": 300,
+      "velocity": 1,
+      "viscosity": 1.7894e-05,
+      "ratio_of_specific_heats": 1.4,
+      "zone": ""
+    },
+    "residual_equations": {
+      "continuity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-06
+      },
+      "x-velocity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-06
+      },
+      "y-velocity": {
+        "monitor": true,
+        "check_convergence": true,
+        "absolute_criteria": 1e-06
+      }
+    }
+  },
+  "saved_material_field_ranges": {
+    "baseline": {
+      "SV_DENSITY": [
+        1.0,
+        1.0
+      ],
+      "SV_MU_LAM": [
+        0.001,
+        0.001
+      ]
+    },
+    "final": {
+      "SV_DENSITY": [
+        1.0,
+        1.0
+      ],
+      "SV_MU_LAM": [
+        0.001,
+        0.001
+      ]
+    }
+  },
+  "reference_viscosity_note": {
+    "reference_value_Pa_s": 1.7894e-05,
+    "material_value_Pa_s": 0.001,
+    "reference_matches_material": false,
+    "meaning": "Display/reference setting remains default; solved viscosity and Re_h use the verified material .001 Pa.s"
+  },
+  "residuals": {
+    "native_initial_convergence_marker": 804,
+    "baseline_iteration": 804,
+    "final_iteration": 904,
+    "full_history_records_per_equation": 904,
+    "final_scaled": {
+      "continuity": 2.6611113436552074e-07,
+      "x-velocity": 2.7826915242822804e-08,
+      "y-velocity": 1.3457159307940115e-09
+    },
+    "maximum_last100_scaled": {
+      "continuity": 1.0292914937681985e-06,
+      "x-velocity": 1.0158071435780712e-07,
+      "y-velocity": 4.995799399114721e-09
+    },
+    "definition": "Native HDF data[:,0]/data[:,1]; final transcript agrees at five significant figures",
+    "cross_solver_norm_equivalence": false
+  },
+  "mass_balance": {
+    "signed_report_kg_s": {
+      "inlet": 0.1,
+      "outlet": -0.1,
+      "Net": 1.0033598e-10
+    },
+    "relative_imbalance": 1.0033598e-09,
+    "definition": "abs(reported Net)/abs(reported inlet)"
+  },
+  "final100_saved_endpoint_stability": {
+    "iterations": [
+      804,
+      904
+    ],
+    "maximum_all_fluid_velocity_component_change_over_Uin": 5.4221527793330004e-05,
+    "maximum_change_component": "u",
+    "maximum_change_cell_centre_m": [
+      0.7450000000000001,
+      0.0475
+    ],
+    "maximum_velocity_vector_change_over_Uin": 5.422386373024669e-05,
+    "downstream_pressure_drop_x_m": [
+      0.8049999999999999,
+      1.7950000000000002
+    ],
+    "cross_section_cell_count": 40,
+    "cross_section_mean_pressure_drop_Pa": {
+      "baseline": 0.12236908881522096,
+      "final": 0.12236934876926743
+    },
+    "absolute_pressure_drop_change_Pa": 2.5995404646927955e-07,
+    "relative_pressure_drop_change": 2.1243440560533536e-06,
+    "relative_pressure_scale_meaningful": true,
+    "pressure_change_over_rho_Uin_squared": 2.5995404646927955e-07,
+    "definition": "Equal cell areas: cross-section mean static pressure at nearest cell-centre columns; rho*Uin^2 is the absolute fallback scale",
+    "limitation": "Only two saved field endpoints 100 iterations apart; no every-iteration field-stability claim"
+  },
+  "native_field_mapping_and_separation": {
+    "cells": 8800,
+    "native_centres_bijective": true,
+    "solid_slots_masked": 800,
+    "centre_tolerance_m": 1e-09,
+    "maximum_centre_mapping_error_m": 4.440892098500626e-16,
+    "finite_native_fields": true,
+    "topology": "Four distinct saved vertices per verified rectangular Fluent cell",
+    "min_u_m_s": -0.1627301726854488,
+    "max_u_m_s": 1.462310207039291,
+    "min_u_native_centre_m": [
+      0.215,
+      0.0275
+    ],
+    "negative_u_cell_count": 468,
+    "downstream_below_step_negative_cell_count": 468,
+    "speed_range_m_s": [
+      2.3815892044931352e-05,
+      1.4626286450270505
+    ],
+    "pressure_range_Pa": [
+      -0.11094633107699545,
+      1.0560612816047148
+    ],
+    "near_bottom_first_cell_zero_u_proxy": {
+      "status": "first negative-to-nonnegative crossing after first negative cell",
+      "first_cell_y_m": 0.0025,
+      "first_cell_y_over_h": 0.024999999999999998,
+      "negative_first_cell_count": 48,
+      "x_m": 0.4837684397339328,
+      "x_over_h": 4.837684397339328,
+      "first_negative_x_m": 0.0050000000000000044,
+      "bracket_x_m": [
+        0.475,
+        0.485
+      ],
+      "bracket_u_m_s": [
+        -0.002413351774698318,
+        0.0003389643133725556
+      ]
+    }
+  },
+  "residual_export": {
+    "final_native_xy_bytes": 0,
+    "source": "Complete saved HDF scaled residuals, float32-cast then six significant figures as native XY precision",
+    "checked_actual_baseline_xy_scalar_pairs": 2412,
+    "csv_records": 904
+  },
+  "check_results": {
+    "student_live_startup_two_processes": true,
+    "full_mesh_positive_orthogonal": true,
+    "native_cells_and_materials_match": true,
+    "declared_numerical_settings_match": true,
+    "saved_endpoints_100_iterations_apart": true,
+    "identical_baseline_final_native_mesh": true,
+    "final_residuals_le_1e_6": true,
+    "last100_residuals_le_1e_6": false,
+    "relative_mass_imbalance_le_1e_5": true,
+    "all_fluid_velocity_component_endpoint_change_le_0p001": true,
+    "downstream_pressure_drop_endpoint_change_le_0p001": true
+  },
+  "all_declared_checks_passed": false,
+  "benchmark_matching": false,
+  "mesh_independence_established": false,
+  "physical_validation": false
+}

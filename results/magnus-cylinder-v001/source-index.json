@@ -1,0 +1,123 @@
+{
+  "public_code": [
+    {
+      "path": "scripts/magnus_cylinder_mesh_v001.py",
+      "sha256": "d3cd92ca851baa98c4071a2a7ecdb43ab698f9c564da94ace47c384b7dd9cc1f",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/magnus_cylinder_fluent_common_v001.py",
+      "sha256": "1a61e08a2f3624e6ccd36b3c5f244c67d3cbd89eee4865c2a67d030378905820",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/magnus_cylinder_fluent_pilot_v001.py",
+      "sha256": "6806e4ff269bfa95452d7af87d387394bbf70c42ae13f0d3504f3dfd66f644cc",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/magnus_cylinder_fluent_production_v001.py",
+      "sha256": "af8bf603915005174fa390ce091dc8b3f61ca6777e25b75b88bf7eae0dfdbb65",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/magnus_cylinder_fluent_audit_v001.py",
+      "sha256": "41d5e426609689b2918e93fe7eda25ed08b27ceebd6643cc53fe0a1b02efa48d",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/magnus_cylinder_fluent_full_audit_v001.py",
+      "sha256": "50702d3e76efe8477fd2cc09ecb8ece90463b4ce3aed184dc124a47e221e094f",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/magnus_openfoam_common_v001.py",
+      "sha256": "587991b8159edce429e2133170938bbc7c40ece58a0197f1ef63ba0147c3490f",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/prepare_openfoam_magnus_cylinder_v001.py",
+      "sha256": "46c1ea68686452ee4727a8bdbea6ea667c6da6a50dc3543a724366608e1f3a4b",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/prepare_openfoam_magnus_cylinder_production_v001.py",
+      "sha256": "3c718c7f9d5e0cb997fc25c08ae7b815e05b00b27c38471f1a8838088d420a8d",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/analyse_magnus_cylinder_openfoam_v001.py",
+      "sha256": "caf134c074a0da97fe69366dac44a5fa75d22eb6189754781a846c3a67f530ae",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/analyse_magnus_cylinder_openfoam_production_v002.py",
+      "sha256": "fd348d97bb55e206d1c4af6715e2842c8050945a0528fd7d4d0c2e25651b3ae2",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/plot_magnus_cylinder_native_v001.py",
+      "sha256": "3b2c63db1f6d431342edaa3c67879486e90508c26adb505507a432f1c2eb3620",
+      "role": "Preserved initial plotter with rejected decimal-key geometry lookup; successful paired figures use v002"
+    },
+    {
+      "path": "scripts/plot_cavity_native_v003.py",
+      "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/plot_nozzle_native_v004.py",
+      "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/plot_annular_couette_native_v004.py",
+      "sha256": "d5c4414beeed4bc6cb78795a06bf8d7e60445a476cd43eaa2ea9f818ce92884b",
+      "role": "Executed mesh/solver/audit source or required native reader and plotting helper"
+    },
+    {
+      "path": "scripts/Start-MagnusCylinderFluentPilot-v001.ps1",
+      "sha256": "9af17a516e49c63b65549feb0299d789effc5f5a1311a2113693ee885dd5297e",
+      "role": "Executed hidden native solver launcher or workflow wrapper; external archived runtime prerequisites required"
+    },
+    {
+      "path": "scripts/Start-MagnusCylinderFluentProduction-v001.ps1",
+      "sha256": "213959f428843e968fc799de645ceb53667fac22df26495374ab8773fc777ca5",
+      "role": "Executed hidden native solver launcher or workflow wrapper; external archived runtime prerequisites required"
+    },
+    {
+      "path": "scripts/Launch-MagnusCylinderOpenFOAM-v001.ps1",
+      "sha256": "fde775ce64112a4162065c461a8293112861cd819893f40e2d97cf2ced02a87f",
+      "role": "Executed hidden native solver launcher or workflow wrapper; external archived runtime prerequisites required"
+    },
+    {
+      "path": "scripts/Launch-MagnusCylinderOpenFOAM-Production-v001.ps1",
+      "sha256": "9475ce9728f894411e223133240851265f0ad8336e9afb662ab918b05c03fa7a",
+      "role": "Executed hidden native solver launcher or workflow wrapper; external archived runtime prerequisites required"
+    },
+    {
+      "path": "scripts/run-magnus-cylinder-openfoam-v001.sh",
+      "sha256": "8d4814d523cca1823eb7c14dee61e96894554f5b1af01c1e29cbee421e7c5bbe",
+      "role": "Executed hidden native solver launcher or workflow wrapper; external archived runtime prerequisites required"
+    },
+    {
+      "path": "scripts/run-magnus-cylinder-openfoam-production-v001.sh",
+      "sha256": "e5f2a29a321a0739376ec12c25812124bab9d1c643a023f66ccd8c50f7dd10f7",
+      "role": "Executed hidden native solver launcher or workflow wrapper; external archived runtime prerequisites required"
+    },
+    {
+      "path": "scripts/plot_magnus_cylinder_native_v002.py",
+      "sha256": "5c40750ce6a502b4634158ce89ddb4e204786890df478b25b6146bfbb50b4b27",
+      "role": "Executed successful paired native plotter; unique-distance coordinate fallback retains strict 1e-12 m geometry tolerance"
+    },
+    {
+      "path": "scripts/Render-MagnusCylinderPaired-v002.ps1",
+      "sha256": "9383143cd50de11ca2950b322e8367dc738ec757a4abb5277e08a4d5d94b1024",
+      "role": "Executed successful paired render launcher"
+    }
+  ],
+  "raw_native_provenance_external": true,
+  "targets_sha256": "87dfdeb12300ba0d6dfaefdedf58d0c08ef984673522f4432b1fe90807f0dbbe",
+  "plan_sha256": "0e811eb689652575cdb036560b65a2a3f3c0cc2abd604b0c6073bac8a390d49d",
+  "record_scope": "Actual rotating-cylinder startup only; other preparation files are not result claims"
+}

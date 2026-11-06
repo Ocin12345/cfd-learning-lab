@@ -1,0 +1,113 @@
+{
+  "sources": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\status.json",
+      "sha256": "d955187fe1821d3f68d47ad13605f205a8ff63b710b6df4f0a01b2ef4dca5c63"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\summary.json",
+      "sha256": "0837948a320c9f3d4157781ebe39a8a8d0ffa0dca47efbf54eb2bcf3604e6d7d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\final-settings.json",
+      "sha256": "042c25d6d25586ace5413dbd9b8a4a56b9c7665378e9ce94d410b3a51f569f3e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\geometry-quality.json",
+      "sha256": "f19bb9eb21ff32ff8cf4d416b726b75d0275066752ec5b4bed580c4a09fd96f7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\declared-targets.json",
+      "sha256": "778d21aa5116c54c7000f0487dcfcd9a9243d0ad34ae8f3b0fc64bac54939837"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\code-provenance.json",
+      "sha256": "bf11a4515b3ee2de55851fd7c71c8b3ca45800f921976f3dad89f64b304da381"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\setup.json",
+      "sha256": "9b0e49b54d0bf68d85138a96d73a0aa1a13d6c935e270173d692cd41b18f3ac9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\executed-script.py",
+      "sha256": "ce5c3ac2f783b64381b5d99b6bc8cc32624f24999d9d73e3c052ab036499a1c8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\wing.msh",
+      "sha256": "e2d189579699b6e4102d717868b26907c3a20c227e748c57303206b3fd43b38c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\geometry.npz",
+      "sha256": "9f5c51477eb17debbfe4c6b2019320809901efd0f9b8a5238fbf44d50a0a5e5f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\mesh-setup.json",
+      "sha256": "9b0e49b54d0bf68d85138a96d73a0aa1a13d6c935e270173d692cd41b18f3ac9"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\wing-final.dat.h5",
+      "sha256": "532368c1a61a01c62c45a61738526ac7cf9b8accab68e00fd237609740ae5bc1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\wing-final.cas.h5",
+      "sha256": "35c22b80ebccf6035c2d49e735ad1b4a1a684ad1a44ea973304be50088ad2191"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\mass-balance.txt",
+      "sha256": "927e2fd90376c45f2861de4a1181caadf8f148f8931c031225884b350d0a955e"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\force-history.out",
+      "sha256": "8f3fa9023fb1b595f5b1600a0ba8ebc28ba056365326bebae979954780894fb4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\native-force-monitor-settings.json",
+      "sha256": "6c2e199fe00adecc75fd09229e93d0d573e16189d3bc1bf383724fd44d13f59d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\executed-mesher.py",
+      "sha256": "6b466fb9197f359938fe1f4bc78e7b291c017732eaf3eb54af9991a87f94090c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\profile.json",
+      "sha256": "30c9e6342fdc2b96b9d329aa80c825b441e4133419e4938e12d9e041a2c461a4"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\solver-transcript.txt",
+      "sha256": "bc6a2d8e2691ac5091e62db7049fed0eabeab548b13104fbb2e7f275b27ef3d6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\fluent\\checkpoints.json",
+      "sha256": "e1bfbb27a3004acb8f1b475112878756c12cdbf2c2288291c86b21375f514cee"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_finite_wing_fluent_v002.py",
+      "sha256": "cf16b6091152382616b30691b13f6eccedf366ecef816633f966b1318f7f0378"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "executed-fluent-analyser.py",
+      "sha256": "cf16b6091152382616b30691b13f6eccedf366ecef816633f966b1318f7f0378"
+    },
+    {
+      "path": "executed-fluent.py",
+      "sha256": "ce5c3ac2f783b64381b5d99b6bc8cc32624f24999d9d73e3c052ab036499a1c8"
+    },
+    {
+      "path": "fluent-checks.json",
+      "sha256": "2ef72c66bf8d6072b9027b02a2b3a253b63ba0fe50d23e41eba8e98e863f20e1"
+    },
+    {
+      "path": "fluent-forces.csv",
+      "sha256": "61006c8789a87be41bb87d73524e42440e9d95895a0075624b20347c2dc26566"
+    },
+    {
+      "path": "fluent-residuals.csv",
+      "sha256": "1bd5b37817680100d3d640a0adea95cfb1957ead767eebbc7d08a2230ce19d87"
+    }
+  ],
+  "inputs_unchanged_during_analysis": true
+}

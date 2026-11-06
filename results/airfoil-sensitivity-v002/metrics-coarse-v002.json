@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "checks_passed": true,
+  "cells": 109600,
+  "nodes": 55187,
+  "wall_face_count": 390,
+  "boundary_face_counts": {
+    "airfoil": 390,
+    "inlet": 192,
+    "outlet": 192
+  },
+  "wall_regions": {
+    "all": {
+      "edge_length_m": {
+        "count": 390,
+        "minimum": 6.76012619689841e-05,
+        "p10": 0.0015453537384754557,
+        "median": 0.005770360450135741,
+        "p90": 0.008090655188493435,
+        "maximum": 0.008198111171790534
+      },
+      "adjacent_triangle_normal_height_m": {
+        "count": 390,
+        "minimum": 5.7495177526706894e-05,
+        "p10": 0.0012843046797988435,
+        "median": 0.004695478160227416,
+        "p90": 0.006882681327211962,
+        "maximum": 0.008958201335446147
+      }
+    },
+    "leading_edge_x_le_0.05": {
+      "edge_length_m": {
+        "count": 56,
+        "minimum": 0.0014474113322525978,
+        "p10": 0.0014771364859234755,
+        "median": 0.0022624913953017984,
+        "p90": 0.003441499440463259,
+        "maximum": 0.0037169541968655644
+      },
+      "adjacent_triangle_normal_height_m": {
+        "count": 56,
+        "minimum": 0.0010575628645721669,
+        "p10": 0.0012960673374653145,
+        "median": 0.0019042841404844483,
+        "p90": 0.002896966021512671,
+        "maximum": 0.003725590596075171
+      }
+    },
+    "trailing_edge_x_ge_0.95": {
+      "edge_length_m": {
+        "count": 62,
+        "minimum": 6.76012619689841e-05,
+        "p10": 0.0001516575314336339,
+        "median": 0.0016778653500759098,
+        "p90": 0.003221512822306853,
+        "maximum": 0.0035898114980675677
+      },
+      "adjacent_triangle_normal_height_m": {
+        "count": 62,
+        "minimum": 5.7495177526706894e-05,
+        "p10": 0.00010222901544599234,
+        "median": 0.0009592404659931846,
+        "p90": 0.0027212183611106393,
+        "maximum": 0.0031342137373603033
+      }
+    }
+  },
+  "wake": {
+    "triangle_sqrt_area_m": {
+      "count": 5138,
+      "minimum": 4.976864992943085e-05,
+      "p10": 0.0015497252040594484,
+      "median": 0.00869934572764481,
+      "p90": 0.025171139866720375,
+      "maximum": 0.03817961569666613
+    },
+    "triangle_area_m2": {
+      "count": 5138,
+      "minimum": 2.4769185157982374e-09,
+      "p10": 2.401648246795201e-06,
+      "median": 7.567861636022173e-05,
+      "p90": 0.0006335862936517017,
+      "maximum": 0.0014576830547451147
+    }
+  },
+  "triangle_area_m2": {
+    "count": 109600,
+    "minimum": 1.9433732791303087e-09,
+    "p10": 4.056290157194265e-05,
+    "median": 0.0049064187618288,
+    "p90": 0.03396220930911955,
+    "maximum": 0.059647499700082714
+  },
+  "fluid_area_m2": 1256.500220344417,
+  "source_polygon_fluid_area_m2": 1256.5002203444171,
+  "boundary_perimeters_m": {
+    "airfoil": 2.039086901106595,
+    "inlet": 62.83115215823722,
+    "outlet": 62.8311521582372
+  },
+  "outer_perimeter_m": 125.66230431647442,
+  "polygon_preservation": {
+    "wall": {
+      "passed": true,
+      "original_segments": 384,
+      "maximum_original_vertex_distance_m": 3.469446951953614e-17,
+      "maximum_edge_to_original_segment_distance_m": 1.774339115522441e-17,
+      "maximum_segment_gap_overlap_or_endpoint_error_m": 3.347183687335594e-17
+    },
+    "outer": {
+      "passed": true,
+      "original_segments": 384,
+      "maximum_original_vertex_distance_m": 8.881784197001252e-16,
+      "maximum_edge_to_original_segment_distance_m": 1.9460099323486899e-16,
+      "maximum_segment_gap_overlap_or_endpoint_error_m": 9.082889555967372e-16
+    }
+  },
+  "patch_assignment_passed": true,
+  "topology_boundary_coverage_passed": true,
+  "definitions": {
+    "coordinates": "Source-coordinate metres; requires unrotated unit-chord source polygon",
+    "normal_height": "Triangle altitude 2*area/wall_edge_length; centroid normal distance is one third of this altitude",
+    "leading_edge": "Wall-edge midpoint x <= 0.05 m",
+    "trailing_edge": "Wall-edge midpoint x >= 0.95 m",
+    "wake": "Triangle centroid 1 <= x <= 3 m and abs(y) < 0.25 m",
+    "quantiles": "Unweighted by edge length or triangle area; count, minimum, p10, median, p90, maximum",
+    "wake_length": "sqrt(triangle area), not an isotropic spacing or wall-normal spacing",
+    "patch_split": "Outer edge midpoint x < 0.5 m is inlet; x > 0.5 m is outlet",
+    "preservation_tolerance_m": 1e-10,
+    "scope": "Measured nonuniform mesh sensitivity; these metrics do not establish GCI, mesh independence or physical validation"
+  },
+  "software": {
+    "gmsh": "4.15.2",
+    "numpy": "2.5.4"
+  },
+  "inputs": {
+    "source-gmsh.msh": {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-sensitivity-v002\\coarse\\source-gmsh.msh",
+      "sha256": "b032018152e91bfbdc263b1191d8c411f13935f3bdad70c7336ef10930a2285b"
+    },
+    "original_source_mesh": {
+      "path": "E:\\CFD-Learning-Lab\\native\\imports\\2026-11-01-v001\\ansys-airfoil\\alpha0\\airfoil.msh",
+      "sha256": "c6d7437dd87ac5d4bc6a5144bd1bb2c635ff3e1e6608cad0ae33944b24155a96"
+    },
+    "original_source_setup": {
+      "path": "E:\\CFD-Learning-Lab\\native\\imports\\2026-11-01-v001\\ansys-airfoil\\alpha0\\setup.json",
+      "sha256": "381a53bdf5301fe6d262e005a638f1e85557f36f210dec20c1c381e253ed4d1c"
+    }
+  },
+  "script_sha256": "e4d82124ea946ec99d3249c93364b9f78d62ba3480cfa5eb933ef3bf9bf5d8c4"
+}

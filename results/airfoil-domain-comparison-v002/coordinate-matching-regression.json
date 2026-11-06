@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "scope": "Read-only coordinate/topology analysis; no CFD or native field changes",
+  "tests_passed": 6,
+  "tests_command": "python -B E:/CFD-Learning-Lab/temp/test-airfoil-coordinate-bijection-v001.py",
+  "coordinate_tolerance_m": 1e-10,
+  "R20_original_xy_triangles_and_all_existing_metrics_identical": true,
+  "R40": {
+    "independent_lexsort_pair_error_m": 54.24791340854391,
+    "maximum_component_error_m": 4.973799150320701e-14,
+    "maximum_euclidean_error_m": 7.034014214903312e-14,
+    "old_192550_node_prefix_error_m": 0.0,
+    "appended_nodes": 73728,
+    "norm_error_quantiles_m": [
+      0.0,
+      0.0,
+      3.9241005173051e-14,
+      5.826883674891095e-14,
+      6.787449953031483e-14,
+      7.034014214903312e-14
+    ],
+    "quantile_probabilities": [
+      0,
+      0.5,
+      0.9,
+      0.99,
+      0.999,
+      1
+    ],
+    "all_native_xy_equal_source_float_formatted_to_15_significant_digits": true,
+    "observed_serialization_component_bound_m": 5.7105427357601e-14,
+    "observed_serialization_euclidean_bound_m": 7.828743817534095e-14,
+    "source_token_example": "20.47258559072775 2.6294407762973377",
+    "native_token_example": "(20.4725855907277 2.62944077629734 0.5)"
+  },
+  "frozen_original_hashes_unchanged": true,
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\mesh\\airfoil.msh",
+      "sha256": "d9d0738a93516d8856b442422d5d65bbbf04ab088ac5ed6f1e218126d8eee4dc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\points",
+      "sha256": "fcc8162663235384bdde4f590682398f614373e9883f50213cea50ef3d3cfef6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\temp\\test-airfoil-coordinate-bijection-v001.py",
+      "sha256": "ec60204f4f8162918677c1e22d206d8ce481e522d4397c2e5b961a5e40afdab8"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_openfoam_airfoil_fields.py",
+      "sha256": "be3c91f714886d6cf4089d70405730c7760b502a008a00df9b16e2e81b92dc09"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_openfoam_airfoil.py",
+      "sha256": "d6d283590dceeb5e49306d45140678d278396614c2cc6ce2e948ada26e4e48cf"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_openfoam_airfoil_fields_v002.py",
+      "sha256": "4a1d09c8c4086e91952867983bcfa812fff67a1ed074522e729d675b1fca3abc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_openfoam_airfoil_v002.py",
+      "sha256": "74c510f1d3359ae3cdb018a05b35804615fafe82bd085efac51fd7428cdd960e"
+    }
+  ]
+}

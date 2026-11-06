@@ -1,0 +1,32 @@
+{
+  "maximum_total_iterations": 2000,
+  "checkpoints": [
+    500,
+    1000,
+    1500,
+    1800,
+    2000
+  ],
+  "residual_target": 1e-06,
+  "minimum_orthogonal_quality": 0.15,
+  "local_dimensionless_divergence_max": 1e-05,
+  "local_dimensionless_divergence_rms_max": 1e-06,
+  "relative_mass_imbalance_max": 0.0001,
+  "final200_weighted_velocity_L2_relative_change_max": 0.001,
+  "final200_endpoints": [
+    1800,
+    2000
+  ],
+  "rho_kg_m3": 1.0,
+  "U_m_s": 0.1,
+  "L_m": 0.2,
+  "reference_depth_m": 1.0,
+  "source_area_m2": 0.44,
+  "divergence_definition": "sum signed native face mass flux/(rho*source cell area*reference depth)*L/U; L/U=2s",
+  "mass_imbalance_definition": "abs(native Net boundary mass flux)/actual sum of two inlet mass fluxes",
+  "solver_processes": 2,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "scalar_mixing_simulated": false,
+  "visualization": "Steady computed fields; entry seed colours are not concentration, tracer motion is not transient CFD"
+}

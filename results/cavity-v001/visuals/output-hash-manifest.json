@@ -1,0 +1,97 @@
+[
+  {
+    "path": "CAPTIONS.md",
+    "bytes": 1887,
+    "sha256": "321f6a7faad5411dfbb98da386a8bdcca86bc5e52ebe2611f00673e73eb0e033"
+  },
+  {
+    "path": "actual-RK4-tracer-paths.csv.gz",
+    "bytes": 1194689,
+    "sha256": "73838c74e93713812a4b9732c957c635697a539616af3b88efb907644f6dd78c"
+  },
+  {
+    "path": "actual-centrelines.csv",
+    "bytes": 10644,
+    "sha256": "d73d8bd2cdd19499938a4778b5fc11b0b01cbcacc8c7f1db8e67a001d5aa87a1"
+  },
+  {
+    "path": "actual-native-cell-fields.csv",
+    "bytes": 1937059,
+    "sha256": "b9132716fc2dd070e86fbda2767aeca2df14711af038c4674e4f5ff64b226073"
+  },
+  {
+    "path": "cavity-centreline-velocities-text-bounds.json",
+    "bytes": 2236,
+    "sha256": "9eb44d318f996d7c381792f61451832e2e66db4cf0490ec1d7ade985fae26988"
+  },
+  {
+    "path": "cavity-centreline-velocities.png",
+    "bytes": 133467,
+    "sha256": "9fcab16873b117e61bf4ff14ffd536c6debca496bff406a4096ddae89c8484ee"
+  },
+  {
+    "path": "cavity-centreline-velocities.svg",
+    "bytes": 86641,
+    "sha256": "674cfd9a30a25188c2f3e49c2a907147c9a35c888f4520dda267b4fa490cdf36"
+  },
+  {
+    "path": "cavity-decoded-GIF-contact-sheet.png",
+    "bytes": 438558,
+    "sha256": "eb71aaa87b6e0b266a6c8e221e2c76facfb57de14b7b33576df3bc095f6496e5"
+  },
+  {
+    "path": "cavity-native-field-comparison-text-bounds.json",
+    "bytes": 6436,
+    "sha256": "ece16155e1f1836806b4a2acd94844b1c244ce0731abcc978a3dacd5930cc989"
+  },
+  {
+    "path": "cavity-native-field-comparison.png",
+    "bytes": 566202,
+    "sha256": "6edde95e78555daa1b436475b1b57fb590a15563f769294f63a405e542459510"
+  },
+  {
+    "path": "cavity-native-field-comparison.svg",
+    "bytes": 376940,
+    "sha256": "4e70e5fba1b875cffd552b9e73024713649abd3f327b0d60c24a77b581c697e7"
+  },
+  {
+    "path": "cavity-steady-field-tracers.gif",
+    "bytes": 6349123,
+    "sha256": "01d46b0376911a12fcbb888805ccee810141622e5e506238b344d721a70b8549"
+  },
+  {
+    "path": "cavity-steady-tracers-text-bounds.json",
+    "bytes": 3476,
+    "sha256": "9ea4b59a5d6c14ba63ec24c9928395a9fbdfb13c34ed70712babc1e6a8fc7d06"
+  },
+  {
+    "path": "cavity-steady-tracers.png",
+    "bytes": 179230,
+    "sha256": "0da01c0dc723cf0a08fd61c71be47e205fa3533cf832a3fcfa7c955a206ea10a"
+  },
+  {
+    "path": "checks.json",
+    "bytes": 43521,
+    "sha256": "212226684aeb02947d318184680711dcfeb0f7a22545257600e4daabc116d934"
+  },
+  {
+    "path": "executed-plotter.py",
+    "bytes": 40050,
+    "sha256": "c2425654f684bc8de8d9219dffa872d8b3c80a605bb35fce2b9070362f388445"
+  },
+  {
+    "path": "input-hash-manifest.json",
+    "bytes": 33144,
+    "sha256": "204004093d57d9dcb31b306d5668a76e2a9e51c09d6855aaffbc727b49cc19ca"
+  },
+  {
+    "path": "observed-openfoam-solve-block.txt",
+    "bytes": 592,
+    "sha256": "cd4af007523539922c82fe20928bcaeca0a3a83c9addf889a5d39f9754d4b0cc"
+  },
+  {
+    "path": "reused-native-readers.py",
+    "bytes": 42964,
+    "sha256": "4596d6a6b975abc6110d80fdb8b5b680878cdff18022ce969866b288aacb2f02"
+  }
+]

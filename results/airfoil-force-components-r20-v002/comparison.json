@@ -1,0 +1,178 @@
+{
+  "kind": "Saved force-component accounting; no new CFD",
+  "parameters": {
+    "Re": 100.0,
+    "angle_degrees": 0,
+    "cells": 383562,
+    "outer_radius_m": 20,
+    "span_m": 1
+  },
+  "fluent": {
+    "pressure": {
+      "Cd": 0.075748609,
+      "Cl": 1.4998082e-05,
+      "drag_force_N": 0.037874305,
+      "lift_force_N": 7.4990412e-06
+    },
+    "viscous": {
+      "Cd": 0.34014192,
+      "Cl": -5.8438488e-06,
+      "drag_force_N": 0.17007096,
+      "lift_force_N": -2.9219244e-06
+    },
+    "total": {
+      "Cd": 0.41589053,
+      "Cl": 9.1542336e-06,
+      "drag_force_N": 0.20794527,
+      "lift_force_N": 4.5771168e-06
+    }
+  },
+  "openfoam": {
+    "pressure": {
+      "Cd": 0.0748582459781168,
+      "Cl": -0.00302649519653106,
+      "drag_force_N": 0.0374291229890584,
+      "lift_force_N": -0.00151324759826553
+    },
+    "viscous": {
+      "Cd": 0.333760350089626,
+      "Cl": 0.0001289987877750912,
+      "drag_force_N": 0.166880175044813,
+      "lift_force_N": 6.44993938875456e-05
+    },
+    "total": {
+      "Cd": 0.4086185960677428,
+      "Cl": -0.0028974964087559686,
+      "drag_force_N": 0.2043092980338714,
+      "lift_force_N": -0.0014487482043779843
+    }
+  },
+  "differences": [
+    {
+      "component": "pressure",
+      "Cd_Fluent_minus_OpenFOAM": 0.0008903630218831948,
+      "Cl_Fluent_minus_OpenFOAM": 0.00304149327853106,
+      "Cd_signed_share_of_total_gap_percent": 12.243827160388282,
+      "Cl_signed_share_of_total_gap_percent": 104.63910709495502
+    },
+    {
+      "component": "viscous",
+      "Cd_Fluent_minus_OpenFOAM": 0.006381569910373974,
+      "Cl_Fluent_minus_OpenFOAM": -0.00013484263657509118,
+      "Cd_signed_share_of_total_gap_percent": 87.75615908811166,
+      "Cl_signed_share_of_total_gap_percent": -4.639107108716556
+    },
+    {
+      "component": "total",
+      "Cd_Fluent_minus_OpenFOAM": 0.0072719339322571686,
+      "Cl_Fluent_minus_OpenFOAM": 0.0029066506423559685,
+      "Cd_signed_share_of_total_gap_percent": 100.0,
+      "Cl_signed_share_of_total_gap_percent": 100.0
+    }
+  ],
+  "check_results": {
+    "openfoam.residuals": true,
+    "openfoam.Cd_stability": true,
+    "openfoam.Cl_stability": true,
+    "openfoam.zero_angle_lift_diagnostic": false,
+    "openfoam.mass_balance": true,
+    "fluent.residuals": true,
+    "fluent.Cd_stability": true,
+    "fluent.Cl_stability": true,
+    "fluent.zero_angle_lift_diagnostic": true,
+    "fluent.mass_balance": true
+  },
+  "failed_checks": [
+    "openfoam.zero_angle_lift_diagnostic"
+  ],
+  "numerical_checks_passed": false,
+  "numerical_convergence_passed": true,
+  "symmetry_diagnostic_passed": false,
+  "cross_code_target_pass": false,
+  "evidence_consistency_checks_passed": true,
+  "main_diagnostic_values": {
+    "openfoam": {
+      "final_iteration": 5000,
+      "Cd": 0.408618596067742,
+      "Cl": -0.00289749640875593,
+      "final_initial_residuals": {
+        "Ux": 6.6752252761279e-09,
+        "Uy": 2.7690750880768e-08,
+        "p": 1.3579968471218e-08
+      },
+      "pressure_residual_definition": "Maximum printed initial p residual across all pressure correction solves within the iteration",
+      "force_window_samples": 100,
+      "Cd_relative_range": 2.439570716729597e-06,
+      "Cl_absolute_range": 2.2981725444700014e-06,
+      "maximum_absolute_Cl_in_window": 0.00289749640875593,
+      "relative_mass_imbalance": 6.377121053446899e-14,
+      "boundary_volume_flux_m3_s": {
+        "airfoil": 0.0,
+        "inlet": -40.0,
+        "outlet": 39.99999999999745
+      },
+      "boundary_mass_flux_kg_s": {
+        "airfoil": 0.0,
+        "inlet": -40.0,
+        "outlet": 39.99999999999745
+      }
+    },
+    "fluent": {
+      "final_iteration": 227,
+      "final_scaled_residuals": [
+        1.2717e-10,
+        9.6282e-15,
+        3.0728e-15
+      ],
+      "Cd_relative_range": 0.0,
+      "Cl_absolute_range": 9.99999999392329e-14,
+      "maximum_absolute_Cl_in_window": 9.1542336e-06,
+      "relative_mass_imbalance": 3.83693075e-14
+    }
+  },
+  "main_acceptance_thresholds": {
+    "openfoam": {
+      "initial_p_U_residual_learning_target": 1e-07,
+      "cd_relative_range_target": 0.0001,
+      "cl_absolute_range_target": 1e-05,
+      "zero_angle_abs_lift_diagnostic_target": 0.001,
+      "relative_boundary_mass_imbalance_target": 1e-06
+    },
+    "fluent": {
+      "additional_iterations": 100,
+      "last_window_samples": 20,
+      "drag_relative_range_max": 0.0001,
+      "lift_absolute_range_max": 1e-05,
+      "residual_target": 1e-07,
+      "relative_mass_imbalance_max": 1e-06,
+      "minimum_orthogonal_quality": 0.2,
+      "zero_angle_abs_lift_diagnostic_target": 0.001
+    }
+  },
+  "native_Fluent_checks_recomputed": {
+    "fluent.residuals": true,
+    "fluent.Cd_stability": true,
+    "fluent.Cl_stability": true,
+    "fluent.zero_angle_lift_diagnostic": true,
+    "fluent.mass_balance": true
+  },
+  "selected_openfoam_iteration": 5000,
+  "selected_fluent_iteration": 227,
+  "cross_code_Cd_difference_percent": 1.7485211630709652,
+  "cross_code_learning_target_percent": 0.5,
+  "main_gap_endpoint_definition": "Original saved OpenFOAM forceCoeffs endpoint and terminal native Fluent total coefficient; postprocessed component totals do not redefine main acceptance.",
+  "postprocessing_minus_saved_forceCoeffs": {
+    "Cd": 8.326672684688674e-16,
+    "Cl": -3.859759734048396e-17,
+    "Cm": -4.6241222656506764e-17
+  },
+  "native_HDF_evidence_hash_bound_to_main_checks": true,
+  "flow_iterations_executed": 0,
+  "numerical_cause_identified": false,
+  "physical_validation": false,
+  "component_closure_residual": {
+    "Cd": -9.999999717180685e-10,
+    "Cl": -3.999999980628657e-13
+  },
+  "note": "Signed component shares locate the observed coefficient gap, not its numerical cause. Shares can be negative or exceed 100% when terms cancel; an exactly zero total gap has no defined share. Native Fluent report rounding limits closure and percentage precision. Main failed convergence/symmetry and cross-code flags are preserved."
+}

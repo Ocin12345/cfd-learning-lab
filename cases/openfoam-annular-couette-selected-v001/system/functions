@@ -1,0 +1,19 @@
+FoamFile
+{
+ version 2.0;
+ format ascii;
+ class dictionary;
+ object functions;
+}
+
+nativeVorticity
+{
+ type vorticity;
+ libs ("libfieldFunctionObjects.so");
+ field U;
+ result vorticity;
+ executeControl timeStep;
+ executeInterval 1;
+ writeControl timeStep;
+ writeInterval 1;
+}

@@ -1,0 +1,9 @@
+{
+  "minimum_orthogonal_quality": 1.0,
+  "minimum_cell_volume_m3": 0.0001,
+  "maximum_cell_volume_m3": 0.0001,
+  "total_cell_volume_m3": 0.44,
+  "maximum_aspect_ratio": 1.41421,
+  "native_numeric_gate_pass": true,
+  "checked_before_flow": true
+}

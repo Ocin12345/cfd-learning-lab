@@ -1,0 +1,30 @@
+{
+  "cells_per_solver": 7680,
+  "coordinate_pairing": "Exact structured ix/iy slots verified by native-centre mapping",
+  "maximum_absolute_axial_velocity_difference_m_s": 0.019882128875175265,
+  "maximum_absolute_gauge_pressure_difference_Pa": 1.1314191975956938,
+  "pressure_difference_location_m": [
+    0.0020833333333333333,
+    0.0015625
+  ],
+  "downstream_profile_x_m": 0.7979166666666667,
+  "downstream_max_abs_axial_velocity_difference_m_s": 4.327756379041148e-06,
+  "uniform_refinement_study": false,
+  "entrance_pressure_validation": false,
+  "physical_validation": false,
+  "notes": "Downstream velocity/pressure-gradient agreement does not establish agreement everywhere; entrance pressure differences remain measured, with no dedicated entrance sensitivity study.",
+  "inputs": [
+    {
+      "path": "fluent-actual-cell-fields.csv",
+      "sha256": "46972a130ac937d8f4bdbb644c72a60e91f80be0958132c006287a66d8f3f53b"
+    },
+    {
+      "path": "openfoam-actual-cell-fields.csv",
+      "sha256": "14b87fc65b85eec6e2ca2f467ece59b475648bbf32f83d132c2481ca34faf61d"
+    },
+    {
+      "path": "field-checks.json",
+      "sha256": "0d470b7823c04b53d925c137a4466d64ddc40c1f10b4a1f6467dc85d2229a071"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "native_and_sources_unchanged_during_analysis": true,
+  "sources": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\mesh\\setup.json",
+      "sha256": "cc3bab0be7ad3f6863901f0978012e6ba9e4fb0536919fead78e57e662fc35ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\mesh\\step.msh",
+      "sha256": "43df623ae44577619f8f34f990aa10b11f834e6b45cc31957aed8937b8b714dc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\step-baseline.cas.h5",
+      "sha256": "ef9c2d20f2a6b74fdc0bae1ddf746ac18fa0303e8a70971d35279095678b12d0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\step-baseline.dat.h5",
+      "sha256": "5c3e63ea19cb571e8a270fa80dab3879c35c4b910c029cd2081954d4c0153b18"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\step-final.cas.h5",
+      "sha256": "ec606f9676b372c9f7a28bee6b163a7a863982279e64245f6cc465656f395218"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\step-final.dat.h5",
+      "sha256": "4ba9ec1a3d7e95d29ef92a001c52b6f2c3bbef04827b07f98e77d6908a27a649"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\residuals-baseline.xy",
+      "sha256": "006cdd559deb2143eb255227f8f92cbb9b098d84e6316b2f936fa2501e3ecfe0"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\residuals.xy",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\iteration-history.csv",
+      "sha256": "d0f6540d2d333ac5a89530268c04f9946553b8f688b5fb06e57639665fe9d0be"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\mass-balance.txt",
+      "sha256": "62ad85e0ca08f70771e7c1c203a4ee15fcaaaa947a80bb891e926c2185ddf760"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\loaded-settings.json",
+      "sha256": "a6ee81dcff8e1206587a25c1e4c95dcd29ce929b10aa50b4223de486b1def0f3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\final-settings.json",
+      "sha256": "a6ee81dcff8e1206587a25c1e4c95dcd29ce929b10aa50b4223de486b1def0f3"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\mesh-setup.json",
+      "sha256": "cc3bab0be7ad3f6863901f0978012e6ba9e4fb0536919fead78e57e662fc35ec"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\geometry-setup.json",
+      "sha256": "f331ffecf0a235820322151e4d97b91748570999b59b5f8e18ca2c23e81fc4f1"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\code-provenance.json",
+      "sha256": "cd83505eff2a9727f15724935f5c6ff12c74c5b22521a684be326945e6b89f7d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\declared-targets.json",
+      "sha256": "c2e1f037dc71111a48a59e6bd39f4a7a071c586f3448f989176af79b645d3e4d"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\executed-script.py",
+      "sha256": "553c57dd7b5661b443e67e1a18423bf0ce300dbce6e64f720e010a4fa042062c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\history.json",
+      "sha256": "582186a891b6f7bddffea66216e46c976664aad3ad039b87294f0fa41ff7a201"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-backward-step-v001\\fluent\\status.json",
+      "sha256": "95c048363b00026efc79da8dc75e567d596591c87274c3d62017fb91b9b13666"
+    }
+  ],
+  "private_log_evidence_hashes": [
+    {
+      "role": "native numerical evidence",
+      "sha256": "9682246d53d0b312ec51454213d1816c9976213d57e47e4ed6d304d521909e01"
+    },
+    {
+      "role": "native startup/licence evidence",
+      "sha256": "24a6038c194d04466d6be9abb574fb6f67f1cc50ae849a916e43234cd69a20f0"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_step_fluent.py",
+      "sha256": "0e309c6fd0b64ad0e3b0fc4496229375d9a737eba0ef0535469486b485381ca2"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\step_fluent.py",
+      "sha256": "553c57dd7b5661b443e67e1a18423bf0ce300dbce6e64f720e010a4fa042062c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\backward-step-v001\\executed-initial-field-reader.py",
+      "sha256": "92493805b6e29b94c53085e4cfa5359fcb8dcfacfe57ed771105c1ff0e66216d",
+      "original_analysis_time_source_path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_step_flow.py",
+      "role": "Exact helper source used during the original analysis; archived after the live plotter changed"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\backward-step-v001\\fluent-checks.json",
+      "sha256": "226aacab83641c425b34fde20d9b193a1f1e23913c46f6e6298c56e6995f1208"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\backward-step-v001\\fluent-residuals.csv",
+      "sha256": "d0f6540d2d333ac5a89530268c04f9946553b8f688b5fb06e57639665fe9d0be"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\backward-step-v001\\executed-fluent.py",
+      "sha256": "553c57dd7b5661b443e67e1a18423bf0ce300dbce6e64f720e010a4fa042062c"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\backward-step-v001\\executed-fluent-analyser.py",
+      "sha256": "0e309c6fd0b64ad0e3b0fc4496229375d9a737eba0ef0535469486b485381ca2"
+    }
+  ],
+  "executed_driver_archive_matches_prelaunch_sha256": true,
+  "native_logs_published": false,
+  "solver_started_or_controls_modified": false,
+  "helper_source_archive_repair": {
+    "prior_manifest_sha256": "eb897cc09830e10fca42423020ad490f9d405959f357c0ddfc6db33c37e41141",
+    "exact_old_helper_source_export": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-01-step-fluent-v001\\executed-plotter.py",
+    "exact_old_helper_sha256": "92493805b6e29b94c53085e4cfa5359fcb8dcfacfe57ed771105c1ff0e66216d",
+    "archived_source_path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\backward-step-v001\\executed-initial-field-reader.py",
+    "numerical_results_unchanged": true,
+    "original_analysis_not_recomputed": true,
+    "native_files_or_controls_modified": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "final_iteration": 151,
+  "additional_iterations": 100,
+  "final_scaled_residuals": [
+    1.5088e-13,
+    2.9557e-17,
+    5.702e-18
+  ],
+  "minimum_orthogonal_quality": 0.999985,
+  "relative_mass_imbalance_reported": 0.0,
+  "mass_balance_precision_note": "Zero is the printed report value, not proof of exact conservation",
+  "force_precision_note": "Forces were sampled from reports with approximately eight significant digits; zero drag range is at this printed precision",
+  "live_fluent_startup_succeeded": true,
+  "solver_processes": 2,
+  "session_closed": true,
+  "numerical_checks_passed": true,
+  "physical_validation": false
+}

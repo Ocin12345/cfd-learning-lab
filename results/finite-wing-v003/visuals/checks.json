@@ -1,0 +1,570 @@
+{
+  "model": "Full-span steady laminar finite wing, nominal Re_c=400; independent numerical checks required",
+  "solvers": [
+    "fluent",
+    "openfoam"
+  ],
+  "paired": true,
+  "native_solve_evidence": {
+    "fluent": {
+      "actual_terminal_iteration": 1200,
+      "native_terminal_scaled_residuals": {
+        "continuity": 0.00015777199615669686,
+        "x-velocity": 9.819071018069798e-08,
+        "y-velocity": 1.9721832084935901e-07,
+        "z-velocity": 4.485385556306089e-08
+      },
+      "initialized_only_data_refused": true,
+      "convergence_pass_required_for_render": false
+    },
+    "openfoam": {
+      "actual_saved_iteration": 1200.0,
+      "observed_solver_log": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\solver.log",
+      "initialized_only_data_refused": true,
+      "convergence_pass_required_for_render": false
+    }
+  },
+  "source_tets": 169800,
+  "source_nodes": 34424,
+  "source_wing_faces": 21862,
+  "minimum_source_tet_volume_m3": 2.1831645051104885e-08,
+  "native_to_source_tets_bijective": true,
+  "node_matching_tolerance_m": 1e-08,
+  "actual_native_fields": true,
+  "input_hashes_stable_after_loading": true,
+  "pressure_methods": {
+    "fluent": "saved native wing-face pressure",
+    "openfoam": "owner-cell pressure proxy; exact wall pressure is not claimed"
+  },
+  "Cp_shared_limits": [
+    -1.23222064335194,
+    1.23222064335194
+  ],
+  "native_field_ranges": {
+    "fluent": {
+      "speed_m_s": [
+        0.00016715799453576743,
+        1.2308718444920217
+      ],
+      "pressure_Pa": [
+        -0.4721651380252237,
+        0.4994654241264761
+      ]
+    },
+    "openfoam": {
+      "speed_m_s": [
+        0.00015315507840074963,
+        2.4622996705476683
+      ],
+      "pressure_Pa": [
+        -0.87333325012161,
+        0.56543871963301
+      ]
+    }
+  },
+  "downstream_slice": {
+    "display_limits_per_s": [
+      -1.271209865973896,
+      1.271209865973896
+    ],
+    "per_solver": {
+      "fluent": {
+        "native_intersection_triangles": 3219,
+        "full_omega_x_range_per_s": [
+          -1.271209865973896,
+          1.2408235502481992
+        ],
+        "display_saturated_triangle_fraction": 0.0,
+        "quiver_native_samples": 120,
+        "crossflow_speed_max_m_s": 0.12449491917118645
+      },
+      "openfoam": {
+        "native_intersection_triangles": 3219,
+        "full_omega_x_range_per_s": [
+          -1.2442809361594946,
+          1.250631821925261
+        ],
+        "display_saturated_triangle_fraction": 0.0,
+        "quiver_native_samples": 120,
+        "crossflow_speed_max_m_s": 0.13606763431654031
+      }
+    },
+    "vector_scale_shared": true
+  },
+  "animation": {
+    "frames": 48,
+    "frame_delay_ms": 50,
+    "playback_fps": 20,
+    "playback_duration_s": 2.4,
+    "steady_field": true,
+    "solver_transient_time": false,
+    "camera_orbit": true,
+    "speed_limits_m_s": [
+      0,
+      2.4622996705476683
+    ],
+    "tracer_method": "RK4 through volume-weighted native nodal velocity; every substage/final segment walks actual adjacent fluid tets and stops at a boundary",
+    "tracer_loop": "Each tracer has a fixed phase offset along its own actual integrated trajectory; visual recycling is not flow unsteadiness"
+  },
+  "traces": {
+    "fluent": [
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -1.9400000000000004
+        ],
+        "samples": 255,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -1.8000000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          0.0
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          1.8000000000000005
+        ],
+        "samples": 253,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          1.9400000000000004
+        ],
+        "samples": 254,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          -2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          -2.0600000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          -1.9400000000000004
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          -1.8000000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          0.0
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          1.8000000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          1.9400000000000004
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          2.0600000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      }
+    ],
+    "openfoam": [
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -1.9400000000000004
+        ],
+        "samples": 255,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -1.8000000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          0.0
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          1.8000000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          1.9400000000000004
+        ],
+        "samples": 253,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          -2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          -2.0600000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          -1.9400000000000004
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          -1.8000000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          0.0
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          1.8000000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          1.9400000000000004
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          2.0600000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.12861653308602558,
+          2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      }
+    ]
+  },
+  "velocity_reconstruction": "Volume-weighted averages of actual incident fluid-cell vectors to original native mesh vertices, then piecewise-linear barycentric interpolation; no boundary vectors appended",
+  "gradient_reconstruction": "Piecewise linear curl on original saved fluid tetrahedra; no cross-solid Delaunay connectivity",
+  "synthetic_vortex": false,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "steady_convergence_acceptance": "Separate native analyser evidence; not inferred from rendered traces",
+  "layout_only_version_comparison": {
+    "previous_output": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-01-finite-wing-paired-v001",
+    "surface_pressure_CSV_byte_identical": true,
+    "decompressed_RK4_trace_CSV_byte_identical": true,
+    "RK4_trace_CSV_SHA256": "7c9449f44ca2ec6203ce06df23c665085f54c265d860d9ccc45f2e78f855fbdd",
+    "native_slice_arrays_identical": {
+      "fluent": true,
+      "openfoam": true
+    },
+    "fields_interpolation_and_RK4_code_unchanged": true
+  },
+  "final_diagnostic_limits": {
+    "fluent_terminal_scaled_residuals": {
+      "continuity": 0.00015777199615669686,
+      "x-velocity": 9.819071018069798e-08,
+      "y-velocity": 1.9721832084935901e-07,
+      "z-velocity": 4.485385556306089e-08
+    },
+    "declared_residual_target": 1e-05,
+    "fluent_continuity_target_missed": true,
+    "cross_solver_force_coefficient_difference_approx_percent": [
+      8,
+      11
+    ],
+    "force_difference_note": "Unresolved difference from separate completed native analyses; quantitative agreement is not claimed",
+    "accepted_quantitative_cross_solver_agreement": false,
+    "physical_validation": false
+  },
+  "final_native_input_hashes_stable_before_after_render": true,
+  "GIF_readback": {
+    "frames": 48,
+    "distinct_RGB_frames": 48,
+    "frame_delays_ms": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "dimensions_px": [
+      1280,
+      720
+    ],
+    "playback_duration_s": 2.4,
+    "steady_fields_only": true
+  }
+}

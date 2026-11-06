@@ -1,0 +1,173 @@
+{
+  "kind": "Fluent Re100 lid-driven cavity2500 saved-native continuation audit",
+  "checks": {
+    "execution_status_read": true,
+    "summary_read": true,
+    "provenance_read": true,
+    "root_authorization_read": true,
+    "targets_read": true,
+    "native_quality_read": true,
+    "native_settings_read": true,
+    "native_physical_readback_read": true,
+    "native_inputs_bound_to_reviewed_authorization": true,
+    "native_completed_2500": true,
+    "separate_fixed500_budget_no_reinitialization": true,
+    "native_quality_positive_volume_and_total1": true,
+    "native_final_physical_wall_and_numerical_settings": true,
+    "native_final_case_read": true,
+    "native_final_data_read": true,
+    "native2300_case_read": true,
+    "native2300_data_read": true,
+    "checkpoint2300_case_read": true,
+    "checkpoint2300_data_read": true,
+    "checkpoint2500_case_read": true,
+    "checkpoint2500_data_read": true,
+    "native_transcript_read": true,
+    "native_parent_transcript_read": true,
+    "native_residual_history_complete": true,
+    "final_residuals_le_1e_6": true,
+    "source_geometry_read": true,
+    "native_topology_mapping_and_finite_fields": true,
+    "native2300_and2500_mesh_identical": true,
+    "final200_weighted_velocity_L2_relative_change_le_1e_3": true,
+    "full_native_face_flux_and_incidence_coverage": true,
+    "native_local_divergence_max_le_1e_5": true,
+    "native_local_divergence_rms_le_1e_6": true,
+    "closed_wall_net_characteristic_normalized_le_1e_10": true,
+    "native_incidence_sum_equals_boundary_flux": true,
+    "closed_wall_report_present_without_zero_over_zero": true,
+    "native_per_iteration_monitors_complete": true,
+    "native_student_two_process_licence_and_no_fatal": true,
+    "parent_files_and_native1to2000_history_preserved": true,
+    "saved_native_visualizations_created": true,
+    "all_hashed_native_inputs_unchanged": true
+  },
+  "evidence": {
+    "provenance": {
+      "source_sha256": "b5d823e50b1caa972defa40602860145f5c9ba79d2667e6c13581256a2fc59b5",
+      "mesh_sha256": "5d76acfc9cf94c23150a1d80488a9aaa2a795ea6be0a6aebfdb20fe7bc6b9795",
+      "geometry_npz_sha256": "3b82e075d8d083ee1c653dd9c1b5afac92d1d65857adb31d75216c0de7bc4aec"
+    },
+    "settings": {
+      "lid_wall_motion": "Moving Wall",
+      "lid_relative": "Absolute",
+      "lid_velocity_spec": "Components",
+      "lid_velocity_components": [
+        {
+          "option": "value",
+          "value": 1.0
+        },
+        {
+          "option": "value",
+          "value": 0
+        }
+      ],
+      "lid_shear_condition": "No Slip",
+      "operating_pressure_Pa": 0.0,
+      "reference_depth_m": 1,
+      "density": 1.0,
+      "viscosity": 0.01,
+      "viscous_model": "laminar",
+      "energy_enabled": false
+    },
+    "native_residual_normalization_note": "First native x-velocity HDF normalization is0 from rest; actual printed iteration1 residual1.6 verified against unscaled numerator. All later ratios use positive native normalization; final values match printed evidence.",
+    "final_scaled_residuals": {
+      "continuity": 2.0132718363977406e-07,
+      "x-velocity": 9.340144415900434e-09,
+      "y-velocity": 8.43748404174094e-09
+    },
+    "final200_max_scaled_residuals": {
+      "continuity": 4.6062191990381404e-07,
+      "x-velocity": 2.1366932046412883e-08,
+      "y-velocity": 1.9301803973714258e-08
+    },
+    "unchanged_native_mesh_datasets": 32,
+    "velocity_stability": {
+      "endpoints": [
+        2300,
+        2500
+      ],
+      "weighted_velocity_L2_relative_change": 2.5022029685587405e-05,
+      "definition": "sqrt(sum(source cell area*|U2500-U2300|\u00b2)/sum(source cell area*|U2300|\u00b2))"
+    },
+    "local_conservation": {
+      "native_faces": 12960,
+      "native_cells": 6400,
+      "max_cell_absolute_mass_sum_kg_s": 4.908582221241353e-13,
+      "sum_cell_absolute_mass_sum_kg_s": 3.0449532178735633e-10,
+      "max_dimensionless_divergence": 3.141492621594533e-09,
+      "rms_dimensionless_divergence": 4.5468418747381324e-10,
+      "boundary_signed_mass_flux_kg_s": 0.0,
+      "boundary_absolute_face_mass_flux_sum_kg_s": 0.0,
+      "boundary_net_characteristic_normalized": 0.0,
+      "incidence_sum_matches_boundary": true,
+      "normalization": "Cell divergence: sum signed native SV_FLUX/(rho*cell area*depth)*L/U; volume-weighted RMS",
+      "boundary_limitation": "Closed wallNet0 is imposed by impermeability and is not sole conservation proof",
+      "zones": {
+        "lid": {
+          "faces": 80,
+          "native_signed_SV_FLUX_kg_s": 0.0,
+          "absolute_face_flux_sum_kg_s": 0.0
+        },
+        "bottom": {
+          "faces": 80,
+          "native_signed_SV_FLUX_kg_s": 0.0,
+          "absolute_face_flux_sum_kg_s": 0.0
+        },
+        "left": {
+          "faces": 80,
+          "native_signed_SV_FLUX_kg_s": 0.0,
+          "absolute_face_flux_sum_kg_s": 0.0
+        },
+        "right": {
+          "faces": 80,
+          "native_signed_SV_FLUX_kg_s": 0.0,
+          "absolute_face_flux_sum_kg_s": 0.0
+        }
+      }
+    },
+    "closed_wall_native_mass_report": {
+      "lid": -0.0,
+      "bottom": -0.0,
+      "left": -0.0,
+      "right": -0.0,
+      "Net": 0.0,
+      "relative_mass_imbalance": null,
+      "relative_mass_imbalance_reason": "No inlet or outlet; dividing wallNet0 by inlet0 would be undefined. Use local native flux divergence."
+    },
+    "monitors": {
+      "actual_rows": 2500,
+      "parent_actual_rows": 2000,
+      "continuation_actual_rows": 500,
+      "last": {
+        "iteration": 2500,
+        "mean_speed": 0.1935958951975443,
+        "mean_pressure": -0.01643366120174767
+      }
+    },
+    "live_native_licence_and_log": {
+      "native_compute_processes": 2,
+      "student_version_verified": true
+    },
+    "preserved_parent_and_native_history": {
+      "original_native_iterations": 2000,
+      "extended_native_iterations": 2500,
+      "original_residual_prefix_identical": true,
+      "parent_input_files_unchanged": 10
+    },
+    "derived_saved_native_images": [
+      "fluent-velocity.png",
+      "fluent-pressure.png",
+      "fluent-residuals.png"
+    ]
+  },
+  "errors": {},
+  "all_checks_passed": true,
+  "failed_checks": [],
+  "physical_validation": false,
+  "mesh_independence": false,
+  "boundary_note": "Closed boundaryNet0 alone is not independent conservation; local native face flux divergence is checked.",
+  "pressure_note": "Pressure comparisons and derived visuals subtract source area weighted mean.",
+  "analyser_sha256": "5bf82376489f9a25664ce10599e75674e9563f4724dc939ace546bd3ae5e6ddb",
+  "mapping_helper_sha256": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e"
+}

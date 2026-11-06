@@ -1,0 +1,28 @@
+{
+  "model": "Developing laminar flow between parallel plates; 2D planar, not circular pipe",
+  "nx": 240,
+  "ny": 32,
+  "cells": 7680,
+  "length_m": 1.0,
+  "height_m": 0.1,
+  "reference_depth_m": 1.0,
+  "density_kg_m3": 1.0,
+  "dynamic_viscosity_Pa_s": 0.01,
+  "kinematic_viscosity_m2_s": 0.01,
+  "inlet_velocity_m_s": 1.0,
+  "Re_H": 10.0,
+  "Re_Dh": 20.0,
+  "outlet_gauge_pressure_Pa": 0.0,
+  "geometry_checks": {
+    "positive_areas": true,
+    "euler_characteristic": 1,
+    "boundary_face_counts": {
+      "4": 480,
+      "5": 32,
+      "6": 32
+    }
+  },
+  "mesh_sha256": "0d98b2475001a38389c6b859c6a349399b09bd44e4a47527e675d32eb09ea7df",
+  "generated_by": "Codex",
+  "physical_validation": false
+}

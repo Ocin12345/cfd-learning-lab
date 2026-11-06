@@ -1,0 +1,289 @@
+{
+  "solver": "OpenFOAM Foundation14 incompressibleFluid",
+  "steady_iteration_indices_are_not_physical_time": true,
+  "mesh_cells": 169800,
+  "actual_settings": {
+    "model": "Full-span 3D rectangular finite wing, illustrative laminar steady calculation",
+    "x_bounds_m": [
+      -3,
+      9
+    ],
+    "y_bounds_m": [
+      -4,
+      4
+    ],
+    "z_bounds_m": [
+      -6,
+      6
+    ],
+    "chord_m": 1,
+    "full_span_m": 4,
+    "planform_area_m2": 4,
+    "aspect_ratio": 4,
+    "incidence_degrees": 8,
+    "inlet_U_m_s": [
+      1,
+      0,
+      0
+    ],
+    "density_kg_m3": 1,
+    "dynamic_viscosity_Pa_s": 0.0025,
+    "kinematic_viscosity_m2_s": 0.0025,
+    "reynolds_chord": 400,
+    "wing": "Stationary no-slip exact source wing patch; shape/pivot in mesh setup.json",
+    "farfield": "Uniform fixed U(1,0,0) on upstream and four lateral faces; zeroGradient p",
+    "outlet": "zeroGradient U and fixed kinematic p=0",
+    "initial_U_m_s": [
+      1,
+      0,
+      0
+    ],
+    "initial_p": 0,
+    "solver": "OpenFOAM Foundation14 incompressibleFluid",
+    "algorithm": "steady SIMPLE consistent",
+    "max_iterations": 1200,
+    "saved_iterations": [
+      300,
+      600,
+      900,
+      1200
+    ],
+    "mpi_processes": 2,
+    "U_equation_relaxation": 0.7,
+    "nonorthogonal_correctors": 1,
+    "force_reference_area_m2": 4,
+    "force_reference_length_m": 1,
+    "force_reference_U_m_s": 1,
+    "force_reference_rho_kg_m3": 1,
+    "drag_direction": [
+      1,
+      0,
+      0
+    ],
+    "lift_direction": [
+      0,
+      1,
+      0
+    ],
+    "moment_reference_m": [
+      0.25,
+      0,
+      0
+    ],
+    "force_sample_interval_iterations": 1,
+    "residual_target": 1e-05,
+    "relative_mass_imbalance_target": 0.0001,
+    "last100_relative_Cd_Cl_range_target": 0.001,
+    "relative_force_denominator": "max(abs(last100 mean),1e-3)",
+    "mesh_quality_targets": {
+      "positive_volume": true,
+      "max_nonorthogonality_degrees": 75,
+      "max_skewness": 4,
+      "full_checkMesh_pass": true
+    },
+    "intended_cells": 169800,
+    "source_boundary_face_counts": {
+      "wing": 21862,
+      "inlet": 164,
+      "outlet": 156,
+      "farfield": 756
+    },
+    "mesh_source_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\mesh-export-v002\\wing.msh",
+    "mesh_source_sha256": "e2d189579699b6e4102d717868b26907c3a20c227e748c57303206b3fd43b38c",
+    "physical_validation": false,
+    "mesh_independence_established": false,
+    "residual_norms_equivalent_to_fluent": false,
+    "pressure_note": "Kinematic p; gauge Pa=rho*p",
+    "limitation": "A fixed steady solve may fail force stability at this Reynolds number; preserve misses; do not infer a steady physical wake",
+    "official_sources": {
+      "steady_module_controls": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/tutorials/incompressibleFluid/pitzDailySteady/system/fvSolution",
+      "force_output_and_normalisation": "https://raw.githubusercontent.com/OpenFOAM/OpenFOAM-14/master/src/functionObjects/forces/forceCoeffs/forceCoeffs.C",
+      "release": "https://openfoam.org/version/14/"
+    },
+    "solver_started": false
+  },
+  "mesh_quality": {
+    "cells": 169800,
+    "minimum_volume_m3": 2.1831645051116e-08,
+    "maximum_nonorthogonality_degrees": 53.01592212135,
+    "maximum_skewness": 0.78351575773986
+  },
+  "actual_native_patches": {
+    "wing": {
+      "kind": "wall",
+      "count": 21862,
+      "start": 328131
+    },
+    "inlet": {
+      "kind": "patch",
+      "count": 164,
+      "start": 349993
+    },
+    "outlet": {
+      "kind": "patch",
+      "count": 156,
+      "start": 350157
+    },
+    "farfield": {
+      "kind": "patch",
+      "count": 756,
+      "start": 350313
+    }
+  },
+  "native_fields": {
+    "300": {
+      "U_min_m_s": [
+        -0.0035230548661342,
+        -1.0089503638775,
+        -0.55370676558629
+      ],
+      "U_max_m_s": [
+        2.3931816023898,
+        0.98632168138382,
+        0.48992912985041
+      ],
+      "speed_min_m_s": 0.00011894411170070132,
+      "speed_max_m_s": 2.490213917522701,
+      "gauge_pressure_Pa_min": -0.68137634913307,
+      "gauge_pressure_Pa_max": 0.56342654861398,
+      "internal_phi_finite": true
+    },
+    "600": {
+      "U_min_m_s": [
+        -0.0035937006924747,
+        -1.1500399231929,
+        -0.55150090512179
+      ],
+      "U_max_m_s": [
+        2.3696509117672,
+        1.1445533802503,
+        0.59746737892916
+      ],
+      "speed_min_m_s": 0.00015305944307851725,
+      "speed_max_m_s": 2.4610558932823623,
+      "gauge_pressure_Pa_min": -0.87363052506416,
+      "gauge_pressure_Pa_max": 0.56541922272722,
+      "internal_phi_finite": true
+    },
+    "900": {
+      "U_min_m_s": [
+        -0.0035935602325781,
+        -1.1498491512825,
+        -0.55150347460021
+      ],
+      "U_max_m_s": [
+        2.3707649852483,
+        1.1444948379186,
+        0.59801625774447
+      ],
+      "speed_min_m_s": 0.00015315301331197357,
+      "speed_max_m_s": 2.462349194620986,
+      "gauge_pressure_Pa_min": -0.8733443592534,
+      "gauge_pressure_Pa_max": 0.56543859160924,
+      "internal_phi_finite": true
+    },
+    "1200": {
+      "U_min_m_s": [
+        -0.0035935531376179,
+        -1.1498417316684,
+        -0.5515035083172
+      ],
+      "U_max_m_s": [
+        2.3707205967393,
+        1.1444897838292,
+        0.59803072801068
+      ],
+      "speed_min_m_s": 0.00015315507840074963,
+      "speed_max_m_s": 2.4622996705476683,
+      "gauge_pressure_Pa_min": -0.87333325012161,
+      "gauge_pressure_Pa_max": 0.56543871963301,
+      "internal_phi_finite": true
+    }
+  },
+  "boundary_mass_balance": {
+    "signed_outward_volume_flux_m3_s": {
+      "inlet": -96.0,
+      "outlet": 96.00000000248068,
+      "farfield": 0.0,
+      "wing": 0.0
+    },
+    "total_inward_volume_flux_m3_s": 96.0,
+    "total_outward_volume_flux_m3_s": 96.00000000248068,
+    "net_outward_volume_flux_m3_s": 2.480675220795092e-09,
+    "relative_imbalance": 2.584036688328221e-11,
+    "definition": "abs(sum outward phi over every physical boundary face)/sum magnitude of inward face phi; includes farfield and wing"
+  },
+  "final_iteration": 1200,
+  "residuals": {
+    "final_maximum_printed_initial_residual_per_variable": {
+      "p": 1.0208954613378e-08,
+      "Ux": 8.7384012454918e-10,
+      "Uy": 1.2487669586994e-08,
+      "Uz": 1.9349786459357e-08
+    },
+    "last100_maximum_printed_initial_residual_per_variable": {
+      "p": 3.193447708676e-08,
+      "Ux": 2.7805445221412e-09,
+      "Uy": 3.9482977424796e-08,
+      "Uz": 5.3451343353648e-08
+    },
+    "definition": "maximum printed initial linear-system residual per variable in one steady SIMPLE iteration",
+    "norm_equivalent_to_fluent": false
+  },
+  "final100_force_stability": {
+    "Cd": {
+      "actual_samples": 100,
+      "final100_iteration_window_complete": true,
+      "first_iteration": 1101,
+      "last_iteration": 1200,
+      "mean": 0.2160365755494106,
+      "minimum": 0.216036574293962,
+      "maximum": 0.216036576157363,
+      "absolute_span": 1.863400989066122e-09,
+      "relative_span": 8.625395881818798e-09,
+      "denominator": "max(abs(mean),1e-3)"
+    },
+    "Cl": {
+      "actual_samples": 100,
+      "final100_iteration_window_complete": true,
+      "first_iteration": 1101,
+      "last_iteration": 1200,
+      "mean": 0.27644355739649235,
+      "minimum": 0.276443550475861,
+      "maximum": 0.276443563505398,
+      "absolute_span": 1.302953700488274e-08,
+      "relative_span": 4.71327207897089e-08,
+      "denominator": "max(abs(mean),1e-3)"
+    }
+  },
+  "final_forces": {
+    "iteration": 1200,
+    "Cm": -0.00685343336184685,
+    "Cd": 0.216036576153313,
+    "Cl": 0.276443560316178
+  },
+  "force_samples": 1200,
+  "check_results": {
+    "actual_native_dictionaries_match_exact_recorded_settings": true,
+    "prepared_input_hashes_match": true,
+    "shared_source_mesh_hash_matches": true,
+    "native_positive_volume_nonorth_skew_and_full_mesh_check_passed": true,
+    "all_saved_native_fields_finite_with_correct_counts_and_dimensions": true,
+    "native_solution_is_three_dimensional_domain": true,
+    "final_iteration_max_initial_p_Ux_Uy_Uz_residual_le_1e_5": true,
+    "native_upstream_inflow_and_outlet_outflow": true,
+    "relative_all_physical_boundary_mass_imbalance_le_1e_4": true,
+    "last100_Cd_relative_span_le_1e_3": true,
+    "last100_Cl_relative_span_le_1e_3": true,
+    "actual_force_samples_complete": true,
+    "executed_wrapper_matches_prepared_source": true,
+    "inputs_unchanged_during_read_only_analysis": true
+  },
+  "failed_checks": [],
+  "all_declared_checks_passed": true,
+  "physical_validation": false,
+  "mesh_independence_established": false,
+  "steady_physical_wake_established": false,
+  "benchmark_validation": false,
+  "interpretation": "Bounded numerical checks on one illustrative steady 3D mesh; missed targets retained without automatic extension"
+}

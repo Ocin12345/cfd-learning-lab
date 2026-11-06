@@ -1,0 +1,22 @@
+{
+  "cells": 383562,
+  "Re": 100,
+  "angle_degrees": 0,
+  "final_iteration": 227,
+  "final_scaled_residuals": [
+    1.2717e-10,
+    9.6282e-15,
+    3.0728e-15
+  ],
+  "minimum_orthogonal_quality": 0.502614,
+  "relative_mass_imbalance": 3.83693075e-14,
+  "final_Cd": 0.41589053,
+  "final_Cl": 9.1542336e-06,
+  "last20_Cd_relative_range": 0.0,
+  "last20_Cl_absolute_range": 9.99999999392329e-14,
+  "numerical_checks_passed": true,
+  "mesh_independence_established": false,
+  "physical_validation": false,
+  "source_snapshot_sha256": "a9ee9066a557a3583ecae6bb92991994f2360eec9e3bb4d630628fe8ac303d16",
+  "launch_note": "Intended mesh-only launch omitted its flag; flow proceeded after the quality gate passed. All data preserved."
+}

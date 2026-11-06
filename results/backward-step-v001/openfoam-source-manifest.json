@@ -1,0 +1,152 @@
+{
+  "inputs_unchanged_during_analysis": true,
+  "raw_native_logs_copied_to_repository": false,
+  "path_base": "CFD-Learning-Lab",
+  "sources": [
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/mesh/setup.json",
+      "sha256_before": "cc3bab0be7ad3f6863901f0978012e6ba9e4fb0536919fead78e57e662fc35ec",
+      "sha256_after": "cc3bab0be7ad3f6863901f0978012e6ba9e4fb0536919fead78e57e662fc35ec"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/declared-comparison.json",
+      "sha256_before": "307ad04589085e12da6796f3aa685480ecf6871594e31f2fd580b035405cf592",
+      "sha256_after": "307ad04589085e12da6796f3aa685480ecf6871594e31f2fd580b035405cf592"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/mesh/step.msh",
+      "sha256_before": "43df623ae44577619f8f34f990aa10b11f834e6b45cc31957aed8937b8b714dc",
+      "sha256_after": "43df623ae44577619f8f34f990aa10b11f834e6b45cc31957aed8937b8b714dc"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/input-step.msh",
+      "sha256_before": "43df623ae44577619f8f34f990aa10b11f834e6b45cc31957aed8937b8b714dc",
+      "sha256_after": "43df623ae44577619f8f34f990aa10b11f834e6b45cc31957aed8937b8b714dc"
+    },
+    {
+      "path": "repo/cfd-learning-lab/scripts/analyse_step_openfoam.py",
+      "sha256_before": "24a0294df056b49902e9ac470ce72d6ecdf4f8532331e1ecad5eb1a83499735a",
+      "sha256_after": "24a0294df056b49902e9ac470ce72d6ecdf4f8532331e1ecad5eb1a83499735a"
+    },
+    {
+      "path": "repo/cfd-learning-lab/scripts/plot_step_flow.py",
+      "sha256_before": "b2fd33eedffc52b3da4f59c58a784ca4da78a18e95bfd212ca155ff6b47ab076",
+      "sha256_after": "b2fd33eedffc52b3da4f59c58a784ca4da78a18e95bfd212ca155ff6b47ab076"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/mesh-check.log",
+      "sha256_before": "2d16ac4085db1f0042f9384843da972b462dd8559cef568126a56ac5b6c227f9",
+      "sha256_after": "2d16ac4085db1f0042f9384843da972b462dd8559cef568126a56ac5b6c227f9"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/solver.log",
+      "sha256_before": "03e0af22a90b9465612147341476e80ebfb96d9c7bb92dfbfb883ce522caa61e",
+      "sha256_after": "03e0af22a90b9465612147341476e80ebfb96d9c7bb92dfbfb883ce522caa61e"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/run-status.json",
+      "sha256_before": "0e8c3318c9ac049d619378e1d199c4a5f0765964ebcd4581d19c294548c0b2ba",
+      "sha256_after": "0e8c3318c9ac049d619378e1d199c4a5f0765964ebcd4581d19c294548c0b2ba"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/system/controlDict",
+      "sha256_before": "fd4b08b0eadb4b33f62e07e1bd187593a3b19f9424bccad2c71051383d665d79",
+      "sha256_after": "fd4b08b0eadb4b33f62e07e1bd187593a3b19f9424bccad2c71051383d665d79"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/system/fvSchemes",
+      "sha256_before": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0",
+      "sha256_after": "19c244039db97868db2f85b18c61d87359ae987a3bc28d448ca61cb51dcadab0"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/system/fvSolution",
+      "sha256_before": "d8a867e1cafbc8ca16428ee87ec6621958ccafbb879b3c81246eb6e0ba6e79bf",
+      "sha256_after": "d8a867e1cafbc8ca16428ee87ec6621958ccafbb879b3c81246eb6e0ba6e79bf"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/system/decomposeParDict",
+      "sha256_before": "5c4d636cb3070a405d3437172ffbf73a3104582ae6347170c91cc11666011797",
+      "sha256_after": "5c4d636cb3070a405d3437172ffbf73a3104582ae6347170c91cc11666011797"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/constant/physicalProperties",
+      "sha256_before": "0c2cccd25f6ff7637351833f35ea078390e21633c99246122dc74f495fa94b0b",
+      "sha256_after": "0c2cccd25f6ff7637351833f35ea078390e21633c99246122dc74f495fa94b0b"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/constant/momentumTransport",
+      "sha256_before": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844",
+      "sha256_after": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/0/U",
+      "sha256_before": "b262f73625b9c6f70bdffc24c6540f2f071dcc767b7202853e62527d022e3c37",
+      "sha256_after": "b262f73625b9c6f70bdffc24c6540f2f071dcc767b7202853e62527d022e3c37"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/0/p",
+      "sha256_before": "0095f0e14797bafbd2ab440f79f6621b412ca0076c314c565ade2563915a3123",
+      "sha256_after": "0095f0e14797bafbd2ab440f79f6621b412ca0076c314c565ade2563915a3123"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/0/polyMesh/boundary",
+      "sha256_before": "f7206617c4b319187782522e5b98f734d3489de2866a20f12f95fa79a477d244",
+      "sha256_after": "f7206617c4b319187782522e5b98f734d3489de2866a20f12f95fa79a477d244"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/0/polyMesh/points",
+      "sha256_before": "20372bc812cddef96e40391abdd5a3be4398eefcc7ae4102da80a6f03295bd24",
+      "sha256_after": "20372bc812cddef96e40391abdd5a3be4398eefcc7ae4102da80a6f03295bd24"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/0/polyMesh/faces",
+      "sha256_before": "791d1f61ac9bac6ed29fd69aaf22291947d62baecdefc3258896b37e2126d032",
+      "sha256_after": "791d1f61ac9bac6ed29fd69aaf22291947d62baecdefc3258896b37e2126d032"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/0/polyMesh/owner",
+      "sha256_before": "3049a44d20f827d3fe5ac7b1f85674969d13617972a1c8bf208b55b72624a7e0",
+      "sha256_after": "3049a44d20f827d3fe5ac7b1f85674969d13617972a1c8bf208b55b72624a7e0"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/0/polyMesh/neighbour",
+      "sha256_before": "fa245da57f64773c3a4dc0385e2ee1e258a6b1e9cb74c9686f49479aba31af52",
+      "sha256_after": "fa245da57f64773c3a4dc0385e2ee1e258a6b1e9cb74c9686f49479aba31af52"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/2000/C",
+      "sha256_before": "b399fa752f1e9d03fa23ef49a66e979e1252eb9f0ebfd004a3316703b7d2b27b",
+      "sha256_after": "b399fa752f1e9d03fa23ef49a66e979e1252eb9f0ebfd004a3316703b7d2b27b"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/1900/U",
+      "sha256_before": "83527ee8dcbab91b17bad1f3fa665960502991cd691a52f9f24068f330403060",
+      "sha256_after": "83527ee8dcbab91b17bad1f3fa665960502991cd691a52f9f24068f330403060"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/1900/p",
+      "sha256_before": "e665f1c7701993fcf775fb7979f463443dc0d904a97bec594fc225423ba8088d",
+      "sha256_after": "e665f1c7701993fcf775fb7979f463443dc0d904a97bec594fc225423ba8088d"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/1900/phi",
+      "sha256_before": "bc4989ba55430e31a52bd8deb1c308f49f1f9dce93eb023450e7da7aab647736",
+      "sha256_after": "bc4989ba55430e31a52bd8deb1c308f49f1f9dce93eb023450e7da7aab647736"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/2000/U",
+      "sha256_before": "a2e18d5bdcce8268260cdcc6696ae592c0d8b2ed3101dfa1a1cad79c4bbd5e08",
+      "sha256_after": "a2e18d5bdcce8268260cdcc6696ae592c0d8b2ed3101dfa1a1cad79c4bbd5e08"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/2000/p",
+      "sha256_before": "cb32443aa0409947a898eee42ac17f4933fda584bbdc7e89bb4a53bb09fba467",
+      "sha256_after": "cb32443aa0409947a898eee42ac17f4933fda584bbdc7e89bb4a53bb09fba467"
+    },
+    {
+      "path": "native/runs/2026-11-01-backward-step-v001/openfoam/2000/phi",
+      "sha256_before": "461538b0e948c396b5cb8964658e2b69800b592208ca8be5bd16786263736992",
+      "sha256_after": "461538b0e948c396b5cb8964658e2b69800b592208ca8be5bd16786263736992"
+    }
+  ]
+}

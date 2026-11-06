@@ -1,0 +1,24 @@
+[
+  {
+    "prior_iteration": 2500,
+    "end_iteration": 5000,
+    "archived_control_path": "system/controlDict.stage02",
+    "archived_control_sha256": "64037d34debd0fc6d87da03176d8ed28a4925c4cd07d04b2a3ce8d7886ac5663",
+    "current_control_sha256": "a140e131413f82849a691b48fc5cc71bb8d4a4d0de75ce823aae40ebd12727ec",
+    "declared_comparison_sha256": "d0d26c5aee8c2420573dfafe0dfcd8f65536696c274aa7c648b79aa3b69ad02c",
+    "reason": "Residual, lift and force-window checks still fail at2500; continue cold solution with unchanged0.9 relaxation and all accuracy criteria",
+    "diagnostic": {
+      "iteration": 2500,
+      "Cd": 0.417561328311162,
+      "Cl": 0.00500682290604099,
+      "last100_Cd_relative_range": 0.008658272712036378,
+      "last100_Cl_absolute_range": 0.0019154602063163701,
+      "final_initial_residuals": {
+        "iteration": 2500,
+        "Ux": 2.2375735977806e-05,
+        "Uy": 8.2814245321503e-05,
+        "p": 4.5033877883145e-05
+      }
+    }
+  }
+]

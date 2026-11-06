@@ -1,0 +1,87 @@
+[
+  {
+    "path": "CAPTIONS.md",
+    "bytes": 3622,
+    "sha256": "084cee683a082740fabda96fd8b6a82d273994fe0054f05992376acb0073c3b8"
+  },
+  {
+    "path": "actual-steady-RK4-traces.csv.gz",
+    "bytes": 398933,
+    "sha256": "1de51371b02acc3924a290c4aa55c4497557d21be91bc87055bb4413bc9308f5"
+  },
+  {
+    "path": "actual-wing-pressure.csv",
+    "bytes": 7275250,
+    "sha256": "dfc12cb9063e56fdb052f48c9d4decb11b924b07617f4df1c398f58e5e1e3b29"
+  },
+  {
+    "path": "checks.json",
+    "bytes": 15315,
+    "sha256": "91745e918a20ece261559093b7e1c205ce6bb961c518f792ee330085a9e086b1"
+  },
+  {
+    "path": "executed-plotter.py",
+    "bytes": 47687,
+    "sha256": "0f36f3a2e2c9bbbce70aa296543a83a8fcc98c4b0cc600481ce5f3be2c96d8f1"
+  },
+  {
+    "path": "executed-render-and-verify.py",
+    "bytes": 11182,
+    "sha256": "ce92e426ca726d9d6e8ab51e29dab36e72aca8780e01ef5b2606649120acf2db"
+  },
+  {
+    "path": "fluent-actual-native-tet-slice.npz",
+    "bytes": 183230,
+    "sha256": "ffd1b2662efe43c7150eab7be5a7d540379bfb0a694674f2fe899c93ff3861da"
+  },
+  {
+    "path": "input-hash-manifest.json",
+    "bytes": 8771,
+    "sha256": "0c0146a3a11bc84122d6fb6dfc74eb01802393443f9fab14f8d0a1f5506ed858"
+  },
+  {
+    "path": "observed-openfoam-solve-block.txt",
+    "bytes": 841,
+    "sha256": "b1dd9bc18b259b6814a4652ef86a0cf1118d27b671decb849a5df4c4f6905fd1"
+  },
+  {
+    "path": "openfoam-actual-native-tet-slice.npz",
+    "bytes": 183318,
+    "sha256": "3f42e6a08ffaa65b96a4a9fcdc459dc75bb0c5bf81281771f9a3fe2ee44bdebf"
+  },
+  {
+    "path": "plotter-stdout.json",
+    "bytes": 1734,
+    "sha256": "5f9c92fad5e4a97e4315b8740156e8127a1a702d272b39653c58917bf1e44132"
+  },
+  {
+    "path": "post-render-verification.json",
+    "bytes": 5182,
+    "sha256": "de027c602122a6e51cefdd04bdcf60e750605876d6f4935cd7817fe6b931ebaf"
+  },
+  {
+    "path": "wing-downstream-vorticity-and-crossflow.png",
+    "bytes": 541783,
+    "sha256": "65d18b98102802f286b05ccd38d415bf0431db86f97b1b00e6f924b7abda17c9"
+  },
+  {
+    "path": "wing-steady-field-tracers.gif",
+    "bytes": 4560525,
+    "sha256": "431b66ba49e4b17340b9ddf47ee49140daf3dcb0958a22eacfde369ea156a9c1"
+  },
+  {
+    "path": "wing-steady-tracer-contact-sheet.png",
+    "bytes": 234335,
+    "sha256": "7acf14f70fad20abc7d005752b50dd1f887b4bf052a6d63548faaccd848b82e8"
+  },
+  {
+    "path": "wing-steady-tracers.png",
+    "bytes": 381611,
+    "sha256": "3fb207260833748191d999539118f92859fb1a72aabedfc76d598806f0ce06c7"
+  },
+  {
+    "path": "wing-surface-Cp.png",
+    "bytes": 395928,
+    "sha256": "c1135744e26487bfe7e5e665833357c4afc4b4b891f2045244080fc381addeeb"
+  }
+]

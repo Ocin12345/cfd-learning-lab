@@ -1,0 +1,120 @@
+{
+  "script_sha256": "4a1d09c8c4086e91952867983bcfa812fff67a1ed074522e729d675b1fca3abc",
+  "measured_ranges": {
+    "speed": [
+      0.00036283725319253277,
+      1.0865898865683772
+    ],
+    "Cp": [
+      -1.56595436183808,
+      1.69484759120124
+    ]
+  },
+  "diagnostic": true,
+  "numerical_checks_passed": false,
+  "failed_checks": [
+    "openfoam.zero_angle_lift_diagnostic"
+  ],
+  "colour_limits": {
+    "speed": [
+      0,
+      1.2
+    ],
+    "Cp": [
+      -2.0,
+      2.0
+    ]
+  },
+  "software": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4"
+  },
+  "canvas_inches": [
+    7.05,
+    4.6
+  ],
+  "raster_dpi": 600,
+  "topology_checks": {
+    "cells": 531018,
+    "points": 532556,
+    "faces": 1859332,
+    "internal_faces": 795758,
+    "source_mesh_sha256": "d9d0738a93516d8856b442422d5d65bbbf04ab088ac5ed6f1e218126d8eee4dc",
+    "projected_xy_max_difference_m": 7.034014214903312e-14,
+    "coordinate_tolerance_m": 1e-10,
+    "coordinate_bijection": {
+      "method": "unique geometric neighbour-bucket bijection",
+      "source_nodes": 266278,
+      "unique_source_matches": 266278,
+      "tolerance_m": 1e-10,
+      "maximum_component_error_m": 4.973799150320701e-14,
+      "maximum_euclidean_error_m": 7.034014214903312e-14,
+      "euclidean_error_quantiles_m": {
+        "p50": 0.0,
+        "p90": 3.9241005173051e-14,
+        "p99": 5.826883674891095e-14
+      },
+      "independent_lexsort_pair_error_m": 54.24791340854391
+    },
+    "six_xyz_and_three_xy_vertices_per_cell": true,
+    "five_faces_per_prism": true,
+    "one_cap_on_each_z_plane_per_cell": true,
+    "imported_cell_triangles_verified": true,
+    "vertical_face_cell_pairs_verified": true,
+    "source_patch_face_identities_verified": true
+  },
+  "inputs": [
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\input-airfoil.msh",
+      "sha256": "d9d0738a93516d8856b442422d5d65bbbf04ab088ac5ed6f1e218126d8eee4dc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\declared-comparison.json",
+      "sha256": "72f5796a61440ca9b0926b3df9bd5d083a9e0b35e9c9221121a85581fcc9ab80"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\points",
+      "sha256": "fcc8162663235384bdde4f590682398f614373e9883f50213cea50ef3d3cfef6"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\faces",
+      "sha256": "3816a5d60a406d0eeceba97a92f211c9f3d84ca917c3a6487f0e95f08d0cb17a"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\owner",
+      "sha256": "1dc670ea4e80262293afc6cee1715c296c897f0ac050656c84175b1dce38f1aa"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\neighbour",
+      "sha256": "3f8082a9d463b39f83d0be18d53f467e77fefa07585e04ccc25f7a21e55856ea"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\0\\polyMesh\\boundary",
+      "sha256": "95e6fde99696b257852e9f239d1d9d23f3a632ca91613c406f706a997194fb34"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\5000\\U",
+      "sha256": "cc51c43dd09cf6687f7e92a5c112b09572b3a9831a556c470b5c0aacdcb2696f"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\5000\\p",
+      "sha256": "fa4445d3087a88a5976eb492a7c0f45f34dc3020eb8e61ef3c9559562462d277"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\plot_openfoam_airfoil_fields_v002.py",
+      "sha256": "4a1d09c8c4086e91952867983bcfa812fff67a1ed074522e729d675b1fca3abc"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-domain40-cross-solver-v002\\comparison.json",
+      "sha256": "d5f830abea94c20b4436d77a00577700dad476b758e20b27840efae13605fe06"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\airfoil-domain40-cross-solver-v002\\source-manifest.json",
+      "sha256": "0d937aef4694f5886be45b8ced32068571df3ef2a41dc929cd1f2eecf76d1cd7"
+    },
+    {
+      "path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-domain40-v002\\openfoam\\run-status.json",
+      "sha256": "ad7e64a278011bb4697c174653ebdab877a98e034a74466a3da0eb357991ed4b"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "scope": "Interior-node relocation only; no remeshing or boundary/CAD/profile change",
+  "initial_failing_cells": [
+    18351,
+    79704
+  ],
+  "initial_minimum": 0.08388553642817853,
+  "final_minimum": 0.10685637448535378,
+  "final_below_native_0p10": 0,
+  "final_below_margin_0p105": 0,
+  "required_floor": 0.105,
+  "face_centre_orthogonality_proxy_minimum": 0.39430416121430595,
+  "candidate_gate_pass": true,
+  "optimization_seconds": 0.09299999999348074,
+  "candidate_offsets_tested": 810,
+  "stop_reason": "global floor achieved",
+  "moved_node_count": 2,
+  "accepted_moves": [
+    {
+      "sweep": 0,
+      "node_zero_based": 16868,
+      "old": [
+        5.7902123050908605,
+        1.2397562805165403,
+        -2.845729726232354
+      ],
+      "new": [
+        5.668431501371836,
+        1.2397562805165403,
+        -2.9675105299513787
+      ],
+      "node_star_tets": 30,
+      "before_star_minimum": 0.08388553642817853,
+      "after_star_minimum": 0.15809274077421365,
+      "displacement_from_source_m": 0.17222406425614054,
+      "original_neighbor_median_edge_m": 1.14816042837427
+    },
+    {
+      "sweep": 1,
+      "node_zero_based": 33478,
+      "old": [
+        0.9869127497508534,
+        -0.10627448556250198,
+        -2.0064889217760133
+      ],
+      "new": [
+        0.9878282715602722,
+        -0.10719000737192073,
+        -2.007404443585432
+      ],
+      "node_star_tets": 26,
+      "before_star_minimum": 0.09927358272059283,
+      "after_star_minimum": 0.18230106913379124,
+      "displacement_from_source_m": 0.0015857302893507094,
+      "original_neighbor_median_edge_m": 0.010571535262337799
+    }
+  ],
+  "moved_nodes": [
+    {
+      "node_zero_based": 16868,
+      "before": [
+        5.7902123050908605,
+        1.2397562805165403,
+        -2.845729726232354
+      ],
+      "after": [
+        5.668431501371836,
+        1.2397562805165403,
+        -2.9675105299513787
+      ]
+    },
+    {
+      "node_zero_based": 33478,
+      "before": [
+        0.9869127497508534,
+        -0.10627448556250198,
+        -2.0064889217760133
+      ],
+      "after": [
+        0.9878282715602722,
+        -0.10719000737192073,
+        -2.007404443585432
+      ]
+    }
+  ],
+  "fixed_boundary_node_count": 11473,
+  "fixed_boundary_node_ids_sha256": "316d4c916add2fd074c41fc5013927c5a5cfe061eaa961dd5192dca9ddab963c",
+  "boundary_coordinates_before_sha256": "46496432683e35ba7f69f3a77b4fc5345b74f91ffb7ff3ded878267d124619ff",
+  "boundary_coordinates_after_sha256": "46496432683e35ba7f69f3a77b4fc5345b74f91ffb7ff3ded878267d124619ff",
+  "boundary_coordinates_byte_identical": true,
+  "connectivity_before_sha256": "7217e1ae2453372d7a634592ee9ebd1d4148bd4fcb6e6974511c48282d43b820",
+  "connectivity_after_sha256": "7217e1ae2453372d7a634592ee9ebd1d4148bd4fcb6e6974511c48282d43b820",
+  "cell_count_unchanged": 169800,
+  "node_count_unchanged": 34424,
+  "positive_volumes": true,
+  "formerly_passing_tets_remain_above_floor": true,
+  "source_gmsh_coordinate_bijection_verified": true,
+  "changed_gmsh_node_tags": [
+    {
+      "gmsh_tag": 16869,
+      "npz_node_zero_based": 16868
+    },
+    {
+      "gmsh_tag": 33479,
+      "npz_node_zero_based": 33478
+    }
+  ],
+  "profile_before_sha256": "30c9e6342fdc2b96b9d329aa80c825b441e4133419e4938e12d9e041a2c461a4",
+  "profile_after_sha256": "30c9e6342fdc2b96b9d329aa80c825b441e4133419e4938e12d9e041a2c461a4",
+  "cad_before_sha256": "2143c479a422b058107c6f2ae189c92f9507f27a1770abcc8bc42bc4516ffd5c",
+  "cad_after_sha256": "2143c479a422b058107c6f2ae189c92f9507f27a1770abcc8bc42bc4516ffd5c",
+  "wing_surface_before_sha256": "890d1d4f4b05bf3377e5acc520a35d05e6437cac056bbe9a3dc0fe483e8fb587",
+  "wing_surface_after_sha256": "890d1d4f4b05bf3377e5acc520a35d05e6437cac056bbe9a3dc0fe483e8fb587",
+  "parent_source_hashes": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\geometry.npz": "374e46743225bd122affc2a01d2d7c98ee53fe1545782a5d0d62f9a3139c0e71",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\setup.json": "c6987ae0ba3d4a343ffcfb1cb3fc82c10b25b78d91558e064dcd1e0661fd90e6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\wing.msh": "45efd56113a596d9573319796d3489862d19833d8ce8892e34fa41a759d28c45",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\source-gmsh.msh": "55ca75ff7972fdd31d497c7664779b1a1a18c8b4816e4965e9ad111e82674182",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\profile.json": "30c9e6342fdc2b96b9d329aa80c825b441e4133419e4938e12d9e041a2c461a4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\geometry.brep": "2143c479a422b058107c6f2ae189c92f9507f27a1770abcc8bc42bc4516ffd5c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\wing-surface.stl": "890d1d4f4b05bf3377e5acc520a35d05e6437cac056bbe9a3dc0fe483e8fb587",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\candidate-native-quality.json": "155abe86c1133349be00d0bfff5c9d7046721d4a7b075dc4020f994381bca814",
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v002\\mesh\\executed-mesher.py": "0d54f0dc2d4d7228604de53a7b0850ec60caff78a4e84baed6626d6fafff7f52"
+  },
+  "relocator_source_sha256": "6b466fb9197f359938fe1f4bc78e7b291c017732eaf3eb54af9991a87f94090c",
+  "helper_source_sha256": "0d54f0dc2d4d7228604de53a7b0850ec60caff78a4e84baed6626d6fafff7f52",
+  "native_fluent_check_still_required": true,
+  "CFD_launched": false
+}

@@ -1,0 +1,52 @@
+{
+  "model": "Full planar converging-diverging nozzle; illustrative inviscid ideal-gas Euler flow",
+  "nx": 240,
+  "ny": 40,
+  "cells": 9600,
+  "length_m": 1.0,
+  "throat_x_m": 0.4,
+  "inlet_half_height_m": 0.1,
+  "throat_half_height_m": 0.04,
+  "exit_half_height_m": 0.08,
+  "reference_depth_m": 1.0,
+  "openfoam_extrusion_depth_m": 0.01,
+  "gamma": 1.4,
+  "gas_constant_J_kg_K": 287.05,
+  "cp_J_kg_K": 1004.675,
+  "molecular_weight_kg_kmol": 28.96520682164515,
+  "inlet_total_pressure_Pa": 200000.0,
+  "inlet_total_temperature_K": 300.0,
+  "outlet_static_pressure_Pa": 140000.0,
+  "operating_pressure_Pa": 0.0,
+  "initial_pressure_Pa": 140000.0,
+  "initial_temperature_K": 300.0,
+  "initial_velocity_m_s": [
+    50.0,
+    0.0
+  ],
+  "inviscid": true,
+  "wall_condition": "impermeable slip, adiabatic",
+  "boundary_names": [
+    "inlet",
+    "outlet",
+    "upper_wall",
+    "lower_wall"
+  ],
+  "mesh_sha256": "57c661f58ffe3366f6c31b2667855bcf18d404f36eb0899f7e1a7b67da40319a",
+  "geometry_npz_sha256": "216639f1dfb24f22120c0bc271f8416c396fb14af4562e1bd1308cd38d170720",
+  "geometry_checks": {
+    "positive_areas": true,
+    "total_area_m2": 0.128,
+    "minimum_area_m2": 8.333829110248464e-06,
+    "euler_characteristic": 1,
+    "face_orthogonality_proxy_min": 0.9739815005524669,
+    "boundary_face_counts": {
+      "upper_wall": 240,
+      "lower_wall": 240,
+      "inlet": 40,
+      "outlet": 40
+    }
+  },
+  "generated_by": "Codex",
+  "physical_validation": false
+}

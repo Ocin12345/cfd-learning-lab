@@ -1,0 +1,70 @@
+{
+  "kind": "Byte-identical native Fluent PNG exports",
+  "source_run": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-fine-paired-v001\\fluent",
+  "cells": 944026,
+  "nodes": 473166,
+  "final_iteration": 273,
+  "images": [
+    {
+      "source_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-fine-paired-v001\\fluent\\residuals.png",
+      "source_sha256": "6fb38b6842e52f831f1cceed6bc8071db797c14a2dc4b7590a9f80baf50a45d2",
+      "output_path": "residuals.png",
+      "output_sha256": "6fb38b6842e52f831f1cceed6bc8071db797c14a2dc4b7590a9f80baf50a45d2",
+      "bytes": 102501
+    },
+    {
+      "source_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-fine-paired-v001\\fluent\\velocity.png",
+      "source_sha256": "d200e83dedb630d6aaae4566b95ad2a46d45741477aa986842611d50b2a6451f",
+      "output_path": "velocity.png",
+      "output_sha256": "d200e83dedb630d6aaae4566b95ad2a46d45741477aa986842611d50b2a6451f",
+      "bytes": 260404
+    },
+    {
+      "source_path": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-airfoil-fine-paired-v001\\fluent\\pressure.png",
+      "source_sha256": "1c58cfeec02dbd90eba6bd754bdb8ce1331df33e05926e168012734233e33228",
+      "output_path": "pressure.png",
+      "output_sha256": "1c58cfeec02dbd90eba6bd754bdb8ce1331df33e05926e168012734233e33228",
+      "bytes": 231781
+    }
+  ],
+  "image_dimensions_px": {
+    "residuals.png": [
+      1600,
+      1000
+    ],
+    "velocity.png": [
+      1600,
+      1000
+    ],
+    "pressure.png": [
+      1600,
+      1000
+    ]
+  },
+  "caption_sha256": "833d4b65d1f0cf66c9fee0179a07929136c1a6cccf8fa06e6a19ad2f39da9cad",
+  "visually_inspected": [
+    "residuals.png",
+    "velocity.png",
+    "pressure.png"
+  ],
+  "visual_review": "Native legends and airfoil are legible; residual plot retains all three curves and axes; no clipped plot content observed.",
+  "displayed_ranges": {
+    "scaled_residuals": [
+      1e-18,
+      1
+    ],
+    "velocity_m_s": [
+      0,
+      1.09
+    ],
+    "static_gauge_pressure_Pa": [
+      -0.731,
+      0.857
+    ]
+  },
+  "rounded_native_legend_ranges": true,
+  "byte_identical_native_images": true,
+  "common_scale_comparison": false,
+  "physical_validation": false,
+  "flow_iterations_executed_by_audit": 0
+}

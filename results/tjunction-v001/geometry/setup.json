@@ -1,0 +1,58 @@
+{
+  "model": "Laminar T-junction merge",
+  "cells": 4400,
+  "dx_m": 0.01,
+  "dy_m": 0.01,
+  "density_kg_m3": 1.0,
+  "dynamic_viscosity_Pa_s": 0.001,
+  "kinematic_viscosity_m2_s": 0.001,
+  "inlet_left_velocity_m_s": [
+    0.1,
+    0.0
+  ],
+  "inlet_top_velocity_m_s": [
+    0.0,
+    -0.1
+  ],
+  "outlet_gauge_pressure_Pa": 0.0,
+  "Re_each_inlet": 20.0,
+  "Re_outlet_expected": 40.0,
+  "reference_length_m": 0.2,
+  "reference_velocity_m_s": 0.1,
+  "reference_depth_m": 1.0,
+  "openfoam_extrusion_depth_m": 0.01,
+  "operating_pressure_Pa": 0.0,
+  "expected_flow_per_unit_depth_m2_s": {
+    "inlet_left": 0.02,
+    "inlet_top": 0.02,
+    "outlet": 0.04
+  },
+  "boundary_names": [
+    "inlet_left",
+    "inlet_top",
+    "outlet",
+    "walls"
+  ],
+  "geometry_checks": {
+    "nodes": 4641,
+    "faces": 9040,
+    "interior_faces": 8560,
+    "boundary_faces": {
+      "inlet_left": 20,
+      "inlet_top": 20,
+      "outlet": 20,
+      "walls": 420
+    },
+    "positive_areas": true,
+    "total_area_m2": 0.44000000000000006,
+    "minimum_area_m2": 9.999999999998899e-05,
+    "euler_characteristic": 1,
+    "orthogonality_proxy_min": 1.0
+  },
+  "mesh_sha256": "0de51603605decd4747a76322da8905516f2df194d2dd9c4158e08d8c5f0b555",
+  "geometry_npz_sha256": "671236b7bf7658fcbae5330b4cd6ce66c8e2dee9ff06753ebfc45c0a4cfb2949",
+  "generated_by": "Codex",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "scalar_mixing_simulated": false
+}

@@ -1,0 +1,153 @@
+{
+  "kind": "finite-wing-steady-Re400",
+  "geometry": "Rounded capped NACA0012-like rectangular finite wing; not exact NACA0012",
+  "cells": 169800,
+  "nodes": 34424,
+  "unused_nodes": 0,
+  "mesh_type": "positive linear tetrahedra",
+  "target_cells": [
+    80000,
+    180000
+  ],
+  "hard_maximum_cells": 250000,
+  "target_cell_count_met": true,
+  "chord_m": 1.0,
+  "span_m": 4.0,
+  "reference_area_m2": 4.0,
+  "aspect_ratio": 4.0,
+  "incidence_degrees_clockwise": 8.0,
+  "rotation_axis": "z",
+  "rotation_origin_m": [
+    0.25,
+    0.0,
+    0.0
+  ],
+  "span_limits_m": [
+    -2.0,
+    2.0
+  ],
+  "domain_bounds_m": [
+    -3.0,
+    9.0,
+    -4.0,
+    4.0,
+    -6.0,
+    6.0
+  ],
+  "density_kg_m3": 1.0,
+  "dynamic_viscosity_Pa_s": 0.0025,
+  "kinematic_viscosity_m2_s": 0.0025,
+  "inlet_velocity_m_s": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "Re_c": 400,
+  "Cp_reference_gauge_pressure_Pa": 0.0,
+  "profile_metadata": "profile.json",
+  "geometry_npz": "geometry.npz",
+  "npz_index_base": 0,
+  "wing_normal_definition": "unit outward normal from wing solid into fluid; Fluent ASCII right-hand normal toward c0",
+  "boundary_zones": {
+    "3": {
+      "name": "interior",
+      "native_type": "interior",
+      "faces": 328131,
+      "cad_surfaces": []
+    },
+    "4": {
+      "name": "wing",
+      "native_type": "wall",
+      "faces": 21862,
+      "cad_surfaces": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "5": {
+      "name": "inlet",
+      "native_type": "velocity-inlet",
+      "faces": 164,
+      "cad_surfaces": [
+        7
+      ]
+    },
+    "6": {
+      "name": "outlet",
+      "native_type": "pressure-outlet",
+      "faces": 156,
+      "cad_surfaces": [
+        12
+      ]
+    },
+    "7": {
+      "name": "farfield",
+      "native_type": "velocity-inlet",
+      "faces": 756,
+      "cad_surfaces": [
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "minimum_tet_volume_m3": 2.18316450511049e-08,
+  "maximum_tet_volume_m3": 1.0914890647899262,
+  "mesh_fluid_volume_m3": 1151.6504438986713,
+  "cad_fluid_volume_m3": 1151.6497237596182,
+  "mesh_solid_volume_m3": 0.34955610132874426,
+  "cad_solid_volume_m3": 0.3502762403818451,
+  "orientation_repaired_tets": 0,
+  "face_centre_orthogonality_proxy_minimum": 0.39430416121430595,
+  "gmsh_quality": {
+    "gamma": {
+      "minimum": 0.35244232054860497,
+      "percentile1": 0.5499105421438104,
+      "median": 0.8446079352530257
+    },
+    "minSICN": {
+      "minimum": 0.3919317871094462,
+      "percentile1": 0.6260115691808945,
+      "median": 0.8699859389603771
+    }
+  },
+  "fluent_native_orthogonal_quality_floor": 0.1,
+  "fluent_native_check_pending": true,
+  "mesh_version": "v003",
+  "same_geometry_as_v001": true,
+  "candidate_quality_gate": {
+    "definition": "V / [(8/(9sqrt3))*R_circum^3], one minus equilateral volume skewness",
+    "minimum": 0.10685637448535378,
+    "percentile1": 0.2916690664427797,
+    "median": 0.7275878413058818,
+    "count_below_native_0p10": 0,
+    "count_below_candidate_0p105": 0,
+    "face_centre_orthogonality_proxy_minimum": 0.39430416121430595,
+    "required_candidate_floor": 0.105,
+    "all_candidate_tets_checked": 169800,
+    "candidate_gate_pass": true,
+    "native_fluent_quality_check_still_required": true,
+    "geometry_changed": false,
+    "repair_scope": "Interior relocation of only failing tetrahedron-star free nodes",
+    "witness": "node-relocation-witness.json"
+  },
+  "gmsh_version": "4.15.2",
+  "mesh_sha256": "e2d189579699b6e4102d717868b26907c3a20c227e748c57303206b3fd43b38c",
+  "gmsh_mesh_sha256": "5dbe9bdc254b814ebf3fa9d8869ec3eb03ecdbc9cb34a8c51f5e4e9ded16e4e6",
+  "geometry_npz_sha256": "9f5c51477eb17debbfe4c6b2019320809901efd0f9b8a5238fbf44d50a0a5e5f",
+  "mesher_source_sha256": "6b466fb9197f359938fe1f4bc78e7b291c017732eaf3eb54af9991a87f94090c",
+  "mesh_independence": false,
+  "physical_validation": false,
+  "steady_visualization_only": true,
+  "geometry_sources": [
+    "https://gmsh.info/doc/texinfo/gmsh.html",
+    "https://ansyshelp.ansys.com/public/Views/Secured/corp/v242/en/flu_ug/tgd_user_format_gridsect.html"
+  ],
+  "parent_mesh_sha256": "45efd56113a596d9573319796d3489862d19833d8ce8892e34fa41a759d28c45",
+  "interior_relocation_witness": "node-relocation-witness.json"
+}
