@@ -1,0 +1,17 @@
+{
+  "reviewer": "Codex",
+  "reviewed_at": "2026-11-07T12:40:16.608988+08:00",
+  "accepted": true,
+  "observation": "The reviewed start, midpoint and final frames show the warm plume rising from the floor patch and two approximately symmetric circulation cells in both solvers. Fixed scales, physical times, millimetre axes and legends are readable. The numerical histories show the startup speed peak and the subsequent gradual decline. The native Fluent image preserves its wrapped field label, while the paired plots provide fully readable labels.",
+  "reviewed_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-hot-patch-plume-20s-paired-v001\\paired-final.png": "1ab52dd91ea0177da94c5a548afdb4e5281e007100ff65d6acebf4d4d831ce87",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-hot-patch-plume-20s-paired-v001\\numerical-checks.png": "8e514c8fcdb23a131c3bfff9478b375c674ab7a7daf7cad29adc31ef154432a8",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-hot-patch-plume-20s-paired-v001\\frame-000.png": "836de7bb169aa8e8d371414d06c47ba8ea517719c44e7f39b87712b9893a7c3a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-hot-patch-plume-20s-paired-v001\\frame-020.png": "5085a64a56a59b65b42e9a89a4be891bccfea20183f3e4573431cdf2aa8ce502",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-hot-patch-plume-20s-paired-v001\\frame-040.png": "1f2b869cc61719c551a6b27cdc84ac522a091bbc27d8c6c5d53ddcef733c474a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\cavity-temperature-native.png": "3574fd07936a70ddb2c8a4121d20b154c6401bb39c3846ff77375eaee438ce66",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-07-hot-patch-plume-20s-v001\\decoded-000.png": "0eab762ce2270ee26ab2fb3bae885a78a9dcfd2aee5e96f81ba0ccb44900b56d",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-07-hot-patch-plume-20s-v001\\decoded-020.png": "baa752d5ceee01074d96e31cbc8016751c43b80c02562af9a2b1231ab00fd100",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-07-hot-patch-plume-20s-v001\\decoded-040.png": "c657d990e3983ca330f74f77008286f50f8d879c9bc3382d8411450b829c8100"
+  }
+}

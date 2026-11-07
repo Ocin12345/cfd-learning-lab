@@ -1,0 +1,24 @@
+{
+  "initial": {
+    "max_speed_m_s": 0.0,
+    "min_T_K": 300.0,
+    "max_T_K": 300.0,
+    "mass_per_depth_kg_m": 0.0029420439883194056,
+    "eos_relative_error": 0.0
+  },
+  "control": {
+    "max_speed_m_s": 2.2916081082873902e-07,
+    "min_T_K": 299.9999999999991,
+    "max_T_K": 300.0000000000001,
+    "mass_per_depth_kg_m": 0.0029420359573771124,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 2.7297152337402153e-06
+  },
+  "checks": {
+    "quiet": true,
+    "temperature": true,
+    "mass": true,
+    "eos": true
+  },
+  "reference_correction": "Fluent installed UNIVERSAL_GAS_CONSTANT=8314.47247122, confirmed by saved native p/rho/T times MW; original 1ppm mismatch retained in v001"
+}

@@ -1,0 +1,20 @@
+{
+  "observed_at": "2026-11-07T18:19:30.319123+08:00",
+  "scope": "Initial-field correction confirmed, not a completed flow qualification",
+  "all_3200_initial_fractions_pass": true,
+  "max_native_fraction_difference": 3.7192471324942744e-15,
+  "water_area_m2": 0.01,
+  "patch_reconstruction": false,
+  "patch_volumetric_smoothing": false,
+  "flow_solver_interface_scheme": "geo-reconstruct",
+  "causal_interpretation": "Disabling the additional patch reconstruction/smoothing reproduces the declared fractional initialization; their individual effects have not been isolated.",
+  "flow_qualification_pass": false,
+  "production_started": false,
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\initial-field-check.json": "dd2249ffc5f805838fb2551442b8fdf19804ba2a049aa4adba4d90f04ccc8f20",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\setup.json": "7c6b683207cde83fa63ddea2a8260780199a79e6df3d8f07d2c71ff1ea02da34",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank.cas.h5": "fd17cbca0488af01e736520b52d002a82693591431d17fac290abc8e87013922",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0000.dat.h5": "9d09253f33dcc7ed914ef15f03bfc47b3f0698f77d3ac1c134d9f96f41b08842",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\executed-driver.py": "3d6856d75e4584aa6d623f113d364806f400cbe745840759acc6860f9db05079"
+  }
+}

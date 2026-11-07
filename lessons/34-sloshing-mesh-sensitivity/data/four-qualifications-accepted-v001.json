@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-11-07T22:38:15.831411+08:00",
+  "source_proof": {
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\fluent-flat-audit.json": "828e1d9c504bb83c05228b8efaf2b6f34415bb37b1dd37615afc4b137d69bcbc",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\openfoam-flat-audit.json": "86f4cb0cd7906d4f960b1596bf39b25d07fb377d5a5cfca5bd4980654ab02063",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\fluent-tilted-audit.json": "9091bec1db7bc296814164d1dbf5bd4177aaddbb4818ca0e0347043092c0d4a3",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\openfoam-tilted-audit.json": "29ebc7fe2104057707a14e0340dc334b6557adf756e8c76e5895ff14eeb96961",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-production-v001\\accepted-pair-selection-v001.json": "ec0c5b5adcce7124ec62f1f3e69ea90f8090f35e538832fa96f498c332d83ac3"
+  },
+  "qualification_results": [
+    {
+      "case": "fluent-flat",
+      "steps": 40,
+      "native_states": 41,
+      "peak_interface_courant": 6.9471e-14,
+      "numerical_checks_pass": true
+    },
+    {
+      "case": "openfoam-flat",
+      "steps": 40,
+      "native_states": 41,
+      "peak_interface_courant": 0.0,
+      "numerical_checks_pass": true
+    },
+    {
+      "case": "fluent-tilted",
+      "steps": 40,
+      "native_states": 41,
+      "peak_interface_courant": 0.0113406,
+      "numerical_checks_pass": true
+    },
+    {
+      "case": "openfoam-tilted",
+      "steps": 40,
+      "native_states": 41,
+      "peak_interface_courant": 0.0321752420997,
+      "numerical_checks_pass": true
+    }
+  ],
+  "full_production_complete": false,
+  "physical_validation": false
+}

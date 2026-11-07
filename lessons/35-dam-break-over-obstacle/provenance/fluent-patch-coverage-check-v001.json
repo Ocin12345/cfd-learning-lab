@@ -1,0 +1,28 @@
+{
+  "driver_sha256": "abb9c20015a903b898d6318d0b02e398ca641a2e44fbf4863369c45d8dd69f67",
+  "dry_run_only": true,
+  "fluent_session_started": false,
+  "results": [
+    {
+      "mode": "flat",
+      "maximum_alpha_difference": 0.0,
+      "maximum_pressure_difference_Pa": 5.684341886080802e-14,
+      "water_area_m2": 0.0426612,
+      "input_patch_recipe_pass": true
+    },
+    {
+      "mode": "collapse",
+      "maximum_alpha_difference": 0.0,
+      "maximum_pressure_difference_Pa": 4.547473508864641e-13,
+      "water_area_m2": 0.04266120000000001,
+      "input_patch_recipe_pass": true
+    },
+    {
+      "mode": "production",
+      "maximum_alpha_difference": 0.0,
+      "maximum_pressure_difference_Pa": 4.547473508864641e-13,
+      "water_area_m2": 0.04266120000000001,
+      "input_patch_recipe_pass": true
+    }
+  ]
+}

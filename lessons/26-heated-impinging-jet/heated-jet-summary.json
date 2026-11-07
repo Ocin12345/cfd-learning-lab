@@ -1,0 +1,140 @@
+{
+  "model": "heated-impinging-jet",
+  "cells_per_solver": 14400,
+  "Reynolds": 100,
+  "slot_width_m": 0.02,
+  "gap_over_width": 3,
+  "temperature_inlet_K": 300.0,
+  "temperature_plate_K": 320.0,
+  "dt_s": 0.005,
+  "end_time_s": 3.0,
+  "actual_temperature_frames_per_solver": 31,
+  "frozen_velocity": true,
+  "buoyancy": false,
+  "first_order_time_and_advection": true,
+  "thermal_steady_state_established": false,
+  "mesh_time_independence_established": false,
+  "physical_validation": false,
+  "cases": {
+    "ANSYS Fluent": {
+      "frozen_field_max_abs_change": {
+        "SV_U": 0.0,
+        "SV_V": 0.0,
+        "SV_P": 0.0,
+        "SV_FLUX": 1.3552527156068805e-20
+      },
+      "outward_mass_kg_s_per_m": {
+        "plate": 0.0,
+        "ceiling": 0.0,
+        "left": 0.0008958100946383315,
+        "right": 0.0008958266540819713,
+        "inlet": -0.00179163675
+      },
+      "native_heat_in_W_per_m": {
+        "plate": 17.582615272353035,
+        "ceiling": 0.0,
+        "left": -7.794419085482422,
+        "right": -7.794718521778763,
+        "inlet": 3.334415147695211
+      },
+      "heat_in_relative_to_300K_W_per_m": {
+        "inlet": -7.729829665237276e-09,
+        "left": -6.127226918351003,
+        "right": -6.127495535866785,
+        "plate": 17.582615272353035,
+        "ceiling": 0.0
+      },
+      "native_enthalpy_at_300K_J_kg": 1861.1000000000229,
+      "storage_rate_W_per_m": 5.327897458263333,
+      "terminal_energy_residual": 2.2668e-09,
+      "maximum_step_terminal_energy_residual": 9.8854e-09,
+      "residual_limit": 1e-08,
+      "residual_definition": "Fluent scaled energy residual at the last iteration of each time step",
+      "actual_steps": 600,
+      "mesh_quality": {
+        "minimum_orthogonal_quality": 1.0,
+        "minimum_cell_volume_m3": 1e-06,
+        "maximum_cell_volume_m3": 1e-06,
+        "total_cell_volume_m3": 0.0144
+      },
+      "relative_mass_imbalance": 7.142615041086663e-10,
+      "net_heat_in_W_per_m": 5.327892810405418,
+      "energy_balance_relative_error": 1.5577321129715038e-07,
+      "energy_balance_normalization": "abs(net heat in - storage) / max(sum(abs(patch heat in)),abs(storage))",
+      "temperature_bounds_K": [
+        299.99999999999966,
+        319.6102912828695
+      ],
+      "plate_heat_W_per_m": 17.58261527235303,
+      "plate_heat_flux_centre_W_m2": 184.847506657532,
+      "plate_heat_flux_max_W_m2": 528.5067180823503,
+      "plate_heat_flux_max_x_W": 5.975,
+      "checks": {
+        "frozen_flow": true,
+        "mass_balance": true,
+        "energy_balance": true,
+        "bounded_temperature": true,
+        "thermal_residual": true
+      }
+    },
+    "OpenFOAM": {
+      "frozen_field_max_abs_change": {
+        "U": 0.0,
+        "p": 0.0,
+        "phi": 0.0,
+        "phi_inlet": 0.0,
+        "phi_left": 0.0,
+        "phi_right": 0.0,
+        "phi_plate": 0.0,
+        "phi_ceiling": 0.0
+      },
+      "outward_mass_kg_s_per_m": {
+        "inlet": -0.0017916367500000051,
+        "left": 0.000895818372020948,
+        "right": 0.0008958183782057809,
+        "plate": 0.0,
+        "ceiling": 0.0
+      },
+      "heat_in_relative_to_300K_W_per_m": {
+        "inlet": -7.502113135160471e-09,
+        "left": -6.1285903134746,
+        "right": -6.128590481665229,
+        "plate": 17.59432231778643,
+        "ceiling": 0.0
+      },
+      "storage_rate_W_per_m": 5.337141443657382,
+      "heat_source": "Reconstructed from native owner T and phi using the declared Euler/upwind/orthogonal scheme; not a native heat-transfer report",
+      "terminal_energy_residual": 1.13682116577e-13,
+      "maximum_step_terminal_energy_residual": 9.9899628188711e-13,
+      "residual_limit": 1e-12,
+      "residual_definition": "OpenFOAM final linear T residual in each scalar solve; not comparable in scale to Fluent",
+      "actual_steps": 600,
+      "mesh_quality": {
+        "checkMesh": "Mesh OK.",
+        "max_nonorthogonality_deg": 0.0
+      },
+      "relative_mass_imbalance": 1.2654557138372293e-10,
+      "net_heat_in_W_per_m": 5.337141515144487,
+      "energy_balance_relative_error": 2.39475730371076e-09,
+      "energy_balance_normalization": "abs(net heat in - storage) / max(sum(abs(patch heat in)),abs(storage))",
+      "temperature_bounds_K": [
+        299.99999993533,
+        319.61054293023
+      ],
+      "plate_heat_W_per_m": 17.59432231778643,
+      "plate_heat_flux_centre_W_m2": 184.3639551573956,
+      "plate_heat_flux_max_W_m2": 528.9373010876806,
+      "plate_heat_flux_max_x_W": -5.975,
+      "checks": {
+        "frozen_flow": true,
+        "mass_balance": true,
+        "energy_balance": true,
+        "bounded_temperature": true,
+        "thermal_residual": true
+      }
+    }
+  },
+  "temperature_field_rms_difference_at_3s_K": 0.075810960088978,
+  "integrated_plate_heat_difference_percent": 0.06658307226800016,
+  "failed_attempt": "OpenFOAM v001 stopped before its first T solve: missing TFinal; corrected in v002 with TFinal inheriting T. MPI FIFO storage uses /dev/shm because the E: mount lacks FIFO support; case data remain on E:."
+}

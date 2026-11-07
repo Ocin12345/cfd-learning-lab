@@ -1,0 +1,26 @@
+{
+  "cells": 9072,
+  "nodes": 9281,
+  "fluid_area_m2": 0.33990404991945916,
+  "minimum_cell_area_m2": 1.9043065652173812e-05,
+  "maximum_cell_area_m2": 4.5002680902426206e-05,
+  "geometry_and_area_pass": true,
+  "exact_initialization": {
+    "flat": {
+      "water_area_m2": 0.0426612,
+      "mixture_mass_per_m": 42.958442849919535,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "maximum_initial_pressure_Pa": 726.2492822630396
+    },
+    "collapse": {
+      "water_area_m2": 0.04266120000000001,
+      "mixture_mass_per_m": 42.958442849919535,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "maximum_initial_pressure_Pa": 2852.669838825
+    }
+  },
+  "mesh_sha256": "1e282faa24d9be68e0685d82822bc8359e886b7c4e204ba80067747205e80ebc",
+  "solvers_launched": false
+}

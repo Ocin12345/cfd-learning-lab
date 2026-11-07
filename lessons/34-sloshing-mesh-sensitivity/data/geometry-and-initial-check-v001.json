@@ -1,0 +1,11 @@
+{
+  "mesh_cells": 12800,
+  "minimum_signed_area_m2": 1.5624999999963585e-06,
+  "fine_water_area_m2": 0.01,
+  "coarse_native_initial_fraction_difference_after_four_child_averaging": 4.6629367034256575e-15,
+  "initial_condition_preservation_pass": true,
+  "mesh_sha256": "034c7a92180aa68b406d3ebff58200837896b98b0c2fd7e31ece9481650415f3",
+  "input_cases_prepared": 3,
+  "solvers_launched": false,
+  "pressure_gauge_note": "Reference is at each grid upper-right air-cell centre; this is a pressure-gauge location change, not a physical forcing change."
+}

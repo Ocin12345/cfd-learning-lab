@@ -1,0 +1,15 @@
+{
+  "study": "natural convection time-step sensitivity",
+  "baseline": "E:\\CFD-Learning-Lab\\native\\runs\\natural-convection-cavity-48-v001",
+  "output": "E:\\CFD-Learning-Lab\\native\\runs\\natural-convection-dt001-v001",
+  "same_initial_fields": true,
+  "cells": 2304,
+  "dt_s": 0.01,
+  "steps": 2000,
+  "duration_s": 20,
+  "fluent_max_inner": 200,
+  "openfoam_outer": 16,
+  "processes_each": 2,
+  "sequential": true,
+  "physical_validation": false
+}

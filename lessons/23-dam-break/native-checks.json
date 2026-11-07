@@ -1,0 +1,36 @@
+{
+  "ANSYS Fluent": {
+    "cells": 7200,
+    "steps": 650,
+    "last_time_s": 0.65,
+    "minimum_orthogonal_quality": 1.0,
+    "minimum_cell_area_m2": 2.5e-05,
+    "last_step_scaled_residuals": {
+      "continuity": 0.0060699,
+      "x-velocity": 4.933e-08,
+      "y-velocity": 4.5995e-08
+    },
+    "max_terminal_scaled_residuals": {
+      "continuity": 0.29792,
+      "x-velocity": 2.2849e-05,
+      "y-velocity": 9.4511e-05
+    },
+    "scaled_residual_target": 0.0001,
+    "steps_meeting_all_scaled_residual_targets": 33,
+    "peak_native_reported_explicit_vof_courant_number": 0.800322,
+    "time_integration": "unsteady-1st-order",
+    "interface_scheme": "geo-reconstruct"
+  },
+  "OpenFOAM": {
+    "cells": 7200,
+    "steps": 650,
+    "last_time_s": 0.65,
+    "native_mesh_check": "Mesh OK.",
+    "peak_native_reported_courant_number": 2.33904424242,
+    "peak_native_reported_interface_courant_number": 1.88097543195,
+    "final_continuity_error_native_sum_local": 3.15667601198e-08,
+    "final_continuity_error_native_global": 8.87766996975e-20,
+    "time_integration": "Euler",
+    "interface_scheme": "interfaceCompression vanLeer, MULES"
+  }
+}

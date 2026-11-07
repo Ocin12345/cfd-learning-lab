@@ -1,0 +1,5 @@
+solver,angle_deg,Cd,Cl,iterations,all_applicable_checks_passed
+fluent,0,0.41583862,-3.4838049e-05,189,True
+fluent,5,0.42565837,0.2680233,385,True
+openfoam,0,0.406465929647574,-0.000761632728746113,4800,True
+openfoam,5,0.416261297180371,0.263879887310146,4800,True

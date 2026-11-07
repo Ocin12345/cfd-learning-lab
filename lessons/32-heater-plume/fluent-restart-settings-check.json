@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "numeric_relative_tolerance": 1e-14,
+  "roundoff_differences": [
+    {
+      "path": "material/thermal_conductivity/value",
+      "loaded": 0.02547887323943662,
+      "baseline": 0.025478873239436622
+    }
+  ]
+}

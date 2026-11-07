@@ -1,0 +1,1057 @@
+{
+  "solver": "fluent",
+  "case_mode": "flat",
+  "cells": 12800,
+  "dt_s": 0.0005,
+  "steps": 40,
+  "saved_states": 41,
+  "final_time_s": 0.02,
+  "numerical_checks_pass": true,
+  "field_checks_pass": true,
+  "step_checks_pass": true,
+  "peak_interface_courant": 6.9471e-14,
+  "records": [
+    {
+      "step": 0,
+      "time_s": 0.0,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 0.0,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": 0.0,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 1,
+      "time_s": 0.0005,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 7.181503944453813e-14,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345311843,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 2,
+      "time_s": 0.001,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 1.0832567295968307e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453120497,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 3,
+      "time_s": 0.0015,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 1.396405315262238e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312197,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 4,
+      "time_s": 0.002,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 1.5578811224824544e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312297,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 5,
+      "time_s": 0.0025,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 1.788429246226772e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453123646,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 6,
+      "time_s": 0.003,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 2.0293529347078653e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453124095,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 7,
+      "time_s": 0.0035,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 1.996723330429662e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312439,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 8,
+      "time_s": 0.004,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 2.0894505376958587e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453124544,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 9,
+      "time_s": 0.0045000000000000005,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 2.5840155712729595e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453124675,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 10,
+      "time_s": 0.005,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 2.8278375734911773e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312477,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 11,
+      "time_s": 0.0055,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 2.7129032231588235e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312485,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 12,
+      "time_s": 0.006,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 2.948890958512448e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453124914,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 13,
+      "time_s": 0.006500000000000001,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 3.1998770968550764e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312496,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 14,
+      "time_s": 0.007,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 3.392784648582684e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453124993,
+      "pressure_max": 0.0
+    },
+    {
+      "step": 15,
+      "time_s": 0.0075,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 3.467265258633033e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312501,
+      "pressure_max": 1.577173744585603e-14
+    },
+    {
+      "step": 16,
+      "time_s": 0.008,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 3.592996646669982e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312502,
+      "pressure_max": 9.823761472958974e-14
+    },
+    {
+      "step": 17,
+      "time_s": 0.0085,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 3.8806041791622946e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312503,
+      "pressure_max": 1.4099747186163648e-13
+    },
+    {
+      "step": 18,
+      "time_s": 0.009000000000000001,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 4.111703712739107e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312503,
+      "pressure_max": 1.474820767886336e-13
+    },
+    {
+      "step": 19,
+      "time_s": 0.0095,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 4.3386054647567325e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312502,
+      "pressure_max": 1.4264439262446272e-13
+    },
+    {
+      "step": 20,
+      "time_s": 0.01,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 4.494403312561474e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125016,
+      "pressure_max": 1.2998306746626655e-13
+    },
+    {
+      "step": 21,
+      "time_s": 0.0105,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 4.764749602329701e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.9035345312501,
+      "pressure_max": 1.0816632794219942e-13
+    },
+    {
+      "step": 22,
+      "time_s": 0.011,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 4.747451591526725e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 7.497497658334655e-14
+    },
+    {
+      "step": 23,
+      "time_s": 0.0115,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 4.848152085372415e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 5.101692540911057e-14
+    },
+    {
+      "step": 24,
+      "time_s": 0.012,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 5.297652291701364e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 3.513106948393013e-14
+    },
+    {
+      "step": 25,
+      "time_s": 0.0125,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 5.64583335159456e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 2.525499813434612e-14
+    },
+    {
+      "step": 26,
+      "time_s": 0.013000000000000001,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 5.98844797783647e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.7127705211552712e-14
+    },
+    {
+      "step": 27,
+      "time_s": 0.0135,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 6.32524495855619e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.5824297462048844e-14
+    },
+    {
+      "step": 28,
+      "time_s": 0.014,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 6.657029970404049e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.583704679792437e-14
+    },
+    {
+      "step": 29,
+      "time_s": 0.0145,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 6.983398870184066e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.7793913451534716e-14
+    },
+    {
+      "step": 30,
+      "time_s": 0.015,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 7.304503052725244e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.7602255347403832e-14
+    },
+    {
+      "step": 31,
+      "time_s": 0.0155,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 7.62033048197701e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.6021395544549192e-14
+    },
+    {
+      "step": 32,
+      "time_s": 0.016,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 7.931062750122262e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.5685032562428728e-14
+    },
+    {
+      "step": 33,
+      "time_s": 0.0165,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 8.23686053710718e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.3067346014667117e-14
+    },
+    {
+      "step": 34,
+      "time_s": 0.017,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 8.537679438906253e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.1413154226065688e-14
+    },
+    {
+      "step": 35,
+      "time_s": 0.0175,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 8.833446242519155e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 1.0038103638781074e-14
+    },
+    {
+      "step": 36,
+      "time_s": 0.018000000000000002,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 9.1246159055147e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 8.709389234506036e-15
+    },
+    {
+      "step": 37,
+      "time_s": 0.0185,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 9.411190231396841e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 6.12694164216506e-15
+    },
+    {
+      "step": 38,
+      "time_s": 0.019,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 9.692760334451546e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 5.079980935636517e-15
+    },
+    {
+      "step": 39,
+      "time_s": 0.0195,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 9.969847408989764e-13,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 4.538441250373158e-15
+    },
+    {
+      "step": 40,
+      "time_s": 0.02,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 1.024256885578148e-12,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "alpha_bounds_pass": true,
+      "volume_pass": true,
+      "quiet_pass": true,
+      "pressure_min": -482.90353453125005,
+      "pressure_max": 4.519130665208731e-15
+    }
+  ],
+  "step_records": [
+    {
+      "step": 1,
+      "time_s": 0.0005,
+      "residuals": {
+        "continuity": 8.8631e-14,
+        "x-velocity": 3.2328e-12,
+        "y-velocity": 7.4728e-11
+      },
+      "inner_iterations": 71,
+      "passed": true
+    },
+    {
+      "step": 2,
+      "time_s": 0.001,
+      "residuals": {
+        "continuity": 8.1248e-14,
+        "x-velocity": 2.6821e-12,
+        "y-velocity": 5.6815e-11
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 3,
+      "time_s": 0.0015,
+      "residuals": {
+        "continuity": 7.5339e-14,
+        "x-velocity": 1.9253e-12,
+        "y-velocity": 3.9517e-11
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 4,
+      "time_s": 0.002,
+      "residuals": {
+        "continuity": 6.457e-14,
+        "x-velocity": 1.3986e-12,
+        "y-velocity": 2.7339e-11
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 5,
+      "time_s": 0.0025,
+      "residuals": {
+        "continuity": 5.3225e-14,
+        "x-velocity": 1.0187e-12,
+        "y-velocity": 1.8888e-11
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 6,
+      "time_s": 0.003,
+      "residuals": {
+        "continuity": 4.7727e-14,
+        "x-velocity": 7.8348e-13,
+        "y-velocity": 1.3067e-11
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 7,
+      "time_s": 0.0035,
+      "residuals": {
+        "continuity": 3.8265e-14,
+        "x-velocity": 6.1733e-13,
+        "y-velocity": 9.0539e-12
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 8,
+      "time_s": 0.004,
+      "residuals": {
+        "continuity": 3.2688e-14,
+        "x-velocity": 5.5787e-13,
+        "y-velocity": 6.3477e-12
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 9,
+      "time_s": 0.004500000000000001,
+      "residuals": {
+        "continuity": 2.7429e-14,
+        "x-velocity": 4.4171e-13,
+        "y-velocity": 4.5704e-12
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 10,
+      "time_s": 0.005000000000000001,
+      "residuals": {
+        "continuity": 2.3167e-14,
+        "x-velocity": 4.5679e-13,
+        "y-velocity": 3.3021e-12
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 11,
+      "time_s": 0.005500000000000001,
+      "residuals": {
+        "continuity": 2.3522e-14,
+        "x-velocity": 3.5337e-13,
+        "y-velocity": 2.3526e-12
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 12,
+      "time_s": 0.006000000000000002,
+      "residuals": {
+        "continuity": 2.3033e-14,
+        "x-velocity": 3.65e-13,
+        "y-velocity": 1.7102e-12
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 13,
+      "time_s": 0.006500000000000002,
+      "residuals": {
+        "continuity": 1.7319e-14,
+        "x-velocity": 3.7226e-13,
+        "y-velocity": 1.2332e-12
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 14,
+      "time_s": 0.007000000000000003,
+      "residuals": {
+        "continuity": 1.636e-14,
+        "x-velocity": 3.9993e-13,
+        "y-velocity": 9.6963e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 15,
+      "time_s": 0.007500000000000003,
+      "residuals": {
+        "continuity": 1.8679e-14,
+        "x-velocity": 3.5242e-13,
+        "y-velocity": 7.5951e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 16,
+      "time_s": 0.008000000000000004,
+      "residuals": {
+        "continuity": 1.8916e-14,
+        "x-velocity": 3.0593e-13,
+        "y-velocity": 6.1397e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 17,
+      "time_s": 0.008500000000000004,
+      "residuals": {
+        "continuity": 1.9125e-14,
+        "x-velocity": 4.1705e-13,
+        "y-velocity": 6.0386e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 18,
+      "time_s": 0.009000000000000005,
+      "residuals": {
+        "continuity": 1.9285e-14,
+        "x-velocity": 3.0527e-13,
+        "y-velocity": 4.8352e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 19,
+      "time_s": 0.009500000000000005,
+      "residuals": {
+        "continuity": 1.9475e-14,
+        "x-velocity": 2.932e-13,
+        "y-velocity": 4.5102e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 20,
+      "time_s": 0.01000000000000001,
+      "residuals": {
+        "continuity": 2.0857e-14,
+        "x-velocity": 4.6268e-13,
+        "y-velocity": 5.4458e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 21,
+      "time_s": 0.01050000000000001,
+      "residuals": {
+        "continuity": 2.087e-14,
+        "x-velocity": 4.3538e-13,
+        "y-velocity": 4.3433e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 22,
+      "time_s": 0.01100000000000001,
+      "residuals": {
+        "continuity": 2.0915e-14,
+        "x-velocity": 2.185e-13,
+        "y-velocity": 3.3559e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 23,
+      "time_s": 0.01150000000000001,
+      "residuals": {
+        "continuity": 2.1476e-14,
+        "x-velocity": 3.2307e-13,
+        "y-velocity": 3.6923e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 24,
+      "time_s": 0.01200000000000001,
+      "residuals": {
+        "continuity": 1.6613e-14,
+        "x-velocity": 4.2064e-13,
+        "y-velocity": 5.0608e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 25,
+      "time_s": 0.01250000000000001,
+      "residuals": {
+        "continuity": 1.6919e-14,
+        "x-velocity": 4.2639e-13,
+        "y-velocity": 4.8759e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 26,
+      "time_s": 0.01300000000000001,
+      "residuals": {
+        "continuity": 1.732e-14,
+        "x-velocity": 4.4116e-13,
+        "y-velocity": 4.9726e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 27,
+      "time_s": 0.01350000000000001,
+      "residuals": {
+        "continuity": 1.7721e-14,
+        "x-velocity": 4.3679e-13,
+        "y-velocity": 4.9644e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 28,
+      "time_s": 0.01400000000000001,
+      "residuals": {
+        "continuity": 1.8118e-14,
+        "x-velocity": 4.3477e-13,
+        "y-velocity": 5.0195e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 29,
+      "time_s": 0.01450000000000001,
+      "residuals": {
+        "continuity": 1.8569e-14,
+        "x-velocity": 4.3059e-13,
+        "y-velocity": 4.9863e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 30,
+      "time_s": 0.01500000000000001,
+      "residuals": {
+        "continuity": 1.9015e-14,
+        "x-velocity": 4.2653e-13,
+        "y-velocity": 4.9893e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 31,
+      "time_s": 0.01550000000000001,
+      "residuals": {
+        "continuity": 1.9485e-14,
+        "x-velocity": 4.2327e-13,
+        "y-velocity": 4.9845e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 32,
+      "time_s": 0.01600000000000001,
+      "residuals": {
+        "continuity": 1.9896e-14,
+        "x-velocity": 4.1937e-13,
+        "y-velocity": 4.9679e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 33,
+      "time_s": 0.01650000000000001,
+      "residuals": {
+        "continuity": 2.0374e-14,
+        "x-velocity": 4.1575e-13,
+        "y-velocity": 4.9533e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 34,
+      "time_s": 0.01700000000000001,
+      "residuals": {
+        "continuity": 2.0813e-14,
+        "x-velocity": 4.1257e-13,
+        "y-velocity": 4.935e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 35,
+      "time_s": 0.01750000000000001,
+      "residuals": {
+        "continuity": 2.1274e-14,
+        "x-velocity": 4.0888e-13,
+        "y-velocity": 4.922e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 36,
+      "time_s": 0.01800000000000001,
+      "residuals": {
+        "continuity": 2.1741e-14,
+        "x-velocity": 4.0594e-13,
+        "y-velocity": 4.9212e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 37,
+      "time_s": 0.01850000000000001,
+      "residuals": {
+        "continuity": 2.2285e-14,
+        "x-velocity": 4.0454e-13,
+        "y-velocity": 4.9271e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 38,
+      "time_s": 0.01900000000000001,
+      "residuals": {
+        "continuity": 2.2731e-14,
+        "x-velocity": 4.0305e-13,
+        "y-velocity": 4.9018e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 39,
+      "time_s": 0.01950000000000001,
+      "residuals": {
+        "continuity": 2.3254e-14,
+        "x-velocity": 3.9853e-13,
+        "y-velocity": 4.8852e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    },
+    {
+      "step": 40,
+      "time_s": 0.02000000000000001,
+      "residuals": {
+        "continuity": 2.3728e-14,
+        "x-velocity": 3.9479e-13,
+        "y-velocity": 4.8658e-13
+      },
+      "inner_iterations": 1,
+      "passed": true
+    }
+  ],
+  "extra": {
+    "minimum_orthogonal_quality": 1.0,
+    "residual_reporting": "unscaled",
+    "residual_targets": {
+      "continuity": 1e-12,
+      "x-velocity": 1e-10,
+      "y-velocity": 1e-10
+    }
+  },
+  "production_complete": false,
+  "physical_validation": false,
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\setup.json": "d97bd6a4140f5700c0214b56b39bcc2bad02dda19b783a5e96224c149949f165",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\geometry.npz": "839432bb5d974ab16d7f3e36dc08e0341d6badea056c792a19bb15cad476072b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank.cas.h5": "e1226686ee49f3e10bc0f6cca7730efbb2d903b3b1ea30a7c7ada4705d1b94c6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-final.cas.h5": "dd5ecc19573edd60dc2a30c0113c948bb4a610a36ec6f10013e67f14b43679e5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-final.dat.h5": "8a31a6e446faf21c5eba7a49dd4f06d060cd1842cc8c0a6851abe8150a98e163",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\frames.csv": "e7a4e18cce453bafae122618a4f3044b90eab1c8b360d7874251b596dba89420",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\solver-transcript.txt": "8b65a532ef1996daec9bd438ebb8043002467a37cf262e673a595910021a837b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\initial-field-check.json": "b7ac5ffd8a9fb1502f0ac38ee3872bafbee9abc3e842221f57ab561e3800f52f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\executed-driver.py": "b21aff81e3630811cc7d634fac328f02c2aa2e069b6c801279361b05ed9118f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0000.dat.h5": "9a1dfbb378c59fbff49087b180d33c58606c2c057670772b79de222693ba859e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0001.dat.h5": "36d3881830ad3b32c846322e796c23a81ad183ef42f5ff3768ceaf6aad890494",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0002.dat.h5": "9dd3a20eca4e5438b4c07b61cdbb50002ee686fdbd3a85c957526613538c5253",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0003.dat.h5": "82337e3a436075f58ac6ff34fa62b0d13d5be0189b59612698038d4b2a56d966",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0004.dat.h5": "c8ff3913253cb1ca81bc16446bbc046b7525db8679278fc658753b97de35ed4f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0005.dat.h5": "1dd363f4e022a5c820124c6d93b2f621bb663ae059ff67715b4f059fce3eb708",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0006.dat.h5": "2d0eb0271734e38f03f3c0556fa76fc705b32bb3e48bec86229abac0fa0f846b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0007.dat.h5": "6602f1af52e245d17e0cc53681ff07a3ed8052d4154cb493b0d48d7583233190",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0008.dat.h5": "d8ca5c0f70e0466e1e0c841a85d80a9fa6cfadb13243238b476f139cab005ff9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0009.dat.h5": "db300bafcbf5cc487135c3b108af524de48cd4e81b6eaca4893c78eacb0196fd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0010.dat.h5": "97db1e798cb209d89ac4113b7059f7411e52956bec57ed1b1fc4383a167b5e5a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0011.dat.h5": "e5eba0ea0f558c1c1cf8857fa922effe5bcf8195a52f055db26083edd62633a5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0012.dat.h5": "42086f318853c9386bc99e7dc0d95c519b8c3590dad54af0d361f6fc83e44692",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0013.dat.h5": "35433e7126d1bc3ac09318887a9a7f28d8c75a8894bb63c6e7a60ddc771f29dd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0014.dat.h5": "09fb22e0083568b30bd0ad7f33722efeb9bbe9b9d5ec9164ae4f3986272c4375",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0015.dat.h5": "ae8f816a8f0daf79793a1362beda30279ee020fff6202ff96889d45e74a445c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0016.dat.h5": "56500401dac25b344c09b82ec0c1f1cd33722b7c320bc644c94d72099eb92a71",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0017.dat.h5": "62f34306ff83b2a2b2419f5d4c7b286bde3a8a1293451706415cdf4e6bdd8d31",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0018.dat.h5": "cb91508770b777e7d00d3422b44f0ca04febc1de1bb192d87eace19f427383fc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0019.dat.h5": "f6591d999c9fd1deb5afead839e0b831646e7a2c2cfb00e8360faacf9840b400",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0020.dat.h5": "69c3e16f311ccd2600a4d28a55f796dc371ca41f9a4df75118844c1131d65656",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0021.dat.h5": "84fbf84351a6d4c1a9a6f199b7afea41df8f7bbd365e3ca0b97b61d554668e32",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0022.dat.h5": "ad8cbf42348b15d2437441591e59fe6cc3409967f551ad5d95b5d5e36555a604",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0023.dat.h5": "7ec89dce22f6b1452fc72af87274c5f20c6d88f8296468b432ce357ee2d19468",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0024.dat.h5": "aa4abf29dad63d0aa6b950ef5d7534b0967f5d487b1ffe6b8d7708bc8bdf2419",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0025.dat.h5": "ab252f6c12ad885ef007fcd4d95bcc14f992ba264bdb06357a1d907a67a0452a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0026.dat.h5": "4c5eee49cdb1c3e65569f5cfbfa64cdb4a4e0a8cf75f5d6992d0c8778703e22e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0027.dat.h5": "0293a3483af8002cc116b7061f42b1747070a91bef58a91b0ab54a9816b50f7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0028.dat.h5": "bb275eb74f9d859510e10bf9a988536b0b1e8b6f26baeea9c9fb2db40bb3f815",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0029.dat.h5": "d4ee1f54e78503a88654a91a5ce528d434bae4f1856de5254ba187ab390616ad",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0030.dat.h5": "ebba61641905ba16105411d26076ff0e2e21c9f275ce1e1a9158a4447c242637",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0031.dat.h5": "ac2b255ee8149dcc824c49ac4b5e0cc67c096c44813fbe0a0b837070ad9f35b5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0032.dat.h5": "a286e8459bd12d5ccf0b956aa5d2c6bd64ce6610107e49df8e18c0bb0ce6a2ee",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0033.dat.h5": "a4b0ccd2ede5e93e9efa296e543d2b89062b15782630c2b31367dedb78ac3356",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0034.dat.h5": "44680aedd8ba33e6a22188c00f29e5c211f61223dcf36ff5697462676065ea45",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0035.dat.h5": "4e7327ec0e18573479ab4cc92be30cbd2122694d596135de088fb75a56a7551c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0036.dat.h5": "6d12591f3fd5eb0f4cd7dd9de97de94548a33e8b324d4f01c6d1ede5206a519b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0037.dat.h5": "649dd616b66af1a1052e7f1b9fae85c5a79fed08ee5058ed557c592ae0c16f25",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0038.dat.h5": "8b4134a451036f5024531162eb7f073850d6df82569fd1b4f27d77d79edd34f7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0039.dat.h5": "901bd221d4e701ad1200f18cf793538634c72deb90200eba57860ad192e81a4f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-refinement-v001\\qualification\\fluent-flat\\tank-0040.dat.h5": "360820b075a84e03efeebad3c8d081a8710d9f0880938255a61547e571f8b978",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\sloshing_refinement_common_v001.py": "2161363b69e92ef66e5b3b058b0030639d75cafaaaf09abbe9b7a88d48c383c6",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\PLAN.json": "4414a79466898e23e63386a35e455708099d892e74d9d2a71ffaf7e135bf79b7",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\prepared-inputs-check-v001.json": "a9ae1b45b09056e943137765b1e215db7b8b337c03808e0ab9e892661a72b9d6",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\audit_refined_run_v001.py": "7317fa1463d38033e941f727ca8a6f2cd6f9c2ce42bc79e2d0fe6ddaa76c8230"
+  }
+}

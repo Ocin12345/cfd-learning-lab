@@ -1,0 +1,18 @@
+{
+  "mode": "flat",
+  "actual_native_time_s": 0.02,
+  "actual_step": 200,
+  "audits_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-flat-audit.json": "290c3adf2c7e140d119e4b4593418e7fe670d4380f48e8c0d3838f525f849de8",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-flat-audit.json": "f437f31f1a794fd172ed09c08e69ee856b65b9cdd5405c6a6f77f346b483e581"
+  },
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\fluent-flat-v003\\dam-0200.dat.h5": "0e626eb81a88b17099c442ef0a952326a65c0b7dfa5994978d80a533fccea277",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-v002\\0.02\\alpha.water": "fc0f11247f0c1e43addf0c8869e78fe16a5dcdcd6981cbd223923696458c18d0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-v002\\0.02\\U": "7826c4003fa6f995f908e00b7322db97cf88289f8160f258b5671d1a319c5cf2"
+  },
+  "common_speed_scale_max_m_s": 0.0001,
+  "full_production_complete": false,
+  "physical_validation": false,
+  "code_sha256": "c8033d7f819a9ee9b4dd8675e1520ee8752e261e58c6e806ba48c7dc05afd431"
+}

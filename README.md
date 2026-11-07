@@ -6,7 +6,108 @@ Explanations are brief; formal lesson checkpoints are no longer required.
 
 [Re = 100 wake benchmark comparison](lessons/20-cylinder-benchmark/README.md): actual paired forces and shedding frequency compared with a published periodic reference.
 
-## Latest visual model: two moving walls in a square cavity
+## Study index and current work
+
+[Browse all 35 study records](docs/STUDY_INDEX.md): 34 existing records plus [study 35, dam break over an obstacle](lessons/35-dam-break-over-obstacle/README.md), whose four short qualifications pass. The longer paired production calculation is unfinished in this publication snapshot. Earlier numerical misses remain explicitly labelled in their records.
+
+## Latest visual model: sloshing on a finer grid
+
+[Model 34](lessons/34-sloshing-mesh-sensitivity/README.md) repeats both 1.2-second cases on 12,800 cells. All 2,400 steps and 121 saved states per solver pass the declared checks. Matched-strip two-grid differences are recorded; mesh independence and physical validation remain open.
+
+![Actual fine-grid paired sloshing](lessons/34-sloshing-mesh-sensitivity/sloshing-development.gif)
+
+## Previous visual model: water-tank sloshing
+
+[Model 33](lessons/33-tank-sloshing/README.md) compares 1.2 seconds of gravity-driven free-surface motion in Fluent and OpenFOAM. Both accepted runs pass their declared numerical checks; physical validation remains open.
+
+![Actual paired water-tank sloshing](lessons/33-tank-sloshing/sloshing-development.gif)
+
+## Previous visual model: a localized floor heater
+
+[Model 32](lessons/32-heater-plume/README.md) records the paired 20-second calculation with temperature, velocity, native wall heat and mass checks.
+
+![Actual heater-plume development](lessons/32-heater-plume/plume-development.gif)
+
+## Earlier heater startup qualification
+
+[The paired startup qualification](results/hot-patch-plume-qualification-v001/README.md) adds a taller cavity and a 15 mm heater. Both solvers pass the first 100 steps. The longer calculation is now recorded in model 32.
+
+![Actual one-second heater startup: temperature and velocity](results/hot-patch-plume-qualification-v001/startup-motion-v001/plume-development.gif)
+
+[Animation and numerical checks](results/hot-patch-plume-qualification-v001/startup-motion-v001/README.md). Six saved startup states; see model 32 above for the 20-second extension.
+
+## Latest comparison: a smaller time step
+
+[The natural-convection time-step study](lessons/31-convection-time-step/README.md) repeats both solvers with dt = 0.01 s. All 2,000 steps pass their declared checks. Matched-time field and heat-transfer differences are recorded; mesh and physical validation remain open.
+
+![Actual smaller-step convection](lessons/31-convection-time-step/convection-development.gif)
+
+## Previous visual model: heat-driven circulation
+
+[The paired 20-second cavity model](lessons/30-natural-convection/README.md) shows hot fluid rising, cold fluid sinking and the circulation relaxing. Both solvers pass their recorded numerical checks. Startup mesh sensitivity remains visible; time-step independence and physical validation are not claimed.
+
+![Actual paired natural convection](lessons/30-natural-convection/convection-development.gif)
+
+## Previous visual model: a finer 3D wing mesh
+
+[The two-grid comparison](lessons/29-wing-mesh-sensitivity/README.md) increases
+cells from 169,800 to 224,972. Refined checks: Fluent MISS;
+OpenFOAM PASS. Mesh independence and the force discrepancy remain unresolved.
+
+![Actual refined wing flow](lessons/29-wing-mesh-sensitivity/wing-steady-field-tracers.gif)
+
+## Previous visual model: wing incidence at 0 and 8 degrees
+
+[The paired wing comparison](lessons/28-wing-incidence/README.md) shows how
+incidence changes the computed lift and flow. The new OpenFOAM case passes its
+checks; the Fluent zero-incidence residual miss remains explicitly labelled.
+
+![Four actual steady wing fields](lessons/28-wing-incidence/wing-incidence-paired.gif)
+
+## Previous visual model: the 3D wing revisited
+
+[The wing convergence follow-up](lessons/27-wing-convergence/README.md) resolves
+Fluent's earlier residual miss and updates the paired steady-flow animation.
+The lift and drag difference between solvers remains unresolved.
+
+![Paired tracers through the saved wing flow](lessons/27-wing-convergence/wing-steady-field-tracers.gif)
+
+## Previous visual model: cooling a hot plate with a jet
+
+[The heated impinging jet](lessons/26-heated-impinging-jet/README.md) compares actual
+transient temperatures in fixed Fluent and OpenFOAM flows. Both thermal runs
+pass their numerical checks; grid and experimental validation remain open.
+
+![Actual paired temperature evolution](lessons/26-heated-impinging-jet/heated-jet-paired.gif)
+
+## Previous visual model: a jet hitting a plate
+
+[Planar jet impingement](lessons/25-impinging-jet/README.md) compares the pressure
+peak and the two wall jets in Fluent and OpenFOAM.
+
+![Tracers through both saved steady velocity fields](lessons/25-impinging-jet/impinging-jet-tracers.gif)
+
+## Previous visual model: Mach 2 oblique shock
+
+[Mach 2 flow over a compression wedge](lessons/24-mach2-wedge/README.md) compares
+Fluent and OpenFOAM with the analytical weak-shock solution.
+
+![OpenFOAM startup pressure and density-gradient fields](lessons/24-mach2-wedge/mach2-wedge-shock-formation.gif)
+
+## Previous visual model: dam break
+
+[Dam break in a closed tank](lessons/23-dam-break/README.md) follows the water
+front and wall impact in paired Fluent and OpenFOAM simulations.
+
+![Paired native VOF snapshots](lessons/23-dam-break/dam-break-paired-native.gif)
+
+## Previous visual model: the effect of airfoil incidence
+
+[NACA 0012 at 0° and 5°](lessons/22-airfoil-incidence/README.md) compares paired Fluent and OpenFOAM calculations at Re = 100. Tilting the airfoil produces a pressure difference between the upper and lower sides and positive lift in both solvers.
+
+![Tracers around the 5° airfoil through saved steady velocity fields](lessons/22-airfoil-incidence/airfoil-5deg-actual-steady-tracers.gif)
+
+## Previous visual model: two moving walls in a square cavity
 
 Both solvers compute two counter-rotating cells at Re = 100. The flow returns left through the middle; the paired runs passed their numerical checks. See the [double-lid cavity record](lessons/21-double-lid-cavity/README.md).
 
@@ -210,8 +311,7 @@ aircraft assets or ANSYS binaries.
 
 Target repository: `Ocin12345/cfd-learning-lab`. GitHub connector search and the
 accessible-repository listing found no existing repository with that name on
-1 November 2026. Publication has not occurred; inspect the complete local
-contents before that step.
+1 November 2026. That describes the initial setup state. Later model records state their publication status individually; inspect all new local contents before publication.
 
 
 ## Academic presentation and paired solvers
@@ -219,9 +319,7 @@ contents before that step.
 The owner requested side-by-side Fluent/OpenFOAM work and academic figures.
 Use the same accepted geometry, mesh, physical conditions and coefficient
 references wherever feasible; record numerical-method differences explicitly.
-Run one Fluent session and one OpenFOAM case concurrently only when resource
-admission passes, starting with two processes each. Otherwise schedule the cases
-sequentially. Code agreement supplements the checks; it is not physical validation.
+Run solver cases sequentially, using two processes each and one Fluent session at a time. Check RAM, disk and licence admission before launch. Code agreement supplements the checks; it is not physical validation.
 
 See the [figure standard](docs/FIGURE_STANDARD.md) and the revised figure/caption
 sets in `images/2026-11-01-academic-v003` and

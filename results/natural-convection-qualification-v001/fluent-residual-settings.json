@@ -1,0 +1,22 @@
+{
+  "continuity": {
+    "monitor": true,
+    "check_convergence": true,
+    "absolute_criteria": 1e-06
+  },
+  "energy": {
+    "monitor": true,
+    "check_convergence": true,
+    "absolute_criteria": 1e-09
+  },
+  "x-velocity": {
+    "monitor": true,
+    "check_convergence": true,
+    "absolute_criteria": 1e-06
+  },
+  "y-velocity": {
+    "monitor": true,
+    "check_convergence": true,
+    "absolute_criteria": 1e-06
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "ansys-fluent-core": "0.43.0",
+    "numpy": "2.5.4",
+    "h5py": "3.16.0",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0"
+  },
+  "fluent": "2026 R1; observed at actual launch",
+  "openfoam": "Foundation 14; installed CFD-Foundation14 WSL distribution",
+  "ranks_per_solver": 2,
+  "solvers_run_sequentially": true,
+  "project_root": "E:/CFD-Learning-Lab",
+  "installed_dependencies_included": false
+}

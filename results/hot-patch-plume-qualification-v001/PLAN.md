@@ -1,0 +1,7 @@
+# Localized floor heater: paired plume study
+
+The previous goal turn made verified progress: model 31 completed both 20-second time-step studies and the local manifest has 1,614 verified entries.
+
+Codex chooses a 60 mm by 100 mm closed cavity, 48 by 80 uniform quads (3,840 cells). A 15 mm wide centered floor patch is heated from 300 K to 301 K after an isothermal gravity control. The ceiling stays at 300 K; side walls and the remaining floor are adiabatic. All walls are stationary and no slip. Ideal-gas air and the documented matched energy terms are reused; this is not a Boussinesq or smoke simulation.
+
+Qualify one physical second in both solvers at dt=0.01 s before extending the accepted states to a 20-second visualization. Two processes per solver, sequential background runs. Check resource headroom and actual Fluent licence admission. Keep the original outputs and failed attempts. Own residual limits, mass drift <=1e-5, EOS error <=1e-6 and temperature within 300..301 K (1e-4 tolerance) are unchanged. Isothermal controls require Umax <=1e-5 m/s and temperature deviation <=1e-4 K. Check mesh orientation and heater area in both native grids. Do not promise oscillations, instability, mesh independence or physical validation. Show actual solver fields; use fixed plot limits and physical timestamps. Store large native outputs separately from the GitHub-ready record. No new upload is requested by this continuation.

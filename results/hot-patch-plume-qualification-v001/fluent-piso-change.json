@@ -1,0 +1,14 @@
+{
+  "pressure_relaxation": [
+    0.3,
+    1.0
+  ],
+  "momentum_relaxation": [
+    0.7,
+    1.0
+  ],
+  "reason": "Use PISO neighbor correction with transient relaxation; previous 800-inner run missed three momentum limits in ten steps",
+  "source": "https://ansyshelp.ansys.com/public/views/secured/corp/v252/en/flu_ug/flu_ug_sec_uns_solve_pvel_1.html",
+  "criteria_unchanged": true,
+  "physical_parameters_unchanged": true
+}

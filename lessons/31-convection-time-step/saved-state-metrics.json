@@ -1,0 +1,832 @@
+[
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 0.0,
+    "Tmin_K": 299.99999999044616,
+    "Tmax_K": 300.0000000095674,
+    "Umax_m_s": 4.388279950106991e-07,
+    "mass_per_depth_kg_m": 0.002942035782791604,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 0.0
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 0.01,
+    "Tmin_K": 299.89863818879235,
+    "Tmax_K": 300.1013954477729,
+    "Umax_m_s": 4.825115366444721e-05,
+    "mass_per_depth_kg_m": 0.0029420357861088637,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 1.1275389510956302e-09
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 0.5,
+    "Tmin_K": 299.6356310173499,
+    "Tmax_K": 300.3643946530006,
+    "Umax_m_s": 0.0013377793674602479,
+    "mass_per_depth_kg_m": 0.0029420359981512084,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 7.320087869189251e-08
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 1.0,
+    "Tmin_K": 299.6241893040237,
+    "Tmax_K": 300.37582715323964,
+    "Umax_m_s": 0.002482318459807943,
+    "mass_per_depth_kg_m": 0.002942036098185957,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 1.0720275889219977e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 1.5,
+    "Tmin_K": 299.6188789502344,
+    "Tmax_K": 300.38113323306663,
+    "Umax_m_s": 0.003521967620650657,
+    "mass_per_depth_kg_m": 0.0029420361749019387,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 1.3327857439904278e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 2.0,
+    "Tmin_K": 299.61551868195295,
+    "Tmax_K": 300.38449025677056,
+    "Umax_m_s": 0.004489691458910401,
+    "mass_per_depth_kg_m": 0.0029420362404441332,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 1.5555641152964483e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 2.5,
+    "Tmin_K": 299.6131026931176,
+    "Tmax_K": 300.38690390114925,
+    "Umax_m_s": 0.005355658195096492,
+    "mass_per_depth_kg_m": 0.002942036299440543,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 1.7560933218696562e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 3.0,
+    "Tmin_K": 299.611243007986,
+    "Tmax_K": 300.3887618044799,
+    "Umax_m_s": 0.006162008149259397,
+    "mass_per_depth_kg_m": 0.0029420363544887212,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 1.943202461163196e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 3.5,
+    "Tmin_K": 299.60976000145223,
+    "Tmax_K": 300.3902434487919,
+    "Umax_m_s": 0.006910883286997713,
+    "mass_per_depth_kg_m": 0.0029420364073710205,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 2.1229497626507055e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 4.0,
+    "Tmin_K": 299.60855914670793,
+    "Tmax_K": 300.39144328785767,
+    "Umax_m_s": 0.0075651821701276985,
+    "mass_per_depth_kg_m": 0.0029420364596333894,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 2.3005899163486276e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 4.5,
+    "Tmin_K": 299.60757639710084,
+    "Tmax_K": 300.39242508558016,
+    "Umax_m_s": 0.00815134651876748,
+    "mass_per_depth_kg_m": 0.0029420365125425742,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 2.480428600293294e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 5.0,
+    "Tmin_K": 299.6067767343244,
+    "Tmax_K": 300.3932242455853,
+    "Umax_m_s": 0.008698437842376,
+    "mass_per_depth_kg_m": 0.0029420365667591772,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 2.6647112094657643e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 5.5,
+    "Tmin_K": 299.60612693025183,
+    "Tmax_K": 300.39387361416453,
+    "Umax_m_s": 0.009157913772574171,
+    "mass_per_depth_kg_m": 0.0029420366225364957,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 2.854298701837621e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 6.0,
+    "Tmin_K": 299.60561086605543,
+    "Tmax_K": 300.3943894393309,
+    "Umax_m_s": 0.009524345822268267,
+    "mass_per_depth_kg_m": 0.0029420366796564994,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 3.04844999021725e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 6.5,
+    "Tmin_K": 299.60521913111165,
+    "Tmax_K": 300.3947810694102,
+    "Umax_m_s": 0.009778597796635648,
+    "mass_per_depth_kg_m": 0.0029420367375353794,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 3.245180704158912e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 7.0,
+    "Tmin_K": 299.6049369371345,
+    "Tmax_K": 300.39506321918884,
+    "Umax_m_s": 0.009906779098110951,
+    "mass_per_depth_kg_m": 0.0029420367949370865,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 3.440289504386129e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 7.5,
+    "Tmin_K": 299.604749568622,
+    "Tmax_K": 300.3952505622089,
+    "Umax_m_s": 0.00991336821862986,
+    "mass_per_depth_kg_m": 0.0029420368509694345,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 3.630743843352491e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 8.0,
+    "Tmin_K": 299.60464260599133,
+    "Tmax_K": 300.3953574818791,
+    "Umax_m_s": 0.009818860361801554,
+    "mass_per_depth_kg_m": 0.0029420369046085785,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 3.8130636648148197e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 8.5,
+    "Tmin_K": 299.60460119482997,
+    "Tmax_K": 300.3953988133203,
+    "Umax_m_s": 0.0096587671032186,
+    "mass_per_depth_kg_m": 0.0029420369555318167,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 3.986152103951923e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 9.0,
+    "Tmin_K": 299.604609777825,
+    "Tmax_K": 300.39539010244044,
+    "Umax_m_s": 0.009475393120517822,
+    "mass_per_depth_kg_m": 0.0029420370036599575,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 4.149739987191481e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 9.5,
+    "Tmin_K": 299.60465262551,
+    "Tmax_K": 300.3953470855608,
+    "Umax_m_s": 0.00927383131161088,
+    "mass_per_depth_kg_m": 0.002942037049105962,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 4.304211271843883e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 10.0,
+    "Tmin_K": 299.60471495142997,
+    "Tmax_K": 300.3952845600233,
+    "Umax_m_s": 0.00907509323768786,
+    "mass_per_depth_kg_m": 0.002942037092030833,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 4.4501132046015357e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 10.5,
+    "Tmin_K": 299.6047841245231,
+    "Tmax_K": 300.3952151700156,
+    "Umax_m_s": 0.008894051340614901,
+    "mass_per_depth_kg_m": 0.002942037132622232,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 4.588083653001007e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 11.0,
+    "Tmin_K": 299.6048504982498,
+    "Tmax_K": 300.39514857518293,
+    "Umax_m_s": 0.008738487767124136,
+    "mass_per_depth_kg_m": 0.0029420371709307364,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 4.7182945239754304e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 11.5,
+    "Tmin_K": 299.6049076565673,
+    "Tmax_K": 300.3950912008912,
+    "Umax_m_s": 0.008611851667519623,
+    "mass_per_depth_kg_m": 0.002942037207007172,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 4.840918579329667e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 12.0,
+    "Tmin_K": 299.60495213860725,
+    "Tmax_K": 300.39504651411,
+    "Umax_m_s": 0.00851440843505915,
+    "mass_per_depth_kg_m": 0.0029420372409391968,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 4.956253765175944e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 12.5,
+    "Tmin_K": 299.60498285507646,
+    "Tmax_K": 300.39501560781423,
+    "Umax_m_s": 0.00844455912015784,
+    "mass_per_depth_kg_m": 0.002942037272886166,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.064841734903069e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 13.0,
+    "Tmin_K": 299.60500040530553,
+    "Tmax_K": 300.394997880404,
+    "Umax_m_s": 0.00839831998106333,
+    "mass_per_depth_kg_m": 0.0029420373028275193,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.166612602192089e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 13.5,
+    "Tmin_K": 299.6050064610032,
+    "Tmax_K": 300.3949916617371,
+    "Umax_m_s": 0.008371978122732111,
+    "mass_per_depth_kg_m": 0.0029420373309454796,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.262185744925318e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 14.0,
+    "Tmin_K": 299.6050032381211,
+    "Tmax_K": 300.3949947323632,
+    "Umax_m_s": 0.008360966432071548,
+    "mass_per_depth_kg_m": 0.0029420373573591212,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.351965894906385e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 14.5,
+    "Tmin_K": 299.6049931183845,
+    "Tmax_K": 300.3950047093308,
+    "Umax_m_s": 0.00836110910019714,
+    "mass_per_depth_kg_m": 0.0029420373820939908,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.436039887118937e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 15.0,
+    "Tmin_K": 299.6049783939299,
+    "Tmax_K": 300.3950192973194,
+    "Umax_m_s": 0.00836903232906139,
+    "mass_per_depth_kg_m": 0.002942037405215218,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.514629100034085e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 15.5,
+    "Tmin_K": 299.6049611134745,
+    "Tmax_K": 300.39503644934655,
+    "Umax_m_s": 0.008381848533824326,
+    "mass_per_depth_kg_m": 0.002942037426931853,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.588444091930711e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 16.0,
+    "Tmin_K": 299.60494296413873,
+    "Tmax_K": 300.395054476206,
+    "Umax_m_s": 0.008397005311219985,
+    "mass_per_depth_kg_m": 0.002942037447276742,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.657596511277063e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 16.5,
+    "Tmin_K": 299.6049252512678,
+    "Tmax_K": 300.3950720730097,
+    "Umax_m_s": 0.008412541848266957,
+    "mass_per_depth_kg_m": 0.0029420374663939337,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.722575977529232e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 17.0,
+    "Tmin_K": 299.6049089136296,
+    "Tmax_K": 300.3950883008022,
+    "Umax_m_s": 0.008426948370237474,
+    "mass_per_depth_kg_m": 0.0029420374843854274,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.783729188912901e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 17.5,
+    "Tmin_K": 299.6048945566103,
+    "Tmax_K": 300.3951025536022,
+    "Umax_m_s": 0.008438995962503248,
+    "mass_per_depth_kg_m": 0.0029420375013759353,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.841480044121994e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 18.0,
+    "Tmin_K": 299.6048825100648,
+    "Tmax_K": 300.3951145011538,
+    "Umax_m_s": 0.008448766794762145,
+    "mass_per_depth_kg_m": 0.002942037517386346,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.895899541918936e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 18.5,
+    "Tmin_K": 299.6048728689326,
+    "Tmax_K": 300.3951240487746,
+    "Umax_m_s": 0.008456082230402005,
+    "mass_per_depth_kg_m": 0.002942037532474851,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.947185472976457e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 19.0,
+    "Tmin_K": 299.6048655396711,
+    "Tmax_K": 300.3951312901718,
+    "Umax_m_s": 0.008460560047768519,
+    "mass_per_depth_kg_m": 0.002942037546742523,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 5.995681389148189e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 19.5,
+    "Tmin_K": 299.60486030989006,
+    "Tmax_K": 300.39513643632466,
+    "Umax_m_s": 0.008463142778006937,
+    "mass_per_depth_kg_m": 0.0029420375601943815,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 6.041404350121127e-07
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 20.0,
+    "Tmin_K": 299.6048568922969,
+    "Tmax_K": 300.3951397754836,
+    "Umax_m_s": 0.008464114472813642,
+    "mass_per_depth_kg_m": 0.0029420375728675388,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 6.08448049943533e-07
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 0.0,
+    "Tmin_K": 300.0000000053707,
+    "Tmax_K": 300.0000050454814,
+    "Umax_m_s": 1.3302990604257108e-07,
+    "mass_per_depth_kg_m": 0.0029420439883193566,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 0.0
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 0.5,
+    "Tmin_K": 299.6356367275695,
+    "Tmax_K": 300.364386245639,
+    "Umax_m_s": 0.001337568775579435,
+    "mass_per_depth_kg_m": 0.0029420439883196723,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0724754417879012e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 1.0,
+    "Tmin_K": 299.6241953001846,
+    "Tmax_K": 300.3758187852604,
+    "Umax_m_s": 0.0024815296614156233,
+    "mass_per_depth_kg_m": 0.0029420439883196727,
+    "eos_relative_error": 1.3322676295501878e-15,
+    "mass_relative_change": 1.0746958878371515e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 1.5,
+    "Tmin_K": 299.6188844451291,
+    "Tmax_K": 300.3811255128517,
+    "Umax_m_s": 0.003520613983899112,
+    "mass_per_depth_kg_m": 0.0029420439883196723,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0724754417879012e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 2.0,
+    "Tmin_K": 299.615524565108,
+    "Tmax_K": 300.3844822655252,
+    "Umax_m_s": 0.004487384411438123,
+    "mass_per_depth_kg_m": 0.0029420439883196727,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0746958878371515e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 2.5,
+    "Tmin_K": 299.6131084763934,
+    "Tmax_K": 300.3868961084816,
+    "Umax_m_s": 0.005352827262245769,
+    "mass_per_depth_kg_m": 0.0029420439883196736,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0769163338864018e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 3.0,
+    "Tmin_K": 299.6112483981485,
+    "Tmax_K": 300.3887544871178,
+    "Umax_m_s": 0.006159242818291435,
+    "mass_per_depth_kg_m": 0.0029420439883196727,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0746958878371515e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 3.5,
+    "Tmin_K": 299.6097648105653,
+    "Tmax_K": 300.390236774685,
+    "Umax_m_s": 0.00690849806703046,
+    "mass_per_depth_kg_m": 0.0029420439883196727,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0746958878371515e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 4.0,
+    "Tmin_K": 299.6085632677164,
+    "Tmax_K": 300.391437338957,
+    "Umax_m_s": 0.007562171546849261,
+    "mass_per_depth_kg_m": 0.0029420439883196736,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0769163338864018e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 4.5,
+    "Tmin_K": 299.6075801078134,
+    "Tmax_K": 300.3924195580743,
+    "Umax_m_s": 0.008150204122142322,
+    "mass_per_depth_kg_m": 0.0029420439883196727,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0746958878371515e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 5.0,
+    "Tmin_K": 299.6067796149975,
+    "Tmax_K": 300.3932195358798,
+    "Umax_m_s": 0.008699136460142988,
+    "mass_per_depth_kg_m": 0.0029420439883196727,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0746958878371515e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 5.5,
+    "Tmin_K": 299.6061292781659,
+    "Tmax_K": 300.3938694052449,
+    "Umax_m_s": 0.009159652549367032,
+    "mass_per_depth_kg_m": 0.0029420439883196736,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0769163338864018e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 6.0,
+    "Tmin_K": 299.6056127642954,
+    "Tmax_K": 300.3943856405588,
+    "Umax_m_s": 0.00952523076420605,
+    "mass_per_depth_kg_m": 0.0029420439883196753,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0835776720341528e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 6.5,
+    "Tmin_K": 299.6052201739027,
+    "Tmax_K": 300.3947780872721,
+    "Umax_m_s": 0.00978107455321948,
+    "mass_per_depth_kg_m": 0.0029420439883196775,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0902390101819037e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 7.0,
+    "Tmin_K": 299.6049371691381,
+    "Tmax_K": 300.3950610194718,
+    "Umax_m_s": 0.009910596635383613,
+    "mass_per_depth_kg_m": 0.002942043988319679,
+    "eos_relative_error": 1.3322676295501878e-15,
+    "mass_relative_change": 1.0946799022804043e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 7.5,
+    "Tmin_K": 299.6047490397735,
+    "Tmax_K": 300.3952491105553,
+    "Umax_m_s": 0.009918275177705707,
+    "mass_per_depth_kg_m": 0.0029420439883196792,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0969003483296547e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 8.0,
+    "Tmin_K": 299.6046413744497,
+    "Tmax_K": 300.395356738817,
+    "Umax_m_s": 0.009823985259660693,
+    "mass_per_depth_kg_m": 0.00294204398831968,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.099120794378905e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 8.5,
+    "Tmin_K": 299.604599329185,
+    "Tmax_K": 300.3953987241221,
+    "Umax_m_s": 0.00966127142222591,
+    "mass_per_depth_kg_m": 0.0029420439883196792,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.0969003483296547e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 9.0,
+    "Tmin_K": 299.6046073670237,
+    "Tmax_K": 300.3953905918642,
+    "Umax_m_s": 0.009477692481850382,
+    "mass_per_depth_kg_m": 0.0029420439883197074,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.192379528447418e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 9.5,
+    "Tmin_K": 299.6046497717923,
+    "Tmax_K": 300.3953480589179,
+    "Umax_m_s": 0.009276341449421384,
+    "mass_per_depth_kg_m": 0.002942043988319707,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1901590823981678e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 10.0,
+    "Tmin_K": 299.6047117646127,
+    "Tmax_K": 300.3952859134229,
+    "Umax_m_s": 0.009077883362671606,
+    "mass_per_depth_kg_m": 0.002942043988319706,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1879386363489175e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 10.5,
+    "Tmin_K": 299.6047807146983,
+    "Tmax_K": 300.3952167988551,
+    "Umax_m_s": 0.008896481351923065,
+    "mass_per_depth_kg_m": 0.002942043988319706,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1879386363489175e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 11.0,
+    "Tmin_K": 299.6048469673516,
+    "Tmax_K": 300.3951503817796,
+    "Umax_m_s": 0.008740540605161553,
+    "mass_per_depth_kg_m": 0.002942043988319706,
+    "eos_relative_error": 1.3322676295501878e-15,
+    "mass_relative_change": 1.1879386363489175e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 11.5,
+    "Tmin_K": 299.6049040875279,
+    "Tmax_K": 300.3950931058814,
+    "Umax_m_s": 0.008613721340479628,
+    "mass_per_depth_kg_m": 0.002942043988319705,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1834977442504169e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 12.0,
+    "Tmin_K": 299.6049485905068,
+    "Tmax_K": 300.3950484607084,
+    "Umax_m_s": 0.00851624953021404,
+    "mass_per_depth_kg_m": 0.0029420439883197052,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1857181902996672e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 12.5,
+    "Tmin_K": 299.6049793658757,
+    "Tmax_K": 300.3950175582708,
+    "Umax_m_s": 0.008446075866584479,
+    "mass_per_depth_kg_m": 0.002942043988319705,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1834977442504169e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 13.0,
+    "Tmin_K": 299.6049970022935,
+    "Tmax_K": 300.3949998092722,
+    "Umax_m_s": 0.008399792053899105,
+    "mass_per_depth_kg_m": 0.002942043988319705,
+    "eos_relative_error": 1.3322676295501878e-15,
+    "mass_relative_change": 1.1834977442504169e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 13.5,
+    "Tmin_K": 299.6050031563598,
+    "Tmax_K": 300.3949935552625,
+    "Umax_m_s": 0.00837334237680814,
+    "mass_per_depth_kg_m": 0.002942043988319705,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1834977442504169e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 14.0,
+    "Tmin_K": 299.6050000365216,
+    "Tmax_K": 300.3949965855168,
+    "Umax_m_s": 0.008362500556344946,
+    "mass_per_depth_kg_m": 0.002942043988319704,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1812772982011666e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 14.5,
+    "Tmin_K": 299.6049900201962,
+    "Tmax_K": 300.3950065204311,
+    "Umax_m_s": 0.008363219577581764,
+    "mass_per_depth_kg_m": 0.0029420439883197018,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1723955140041653e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 15.0,
+    "Tmin_K": 299.604975392889,
+    "Tmax_K": 300.3950210726696,
+    "Umax_m_s": 0.008371825318223707,
+    "mass_per_depth_kg_m": 0.0029420439883197018,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1723955140041653e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 15.5,
+    "Tmin_K": 299.6049581866521,
+    "Tmax_K": 300.3950382088246,
+    "Umax_m_s": 0.008385189643756919,
+    "mass_per_depth_kg_m": 0.002942043988319703,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.176836406102666e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 16.0,
+    "Tmin_K": 299.6049400937028,
+    "Tmax_K": 300.395056235744,
+    "Umax_m_s": 0.008400752719529279,
+    "mass_per_depth_kg_m": 0.0029420439883197044,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": 1.1812772982011666e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 16.5,
+    "Tmin_K": 299.6049224343072,
+    "Tmax_K": 300.3950738326338,
+    "Umax_m_s": 0.008416541501828467,
+    "mass_per_depth_kg_m": 0.0029420439883192993,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": -1.942890293094024e-14
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 17.0,
+    "Tmin_K": 299.6049061621097,
+    "Tmax_K": 300.3950900456028,
+    "Umax_m_s": 0.0084311425131139,
+    "mass_per_depth_kg_m": 0.002942043988318804,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": -1.8784973576657649e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 17.5,
+    "Tmin_K": 299.604891894335,
+    "Tmax_K": 300.3951042573619,
+    "Umax_m_s": 0.008443644515162125,
+    "mass_per_depth_kg_m": 0.0029420439883185334,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": -2.7977620220553945e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 18.0,
+    "Tmin_K": 299.6048799572472,
+    "Tmax_K": 300.3951161416995,
+    "Umax_m_s": 0.008453563970049347,
+    "mass_per_depth_kg_m": 0.0029420439883179276,
+    "eos_relative_error": 1.3322676295501878e-15,
+    "mass_relative_change": -4.85722573273506e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 18.5,
+    "Tmin_K": 299.6048704395304,
+    "Tmax_K": 300.3951256099664,
+    "Umax_m_s": 0.008460761346549037,
+    "mass_per_depth_kg_m": 0.0029420439883178127,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": -5.248024237403115e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 19.0,
+    "Tmin_K": 299.6048632480541,
+    "Tmax_K": 300.3951327553471,
+    "Umax_m_s": 0.008465355422643199,
+    "mass_per_depth_kg_m": 0.0029420439883178036,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": -5.279110482092619e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 19.5,
+    "Tmin_K": 299.6048581615398,
+    "Tmax_K": 300.3951377991257,
+    "Umax_m_s": 0.008467641641019671,
+    "mass_per_depth_kg_m": 0.0029420439883178005,
+    "eos_relative_error": 1.3322676295501878e-15,
+    "mass_relative_change": -5.289102489314246e-13
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 20.0,
+    "Tmin_K": 299.6048548795579,
+    "Tmax_K": 300.3951410416796,
+    "Umax_m_s": 0.008468019572309483,
+    "mass_per_depth_kg_m": 0.0029420439883178044,
+    "eos_relative_error": 1.1102230246251565e-15,
+    "mass_relative_change": -5.275779813018744e-13
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "original_case": "qualification/fluent-flat-v001",
+  "steps_completed": 0,
+  "licence_and_mesh_read_passed": true,
+  "minimum_orthogonal_quality": 1.0,
+  "root_cause": "Enabling surface tension before assigning a coefficient caused Fluent to disable it because all pair methods were none; subsequent controls became inactive.",
+  "fix": "Set the constant phase-pair coefficient0.07 first, then enable/verify CSF and disable adhesion.",
+  "originals_preserved": true,
+  "physical_conditions_and_limits_unchanged": true,
+  "retry_not_yet_run": true
+}

@@ -1,0 +1,15 @@
+{
+  "issue": "Qualification admission could become stale during the driver RAM wait",
+  "old_driver_failure_reproduced": true,
+  "new_driver_refuses_stale_sources": true,
+  "fluent_sessions_launched_by_test": 0,
+  "actual_executed_driver_preserved_sha256": "fb020a6d4b146c6981462cdf6bf6af8b43e91a362cc8f4a9af64bb2405e32cfb",
+  "rerun_driver_sha256": "18b087415429fcaee4499a6c19f4ca8e39a7ba5c34b6e9d8b79e7c2d14d281df",
+  "test_source_sha256": "b90ba55ebfa2af170d72b0f7e331b4f42d5b05ed05310be1575ae32ef0d62072",
+  "numerical_results_changed": false,
+  "tests": {
+    "old_returncode": 1,
+    "new_returncode": 0
+  },
+  "full_local_evidence_sha256": "2b6040c66f6f98f6aa8209cc1e5ea971e2691f65c5b7482b08086135a69ee514"
+}

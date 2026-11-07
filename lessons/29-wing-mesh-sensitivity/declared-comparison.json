@@ -1,0 +1,21 @@
+{
+  "model": "finite-wing-mesh-sensitivity-v001",
+  "geometry": "Identical CAD rounded-cap wing, incidence 8 degrees, Re400",
+  "baseline_cells": 169800,
+  "mesh_size_factor": 0.9,
+  "hard_cell_cap": 250000,
+  "minimum_native_orthogonal_quality": 0.1,
+  "candidate_quality_margin": 0.105,
+  "solver_processes": 2,
+  "sequential_solvers": true,
+  "residual_target": 1e-05,
+  "mass_relative_target": 0.0001,
+  "final100_force_range_target": 0.001,
+  "fluent_coupled_courant": 20,
+  "fluent_maximum_iterations": 1500,
+  "openfoam_maximum_iterations": 1500,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "parent_mesher_sha256": "0d54f0dc2d4d7228604de53a7b0850ec60caff78a4e84baed6626d6fafff7f52",
+  "stage": "candidate_preparation"
+}

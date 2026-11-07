@@ -1,0 +1,91 @@
+{
+  "model": "33 - small-amplitude water-tank sloshing",
+  "state": "qualification_prepared_resource_gate_pending",
+  "geometry_m": [
+    0.2,
+    0.1
+  ],
+  "cells": [
+    80,
+    40
+  ],
+  "cell_size_m": 0.0025,
+  "initial_surface": "y = 0.05 + 0.025*(x-0.1) m",
+  "initial_water_area_per_depth_m2": 0.01,
+  "initial_velocity_m_s": [
+    0,
+    0
+  ],
+  "phases": {
+    "water_density_kg_m3": 998.2,
+    "water_mu_Pa_s": 0.001003,
+    "air_density_kg_m3": 1.225,
+    "air_mu_Pa_s": 1.7894e-05
+  },
+  "model_assumptions": [
+    "2D laminar incompressible air and water",
+    "Closed stationary no-slip walls",
+    "Surface tension omitted",
+    "Fractional cut-cell initialization shared between solvers"
+  ],
+  "gravity_m_s2": [
+    0,
+    -9.81
+  ],
+  "qualification": {
+    "dt_s": 0.0005,
+    "steps": 40,
+    "duration_s": 0.02,
+    "fluent_inner_cap": 400,
+    "fluent_absolute_residual_targets": {
+      "continuity": 0.0001,
+      "x_velocity": 0.0001,
+      "y_velocity": 0.0001
+    },
+    "openfoam_outer_correctors": 8,
+    "max_fluent_explicit_vof_courant": 0.25,
+    "fluent_auditor": "E:\\CFD-Learning-Lab\\local\\sloshing-tank-v001\\audit_sloshing_fluent_v001.py",
+    "openfoam_momentum_predictor": true,
+    "openfoam_last_outer_initial_residual_targets": {
+      "Ux": 0.0001,
+      "Uy": 0.0001,
+      "p_rgh": 0.0001
+    },
+    "max_openfoam_interface_courant": 0.25,
+    "openfoam_auditor": "E:\\CFD-Learning-Lab\\local\\sloshing-tank-v001\\audit_sloshing_openfoam_v001.py",
+    "openfoam_wrapper": "E:\\CFD-Learning-Lab\\local\\sloshing-tank-v001\\run_sloshing_openfoam_v001.sh"
+  },
+  "future_production_duration_s": 1.2,
+  "production_requires": [
+    "Both qualification runs audited",
+    "Native cell ordering and fractional initial water volume match",
+    "Every Fluent step meets declared residual targets",
+    "OpenFOAM final-outer residual audit",
+    "Finite fields, alpha within 1e-6 of [0,1], water volume drift <=0.5%",
+    "Interface Courant history inspected",
+    "Flat-interface gravity control qualified before wave interpretation"
+  ],
+  "resource_gate": {
+    "available_ram_GiB": 4,
+    "free_disk_GiB": 10
+  },
+  "solver_operation": "One background solver at a time, two ranks each",
+  "status": {
+    "solver_launched": false,
+    "license_admission_verified": false,
+    "physical_validation": false
+  },
+  "sources": [
+    "https://doc.cfd.direct/openfoam/user-guide-v14/dambreak",
+    "https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/flu_ug/flu_ug_sec_multiphase_setup.html"
+  ],
+  "base_source_sha256": {
+    "dam_break_fluent_v004.py": "dbf81317a2ae009b520052b052f48bdc976331a29e28c265456c50765d329fb7",
+    "prepare_dam_break_openfoam_v002.py": "2c0e2be7d8550074c0c380c42fb7ce52408dcf49c73e86e8636b169ba7f4c729"
+  },
+  "flat_control_criteria": {
+    "max_speed_m_s": 0.0001,
+    "max_alpha_change": 0.01,
+    "water_relative_volume_drift": 0.005
+  }
+}

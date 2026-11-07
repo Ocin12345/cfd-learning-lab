@@ -1,0 +1,14 @@
+{
+  "max_speed_m_s": 1.8667523573161507e-07,
+  "min_T_K": 300.0000000335456,
+  "max_T_K": 300.0000078082769,
+  "mass_per_depth_kg_m": 0.0029420439883194164,
+  "mass_relative_drift": 3.3306690738754696e-15,
+  "eos_relative_error": 1.1102230246251565e-15,
+  "checks": {
+    "quiet": true,
+    "temperature": true,
+    "mass": true,
+    "eos": true
+  }
+}

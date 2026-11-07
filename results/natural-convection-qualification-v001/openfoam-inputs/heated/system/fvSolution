@@ -1,0 +1,10 @@
+FoamFile
+{ version 2.0; format ascii; class dictionary; object fvSolution; }
+solvers {
+ p_rgh { solver PCG; preconditioner DIC; tolerance 1e-10; relTol 0; }
+ p_rghFinal { $p_rgh; relTol 0; }
+ "(U|h)" { solver PBiCGStab; preconditioner DILU; tolerance 1e-10; relTol 0; }
+ "(U|h)Final" { $U; relTol 0; }
+ "rho.*" { solver diagonal; }
+}
+PIMPLE { momentumPredictor yes; nOuterCorrectors 4; nCorrectors 2; nNonOrthogonalCorrectors 0; pRefCell 0; pRefValue 0; }

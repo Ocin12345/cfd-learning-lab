@@ -1,0 +1,9 @@
+{
+  "reason": "First heated step missed all stated limits after 200 iterations; native residuals decayed smoothly without meeting thresholds",
+  "original_inner_cap": 200,
+  "new_inner_cap": 800,
+  "dt_s": 0.01,
+  "criteria_unchanged": true,
+  "restart_from": "hot-patch-plume-qualification-v001/fluent/heated-start.cas.h5 at t=0",
+  "preserved_missed_attempt": "hot-patch-plume-qualification-v001/fluent"
+}

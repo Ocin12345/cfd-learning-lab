@@ -1,0 +1,25 @@
+{
+  "fluent_steps": 2400,
+  "openfoam_steps": 2400,
+  "saved_states_each": 121,
+  "fluent_max_inner_iterations": 28,
+  "fluent_max_relative_water_area_drift": 1.2677390248683196e-09,
+  "openfoam_max_relative_water_area_drift": 3.851141627819743e-11,
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\sloshing-production-v001\\fluent-production-audit-v001.json": "2d5d1477ce0630411e02f915d0fe11d3d72064b4eb6c2f200620fda1734d0487",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-production-v001\\openfoam-production-audit-v003.json": "3b4e826dbf392c78b129c5f0ab9c36d5a2d722ebc5d3f041c4c4328f3e4e6a44",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\fluent\\solver-transcript.txt": "2937d68ec3181d11f812db006eaf9f2cfd16dd8c8e4f711da42abf438f237bfa",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-sloshing-1p2s-paired-v003\\column-depth-histories.json": "26fdd483adf23b686c0617a63149108881f4715dd3bdf1164ab00d6a45b8d393",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-production-v001\\openfoam-production-audit-v001-complete.json": "c8d9d72330374ec42e62e3fed69014911030a695b69488f11cc020adac511c5f",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-production-v001\\openfoam-production-audit-v002.json": "b2e772ad74a2f90ce995d8bbe8d1b40d3cb4662df6c3d45c58904c78651bd189",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-production-v001\\plot_sloshing_numerical_checks_v001.py": "225f49273841e63173c32e066cffa70f9fad444ffdc41be05c276ee0bfdde630"
+  },
+  "artifact_sha256": {
+    "numerical-checks.png": "3ab2efffa8b3d95d1593f4d60eeb4f858921ca43313168c5065570843077c753",
+    "numerical-checks.pdf": "324c9be6fdb3017392c48aac72bd55f95ed144554c60d28dc198012a73c23b71",
+    "fluent-step-residuals.csv": "862df56a31deeffd680a59246f80c91b13dbe7cd8cf657c6c94b713a6ea6b378",
+    "openfoam-step-residuals.csv": "811d6a76990eb6c8aff57e0fb41d8cd5bcfca978b1154568de3a1d297dcd124f",
+    "saved-state-checks.csv": "cbafc3964b08a971097ab0347537a14dca789a0dafe7aa59ac946b00842c013a",
+    "column-water-depth.csv": "8608a9094858d9b2039e7b62e3ae010d11d61c80beb987504b86e6bd9008c289"
+  }
+}

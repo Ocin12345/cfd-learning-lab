@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "ANSYS Fluent": {
+      "steps": 2400,
+      "saved_states": 121,
+      "all_numerical_checks_pass": true,
+      "maximum_residual_limit_ratio": 0.99986,
+      "maximum_saved_relative_water_area_drift": 4.50082859870804e-10,
+      "maximum_saved_alpha_bound_exceedance": 0.0,
+      "peak_interface_courant": 0.0494102
+    },
+    "OpenFOAM 14": {
+      "steps": 2400,
+      "saved_states": 121,
+      "all_numerical_checks_pass": true,
+      "maximum_residual_limit_ratio": 0.000325446650984,
+      "maximum_saved_relative_water_area_drift": 7.212253017030434e-11,
+      "maximum_saved_alpha_bound_exceedance": 3.860000097333227e-09,
+      "peak_interface_courant": 0.0445968952557
+    }
+  },
+  "numerical_checks_pass": true,
+  "physical_validation": false,
+  "audit_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\fluent-production-audit.json": "2fd5cd682af017f22c0296b7c25cd8b8d8a6873c0e159c6d9cc717706787fe3d",
+    "E:\\CFD-Learning-Lab\\local\\sloshing-refinement-v001\\openfoam-production-audit.json": "127843d986f583724bc1c7d5ae2a49f1f95b6388883127bf709cf7102c966f72"
+  },
+  "code_sha256": "b63eb4fab8a2bebeeec7e7fccd971f1c2f141ac33c6145b87cbb9d26d907638a"
+}

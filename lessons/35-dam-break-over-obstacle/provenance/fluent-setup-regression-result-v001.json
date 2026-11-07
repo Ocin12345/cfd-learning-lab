@@ -1,0 +1,16 @@
+{
+  "native_integration_regression": "Stopped setup versions1/2 -> complete200-step version3",
+  "failed_versions_steps": [
+    0,
+    0
+  ],
+  "accepted_steps": 200,
+  "native_saved_states": 21,
+  "surface_tension_verified_N_m": 0.07,
+  "static_atmosphere_verified": true,
+  "initial_alpha_and_pressure_native_checks_pass": true,
+  "all_numerical_checks_pass": true,
+  "acceptance_limits_unchanged": true,
+  "previous_versions_preserved": true,
+  "physical_validation": false
+}

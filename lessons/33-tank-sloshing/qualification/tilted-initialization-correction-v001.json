@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-11-07T18:07:46.411262+08:00",
+  "rejected_run": "fluent-tilted-v001",
+  "steps_taken": 0,
+  "native_saved_options": {
+    "patch/vof/recon?": true,
+    "vof/smooth?": true
+  },
+  "affected_cells": 10,
+  "wrong_columns": [
+    40,
+    46,
+    56,
+    68,
+    69
+  ],
+  "hypothesis": "Geometric patch reconstruction is inappropriate after assigning independently computed fractional values through successive small rectangular registers.",
+  "change": "Disable patch reconstruction and patch volumetric smoothing, then require all 3200 native initial fractions to match before stepping.",
+  "physical_models_changed": false,
+  "geometry_changed": false,
+  "residual_criteria_changed": false,
+  "root_cause_confirmation": "Pending a passing native initial field; no simulation success inferred from this change.",
+  "sources": [
+    "https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/flu_ug/flu_ug_sec_multiphase_setup.html"
+  ]
+}

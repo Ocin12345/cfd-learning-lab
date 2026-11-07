@@ -1,0 +1,27 @@
+{
+  "model": "34 - sloshing mesh sensitivity",
+  "state": "preparation",
+  "geometry_m": [
+    0.2,
+    0.1
+  ],
+  "fine_cells": [
+    160,
+    80
+  ],
+  "dx_m": 0.00125,
+  "dt_s": 0.0005,
+  "steps": 2400,
+  "save_interval": 20,
+  "qualification_steps": 40,
+  "initial_tilt": 0.025,
+  "mean_water_height_m": 0.05,
+  "coarse_selection": "E:/CFD-Learning-Lab/local/sloshing-production-v001/accepted-pair-selection-v001.json",
+  "resource_gate": {
+    "ram_GiB": 4,
+    "E_free_GiB": 10
+  },
+  "solvers_launched": false,
+  "physical_validation": false,
+  "coarse_selection_sha256": "ec0c5b5adcce7124ec62f1f3e69ea90f8090f35e538832fa96f498c332d83ac3"
+}

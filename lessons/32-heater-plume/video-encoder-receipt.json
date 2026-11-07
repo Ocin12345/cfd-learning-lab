@@ -1,0 +1,12 @@
+{
+  "package": "imageio-ffmpeg",
+  "version": "0.6.0",
+  "wheel": "E:\\CFD-Learning-Lab\\temp\\video-export-download-v001\\imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl",
+  "wheel_sha256": "02fa47c83703c37df6bfe4896aab339013f62bf02c5ebf2dce6da56af04ffc0a",
+  "source": "https://files.pythonhosted.org/packages/2c/c6/fa760e12a2483469e2bf5058c5faff664acf66cadb4df2ad6205b016a73d/imageio_ffmpeg-0.6.0-py3-none-win_amd64.whl",
+  "source_metadata": "https://pypi.org/project/imageio-ffmpeg/0.6.0/",
+  "executable": "E:\\CFD-Learning-Lab\\tools\\video-export-v001\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "executable_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3",
+  "ffmpeg_version": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+  "fluent_environment_modified": false
+}

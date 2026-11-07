@@ -1,0 +1,40 @@
+{
+  "time_s": 0.5,
+  "production_steps_verified": 50,
+  "production_statistics": {
+    "Tmin_K": 300.0007256168467,
+    "Tmax_K": 300.8896611075704,
+    "Umax_m_s": 0.0005733258815697316,
+    "mass_per_depth_kg_m": 0.007060865478678999,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "T_reflection_max_difference_K": 1.713689300686383e-06,
+    "Uy_reflection_max_difference_m_s": 2.3802332306828713e-06,
+    "Ux_antisymmetry_max_difference_m_s": 1.8392817439834104e-06
+  },
+  "reference_statistics": {
+    "Tmin_K": 300.0006743020431,
+    "Tmax_K": 300.88960990926074,
+    "Umax_m_s": 0.000573354282204017,
+    "mass_per_depth_kg_m": 0.007060854533797764,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "T_reflection_max_difference_K": 1.7988285208048183e-06,
+    "Uy_reflection_max_difference_m_s": 2.382565525949733e-06,
+    "Ux_antisymmetry_max_difference_m_s": 1.844564824320809e-06
+  },
+  "strict_mass_drift": 5.262727453825278e-08,
+  "reference_mass_drift": 1.6027036343624346e-06,
+  "max_temperature_difference_K": 0.00018411373054050273,
+  "velocity_relative_L2": 0.00029175560899200205,
+  "ram_available_GiB": 9.695659637451172,
+  "E_free_GiB": 375.587890625,
+  "note": "Same Fluent physical setup and initial control, tighter continuity criterion and larger iteration cap. A half-second checkpoint only, not completion of the 20-second run.",
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-start.cas.h5": "3836bdb6309ac5fcdc8891ee763170f364ede09904380b1589584aa18151796a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0000.dat.h5": "9d3e433abbb7f799371a21fa93822cb4835940f708cbb505461d5168aad1a982",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0050.dat.h5": "ae8bf19c174cdc1eb0279b94c857f4e9486655aa5e539dd462e5dbc7558683d5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-qualification-v001\\fluent-v003\\qualification-final.cas.h5": "993d1516cfb16aafe861e8336abe63d2a59d166dec40be28417ba8ad08c356f4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-qualification-v001\\fluent-v003\\heated-0050.dat.h5": "7b90838673d3af3e99523fe017fe1ff7908c2fea5d05a7ce9c88ff2a3912398a",
+    "E:\\CFD-Learning-Lab\\local\\hot-patch-plume-production-v001\\checkpoint-50-step-checks-v001.json": "3ae12b785567e5de45e0b3d79314f43bbe75cd338a4d76ab2bf1d7c8a1dfc0af"
+  },
+  "provenance_note": "The 50 completed step checks are frozen separately; the live production check file continues to grow."
+}

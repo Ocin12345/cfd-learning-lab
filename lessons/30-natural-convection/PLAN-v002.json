@@ -1,0 +1,28 @@
+{
+  "state": "fluent_running_openfoam_control_passed",
+  "production_solver_started": true,
+  "cells": 2304,
+  "physical_time_s": 20,
+  "dt_s": 0.02,
+  "snapshot_interval_s": 0.5,
+  "first_comparison_time_s": 1,
+  "dependency": "energy-formulation diagnostic and numerical checks",
+  "planned_checks": [
+    "quiet control",
+    "all time-step residuals",
+    "closed mass and EOS",
+    "same-time comparison against 24x24 pilot",
+    "temperature and velocity evolution",
+    "time-step sensitivity remains required"
+  ],
+  "gravity_work_diagnostic": "E:/CFD-Learning-Lab/native/runs/vertical-energy-control-fluent-v005/energy-check.json",
+  "openfoam_outer_correctors": 6,
+  "openfoam_last_outer_initial_residual_targets": {
+    "Ux": 1e-06,
+    "Uy": 1e-06,
+    "h": 1e-08,
+    "p_rgh": 1e-06
+  },
+  "native_fluent": "E:/CFD-Learning-Lab/native/runs/natural-convection-cavity-48-v001/fluent",
+  "native_openfoam": "E:/CFD-Learning-Lab/native/runs/natural-convection-cavity-48-v001/openfoam"
+}

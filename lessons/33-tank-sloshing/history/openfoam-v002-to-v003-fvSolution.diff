@@ -1,0 +1,11 @@
+--- alpha-tight-v002
++++ pressure-tight-v003
+@@ -23,7 +23,7 @@
+             {
+                 solver PCG;
+                 preconditioner DIC;
+-                tolerance 1e-7;
++                tolerance 1e-10;
+                 relTol 0.05;
+             }
+             p_rghFinal { $p_rgh; relTol 0; }

@@ -1,0 +1,658 @@
+[
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 0.0,
+    "velocity_relative_L2": 0.0,
+    "max_temperature_difference_K": 0.0,
+    "baseline_max_speed_mm_s": 0.0004388279950106991,
+    "refined_max_speed_mm_s": 0.0004388279950106991
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 0.5,
+    "velocity_relative_L2": 0.00811862241920962,
+    "max_temperature_difference_K": 0.0011398146198189352,
+    "baseline_max_speed_mm_s": 1.3322386200509269,
+    "refined_max_speed_mm_s": 1.3377793674602478
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 1.0,
+    "velocity_relative_L2": 0.004196148059691237,
+    "max_temperature_difference_K": 0.0005910195501996895,
+    "baseline_max_speed_mm_s": 2.4767035361013163,
+    "refined_max_speed_mm_s": 2.482318459807943
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 1.5,
+    "velocity_relative_L2": 0.002897998500359617,
+    "max_temperature_difference_K": 0.00041062174540229535,
+    "baseline_max_speed_mm_s": 3.516324888865476,
+    "refined_max_speed_mm_s": 3.521967620650657
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 2.0,
+    "velocity_relative_L2": 0.0021089793151399545,
+    "max_temperature_difference_K": 0.0003267890837150844,
+    "baseline_max_speed_mm_s": 4.483859651398066,
+    "refined_max_speed_mm_s": 4.489691458910401
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 2.5,
+    "velocity_relative_L2": 0.0014913656019804353,
+    "max_temperature_difference_K": 0.0002839189115775298,
+    "baseline_max_speed_mm_s": 5.349933146421043,
+    "refined_max_speed_mm_s": 5.355658195096492
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 3.0,
+    "velocity_relative_L2": 0.0010760790507161697,
+    "max_temperature_difference_K": 0.00026281689304141764,
+    "baseline_max_speed_mm_s": 6.156098104283078,
+    "refined_max_speed_mm_s": 6.162008149259397
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 3.5,
+    "velocity_relative_L2": 0.0009390274518926799,
+    "max_temperature_difference_K": 0.0002566865804283225,
+    "baseline_max_speed_mm_s": 6.904968121343243,
+    "refined_max_speed_mm_s": 6.910883286997714
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 4.0,
+    "velocity_relative_L2": 0.0010058336968357326,
+    "max_temperature_difference_K": 0.0002633004029917174,
+    "baseline_max_speed_mm_s": 7.55938527278067,
+    "refined_max_speed_mm_s": 7.565182170127699
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 4.5,
+    "velocity_relative_L2": 0.001128053261543301,
+    "max_temperature_difference_K": 0.0002780057395739277,
+    "baseline_max_speed_mm_s": 8.144937067208783,
+    "refined_max_speed_mm_s": 8.15134651876748
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 5.0,
+    "velocity_relative_L2": 0.0012579203290479742,
+    "max_temperature_difference_K": 0.00029935438254824476,
+    "baseline_max_speed_mm_s": 8.691366486057904,
+    "refined_max_speed_mm_s": 8.698437842376
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 5.5,
+    "velocity_relative_L2": 0.0013530783739319006,
+    "max_temperature_difference_K": 0.00032420014161971267,
+    "baseline_max_speed_mm_s": 9.14967008279603,
+    "refined_max_speed_mm_s": 9.15791377257417
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 6.0,
+    "velocity_relative_L2": 0.0013841509808913534,
+    "max_temperature_difference_K": 0.0003508002814669453,
+    "baseline_max_speed_mm_s": 9.514507308316292,
+    "refined_max_speed_mm_s": 9.524345822268268
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 6.5,
+    "velocity_relative_L2": 0.0013407215078510154,
+    "max_temperature_difference_K": 0.00037635898809185164,
+    "baseline_max_speed_mm_s": 9.7676332551269,
+    "refined_max_speed_mm_s": 9.778597796635648
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 7.0,
+    "velocity_relative_L2": 0.0012155156020591876,
+    "max_temperature_difference_K": 0.00039970069371975114,
+    "baseline_max_speed_mm_s": 9.895651322097596,
+    "refined_max_speed_mm_s": 9.90677909811095
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 7.5,
+    "velocity_relative_L2": 0.0009907942319752779,
+    "max_temperature_difference_K": 0.0004214859164903828,
+    "baseline_max_speed_mm_s": 9.903690557527963,
+    "refined_max_speed_mm_s": 9.91336821862986
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 8.0,
+    "velocity_relative_L2": 0.0007042013680515186,
+    "max_temperature_difference_K": 0.00043406381178101583,
+    "baseline_max_speed_mm_s": 9.811757074656509,
+    "refined_max_speed_mm_s": 9.818860361801555
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 8.5,
+    "velocity_relative_L2": 0.0004307002854173472,
+    "max_temperature_difference_K": 0.0004215417566229007,
+    "baseline_max_speed_mm_s": 9.654411855032611,
+    "refined_max_speed_mm_s": 9.6587671032186
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 9.0,
+    "velocity_relative_L2": 0.0002718011219527458,
+    "max_temperature_difference_K": 0.0003968547737827066,
+    "baseline_max_speed_mm_s": 9.473782503351245,
+    "refined_max_speed_mm_s": 9.475393120517822
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 9.5,
+    "velocity_relative_L2": 0.00038092795562131676,
+    "max_temperature_difference_K": 0.0003607557032978548,
+    "baseline_max_speed_mm_s": 9.274689067087296,
+    "refined_max_speed_mm_s": 9.273831311610879
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 10.0,
+    "velocity_relative_L2": 0.0006225157983242175,
+    "max_temperature_difference_K": 0.0003123259508583942,
+    "baseline_max_speed_mm_s": 9.078194113586935,
+    "refined_max_speed_mm_s": 9.07509323768786
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 10.5,
+    "velocity_relative_L2": 0.0007588192851171699,
+    "max_temperature_difference_K": 0.00025725222047867646,
+    "baseline_max_speed_mm_s": 8.89830162023538,
+    "refined_max_speed_mm_s": 8.8940513406149
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 11.0,
+    "velocity_relative_L2": 0.000841140226885121,
+    "max_temperature_difference_K": 0.00020076577033023568,
+    "baseline_max_speed_mm_s": 8.743396434905245,
+    "refined_max_speed_mm_s": 8.738487767124136
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 11.5,
+    "velocity_relative_L2": 0.0008725775560645349,
+    "max_temperature_difference_K": 0.00014671857303483193,
+    "baseline_max_speed_mm_s": 8.617034102782759,
+    "refined_max_speed_mm_s": 8.611851667519623
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 12.0,
+    "velocity_relative_L2": 0.0008906629827943584,
+    "max_temperature_difference_K": 9.802470191289103e-05,
+    "baseline_max_speed_mm_s": 8.519770013896705,
+    "refined_max_speed_mm_s": 8.51440843505915
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 12.5,
+    "velocity_relative_L2": 0.0007791729688617251,
+    "max_temperature_difference_K": 5.698723083469304e-05,
+    "baseline_max_speed_mm_s": 8.449264069609974,
+    "refined_max_speed_mm_s": 8.44455912015784
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 13.0,
+    "velocity_relative_L2": 0.0006866711607632956,
+    "max_temperature_difference_K": 6.108273606741932e-05,
+    "baseline_max_speed_mm_s": 8.402536096001079,
+    "refined_max_speed_mm_s": 8.39831998106333
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 13.5,
+    "velocity_relative_L2": 0.000549476682144987,
+    "max_temperature_difference_K": 7.780281339364592e-05,
+    "baseline_max_speed_mm_s": 8.375403328084158,
+    "refined_max_speed_mm_s": 8.371978122732111
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 14.0,
+    "velocity_relative_L2": 0.0004233431424603174,
+    "max_temperature_difference_K": 8.636256256977504e-05,
+    "baseline_max_speed_mm_s": 8.363674824305793,
+    "refined_max_speed_mm_s": 8.360966432071548
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 14.5,
+    "velocity_relative_L2": 0.0003051988049815918,
+    "max_temperature_difference_K": 8.773238613457579e-05,
+    "baseline_max_speed_mm_s": 8.363109581731402,
+    "refined_max_speed_mm_s": 8.36110910019714
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 15.0,
+    "velocity_relative_L2": 0.00019460339440550227,
+    "max_temperature_difference_K": 8.36097069054631e-05,
+    "baseline_max_speed_mm_s": 8.370375285472221,
+    "refined_max_speed_mm_s": 8.369032329061389
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 15.5,
+    "velocity_relative_L2": 0.00010123752643080606,
+    "max_temperature_difference_K": 7.554896836836633e-05,
+    "baseline_max_speed_mm_s": 8.382567417659116,
+    "refined_max_speed_mm_s": 8.381848533824325
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 16.0,
+    "velocity_relative_L2": 5.7034004330836914e-05,
+    "max_temperature_difference_K": 6.512189770546684e-05,
+    "baseline_max_speed_mm_s": 8.39719084325974,
+    "refined_max_speed_mm_s": 8.397005311219985
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 16.5,
+    "velocity_relative_L2": 8.2621205902348e-05,
+    "max_temperature_difference_K": 5.3633647667084006e-05,
+    "baseline_max_speed_mm_s": 8.412305529200475,
+    "refined_max_speed_mm_s": 8.412541848266958
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 17.0,
+    "velocity_relative_L2": 0.00010689002392187025,
+    "max_temperature_difference_K": 4.247693738079761e-05,
+    "baseline_max_speed_mm_s": 8.426467398341945,
+    "refined_max_speed_mm_s": 8.426948370237474
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 17.5,
+    "velocity_relative_L2": 0.00010830296971805056,
+    "max_temperature_difference_K": 3.263794343411064e-05,
+    "baseline_max_speed_mm_s": 8.438452074596915,
+    "refined_max_speed_mm_s": 8.438995962503249
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 18.0,
+    "velocity_relative_L2": 0.00010417603263949656,
+    "max_temperature_difference_K": 2.4714335779663088e-05,
+    "baseline_max_speed_mm_s": 8.448205769958962,
+    "refined_max_speed_mm_s": 8.448766794762145
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 18.5,
+    "velocity_relative_L2": 0.00011472289532851054,
+    "max_temperature_difference_K": 1.9287362476916314e-05,
+    "baseline_max_speed_mm_s": 8.455389918844274,
+    "refined_max_speed_mm_s": 8.456082230402005
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 19.0,
+    "velocity_relative_L2": 8.279568333304906e-05,
+    "max_temperature_difference_K": 1.7577420294401236e-05,
+    "baseline_max_speed_mm_s": 8.460090073454419,
+    "refined_max_speed_mm_s": 8.460560047768519
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 19.5,
+    "velocity_relative_L2": 8.336333848581566e-05,
+    "max_temperature_difference_K": 1.712944225573665e-05,
+    "baseline_max_speed_mm_s": 8.46256734692501,
+    "refined_max_speed_mm_s": 8.463142778006937
+  },
+  {
+    "solver": "ANSYS Fluent",
+    "time_s": 20.0,
+    "velocity_relative_L2": 7.102110582145987e-05,
+    "max_temperature_difference_K": 1.6759101754360017e-05,
+    "baseline_max_speed_mm_s": 8.463553585318945,
+    "refined_max_speed_mm_s": 8.464114472813643
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 0.0,
+    "velocity_relative_L2": 0.0,
+    "max_temperature_difference_K": 0.0,
+    "baseline_max_speed_mm_s": 0.00013302990604257108,
+    "refined_max_speed_mm_s": 0.00013302990604257108
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 0.5,
+    "velocity_relative_L2": 0.008117501693089921,
+    "max_temperature_difference_K": 0.001139519889022722,
+    "baseline_max_speed_mm_s": 1.3320321205037835,
+    "refined_max_speed_mm_s": 1.337568775579435
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 1.0,
+    "velocity_relative_L2": 0.00419675460400876,
+    "max_temperature_difference_K": 0.0005905408016246838,
+    "baseline_max_speed_mm_s": 2.4759448523144862,
+    "refined_max_speed_mm_s": 2.4815296614156233
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 1.5,
+    "velocity_relative_L2": 0.0028989919153165275,
+    "max_temperature_difference_K": 0.000409958918794473,
+    "baseline_max_speed_mm_s": 3.515048248788371,
+    "refined_max_speed_mm_s": 3.520613983899112
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 2.0,
+    "velocity_relative_L2": 0.0021096379047534867,
+    "max_temperature_difference_K": 0.0003256899142911607,
+    "baseline_max_speed_mm_s": 4.4817363170459465,
+    "refined_max_speed_mm_s": 4.487384411438123
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 2.5,
+    "velocity_relative_L2": 0.0014862390662043771,
+    "max_temperature_difference_K": 0.0002823080261009636,
+    "baseline_max_speed_mm_s": 5.347321498492516,
+    "refined_max_speed_mm_s": 5.352827262245769
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 3.0,
+    "velocity_relative_L2": 0.0010560912223017535,
+    "max_temperature_difference_K": 0.0002607325156986917,
+    "baseline_max_speed_mm_s": 6.153618524364934,
+    "refined_max_speed_mm_s": 6.159242818291435
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 3.5,
+    "velocity_relative_L2": 0.0008870305058325437,
+    "max_temperature_difference_K": 0.0002538172566914909,
+    "baseline_max_speed_mm_s": 6.902999095904769,
+    "refined_max_speed_mm_s": 6.90849806703046
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 4.0,
+    "velocity_relative_L2": 0.0009360835489947908,
+    "max_temperature_difference_K": 0.0002596115617166106,
+    "baseline_max_speed_mm_s": 7.556814480314344,
+    "refined_max_speed_mm_s": 7.56217154684926
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 4.5,
+    "velocity_relative_L2": 0.001066047199176662,
+    "max_temperature_difference_K": 0.000273539711884041,
+    "baseline_max_speed_mm_s": 8.144241310897826,
+    "refined_max_speed_mm_s": 8.150204122142322
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 5.0,
+    "velocity_relative_L2": 0.0011903975798671811,
+    "max_temperature_difference_K": 0.000293920174840423,
+    "baseline_max_speed_mm_s": 8.692586421941058,
+    "refined_max_speed_mm_s": 8.699136460142988
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 5.5,
+    "velocity_relative_L2": 0.0012758953035300056,
+    "max_temperature_difference_K": 0.00031793657262824127,
+    "baseline_max_speed_mm_s": 9.152051776728632,
+    "refined_max_speed_mm_s": 9.159652549367031
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 6.0,
+    "velocity_relative_L2": 0.001305296677486089,
+    "max_temperature_difference_K": 0.000343750844308488,
+    "baseline_max_speed_mm_s": 9.516094299749854,
+    "refined_max_speed_mm_s": 9.52523076420605
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 6.5,
+    "velocity_relative_L2": 0.0012643983509618183,
+    "max_temperature_difference_K": 0.00036855479402220226,
+    "baseline_max_speed_mm_s": 9.770859023002988,
+    "refined_max_speed_mm_s": 9.78107455321948
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 7.0,
+    "velocity_relative_L2": 0.0011451664957478425,
+    "max_temperature_difference_K": 0.0003907448748918796,
+    "baseline_max_speed_mm_s": 9.900264855457351,
+    "refined_max_speed_mm_s": 9.910596635383612
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 7.5,
+    "velocity_relative_L2": 0.0009517340574321802,
+    "max_temperature_difference_K": 0.0004112430492000385,
+    "baseline_max_speed_mm_s": 9.909039736197142,
+    "refined_max_speed_mm_s": 9.918275177705707
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 8.0,
+    "velocity_relative_L2": 0.0007030175043986958,
+    "max_temperature_difference_K": 0.00042478255363676,
+    "baseline_max_speed_mm_s": 9.816921795035363,
+    "refined_max_speed_mm_s": 9.823985259660693
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 8.5,
+    "velocity_relative_L2": 0.00043781037322480806,
+    "max_temperature_difference_K": 0.0004163467954185762,
+    "baseline_max_speed_mm_s": 9.656788558946301,
+    "refined_max_speed_mm_s": 9.66127142222591
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 9.0,
+    "velocity_relative_L2": 0.00026447121890348747,
+    "max_temperature_difference_K": 0.0003941083481890928,
+    "baseline_max_speed_mm_s": 9.475912745596526,
+    "refined_max_speed_mm_s": 9.477692481850381
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 9.5,
+    "velocity_relative_L2": 0.0003660537550086693,
+    "max_temperature_difference_K": 0.00035939642611992895,
+    "baseline_max_speed_mm_s": 9.277030945127061,
+    "refined_max_speed_mm_s": 9.276341449421384
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 10.0,
+    "velocity_relative_L2": 0.0005718487628803426,
+    "max_temperature_difference_K": 0.0003121516766100285,
+    "baseline_max_speed_mm_s": 9.080594374949413,
+    "refined_max_speed_mm_s": 9.077883362671606
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 10.5,
+    "velocity_relative_L2": 0.000747426583716711,
+    "max_temperature_difference_K": 0.00025821593254704567,
+    "baseline_max_speed_mm_s": 8.900641490869328,
+    "refined_max_speed_mm_s": 8.896481351923065
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 11.0,
+    "velocity_relative_L2": 0.000861435510789209,
+    "max_temperature_difference_K": 0.00020204483894303849,
+    "baseline_max_speed_mm_s": 8.7455763488079,
+    "refined_max_speed_mm_s": 8.740540605161552
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 11.5,
+    "velocity_relative_L2": 0.0009072704523882882,
+    "max_temperature_difference_K": 0.00014797139749589405,
+    "baseline_max_speed_mm_s": 8.619119362861131,
+    "refined_max_speed_mm_s": 8.613721340479628
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 12.0,
+    "velocity_relative_L2": 0.000889447410146223,
+    "max_temperature_difference_K": 9.898310872813454e-05,
+    "baseline_max_speed_mm_s": 8.521587330410219,
+    "refined_max_speed_mm_s": 8.51624953021404
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 12.5,
+    "velocity_relative_L2": 0.0008191472076541832,
+    "max_temperature_difference_K": 5.714211971508121e-05,
+    "baseline_max_speed_mm_s": 8.451031028286016,
+    "refined_max_speed_mm_s": 8.44607586658448
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 13.0,
+    "velocity_relative_L2": 0.0007110349018607016,
+    "max_temperature_difference_K": 6.178498955478062e-05,
+    "baseline_max_speed_mm_s": 8.404142221100896,
+    "refined_max_speed_mm_s": 8.399792053899105
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 13.5,
+    "velocity_relative_L2": 0.0005806496705305247,
+    "max_temperature_difference_K": 7.93360575812585e-05,
+    "baseline_max_speed_mm_s": 8.376952971084364,
+    "refined_max_speed_mm_s": 8.37334237680814
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 14.0,
+    "velocity_relative_L2": 0.0004424700598148044,
+    "max_temperature_difference_K": 8.847150780866286e-05,
+    "baseline_max_speed_mm_s": 8.36531418741314,
+    "refined_max_speed_mm_s": 8.362500556344946
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 14.5,
+    "velocity_relative_L2": 0.0003088336134701255,
+    "max_temperature_difference_K": 8.993805010959477e-05,
+    "baseline_max_speed_mm_s": 8.365240033983696,
+    "refined_max_speed_mm_s": 8.363219577581763
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 15.0,
+    "velocity_relative_L2": 0.0001899635493280618,
+    "max_temperature_difference_K": 8.54317995049314e-05,
+    "baseline_max_speed_mm_s": 8.373113344555856,
+    "refined_max_speed_mm_s": 8.371825318223706
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 15.5,
+    "velocity_relative_L2": 9.724848818873668e-05,
+    "max_temperature_difference_K": 7.680823279088145e-05,
+    "baseline_max_speed_mm_s": 8.385834048097324,
+    "refined_max_speed_mm_s": 8.385189643756918
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 16.0,
+    "velocity_relative_L2": 6.208013598907741e-05,
+    "max_temperature_difference_K": 6.572117382575016e-05,
+    "baseline_max_speed_mm_s": 8.400865401412549,
+    "refined_max_speed_mm_s": 8.40075271952928
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 16.5,
+    "velocity_relative_L2": 9.185797710563559e-05,
+    "max_temperature_difference_K": 5.383007089676539e-05,
+    "baseline_max_speed_mm_s": 8.416244772316793,
+    "refined_max_speed_mm_s": 8.416541501828467
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 17.0,
+    "velocity_relative_L2": 0.00012371772059776375,
+    "max_temperature_difference_K": 4.2245634801929555e-05,
+    "baseline_max_speed_mm_s": 8.43055866812499,
+    "refined_max_speed_mm_s": 8.4311425131139
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 17.5,
+    "velocity_relative_L2": 0.0001414538381631005,
+    "max_temperature_difference_K": 3.182762554843066e-05,
+    "baseline_max_speed_mm_s": 8.442887578023102,
+    "refined_max_speed_mm_s": 8.443644515162125
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 18.0,
+    "velocity_relative_L2": 0.0001450081967678118,
+    "max_temperature_difference_K": 2.348522889406013e-05,
+    "baseline_max_speed_mm_s": 8.452733673095754,
+    "refined_max_speed_mm_s": 8.453563970049347
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 18.5,
+    "velocity_relative_L2": 0.00013701420116433107,
+    "max_temperature_difference_K": 1.893456879997757e-05,
+    "baseline_max_speed_mm_s": 8.459939207059676,
+    "refined_max_speed_mm_s": 8.460761346549036
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 19.0,
+    "velocity_relative_L2": 0.00012069694454307511,
+    "max_temperature_difference_K": 1.8052678001367894e-05,
+    "baseline_max_speed_mm_s": 8.464603040660988,
+    "refined_max_speed_mm_s": 8.4653554226432
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 19.5,
+    "velocity_relative_L2": 9.925761755411356e-05,
+    "max_temperature_difference_K": 1.7990896367336973e-05,
+    "baseline_max_speed_mm_s": 8.467000778994612,
+    "refined_max_speed_mm_s": 8.467641641019672
+  },
+  {
+    "solver": "OpenFOAM",
+    "time_s": 20.0,
+    "velocity_relative_L2": 7.561202743896574e-05,
+    "max_temperature_difference_K": 1.9511185485043825e-05,
+    "baseline_max_speed_mm_s": 8.467513680545135,
+    "refined_max_speed_mm_s": 8.468019572309483
+  }
+]

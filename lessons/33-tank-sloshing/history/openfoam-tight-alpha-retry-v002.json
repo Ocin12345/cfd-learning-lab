@@ -1,0 +1,46 @@
+{
+  "original": "openfoam",
+  "retry": "openfoam-v002",
+  "question": "Does a tighter implicit alpha equation tolerance remove the small bound exceedances?",
+  "hypothesis_not_proven": true,
+  "change": {
+    "alpha_linear_tolerance": [
+      1e-08,
+      1e-11
+    ]
+  },
+  "unchanged": [
+    "geometry",
+    "mesh",
+    "initial fields",
+    "material properties",
+    "dt=0.0005 s",
+    "2400 steps",
+    "121 saved states",
+    "MULES controls",
+    "pressure and velocity controls",
+    "acceptance limits"
+  ],
+  "alpha_bound_tolerance": 1e-06,
+  "original_audit": "E:\\CFD-Learning-Lab\\local\\sloshing-production-v001\\openfoam-production-audit-v001-complete.json",
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\0\\alpha.water": "79ac6d26f5a289182cd8d559fcd846ffbfb01a0f216353573c3826d4ceccad4c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\0\\U": "274c268e6d8135f3dc4074b412a20635a2408887b78e1f725ffa4e2cd15c5abc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\0\\p_rgh": "cb9c0ebeff4444a13b76b2fae8120a2d671981079bdc8222de073a86cbb02dca",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\constant\\g": "12788724ae6dd6bf8a24fb8c933432292425cc441be76997f240025f1f3be5ea",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\constant\\momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\constant\\phaseProperties": "6303f75313d4b58415289b1b12cc423b89e8b3cabb89d76ccaecf6054f281cad",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\constant\\physicalProperties.air": "efe2d97ed19e30223baa01cfac8c24125a1914a4f4d9dc303d5ab237cec4cace",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\constant\\physicalProperties.water": "6c51b23a33b2acbc4f29469885ec9a46e51b8b09e57936d6ec6b5bcba10bd415",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\system\\blockMeshDict": "36a75da990ee26ad5d1a842dbf2911f3ce807e6d87cbd95c8640978c3c18ba44",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\system\\controlDict": "d4106211aae5bbc42555776077252d4e66969699703897699382f70d83986bce",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\system\\fvSchemes": "626aa0524a43d379fd5ba3f63e1007c2f290912bcda9d0c05673cec1165568c7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\system\\fvSolution": "e257cc792328f9e46f2b5256897c1df4e8608515d64d8cda21bc83078c065d2d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-production-v001\\openfoam-v002\\system\\decomposeParDict": "997ffc1e183174dd42737a7854640d4b4b353d79439439c76cb38374e6297472"
+  },
+  "wrapper_sha256": "0e49ff44663925b58ecadad08e34cd06804265bb5fa91ceeba526e66523310d8",
+  "source_documentation": [
+    "https://doc.cfd.direct/openfoam/user-guide-v14/dambreak",
+    "https://cpp.openfoam.org/v14/structFoam_1_1MULES_1_1control.html"
+  ]
+}

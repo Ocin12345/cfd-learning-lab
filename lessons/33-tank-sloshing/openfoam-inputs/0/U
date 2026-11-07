@@ -1,0 +1,8 @@
+FoamFile { version 2.0; format ascii; class volVectorField; object U; }
+dimensions [velocity];
+        internalField uniform (0 0 0);
+        boundaryField
+        {
+            tankWalls { type noSlip; }
+            frontAndBack { type empty; }
+        }

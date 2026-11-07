@@ -1,0 +1,16 @@
+{
+  "fluent_report_definition": "flux-massflow; phase mixture; native report-file convention inward-positive",
+  "fluent_outward_conversion": "outward_mass_rate=-reported_mass_rate",
+  "fluent_internal_face_flux_note": "F_FLUX is outward-positive, opposite to GUI/flux-report values; the dam-break integrator consumes the report file, not F_FLUX.",
+  "primary_reference": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/flu_udf/flu_udf_DataAccessMacros.html",
+  "independent_previous_report_reference": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\results\\nozzle-v001\\selected-fluent\\fluent-checks.json",
+  "reference_sha256": "e922e6f40c6467f315642a0fdcac2b3fdc6999ac183c6f14f6c325c57821e640",
+  "reference_inlet_value": 37.076488,
+  "reference_outlet_value": -37.079825,
+  "reference_report_and_monitor_agree": true,
+  "reference_residual_miss_not_relabelled": true,
+  "scope": "Sign convention only; no nozzle or dam-break physical validation",
+  "openfoam_conversion": "orientedSum(rhoPhi) outward-positive, divided by0.0146m depth",
+  "inventory_balance": "M(t)-M(0)+dt*sum(outward_mass_rate at each step)",
+  "physical_validation": false
+}

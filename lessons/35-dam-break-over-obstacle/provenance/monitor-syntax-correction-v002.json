@@ -1,0 +1,14 @@
+{
+  "original_case": "E:/CFD-Learning-Lab/native/runs/dam-break-over-obstacle-v001/qualification/openfoam-flat",
+  "original_steps_completed": 0,
+  "original_outcome": "native monitor construction failed",
+  "root_cause": "Foundation14 surfaceFieldValue selects patch via patch entry, not regionType/name.",
+  "source_evidence": "/opt/openfoam14/src/functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValue.H",
+  "corrections": [
+    "Use patch atmosphere and orientedSum for native flux",
+    "Use installed tutorial-compatible U/UFinal solver pattern"
+  ],
+  "physics_mesh_initial_fields_and_acceptance_limits_unchanged": true,
+  "originals_preserved": true,
+  "retry_not_yet_run": true
+}

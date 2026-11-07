@@ -1,0 +1,24 @@
+{
+  "case_mode": "production",
+  "initial_tilt": 0.025,
+  "mean_water_height_m": 0.05,
+  "cells": [
+    160,
+    80
+  ],
+  "cell_count": 12800,
+  "dx_m": 0.00125,
+  "dt_s": 0.0005,
+  "steps": 2400,
+  "frame_interval": 20,
+  "duration_s": 1.2,
+  "outer_correctors": 8,
+  "momentum_predictor": true,
+  "alpha_linear_tolerance": 1e-11,
+  "pressure_linear_tolerance": 1e-10,
+  "pressure_reference_point_m": [
+    0.199375,
+    0.099375,
+    0.005
+  ]
+}

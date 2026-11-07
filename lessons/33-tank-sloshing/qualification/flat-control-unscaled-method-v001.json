@@ -1,0 +1,32 @@
+{
+  "scope": "Flat-water control only; dynamic tilted-flow targets unchanged",
+  "reason": "The previous 400-iteration last-step replay produced identical native U, pressure and water fraction with very small unscaled balances; scaled quiet-flow velocity denominators are near zero.",
+  "original_scaled_control": "fluent-flat-v004 remains MISS and is not reclassified",
+  "unchanged": [
+    "80x40 mesh",
+    "physical models and material properties",
+    "initial fractions and zero velocity",
+    "dt=0.0005 s",
+    "40 time steps",
+    "400 fixed inner iterations per step",
+    "alpha, volume, quiet-motion and Courant limits"
+  ],
+  "reporting": {
+    "normalize": false,
+    "scale_residuals": false
+  },
+  "unscaled_terminal_residual_limits": {
+    "continuity": 1e-12,
+    "x-velocity": 1e-10,
+    "y-velocity": 1e-10
+  },
+  "interpretation": "Limits apply to native Fluent unscaled residual values, not cross-code normalized residuals. They establish a numerically quiet control; they do not establish sloshing accuracy or validation.",
+  "replay_evidence": "E:\\CFD-Learning-Lab\\local\\sloshing-tank-v001\\last-step-residual-comparison-v001.json",
+  "replay_sha256": "b83cb7daa816ba12f330cc8b862bc54c9724020a3352174d24a1587f30e16b92",
+  "acceptance": "All 40 terminal residual vectors pass explicit raw limits, all 400 new iteration rows per step present, plus all original field and Courant checks.",
+  "further_requirements": [
+    "OpenFOAM flat-water control",
+    "Tilted qualification in both solvers",
+    "Only then production and actual moving-water visuals"
+  ]
+}

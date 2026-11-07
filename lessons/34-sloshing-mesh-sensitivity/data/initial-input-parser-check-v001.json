@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "mode": "flat",
+      "cells": 12800,
+      "water_area_m2": 0.01
+    },
+    {
+      "mode": "tilted",
+      "cells": 12800,
+      "water_area_m2": 0.01
+    },
+    {
+      "mode": "production",
+      "cells": 12800,
+      "water_area_m2": 0.01
+    }
+  ],
+  "solver_launched": false
+}

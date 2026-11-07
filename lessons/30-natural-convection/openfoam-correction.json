@@ -1,0 +1,11 @@
+{
+  "parent": "E:\\CFD-Learning-Lab\\native\\runs\\natural-convection-cavity-48-v001\\openfoam",
+  "change": "Only PIMPLE outer correctors increased from 6 to 16; same mesh, dt, physical inputs, initial fields and linear-solver tolerances.",
+  "reason": "First six startup steps missed the predeclared final-outer initial-residual targets",
+  "targets_unchanged": {
+    "Ux": 1e-06,
+    "Uy": 1e-06,
+    "h": 1e-08,
+    "p_rgh": 1e-06
+  }
+}

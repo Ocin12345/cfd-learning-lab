@@ -1,0 +1,781 @@
+{
+  "specification": {
+    "model": "closed ideal-gas natural-convection cavity qualification",
+    "length_m": 0.05,
+    "cells": 576,
+    "n": 24,
+    "initial_T_K": 300.0,
+    "hot_K": 300.4,
+    "cold_K": 299.6,
+    "initial_absolute_pressure_Pa": 101325.0,
+    "molecular_weight_kg_kmol": 28.97,
+    "gas_constant_J_kgK": 287.0028467801174,
+    "cp_J_kgK": 1005.0,
+    "mu_Pas": 1.8e-05,
+    "k_W_mK": 0.025478873239436622,
+    "Pr": 0.71,
+    "nominal_Ra": 9923.831862996178,
+    "gravity_m_s2": [
+      0,
+      -9.81
+    ],
+    "control_iterations": 300,
+    "heated_steps": 50,
+    "dt_s": 0.02,
+    "fluent_max_inner": 100,
+    "openfoam_outer_correctors": 4,
+    "openfoam_pressure_correctors": 2,
+    "all_walls_stationary_no_slip": true,
+    "top_bottom_adiabatic_during_heating": true,
+    "ideal_gas_not_strict_boussinesq": true,
+    "qualification_only": true,
+    "physical_validation": false,
+    "full_formulation_matching_pending": true,
+    "control_max_speed_target": 1e-05,
+    "control_max_temperature_deviation_K": 0.0001,
+    "closed_mass_relative_drift_target": 1e-05,
+    "equation_of_state_relative_error_target": 1e-06
+  },
+  "records": [
+    {
+      "solver": "ANSYS Fluent",
+      "time_s": 0,
+      "max_speed_m_s": 2.2916081082873902e-07,
+      "min_T_K": 299.9999999999991,
+      "max_T_K": 300.0000000000001,
+      "mass_per_depth_kg_m": 0.0029420359573771124,
+      "eos_relative_error": 3.3306690738754696e-16,
+      "relative_mass_drift_from_heating_start": 0.0
+    },
+    {
+      "solver": "OpenFOAM",
+      "time_s": 0,
+      "max_speed_m_s": 1.8667523573161507e-07,
+      "min_T_K": 300.0000000335456,
+      "max_T_K": 300.0000078082769,
+      "mass_per_depth_kg_m": 0.0029420439883194164,
+      "eos_relative_error": 3.3306690738754696e-16,
+      "relative_mass_drift_from_heating_start": 0.0
+    },
+    {
+      "solver": "ANSYS Fluent",
+      "time_s": 0.2,
+      "max_speed_m_s": 0.0005997500381442135,
+      "min_T_K": 299.72969172357193,
+      "max_T_K": 300.27042446057055,
+      "mass_per_depth_kg_m": 0.0029420360415233237,
+      "eos_relative_error": 3.3306690738754696e-16,
+      "relative_mass_drift_from_heating_start": 2.8601353729840184e-08
+    },
+    {
+      "solver": "OpenFOAM",
+      "time_s": 0.2,
+      "max_speed_m_s": 0.0005995990765482688,
+      "min_T_K": 299.7296779708035,
+      "max_T_K": 300.2704396341674,
+      "mass_per_depth_kg_m": 0.002942043988319417,
+      "eos_relative_error": 1.1102230246251565e-15,
+      "relative_mass_drift_from_heating_start": 2.220446049250313e-16
+    },
+    {
+      "solver": "ANSYS Fluent",
+      "time_s": 0.4,
+      "max_speed_m_s": 0.0010384783528450603,
+      "min_T_K": 299.68367876872594,
+      "max_T_K": 300.31639103126764,
+      "mass_per_depth_kg_m": 0.002942036124584911,
+      "eos_relative_error": 3.3306690738754696e-16,
+      "relative_mass_drift_from_heating_start": 5.6834043027365055e-08
+    },
+    {
+      "solver": "OpenFOAM",
+      "time_s": 0.4,
+      "max_speed_m_s": 0.0010385364154174555,
+      "min_T_K": 299.6837385048069,
+      "max_T_K": 300.3163239088538,
+      "mass_per_depth_kg_m": 0.002942043988319417,
+      "eos_relative_error": 1.1102230246251565e-15,
+      "relative_mass_drift_from_heating_start": 2.220446049250313e-16
+    },
+    {
+      "solver": "ANSYS Fluent",
+      "time_s": 0.6,
+      "max_speed_m_s": 0.0015397963129618678,
+      "min_T_K": 299.6658289489486,
+      "max_T_K": 300.33422022526173,
+      "mass_per_depth_kg_m": 0.00294203618234897,
+      "eos_relative_error": 3.3306690738754696e-16,
+      "relative_mass_drift_from_heating_start": 7.646808564132357e-08
+    },
+    {
+      "solver": "OpenFOAM",
+      "time_s": 0.6,
+      "max_speed_m_s": 0.0015387178890923269,
+      "min_T_K": 299.6659135159817,
+      "max_T_K": 300.3341286712763,
+      "mass_per_depth_kg_m": 0.002942043988319417,
+      "eos_relative_error": 1.1102230246251565e-15,
+      "relative_mass_drift_from_heating_start": 2.220446049250313e-16
+    },
+    {
+      "solver": "ANSYS Fluent",
+      "time_s": 0.8,
+      "max_speed_m_s": 0.0020709021499449574,
+      "min_T_K": 299.65560723318123,
+      "max_T_K": 300.34443150874233,
+      "mass_per_depth_kg_m": 0.0029420362285963522,
+      "eos_relative_error": 3.3306690738754696e-16,
+      "relative_mass_drift_from_heating_start": 9.218760199658504e-08
+    },
+    {
+      "solver": "OpenFOAM",
+      "time_s": 0.8,
+      "max_speed_m_s": 0.0020686699127410143,
+      "min_T_K": 299.6556988001697,
+      "max_T_K": 300.3443336789492,
+      "mass_per_depth_kg_m": 0.002942043988319417,
+      "eos_relative_error": 1.1102230246251565e-15,
+      "relative_mass_drift_from_heating_start": 2.220446049250313e-16
+    },
+    {
+      "solver": "ANSYS Fluent",
+      "time_s": 1.0,
+      "max_speed_m_s": 0.0025384005756841003,
+      "min_T_K": 299.64867865135597,
+      "max_T_K": 300.35135345431286,
+      "mass_per_depth_kg_m": 0.0029420362683202812,
+      "eos_relative_error": 3.3306690738754696e-16,
+      "relative_mass_drift_from_heating_start": 1.056897920292954e-07
+    },
+    {
+      "solver": "OpenFOAM",
+      "time_s": 1.0,
+      "max_speed_m_s": 0.0025348224818923398,
+      "min_T_K": 299.6487339751624,
+      "max_T_K": 300.3512949447085,
+      "mass_per_depth_kg_m": 0.0029420439883194164,
+      "eos_relative_error": 1.1102230246251565e-15,
+      "relative_mass_drift_from_heating_start": 0.0
+    }
+  ],
+  "mapping": "Every snapshot mapped by native vertices; unique grid slots checked",
+  "full_equation_equivalence_confirmed": false,
+  "energy_limitation": "OpenFOAM includes explicit rho U dot g; exact Fluent counterpart remains to be established. No quantitative solver-equivalence claim.",
+  "physical_validation": false,
+  "fluent_final_residuals": {
+    "actual_terminal_iteration": 1388,
+    "terminal_scaled_residuals": {
+      "continuity": 6.49616163230703e-09,
+      "energy": 5.552344648937796e-13,
+      "x-velocity": 9.81000861068767e-07,
+      "y-velocity": 6.409821928914408e-07
+    },
+    "operating_pressure_Pa": 101325.0,
+    "initialized_only_data_refused": true
+  },
+  "openfoam_final_density_source": "native rho",
+  "heated_checks": {
+    "ANSYS Fluent": {
+      "finite": true,
+      "temperature_bounded": true,
+      "mass": true,
+      "eos": true
+    },
+    "OpenFOAM": {
+      "finite": true,
+      "temperature_bounded": true,
+      "mass": true,
+      "eos": true
+    }
+  },
+  "openfoam_final_step_log": "\nPIMPLE: Iteration 1\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\nDILUPBiCGStab:  Solving for Ux, Initial residual = 0.01265194760303023, Final residual = 7.604956635382021e-11, No Iterations 3\nDILUPBiCGStab:  Solving for Uy, Initial residual = 0.01133158652040024, Final residual = 4.528490050495452e-11, No Iterations 3\nDILUPBiCGStab:  Solving for h, Initial residual = 0.004918869104611901, Final residual = 2.97099151218029e-11, No Iterations 3\nDICPCG:  Solving for p_rgh, Initial residual = 0.006473614733515484, Final residual = 9.392070891321473e-11, No Iterations 60\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\ntime step continuity errors : sum local = 4.079568287728801e-12, global = -5.595441246763501e-13, cumulative = -1.407191255912958e-11\nDICPCG:  Solving for p_rgh, Initial residual = 7.88515193073195e-05, Final residual = 6.321644530512497e-11, No Iterations 57\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\ntime step continuity errors : sum local = 5.857437703956275e-14, global = -1.539594839783565e-17, cumulative = -1.407192795507798e-11\nPIMPLE: Iteration 2\nDILUPBiCGStab:  Solving for Ux, Initial residual = 3.145788497192761e-05, Final residual = 1.450884909787203e-11, No Iterations 2\nDILUPBiCGStab:  Solving for Uy, Initial residual = 3.881943621924154e-05, Final residual = 1.238567657647308e-11, No Iterations 2\nDILUPBiCGStab:  Solving for h, Initial residual = 1.281389121468898e-05, Final residual = 1.202970956954877e-11, No Iterations 2\nDICPCG:  Solving for p_rgh, Initial residual = 0.0002367103458997672, Final residual = 7.887784489623039e-11, No Iterations 57\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\ntime step continuity errors : sum local = 7.750746268843976e-14, global = -1.345900706002649e-14, cumulative = -1.408538696213801e-11\nDICPCG:  Solving for p_rgh, Initial residual = 2.927575490796492e-05, Final residual = 7.923241330256704e-11, No Iterations 36\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\ntime step continuity errors : sum local = 7.337971065097311e-14, global = -1.05963433781424e-14, cumulative = -1.409598330551615e-11\nPIMPLE: Iteration 3\nDILUPBiCGStab:  Solving for Ux, Initial residual = 7.853980419365619e-07, Final residual = 4.228087074973305e-12, No Iterations 2\nDILUPBiCGStab:  Solving for Uy, Initial residual = 6.211510573369658e-07, Final residual = 5.018007080697161e-11, No Iterations 1\nDILUPBiCGStab:  Solving for h, Initial residual = 4.04442243097833e-08, Final residual = 7.50086222260293e-12, No Iterations 1\nDICPCG:  Solving for p_rgh, Initial residual = 6.017213363716146e-06, Final residual = 4.983753677852503e-11, No Iterations 53\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\ntime step continuity errors : sum local = 4.613412316075378e-14, global = -2.620586961338472e-18, cumulative = -1.409598592610311e-11\nDICPCG:  Solving for p_rgh, Initial residual = 5.188290518881715e-07, Final residual = 9.562921973021575e-11, No Iterations 21\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\ntime step continuity errors : sum local = 8.856437422503605e-14, global = -1.80165353591539e-17, cumulative = -1.409600394263847e-11\nPIMPLE: Iteration 4\nDILUPBiCGStab:  Solving for Ux, Initial residual = 3.278766127843637e-08, Final residual = 3.641820908774629e-12, No Iterations 1\nDILUPBiCGStab:  Solving for Uy, Initial residual = 3.144385273490402e-08, Final residual = 1.594932095764275e-12, No Iterations 1\nDILUPBiCGStab:  Solving for h, Initial residual = 2.76337947219627e-09, Final residual = 3.710478400996953e-11, No Iterations 1\nDICPCG:  Solving for p_rgh, Initial residual = 2.747011367546306e-07, Final residual = 7.91724805546433e-11, No Iterations 49\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\ntime step continuity errors : sum local = 7.330076546876297e-14, global = -1.605109513814956e-17, cumulative = -1.409601999373361e-11\nDICPCG:  Solving for p_rgh, Initial residual = 2.253619520954108e-08, Final residual = 9.542462941741524e-11, No Iterations 9\ndiagonal:  Solving for rho, Initial residual = 0, Final residual = 0, No Iterations 0\ntime step continuity errors : sum local = 8.83894500453673e-14, global = -7.534187513814556e-18, cumulative = -1.409602752792112e-11\nExecutionTime = 0.985541 s  ClockTime = 44 s\n\nEnd\n\nFinalising parallel run\n",
+  "openfoam_last_outer_initial_residuals": {
+    "Ux": 3.278766127843637e-08,
+    "Uy": 3.144385273490402e-08,
+    "h": 2.76337947219627e-09,
+    "p_rgh": 2.253619520954108e-08,
+    "rho": 0.0
+  },
+  "earlier_fluent_v002_image_export_failure_recovered": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-natural-convection-native-v001\\export-record.json",
+  "final_comparison": {
+    "temperature_max_difference_K": 0.00024119405566125351,
+    "velocity_relative_L2_difference": 0.008969467172858623
+  },
+  "fluent_strict_final_residual_checks": {
+    "continuity": true,
+    "energy": true,
+    "x-velocity": true,
+    "y-velocity": true
+  },
+  "fluent_all_step_checks": [
+    {
+      "time_s": 0.02,
+      "step": 1,
+      "residuals": {
+        "continuity": 4.0105e-10,
+        "x-velocity": 8.6673e-07,
+        "y-velocity": 1.2062e-07,
+        "energy": 1.8466e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.04,
+      "step": 2,
+      "residuals": {
+        "continuity": 1.2512e-09,
+        "x-velocity": 9.1556e-07,
+        "y-velocity": 1.3716e-07,
+        "energy": 6.1019e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.06,
+      "step": 3,
+      "residuals": {
+        "continuity": 2.0085e-09,
+        "x-velocity": 8.4693e-07,
+        "y-velocity": 2.8364e-07,
+        "energy": 9.7942e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.08,
+      "step": 4,
+      "residuals": {
+        "continuity": 2.6085e-09,
+        "x-velocity": 7.89e-07,
+        "y-velocity": 2.5931e-07,
+        "energy": 1.2645e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.1,
+      "step": 5,
+      "residuals": {
+        "continuity": 2.9959e-09,
+        "x-velocity": 7.4352e-07,
+        "y-velocity": 2.4508e-07,
+        "energy": 1.4531e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.12,
+      "step": 6,
+      "residuals": {
+        "continuity": 3.2851e-09,
+        "x-velocity": 7.4257e-07,
+        "y-velocity": 2.4485e-07,
+        "energy": 8.344e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.14,
+      "step": 7,
+      "residuals": {
+        "continuity": 3.3465e-09,
+        "x-velocity": 7.7076e-07,
+        "y-velocity": 2.5905e-07,
+        "energy": 1.6138e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.16,
+      "step": 8,
+      "residuals": {
+        "continuity": 3.3594e-09,
+        "x-velocity": 8.2585e-07,
+        "y-velocity": 2.826e-07,
+        "energy": 1.6125e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.18,
+      "step": 9,
+      "residuals": {
+        "continuity": 3.3321e-09,
+        "x-velocity": 9.1085e-07,
+        "y-velocity": 3.2123e-07,
+        "energy": 1.5905e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.2,
+      "step": 10,
+      "residuals": {
+        "continuity": 3.2211e-09,
+        "x-velocity": 7.2604e-07,
+        "y-velocity": 2.6269e-07,
+        "energy": 1.5453e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.22,
+      "step": 11,
+      "residuals": {
+        "continuity": 3.1493e-09,
+        "x-velocity": 8.4311e-07,
+        "y-velocity": 3.1254e-07,
+        "energy": 1.4797e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.24,
+      "step": 12,
+      "residuals": {
+        "continuity": 3.0168e-09,
+        "x-velocity": 7.0043e-07,
+        "y-velocity": 2.6775e-07,
+        "energy": 1.4164e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.26,
+      "step": 13,
+      "residuals": {
+        "continuity": 2.9544e-09,
+        "x-velocity": 8.4169e-07,
+        "y-velocity": 3.2904e-07,
+        "energy": 1.3572e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.28,
+      "step": 14,
+      "residuals": {
+        "continuity": 2.8193e-09,
+        "x-velocity": 7.1991e-07,
+        "y-velocity": 2.8928e-07,
+        "energy": 1.2975e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.3,
+      "step": 15,
+      "residuals": {
+        "continuity": 2.8055e-09,
+        "x-velocity": 8.919e-07,
+        "y-velocity": 3.6923e-07,
+        "energy": 1.2529e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.32,
+      "step": 16,
+      "residuals": {
+        "continuity": 2.689e-09,
+        "x-velocity": 7.7898e-07,
+        "y-velocity": 3.3308e-07,
+        "energy": 1.1973e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.34,
+      "step": 17,
+      "residuals": {
+        "continuity": 2.7299e-09,
+        "x-velocity": 9.8275e-07,
+        "y-velocity": 4.2391e-07,
+        "energy": 1.1458e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.36,
+      "step": 18,
+      "residuals": {
+        "continuity": 2.6368e-09,
+        "x-velocity": 8.7861e-07,
+        "y-velocity": 3.8923e-07,
+        "energy": 1.0925e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.38,
+      "step": 19,
+      "residuals": {
+        "continuity": 2.545e-09,
+        "x-velocity": 7.8918e-07,
+        "y-velocity": 3.5362e-07,
+        "energy": 1.0466e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.4,
+      "step": 20,
+      "residuals": {
+        "continuity": 2.4572e-09,
+        "x-velocity": 7.1041e-07,
+        "y-velocity": 3.2481e-07,
+        "energy": 1.0024e-12
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.42,
+      "step": 21,
+      "residuals": {
+        "continuity": 2.7055e-09,
+        "x-velocity": 9.1274e-07,
+        "y-velocity": 4.2887e-07,
+        "energy": 9.7688e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.44,
+      "step": 22,
+      "residuals": {
+        "continuity": 2.4913e-09,
+        "x-velocity": 8.388e-07,
+        "y-velocity": 4.0012e-07,
+        "energy": 9.3548e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.46,
+      "step": 23,
+      "residuals": {
+        "continuity": 2.4568e-09,
+        "x-velocity": 7.6743e-07,
+        "y-velocity": 3.7151e-07,
+        "energy": 9.1271e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.48,
+      "step": 24,
+      "residuals": {
+        "continuity": 2.3515e-09,
+        "x-velocity": 7.0308e-07,
+        "y-velocity": 3.4594e-07,
+        "energy": 8.8458e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.5,
+      "step": 25,
+      "residuals": {
+        "continuity": 2.6889e-09,
+        "x-velocity": 9.2742e-07,
+        "y-velocity": 4.6405e-07,
+        "energy": 8.5556e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.52,
+      "step": 26,
+      "residuals": {
+        "continuity": 2.71e-09,
+        "x-velocity": 8.5769e-07,
+        "y-velocity": 4.3207e-07,
+        "energy": 8.3758e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.54,
+      "step": 27,
+      "residuals": {
+        "continuity": 2.6825e-09,
+        "x-velocity": 7.9349e-07,
+        "y-velocity": 4.0884e-07,
+        "energy": 8.1539e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.56,
+      "step": 28,
+      "residuals": {
+        "continuity": 2.6154e-09,
+        "x-velocity": 7.395e-07,
+        "y-velocity": 3.8302e-07,
+        "energy": 7.9725e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.5800000000000001,
+      "step": 29,
+      "residuals": {
+        "continuity": 3.2098e-09,
+        "x-velocity": 9.8965e-07,
+        "y-velocity": 5.196e-07,
+        "energy": 7.8105e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.6000000000000001,
+      "step": 30,
+      "residuals": {
+        "continuity": 3.088e-09,
+        "x-velocity": 9.2155e-07,
+        "y-velocity": 4.9235e-07,
+        "energy": 7.5697e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.6200000000000001,
+      "step": 31,
+      "residuals": {
+        "continuity": 3.1122e-09,
+        "x-velocity": 8.6577e-07,
+        "y-velocity": 4.7036e-07,
+        "energy": 5.8527e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.6400000000000001,
+      "step": 32,
+      "residuals": {
+        "continuity": 3.0512e-09,
+        "x-velocity": 8.1743e-07,
+        "y-velocity": 4.4522e-07,
+        "energy": 7.2655e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.6600000000000001,
+      "step": 33,
+      "residuals": {
+        "continuity": 3.0347e-09,
+        "x-velocity": 7.7147e-07,
+        "y-velocity": 4.2372e-07,
+        "energy": 7.1093e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.68,
+      "step": 34,
+      "residuals": {
+        "continuity": 3.047e-09,
+        "x-velocity": 7.2377e-07,
+        "y-velocity": 4.0781e-07,
+        "energy": 6.9973e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.7000000000000001,
+      "step": 35,
+      "residuals": {
+        "continuity": 3.9641e-09,
+        "x-velocity": 9.7385e-07,
+        "y-velocity": 5.5717e-07,
+        "energy": 6.8853e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.7200000000000001,
+      "step": 36,
+      "residuals": {
+        "continuity": 3.8414e-09,
+        "x-velocity": 9.2698e-07,
+        "y-velocity": 5.3343e-07,
+        "energy": 6.7594e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.7400000000000001,
+      "step": 37,
+      "residuals": {
+        "continuity": 3.7575e-09,
+        "x-velocity": 8.8219e-07,
+        "y-velocity": 5.0904e-07,
+        "energy": 3.5648e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.7600000000000001,
+      "step": 38,
+      "residuals": {
+        "continuity": 3.6552e-09,
+        "x-velocity": 8.3607e-07,
+        "y-velocity": 4.8686e-07,
+        "energy": 6.4941e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.78,
+      "step": 39,
+      "residuals": {
+        "continuity": 3.6114e-09,
+        "x-velocity": 7.9664e-07,
+        "y-velocity": 4.6822e-07,
+        "energy": 6.4233e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.8,
+      "step": 40,
+      "residuals": {
+        "continuity": 3.6917e-09,
+        "x-velocity": 7.4635e-07,
+        "y-velocity": 4.4663e-07,
+        "energy": 6.3367e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.8200000000000001,
+      "step": 41,
+      "residuals": {
+        "continuity": 3.5311e-09,
+        "x-velocity": 7.2058e-07,
+        "y-velocity": 4.3335e-07,
+        "energy": 6.2396e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.8400000000000001,
+      "step": 42,
+      "residuals": {
+        "continuity": 4.8119e-09,
+        "x-velocity": 9.6818e-07,
+        "y-velocity": 5.9128e-07,
+        "energy": 6.1147e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.8600000000000001,
+      "step": 43,
+      "residuals": {
+        "continuity": 4.7027e-09,
+        "x-velocity": 9.358e-07,
+        "y-velocity": 5.7182e-07,
+        "energy": 6.0464e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.88,
+      "step": 44,
+      "residuals": {
+        "continuity": 4.7914e-09,
+        "x-velocity": 8.9798e-07,
+        "y-velocity": 5.5239e-07,
+        "energy": 5.9633e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.9,
+      "step": 45,
+      "residuals": {
+        "continuity": 4.6569e-09,
+        "x-velocity": 8.5848e-07,
+        "y-velocity": 5.3278e-07,
+        "energy": 5.9152e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.92,
+      "step": 46,
+      "residuals": {
+        "continuity": 4.6592e-09,
+        "x-velocity": 8.2158e-07,
+        "y-velocity": 5.1365e-07,
+        "energy": 5.8313e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.9400000000000001,
+      "step": 47,
+      "residuals": {
+        "continuity": 4.7678e-09,
+        "x-velocity": 7.8453e-07,
+        "y-velocity": 4.9453e-07,
+        "energy": 5.7399e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.9600000000000001,
+      "step": 48,
+      "residuals": {
+        "continuity": 4.7269e-09,
+        "x-velocity": 7.3906e-07,
+        "y-velocity": 4.7769e-07,
+        "energy": 5.6905e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 0.98,
+      "step": 49,
+      "residuals": {
+        "continuity": 4.7712e-09,
+        "x-velocity": 7.1939e-07,
+        "y-velocity": 4.6216e-07,
+        "energy": 5.625e-13
+      },
+      "strict_limits_met": true
+    },
+    {
+      "time_s": 1.0,
+      "step": 50,
+      "residuals": {
+        "continuity": 6.4962e-09,
+        "x-velocity": 9.81e-07,
+        "y-velocity": 6.4098e-07,
+        "energy": 5.5523e-13
+      },
+      "strict_limits_met": true
+    }
+  ],
+  "openfoam_final_wall_mass_flux": {
+    "top": {
+      "net_kg_s": -8.077935669463161e-28,
+      "sum_absolute_kg_s": 5.6545549686242126e-27
+    },
+    "bottom": {
+      "net_kg_s": 8.077935669463161e-28,
+      "sum_absolute_kg_s": 4.0389678347315804e-27
+    },
+    "left": {
+      "net_kg_s": 5.686866711302065e-25,
+      "sum_absolute_kg_s": 3.2570236619275465e-24
+    },
+    "right": {
+      "net_kg_s": -1.2407709188295415e-24,
+      "sum_absolute_kg_s": 3.7223127564886245e-24
+    }
+  },
+  "strict_fluent_all_steps_pass": true
+}

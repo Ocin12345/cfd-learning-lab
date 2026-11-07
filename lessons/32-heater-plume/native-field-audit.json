@@ -1,0 +1,2000 @@
+{
+  "specification": {
+    "model": "localized floor-heater plume, 20-second production",
+    "width_m": 0.06,
+    "height_m": 0.1,
+    "cells": 3840,
+    "nx": 48,
+    "ny": 80,
+    "heater_x_m": [
+      0.0225,
+      0.0375
+    ],
+    "initial_T_K": 300.0,
+    "hot_K": 301.0,
+    "cold_K": 300.0,
+    "initial_absolute_pressure_Pa": 101325.0,
+    "molecular_weight_kg_kmol": 28.97,
+    "gas_constant_J_kgK": 287.0028467801174,
+    "cp_J_kgK": 1005.0,
+    "mu_Pas": 1.8e-05,
+    "k_W_mK": 0.025478873239436622,
+    "Pr": 0.71,
+    "nominal_Ra_based_on_height": 99238.31862996743,
+    "gravity_m_s2": [
+      0,
+      -9.81
+    ],
+    "control_iterations": 600,
+    "heated_steps": 2000,
+    "dt_s": 0.01,
+    "fluent_max_inner": 1600,
+    "openfoam_outer_correctors": 16,
+    "openfoam_pressure_correctors": 2,
+    "all_walls_stationary_no_slip": true,
+    "side_walls_and_unheated_floor_adiabatic": true,
+    "ceiling_cold": true,
+    "ideal_gas_not_strict_boussinesq": true,
+    "qualification_only": false,
+    "physical_validation": false,
+    "gravity_work_source_fluent": "-9.81 [m s^-2] * Density * Velocity.y",
+    "control_max_speed_target": 1e-05,
+    "control_max_temperature_deviation_K": 0.0001,
+    "closed_mass_relative_drift_target": 1e-05,
+    "equation_of_state_relative_error_target": 1e-06
+  },
+  "all_saved_field_checks_pass": true,
+  "accepted_steps": {
+    "ANSYS Fluent": 2000,
+    "OpenFOAM": 2000
+  },
+  "records": {
+    "ANSYS Fluent": [
+      {
+        "time_s": 0.0,
+        "native_time": {
+          "time_s": 0.0,
+          "step": 0.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 299.9999999563585,
+        "Tmax_K": 300.0000000466732,
+        "Umax_m_s": 1.3572477462909142e-06,
+        "mass_per_depth_kg_m": 0.007060865850273124,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 9.000603995445999e-08,
+        "Uy_reflection_max_difference_m_s": 2.6045112668290752e-06,
+        "Ux_antisymmetry_max_difference_m_s": 2.0139377461576885e-06,
+        "mass_drift_signed": 0.0
+      },
+      {
+        "time_s": 0.01,
+        "native_time": {
+          "time_s": 0.01,
+          "step": 1.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00022230649483,
+        "Tmax_K": 300.19746550726177,
+        "Umax_m_s": 7.971794227014302e-05,
+        "mass_per_depth_kg_m": 0.007060865842922914,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 9.000063982966822e-08,
+        "Uy_reflection_max_difference_m_s": 2.5996693597954607e-06,
+        "Ux_antisymmetry_max_difference_m_s": 2.0105025533821566e-06,
+        "mass_drift_signed": -1.040978525601588e-09
+      },
+      {
+        "time_s": 0.5,
+        "native_time": {
+          "time_s": 0.5,
+          "step": 50.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0007256168467,
+        "Tmax_K": 300.8896611075704,
+        "Umax_m_s": 0.0005733258815697316,
+        "mass_per_depth_kg_m": 0.007060865478678999,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 1.713689300686383e-06,
+        "Uy_reflection_max_difference_m_s": 2.3802332306828713e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.8392817439834104e-06,
+        "mass_drift_signed": -5.262727453825278e-08
+      },
+      {
+        "time_s": 1.0,
+        "native_time": {
+          "time_s": 1.0,
+          "step": 100.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0007829436785,
+        "Tmax_K": 300.92000049509835,
+        "Umax_m_s": 0.0010909920773172737,
+        "mass_per_depth_kg_m": 0.007060865106558737,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 2.9305115845090768e-06,
+        "Uy_reflection_max_difference_m_s": 2.176239130045552e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.679492989140267e-06,
+        "mass_drift_signed": -1.0532906347116011e-07
+      },
+      {
+        "time_s": 1.5,
+        "native_time": {
+          "time_s": 1.5,
+          "step": 150.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00082669484414,
+        "Tmax_K": 300.93286835973345,
+        "Umax_m_s": 0.0015455861469808323,
+        "mass_per_depth_kg_m": 0.007060864734612358,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 3.774266701839224e-06,
+        "Uy_reflection_max_difference_m_s": 1.989529642010615e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.5339202735041995e-06,
+        "mass_drift_signed": -1.5800622610306903e-07
+      },
+      {
+        "time_s": 2.0,
+        "native_time": {
+          "time_s": 2.0,
+          "step": 200.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0008638222258,
+        "Tmax_K": 300.94046814356557,
+        "Umax_m_s": 0.002017629868017917,
+        "mass_per_depth_kg_m": 0.007060864363290269,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.3899937622882135e-06,
+        "Uy_reflection_max_difference_m_s": 1.81900244618689e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.4006069562744751e-06,
+        "mass_drift_signed": -2.1059497323783205e-07
+      },
+      {
+        "time_s": 2.5,
+        "native_time": {
+          "time_s": 2.5,
+          "step": 250.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00089714883785,
+        "Tmax_K": 300.9456224604895,
+        "Umax_m_s": 0.0025504824192733055,
+        "mass_per_depth_kg_m": 0.00706086399217242,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.743184490507701e-06,
+        "Uy_reflection_max_difference_m_s": 1.6629546308510697e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.278743084311616e-06,
+        "mass_drift_signed": -2.631547947329338e-07
+      },
+      {
+        "time_s": 3.0,
+        "native_time": {
+          "time_s": 3.0,
+          "step": 300.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0009282344665,
+        "Tmax_K": 300.9493592835886,
+        "Umax_m_s": 0.003164178264674989,
+        "mass_per_depth_kg_m": 0.007060863621007713,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.915885483569582e-06,
+        "Uy_reflection_max_difference_m_s": 1.5204049203936259e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.1675974477190922e-06,
+        "mass_drift_signed": -3.1572125269718754e-07
+      },
+      {
+        "time_s": 3.5,
+        "native_time": {
+          "time_s": 3.5,
+          "step": 350.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0009580503325,
+        "Tmax_K": 300.9521500626231,
+        "Umax_m_s": 0.0038189808675629044,
+        "mass_per_depth_kg_m": 0.0070608632492643085,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.918205206649873e-06,
+        "Uy_reflection_max_difference_m_s": 1.3904246821604245e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.066150487930432e-06,
+        "mass_drift_signed": -3.6836966887943134e-07
+      },
+      {
+        "time_s": 4.0,
+        "native_time": {
+          "time_s": 4.0,
+          "step": 400.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0009872698228,
+        "Tmax_K": 300.95424688715906,
+        "Umax_m_s": 0.0044812920164626294,
+        "mass_per_depth_kg_m": 0.007060862877219484,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.749801291836775e-06,
+        "Uy_reflection_max_difference_m_s": 1.2720533282299586e-06,
+        "Ux_antisymmetry_max_difference_m_s": 9.740936530965468e-07,
+        "mass_drift_signed": -4.210607740251504e-07
+      },
+      {
+        "time_s": 4.5,
+        "native_time": {
+          "time_s": 4.5,
+          "step": 450.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00101633181146,
+        "Tmax_K": 300.9558024175406,
+        "Umax_m_s": 0.00517353708441181,
+        "mass_per_depth_kg_m": 0.007060862505083864,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.426188354500482e-06,
+        "Uy_reflection_max_difference_m_s": 1.1645734161209664e-06,
+        "Ux_antisymmetry_max_difference_m_s": 8.903220867863725e-07,
+        "mass_drift_signed": -4.737647381070076e-07
+      },
+      {
+        "time_s": 5.0,
+        "native_time": {
+          "time_s": 5.0,
+          "step": 500.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00104552510754,
+        "Tmax_K": 300.9569216238373,
+        "Umax_m_s": 0.005867174175037696,
+        "mass_per_depth_kg_m": 0.007060862132968991,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 3.95239231920641e-06,
+        "Uy_reflection_max_difference_m_s": 1.067484989396674e-06,
+        "Ux_antisymmetry_max_difference_m_s": 8.144101887427817e-07,
+        "mass_drift_signed": -5.264657637615855e-07
+      },
+      {
+        "time_s": 5.5,
+        "native_time": {
+          "time_s": 5.5,
+          "step": 550.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00107498898757,
+        "Tmax_K": 300.957686093558,
+        "Umax_m_s": 0.006571872934751357,
+        "mass_per_depth_kg_m": 0.007060861760904799,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 3.3292062653345056e-06,
+        "Uy_reflection_max_difference_m_s": 9.801418963340525e-07,
+        "Ux_antisymmetry_max_difference_m_s": 7.461969858205078e-07,
+        "mass_drift_signed": -5.791596118243092e-07
+      },
+      {
+        "time_s": 6.0,
+        "native_time": {
+          "time_s": 6.0,
+          "step": 600.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0011047533336,
+        "Tmax_K": 300.95816550753955,
+        "Umax_m_s": 0.007266459872875081,
+        "mass_per_depth_kg_m": 0.007060861388445926,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 3.4098771379831305e-06,
+        "Uy_reflection_max_difference_m_s": 9.02388454574699e-07,
+        "Ux_antisymmetry_max_difference_m_s": 6.848843174602517e-07,
+        "mass_drift_signed": -6.319093567297429e-07
+      },
+      {
+        "time_s": 6.5,
+        "native_time": {
+          "time_s": 6.5,
+          "step": 650.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0011347554708,
+        "Tmax_K": 300.9584229306959,
+        "Umax_m_s": 0.007940754530813023,
+        "mass_per_depth_kg_m": 0.0070608610162881304,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.439854592419579e-06,
+        "Uy_reflection_max_difference_m_s": 8.340971617549185e-07,
+        "Ux_antisymmetry_max_difference_m_s": 6.304263692856779e-07,
+        "mass_drift_signed": -6.846164615215145e-07
+      },
+      {
+        "time_s": 7.0,
+        "native_time": {
+          "time_s": 7.0,
+          "step": 700.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0011648673126,
+        "Tmax_K": 300.9585159989233,
+        "Umax_m_s": 0.008596654504342513,
+        "mass_per_depth_kg_m": 0.007060860644483061,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 5.60465980470326e-06,
+        "Uy_reflection_max_difference_m_s": 7.750933311954114e-07,
+        "Ux_antisymmetry_max_difference_m_s": 5.823267884863099e-07,
+        "mass_drift_signed": -7.372736110511369e-07
+      },
+      {
+        "time_s": 7.5,
+        "native_time": {
+          "time_s": 7.5,
+          "step": 750.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00119488889646,
+        "Tmax_K": 300.95849675216243,
+        "Umax_m_s": 0.009195673677779265,
+        "mass_per_depth_kg_m": 0.007060860272440479,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 6.871782545658789e-06,
+        "Uy_reflection_max_difference_m_s": 7.265069805384487e-07,
+        "Ux_antisymmetry_max_difference_m_s": 5.405469995306069e-07,
+        "mass_drift_signed": -7.899643985620486e-07
+      },
+      {
+        "time_s": 8.0,
+        "native_time": {
+          "time_s": 8.0,
+          "step": 800.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0012246367083,
+        "Tmax_K": 300.958410467519,
+        "Umax_m_s": 0.009768375954224202,
+        "mass_per_depth_kg_m": 0.007060859901619253,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 8.21420076135837e-06,
+        "Uy_reflection_max_difference_m_s": 6.877153440202136e-07,
+        "Ux_antisymmetry_max_difference_m_s": 5.049692931417477e-07,
+        "mass_drift_signed": -8.424822106611884e-07
+      },
+      {
+        "time_s": 8.5,
+        "native_time": {
+          "time_s": 8.5,
+          "step": 850.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0012538852955,
+        "Tmax_K": 300.95829462689534,
+        "Umax_m_s": 0.010273955782254957,
+        "mass_per_depth_kg_m": 0.0070608595313489024,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 9.543625765218167e-06,
+        "Uy_reflection_max_difference_m_s": 6.6091801434958e-07,
+        "Ux_antisymmetry_max_difference_m_s": 4.754550059446845e-07,
+        "mass_drift_signed": -8.949220047238526e-07
+      },
+      {
+        "time_s": 9.0,
+        "native_time": {
+          "time_s": 9.0,
+          "step": 900.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0012824479948,
+        "Tmax_K": 300.9581784045384,
+        "Umax_m_s": 0.010712615847340505,
+        "mass_per_depth_kg_m": 0.00706085915927257,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 1.0808133879436355e-05,
+        "Uy_reflection_max_difference_m_s": 6.574499002123986e-07,
+        "Ux_antisymmetry_max_difference_m_s": 4.520077569923574e-07,
+        "mass_drift_signed": -9.476175720779523e-07
+      },
+      {
+        "time_s": 9.5,
+        "native_time": {
+          "time_s": 9.5,
+          "step": 950.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.001310162342,
+        "Tmax_K": 300.95808289770173,
+        "Umax_m_s": 0.011104415207287296,
+        "mass_per_depth_kg_m": 0.007060858785454656,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 1.2017770472994016e-05,
+        "Uy_reflection_max_difference_m_s": 7.494606099819889e-07,
+        "Ux_antisymmetry_max_difference_m_s": 5.1394833551179e-07,
+        "mass_drift_signed": -1.00055979224134e-06
+      },
+      {
+        "time_s": 10.0,
+        "native_time": {
+          "time_s": 10.0,
+          "step": 1000.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00133692297584,
+        "Tmax_K": 300.9580219363243,
+        "Umax_m_s": 0.011419932231096108,
+        "mass_per_depth_kg_m": 0.0070608584123181915,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 1.3282453210194944e-05,
+        "Uy_reflection_max_difference_m_s": 8.49758340201864e-07,
+        "Ux_antisymmetry_max_difference_m_s": 6.322804779448823e-07,
+        "mass_drift_signed": -1.0534055016053756e-06
+      },
+      {
+        "time_s": 10.5,
+        "native_time": {
+          "time_s": 10.5,
+          "step": 1050.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0013626404441,
+        "Tmax_K": 300.95800316081613,
+        "Umax_m_s": 0.011675664339515994,
+        "mass_per_depth_kg_m": 0.007060858039496346,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 1.660887022580937e-05,
+        "Uy_reflection_max_difference_m_s": 9.569548824678916e-07,
+        "Ux_antisymmetry_max_difference_m_s": 7.628140648521667e-07,
+        "mass_drift_signed": -1.1062066528344516e-06
+      },
+      {
+        "time_s": 11.0,
+        "native_time": {
+          "time_s": 11.0,
+          "step": 1100.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0013872818283,
+        "Tmax_K": 300.9580294309542,
+        "Umax_m_s": 0.011879673420946509,
+        "mass_per_depth_kg_m": 0.007060857667654682,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 2.0295164176786784e-05,
+        "Uy_reflection_max_difference_m_s": 1.0706130963442431e-06,
+        "Ux_antisymmetry_max_difference_m_s": 9.058162197292754e-07,
+        "mass_drift_signed": -1.1588689851071976e-06
+      },
+      {
+        "time_s": 11.5,
+        "native_time": {
+          "time_s": 11.5,
+          "step": 1150.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00141084244905,
+        "Tmax_K": 300.9581000801372,
+        "Umax_m_s": 0.012018767041321137,
+        "mass_per_depth_kg_m": 0.007060857295337516,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 2.4344471796666767e-05,
+        "Uy_reflection_max_difference_m_s": 1.1911534503173359e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.061677706262862e-06,
+        "mass_drift_signed": -1.2115986607330598e-06
+      },
+      {
+        "time_s": 12.0,
+        "native_time": {
+          "time_s": 12.0,
+          "step": 1200.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00143336622114,
+        "Tmax_K": 300.95821204200666,
+        "Umax_m_s": 0.012121239454153982,
+        "mass_per_depth_kg_m": 0.007060856921880904,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 2.8749329317179217e-05,
+        "Uy_reflection_max_difference_m_s": 1.3211672234593463e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.2292043751476085e-06,
+        "mass_drift_signed": -1.264489711272354e-06
+      },
+      {
+        "time_s": 12.5,
+        "native_time": {
+          "time_s": 12.5,
+          "step": 1250.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00145494643766,
+        "Tmax_K": 300.9583607905011,
+        "Umax_m_s": 0.012175194409338607,
+        "mass_per_depth_kg_m": 0.007060856547921419,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 3.349797970031432e-05,
+        "Uy_reflection_max_difference_m_s": 1.4674260823748994e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.408115274455289e-06,
+        "mass_drift_signed": -1.3174519813974328e-06
+      },
+      {
+        "time_s": 13.0,
+        "native_time": {
+          "time_s": 13.0,
+          "step": 1300.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0014757181946,
+        "Tmax_K": 300.9585410852617,
+        "Umax_m_s": 0.01219394693658124,
+        "mass_per_depth_kg_m": 0.007060856174399304,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 3.8571057132230635e-05,
+        "Uy_reflection_max_difference_m_s": 1.6247363392521419e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.5970297353156554e-06,
+        "mass_drift_signed": -1.3703523088492986e-06
+      },
+      {
+        "time_s": 13.5,
+        "native_time": {
+          "time_s": 13.5,
+          "step": 1350.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00149583290823,
+        "Tmax_K": 300.9587474295192,
+        "Umax_m_s": 0.012183853773498662,
+        "mass_per_depth_kg_m": 0.007060855802388169,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.395281837332732e-05,
+        "Uy_reflection_max_difference_m_s": 1.7949386589399124e-06,
+        "Ux_antisymmetry_max_difference_m_s": 1.7960376269438591e-06,
+        "mass_drift_signed": -1.4230386424785024e-06
+      },
+      {
+        "time_s": 14.0,
+        "native_time": {
+          "time_s": 14.0,
+          "step": 1400.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0015155413872,
+        "Tmax_K": 300.95897447496446,
+        "Umax_m_s": 0.01214711324847367,
+        "mass_per_depth_kg_m": 0.007060855430517502,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 4.9609973132191953e-05,
+        "Uy_reflection_max_difference_m_s": 1.9859150422298424e-06,
+        "Ux_antisymmetry_max_difference_m_s": 2.0036637188568804e-06,
+        "mass_drift_signed": -1.4757050824654172e-06
+      },
+      {
+        "time_s": 14.5,
+        "native_time": {
+          "time_s": 14.5,
+          "step": 1450.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0015351064762,
+        "Tmax_K": 300.9592172112011,
+        "Umax_m_s": 0.012092164931907201,
+        "mass_per_depth_kg_m": 0.0070608550596648455,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 5.551749296728303e-05,
+        "Uy_reflection_max_difference_m_s": 2.1896979751443585e-06,
+        "Ux_antisymmetry_max_difference_m_s": 2.2187577890678896e-06,
+        "mass_drift_signed": -1.528227345892752e-06
+      },
+      {
+        "time_s": 15.0,
+        "native_time": {
+          "time_s": 15.0,
+          "step": 1500.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0015548867108,
+        "Tmax_K": 300.9594711164313,
+        "Umax_m_s": 0.012023217258468654,
+        "mass_per_depth_kg_m": 0.007060854686827537,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 6.163828646776892e-05,
+        "Uy_reflection_max_difference_m_s": 2.402974619756734e-06,
+        "Ux_antisymmetry_max_difference_m_s": 2.4401888101837797e-06,
+        "mass_drift_signed": -1.5810306871477664e-06
+      },
+      {
+        "time_s": 15.5,
+        "native_time": {
+          "time_s": 15.5,
+          "step": 1550.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00157530203614,
+        "Tmax_K": 300.95973225303595,
+        "Umax_m_s": 0.011939116590724174,
+        "mass_per_depth_kg_m": 0.007060854312402504,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 6.793781744818261e-05,
+        "Uy_reflection_max_difference_m_s": 2.629345022586542e-06,
+        "Ux_antisymmetry_max_difference_m_s": 2.667048076165153e-06,
+        "mass_drift_signed": -1.6340588908647646e-06
+      },
+      {
+        "time_s": 16.0,
+        "native_time": {
+          "time_s": 16.0,
+          "step": 1600.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00159689903774,
+        "Tmax_K": 300.95999728147416,
+        "Umax_m_s": 0.011855361422029548,
+        "mass_per_depth_kg_m": 0.007060853938578882,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 7.437684735123185e-05,
+        "Uy_reflection_max_difference_m_s": 2.8637214081203913e-06,
+        "Ux_antisymmetry_max_difference_m_s": 2.897855324558924e-06,
+        "mass_drift_signed": -1.6870019193815367e-06
+      },
+      {
+        "time_s": 16.5,
+        "native_time": {
+          "time_s": 16.5,
+          "step": 1650.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00162026359794,
+        "Tmax_K": 300.9602634069146,
+        "Umax_m_s": 0.011764160090356898,
+        "mass_per_depth_kg_m": 0.007060853567325032,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 8.091548085076283e-05,
+        "Uy_reflection_max_difference_m_s": 3.1038779806777037e-06,
+        "Ux_antisymmetry_max_difference_m_s": 3.1314794386619695e-06,
+        "mass_drift_signed": -1.7395810021358926e-06
+      },
+      {
+        "time_s": 17.0,
+        "native_time": {
+          "time_s": 17.0,
+          "step": 1700.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0016460105993,
+        "Tmax_K": 300.960528352484,
+        "Umax_m_s": 0.011669928029834931,
+        "mass_per_depth_kg_m": 0.007060853194916191,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 8.751757474101396e-05,
+        "Uy_reflection_max_difference_m_s": 3.348020907136505e-06,
+        "Ux_antisymmetry_max_difference_m_s": 3.3665537461841956e-06,
+        "mass_drift_signed": -1.7923236613759386e-06
+      },
+      {
+        "time_s": 17.5,
+        "native_time": {
+          "time_s": 17.5,
+          "step": 1750.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00167482006196,
+        "Tmax_K": 300.9607903593736,
+        "Umax_m_s": 0.011579312831272476,
+        "mass_per_depth_kg_m": 0.007060852825410795,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 9.413966250804151e-05,
+        "Uy_reflection_max_difference_m_s": 3.5944205303128224e-06,
+        "Ux_antisymmetry_max_difference_m_s": 3.6018118655878274e-06,
+        "mass_drift_signed": -1.844655118099503e-06
+      },
+      {
+        "time_s": 18.0,
+        "native_time": {
+          "time_s": 18.0,
+          "step": 1800.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0017073308234,
+        "Tmax_K": 300.9610480530632,
+        "Umax_m_s": 0.011492342498922455,
+        "mass_per_depth_kg_m": 0.007060852453470714,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 0.00010074198678466928,
+        "Uy_reflection_max_difference_m_s": 3.8434326701370335e-06,
+        "Ux_antisymmetry_max_difference_m_s": 3.8352789388927016e-06,
+        "mass_drift_signed": -1.897331388778234e-06
+      },
+      {
+        "time_s": 18.5,
+        "native_time": {
+          "time_s": 18.5,
+          "step": 1850.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00174419163926,
+        "Tmax_K": 300.96130046682043,
+        "Umax_m_s": 0.011408716655450298,
+        "mass_per_depth_kg_m": 0.007060852085863017,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 0.00010728129478820847,
+        "Uy_reflection_max_difference_m_s": 4.0905146828818136e-06,
+        "Ux_antisymmetry_max_difference_m_s": 4.065529384510169e-06,
+        "mass_drift_signed": -1.949394082711997e-06
+      },
+      {
+        "time_s": 19.0,
+        "native_time": {
+          "time_s": 19.0,
+          "step": 1900.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00178592763547,
+        "Tmax_K": 300.96154688492356,
+        "Umax_m_s": 0.011329878043574099,
+        "mass_per_depth_kg_m": 0.0070608517123886055,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 0.00011372017945632251,
+        "Uy_reflection_max_difference_m_s": 4.332394734751083e-06,
+        "Ux_antisymmetry_max_difference_m_s": 4.290266376437294e-06,
+        "mass_drift_signed": -2.002287654012669e-06
+      },
+      {
+        "time_s": 19.5,
+        "native_time": {
+          "time_s": 19.5,
+          "step": 1950.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0018330259655,
+        "Tmax_K": 300.9617869022506,
+        "Umax_m_s": 0.011256709860173362,
+        "mass_per_depth_kg_m": 0.007060851338002181,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 0.00011999516402738664,
+        "Uy_reflection_max_difference_m_s": 4.566319912097799e-06,
+        "Ux_antisymmetry_max_difference_m_s": 4.507946751259749e-06,
+        "mass_drift_signed": -2.0553103897702485e-06
+      },
+      {
+        "time_s": 20.0,
+        "native_time": {
+          "time_s": 20.0,
+          "step": 2000.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.00188582924955,
+        "Tmax_K": 300.9620202873957,
+        "Umax_m_s": 0.011189657087110508,
+        "mass_per_depth_kg_m": 0.007060850963636309,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 0.00012605961597955684,
+        "Uy_reflection_max_difference_m_s": 4.7893788654427595e-06,
+        "Ux_antisymmetry_max_difference_m_s": 4.7160891779491915e-06,
+        "mass_drift_signed": -2.108330214745102e-06
+      }
+    ],
+    "OpenFOAM": [
+      {
+        "time_s": 0.0,
+        "native_time": {
+          "time_s": 0,
+          "initial_directory": true
+        },
+        "Tmin_K": 300.0000000165984,
+        "Tmax_K": 300.0000269546023,
+        "Umax_m_s": 1.1598046844497774e-06,
+        "mass_per_depth_kg_m": 0.007060905571966346,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "T_reflection_max_difference_K": 3.4595302622619784e-08,
+        "Uy_reflection_max_difference_m_s": 2.1554099177905768e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.5093663348563114e-07,
+        "mass_drift_signed": 0.0
+      },
+      {
+        "time_s": 0.5,
+        "native_time": {
+          "time_s": 0.5000000000000002,
+          "step": 50.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0006975553554,
+        "Tmax_K": 300.889625285901,
+        "Umax_m_s": 0.0005715098115824517,
+        "mass_per_depth_kg_m": 0.007060905571967179,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 8.543736385036027e-08,
+        "Uy_reflection_max_difference_m_s": 1.9741851503822484e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.3796326994340216e-07,
+        "mass_drift_signed": 1.1790568521519162e-13
+      },
+      {
+        "time_s": 1.0,
+        "native_time": {
+          "time_s": 1.0000000000000007,
+          "step": 100.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0007645234357,
+        "Tmax_K": 300.9199614528301,
+        "Umax_m_s": 0.0010844238236854317,
+        "mass_per_depth_kg_m": 0.007060905571967229,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.8858230532714515e-07,
+        "Uy_reflection_max_difference_m_s": 1.8083851158523144e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.2613062596862802e-07,
+        "mass_drift_signed": 1.2501111257279263e-13
+      },
+      {
+        "time_s": 1.5,
+        "native_time": {
+          "time_s": 1.500000000000001,
+          "step": 150.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0008126387983,
+        "Tmax_K": 300.9328222271811,
+        "Umax_m_s": 0.0015410574253232779,
+        "mass_per_depth_kg_m": 0.007060905571967345,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 3.017371454916429e-07,
+        "Uy_reflection_max_difference_m_s": 1.6567685209714512e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.1532364380350557e-07,
+        "mass_drift_signed": 1.4144241333724494e-13
+      },
+      {
+        "time_s": 2.0,
+        "native_time": {
+          "time_s": 2.0000000000000013,
+          "step": 200.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0008524312785,
+        "Tmax_K": 300.9404171456921,
+        "Umax_m_s": 0.002013314178517991,
+        "mass_per_depth_kg_m": 0.007060905571967472,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 4.257482828506909e-07,
+        "Uy_reflection_max_difference_m_s": 1.51819420473255e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.0545991994649483e-07,
+        "mass_drift_signed": 1.5942802633617248e-13
+      },
+      {
+        "time_s": 2.5,
+        "native_time": {
+          "time_s": 2.4999999999999907,
+          "step": 250.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0008876140038,
+        "Tmax_K": 300.9455694137594,
+        "Umax_m_s": 0.002545332691408959,
+        "mass_per_depth_kg_m": 0.007060905571967515,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 5.601084467343753e-07,
+        "Uy_reflection_max_difference_m_s": 1.39189554550069e-07,
+        "Ux_antisymmetry_max_difference_m_s": 9.646886962796838e-08,
+        "mass_drift_signed": 1.6564527527407336e-13
+      },
+      {
+        "time_s": 3.0,
+        "native_time": {
+          "time_s": 2.99999999999998,
+          "step": 300.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0009200801663,
+        "Tmax_K": 300.9493075331532,
+        "Umax_m_s": 0.003154338825258359,
+        "mass_per_depth_kg_m": 0.007060905571967502,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 7.053096737763553e-07,
+        "Uy_reflection_max_difference_m_s": 1.2771430443145388e-07,
+        "Ux_antisymmetry_max_difference_m_s": 8.8289301732484e-08,
+        "mass_drift_signed": 1.6364687382974807e-13
+      },
+      {
+        "time_s": 3.5,
+        "native_time": {
+          "time_s": 3.4999999999999694,
+          "step": 350.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0009509755996,
+        "Tmax_K": 300.9521029107633,
+        "Umax_m_s": 0.003807715829869294,
+        "mass_per_depth_kg_m": 0.007060905571967675,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 8.652880296722287e-07,
+        "Uy_reflection_max_difference_m_s": 1.1737432838183989e-07,
+        "Ux_antisymmetry_max_difference_m_s": 8.08686362377607e-08,
+        "mass_drift_signed": 1.8829382497642655e-13
+      },
+      {
+        "time_s": 4.0,
+        "native_time": {
+          "time_s": 3.9999999999999587,
+          "step": 400.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0009810522117,
+        "Tmax_K": 300.9542070166353,
+        "Umax_m_s": 0.00446576857775398,
+        "mass_per_depth_kg_m": 0.007060905571967672,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.0355954032092995e-06,
+        "Uy_reflection_max_difference_m_s": 1.0811398138170234e-07,
+        "Ux_antisymmetry_max_difference_m_s": 7.416235397686249e-08,
+        "mass_drift_signed": 1.8784973576657649e-13
+      },
+      {
+        "time_s": 4.5,
+        "native_time": {
+          "time_s": 4.4999999999999485,
+          "step": 450.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0010108115741,
+        "Tmax_K": 300.9557721503529,
+        "Umax_m_s": 0.005153663258768819,
+        "mass_per_depth_kg_m": 0.007060905571968047,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.2202037282804667e-06,
+        "Uy_reflection_max_difference_m_s": 9.989422841774089e-08,
+        "Ux_antisymmetry_max_difference_m_s": 6.813290066655537e-08,
+        "mass_drift_signed": 2.4091839634365897e-13
+      },
+      {
+        "time_s": 5.0,
+        "native_time": {
+          "time_s": 4.999999999999938,
+          "step": 500.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0010405721185,
+        "Tmax_K": 300.9569028438779,
+        "Umax_m_s": 0.0058448359158052516,
+        "mass_per_depth_kg_m": 0.00706090557196861,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.4184906831360422e-06,
+        "Uy_reflection_max_difference_m_s": 9.270964730932535e-08,
+        "Ux_antisymmetry_max_difference_m_s": 6.275030389366136e-08,
+        "mass_drift_signed": 3.206324095117452e-13
+      },
+      {
+        "time_s": 5.5,
+        "native_time": {
+          "time_s": 5.499999999999927,
+          "step": 550.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0010705067945,
+        "Tmax_K": 300.9576800048694,
+        "Umax_m_s": 0.006543332391585255,
+        "mass_per_depth_kg_m": 0.007060905571968708,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 1.6312598631884612e-06,
+        "Uy_reflection_max_difference_m_s": 8.663961240806009e-08,
+        "Ux_antisymmetry_max_difference_m_s": 5.958115503930123e-08,
+        "mass_drift_signed": 3.3439917501709715e-13
+      },
+      {
+        "time_s": 6.0,
+        "native_time": {
+          "time_s": 5.9999999999999165,
+          "step": 600.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0011006679694,
+        "Tmax_K": 300.9581725800504,
+        "Umax_m_s": 0.00723691844391418,
+        "mass_per_depth_kg_m": 0.007060905571968756,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.8614342138789652e-06,
+        "Uy_reflection_max_difference_m_s": 8.173754075503311e-08,
+        "Ux_antisymmetry_max_difference_m_s": 6.953383515989012e-08,
+        "mass_drift_signed": 3.412825577697731e-13
+      },
+      {
+        "time_s": 6.5,
+        "native_time": {
+          "time_s": 6.499999999999906,
+          "step": 650.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0011310088354,
+        "Tmax_K": 300.9584427222232,
+        "Umax_m_s": 0.007905167527230585,
+        "mass_per_depth_kg_m": 0.007060905571968784,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 2.1177293092478067e-06,
+        "Uy_reflection_max_difference_m_s": 8.91075542330897e-08,
+        "Ux_antisymmetry_max_difference_m_s": 8.08320250559073e-08,
+        "mass_drift_signed": 3.452793606584237e-13
+      },
+      {
+        "time_s": 7.0,
+        "native_time": {
+          "time_s": 6.999999999999895,
+          "step": 700.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0011614097634,
+        "Tmax_K": 300.9585473588799,
+        "Umax_m_s": 0.008561044171821817,
+        "mass_per_depth_kg_m": 0.007060905571968888,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 2.412548610664089e-06,
+        "Uy_reflection_max_difference_m_s": 1.026785015440998e-07,
+        "Ux_antisymmetry_max_difference_m_s": 9.382461159905672e-08,
+        "mass_drift_signed": 3.5993430458347575e-13
+      },
+      {
+        "time_s": 7.5,
+        "native_time": {
+          "time_s": 7.4999999999998845,
+          "step": 750.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.001191701862,
+        "Tmax_K": 300.9585379059592,
+        "Umax_m_s": 0.009162766457305536,
+        "mass_per_depth_kg_m": 0.0070609055719682715,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 2.757466006642062e-06,
+        "Uy_reflection_max_difference_m_s": 1.1791799819915738e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.0804819581053523e-07,
+        "mass_drift_signed": 2.7267077484793845e-13
+      },
+      {
+        "time_s": 8.0,
+        "native_time": {
+          "time_s": 7.999999999999874,
+          "step": 800.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0012216884891,
+        "Tmax_K": 300.9584592275364,
+        "Umax_m_s": 0.0097299594598179,
+        "mass_per_depth_kg_m": 0.00706090557196842,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 3.1421552648680517e-06,
+        "Uy_reflection_max_difference_m_s": 1.3426982523609757e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.2400456319726014e-07,
+        "mass_drift_signed": 2.937650123158164e-13
+      },
+      {
+        "time_s": 8.5,
+        "native_time": {
+          "time_s": 8.499999999999863,
+          "step": 850.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0012511716304,
+        "Tmax_K": 300.9583486499236,
+        "Umax_m_s": 0.010239018669985125,
+        "mass_per_depth_kg_m": 0.007060905571967453,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 3.5689973287844623e-06,
+        "Uy_reflection_max_difference_m_s": 1.5176271064105615e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.4153832965174088e-07,
+        "mass_drift_signed": 1.567634910770721e-13
+      },
+      {
+        "time_s": 9.0,
+        "native_time": {
+          "time_s": 8.999999999999853,
+          "step": 900.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0012799670016,
+        "Tmax_K": 300.9582354523716,
+        "Umax_m_s": 0.0106769539432509,
+        "mass_per_depth_kg_m": 0.007060905571967601,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 4.0406455354968784e-06,
+        "Uy_reflection_max_difference_m_s": 1.70419477492096e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.6064357570338885e-07,
+        "mass_drift_signed": 1.7785772854495008e-13
+      },
+      {
+        "time_s": 9.5,
+        "native_time": {
+          "time_s": 9.499999999999842,
+          "step": 950.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0013079187086,
+        "Tmax_K": 300.9581409983472,
+        "Umax_m_s": 0.01107127896375626,
+        "mass_per_depth_kg_m": 0.007060905571968098,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 4.558201908366755e-06,
+        "Uy_reflection_max_difference_m_s": 1.8994009559321692e-07,
+        "Ux_antisymmetry_max_difference_m_s": 1.813105172627583e-07,
+        "mass_drift_signed": 2.48245868306185e-13
+      },
+      {
+        "time_s": 10.0,
+        "native_time": {
+          "time_s": 9.999999999999831,
+          "step": 1000.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0013349071788,
+        "Tmax_K": 300.9580794435891,
+        "Umax_m_s": 0.011392500942639341,
+        "mass_per_depth_kg_m": 0.007060905571968375,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 5.121923322803923e-06,
+        "Uy_reflection_max_difference_m_s": 2.1010794840721145e-07,
+        "Ux_antisymmetry_max_difference_m_s": 2.0347931648596797e-07,
+        "mass_drift_signed": 2.873257187729905e-13
+      },
+      {
+        "time_s": 10.5,
+        "native_time": {
+          "time_s": 10.49999999999982,
+          "step": 1050.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0013608537142,
+        "Tmax_K": 300.9580588337686,
+        "Umax_m_s": 0.01164769895740187,
+        "mass_per_depth_kg_m": 0.007060905571968414,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 5.7314866808155784e-06,
+        "Uy_reflection_max_difference_m_s": 2.313287335111748e-07,
+        "Ux_antisymmetry_max_difference_m_s": 2.2705256676333e-07,
+        "mass_drift_signed": 2.928768338961163e-13
+      },
+      {
+        "time_s": 11.0,
+        "native_time": {
+          "time_s": 10.99999999999981,
+          "step": 1100.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0013857212459,
+        "Tmax_K": 300.9580823872815,
+        "Umax_m_s": 0.011856733794349513,
+        "mass_per_depth_kg_m": 0.007060905571969045,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 6.38519799167625e-06,
+        "Uy_reflection_max_difference_m_s": 2.535293859018406e-07,
+        "Ux_antisymmetry_max_difference_m_s": 2.519758489213583e-07,
+        "mass_drift_signed": 3.823608096809039e-13
+      },
+      {
+        "time_s": 11.5,
+        "native_time": {
+          "time_s": 11.4999999999998,
+          "step": 1150.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0014095088643,
+        "Tmax_K": 300.9581497558154,
+        "Umax_m_s": 0.0120022329246513,
+        "mass_per_depth_kg_m": 0.007060905571969306,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 7.080917100665829e-06,
+        "Uy_reflection_max_difference_m_s": 2.7680476987271274e-07,
+        "Ux_antisymmetry_max_difference_m_s": 2.781014043281172e-07,
+        "mass_drift_signed": 4.192202140984591e-13
+      },
+      {
+        "time_s": 12.0,
+        "native_time": {
+          "time_s": 11.999999999999789,
+          "step": 1200.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0014322591448,
+        "Tmax_K": 300.9582581471923,
+        "Umax_m_s": 0.012104153403673587,
+        "mass_per_depth_kg_m": 0.00706090557196893,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 7.815076742190286e-06,
+        "Uy_reflection_max_difference_m_s": 3.0101261737705554e-07,
+        "Ux_antisymmetry_max_difference_m_s": 3.052846748939327e-07,
+        "mass_drift_signed": 3.659295089164516e-13
+      },
+      {
+        "time_s": 12.5,
+        "native_time": {
+          "time_s": 12.499999999999778,
+          "step": 1250.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0014540591411,
+        "Tmax_K": 300.958403253832,
+        "Umax_m_s": 0.012163600665538517,
+        "mass_per_depth_kg_m": 0.007060905571969268,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 8.583270812323462e-06,
+        "Uy_reflection_max_difference_m_s": 3.261840062964566e-07,
+        "Ux_antisymmetry_max_difference_m_s": 3.3339527025092255e-07,
+        "mass_drift_signed": 4.1389114358025836e-13
+      },
+      {
+        "time_s": 13.0,
+        "native_time": {
+          "time_s": 12.999999999999767,
+          "step": 1300.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0014750396392,
+        "Tmax_K": 300.958579973614,
+        "Umax_m_s": 0.012182530452286504,
+        "mass_per_depth_kg_m": 0.007060905571968701,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 9.380548704029934e-06,
+        "Uy_reflection_max_difference_m_s": 3.526148487330294e-07,
+        "Ux_antisymmetry_max_difference_m_s": 3.6221656365476636e-07,
+        "mass_drift_signed": 3.33510996597397e-13
+      },
+      {
+        "time_s": 13.5,
+        "native_time": {
+          "time_s": 13.499999999999757,
+          "step": 1350.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0014953506893,
+        "Tmax_K": 300.9587829310688,
+        "Umax_m_s": 0.012177069994049675,
+        "mass_per_depth_kg_m": 0.007060905571969742,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.020106191162995e-05,
+        "Uy_reflection_max_difference_m_s": 3.8016163590118973e-07,
+        "Ux_antisymmetry_max_difference_m_s": 3.9156526643758377e-07,
+        "mass_drift_signed": 4.809486142676178e-13
+      },
+      {
+        "time_s": 14.0,
+        "native_time": {
+          "time_s": 13.999999999999746,
+          "step": 1400.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0015152378593,
+        "Tmax_K": 300.9590068440211,
+        "Umax_m_s": 0.012140437574205158,
+        "mass_per_depth_kg_m": 0.00706090557197005,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 1.1038277023089904e-05,
+        "Uy_reflection_max_difference_m_s": 4.085645819405792e-07,
+        "Ux_antisymmetry_max_difference_m_s": 4.212307787570136e-07,
+        "mass_drift_signed": 5.24469356832924e-13
+      },
+      {
+        "time_s": 14.5,
+        "native_time": {
+          "time_s": 14.499999999999735,
+          "step": 1450.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0015349732215,
+        "Tmax_K": 300.9592467610735,
+        "Umax_m_s": 0.012089471920914932,
+        "mass_per_depth_kg_m": 0.007060905571970142,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 1.1885783806064865e-05,
+        "Uy_reflection_max_difference_m_s": 4.37697268379153e-07,
+        "Ux_antisymmetry_max_difference_m_s": 4.51019552808699e-07,
+        "mass_drift_signed": 5.375699885235008e-13
+      },
+      {
+        "time_s": 15.0,
+        "native_time": {
+          "time_s": 14.999999999999725,
+          "step": 1500.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0015549101186,
+        "Tmax_K": 300.9594982034835,
+        "Umax_m_s": 0.012020215508005614,
+        "mass_per_depth_kg_m": 0.0070609055719706194,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 1.2736620703890367e-05,
+        "Uy_reflection_max_difference_m_s": 4.672672351537996e-07,
+        "Ux_antisymmetry_max_difference_m_s": 4.806708764544011e-07,
+        "mass_drift_signed": 6.052935930256353e-13
+      },
+      {
+        "time_s": 15.5,
+        "native_time": {
+          "time_s": 15.499999999999714,
+          "step": 1550.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0015754541037,
+        "Tmax_K": 300.9597572391093,
+        "Umax_m_s": 0.011939617432154631,
+        "mass_per_depth_kg_m": 0.007060905571971451,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.3583648069470655e-05,
+        "Uy_reflection_max_difference_m_s": 4.972307286466027e-07,
+        "Ux_antisymmetry_max_difference_m_s": 5.100258450729963e-07,
+        "mass_drift_signed": 7.229772336359019e-13
+      },
+      {
+        "time_s": 16.0,
+        "native_time": {
+          "time_s": 15.999999999999703,
+          "step": 1600.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0015971456663,
+        "Tmax_K": 300.9600205010866,
+        "Umax_m_s": 0.011855156724935395,
+        "mass_per_depth_kg_m": 0.0070609055719703445,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 1.442000893803197e-05,
+        "Uy_reflection_max_difference_m_s": 5.277085727561914e-07,
+        "Ux_antisymmetry_max_difference_m_s": 5.388204252830086e-07,
+        "mass_drift_signed": 5.662137425588298e-13
+      },
+      {
+        "time_s": 16.5,
+        "native_time": {
+          "time_s": 16.49999999999978,
+          "step": 1650.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0016205636236,
+        "Tmax_K": 300.9602851793849,
+        "Umax_m_s": 0.011763435232101235,
+        "mass_per_depth_kg_m": 0.007060905571969862,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.5239160347846337e-05,
+        "Uy_reflection_max_difference_m_s": 5.576548671622217e-07,
+        "Ux_antisymmetry_max_difference_m_s": 5.666680089154029e-07,
+        "mass_drift_signed": 4.980460488468452e-13
+      },
+      {
+        "time_s": 17.0,
+        "native_time": {
+          "time_s": 16.999999999999858,
+          "step": 1700.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0016463395255,
+        "Tmax_K": 300.9605489880897,
+        "Umax_m_s": 0.011669402860891576,
+        "mass_per_depth_kg_m": 0.007060905571969971,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.603319185505825e-05,
+        "Uy_reflection_max_difference_m_s": 5.870506539131654e-07,
+        "Ux_antisymmetry_max_difference_m_s": 5.936505109605948e-07,
+        "mass_drift_signed": 5.133671265866724e-13
+      },
+      {
+        "time_s": 17.5,
+        "native_time": {
+          "time_s": 17.499999999999936,
+          "step": 1750.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0016751341981,
+        "Tmax_K": 300.9608101161086,
+        "Umax_m_s": 0.01158034013541767,
+        "mass_per_depth_kg_m": 0.007060905571970667,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.679589786363067e-05,
+        "Uy_reflection_max_difference_m_s": 6.153590076029766e-07,
+        "Ux_antisymmetry_max_difference_m_s": 6.193113857444889e-07,
+        "mass_drift_signed": 6.119549311733863e-13
+      },
+      {
+        "time_s": 18.0,
+        "native_time": {
+          "time_s": 18.000000000000014,
+          "step": 1800.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0017076081539,
+        "Tmax_K": 300.9610671734258,
+        "Umax_m_s": 0.011492570459428331,
+        "mass_per_depth_kg_m": 0.007060905571970727,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.751989719878111e-05,
+        "Uy_reflection_max_difference_m_s": 6.420844396912671e-07,
+        "Ux_antisymmetry_max_difference_m_s": 6.433420140230465e-07,
+        "mass_drift_signed": 6.203926261605375e-13
+      },
+      {
+        "time_s": 18.5,
+        "native_time": {
+          "time_s": 18.500000000000092,
+          "step": 1850.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0017443887909,
+        "Tmax_K": 300.9613191348909,
+        "Umax_m_s": 0.011408175707699949,
+        "mass_per_depth_kg_m": 0.0070609055719703965,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.819788735701877e-05,
+        "Uy_reflection_max_difference_m_s": 6.668265881480499e-07,
+        "Ux_antisymmetry_max_difference_m_s": 6.654504854603036e-07,
+        "mass_drift_signed": 5.737632591262809e-13
+      },
+      {
+        "time_s": 19.0,
+        "native_time": {
+          "time_s": 19.00000000000017,
+          "step": 1900.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0017860378163,
+        "Tmax_K": 300.9615652835357,
+        "Umax_m_s": 0.011328589344582885,
+        "mass_per_depth_kg_m": 0.007060905571968633,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.8822295999143535e-05,
+        "Uy_reflection_max_difference_m_s": 6.89319253681115e-07,
+        "Ux_antisymmetry_max_difference_m_s": 6.85427390151479e-07,
+        "mass_drift_signed": 3.239630785856207e-13
+      },
+      {
+        "time_s": 19.5,
+        "native_time": {
+          "time_s": 19.50000000000025,
+          "step": 1950.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0018330222195,
+        "Tmax_K": 300.9618051571289,
+        "Umax_m_s": 0.011254692196602644,
+        "mass_per_depth_kg_m": 0.007060905571967835,
+        "eos_relative_error": 1.1102230246251565e-15,
+        "T_reflection_max_difference_K": 1.9385780319680634e-05,
+        "Uy_reflection_max_difference_m_s": 7.092331334151297e-07,
+        "Ux_antisymmetry_max_difference_m_s": 7.028520529629018e-07,
+        "mass_drift_signed": 2.1094237467877974e-13
+      },
+      {
+        "time_s": 20.0,
+        "native_time": {
+          "time_s": 20.0,
+          "step": 2000.0,
+          "dt_s": 0.01
+        },
+        "Tmin_K": 300.0018856909253,
+        "Tmax_K": 300.9620384997789,
+        "Umax_m_s": 0.011186938586813052,
+        "mass_per_depth_kg_m": 0.007060905571968132,
+        "eos_relative_error": 1.3322676295501878e-15,
+        "T_reflection_max_difference_K": 1.9878890043401043e-05,
+        "Uy_reflection_max_difference_m_s": 7.26071607343691e-07,
+        "Ux_antisymmetry_max_difference_m_s": 7.170303868390547e-07,
+        "mass_drift_signed": 2.5290880500961066e-13
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "time_s": 0.0,
+      "max_T_difference_K": 2.695148225484445e-05,
+      "velocity_relative_L2": 1.3795774264297702
+    },
+    {
+      "time_s": 0.5,
+      "max_T_difference_K": 0.00027458050931272737,
+      "velocity_relative_L2": 0.015439063959967823
+    },
+    {
+      "time_s": 1.0,
+      "max_T_difference_K": 0.0003365653633409238,
+      "velocity_relative_L2": 0.009355707551631343
+    },
+    {
+      "time_s": 1.5,
+      "max_T_difference_K": 0.0004536781423780667,
+      "velocity_relative_L2": 0.007947469602737248
+    },
+    {
+      "time_s": 2.0,
+      "max_T_difference_K": 0.0005777833862907755,
+      "velocity_relative_L2": 0.006763297301144636
+    },
+    {
+      "time_s": 2.5,
+      "max_T_difference_K": 0.0006949227253585377,
+      "velocity_relative_L2": 0.006183958747010003
+    },
+    {
+      "time_s": 3.0,
+      "max_T_difference_K": 0.000804134885527219,
+      "velocity_relative_L2": 0.005858656120779103
+    },
+    {
+      "time_s": 3.5,
+      "max_T_difference_K": 0.0009071411253671613,
+      "velocity_relative_L2": 0.005612219466125513
+    },
+    {
+      "time_s": 4.0,
+      "max_T_difference_K": 0.0009998376071962412,
+      "velocity_relative_L2": 0.005432268555017805
+    },
+    {
+      "time_s": 4.5,
+      "max_T_difference_K": 0.0010849889306996374,
+      "velocity_relative_L2": 0.0053164942572361965
+    },
+    {
+      "time_s": 5.0,
+      "max_T_difference_K": 0.0011584770344938988,
+      "velocity_relative_L2": 0.005244977214137407
+    },
+    {
+      "time_s": 5.5,
+      "max_T_difference_K": 0.001224978835523416,
+      "velocity_relative_L2": 0.00519020271264128
+    },
+    {
+      "time_s": 6.0,
+      "max_T_difference_K": 0.0012799647852830276,
+      "velocity_relative_L2": 0.005141542675002444
+    },
+    {
+      "time_s": 6.5,
+      "max_T_difference_K": 0.0013237415910225536,
+      "velocity_relative_L2": 0.005084360780009665
+    },
+    {
+      "time_s": 7.0,
+      "max_T_difference_K": 0.0013565769151000495,
+      "velocity_relative_L2": 0.0050084999229455555
+    },
+    {
+      "time_s": 7.5,
+      "max_T_difference_K": 0.0013792559832381812,
+      "velocity_relative_L2": 0.004918278306255892
+    },
+    {
+      "time_s": 8.0,
+      "max_T_difference_K": 0.0013917676794790168,
+      "velocity_relative_L2": 0.004802513604486357
+    },
+    {
+      "time_s": 8.5,
+      "max_T_difference_K": 0.0013920291490308045,
+      "velocity_relative_L2": 0.004667426610217044
+    },
+    {
+      "time_s": 9.0,
+      "max_T_difference_K": 0.001380340969262761,
+      "velocity_relative_L2": 0.004512470292089988
+    },
+    {
+      "time_s": 9.5,
+      "max_T_difference_K": 0.0013574588327855963,
+      "velocity_relative_L2": 0.004340043107388677
+    },
+    {
+      "time_s": 10.0,
+      "max_T_difference_K": 0.0013242988602542027,
+      "velocity_relative_L2": 0.004157743480535949
+    },
+    {
+      "time_s": 10.5,
+      "max_T_difference_K": 0.0012820189207332078,
+      "velocity_relative_L2": 0.003970655737198323
+    },
+    {
+      "time_s": 11.0,
+      "max_T_difference_K": 0.0012318313899868372,
+      "velocity_relative_L2": 0.003785607126852294
+    },
+    {
+      "time_s": 11.5,
+      "max_T_difference_K": 0.001181152408946673,
+      "velocity_relative_L2": 0.0036087111814887864
+    },
+    {
+      "time_s": 12.0,
+      "max_T_difference_K": 0.001125717203478871,
+      "velocity_relative_L2": 0.0034434536669375776
+    },
+    {
+      "time_s": 12.5,
+      "max_T_difference_K": 0.0010659382921858196,
+      "velocity_relative_L2": 0.0032947232702140662
+    },
+    {
+      "time_s": 13.0,
+      "max_T_difference_K": 0.001009917776968905,
+      "velocity_relative_L2": 0.0031634928124491197
+    },
+    {
+      "time_s": 13.5,
+      "max_T_difference_K": 0.000952053428477484,
+      "velocity_relative_L2": 0.003049686547775334
+    },
+    {
+      "time_s": 14.0,
+      "max_T_difference_K": 0.0008978800437944301,
+      "velocity_relative_L2": 0.0029522179305752857
+    },
+    {
+      "time_s": 14.5,
+      "max_T_difference_K": 0.0008439751895252812,
+      "velocity_relative_L2": 0.0028696193015118557
+    },
+    {
+      "time_s": 15.0,
+      "max_T_difference_K": 0.0007961308151607227,
+      "velocity_relative_L2": 0.0027996460239605478
+    },
+    {
+      "time_s": 15.5,
+      "max_T_difference_K": 0.000750082583351741,
+      "velocity_relative_L2": 0.0027403489886114016
+    },
+    {
+      "time_s": 16.0,
+      "max_T_difference_K": 0.000707107707285104,
+      "velocity_relative_L2": 0.002689337926630579
+    },
+    {
+      "time_s": 16.5,
+      "max_T_difference_K": 0.0006694097582453651,
+      "velocity_relative_L2": 0.0026457258631311467
+    },
+    {
+      "time_s": 17.0,
+      "max_T_difference_K": 0.0006355808117746164,
+      "velocity_relative_L2": 0.00260839045611657
+    },
+    {
+      "time_s": 17.5,
+      "max_T_difference_K": 0.0006160773088481619,
+      "velocity_relative_L2": 0.002576379600427154
+    },
+    {
+      "time_s": 18.0,
+      "max_T_difference_K": 0.0006157827621677825,
+      "velocity_relative_L2": 0.002549557038223924
+    },
+    {
+      "time_s": 18.5,
+      "max_T_difference_K": 0.0006165596288383313,
+      "velocity_relative_L2": 0.0025278974977241257
+    },
+    {
+      "time_s": 19.0,
+      "max_T_difference_K": 0.0006182731032140509,
+      "velocity_relative_L2": 0.002511294584056827
+    },
+    {
+      "time_s": 19.5,
+      "max_T_difference_K": 0.0006205663912624004,
+      "velocity_relative_L2": 0.0024997986729540143
+    },
+    {
+      "time_s": 20.0,
+      "max_T_difference_K": 0.0006232032582715874,
+      "velocity_relative_L2": 0.002493443547870346
+    }
+  ],
+  "physical_validation": false,
+  "mesh_independence": false,
+  "time_step_independence": false,
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0000.dat.h5": "9d3e433abbb7f799371a21fa93822cb4835940f708cbb505461d5168aad1a982",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0001.dat.h5": "3bbdeb5f52610c461e5c6f0459fa087cf0b346d3315c3a6bcdcf7f67c500fba0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0050.dat.h5": "ae8bf19c174cdc1eb0279b94c857f4e9486655aa5e539dd462e5dbc7558683d5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0100.dat.h5": "9fedd70586912f36aa7c76c174d7d7d095712db423d73abb4c9cf8778bae00dd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0150.dat.h5": "b9678789ddd3b3ccadff0d7784e148959bb4b734d6f771a81cffcf2803fac2e4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0200.dat.h5": "8044bac4f90204760a70f451a0e60b8680bea5374dee96a535335ef9524edf70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0250.dat.h5": "99ad29761230b4d211e56bc6d0056e6d19f4c32bbfe37cf0a01e23ec4aef3aeb",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0300.dat.h5": "8c1099d564c722e521ff462b05e637b05187682d5a2ee7ce3bb47211cafd3e05",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0350.dat.h5": "5579a831254a1b735f3fa70aa46e13e8ee8260fc3cc28d863fdebecf0b436f3a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0400.dat.h5": "164e2d9f9729c02d8eb82cb5074f6965ff521c5baa9e4ad9bc8baa53948febaf",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0450.dat.h5": "223293f5d6f87a0847e011baa4ff7b9f666f9232dad11138cca4e44286724d82",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0500.dat.h5": "9a295a913b6d308f44f5a47a0ef2829046a950d927ad1793ca4a3e9d9545bd5e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0550.dat.h5": "9ce79bab94854d29aad4e631f0ddc2dc6ebe29847b63fea7f1d1786edff5d15b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0600.dat.h5": "e7c415e31f759c31a5c748697cda9f2f7275a322aea7b7b9e5e9bbc0cd02fd78",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0650.dat.h5": "e4b7837e5a37aef3ebda35700c6bde797071ffec0e9d9a7b58167d5e3e2015f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0700.dat.h5": "b228196f4d88b33a72bba0355f60c2e7451e7da7f0be05cb59b00fcfefd95805",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0750.dat.h5": "a1c25e1747e63913236d062e3458bcfc00b7d71bb98c44deb878edc34bcad8a8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0800.dat.h5": "6a2f0ca29c6d9c7052b7460897c785b9f306cec4a2aa0b48c313a0d163091811",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0850.dat.h5": "8fe4b1827d4b5b90833ede7636bd77b6d9e85ac3a54d39f767075c3c472d8428",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0900.dat.h5": "5301e252f7794dab17609b5d749b2f028730c5aacd509b60fb064b2658741857",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-0950.dat.h5": "17c14320edb69d438ac98b011f5863fe07060f7a037de2e3a60fe60a69da485e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1000.dat.h5": "bbd8e661065a625363484a36a3b44b0e9bb03dc7cb92ca03d95ac1d485fe0879",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1050.dat.h5": "d5da5fec696398cf21d6ce8f5443a0fd1db88a1588a10a5c16198e102f503b28",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1100.dat.h5": "bbeb05816ac4eeb58786ffbea1b14f11908a76444c9ee78fe1a531860eb57ba1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1150.dat.h5": "76ad91054c35a8ed4632671484921a03ef4c1d62212d27cf5821da5251437356",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1200.dat.h5": "a02012a810f726948a2c617050e8a31921a1d2205b8273101ba6af2a452c0683",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1250.dat.h5": "a148ce81d02028f781a30816a66da75fc7fe45ebadf99913292041aca1f7e7ea",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1300.dat.h5": "2db014d8b0d9014c2a377ee0fdb5f0ab2ae5e2c8581d27cb1d8d9e49b2cc2f51",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1350.dat.h5": "d7488286920ea8227449764d95f93de1fb9708eaea5a557e46856fc4feb2d8de",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1400.dat.h5": "8e23cef30396678aaf8907a57ea57282b837275b82a5f243cf9aba6cb64266b4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1450.dat.h5": "effea0105eebb5a23710a521625eba165345dd5becab58102d73b8cf763acc56",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1500.dat.h5": "a6b29273e54db88180f076f6141eb1fa1e09b06cb582e83706f177e9d7fd9cc5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1550.dat.h5": "1e05e4f343972b78c0ec010758aec04a188506d221c1e4ce78d7a0723eba99df",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1600.dat.h5": "964b60c48c06e07c36446c583fcd092fab056e7d288f0f684927a5c4060eaa32",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1650.dat.h5": "0da9ebe9b4f317433e8d68d50ced4d3e2ececbbfbd40aa916081d9a14447b5a0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1700.dat.h5": "dddc73f8a6fbfab8ea27acd838c165a1054084b72e6f97359cae001c04f27859",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1750.dat.h5": "8762baadf90e91cad0d100fbe91646ccf9ebe15364d11b23fd57fb0987b16eb8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1800.dat.h5": "e6c1209044cecf0add44af5c09b56a9de0263ec03dacd38aa4ed9dbebf383147",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1850.dat.h5": "9cefd69887bce0b1845740318daa015e263d3bbdb2dba32094597b0389b3a9b3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1900.dat.h5": "91e044781b37f2684e7023669f37ad2e29855f74e48dcaef7ade49e95c534e5d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-1950.dat.h5": "0a959fbead01a41901529a718ffb35202d13b1aadd156803eeed1be4e39fc189",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-2000.dat.h5": "c8d382071e27e06a796f55c85dc72f37640e6afd92f3b410581f442da5836817",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\0\\U": "0a6c6e64d8143d73ba6d8ece0dc3fdd04899252f13d9d19db9c3837dfc4ddd9d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\0\\T": "d0e725ae0482a1bdbf491668caa65e2f1887000c8f6587abf55f65839520a461",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\0\\p": "9632ec6a26ce9f461a44cc1ef1d4bddff4b8f56287bec67f8b0490a9ffbd8181",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\0.5\\U": "2a6c2dc18bbe0adca9bfa4fe57452cc7b47ad6e76f00282af980b2d0ce62d026",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\0.5\\T": "ff250656aa0447f859c280be00560f7d7351405fc49f031e15c5ffa5ac358967",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\0.5\\p": "6b7db78aca8607b3363db11d4a2f5674b4149431c656681de84dbb8c6a665ae0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\0.5\\rho": "4889e42d83ba72632fb2f17fa3e38517c15a94e9076964fd2724669f41e61941",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\0.5\\uniform\\time": "362bec3bc6d0b1d921bc3b3ae246f5b8a60bb98e1962e87adc12913e07a659ea",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1\\U": "7f65d5d6a155d5f4cf3280ce5c7a5f794b9b29b8cff4e962cec6a5e3f2192076",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1\\T": "a2ecc23c9db0686c28eb0f16f8bf5c2462ee9c96272ccb8a204fe14391da99dd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1\\p": "be1210efd9507ce16a8a39faf8cba602ae9d364ec8b479472aa2286049e47b5e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1\\rho": "edeef31c00aa31f1d3b1d23dc05e316581869dc6b533a569ec45d9046fa5d047",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1\\uniform\\time": "2ddcc430c792b2a5da5ff822d2aae59647bea2272ab1acda65f38005a90b7b09",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1.5\\U": "ac286e7315b6846e22786618344fcf2e4b59049a67848dbd0c951c271f73768c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1.5\\T": "da66d21fcca7e772f86f5956a432a8a69dd5cddad8dadb73dca37b95c340ca6f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1.5\\p": "2953e27157496b3e1c7e893616c3c2f6527504954911028200e95ffe70b957c9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1.5\\rho": "b50ddd059cd693937876af76a5aefb28d72a7f9feb858b7ef43830dae62c10dc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\1.5\\uniform\\time": "dc1d024dea286da2fc4008092f26f85a87ac849da330a30fef7df18aa63a06ae",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2\\U": "4ef93e7efac6f98453cdbf164aa04fdb12f800fc1d26b15754d43c6739d5f743",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2\\T": "0765a3d5e774c72ff632c324424d179a610a9fd2d2c84400e3d77058e237197d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2\\p": "3df8c13795a45a2f16fc3910b2487631be402c93a51252690d06d5c84d2a4e85",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2\\rho": "1e5e7d74ba566b046fa69603b3f449fc3f063089cbe2e27bb67638bb99912377",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2\\uniform\\time": "ca00c108b28086c1654dafe34ab6e6d7d4036e1010aea54ccfbd68c1d9189c41",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2.5\\U": "106c45fcf1ef6f0bc6181cc4e264e800dc40903e9a5a2bb3ad94e856bd582cd5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2.5\\T": "f30973ed7b297711e942bc99f9f6b7cefe909d733a16e1e48cf4792ba5b52802",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2.5\\p": "aac96df81372eac821fa6592bb492e1c341340f8aa310a1a67de3723a381286e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2.5\\rho": "13c160e579c06936dcea0e08e2efe8e3dc03200c6eace89d98c437ab98b42076",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\2.5\\uniform\\time": "f5f6fcc97d096422ad099f5f2fe056b0cf7fa3898d0e3be457637be7ea9037a7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3\\U": "8a6c565ef08a9a1a137d55656e93fb5f107d78816f3874ee7058ea446391749e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3\\T": "43d8ea8c4e035d62392f54a6fab5baeb708e06c20ae9671e5f7b8f0bf5f3aa50",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3\\p": "02166dafd51f243f3e1e0f6581f3a7a1f3adec5d85923d36303d6496e7905144",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3\\rho": "1a2513d1971ea875ee620fba53ad1eb3d5f97747da293fc84f2bd6e743da6bad",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3\\uniform\\time": "05ae86a0e60e7e72c56d2d3d12131336dd0f2e932b6c80b6be0489633fbea187",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3.5\\U": "1cc1d83bda35b8921aaceca188d1bb8b710b73c0ca559ffbc14695c1142d817b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3.5\\T": "e069d823304c78ff840c55f2b3029384878e2373c528491529e59b77c7228326",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3.5\\p": "f5768dc349d96ae585db5301ee44d1483eecf9f4bd85cb9667973e317fb66784",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3.5\\rho": "15e54fdf7724007e1cf67a1bb95b8f278c5f6bebff0fce01c2f230847e932a96",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\3.5\\uniform\\time": "c477d3492197521649488c5cef0f79de9978d0cbf8e8a84aa3bf4658da06cac2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4\\U": "e43ff94410fb4da1062cf6afebd3a3bb3007cc5e29045a2584f0fb92462683c2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4\\T": "be9038603d12ccbefcee8a19eada17fee01a19df740e18b233cfefbcd58cf4df",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4\\p": "8dbd9e05557ede1ee2140b817f8b3e712463ccc6d16654716f26fe6c07251010",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4\\rho": "6994ceac99892905e3aa5f2a9816caef750a38b2cfa5104be252a4fa0cbb7de9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4\\uniform\\time": "3c0762363ef0a91bde2ff553c5cc2e9f37792430a642f28f3cbcfd5687aa6796",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4.5\\U": "0a9c3e593dc881f4ed71ace142426476f1c8f4ed68e28626771cd7613d849a26",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4.5\\T": "c659f0799ee611c2ea5a4f1a3913856867770f6629aabc7936395241d85025e5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4.5\\p": "4cae77bd0555bc4fba8a48be140149c7343cd770ea3fd6f2cd20162065a92fb4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4.5\\rho": "a3216b1fbd850c5790f442cb470c31cf51db3184e55c7706e7506531d8643bcd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\4.5\\uniform\\time": "0ceda55eec756ff1dd6678ef4690b72b472c3d10530925bfebf4e7781c39f594",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5\\U": "d9abfd3bf0645568032b4736a28f2d7a0c7080d7eb5e6c3d58c8111ce91c8c16",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5\\T": "1fec893b87e235697b3438ecea6af107f0ba37d3cda7edb9152af244ea0405c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5\\p": "8d2a28444b4d69a58c357e95dd8cbcc486d585869d56ae865f4afe312af96a12",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5\\rho": "d3c79756cf8eddf785c751bed722e2ca038f74b817967b32debb147e8eb050c8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5\\uniform\\time": "137576d30cee5ef57dc99ab97d8ec62d001aaaf5bb8d5d27575b2bc663d8372d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5.5\\U": "3fd1db97478a70a02cae953953e5ecfffc259a80160cda6aa5146227365e2a32",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5.5\\T": "6b23c7f2a0075e1d1958f988ff6528fb8f6f76cdc1c5843cbbd15590b49e0e00",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5.5\\p": "7b1dfd3621d6183642e9cc9adbe2916db9b7d3d6f991bb7986f3b227897a06e9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5.5\\rho": "a5f754143c7d67a5d5279809af3490a72c94573eaf8ebd062299b007c39a5626",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\5.5\\uniform\\time": "78de2fe61ceb2095923e20527d74e5a30189da8b4d1a0e778d04014ab05bb298",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6\\U": "bacf29fdb4e99abf26badfc6dfaa76cd0229e994c24a4b24ba7b83c549b789f0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6\\T": "2a39ff8b81c6a85d08ab85d1899b0639a9c2bcfd8d746641660d5da2e318aa08",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6\\p": "f7d2377ed90b32fe1a5a05ea8067fa4fb8b86b2d7eee23cd26a18d4059213fc9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6\\rho": "d348533f2637a1b0ffbd257acc4c5445ce0d74a3165285d4843ec099cc7ba825",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6\\uniform\\time": "738442899f99866e12eb3397d7ec69354c5e3e7d8d2071f247a1c0c12009b1ce",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6.5\\U": "d3dc7d023b9c8b83d496db803e7f871b80b773fe16f3abff713f878cb3f15e09",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6.5\\T": "b09db5e87e5cb119ef8bf9f73b0f3f9df331d99337673ea6defe35ac4c78aa18",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6.5\\p": "32b78c67bb2a62f9af2e0f11bf0450fc8ced3a908fecb6db1570797a740f841f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6.5\\rho": "579965f7b8ff24fd3c45b2eb2f1f980cac2a104aa53915a1ebfae596a7245784",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\6.5\\uniform\\time": "5f4c21c8c8d87cfcfe82582766033ccb99c82aa8787a81185b9780c573c1f541",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7\\U": "bed4bc37fa176364046530c655b0b0ea6c93d46bf469eb511332e93208821595",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7\\T": "166d4cc2056a0fba1f459c3c9b4c42b877a7cd5afcd4ae25f1af35855eb339b0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7\\p": "d72bc85af9fffa36a45a724df3f7a8e91e353d0a9310eec94ba1dde6a7139e17",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7\\rho": "e0ec13b7b9b4255dff835783ee532903b28953ab6b3c289d964c01b3c0f6f586",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7\\uniform\\time": "128514ec8fd203b4a4cc55a623d2366a7e9d9cea65bf846fd339cd7f30d76416",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7.5\\U": "0bcc473113fd83a3cd303f5ceda89bba33affc728bb69562835053956423337e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7.5\\T": "df58b9c08d34d0d90cf310c134c1290cd185118aae56305fc20fc61398c4d395",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7.5\\p": "4b17803cf237d5867c38b0e160f8171414e4aa90fcea58a69f225457d9b71158",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7.5\\rho": "6f0b929372d9ddf574edaa3021845eb43a0cba882f5001b5f6b7d858006032d7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\7.5\\uniform\\time": "049b31303f7d21493e53f605a93cc6e2372388e7857311b21e246d3b79213884",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8\\U": "2b6b4bef3f168a750218e1c4bdb627c8ac4cbafc1c576768310de43eb0cd4aba",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8\\T": "f04a712b1d29adc38f4b93072fa0146026ec0e045f3231ceaea4712fe16b815b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8\\p": "f48d99433e1cb1cfa2fd452f2ebf6ece01c02f60be8c608bf905e2c55b5aec3b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8\\rho": "6912fae20eca43d00a67b7c88c94f76fb047ba9c0931668755ca5e2c7a246ab0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8\\uniform\\time": "a5d8b441ac8f0244ff0740281eb293319c32117e11edb37639b7167428ace4de",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8.5\\U": "7c0afc4ffc146a46484d518216362be3fe4569b073ae669293f4920c392b3183",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8.5\\T": "252118b8e3444beb686d33bc2a81ffc06254d765299db7c244be1a4682fef2f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8.5\\p": "1b0882771b19b9413bcefdf0dfca98769f9edb53894d336cdba02b242d0483e5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8.5\\rho": "ff1193ec655f5267a2b350365a4386dff2987283011277f9327ab7d5576c61e9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\8.5\\uniform\\time": "f098061664c95ca32af27e768cb71e3c6010bbaa5637aed843559e5de5f73c1a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9\\U": "efb6ca9c0f29e7a073df48552278a7cf69ea16cc211db114b383e71af3dd861e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9\\T": "9757bc5205c54bf8d9c76c3fbf09fda265aa80073a009e2ed5df5dcc8827c005",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9\\p": "9230fbdb64904f6b9d9a28f5b8fb63bb93b5d68a7043e39c2b39d4c179764a09",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9\\rho": "1c1cad88baf1651eed6df44403bf0ca932335f14abe3521423fde6b94e38f6a0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9\\uniform\\time": "939b51376769cc7c3f7ce06c32ce62753f36e016632f1e2fa5d0742dc4ad5d94",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9.5\\U": "124e73cb73233e402a46f9f3fa4d0ef5867609e7544d83269447b52276941bf8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9.5\\T": "1de82e97cf993626c10b3f7c9c7c30482d1183794edd0df0c160ed84eaa7df70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9.5\\p": "2c78525c849e2b465495b93abb6cd6a49c7c525d2afe4eec6ba3d27d4c442ec4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9.5\\rho": "3a0f97ed8cdcb1452baa1a2d35d38faa358bf18b1785fda408b8016c109e90a3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\9.5\\uniform\\time": "8e9edb223fad04c18b6334e4f7f7fc4789deb8e0d3ca62323035eee174a44a7d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10\\U": "52aa367c3df5e0a5eb03ae9283264ec3b7404296e8dbfdfc058578ce5d86606a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10\\T": "b4f5298d26827bb8807229ab19adf408317d38c8dab3f354bbcdeb90a321be39",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10\\p": "c6cc225f8291cca0bc628d4a4b330384308f9d5b8993119a1d6a3ca60edf791b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10\\rho": "2bbc997d580601423ad611cba70ef544a45dfc6ccda17f93cf12126c02c4b719",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10\\uniform\\time": "2dc11f7d17e78f3c47bc9ece6cb4a5d8ed95341d7bbd5b658fa5e20b8dbaec5d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10.5\\U": "13e26e6557b807a10872e50ae1d426546385dcbdbb554b9389d4748e8d541ddf",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10.5\\T": "5cf54ef6c5af609403c7094ef40f65074900ac54103652088e5d2bbebef0d1b2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10.5\\p": "5d98d81775053ac123fb5e8c01afc87f93f2b26afd5d8f2a403e74f31d4e4e5d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10.5\\rho": "0c09d5cdcdb69db3f8bf588da6c38a49a7d916e7853e28ad9ca82acaba68d72f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\10.5\\uniform\\time": "4a7f8b83ef89e7d17d5a0ea55658ecddd67b64eb9c6cea3412ca98c5f924bb98",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11\\U": "f7a70db2eb57d0456d07a5f18d0871f0a8176dbc5999aa237a3e3773d1ad2206",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11\\T": "3dd7e425d3a68d0d0efdea892ad7ef47219d5c98029e905e49c8183193d23305",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11\\p": "ebbfee1bdc401c7701f28d3a1c9b20c72a72ccc63f806a998fd7e85d1e6247a5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11\\rho": "e7e5deca6b01ffb56644708e75de6d9c4d708913ae6db11abf3ee1914ac736e2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11\\uniform\\time": "2eb9d770eb89646ea09157c5f0e49ae3ee9597bd58040255003bf8bf95c370de",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11.5\\U": "ad6d9e96bb2f6ea79f64095771557d572e6748b7756d3d1b279522825e83e382",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11.5\\T": "50f3f4aa8b10dc43ffd0e3506ba15243aab5ee2656da6e6f865ebff5cb510489",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11.5\\p": "f7bfc91712e0598dbda98405c88220db68739a82e6b47c6e54e353f0b07468d3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11.5\\rho": "7116be040978d1b54efc8e1492523c3eb1c65bd33159d3da088a26a83878139b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\11.5\\uniform\\time": "a7b6e2609f54c1219e366b0e6806b27a6a8030495a8a7f9dcc13664133ca0b70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12\\U": "880bf456033c9bade0db5645185d566428957fdce652c471981283e967e90921",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12\\T": "a3e46c849926a47678a3e7e97faa69b2be0364ecf2a891d426bc78807dc64958",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12\\p": "f66ca6668b422d50a6f690ca347c3e9152d3efb997df071b0201b999a3104a26",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12\\rho": "8086d6cc5dae198593f0a363b2caee6de01a80dc60e6b076724be313f63d06fa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12\\uniform\\time": "be7f57aa39bf61580bf267ec0651dc247f12e3cab67202057fde52b9802c7f90",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12.5\\U": "a4141088be30d1c8c6a30e65cd175ec94c969966a0b19d1e593f4c1a53ca0019",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12.5\\T": "a615d8dd1e90c0f2f6efce3f49f0654c17e3f0f2063280827dd9981f36babd76",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12.5\\p": "b52f6df6c780efb5701ad817652890f8a55f64a4b07edf54d4c7619609f8456c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12.5\\rho": "2cd801339148380f6b4bf54de3716a6c00855f05d8be83e09bb638a587a4630e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\12.5\\uniform\\time": "9b19aaafcb17044eaa06078bc7664bef6507613ef204296488c92f516df949a0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13\\U": "3da36165a86ff76463497329a2a30868aadce4a899b0752e3a59dc461129448b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13\\T": "82bdcb6ec0d263cdda842c7b6a7e9a4ab0b3d500743e96e6ec1dbffe406721e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13\\p": "c2f6a0ed7359923fb8342032863a3dfbbddbe24f775161da9247757c89e6ac97",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13\\rho": "7f95b152be5c2c849294cd67d54c9b554430f940f073288c4bcd59725c50f87a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13\\uniform\\time": "3fc31e1565e84cd6ad278fd7ce1ec9691b99241a858baafe6845281f63f8d546",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13.5\\U": "1865bc4944d98102a65a9742a51599755180610f1e79b18eaedb8bdf72ec1411",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13.5\\T": "b53ba2f431bc449682e922ea619bf1f8acc9cfa53663d8d141f388e86a5decb4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13.5\\p": "907db2230e39bb11c66f4d312054842ee095e4951199f6af9e2b1cc9bfaaea86",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13.5\\rho": "c8dd6d78526cdafba68978f15ce79f62baeeaf886014f086a96906a40a3af3b6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\13.5\\uniform\\time": "ba40b70da85f2addcfe1db7fe936f5c97ea49fe8c0cdba5433fbbe824a193f0a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14\\U": "a9ebf6aba8169b011a090eb47fc82b1f284e440a6ba9e4f71126a940fb513685",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14\\T": "20dbc7b36a084b3a9c3296fabd107436bda7bcccfa5227511dedc3ffb37437d4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14\\p": "07589e080b165e46f4943d2e9b34e198d7667b97363ffd72f6db56cb16bf8e3e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14\\rho": "62d315ae66b09c9c5da14644ab2daea92e61c6f08d9ebb8422308f483bcdec9a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14\\uniform\\time": "29cd16910e13ebb2949bf273958d51a59d39cfd7a1368be28741afb808aa1a8a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14.5\\U": "891bc309ce6b2bcdad9923abaeb898e2280b026a48a683f60845d84abc70db27",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14.5\\T": "f0f8568389fdaec92b0cb41558a9b5fc7f7b266779d0998242dc3af069e1a485",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14.5\\p": "963773a5b17c7f2e5749ef18ad321ddeab74474d2abe8d36be3fd297278a8fa7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14.5\\rho": "55c019ee5df02ee8e2d939f9526b9ccf4305d647598c713d08cca27b0d8fb51e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\14.5\\uniform\\time": "93d8acea1ed2325770cdb1bcfe9fc8ab266338c83755a7be11fb1771578a038b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15\\U": "19b776d8f8ec8dfdd8f5024dcb542a0c449c184b3392414e571922f45f20c169",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15\\T": "7b5467339745fa6bc5ad3adafc97615694c37d314b721759787a01a1f262019b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15\\p": "f5e20fe601d7c6769c14d07a596e971095080b191b482e1be6801febc278f35c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15\\rho": "7f4dc6d7064e1fc2fa1e0c322031fbdf565d8a7b384170267de200fd0cca4455",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15\\uniform\\time": "f706ca0ea9a02699699e7f1e4393e49c09a1cb45442207560e7363ce3575eda0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15.5\\U": "27e480f3954cb0b9c9a069d90b30b8003b630d9425463d63d83fd9231ee975b9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15.5\\T": "a5a66ebf773621d73dfded92d3f2fdfa913639083de3bff9a33c90eccf30f44e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15.5\\p": "c31b1a05cc5dabe5a5e955b1fedef6fa249ac35254aa6ca5a0ef3cb1659dc020",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15.5\\rho": "e0cadde9bedb56d943f875f1f4de82b74d95b3096183f6aee9ae67c24424b3d0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\15.5\\uniform\\time": "e0bd1f3a2ba81174fedea84e80951ec9b676a03b3da33bc384d8998e9cf47863",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16\\U": "8377f2238d89618e5e1721d982fba273d8be32276eab5f5d47f50313320529c9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16\\T": "3af39a34c896a3f6399a14960dedfb79fd0a2eede64c807954f8311d4f0dfb30",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16\\p": "5557471334e386f25d26bfdac4cd29cf626cc814032dc5d4a8b9320c586978f3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16\\rho": "6c31eb51bc3c1df859175a499b75e6abf7cee0aa0ab41dc64abb834e0cefe355",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16\\uniform\\time": "f0cb747d60bb6ddb5d2be839907dd2a685947b346ba257e975a74f668ce98144",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16.5\\U": "c8fdc011388f251801e28c85f17b8b0a8bf1cb4e2014d7db9da11b19193b149c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16.5\\T": "a94b6f6c3d0077f0e501dfadeed50e4bdaf468ee35ec1a28e2ddbac32df493ca",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16.5\\p": "5c2c97173534536e667036d9998c999314f83a0f09edac46dbc35048df2fdeb0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16.5\\rho": "28b74fa6b8263f17bfa937724667907ec9fd6456d6c5a0ea6712e09b9be01d76",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\16.5\\uniform\\time": "ab026cff8a4ebf7f31cffae15137d8dcffde16fd10080ee27364e75cc1ef17cd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17\\U": "b75795a346cff6c13fa94c79ef4148afacfbbe25592890cf535c7246f2b97103",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17\\T": "98effd26ca140e3c73759f416478b458e4f1f04bab83cc27574a2371afa9216c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17\\p": "2da12067e25b9f6a4ad38ac826d7f299b032d2346f46cbe922667dccbae7f2f4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17\\rho": "9e441764da261cf3c21d6b256a4b2d906a4adf0260ca3e8e6221d035d7faf522",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17\\uniform\\time": "e17bb0050cf0c7ac41a54c019c9272f841e937420ca41929c0dfba9d381185e1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17.5\\U": "c37586fdb882b35e29eff5e04091bc7c9e44fac4d45cfd9b00d1e4d2e0e2ce6b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17.5\\T": "89fb2e02dfbc84f6b900133ef8f8e697b4397b4f8c1ca59f6159b38a87da280e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17.5\\p": "183af12c8998b4d557f1de0dc8303b52e7808b821e15dadc354b7c2e8046a642",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17.5\\rho": "4d3afe36eed551a785fe958c0bb476ab8e8af7a2a519772ced57b3f7385421fd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\17.5\\uniform\\time": "f63500104e2788ec36a653ad0b0b0e8b302e7b229b608845a7151e2372702204",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18\\U": "6c5305da6ffc9bf37599cb940de6f7e539e178b79cbb2cc0838afb2fd825d5a6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18\\T": "6f65386aa538f962ca988f0b7e02b81898ccaed5d3fe62f12225b0e870b15d01",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18\\p": "ea1d2a50e68734b39a2e2b3ec391257bd0f33797f36ff6d68b5142688f0c30a8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18\\rho": "b40a89d9e9802fd45dfc7e8682bea1d0ed8e7ac1221bbb9105a6fa4a2b48521d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18\\uniform\\time": "ef59c3e572983913777015d4ef912ded1efdacb9b1758395a9b81f19288ee94c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18.5\\U": "1d2e266100a14e39cba450a5d22af904e25e1eb4599c15312e41257d88d35c09",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18.5\\T": "fce8f6f83517dd3f7ef5ee2e037f92c6496efb49a2040281458a0d6d3d1f17b3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18.5\\p": "988e77f0d128cc30594688ed85dccd7d3bab6129b12cdca687d9e9d78fe7eb24",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18.5\\rho": "f73c177a09efcb04fb6752966f59e1c3863e50f2a340f0217a7b1ee1a81bb10c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\18.5\\uniform\\time": "25755c624bc32e098d1c90c6961569e3d610c0029b710c311a59cd19cb69ce8f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19\\U": "25418a298bf5f8382c1fb5f3078ed3d757c59aeb20897e81a1d1ef46c2fc052a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19\\T": "e8bd43bfc4b3928ab05a0a7feaa752f49a120aab54b498d975df55d2fd8251b9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19\\p": "828efac3e96b724a56295b7421f5f12c0d79a779f8e0297c15af6a7d582d2b12",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19\\rho": "4137d5ddcaf718f13102017310f10f27e2937045cef8c6ef53e29d1d36c84823",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19\\uniform\\time": "6efa8cfce90762fbfd80ae3395a5104460768cdca2380642154a94e9a711d161",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19.5\\U": "cc9e70f30585f940cdcaaa57a0393bdf0ac18d481bce086b4c7119e84a94b695",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19.5\\T": "da073b2d1bfe23c019769a5ecf0818178ed95b21db782cf983532ab230c3d3ac",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19.5\\p": "f1ab97b768f2a30f499f930f1c9f144308a812dbe823db2df7cf548ea22d4b80",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19.5\\rho": "17bc47099ed8b1053a924514aa9ed14eb07b5c6870213d640be6b03e926e7a9b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\19.5\\uniform\\time": "00004730d463b060913e3a200fd021b20a81e6ff451235967598502c30e0b53d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\20\\U": "dad06e6df053d44f2e3d6c641d5e7bba24b1bdd27ed99db3a8719e9690c92e77",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\20\\T": "6d06abdbc35c187255d6a5c6db22ad644627001b093093ca3da794d690834f1b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\20\\p": "50b6e46bfeff5be748912c605791faba28715419628715b12daadf2ccbf63659",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\20\\rho": "11767c309d0fc70c88a4e6252ba4c53891317040ad32eae9b47767b0a308b1de",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\20\\uniform\\time": "d9c724e347f136bab74e6a938bb51a9856f282005c616ab7b3f2986b7ef104a2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\qualification-final.cas.h5": "555f1cc294736f2fcd82b0318c5ee16796b9fc22810e1d76938c08593b349269",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\time-step-checks.json": "5a94f5dfb8a2b2a7f997a27fb9517933f30dd60a15412f324394c503a7a357f0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-settings.json": "f2e10c64be5f83793c538aac1373815815b8cdf9855d175d734910110ac15323",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\heated-gravity-work-source.json": "9ca96947607489726893152895eb286ce0585b78cc53f3cc97e6ade1712ae08a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\source-hashes.json": "73cafa2394a7ac09c408ae62517aab038ae859e6e2fb45641c938698a14d28b2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\solver.log": "fc6d78165aa69af7d7ffb66b7c03491bb03b7130c67de2b7c42ed8090ad442e1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\system\\controlDict": "fe103da094145be4d158d41176e52fde8e7f606e4accd361e8969f94b35d2359",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\system\\fvSolution": "4b3e50f8e4eed9c3e403b95a20e878368f79c23184af9283fb27032445608138",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\constant\\physicalProperties": "97279f6c46a97f8222227991f4c1ac54291f0d018053386b35b7117d6dac31f0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\constant\\polyMesh\\boundary": "ec7bb9ffbc54a862dc9b994848e6becb5347b5629bfa52d3ecf3380a246600a7",
+    "E:\\CFD-Learning-Lab\\local\\hot-patch-plume-production-v001\\openfoam-steps.json": "16563b6054eebb2c88395b8b0840580515e2a9ab48ea00adb1bdb003989cd31c",
+    "E:\\CFD-Learning-Lab\\local\\hot-patch-plume-production-v001\\render_native_plume_v002.py": "49c9b661c9a2bf7016241104af9dfac6251e114883bae762a74fa0ba9b5995f7"
+  },
+  "plot": {
+    "times_s": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0,
+      8.5,
+      9.0,
+      9.5,
+      10.0,
+      10.5,
+      11.0,
+      11.5,
+      12.0,
+      12.5,
+      13.0,
+      13.5,
+      14.0,
+      14.5,
+      15.0,
+      15.5,
+      16.0,
+      16.5,
+      17.0,
+      17.5,
+      18.0,
+      18.5,
+      19.0,
+      19.5,
+      20.0
+    ],
+    "interpolated_frames": false,
+    "instantaneous_streamlines_not_particle_paths": true,
+    "openfoam_initial_density": "derived from p/(R*T); t=0 EOS is not an independent check",
+    "geometry": "native cell centres and spans bijectively checked against shared 48x80 grid",
+    "wall_mass_balance": "closed-domain density integral drift; no transient energy balance asserted"
+  },
+  "rendering": {
+    "speed_scale_mm_s": [
+      0,
+      12.19394693658124
+    ],
+    "temperature_scale_K": [
+      0,
+      1
+    ],
+    "frames": 41,
+    "frame_duration_ms": 250,
+    "physical_interval_s": 0.5,
+    "playback": "discrete saved fields, no interpolated motion"
+  }
+}

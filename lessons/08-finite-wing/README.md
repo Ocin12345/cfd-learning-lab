@@ -1,5 +1,10 @@
 # A finite-span wing: actual 3D Fluent and OpenFOAM fields
 
+**Follow-up, 7 November 2026:** [A preserved coupled Fluent restart now passes
+the original numerical criteria](../27-wing-convergence/README.md). Its force
+difference from OpenFOAM remains unresolved. The original results below are
+retained unchanged as the historical diagnostic.
+
 ![Saved steady-field tracer visualization](../../images/2026-11-01-finite-wing-v003/wing-steady-field-tracers.gif)
 
 A full-span rectangular wing brings tip flow and a three-dimensional wake into

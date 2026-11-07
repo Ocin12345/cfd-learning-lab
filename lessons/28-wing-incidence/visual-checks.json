@@ -1,0 +1,150 @@
+{
+  "cases": [
+    {
+      "key": "Fluent 0 deg",
+      "angle": 0,
+      "basis_columns": [
+        [
+          0.9902680687415704,
+          0.13917310096006544,
+          0.0
+        ],
+        [
+          -0.13917310096006544,
+          0.9902680687415704,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pressure_method": "saved native wing-face pressure",
+      "native_solve_evidence": {
+        "actual_terminal_iteration": 1500,
+        "native_terminal_scaled_residuals": {
+          "continuity": 1.0096634273447894e-05,
+          "x-velocity": 2.090931656021943e-09,
+          "y-velocity": 1.0833439427243674e-09,
+          "z-velocity": 8.384188355767573e-10
+        },
+        "initialized_only_data_refused": true,
+        "convergence_pass_required_for_render": false
+      }
+    },
+    {
+      "key": "Fluent 8 deg",
+      "angle": 8,
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pressure_method": "saved native wing-face pressure",
+      "native_solve_evidence": {
+        "actual_terminal_iteration": 1500,
+        "native_terminal_scaled_residuals": {
+          "continuity": 1.2355174130158138e-07,
+          "x-velocity": 1.4252957763799278e-10,
+          "y-velocity": 4.4568652091703063e-11,
+          "z-velocity": 4.182792640616243e-11
+        },
+        "initialized_only_data_refused": true,
+        "convergence_pass_required_for_render": false
+      }
+    },
+    {
+      "key": "OpenFOAM 0 deg",
+      "angle": 0,
+      "basis_columns": [
+        [
+          0.9902680687415704,
+          0.13917310096006544,
+          0.0
+        ],
+        [
+          -0.13917310096006544,
+          0.9902680687415704,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pressure_method": "owner-cell pressure proxy; exact wall pressure is not claimed",
+      "native_solve_evidence": {
+        "actual_saved_iteration": 1200.0,
+        "observed_solver_log": "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-zero-openfoam-v002\\solver.log",
+        "observed_solve_block": "\nTime = 1200s\n\nsmoothSolver:  Solving for Ux, Initial residual = 2.7785012016687e-08, Final residual = 2.6880263490079e-10, No Iterations 2\nsmoothSolver:  Solving for Uy, Initial residual = 9.5631130795763e-08, Final residual = 2.7426745058445e-10, No Iterations 3\nsmoothSolver:  Solving for Uz, Initial residual = 1.0546781131558e-06, Final residual = 1.0246178342597e-08, No Iterations 2\nGAMG:  Solving for p, Initial residual = 5.1398422324093e-07, Final residual = 2.1865850278209e-09, No Iterations 3\nGAMG:  Solving for p, Initial residual = 7.4934664130709e-08, Final residual = 6.7070314612233e-10, No Iterations 3\ntime step continuity errors : sum local = 7.9363180448363e-11, global = -2.2040809871914e-11, cumulative = -9.8137798369926e-06\nExecutionTime = 154.729482 s  ClockTime = 173 s\n\nEnd\n\nFinalising parallel run\n",
+        "initialized_only_data_refused": true,
+        "convergence_pass_required_for_render": false
+      }
+    },
+    {
+      "key": "OpenFOAM 8 deg",
+      "angle": 8,
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "pressure_method": "owner-cell pressure proxy; exact wall pressure is not claimed",
+      "native_solve_evidence": {
+        "actual_saved_iteration": 1200.0,
+        "observed_solver_log": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-finite-wing-v003\\openfoam\\solver.log",
+        "observed_solve_block": "\nTime = 1200s\n\nsmoothSolver:  Solving for Ux, Initial residual = 8.7384012454918e-10, Final residual = 1.8755825551847e-11, No Iterations 2\nsmoothSolver:  Solving for Uy, Initial residual = 1.2487669586994e-08, Final residual = 4.7317438385149e-11, No Iterations 3\nsmoothSolver:  Solving for Uz, Initial residual = 1.9349786459357e-08, Final residual = 6.3065267105842e-11, No Iterations 4\nGAMG:  Solving for p, Initial residual = 1.0208954613378e-08, Final residual = 6.7634345694281e-11, No Iterations 3\nGAMG:  Solving for p, Initial residual = 2.2732582525139e-09, Final residual = 4.2202212073665e-11, No Iterations 2\ntime step continuity errors : sum local = 7.1490594727948e-12, global = 2.1540908216367e-12, cumulative = -3.7485286218381e-05\nExecutionTime = 145.322248 s  ClockTime = 151 s\n\nEnd\n\nFinalising parallel run\n",
+        "initialized_only_data_refused": true,
+        "convergence_pass_required_for_render": false
+      }
+    }
+  ],
+  "native_geometry_matches": true,
+  "physical_validation": false,
+  "zero_fluent_residual_check": false,
+  "transient_simulation": false,
+  "frames": 48,
+  "unique_frames": 48,
+  "frame_delay_ms": 70,
+  "speed_limits": [
+    0,
+    2.751909145124511
+  ],
+  "pressure_Cp_limits": [
+    -1.23222064335194,
+    1.23222064335194
+  ],
+  "transform_origin": [
+    0.25,
+    0.0,
+    0.0
+  ],
+  "display_formula": "p_wind = origin + (p_global-origin) @ [drag, lift, span]; display axes permuted (x_flow,z,y_lift)",
+  "tracer_method": "Same 18 seeds in wind coordinates; RK4 through native volume-weighted nodal velocities in original fluid tetrahedra; boundary crossings stop the path"
+}

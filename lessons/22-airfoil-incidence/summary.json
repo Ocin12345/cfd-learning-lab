@@ -1,0 +1,126 @@
+{
+  "Re": 100,
+  "cells": 109600,
+  "angle_deg": [
+    0,
+    5
+  ],
+  "cases": {
+    "fluent_alpha0": {
+      "Cd": 0.41583862,
+      "Cl": -3.4838049e-05,
+      "residuals": [
+        1.5179e-13,
+        3.2389e-17,
+        4.2287e-18
+      ],
+      "iteration": 189,
+      "mesh_quality_min_orthogonal": 0.334853,
+      "relative_mass_imbalance": 3.55271375e-16,
+      "last_window": 20,
+      "Cd_relative_range": 0.0,
+      "Cl_absolute_range": 0.0,
+      "zero_incidence_symmetry_applicable": true,
+      "raw_zero_test_unapplied_at_5": [],
+      "reused_saved_solution": true,
+      "checks": {
+        "fluent.residuals": true,
+        "fluent.Cd_stability": true,
+        "fluent.Cl_stability": true,
+        "fluent.zero_angle_lift_diagnostic": true,
+        "fluent.mass_balance": true
+      },
+      "failed_checks": []
+    },
+    "fluent_alpha5": {
+      "Cd": 0.42565837,
+      "Cl": 0.2680233,
+      "residuals": [
+        1.0616e-09,
+        2.9618e-13,
+        7.9149e-14
+      ],
+      "iteration": 385,
+      "mesh_quality_min_orthogonal": 0.334853,
+      "relative_mass_imbalance": 3.32889275e-13,
+      "last_window": 20,
+      "Cd_relative_range": 0.0,
+      "Cl_absolute_range": 0.0,
+      "zero_incidence_symmetry_applicable": false,
+      "raw_zero_test_unapplied_at_5": [
+        false
+      ],
+      "reused_saved_solution": false,
+      "checks": {
+        "fluent.residuals": true,
+        "fluent.Cd_stability": true,
+        "fluent.Cl_stability": true,
+        "fluent.mass_balance": true
+      },
+      "failed_checks": []
+    },
+    "openfoam_alpha0": {
+      "Cd": 0.406465929647574,
+      "Cl": -0.000761632728746113,
+      "iteration": 4800,
+      "residuals": {
+        "Ux": 3.9466995217131e-09,
+        "Uy": 1.8535205642763e-08,
+        "p": 1.0432164762389e-08
+      },
+      "relative_mass_imbalance": 3.156586103614245e-13,
+      "patch_flux_m3_s": {
+        "airfoil": 0.0,
+        "inlet": -40.0,
+        "outlet": 39.999999999987374
+      },
+      "last_window": 100,
+      "Cd_relative_range": 1.0662281155853708e-06,
+      "Cl_absolute_range": 2.6541298081203535e-07,
+      "native_geometry_verified": true,
+      "zero_incidence_symmetry_applicable": true,
+      "checks": {
+        "openfoam.residuals": true,
+        "openfoam.mass_balance": true,
+        "openfoam.Cd_stability": true,
+        "openfoam.Cl_stability": true,
+        "openfoam.wall_flux": true,
+        "openfoam.zero_angle_lift_diagnostic": true
+      },
+      "failed_checks": []
+    },
+    "openfoam_alpha5": {
+      "Cd": 0.416261297180371,
+      "Cl": 0.263879887310146,
+      "iteration": 4800,
+      "residuals": {
+        "Ux": 2.7608592122803e-09,
+        "Uy": 1.2863815826735e-08,
+        "p": 7.3319682944671e-09
+      },
+      "relative_mass_imbalance": 2.1458390619955025e-13,
+      "patch_flux_m3_s": {
+        "airfoil": 0.0,
+        "inlet": -40.0,
+        "outlet": 39.99999999999142
+      },
+      "last_window": 100,
+      "Cd_relative_range": 7.307329111913019e-07,
+      "Cl_absolute_range": 6.46303541018689e-07,
+      "native_geometry_verified": true,
+      "zero_incidence_symmetry_applicable": false,
+      "checks": {
+        "openfoam.residuals": true,
+        "openfoam.mass_balance": true,
+        "openfoam.Cd_stability": true,
+        "openfoam.Cl_stability": true,
+        "openfoam.wall_flux": true
+      },
+      "failed_checks": []
+    }
+  },
+  "physical_validation": false,
+  "mesh_independence": false,
+  "movie_uses_fixed_steady_fields": true,
+  "openfoam_continued_from_3000": true
+}

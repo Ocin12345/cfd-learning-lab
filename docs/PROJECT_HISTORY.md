@@ -187,3 +187,76 @@ The [actual paired startup](../lessons/18-magnus-cylinder/README.md) records 500
 ## Passive tracer through a T-junction — 2026-11-02
 
 The [actual paired pulse](../lessons/19-tracer-tjunction/README.md) records 800 scalar steps to 20 s on 4,400 shared cells, using each solver's own frozen Re20 inlet flow. Both solvers show a dye pulse travelling down the upper branch, turning into the outlet channel and fading as unmarked fluid replaces it. Own primary checks: ANSYS Fluent PASS; OpenFOAM PASS. The GIF uses 101 actual concentration fields. Actual80/81 inlet samples, reconstructed scalar conservation, distinct native residuals and preserved failed controls accompany the record. No complete washout, physical validation or mesh/time independence is claimed; owner reflection remains unprovided.
+
+## Heated impinging jet — 6 November 2026
+
+[Model 26](../lessons/26-heated-impinging-jet/README.md) adds temperature transport
+to each solver's fixed model-25 flow. Both codes completed 600 steps to 3 s,
+with 31 matched animation frames. Residuals, saved-temperature bounds, frozen
+flow, mass balance and final-step energy balance pass. Total plate heat transfer
+differs by 0.0666%. Side-backflow edge effects, mesh/time sensitivity and physical
+validation remain unresolved; thermal steady state is not established.
+
+## 3D wing convergence follow-up — 7 November 2026
+
+[Model 27](../lessons/27-wing-convergence/README.md) preserves the original
+failed-residual state and a tighter-pressure-AMG test, then records a separate
+300-iteration coupled Fluent restart. The new state passes the original
+residual, mass and force-stability criteria. The previous OpenFOAM result was
+reused after rechecking all 42 audited source hashes. Updated paired steady-field
+visuals retain the unresolved drag/lift differences of 7.89%/10.71%.
+
+## Finite-wing incidence comparison - 7 November 2026
+
+[Model 28](../lessons/28-wing-incidence/README.md) adds paired effective-zero-incidence
+runs on the preserved 169,800-cell wing mesh. OpenFOAM passes its checks.
+Fluent's separately saved 300-iteration continuation ends at continuity
+1.0096634273447894e-5 and retains its residual miss against 1e-5; mass and force
+stability pass. Four-panel visuals compare these with model 27's 8-degree cases.
+Tracer animation represents steady fields. Force differences, mesh and domain
+sensitivity remain unresolved; no physical validation or upload is claimed.
+
+## Finite-wing mesh sensitivity - 7 November 2026
+
+[Model 29](../lessons/29-wing-mesh-sensitivity/README.md) records a shared
+224,972-cell refinement at the same 8-degree/Re400 conditions. One interior
+node was repaired without changing boundary coordinates or connectivity.
+Both solvers saved 1,500 iterations. Fluent MISS; OpenFOAM
+PASS. Native checks and misses accompany paired steady-field
+visuals. Two grids do not establish mesh independence or physical validation.
+
+## Natural-convection startup qualification - 7 November 2026
+
+A [paired one-second cavity pilot](../results/natural-convection-qualification-v001/README.md) adds a different physical mechanism: circulation driven by hot/cold walls. The accepted Fluent v004 and OpenFOAM v002 results pass their recorded control and saved-state checks; all 50 Fluent time steps meet the strict residual limits. Earlier audit/iteration misses are retained. Full energy-equation matching, sensitivity and longer-time production remain open. This qualification is not counted as another finished model and has not been uploaded.
+
+## Natural-convection development - 7 November 2026
+
+[Model 30](../lessons/30-natural-convection/README.md) adds paired 20-second ideal-gas cavity runs on 2,304 cells. A separate vertical-flow control established the explicit Fluent gravitational-work source needed to correspond to OpenFOAM's energy term. All 1,000 time steps pass the declared criteria in both accepted runs. Earlier startup coupling misses and a recovered native-image export are preserved. The 24-to-48-cell-per-side comparison shows about 7.5% startup velocity change, so mesh/time independence and physical validation remain unclaimed. Figures, code and hashes are prepared locally; no new upload is claimed.
+
+## 2026-11-07: natural-convection time-step sensitivity
+
+[Model 31](../lessons/31-convection-time-step/README.md) halves dt to 0.01 s from the same saved initial fields. Both solvers complete 2,000 steps to 20 s and pass all declared step checks. Field, mass, EOS and heat comparisons are recorded. The t=0 restart rounding diagnostic is preserved. This comparison does not establish time-step independence or physical validation. Results are prepared locally; no new upload is claimed.
+
+## 2026-11-07: localized floor-heater startup qualification
+
+A new 60 x 100 mm closed cavity with a centered 15 mm heater has paired one-second results on 3,840 shared cells. Both accepted runs pass 100 steps and native field checks. Two earlier Fluent convergence misses are preserved; PISO relaxation was changed without weakening criteria. A separate pressure-treatment efficiency diagnostic remains unresolved. No developed-plume or physical-validation claim is made. See [the qualification record](../results/hot-patch-plume-qualification-v001/README.md).
+
+## 2026-11-07: heater startup animation
+
+Added six matched native states through 1 s, paired temperature/speed panels and numerical histories. Native physical times and cell mapping are independently checked. The 20-second production remains separate and unfinished. See [the animation record](../results/hot-patch-plume-qualification-v001/startup-motion-v001/README.md).
+
+## 2026-11-07: localized floor-heater plume
+
+Model 32 adds the paired 20-second localized-heater calculation; all 2,000 steps pass the stated criteria. Native fields, wall fluxes and visual provenance are checked; physical and sensitivity validation remain open. See [the model record](../lessons/32-heater-plume/README.md).
+
+## 2026-11-07: water-tank sloshing
+
+Model 33 records full 1.2 s paired sloshing runs, 2,400 residual-accepted steps each and 121 checked native states. The original OpenFOAM alpha-bound misses are preserved; a pressure-tolerance repeat passes the unchanged bound. Actual-state MP4/GIF, CSV histories, input dictionaries and source hashes are prepared locally. Mesh/time independence and physical validation remain open. See [the model record](../lessons/33-tank-sloshing/README.md).
+
+## 2026-11-07: sloshing mesh sensitivity
+
+Model 34 completes the paired 160 x 80 sloshing repeat: both 1.2 s cases pass 2,400 step checks and 121 native-state checks. Matched 2.5 mm strip comparisons show maximum fine/coarse depth changes 0.168348 mm in Fluent and 0.059781 mm in OpenFOAM. Native-state MP4/GIF and numerical CSVs are prepared locally. Two grids do not establish mesh independence or physical validation. See [the model record](../lessons/34-sloshing-mesh-sensitivity/README.md).
+
+## Portfolio publication preparation — 8 November 2026
+
+The owner requested upload of the complete prepared portfolio. Records through study 34 and the explicitly unfinished study-35 qualification snapshot are included. A study index links all records. Native simulations, installed environments, credentials and licence files remain outside Git. Existing numerical misses and contribution boundaries are retained. Publication success is established by the GitHub commit, not by this preparation note.

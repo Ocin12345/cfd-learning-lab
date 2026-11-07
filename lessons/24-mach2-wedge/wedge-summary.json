@@ -1,0 +1,126 @@
+{
+  "cells_per_case": 22400,
+  "reference": {
+    "shock_angle_deg": 39.31393184481887,
+    "pressure_ratio": 1.706578604000033,
+    "density_ratio": 1.4584256129129012,
+    "temperature_ratio": 1.170151284295877,
+    "downstream_mach": 1.640522229001082
+  },
+  "thresholds": {
+    "mass_imbalance": 0.001,
+    "shock_angle_error_deg": 1.5,
+    "pressure_ratio_error": 0.02,
+    "minimum_orthogonal_quality": 0.2,
+    "field_stability_relative": 0.002
+  },
+  "numerical_comparison_only": true,
+  "physical_validation": false,
+  "cases": {
+    "ANSYS Fluent": {
+      "native": {
+        "final_iteration": 720,
+        "previous_iteration": 520,
+        "scaled_residuals": {
+          "continuity": 3.8126251712473635e-08,
+          "x-velocity": 3.474965345497793e-08,
+          "y-velocity": 4.576418288581927e-08,
+          "energy": 3.335149879455899e-08
+        },
+        "mesh_quality": {
+          "minimum_orthogonal_quality": 0.984829,
+          "minimum_cell_volume_m3": 3.032943e-05,
+          "maximum_cell_volume_m3": 3.660714e-05,
+          "total_cell_volume_m3": 0.7635754
+        },
+        "native_mass_flux_kg_s_per_m_depth": {
+          "inlet": 670.01581,
+          "outlet": -670.01581,
+          "top": -0.0,
+          "ramp": -0.0,
+          "Net": -4.7026663e-07
+        },
+        "mass_imbalance": 7.018739304077018e-10,
+        "native_case": "wedge-0720.cas.h5",
+        "native_data": "wedge-0720.dat.h5"
+      },
+      "measurements": {
+        "shock_angle_deg": 39.31665852962874,
+        "shock_angle_error_deg": 0.0027266848098719265,
+        "shock_fit_slope": 0.8189761565033026,
+        "shock_fit_intercept_m": -0.16358033577944564,
+        "extrapolated_shock_foot_x_m": 0.19973760466710974,
+        "shock_fit_columns": 96,
+        "shock_fit_rms_m": 0.00011336802679778466,
+        "pressure_upstream_pa": 101324.99999999999,
+        "pressure_downstream_pa": 172933.47276193276,
+        "pressure_ratio": 1.7067206786275133,
+        "pressure_ratio_relative_error": 8.325114773333198e-05,
+        "upstream_mach": 2.0000015672542952,
+        "downstream_mach": 1.6403822002136117,
+        "outlet_minimum_cell_mach": 1.630075232081571,
+        "maximum_ideal_gas_relative_error": 1.1850501394627955e-06,
+        "relative_field_change_l2": {
+          "p": 0.00025763740565681626,
+          "mach": 4.365911594989612e-05
+        },
+        "analytical_angle_check": true,
+        "analytical_pressure_check": true,
+        "field_stability_check": true,
+        "mass_balance_check": true,
+        "all_outlet_cells_supersonic": true,
+        "ideal_gas_consistency_check": true,
+        "residual_check": true
+      }
+    },
+    "OpenFOAM": {
+      "native": {
+        "final_time_s": 0.008,
+        "comparison_time_s": 0.007,
+        "time_steps": 4599,
+        "maximum_reported_courant": 0.299740424321,
+        "mesh_check": "Mesh OK.",
+        "native_centroid_alignment_error_m": 2.0253605597387274e-12,
+        "final_native_outward_mass_flux_kg_s_per_m_depth": {
+          "time_s": 0.008,
+          "inlet": -670.0154473813599,
+          "outlet": 670.05935649352,
+          "top": 0.0,
+          "ramp": 1.040834085586e-15,
+          "relative_imbalance": 6.553447734934251e-05
+        },
+        "mass_imbalance": 6.553447734934251e-05,
+        "last_five_frames_max_mass_imbalance": 7.114758538244812e-05,
+        "initial_frame": "Prescribed uniform field"
+      },
+      "measurements": {
+        "shock_angle_deg": 39.31918858651366,
+        "shock_angle_error_deg": 0.005256741694793732,
+        "shock_fit_slope": 0.8190499346152441,
+        "shock_fit_intercept_m": -0.16363490491961538,
+        "extrapolated_shock_foot_x_m": 0.19978623769316864,
+        "shock_fit_columns": 96,
+        "shock_fit_rms_m": 0.0001587526411545685,
+        "pressure_upstream_pa": 101325.0,
+        "pressure_downstream_pa": 172960.516444,
+        "pressure_ratio": 1.7069875790180113,
+        "pressure_ratio_relative_error": 0.00023964616515148585,
+        "upstream_mach": 1.9999999999988325,
+        "downstream_mach": 1.6402458103921957,
+        "outlet_minimum_cell_mach": 1.6385128971616107,
+        "maximum_ideal_gas_relative_error": 5.981056869774903e-07,
+        "relative_field_change_l2": {
+          "p": 0.0014517288576996151,
+          "mach": 0.0005908245917398049
+        },
+        "analytical_angle_check": true,
+        "analytical_pressure_check": true,
+        "field_stability_check": true,
+        "mass_balance_check": true,
+        "all_outlet_cells_supersonic": true,
+        "ideal_gas_consistency_check": true,
+        "late_mass_balance_check": true
+      }
+    }
+  }
+}

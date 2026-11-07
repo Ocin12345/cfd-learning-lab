@@ -1,0 +1,65 @@
+{
+  "snapshot_time": "2026-11-08T00:17:23.305693+08:00",
+  "qualification_checks_pass": true,
+  "qualifications": {
+    "fluent-flat": {
+      "steps": 200,
+      "saved_states": 21,
+      "peak_interface_courant": 1.0001e-14,
+      "maximum_relative_mixture_mass_closure": 1.2592461105429304e-21,
+      "maximum_saved_speed_m_s": 5.3645398006104666e-15
+    },
+    "fluent-collapse": {
+      "steps": 200,
+      "saved_states": 21,
+      "peak_interface_courant": 0.00862903,
+      "maximum_relative_mixture_mass_closure": 1.7633401704786833e-10,
+      "maximum_saved_speed_m_s": 0.5333538185509019
+    },
+    "openfoam-flat": {
+      "steps": 200,
+      "saved_states": 21,
+      "peak_interface_courant": 1.05561926047733e-12,
+      "maximum_relative_mixture_mass_closure": 4.528998611988733e-14,
+      "maximum_saved_speed_m_s": 1.4579852640132901e-09
+    },
+    "openfoam-collapse": {
+      "steps": 200,
+      "saved_states": 21,
+      "peak_interface_courant": 0.0125351042550622,
+      "maximum_relative_mixture_mass_closure": 6.280060287474079e-10,
+      "maximum_saved_speed_m_s": 0.8393348228797973
+    }
+  },
+  "full_production_complete": false,
+  "physical_validation": false,
+  "production_controller_snapshot": {
+    "state": "production_running",
+    "observed_at": "2026-11-08T00:01:35.038316+08:00",
+    "stage": "fluent-production",
+    "ranks": 2,
+    "resources": {
+      "stage": "fluent-production",
+      "available_ram_GiB": 9.2977294921875,
+      "E_free_GiB": 278.89990234375,
+      "fluent_running": false,
+      "openfoam_running": false
+    },
+    "prerequisite_sha256": {
+      "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\solver-inputs-v002.json": "7f463083aa8714f636566b730b0e9eae9a882dcf47738a7fc51ba616b4eb7e1a",
+      "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-flat-audit.json": "290c3adf2c7e140d119e4b4593418e7fe670d4380f48e8c0d3838f525f849de8",
+      "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-flat-audit.json": "f437f31f1a794fd172ed09c08e69ee856b65b9cdd5405c6a6f77f346b483e581",
+      "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-collapse-audit.json": "799316d91e71998e75618c2d3795dcb8a6e10c84f0c3af96b1fed1c1c5d1c26f",
+      "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-collapse-audit.json": "610ec12b9a1fed941208feaf393ac73700489645eca73c13e6443c7c81bcfa45"
+    }
+  },
+  "fluent_saved_state_snapshot": {
+    "state": "saved_frame",
+    "observed_at": "2026-11-08T00:17:02.936146+08:00",
+    "mode": "production",
+    "step": 1500,
+    "time_s": 0.15,
+    "water_area_m2": 0.04266120000567229
+  },
+  "note": "Point-in-time publication snapshot only. The longer pair is unfinished here. The chat goal is paused; this publication action does not start or resume a simulation."
+}

@@ -1,0 +1,138 @@
+{
+  "study": "localized floor-heater plume",
+  "time_s": 20.0,
+  "checks_pass": true,
+  "results": {
+    "ANSYS Fluent": {
+      "walls": {
+        "top": {
+          "face_count": 48,
+          "wall_length_m": 0.06,
+          "heat_per_depth_W_m": -0.005777399741093632,
+          "report_heat_per_depth_W_m": -0.0057773997,
+          "absolute_mass_flux_per_depth_kg_ms": 0.0,
+          "net_mass_flux_per_depth_kg_ms": 0.0,
+          "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+        },
+        "bottom": {
+          "face_count": 36,
+          "wall_length_m": 0.045,
+          "heat_per_depth_W_m": 0.0,
+          "report_heat_per_depth_W_m": -0.0,
+          "absolute_mass_flux_per_depth_kg_ms": 0.0,
+          "net_mass_flux_per_depth_kg_ms": 0.0,
+          "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+        },
+        "left": {
+          "face_count": 80,
+          "wall_length_m": 0.1,
+          "heat_per_depth_W_m": 0.0,
+          "report_heat_per_depth_W_m": -0.0,
+          "absolute_mass_flux_per_depth_kg_ms": 0.0,
+          "net_mass_flux_per_depth_kg_ms": 0.0,
+          "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+        },
+        "right": {
+          "face_count": 80,
+          "wall_length_m": 0.1,
+          "heat_per_depth_W_m": 0.0,
+          "report_heat_per_depth_W_m": -0.0,
+          "absolute_mass_flux_per_depth_kg_ms": 0.0,
+          "net_mass_flux_per_depth_kg_ms": 0.0,
+          "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+        },
+        "heater": {
+          "face_count": 12,
+          "wall_length_m": 0.015,
+          "heat_per_depth_W_m": 0.04262827840374939,
+          "report_heat_per_depth_W_m": 0.042628278,
+          "absolute_mass_flux_per_depth_kg_ms": 0.0,
+          "net_mass_flux_per_depth_kg_ms": 0.0,
+          "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+        }
+      },
+      "total_absolute_wall_mass_flux_per_depth_kg_ms": 0.0,
+      "heated_wall_length_m": 0.015,
+      "heated_wall_heat_per_depth_W_m": 0.04262827840374939,
+      "heated_wall_mean_flux_W_m2": 2.841885226916626,
+      "Nu_based_on_heated_wall_length": 1.6730833425462721,
+      "net_wall_heat_per_depth_W_m": 0.03685087866265575
+    },
+    "OpenFOAM": {
+      "walls": {
+        "top": {
+          "face_count": 48,
+          "wall_length_m": 0.05999999999999999,
+          "heat_per_depth_W_m": -0.005770435058788097,
+          "report_heat_per_depth_W_m": -0.005770435058788098,
+          "absolute_mass_flux_per_depth_kg_ms": 6.203854594147708e-23,
+          "net_mass_flux_per_depth_kg_ms": 2.0679515313825692e-23,
+          "native_heat_representation": "W/m2 integrated over native polygon areas and divided by extrusion depth"
+        },
+        "bottom": {
+          "face_count": 36,
+          "wall_length_m": 0.044999999999999984,
+          "heat_per_depth_W_m": 0.0,
+          "report_heat_per_depth_W_m": 0.0,
+          "absolute_mass_flux_per_depth_kg_ms": 8.885729236409475e-25,
+          "net_mass_flux_per_depth_kg_ms": 2.423380700838948e-25,
+          "native_heat_representation": "W/m2 integrated over native polygon areas and divided by extrusion depth"
+        },
+        "left": {
+          "face_count": 80,
+          "wall_length_m": 0.09999999999999991,
+          "heat_per_depth_W_m": 0.0,
+          "report_heat_per_depth_W_m": 0.0,
+          "absolute_mass_flux_per_depth_kg_ms": 0.0,
+          "net_mass_flux_per_depth_kg_ms": 0.0,
+          "native_heat_representation": "W/m2 integrated over native polygon areas and divided by extrusion depth"
+        },
+        "right": {
+          "face_count": 80,
+          "wall_length_m": 0.1,
+          "heat_per_depth_W_m": 0.0,
+          "report_heat_per_depth_W_m": 0.0,
+          "absolute_mass_flux_per_depth_kg_ms": 0.0,
+          "net_mass_flux_per_depth_kg_ms": 0.0,
+          "native_heat_representation": "W/m2 integrated over native polygon areas and divided by extrusion depth"
+        },
+        "heater": {
+          "face_count": 12,
+          "wall_length_m": 0.015000000000000001,
+          "heat_per_depth_W_m": 0.04257172669423154,
+          "report_heat_per_depth_W_m": 0.04257172669423154,
+          "absolute_mass_flux_per_depth_kg_ms": 8.271806125530275e-22,
+          "net_mass_flux_per_depth_kg_ms": 4.963083675318164e-22,
+          "native_heat_representation": "W/m2 integrated over native polygon areas and divided by extrusion depth"
+        }
+      },
+      "total_absolute_wall_mass_flux_per_depth_kg_ms": 8.901077314181455e-22,
+      "heated_wall_length_m": 0.015000000000000001,
+      "heated_wall_heat_per_depth_W_m": 0.04257172669423154,
+      "heated_wall_mean_flux_W_m2": 2.8381151129487687,
+      "Nu_based_on_heated_wall_length": 1.6708637895469536,
+      "net_wall_heat_per_depth_W_m": 0.03680129163544344
+    }
+  },
+  "sign_convention": "positive heat into fluid, verified against native solver reports",
+  "Nu_definition": "q_mean * heated_wall_length / (conductivity * imposed_hot_cold_temperature_difference)",
+  "conductivity_W_mK": 0.025478873239436622,
+  "deltaT_K": 1.0,
+  "openfoam_depth_m": 0.005,
+  "fluent_planar_depth_m": 1.0,
+  "energy_balance_claimed": false,
+  "note": "Instantaneous wall heat rates and no-penetration checks; not a transient global energy balance or physical validation.",
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\qualification-final.cas.h5": "555f1cc294736f2fcd82b0318c5ee16796b9fc22810e1d76938c08593b349269",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\qualification-final.dat.h5": "028fb9625658cec444974aef91ca5cfc7a90a8d3c21e9b2ccbb539c4ac046ee1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\fluent\\wall-heat-final.txt": "8140745a80ee5baad09618650c9a5b517ce435c19d852c2c01234265a7038588",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\constant\\polyMesh\\points": "861f2d6192dbe5cf323e87d39f9cb4f5732ad1680ad2657f36e04312c6afb9a4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\constant\\polyMesh\\faces": "59c781b5f3516f381269af68d7cbcb88e599ae77d46fe23264a5906d1402773f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\constant\\polyMesh\\boundary": "ec7bb9ffbc54a862dc9b994848e6becb5347b5629bfa52d3ecf3380a246600a7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\20\\wallHeatFlux": "46b2c163ea26d1f13b1b9a1f6dbaa434bed4e85e59e651e59cc6ebe4e54dc188",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\20\\phi": "510088b04160213a0fb7b38ecc459e3ec46b602fcb3596e49dfdd995df38062d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\20\\uniform\\time": "d9c724e347f136bab74e6a938bb51a9856f282005c616ab7b3f2986b7ef104a2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\hot-patch-plume-20s-v001\\openfoam\\wall-heat-postprocess.log": "d9bff75e34be9af7fa1f24d3f61762bd24ebe86277f683b93c92bb6264a17240",
+    "E:\\CFD-Learning-Lab\\local\\hot-patch-plume-production-v001\\audit_native_wall_flux_v001.py": "0a3042c6132a1db0911880944ace3dc2733c103d2e68321ef728b61a72bc9e32"
+  }
+}

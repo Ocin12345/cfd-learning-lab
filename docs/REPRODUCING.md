@@ -378,3 +378,37 @@ The [actual paired startup](../lessons/18-magnus-cylinder/README.md) records 500
 ## Passive tracer through a T-junction — 2026-11-02
 
 The [actual paired pulse](../lessons/19-tracer-tjunction/README.md) records 800 scalar steps to 20 s on 4,400 shared cells, using each solver's own frozen Re20 inlet flow. Both solvers show a dye pulse travelling down the upper branch, turning into the outlet channel and fading as unmarked fluid replaces it. Own primary checks: ANSYS Fluent PASS; OpenFOAM PASS. The GIF uses 101 actual concentration fields. Actual80/81 inlet samples, reconstructed scalar conservation, distinct native residuals and preserved failed controls accompany the record. No complete washout, physical validation or mesh/time independence is claimed; owner reflection remains unprovided.
+
+## Natural-convection qualification
+
+The [startup record](../results/natural-convection-qualification-v001/README.md) contains executed scripts, actual OpenFOAM dictionaries and native-source hashes. Accepted fields are Fluent qualification v004 and OpenFOAM qualification v002/heated. See the preserved corrections before rerunning; historical scripts include known failed audit/iteration versions. Native data remains on E: outside the repository.
+
+## Natural convection at 20 seconds
+
+Use [model 30's record](../lessons/30-natural-convection/README.md) for the corrected energy formulation, actual accepted dictionaries, executed code and native paths. The original one-second qualification remains historical evidence. Accepted fine results are natural-convection-cavity-48-v001/fluent and openfoam-v002; the latter uses 16 outer correctors. The next study must preserve these outputs and vary the time step in a new directory.
+
+## Natural-convection time-step comparison
+
+See [model 31](../lessons/31-convection-time-step/README.md) for the same-initial-field restart, exact executed scripts, actual dictionaries and source hashes. Accepted output is natural-convection-dt001-v001/fluent-v002 and openfoam; the first Fluent attempt stopped before advancing because of material serialization roundoff. Reproduce into fresh versioned directories.
+
+## Localized floor-heater startup
+
+The [heater qualification](../results/hot-patch-plume-qualification-v001/README.md) lists actual accepted native paths, source hashes, numerical changes and small dictionaries. The accepted Fluent run is fluent-v003 with PISO pressure/momentum relaxation 1.0; earlier attempts remain historical. A floating-pressure flag test is not an accepted continuation. Preserve the one-second references and qualify a longer-run method before producing the developed-plume animation.
+
+The heater [startup animation record](../results/hot-patch-plume-qualification-v001/startup-motion-v001/README.md) includes the executed renderer and instructions. Its --qualification flag reads the completed 1 s references. Omitting that flag requires both 20 s runs to have completed and passed; no partial production is presented as a full animation.
+
+## 2026-11-07: localized floor-heater plume
+
+Model 32 records the unchanged initial fields, stricter Fluent continuity criterion, executed scripts and actual small OpenFOAM dictionaries. Retain the native startup qualification as the restart source and use fresh output paths. See [the model record](../lessons/32-heater-plume/README.md).
+
+## 2026-11-07: water-tank sloshing
+
+Model 33 includes exact executed sources, small accepted OpenFOAM inputs and all-step/saved-state auditors. Use fresh versioned paths, the recorded local qualification archives and the separate native outputs. The code is not a complete public native restart archive. Accepted OpenFOAM source is openfoam-v003, with alpha/p_rgh linear tolerances 1e-11/1e-10; earlier bound misses are retained. See [the model record](../lessons/33-tank-sloshing/README.md).
+
+## 2026-11-07: sloshing mesh sensitivity
+
+Model 34 retains exact fine-grid source versions, small OpenFOAM dictionaries, four short qualification audits, full production audits and matched-strip CSVs. Original native and coarse reference archives remain outside Git. Use fresh versioned outputs and regenerated admission receipts; the archived original pipeline refuses output reuse. See the model reproduction guide for its local archive dependencies. See [the model record](../lessons/34-sloshing-mesh-sensitivity/README.md).
+
+## Study-35 qualification snapshot and publication scope
+
+The study-35 page contains four passing 200-step qualification records, their actual images, executed sources and small inputs. Its longer production pair is unfinished in this snapshot. Source hash receipts refer to preserved E: originals and require the recorded local dependency layout. This publication is a methods/results archive, not a complete native solver restart bundle. Historical statements that a record was prepared locally or had not yet been uploaded describe its preparation stage; consult the current GitHub commit for publication status.

@@ -1,0 +1,25 @@
+{
+  "physical_duration_s": 20,
+  "dt_s": 0.01,
+  "steps": 2000,
+  "cells": 3840,
+  "initial_fields": "same saved quiet-control fields as paired one-second qualification",
+  "fluent_method": "PISO with neighbor correction, pressure and momentum relaxation 1.0",
+  "fluent_continuity_target": 1e-08,
+  "fluent_momentum_target": 1e-06,
+  "fluent_energy_target": 1e-09,
+  "fluent_max_inner": 1600,
+  "openfoam_outer": 16,
+  "openfoam_pressure_correctors": 2,
+  "mass_drift_limit": 1e-05,
+  "eos_limit": 1e-06,
+  "temperature_bounds_K": [
+    300,
+    301
+  ],
+  "temperature_bound_tolerance_K": 0.0001,
+  "solvers_sequential": true,
+  "processes_each": 2,
+  "physical_validation": false,
+  "failed_and_ineffective_diagnostics_preserved": true
+}

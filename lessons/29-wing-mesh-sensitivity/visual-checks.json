@@ -1,0 +1,481 @@
+{
+  "model": "Full-span steady laminar finite wing, nominal Re_c=400; independent numerical checks required",
+  "solvers": [
+    "fluent",
+    "openfoam"
+  ],
+  "paired": true,
+  "native_solve_evidence": {
+    "fluent": {
+      "actual_terminal_iteration": 1500,
+      "native_terminal_scaled_residuals": {
+        "continuity": 1.5753945420957494e-05,
+        "x-velocity": 2.7416512546635065e-09,
+        "y-velocity": 1.0528151023127746e-09,
+        "z-velocity": 9.865523878371621e-10
+      },
+      "initialized_only_data_refused": true,
+      "convergence_pass_required_for_render": false
+    },
+    "openfoam": {
+      "actual_saved_iteration": 1500.0,
+      "observed_solver_log": "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\solver.log",
+      "initialized_only_data_refused": true,
+      "convergence_pass_required_for_render": false
+    }
+  },
+  "source_tets": 224972,
+  "source_nodes": 44800,
+  "source_wing_faces": 26132,
+  "minimum_source_tet_volume_m3": 2.70158746933546e-08,
+  "native_to_source_tets_bijective": true,
+  "node_matching_tolerance_m": 1e-08,
+  "actual_native_fields": true,
+  "input_hashes_stable_after_loading": true,
+  "pressure_methods": {
+    "fluent": "saved native wing-face pressure",
+    "openfoam": "owner-cell pressure proxy; exact wall pressure is not claimed"
+  },
+  "Cp_shared_limits": [
+    -1.3015250653679,
+    1.3015250653679
+  ],
+  "native_field_ranges": {
+    "fluent": {
+      "speed_m_s": [
+        2.184001137944839e-05,
+        1.2322095804385074
+      ],
+      "pressure_Pa": [
+        -0.4408531521871802,
+        0.48866926907231256
+      ]
+    },
+    "openfoam": {
+      "speed_m_s": [
+        9.93684410149318e-05,
+        1.330974957493728
+      ],
+      "pressure_Pa": [
+        -0.65076253268395,
+        0.54496536313646
+      ]
+    }
+  },
+  "downstream_slice": {
+    "display_limits_per_s": [
+      -1.7088702009646157,
+      1.7088702009646157
+    ],
+    "per_solver": {
+      "fluent": {
+        "native_intersection_triangles": 3932,
+        "full_omega_x_range_per_s": [
+          -1.7088702009646157,
+          1.3102640213437247
+        ],
+        "display_saturated_triangle_fraction": 0.0,
+        "quiver_native_samples": 120,
+        "crossflow_speed_max_m_s": 0.13489503616918339
+      },
+      "openfoam": {
+        "native_intersection_triangles": 3932,
+        "full_omega_x_range_per_s": [
+          -1.6133128122005038,
+          1.2454763186628326
+        ],
+        "display_saturated_triangle_fraction": 0.0,
+        "quiver_native_samples": 120,
+        "crossflow_speed_max_m_s": 0.13621005525193644
+      }
+    },
+    "vector_scale_shared": true
+  },
+  "animation": {
+    "frames": 48,
+    "frame_delay_ms": 50,
+    "playback_fps": 20,
+    "playback_duration_s": 2.4,
+    "steady_field": true,
+    "solver_transient_time": false,
+    "camera_orbit": true,
+    "speed_limits_m_s": [
+      0,
+      1.330974957493728
+    ],
+    "tracer_method": "RK4 through volume-weighted native nodal velocity; every substage/final segment walks actual adjacent fluid tets and stops at a boundary",
+    "tracer_loop": "Each tracer has a fixed phase offset along its own actual integrated trajectory; visual recycling is not flow unsteadiness"
+  },
+  "traces": {
+    "fluent": [
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -1.9400000000000004
+        ],
+        "samples": 256,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -1.8000000000000005
+        ],
+        "samples": 253,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          0.0
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          1.8000000000000005
+        ],
+        "samples": 253,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          1.9400000000000004
+        ],
+        "samples": 256,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          -2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          -2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          -1.9400000000000004
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          -1.8000000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          0.0
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          1.8000000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          1.9400000000000004
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          2.0600000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      }
+    ],
+    "openfoam": [
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -1.9400000000000004
+        ],
+        "samples": 256,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          -1.8000000000000005
+        ],
+        "samples": 253,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          0.0
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          1.8000000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          1.9400000000000004
+        ],
+        "samples": 255,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          -0.1703110846946773,
+          2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          -2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          -2.0600000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          -1.9400000000000004
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          -1.8000000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          0.0
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          1.8000000000000005
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          1.9400000000000004
+        ],
+        "samples": 252,
+        "integration_time_s": 5.0,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          2.0600000000000005
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      },
+      {
+        "seed": [
+          -0.2475670171853926,
+          0.1286164983299311,
+          2.2000000000000006
+        ],
+        "samples": 251,
+        "integration_time_s": 4.999999999999981,
+        "stop": "integration duration reached"
+      }
+    ]
+  },
+  "velocity_reconstruction": "Volume-weighted averages of actual incident fluid-cell vectors to original native mesh vertices, then piecewise-linear barycentric interpolation; no boundary vectors appended",
+  "gradient_reconstruction": "Piecewise linear curl on original saved fluid tetrahedra; no cross-solid Delaunay connectivity",
+  "synthetic_vortex": false,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "steady_convergence_acceptance": "Separate native analyser evidence; not inferred from rendered traces"
+}

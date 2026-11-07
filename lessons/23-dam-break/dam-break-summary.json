@@ -1,0 +1,28 @@
+{
+  "ANSYS Fluent": {
+    "frames": 66,
+    "initial_water_area_m2": 0.027,
+    "final_water_area_m2": 0.02700000062637299,
+    "max_absolute_water_area_drift_percent": 2.3479033606221833e-06,
+    "alpha_min": 0.0,
+    "alpha_max": 1.0,
+    "max_wall_crest_sampled_m": 0.2975,
+    "max_wall_crest_time_s": 0.3900000000000002,
+    "first_wet_floor_cell_at_right_wall_s": 0.2800000000000001,
+    "water_conservation_within_0_5_percent": true,
+    "alpha_bounds_pass": true
+  },
+  "OpenFOAM": {
+    "frames": 66,
+    "initial_water_area_m2": 0.027,
+    "final_water_area_m2": 0.026999916256526302,
+    "max_absolute_water_area_drift_percent": 0.000310161013694632,
+    "alpha_min": -1.63075870964e-18,
+    "alpha_max": 1.00000014582,
+    "max_wall_crest_sampled_m": 0.2975,
+    "max_wall_crest_time_s": 0.5600000000000003,
+    "first_wet_floor_cell_at_right_wall_s": 0.3200000000000001,
+    "water_conservation_within_0_5_percent": true,
+    "alpha_bounds_pass": true
+  }
+}

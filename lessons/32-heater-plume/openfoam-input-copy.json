@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "path": "0/U",
+      "sha256": "0a6c6e64d8143d73ba6d8ece0dc3fdd04899252f13d9d19db9c3837dfc4ddd9d"
+    },
+    {
+      "path": "0/p",
+      "sha256": "9632ec6a26ce9f461a44cc1ef1d4bddff4b8f56287bec67f8b0490a9ffbd8181"
+    },
+    {
+      "path": "0/p_rgh",
+      "sha256": "5c5ba10af52b3800820ea68eebfa45b23d1fde21312dfcf57f0d7c31bd34e6dd"
+    },
+    {
+      "path": "0/T",
+      "sha256": "d0e725ae0482a1bdbf491668caa65e2f1887000c8f6587abf55f65839520a461"
+    },
+    {
+      "path": "constant/physicalProperties",
+      "sha256": "97279f6c46a97f8222227991f4c1ac54291f0d018053386b35b7117d6dac31f0"
+    },
+    {
+      "path": "constant/momentumTransport",
+      "sha256": "7f30eb5298bee2bcdf9a5dce51cf56e784ec33c2cb197a70897b8fef57ae1451"
+    },
+    {
+      "path": "constant/g",
+      "sha256": "f3ee9f85e0aea494f36e51ee2fb190f7a2b9208f893f88e939dcc53524238ad1"
+    },
+    {
+      "path": "constant/pRef",
+      "sha256": "9474efd14423295aade810875fbf825e03cae14a4907ebbfae3a640105b3e5e3"
+    },
+    {
+      "path": "constant/hRef",
+      "sha256": "07948c6efb3ad8f40999b6036db38b23bffbf35ffa32362471776f49ecbc5176"
+    },
+    {
+      "path": "constant/polyMesh/points",
+      "sha256": "861f2d6192dbe5cf323e87d39f9cb4f5732ad1680ad2657f36e04312c6afb9a4"
+    },
+    {
+      "path": "constant/polyMesh/neighbour",
+      "sha256": "00a854c422aae2c04b673b9718235a09ca2200013c9bb31f233be5e305e13fdd"
+    },
+    {
+      "path": "constant/polyMesh/faces",
+      "sha256": "59c781b5f3516f381269af68d7cbcb88e599ae77d46fe23264a5906d1402773f"
+    },
+    {
+      "path": "constant/polyMesh/owner",
+      "sha256": "cb3247c8ef44c9d268648c8c2a1ea9e79f0fe3d0abfd863f3a15dde3f5efd7f9"
+    },
+    {
+      "path": "constant/polyMesh/boundary",
+      "sha256": "ec7bb9ffbc54a862dc9b994848e6becb5347b5629bfa52d3ecf3380a246600a7"
+    },
+    {
+      "path": "constant/polyMesh/cellProc",
+      "sha256": "290c3cf8984f816402004fd024d9e8f16976540773887910140e095991a296e0"
+    },
+    {
+      "path": "system/controlDict",
+      "sha256": "36bbebbbf6b1570b07b67cc3bea265494040dbee2237cecf60e74a6841c97ade"
+    },
+    {
+      "path": "system/fvSchemes",
+      "sha256": "4baedf7e29746c252f0bf2a3f2175828134e5e5e5bfa94526f937e73edbb1b4e"
+    },
+    {
+      "path": "system/fvSolution",
+      "sha256": "4b3e50f8e4eed9c3e403b95a20e878368f79c23184af9283fb27032445608138"
+    },
+    {
+      "path": "system/decomposeParDict",
+      "sha256": "5d8f6b48668905aeb13b8488bc3e4579022ae2dcf86c8648e7d2d87496a32a64"
+    }
+  ],
+  "only_modified": "system/controlDict",
+  "endTime": [
+    1,
+    20
+  ],
+  "writeInterval": [
+    20,
+    50
+  ]
+}

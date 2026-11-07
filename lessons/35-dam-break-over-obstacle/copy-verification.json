@@ -1,0 +1,190 @@
+{
+  "copies": {
+    "qualification/fluent-flat-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-flat-audit.json",
+      "sha256": "290c3adf2c7e140d119e4b4593418e7fe670d4380f48e8c0d3838f525f849de8"
+    },
+    "qualification/fluent-collapse-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-collapse-audit.json",
+      "sha256": "799316d91e71998e75618c2d3795dcb8a6e10c84f0c3af96b1fed1c1c5d1c26f"
+    },
+    "qualification/openfoam-flat-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-flat-audit.json",
+      "sha256": "f437f31f1a794fd172ed09c08e69ee856b65b9cdd5405c6a6f77f346b483e581"
+    },
+    "qualification/openfoam-collapse-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-collapse-audit.json",
+      "sha256": "610ec12b9a1fed941208feaf393ac73700489645eca73c13e6443c7c81bcfa45"
+    },
+    "code/dam_break_common_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_common_v001.py",
+      "sha256": "8725b9fa9c483dc412eca1f10a51a5a3c38bd299a49dd9a1db66d4b56b3fadf0"
+    },
+    "code/dam_break_admission_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_admission_v002.py",
+      "sha256": "df7d3fb24dfd24a528908ab1a97f7e66967063534a865f6533e0d673bb248b2c"
+    },
+    "code/prepare_dam_break_openfoam_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\prepare_dam_break_openfoam_v002.py",
+      "sha256": "f3eedad4decedd2cfeb2fe3c538d85fc9d622a528ebe7bbf35397e274b42034f"
+    },
+    "code/run_dam_break_fluent_v003.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_fluent_v003.py",
+      "sha256": "56e85f3c0a2d011c691d9c44e3463d56a1e1c263355b1fec9f3e415e56e259a6"
+    },
+    "code/run_dam_break_openfoam_v002.sh": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_openfoam_v002.sh",
+      "sha256": "d9991a0243a75f604b9292c997408760e29bb03cb836dbfc34785b2c4b6f638e"
+    },
+    "code/run_single_openfoam_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_single_openfoam_v002.py",
+      "sha256": "3a0ab03dc716f6f3dbaf00301b2143a74a600f5d0bfaaa63406e95b10a3c1b24"
+    },
+    "code/audit_dam_break_fluent_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\audit_dam_break_fluent_v001.py",
+      "sha256": "bf7eb72208d016a7eea8bc53b8ddc2a90f5eaf9c7e1717bc57bece421ee7f9e5"
+    },
+    "code/audit_dam_break_openfoam_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\audit_dam_break_openfoam_v001.py",
+      "sha256": "ced2d0652caba7e3129ad49999c3e916e646d8f3b5e0124dd3aaabb7c2e2699b"
+    },
+    "code/render_dam_break_qualification_v003.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\render_dam_break_qualification_v003.py",
+      "sha256": "ef3cde97d3cdc4fef770f0eee262c0b50068eac3f430de10609cd230a7c00143"
+    },
+    "code/render_dam_break_setup_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\render_dam_break_setup_v001.py",
+      "sha256": "8ecd09ddec7c3b080cfb29f9e35c5975e4bcc4fe5e2ce47d1d6b16b1ff7b3ee8"
+    },
+    "code/check_dam_break_inputs_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\check_dam_break_inputs_v002.py",
+      "sha256": "9b84821ada9b80ad8e59c328e3f0759064658afb92e09cb3e78f02fa22389a9f"
+    },
+    "provenance/solver-inputs-v002.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\solver-inputs-v002.json",
+      "sha256": "7f463083aa8714f636566b730b0e9eae9a882dcf47738a7fc51ba616b4eb7e1a"
+    },
+    "provenance/fluent-inputs-v003.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-inputs-v003.json",
+      "sha256": "0425bb291328d6b9728e7b48b3248d3435f150a47d01ef64e2ca4859a621f728"
+    },
+    "provenance/geometry-check-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\geometry-check-v001.json",
+      "sha256": "f109ac316cd2c70837e717e0e28bd54ba176d33b2ec351260b08554573fd50c0"
+    },
+    "provenance/openfoam-native-input-check-v002.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-native-input-check-v002.json",
+      "sha256": "8c75592ea89a0709868804f56f370b469845fad3e617dd6643e548b914887b3d"
+    },
+    "provenance/fluent-patch-coverage-check-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-patch-coverage-check-v001.json",
+      "sha256": "d43b0b5c535e3fe297eb3ad0920278607f66ff91eae877eea1e1704071f4245e"
+    },
+    "provenance/flux-sign-reference-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\flux-sign-reference-v001.json",
+      "sha256": "2210b025a39b33031ce9c60e953f8d91ee9e1fc50acb96ac8b82ca4881aa6d5b"
+    },
+    "provenance/monitor-syntax-regression-result-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\monitor-syntax-regression-result-v001.json",
+      "sha256": "ee13004f0f233d57ce960b0e2e6c1681b54854ef05d29e9e701032dcaa8ed4e3"
+    },
+    "provenance/fluent-setup-regression-result-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-setup-regression-result-v001.json",
+      "sha256": "34f4df5b60a06d550e5440b3ec7694077326c72a7e1b379df0a10c8b83bdaeaa"
+    },
+    "provenance/fluent-boundary-scope-correction-v003.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-boundary-scope-correction-v003.json",
+      "sha256": "b8de38aba1e02285991a5574b05cb85e10027737cecaeff6af26eeb38f95d951"
+    },
+    "provenance/fluent-surface-setup-correction-v002.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-surface-setup-correction-v002.json",
+      "sha256": "a387bf1554b1a0fe106b5b81488b83b867726fa3373bfb2a5a2b167f889ec666"
+    },
+    "provenance/monitor-syntax-correction-v002.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\monitor-syntax-correction-v002.json",
+      "sha256": "636065ee2525f1ad4d8b6ec8445868cda3392d5df13fd373753e10fde19e0d36"
+    },
+    "CONDITIONS.md": {
+      "source": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\SPEC.md",
+      "sha256": "c3e320494c20c5c856a6ea7b4aff6e20d7eb035e75b3caf47628be544848fdec"
+    },
+    "flat-paired-qualification.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-dam-break-flat-paired-v002\\paired-qualification.png",
+      "sha256": "41c926883eb9af4d3535912e07a3e216e62b8bcd016692301f77c0fe790c4fde"
+    },
+    "flat-paired-qualification.pdf": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-dam-break-flat-paired-v002\\paired-qualification.pdf",
+      "sha256": "bedeb764162725a4587d9bff4ea798b87e26ace909a72e28b3a63b28061443c2"
+    },
+    "flat-plot-receipt.json": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-dam-break-flat-paired-v002\\plot-receipt.json",
+      "sha256": "0074193e61d29525f187b128cddc580acf5d15b908b13804c54d8a7e060b43d3"
+    },
+    "collapse-paired-qualification.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-dam-break-collapse-paired-v001\\paired-qualification.png",
+      "sha256": "5a04070612a41adb42e9beeab9a14113538ebcaa4e5591fecf2fde77ec111adf"
+    },
+    "collapse-paired-qualification.pdf": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-dam-break-collapse-paired-v001\\paired-qualification.pdf",
+      "sha256": "f1765fcf02c0561eaf0a75d370566960d96af6f525cb551beca9979efe26ed94"
+    },
+    "collapse-plot-receipt.json": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-dam-break-collapse-paired-v001\\plot-receipt.json",
+      "sha256": "d532dd99e48d8608cb9e79e5ebd14cc5e625f49c8bf9c08bd7948550f852b5ec"
+    },
+    "openfoam-inputs/system/blockMeshDict": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\system\\blockMeshDict",
+      "sha256": "223cedba71febc6705590e3a7bbd941f90bb9750fc8195b82380645ee814b019"
+    },
+    "openfoam-inputs/system/controlDict": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\system\\controlDict",
+      "sha256": "9b76a0ee30e255d6f37e5499cc75271e40338bc2b66f3575b1362cfc6f31e9b9"
+    },
+    "openfoam-inputs/system/fvSchemes": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\system\\fvSchemes",
+      "sha256": "07cc2b3a3f686bb9300eb4886722e33a14bd5891d2a2596e160793818eec97e0"
+    },
+    "openfoam-inputs/system/fvSolution": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\system\\fvSolution",
+      "sha256": "100ecbc66fede42b76e916400c0af1c842664fae233f5c6befe4c522017a8f4a"
+    },
+    "openfoam-inputs/system/decomposeParDict": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\system\\decomposeParDict",
+      "sha256": "ef788d7bbb4fe8d922f9e11144d42d2ac5bbfcd2d6aeb724e7b4834eaf497072"
+    },
+    "openfoam-inputs/constant/g": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\constant\\g",
+      "sha256": "5fbc3114b43ae55d4251cbec1d2f44a8fd7a4612bd99c3258088634fa9a8acfd"
+    },
+    "openfoam-inputs/constant/phaseProperties": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\constant\\phaseProperties",
+      "sha256": "d03381781d73a53ef29d485449186d9e3602b528951b3135ce5a0cb5d8595b96"
+    },
+    "openfoam-inputs/constant/physicalProperties.water": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\constant\\physicalProperties.water",
+      "sha256": "c4cf7c0b013df05bbdb006ed2a7f054780908f8b6107c8a3523c69d020de6d70"
+    },
+    "openfoam-inputs/constant/physicalProperties.air": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\constant\\physicalProperties.air",
+      "sha256": "21fd1d5de51008438eb5875ef14a745087b1b349acbf8ae0175c1631e7f9ddfc"
+    },
+    "openfoam-inputs/constant/momentumTransport": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\constant\\momentumTransport",
+      "sha256": "462475fb839bf7259c364c64517a5493e57f5becbdbc7cb886eff7230bfa4f7f"
+    },
+    "openfoam-inputs/0/alpha.water": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\0\\alpha.water",
+      "sha256": "6f3ba850547f0f2fdf843bdcf37ba0085d3a338c6c41a3058b0ab362fc6abc63"
+    },
+    "openfoam-inputs/0/U": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\0\\U",
+      "sha256": "750f9405d82326576a228b94f470f57cbaf450447bb659aa23877a7b2b949916"
+    },
+    "openfoam-inputs/0/p_rgh": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-v002\\0\\p_rgh",
+      "sha256": "721ab53801ab511521701eb8a7b49e8b9469fc3cc5bcc7451cd2d953ccf3cf3c"
+    }
+  },
+  "all_copies_byte_identical": true,
+  "native_files_included": false
+}

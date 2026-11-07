@@ -1,0 +1,27 @@
+{
+  "native_integration_regression": "RED monitor startup -> GREEN complete200-step control",
+  "failed_version_steps": 0,
+  "corrected_version_steps": 200,
+  "corrected_version_numerical_audit_pass": true,
+  "native_flux_rows": 201,
+  "unchanged_authored_inputs": [
+    "0/alpha.water",
+    "0/p_rgh",
+    "0/U",
+    "constant/g",
+    "constant/phaseProperties",
+    "constant/momentumTransport",
+    "constant/physicalProperties.water",
+    "constant/physicalProperties.air",
+    "system/blockMeshDict",
+    "system/fvSchemes",
+    "system/decomposeParDict"
+  ],
+  "changed_authored_inputs": [
+    "system/controlDict",
+    "system/fvSolution"
+  ],
+  "acceptance_limits_unchanged": true,
+  "originals_preserved": true,
+  "physical_validation": false
+}

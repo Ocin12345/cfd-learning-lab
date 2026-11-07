@@ -1,0 +1,30 @@
+{
+  "source_times_s": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "frame_duration_ms": 500,
+  "interpolated_states": false,
+  "arrows": "native velocity with common scale",
+  "streamlines": "instantaneous native velocity, not particle paths",
+  "T_limits_K": [
+    299.6,
+    300.4
+  ],
+  "speed_limits_mm_s": [
+    0,
+    2.6145525929546234
+  ],
+  "sha256": {
+    "frame-00.png": "729cc8b559e22dba6da45362f914c22ef670faae15c3968e7d276995a7d675e2",
+    "frame-01.png": "50f7a5943feefbbd3ea2fec09fca012c724e0af1ba6e43ae525ec28892147163",
+    "frame-02.png": "560de01e274cde2e25beb4fe806b2aa8093e3128f52b66b8e99d7af1fcfbd219",
+    "frame-03.png": "ad92cdc00968e21ee863498dd4b18bad7f394e6150a7a6e8456da30680637bca",
+    "frame-04.png": "f0d1bd072350f20dafc6d637fc68154f4338edf7ad024ff0a04b9d961281e4c6",
+    "frame-05.png": "cccb4cef96e01ab3c758cbbc7ae84b564476140c734bfc7aa1fad5a27e3c8888"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "cells_per_solver": 14400,
+  "Reynolds": 100,
+  "gap_over_slot_width": 3.0,
+  "reference_speed_m_s": 0.07303673469387754,
+  "cases": {
+    "ANSYS Fluent": {
+      "native": {
+        "final_iteration": 1750,
+        "previous_iteration": 1500,
+        "residuals": {
+          "continuity": 8.05568186600076e-07,
+          "x-velocity": 8.066232049704359e-09,
+          "y-velocity": 6.3288977372554435e-09
+        },
+        "residual_check": true,
+        "mesh_quality": {
+          "minimum_orthogonal_quality": 1.0,
+          "minimum_cell_volume_m3": 1e-06,
+          "maximum_cell_volume_m3": 1e-06,
+          "total_cell_volume_m3": 0.0144
+        },
+        "mass_imbalance": 7.142613231800846e-10,
+        "native_endpoint": "jet-1750",
+        "outward_mass_flux_kg_s_per_m_depth": {
+          "inlet": -0.0017916367,
+          "left": 0.00089581009,
+          "right": 0.00089582665,
+          "plate": 0.0,
+          "ceiling": 0.0
+        },
+        "outlet_reverse_mass_kg_s_per_m_depth": {
+          "left": 2.217882003881543e-05,
+          "right": 2.2178621794954104e-05
+        },
+        "plate_pressure_source": "Fluent native face SV_P on the plate"
+      },
+      "measurements": {
+        "centre_pressure_coefficient_adjacent_cell": 1.5228106124215164,
+        "peak_pressure_coefficient_adjacent_cell": 1.5228129598227784,
+        "peak_pressure_x_over_slot_width": 0.025,
+        "plate_pressure_line_integral_N_per_m_depth": 5.988884279621179e-05,
+        "left_outlet_flow_percent": 49.99953785274575,
+        "right_outlet_flow_percent": 50.00046214725424,
+        "inlet_mass_relative_error": 2.790744269010048e-08,
+        "mass_imbalance_check": true,
+        "inlet_profile_flow_check": true,
+        "outlet_split_check": true,
+        "mirror_velocity_relative_l2": 3.494199099728228e-05,
+        "mirror_symmetry_check": true,
+        "relative_endpoint_change_l2": {
+          "velocity": 4.670881947632894e-05,
+          "pressure": 5.4228251948999895e-05
+        },
+        "field_stability_check": true,
+        "pressure_peak_near_centre_check": true,
+        "maximum_speed_m_s": 0.10918171168650838
+      },
+      "plate": {
+        "centre_cp": 1.5228106124215164,
+        "peak_cp": 1.5228129598227784,
+        "peak_x_over_W": 0.025,
+        "centre_pressure_pa": 0.004975476565587876,
+        "integrated_plate_gauge_pressure_N_per_m_depth": 5.988884279621179e-05
+      }
+    },
+    "OpenFOAM": {
+      "native": {
+        "final_iteration": 1250,
+        "previous_iteration": 1000,
+        "native_mesh_check": "Mesh OK.",
+        "max_centroid_difference_m": 1.3877787807814457e-17,
+        "final_initial_residuals": {
+          "Ux": 5.4818121316405e-11,
+          "Uy": 5.1245158677841e-11,
+          "p": 6.127646726762e-11
+        },
+        "max_initial_residuals_last_50": {
+          "Ux": 6.1942997752118e-11,
+          "Uy": 5.6207512223337e-11,
+          "p": 1.0819108198523e-10
+        },
+        "residual_check": true,
+        "mass_imbalance": 1.2654581344220326e-10,
+        "outward_mass_flux_kg_s_per_m_depth": {
+          "left": 0.000895818372020948,
+          "right": 0.0008958183782057811,
+          "inlet": -0.001791636750000005,
+          "plate": 0.0,
+          "ceiling": 0.0
+        },
+        "outlet_reverse_mass_kg_s_per_m_depth": {
+          "left": 3.361944069518902e-05,
+          "right": 3.3619441142067745e-05
+        },
+        "plate_pressure_source": "OpenFOAM zeroGradient pressure face equals adjacent-cell pressure"
+      },
+      "measurements": {
+        "centre_pressure_coefficient_adjacent_cell": 1.52911277656077,
+        "peak_pressure_coefficient_adjacent_cell": 1.5291127773509483,
+        "peak_pressure_x_over_slot_width": 0.025,
+        "plate_pressure_line_integral_N_per_m_depth": 6.056928394300375e-05,
+        "left_outlet_flow_percent": 49.999999827397126,
+        "right_outlet_flow_percent": 50.00000017260287,
+        "inlet_mass_relative_error": 2.886579864025407e-15,
+        "mass_imbalance_check": true,
+        "inlet_profile_flow_check": true,
+        "outlet_split_check": true,
+        "mirror_velocity_relative_l2": 1.3205983389506409e-08,
+        "mirror_symmetry_check": true,
+        "relative_endpoint_change_l2": {
+          "velocity": 3.3124985112241806e-09,
+          "pressure": 4.553676256042841e-09
+        },
+        "field_stability_check": true,
+        "pressure_peak_near_centre_check": true,
+        "maximum_speed_m_s": 0.1091929089817653
+      },
+      "plate": {
+        "centre_cp": 1.52911277656077,
+        "peak_cp": 1.5291127773509483,
+        "peak_x_over_W": 0.025,
+        "centre_pressure_pa": 0.004996067615933582,
+        "integrated_plate_gauge_pressure_N_per_m_depth": 6.056928394300375e-05
+      }
+    }
+  },
+  "physical_validation": false,
+  "animation_type": "Passive tracers integrated through saved steady velocity fields"
+}

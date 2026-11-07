@@ -1,0 +1,10 @@
+{
+  "original_case": "qualification/fluent-flat-v002",
+  "steps_completed": 0,
+  "surface_tension_configuration_passed": true,
+  "root_cause": "Direct boundary.momentum is inactive for the multiphase boundary; select the active shared phase section from actual native state.",
+  "fix": "Inspect boundary active state and select mixture momentum or an unambiguous active section; preserve early cases separately even before initialization.",
+  "physics_and_limits_unchanged": true,
+  "originals_preserved": true,
+  "retry_not_yet_run": true
+}

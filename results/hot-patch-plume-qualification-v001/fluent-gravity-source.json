@@ -1,0 +1,19 @@
+{
+  "expression": "-9.8100000000000005 [m s^-2] * Density * Velocity.y",
+  "units": "W/m^3",
+  "source": "rho g dot U for gravity (0,-g)",
+  "readback": {
+    "enable": true,
+    "terms": {
+      "energy": [
+        {
+          "option": "value",
+          "value": "-9.8100000000000005 [m s^-2] * Density * Velocity.y"
+        }
+      ],
+      "mass": [],
+      "x-momentum": [],
+      "y-momentum": []
+    }
+  }
+}

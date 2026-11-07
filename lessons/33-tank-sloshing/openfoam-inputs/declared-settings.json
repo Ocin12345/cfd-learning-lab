@@ -1,0 +1,24 @@
+{
+  "initial_tilt": 0.025,
+  "mean_water_height_m": 0.05,
+  "cells": [
+    80,
+    40
+  ],
+  "dx_m": 0.0025,
+  "dt_s": 0.0005,
+  "steps": 2400,
+  "outer_correctors": 8,
+  "momentum_predictor": true,
+  "frame_interval": 20,
+  "duration_s": 1.2,
+  "qualification_required": true,
+  "numerical_revision": {
+    "alpha_linear_tolerance": 1e-11,
+    "previous_alpha_linear_tolerance": 1e-08,
+    "all_other_solver_inputs_unchanged": true,
+    "pressure_linear_tolerance": 1e-10,
+    "previous_pressure_linear_tolerance": 1e-07,
+    "change_from_previous": "Pressure tolerance only; alpha 1e-11 retained"
+  }
+}

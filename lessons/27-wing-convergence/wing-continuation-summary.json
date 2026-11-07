@@ -1,0 +1,257 @@
+{
+  "model": "finite-wing-solver-continuation",
+  "geometry": "Unchanged 169800-cell Re400 finite wing at 8 degrees",
+  "cases": {
+    "Original SIMPLE": {
+      "iteration": 1200,
+      "final_residuals": {
+        "continuity": 0.00015777199615669686,
+        "x-velocity": 9.819071018069798e-08,
+        "y-velocity": 1.9721832084935901e-07,
+        "z-velocity": 4.485385556306089e-08
+      },
+      "last100_max_residuals": {
+        "continuity": 0.00015823323909766848,
+        "x-velocity": 9.867060245475855e-08,
+        "y-velocity": 1.974074914814759e-07,
+        "z-velocity": 4.513802908262387e-08
+      },
+      "native_scaling_denominators": {
+        "continuity": 8.96849013133913,
+        "x-velocity": 13759.282755616146,
+        "y-velocity": 13759.28275391246,
+        "z-velocity": 13759.28275823659
+      },
+      "boundary_mass_in_kg_s": 96.0,
+      "net_outward_mass_kg_s": -2.797321485559223e-07,
+      "relative_mass_imbalance": 2.9138765474575243e-09,
+      "cell_mass_imbalance_abs_sum_kg_s": 7.086132742420323e-05,
+      "cell_mass_imbalance_max_kg_s": 1.0504766267960264e-06,
+      "maximum_speed_m_s": 1.2308718444920217,
+      "cells": 169800,
+      "force_stability": {
+        "actual_samples": 100,
+        "consecutive_final100_available": true,
+        "definition": "range/max(abs(mean),1e-3), actual native per-iteration coefficients",
+        "Cd": {
+          "mean": 0.2330852049065996,
+          "relative_range": 6.020489638010553e-06,
+          "passed": true
+        },
+        "Cl": {
+          "mean": 0.3060412749686028,
+          "relative_range": 1.0323697055314586e-05,
+          "passed": true
+        },
+        "passed": true
+      },
+      "forces": {
+        "iteration": 1200,
+        "Cd": 0.233084565694153,
+        "Cl": 0.3060407992125752
+      },
+      "checks": {
+        "mesh_and_native_order_unchanged": true,
+        "finite_fields_and_materials": true,
+        "residuals": false,
+        "mass": true,
+        "force_stability": true
+      }
+    },
+    "Extra 100 SIMPLE": {
+      "iteration": 1300,
+      "final_residuals": {
+        "continuity": 0.00015764683444868924,
+        "x-velocity": 9.850453082816228e-08,
+        "y-velocity": 1.9706127935233286e-07,
+        "z-velocity": 4.4575795709047746e-08
+      },
+      "last100_max_residuals": {
+        "continuity": 0.0001581972362034966,
+        "x-velocity": 9.871407039794327e-08,
+        "y-velocity": 1.9739547913782117e-07,
+        "z-velocity": 4.5157472208169104e-08
+      },
+      "native_scaling_denominators": {
+        "continuity": 8.96849013133913,
+        "x-velocity": 13759.282703180834,
+        "y-velocity": 13759.282692687284,
+        "z-velocity": 13759.282698426772
+      },
+      "boundary_mass_in_kg_s": 96.0,
+      "net_outward_mass_kg_s": -2.751399392764142e-07,
+      "relative_mass_imbalance": 2.866041034129315e-09,
+      "cell_mass_imbalance_abs_sum_kg_s": 7.131443085884577e-05,
+      "cell_mass_imbalance_max_kg_s": 1.0502002971701785e-06,
+      "maximum_speed_m_s": 1.2308718664819505,
+      "cells": 169800,
+      "force_stability": {
+        "actual_samples": 100,
+        "consecutive_final100_available": true,
+        "definition": "range/max(abs(mean),1e-3), actual native per-iteration coefficients",
+        "Cd": {
+          "mean": 0.23308521908447472,
+          "relative_range": 6.029951211452919e-06,
+          "passed": true
+        },
+        "Cl": {
+          "mean": 0.3060413094023577,
+          "relative_range": 1.04262649794786e-05,
+          "passed": true
+        },
+        "passed": true
+      },
+      "forces": {
+        "iteration": 1300,
+        "Cd": 0.2330848090174643,
+        "Cl": 0.3060397672830616
+      },
+      "checks": {
+        "mesh_and_native_order_unchanged": true,
+        "finite_fields_and_materials": true,
+        "residuals": false,
+        "mass": true,
+        "force_stability": true
+      }
+    },
+    "Tighter pressure AMG": {
+      "iteration": 1600,
+      "final_residuals": {
+        "continuity": 0.00017328033940533489,
+        "x-velocity": 1.0679211495189355e-07,
+        "y-velocity": 2.0453959377054464e-07,
+        "z-velocity": 5.4803539316444105e-08
+      },
+      "last100_max_residuals": {
+        "continuity": 0.00017389862578591063,
+        "x-velocity": 1.0760542355347734e-07,
+        "y-velocity": 2.0485772693808277e-07,
+        "z-velocity": 5.5080274892461305e-08
+      },
+      "native_scaling_denominators": {
+        "continuity": 8.96849013133913,
+        "x-velocity": 13759.282909722437,
+        "y-velocity": 13759.283354482512,
+        "z-velocity": 13759.283362249336
+      },
+      "boundary_mass_in_kg_s": 96.0,
+      "net_outward_mass_kg_s": -5.526359814211901e-08,
+      "relative_mass_imbalance": 5.75662480647073e-10,
+      "cell_mass_imbalance_abs_sum_kg_s": 1.1909087569303845e-06,
+      "cell_mass_imbalance_max_kg_s": 2.854813940800227e-09,
+      "maximum_speed_m_s": 1.2308718588232677,
+      "cells": 169800,
+      "force_stability": {
+        "actual_samples": 100,
+        "consecutive_final100_available": true,
+        "definition": "range/max(abs(mean),1e-3), actual native per-iteration coefficients",
+        "Cd": {
+          "mean": 0.23308521515816252,
+          "relative_range": 8.720295430214725e-06,
+          "passed": true
+        },
+        "Cl": {
+          "mean": 0.3060413118499574,
+          "relative_range": 1.652084125088925e-05,
+          "passed": true
+        },
+        "passed": true
+      },
+      "forces": {
+        "iteration": 1600,
+        "Cd": 0.2330845063058775,
+        "Cl": 0.3060388902780908
+      },
+      "checks": {
+        "mesh_and_native_order_unchanged": true,
+        "finite_fields_and_materials": true,
+        "residuals": false,
+        "mass": true,
+        "force_stability": true
+      }
+    },
+    "Coupled": {
+      "iteration": 1500,
+      "final_residuals": {
+        "continuity": 1.2355174130158138e-07,
+        "x-velocity": 1.4252957763799278e-10,
+        "y-velocity": 4.4568652091703063e-11,
+        "z-velocity": 4.182792640616243e-11
+      },
+      "last100_max_residuals": {
+        "continuity": 3.227033639155869e-07,
+        "x-velocity": 3.770168579933759e-10,
+        "y-velocity": 1.208123746377833e-10,
+        "z-velocity": 1.1056140476223217e-10
+      },
+      "native_scaling_denominators": {
+        "continuity": 8.96849013133913,
+        "x-velocity": 10113.072721010474,
+        "y-velocity": 10113.072721010474,
+        "z-velocity": 10113.072721010474
+      },
+      "boundary_mass_in_kg_s": 96.0,
+      "net_outward_mass_kg_s": -8.964207154349424e-11,
+      "relative_mass_imbalance": 9.33771578578065e-13,
+      "cell_mass_imbalance_abs_sum_kg_s": 3.601861172255496e-08,
+      "cell_mass_imbalance_max_kg_s": 1.5446190246987124e-10,
+      "maximum_speed_m_s": 1.230871775041097,
+      "cells": 169800,
+      "force_stability": {
+        "actual_samples": 100,
+        "consecutive_final100_available": true,
+        "definition": "range/max(abs(mean),1e-3), actual native per-iteration coefficients",
+        "Cd": {
+          "mean": 0.2330852642854441,
+          "relative_range": 7.549975356987193e-08,
+          "passed": true
+        },
+        "Cl": {
+          "mean": 0.30604117424224475,
+          "relative_range": 3.050407436395482e-07,
+          "passed": true
+        },
+        "passed": true
+      },
+      "forces": {
+        "iteration": 1500,
+        "Cd": 0.2330852612691083,
+        "Cl": 0.3060411525208292
+      },
+      "checks": {
+        "mesh_and_native_order_unchanged": true,
+        "finite_fields_and_materials": true,
+        "residuals": true,
+        "mass": true,
+        "force_stability": true
+      }
+    }
+  },
+  "mesh_quality": {
+    "minimum_orthogonal_quality": 0.106856,
+    "minimum_cell_volume_m3": 2.183165e-08,
+    "maximum_cell_volume_m3": 1.091489,
+    "total_cell_volume_m3": 1151.65
+  },
+  "openfoam_reused": true,
+  "openfoam_new_iterations": 0,
+  "openfoam_source_hashes_reverified": 42,
+  "openfoam_final_forces": {
+    "iteration": 1200,
+    "Cm": -0.00685343336184685,
+    "Cd": 0.216036576153313,
+    "Cl": 0.276443560316178
+  },
+  "openfoam_checks_passed": true,
+  "paired_force_difference_percent_relative_to_openfoam": {
+    "Cd": 7.891573463789987,
+    "Cl": 10.706558753186151
+  },
+  "coupled_additional_iterations": 300,
+  "pressure_amg_test_additional_iterations": 400,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "pressure_amg_hypothesis_sufficient": false,
+  "conclusion": "Coupled iteration meets the original Fluent numerical targets; tighter pressure AMG alone did not. The force discrepancy between codes remains unresolved.",
+  "residuals_note": "Native scaled residuals are computed from stored numerator and denominator, with scaling recorded per algorithm. Residual histories are iteration diagnostics, not physical time."
+}

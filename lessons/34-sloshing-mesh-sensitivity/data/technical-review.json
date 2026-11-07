@@ -1,0 +1,48 @@
+{
+  "verdict": "acceptable for declared local two-grid sensitivity record",
+  "critical": [],
+  "important": [],
+  "minor_completed_result_defects": [],
+  "independent_checks": {
+    "production_source_hashes": 634,
+    "steps_per_solver": 2400,
+    "native_states_per_solver": 121,
+    "reviewed_manifest_entries": 1872,
+    "reviewed_manifest_sha256": "b8126e4ccb0c8e6f90a7e80f0b7b4622c825a4e823f4b30880dca54b670b6eed",
+    "coarse_fine_settings_compared": true,
+    "matched_csv_rows_recomputed": 19360,
+    "raw_courant_report_counts_checked": true,
+    "representative_figures_inspected": true,
+    "prior_files_preserved": true
+  },
+  "future_use_limitation": "Executed auditor requires nonempty Courant matches but does not enforce report counts. These actual logs were independently confirmed complete; preserve executed source and strengthen a future version.",
+  "declined_to_judge": [
+    {
+      "scope": "Mesh/time independence, continuum error, damping accuracy, physical validation or aircraft applicability",
+      "ruling": "Not claimed. Completion covers the stated numerical sensitivity study only.",
+      "cost_if_wrong": "Physical predictive error remains unquantified."
+    },
+    {
+      "scope": "Independent owner execution, reflection, admissions merit or novelty",
+      "ruling": "No such contribution or merit claim is added; owner reflection remains pending.",
+      "cost_if_wrong": "The record supports no independent-work or admissions inference."
+    },
+    {
+      "scope": "Fresh-machine portability, future licence/concurrent-job safety or GitHub publication",
+      "ruling": "Original archive dependencies and nonportable paths are disclosed. Completed launches were checked; no future availability or publication claim.",
+      "cost_if_wrong": "A future rerun still requires fresh resource/licence/path admission."
+    },
+    {
+      "scope": "Independent review of every animation frame or full motion playback",
+      "ruling": "Automatic export decoded and compared all121 frames; root inspected start/midpoint/end decoded views. No claim that reviewer watched every frame.",
+      "cost_if_wrong": "Representative visual review can miss a localized motion artifact."
+    },
+    {
+      "scope": "Scientific quality of earlier portfolio content outside model34",
+      "ruling": "Prior-file preservation verified; earlier scientific issues are not relabelled.",
+      "cost_if_wrong": "Earlier limitations remain as recorded."
+    }
+  ],
+  "changes_required": false,
+  "physical_validation": false
+}

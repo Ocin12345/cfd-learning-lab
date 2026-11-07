@@ -1,0 +1,23 @@
+{
+  "initial": {
+    "max_speed_m_s": 0.0,
+    "min_T_K": 300.0,
+    "max_T_K": 300.0,
+    "mass_per_depth_kg_m": 0.0029420439883194056,
+    "eos_relative_error": 0.0
+  },
+  "control": {
+    "max_speed_m_s": 4.388279950106991e-07,
+    "min_T_K": 299.99999999044616,
+    "max_T_K": 300.0000000095674,
+    "mass_per_depth_kg_m": 0.002942035782791604,
+    "eos_relative_error": 3.3306690738754696e-16,
+    "mass_relative_change": 2.78905680339836e-06
+  },
+  "checks": {
+    "quiet": true,
+    "temperature": true,
+    "mass": true,
+    "eos": true
+  }
+}

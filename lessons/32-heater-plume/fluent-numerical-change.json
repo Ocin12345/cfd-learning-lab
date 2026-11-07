@@ -1,0 +1,18 @@
+{
+  "pressure_relaxation": [
+    0.3,
+    1.0
+  ],
+  "momentum_relaxation": [
+    0.7,
+    1.0
+  ],
+  "continuity_limit": 1e-08,
+  "prior_continuity_limit": 1e-06,
+  "inner_cap": 1600,
+  "reason": "Retain qualified PISO settings and tighten continuity to limit accumulated mass drift in the longer heating run",
+  "source": "https://ansyshelp.ansys.com/public/views/secured/corp/v252/en/flu_ug/flu_ug_sec_uns_solve_pvel_1.html",
+  "momentum_energy_criteria_unchanged": true,
+  "continuity_criterion_tightened": true,
+  "physical_parameters_unchanged": true
+}

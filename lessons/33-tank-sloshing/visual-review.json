@@ -1,0 +1,14 @@
+{
+  "reviewer": "Codex",
+  "accepted": true,
+  "reviewed_at": "2026-11-07T21:55:36.957907+08:00",
+  "reviewed_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-07-sloshing-1p2s-v003\\gif-preview-v001\\decoded-000.png": "9983f418e6267308bafa6bbbe243e3f50b5fd564899aa801a14545d8c2be5d5e",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-07-sloshing-1p2s-v003\\decoded-060.png": "49891a05314a5acc4b16b74f6ee8042237459d236cde8d7e1ab8d716e2465190",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-07-sloshing-1p2s-v003\\decoded-120.png": "c99a5e92018c59dacb03701a979ac0a8550819edd55f27b33de0422b0fd62b27",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-07-sloshing-1p2s-paired-v003\\numerical-checks.png": "3ab2efffa8b3d95d1593f4d60eeb4f858921ca43313168c5065570843077c753"
+  },
+  "observation": "Decoded start, midpoint and final previews show the same initial tilted field, later flow reversals and similar evolving column-depth traces. Shared legends are clear of the data; zero-speed arrows are hidden; units, times and both fixed color scales are readable. Numerical plots retain the two OpenFOAM bound misses and the accepted pressure-correction repeat.",
+  "limitations": "Representative visual review; every MP4 and GIF frame was separately decoded and compared numerically with its source PNG. Physical validation and mesh/time independence remain open.",
+  "personal_owner_reflection_supplied": false
+}

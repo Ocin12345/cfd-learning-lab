@@ -1,0 +1,406 @@
+{
+  "cells": 3200,
+  "steps": 40,
+  "last_time_s": 0.02,
+  "minimum_orthogonal_quality": 1.0,
+  "minimum_cell_area_m2": 6.25e-06,
+  "last_step_scaled_residuals": {
+    "continuity": 3.3299e-05,
+    "x-velocity": 6.2307e-05,
+    "y-velocity": 1.9747e-05
+  },
+  "max_terminal_scaled_residuals": {
+    "continuity": 3.9246e-05,
+    "x-velocity": 9.6673e-05,
+    "y-velocity": 8.2231e-05
+  },
+  "scaled_residual_target": 0.0001,
+  "steps_meeting_all_scaled_residual_targets": 40,
+  "peak_native_reported_explicit_vof_courant_number": 0.00794608,
+  "time_integration": "unsteady-1st-order",
+  "interface_scheme": "geo-reconstruct",
+  "auditor_source_sha256": "7a2796c53a9b8b2d7e480f25a497ee9d456e28f21d651cc05ee13b9272303701",
+  "scope": "Tilted-surface qualification",
+  "native_field_checks_pass": true,
+  "qualification_pass": true,
+  "scaled_residual_checks_pass": true,
+  "courant_check_pass": true,
+  "production_complete": false,
+  "records": [
+    {
+      "step": 0,
+      "time_s": 0.0,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 0.0,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 1,
+      "time_s": 0.0005,
+      "water_area_m2": 0.01,
+      "max_speed_m_s": 0.0023988552446265314,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 2,
+      "time_s": 0.001,
+      "water_area_m2": 0.009999999999999225,
+      "max_speed_m_s": 0.004784421216924609,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 3,
+      "time_s": 0.0015,
+      "water_area_m2": 0.009999999999999218,
+      "max_speed_m_s": 0.00715323748142012,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 4,
+      "time_s": 0.002,
+      "water_area_m2": 0.009999999999999114,
+      "max_speed_m_s": 0.009503926237319178,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 5,
+      "time_s": 0.0025,
+      "water_area_m2": 0.009999999999999155,
+      "max_speed_m_s": 0.011834843453106,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 6,
+      "time_s": 0.003,
+      "water_area_m2": 0.009999999999999211,
+      "max_speed_m_s": 0.014144452250376112,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 7,
+      "time_s": 0.0035,
+      "water_area_m2": 0.009999999999999221,
+      "max_speed_m_s": 0.01643132917246032,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 8,
+      "time_s": 0.004,
+      "water_area_m2": 0.00999999999999929,
+      "max_speed_m_s": 0.01869301661637187,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 9,
+      "time_s": 0.004500000000000001,
+      "water_area_m2": 0.009999999999999398,
+      "max_speed_m_s": 0.020929507188008418,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 10,
+      "time_s": 0.005000000000000001,
+      "water_area_m2": 0.009999999999999728,
+      "max_speed_m_s": 0.023139742016406572,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 11,
+      "time_s": 0.005500000000000001,
+      "water_area_m2": 0.010000000000000063,
+      "max_speed_m_s": 0.02532278567068962,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 12,
+      "time_s": 0.006000000000000002,
+      "water_area_m2": 0.010000000000000397,
+      "max_speed_m_s": 0.02747782512231659,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 13,
+      "time_s": 0.006500000000000002,
+      "water_area_m2": 0.010000000000000717,
+      "max_speed_m_s": 0.02960416753970965,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 14,
+      "time_s": 0.007000000000000003,
+      "water_area_m2": 0.01000000000000101,
+      "max_speed_m_s": 0.03170123730586512,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 15,
+      "time_s": 0.007500000000000003,
+      "water_area_m2": 0.010000000000001254,
+      "max_speed_m_s": 0.03376857157015221,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 16,
+      "time_s": 0.008000000000000004,
+      "water_area_m2": 0.010000000000002198,
+      "max_speed_m_s": 0.035805815463179215,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 17,
+      "time_s": 0.008500000000000004,
+      "water_area_m2": 0.010000000000002446,
+      "max_speed_m_s": 0.03781271647307211,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 18,
+      "time_s": 0.009000000000000005,
+      "water_area_m2": 0.010000000000002649,
+      "max_speed_m_s": 0.03978911865980741,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 19,
+      "time_s": 0.009500000000000005,
+      "water_area_m2": 0.010000000000002802,
+      "max_speed_m_s": 0.04173495629439748,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 20,
+      "time_s": 0.01000000000000001,
+      "water_area_m2": 0.010000000000002545,
+      "max_speed_m_s": 0.043650247155674435,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 21,
+      "time_s": 0.01050000000000001,
+      "water_area_m2": 0.010000000000002418,
+      "max_speed_m_s": 0.04553508518534345,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 22,
+      "time_s": 0.01100000000000001,
+      "water_area_m2": 0.010000000000002205,
+      "max_speed_m_s": 0.04738963264132181,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 23,
+      "time_s": 0.01150000000000001,
+      "water_area_m2": 0.010000000000001915,
+      "max_speed_m_s": 0.04921411843511123,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 24,
+      "time_s": 0.01200000000000001,
+      "water_area_m2": 0.010000000000000852,
+      "max_speed_m_s": 0.05100882892060733,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 25,
+      "time_s": 0.01250000000000001,
+      "water_area_m2": 0.009999999999999636,
+      "max_speed_m_s": 0.05277409912847351,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 26,
+      "time_s": 0.01300000000000001,
+      "water_area_m2": 0.009999999999998292,
+      "max_speed_m_s": 0.05450732201427178,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 27,
+      "time_s": 0.01350000000000001,
+      "water_area_m2": 0.00999999999999619,
+      "max_speed_m_s": 0.05621199687088895,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 28,
+      "time_s": 0.01400000000000001,
+      "water_area_m2": 0.009999999999993946,
+      "max_speed_m_s": 0.0578885748172649,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 29,
+      "time_s": 0.01450000000000001,
+      "water_area_m2": 0.00999999999999124,
+      "max_speed_m_s": 0.059537522052155116,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 30,
+      "time_s": 0.01500000000000001,
+      "water_area_m2": 0.009999999999988532,
+      "max_speed_m_s": 0.06115928991138748,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 31,
+      "time_s": 0.01550000000000001,
+      "water_area_m2": 0.009999999999984854,
+      "max_speed_m_s": 0.06275433088135644,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 32,
+      "time_s": 0.01600000000000001,
+      "water_area_m2": 0.009999999999981407,
+      "max_speed_m_s": 0.06432311604447424,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 33,
+      "time_s": 0.01650000000000001,
+      "water_area_m2": 0.009999999999978073,
+      "max_speed_m_s": 0.06586612478997148,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 34,
+      "time_s": 0.01700000000000001,
+      "water_area_m2": 0.00999999999997394,
+      "max_speed_m_s": 0.06738384264869285,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 35,
+      "time_s": 0.01750000000000001,
+      "water_area_m2": 0.00999999999996991,
+      "max_speed_m_s": 0.06887424309956039,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 36,
+      "time_s": 0.01800000000000001,
+      "water_area_m2": 0.009999999999966312,
+      "max_speed_m_s": 0.07057916927572272,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 37,
+      "time_s": 0.01850000000000001,
+      "water_area_m2": 0.00999999999996267,
+      "max_speed_m_s": 0.07233706834855741,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 38,
+      "time_s": 0.01900000000000001,
+      "water_area_m2": 0.009999999999959108,
+      "max_speed_m_s": 0.07409248245913073,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 39,
+      "time_s": 0.01950000000000001,
+      "water_area_m2": 0.009999999999954951,
+      "max_speed_m_s": 0.0758461935685574,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    },
+    {
+      "step": 40,
+      "time_s": 0.02000000000000001,
+      "water_area_m2": 0.00999999999995098,
+      "max_speed_m_s": 0.07759886197316741,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0
+    }
+  ],
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank.cas.h5": "fd17cbca0488af01e736520b52d002a82693591431d17fac290abc8e87013922",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\setup.json": "7c6b683207cde83fa63ddea2a8260780199a79e6df3d8f07d2c71ff1ea02da34",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\solver-transcript.txt": "5e140735b932cbd1315c2abf41d24629ae7cc05ab34423c7c039a64660f31caa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\frames.csv": "ae4a8eb5f6b78e4084dcea9cd2367920dde05f04f090c5364e7d38e0304020b0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0000.dat.h5": "9d09253f33dcc7ed914ef15f03bfc47b3f0698f77d3ac1c134d9f96f41b08842",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0001.dat.h5": "fe6ef47fa33a6d6a631aef7b6397b3d4a360770ca49adfec7bdbd9c6af0cb753",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0002.dat.h5": "bd6f68258c5ca2795a29df8bcfe0b4825657cf29989f058ef78dc0d50f5ce9bf",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0003.dat.h5": "36b78c32d9d08290fcff78601c93f9bc5a66230e8520b57888cfe16c29b139a7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0004.dat.h5": "67542955e28b4fb93af50c74b05aba62352119a068c9230bb1272500bbfb199b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0005.dat.h5": "b4c3a665129a887e32645dba0f951f5652a4e24725d3134236d8bdcca11023f8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0006.dat.h5": "e05d0765853ad31ada5f92cfb019d08d0fb6753cc296bf9ea5445ec08f867141",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0007.dat.h5": "74f4f0b93f93ef9d70723abf9827dee2b33ecbb4e409bb0c1b4a9d1c362b2861",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0008.dat.h5": "1f00d4bfba118de10222ee4f320113d1877e211aa966569d307b8ac0374ea593",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0009.dat.h5": "c1367e1d429d16ff25b3c2ff6d7379fb29a693c0b3b2d3b999c0275768c8a14c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0010.dat.h5": "d7ee5947f7583b4ed3961f07056f026f9184631c5d64ae72e53abb994dbd1066",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0011.dat.h5": "47ba851f5a07f7385e7901b8d4b24c26bb5fa92cee919a591aeafc23461e67f4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0012.dat.h5": "394e1d717a1ce6ae5c0d7d092a24a29157060eda9af7e5eccd5e1f9a74490578",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0013.dat.h5": "fbf61e55f02e560e1ed1f65568393d36c2724e8c779bde35f129c561c4a2f0d1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0014.dat.h5": "c0272064e6e60975b69a50bb0ff1c46e05eacdc85d05f7774be1d42dc032d5f7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0015.dat.h5": "06b985af150ab006f3d1014cc918aecd4d3abcd728656e0e14e2c0e66781526d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0016.dat.h5": "9c8949a5ffcb2080432d503865767e694063ecd168f3ed6e2d2ccd9c7e8fd112",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0017.dat.h5": "217534f64ae46ac4bc7bade6e53cd96b4a8b4d352c8efed9537419bd1d3fcd80",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0018.dat.h5": "72a480b96a9eb00311fb20cc7d71168ff95016865a76289f45de0f1aa4a93c7c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0019.dat.h5": "d979cc32006e790f41cf74d44ef946dfda2655a231c26f56f2e2f56647f68bc6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0020.dat.h5": "da4c31e690f595d3b280bf78bc50bc5e2ccc6d83ce648f58b60be53fb8113f94",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0021.dat.h5": "f4edb8bbe2a789547f6eb7ad72f01937f8e2c6299b9220427a68b477d70760b7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0022.dat.h5": "fc911b7d06b1abe7f254b8cfbfc66f3ea32c3fe675c52c860c3f972c2e117913",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0023.dat.h5": "0e400a706dc8279a37396a641ebed0055d3327c60f810f6e9178f2c05c8c8aa2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0024.dat.h5": "8acd8d6c83228330459a5bb0bd7e4d42449c2d0ac3ee24b9c9b3df978e641cce",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0025.dat.h5": "076d317d7cbccfa33519d7c02237fba98465caa2a4cf693a9a31340344c088e4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0026.dat.h5": "69c4e8be65557548965e4ae73cda5f4b94b0f36bade2d5d950e116d90149c2aa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0027.dat.h5": "e25ebd6336bb04651745c2990a4358d6860b0feb0087bc41c7098071e82c7b22",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0028.dat.h5": "428fd257f49e60589e73c6a1ec302bcc92facfcd2fdf8376966ffcdbbd87e4f0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0029.dat.h5": "4046763f3221bf385aa5ba7306c42b88d86db135c0b2f43bf3af29bf2b8002a9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0030.dat.h5": "82bcd7b9fcbd90502b36c8b900952d48ef7bc59e78bac5ef0620363a0a79b792",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0031.dat.h5": "d2d5b2dc3ba3d87a7234c06589530ade3759a088a6c3142a2fb11289793ade37",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0032.dat.h5": "faefd1e40b8c658804c0d682a5bd24eecc873146eaf0fad02183419fffea0189",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0033.dat.h5": "d744d14e9694011432608f32e5d04d80f72febb5960eb7a20945934c5b5bbbfe",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0034.dat.h5": "6361a1c46085360d9d16b84150b7f0c112a5f05e996bed749eb758deb49aec13",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0035.dat.h5": "96822de5fa524cb055e5c2976899b13e0c09605b5c32242f2bf7e14fca8a04e3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0036.dat.h5": "39b2f672cf1750a1acfeef503a386bce33791d0cd5d24b5cc629c4a277f9bb30",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0037.dat.h5": "39ec9ee2082e758ff41bb870dd44ea7800de6497fbc299a79e400969974dcbc9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0038.dat.h5": "9b4471ce58cf2cbb6c6fa6f7a95fa5508e7e87029858e7d8476ecf6888e1e832",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0039.dat.h5": "a5851a4678963fac283a2c255f4c61a8a0ae3c2e7c327a70de1b3532ac6afe76",
+    "E:\\CFD-Learning-Lab\\native\\runs\\sloshing-qualification-v001\\fluent-tilted-v002\\tank-0040.dat.h5": "5ba2da89ea4323694555604552ed675083ad423b8507ccda7e697fee9fc0fc19"
+  }
+}

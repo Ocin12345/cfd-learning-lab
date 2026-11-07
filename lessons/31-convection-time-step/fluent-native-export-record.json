@@ -1,0 +1,69 @@
+{
+  "source": "E:\\CFD-Learning-Lab\\native\\runs\\natural-convection-dt001-v001\\fluent-v002",
+  "source_hashes": {
+    "qualification-final.cas.h5": "a9b0a5f41a95427b83de1c028b17c562251f8aaa0671d498f3935fb8d9ada147",
+    "qualification-final.dat.h5": "dfc3d6dbbf7100667476fcd3711e15037bc548e25e48608070eb395d91b2cb11"
+  },
+  "contour": {
+    "name": "cavity-temperature",
+    "field": "temperature",
+    "surfaces_list": [
+      "fluid"
+    ],
+    "range_option": {
+      "option": "auto-range-off",
+      "auto_range_off": {
+        "clip_to_range": false,
+        "minimum": 299.6,
+        "maximum": 300.4
+      }
+    },
+    "range_options": {
+      "global_range": true,
+      "auto_range": false,
+      "clip_to_range": false,
+      "minimum": 299.6,
+      "maximum": 300.4
+    },
+    "options": {
+      "filled": true,
+      "node_values": false,
+      "boundary_values": true,
+      "contour_lines": false
+    },
+    "filled": true,
+    "node_values": false,
+    "boundary_values": true,
+    "coloring": {
+      "option": "banded",
+      "banded": {}
+    },
+    "colorings": {
+      "banded": true,
+      "smooth": false
+    },
+    "color_map": {
+      "visible": true,
+      "color": "field-velocity",
+      "size": 100,
+      "log_scale": false,
+      "format": "%0.2f",
+      "show_all": true,
+      "position": 1,
+      "font_name": "Helvetica",
+      "font_automatic": true,
+      "font_size": 0.032,
+      "length": 0.65,
+      "width": 6.0,
+      "bground_transparent": true,
+      "bground_color": "#CCD3E2",
+      "title_elements": "Variable and Object Name"
+    },
+    "annotations_list": null,
+    "display_state_name": "None",
+    "deformation": false,
+    "deformation_scale": 1.0
+  },
+  "simulation_time_s": 20,
+  "solver_iterations_performed": 0
+}

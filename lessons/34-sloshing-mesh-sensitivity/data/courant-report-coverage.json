@@ -1,0 +1,21 @@
+{
+  "courant_coverage": {
+    "fluent": {
+      "reports": 2400,
+      "expected_reports": 2400,
+      "initialization_report_included": false,
+      "coverage_pass": true,
+      "maximum": 0.0494102,
+      "source_sha256": "67ba5fabc262ee6f99a4ec01f6aec84b5f927852f6e035dd981fd3124c71fa3d"
+    },
+    "openfoam": {
+      "reports": 2401,
+      "expected_reports": 2401,
+      "initialization_report_included": true,
+      "coverage_pass": true,
+      "maximum": 0.0445968952557,
+      "source_sha256": "caa598a75a3fcd0d4b8bcbe5f8addf503606cab3c6cd52441ab3ddf62f4980c3"
+    }
+  },
+  "physical_validation": false
+}

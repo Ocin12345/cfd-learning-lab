@@ -1,0 +1,60 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  14
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 14-7b05503f98a8
+Exec   : foamPostProcess -solver fluid -func wallHeatFlux -latestTime
+Date   : Nov 07 2026
+Time   : 02:47:03
+Host   : "PC-20260816VFYM"
+PID    : 1035
+I/O    : uncollated
+Case   : /mnt/e/CFD-Learning-Lab/native/runs/natural-convection-dt001-v001/openfoam
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 20
+
+
+Constructing functionObjects from system/functions
+    Selecting wallHeatFlux with name wallHeatFlux
+        processing all wall patches
+Time = 20s
+
+Selecting solver fluid
+
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting momentum transport model type laminar
+    Selecting laminar stress model Stokes
+Courant Number mean: 0.05065685542858667 max: 0.08895401089215424
+
+Selecting thermophysical transport type laminar
+    Selecting default laminar thermophysical transport model unityLewisFourier
+wallHeatFlux wallHeatFlux write:
+    writing object wallHeatFlux
+    min, max, Q [W], q [W/m^2] for patch top = 0, 0, 0, 0
+    min, max, Q [W], q [W/m^2] for patch bottom = 0, 0, 0, 0
+    min, max, Q [W], q [W/m^2] for patch left = 0.237697503591154, 1.445091134685217, 0.0002286788554701087, 0.9147154218804342
+    min, max, Q [W], q [W/m^2] for patch right = -1.445058519411198, -0.2374979728268007, -0.0002286960408111187, -0.9147841632444744
+
+
+End
+
