@@ -1,0 +1,1318 @@
+{
+  "label": "low-relax25",
+  "numerical_pass": false,
+  "structural_pass": true,
+  "checks": {
+    "structure_and_fixed_settings": true,
+    "initial_and_geometry_exact": true,
+    "residual_endpoint": false,
+    "all_final20_residuals": false,
+    "mass": true,
+    "force_stability": true,
+    "cell_mass_not_worse": true
+  },
+  "parent_iteration": 1500,
+  "new_iterations": 100,
+  "endpoint_iteration": 1600,
+  "criterion": 0.001,
+  "courant": 10.0,
+  "relaxation": 0.25,
+  "native": {
+    "iteration": 1600,
+    "final_residuals": {
+      "continuity": 1.960127498343896e-05,
+      "x-velocity": 3.800418696362598e-09,
+      "y-velocity": 1.7980793476519257e-09,
+      "z-velocity": 1.3873745289868637e-09
+    },
+    "last100_max_residuals": {
+      "continuity": 2.2800318948784005e-05,
+      "x-velocity": 4.211310096364992e-09,
+      "y-velocity": 1.8321186281418092e-09,
+      "z-velocity": 1.417808705892696e-09
+    },
+    "native_scaling_denominators": {
+      "continuity": 2.2344914086503613,
+      "x-velocity": 11669.622394724727,
+      "y-velocity": 11669.622394724727,
+      "z-velocity": 11669.622394724727
+    },
+    "boundary_mass_in_kg_s": 96.0,
+    "net_outward_mass_kg_s": -3.803293679993658e-09,
+    "relative_mass_imbalance": 3.9617642499933936e-11,
+    "cell_mass_imbalance_abs_sum_kg_s": 3.783659981589561e-08,
+    "cell_mass_imbalance_max_kg_s": 5.466294084044421e-11,
+    "maximum_speed_m_s": 1.2322095800529949,
+    "cells": 224972
+  },
+  "forces": {
+    "iteration": 1600,
+    "Cd": 0.2317543096742574,
+    "Cl": 0.3033944427596171
+  },
+  "force_stability": {
+    "actual_samples": 100,
+    "consecutive_final100_available": true,
+    "definition": "range/max(abs(mean),1e-3), actual native per-iteration coefficients",
+    "Cd": {
+      "mean": 0.2317543090557355,
+      "relative_range": 5.269938248412773e-09,
+      "passed": true
+    },
+    "Cl": {
+      "mean": 0.3033944332865303,
+      "relative_range": 5.5849096789960155e-08,
+      "passed": true
+    },
+    "passed": true
+  },
+  "new_residual_history": [
+    {
+      "iteration": 1501,
+      "continuity": 1.5471213406005017e-05,
+      "x-velocity": 2.6666073958081545e-09,
+      "y-velocity": 1.0725797961760108e-09,
+      "z-velocity": 9.568455323411695e-10
+    },
+    {
+      "iteration": 1502,
+      "continuity": 1.5500357494618697e-05,
+      "x-velocity": 2.6706537525730905e-09,
+      "y-velocity": 1.114833854824307e-09,
+      "z-velocity": 9.69009923870106e-10
+    },
+    {
+      "iteration": 1503,
+      "continuity": 1.5762747916545634e-05,
+      "x-velocity": 2.67782757793772e-09,
+      "y-velocity": 1.160089714804639e-09,
+      "z-velocity": 9.829086264017695e-10
+    },
+    {
+      "iteration": 1504,
+      "continuity": 1.6171440547942817e-05,
+      "x-velocity": 2.694785984858151e-09,
+      "y-velocity": 1.2089415543582203e-09,
+      "z-velocity": 1.0038670499138533e-09
+    },
+    {
+      "iteration": 1505,
+      "continuity": 1.6594276653829234e-05,
+      "x-velocity": 2.7225336371814898e-09,
+      "y-velocity": 1.2582745301799636e-09,
+      "z-velocity": 1.0319795769236247e-09
+    },
+    {
+      "iteration": 1506,
+      "continuity": 1.7018110368937973e-05,
+      "x-velocity": 2.8581743223074374e-09,
+      "y-velocity": 1.3142544991576585e-09,
+      "z-velocity": 1.0612625062382761e-09
+    },
+    {
+      "iteration": 1507,
+      "continuity": 1.7572601987414135e-05,
+      "x-velocity": 3.0129919966881783e-09,
+      "y-velocity": 1.3704118344257495e-09,
+      "z-velocity": 1.0915271853835678e-09
+    },
+    {
+      "iteration": 1508,
+      "continuity": 1.810867243303741e-05,
+      "x-velocity": 3.1546864583859323e-09,
+      "y-velocity": 1.4213811746681052e-09,
+      "z-velocity": 1.1216508258606382e-09
+    },
+    {
+      "iteration": 1509,
+      "continuity": 1.8541535569351482e-05,
+      "x-velocity": 3.2909859030391827e-09,
+      "y-velocity": 1.4620129432602506e-09,
+      "z-velocity": 1.1475055507931447e-09
+    },
+    {
+      "iteration": 1510,
+      "continuity": 1.8856600922931712e-05,
+      "x-velocity": 3.411996411988978e-09,
+      "y-velocity": 1.4940438265695561e-09,
+      "z-velocity": 1.170040415136417e-09
+    },
+    {
+      "iteration": 1511,
+      "continuity": 1.903004685765483e-05,
+      "x-velocity": 3.5064606763219547e-09,
+      "y-velocity": 1.518779459246828e-09,
+      "z-velocity": 1.1888265501505112e-09
+    },
+    {
+      "iteration": 1512,
+      "continuity": 1.9058763005494787e-05,
+      "x-velocity": 3.5730450768673076e-09,
+      "y-velocity": 1.536159550005726e-09,
+      "z-velocity": 1.2023317803875864e-09
+    },
+    {
+      "iteration": 1513,
+      "continuity": 1.9070752271719847e-05,
+      "x-velocity": 3.619624917600862e-09,
+      "y-velocity": 1.542736105880273e-09,
+      "z-velocity": 1.2149880983985851e-09
+    },
+    {
+      "iteration": 1514,
+      "continuity": 1.8910099338975932e-05,
+      "x-velocity": 3.652558960739215e-09,
+      "y-velocity": 1.5395992301739915e-09,
+      "z-velocity": 1.2333913485334824e-09
+    },
+    {
+      "iteration": 1515,
+      "continuity": 1.8666586671140986e-05,
+      "x-velocity": 3.6384984867380868e-09,
+      "y-velocity": 1.5223114510802155e-09,
+      "z-velocity": 1.250892903049219e-09
+    },
+    {
+      "iteration": 1516,
+      "continuity": 1.87826431645027e-05,
+      "x-velocity": 3.6865124360785795e-09,
+      "y-velocity": 1.4945908038185124e-09,
+      "z-velocity": 1.26293172333627e-09
+    },
+    {
+      "iteration": 1517,
+      "continuity": 1.8916935544533173e-05,
+      "x-velocity": 3.773708736457866e-09,
+      "y-velocity": 1.4548945083158857e-09,
+      "z-velocity": 1.2692010987762457e-09
+    },
+    {
+      "iteration": 1518,
+      "continuity": 1.8861438208765892e-05,
+      "x-velocity": 3.8466009186679624e-09,
+      "y-velocity": 1.4121105700898736e-09,
+      "z-velocity": 1.269971657975376e-09
+    },
+    {
+      "iteration": 1519,
+      "continuity": 1.8760617851480668e-05,
+      "x-velocity": 3.8857752462095684e-09,
+      "y-velocity": 1.3597572216631636e-09,
+      "z-velocity": 1.2670695466616007e-09
+    },
+    {
+      "iteration": 1520,
+      "continuity": 1.8953499455263937e-05,
+      "x-velocity": 3.8768751774725025e-09,
+      "y-velocity": 1.3061259927187721e-09,
+      "z-velocity": 1.2596486691667596e-09
+    },
+    {
+      "iteration": 1521,
+      "continuity": 1.923131412281919e-05,
+      "x-velocity": 3.81802444732659e-09,
+      "y-velocity": 1.2707928249368832e-09,
+      "z-velocity": 1.2440275326572818e-09
+    },
+    {
+      "iteration": 1522,
+      "continuity": 1.9618675225498155e-05,
+      "x-velocity": 3.769365702512156e-09,
+      "y-velocity": 1.2432627650009317e-09,
+      "z-velocity": 1.221226016860262e-09
+    },
+    {
+      "iteration": 1523,
+      "continuity": 1.9957230956529955e-05,
+      "x-velocity": 3.828479610428517e-09,
+      "y-velocity": 1.2484004928483992e-09,
+      "z-velocity": 1.204629184925176e-09
+    },
+    {
+      "iteration": 1524,
+      "continuity": 2.022436077027348e-05,
+      "x-velocity": 3.879290304484526e-09,
+      "y-velocity": 1.2779395845004877e-09,
+      "z-velocity": 1.2087609257708603e-09
+    },
+    {
+      "iteration": 1525,
+      "continuity": 2.043450028422741e-05,
+      "x-velocity": 3.883666326326849e-09,
+      "y-velocity": 1.3327947107072762e-09,
+      "z-velocity": 1.2290211904376367e-09
+    },
+    {
+      "iteration": 1526,
+      "continuity": 2.0720105809395447e-05,
+      "x-velocity": 3.8568554599437686e-09,
+      "y-velocity": 1.3932347546094605e-09,
+      "z-velocity": 1.2532935586038468e-09
+    },
+    {
+      "iteration": 1527,
+      "continuity": 2.1042516163909567e-05,
+      "x-velocity": 3.805536680791225e-09,
+      "y-velocity": 1.4588875979308403e-09,
+      "z-velocity": 1.27735272608223e-09
+    },
+    {
+      "iteration": 1528,
+      "continuity": 2.1368204589850008e-05,
+      "x-velocity": 3.851097899777546e-09,
+      "y-velocity": 1.5261104393397313e-09,
+      "z-velocity": 1.3031857728882526e-09
+    },
+    {
+      "iteration": 1529,
+      "continuity": 2.177736570876993e-05,
+      "x-velocity": 3.900319870147184e-09,
+      "y-velocity": 1.5899306310683017e-09,
+      "z-velocity": 1.3266174676932125e-09
+    },
+    {
+      "iteration": 1530,
+      "continuity": 2.2172782853754265e-05,
+      "x-velocity": 3.972639229091596e-09,
+      "y-velocity": 1.6525142547842185e-09,
+      "z-velocity": 1.3574535667099845e-09
+    },
+    {
+      "iteration": 1531,
+      "continuity": 2.2570183389799432e-05,
+      "x-velocity": 4.143864663739312e-09,
+      "y-velocity": 1.719323077898926e-09,
+      "z-velocity": 1.3850535124144054e-09
+    },
+    {
+      "iteration": 1532,
+      "continuity": 2.2177852604299338e-05,
+      "x-velocity": 4.178966673249834e-09,
+      "y-velocity": 1.784481969139681e-09,
+      "z-velocity": 1.4092987030718678e-09
+    },
+    {
+      "iteration": 1533,
+      "continuity": 2.1255844736963382e-05,
+      "x-velocity": 4.088779495902644e-09,
+      "y-velocity": 1.818095772720761e-09,
+      "z-velocity": 1.4162970993362869e-09
+    },
+    {
+      "iteration": 1534,
+      "continuity": 2.0313413797227037e-05,
+      "x-velocity": 3.954969706613654e-09,
+      "y-velocity": 1.8144293051772973e-09,
+      "z-velocity": 1.4039641202809735e-09
+    },
+    {
+      "iteration": 1535,
+      "continuity": 1.9492317568433693e-05,
+      "x-velocity": 3.7876916502104164e-09,
+      "y-velocity": 1.7776129351406676e-09,
+      "z-velocity": 1.3848180002193308e-09
+    },
+    {
+      "iteration": 1536,
+      "continuity": 1.880096998988168e-05,
+      "x-velocity": 3.616719017769653e-09,
+      "y-velocity": 1.7112917551587559e-09,
+      "z-velocity": 1.3659709882783527e-09
+    },
+    {
+      "iteration": 1537,
+      "continuity": 1.8428657709116916e-05,
+      "x-velocity": 3.438448770067105e-09,
+      "y-velocity": 1.6333326129885827e-09,
+      "z-velocity": 1.3448350000732563e-09
+    },
+    {
+      "iteration": 1538,
+      "continuity": 1.8053834522686518e-05,
+      "x-velocity": 3.2782303064923564e-09,
+      "y-velocity": 1.5543919276883474e-09,
+      "z-velocity": 1.3175417670873736e-09
+    },
+    {
+      "iteration": 1539,
+      "continuity": 1.764026583327849e-05,
+      "x-velocity": 3.1669519550268075e-09,
+      "y-velocity": 1.4849032418350027e-09,
+      "z-velocity": 1.2969232739658171e-09
+    },
+    {
+      "iteration": 1540,
+      "continuity": 1.7213083732446614e-05,
+      "x-velocity": 3.130825725949181e-09,
+      "y-velocity": 1.4250627936506238e-09,
+      "z-velocity": 1.2708336925380337e-09
+    },
+    {
+      "iteration": 1541,
+      "continuity": 1.6788195134424653e-05,
+      "x-velocity": 3.0843674883315068e-09,
+      "y-velocity": 1.3723460355536563e-09,
+      "z-velocity": 1.241832971212295e-09
+    },
+    {
+      "iteration": 1542,
+      "continuity": 1.63644702666115e-05,
+      "x-velocity": 3.046070726748988e-09,
+      "y-velocity": 1.321723968486071e-09,
+      "z-velocity": 1.2105694243266296e-09
+    },
+    {
+      "iteration": 1543,
+      "continuity": 1.5974218982899322e-05,
+      "x-velocity": 3.0045889725890476e-09,
+      "y-velocity": 1.274345017943885e-09,
+      "z-velocity": 1.1784060960052312e-09
+    },
+    {
+      "iteration": 1544,
+      "continuity": 1.551017978696541e-05,
+      "x-velocity": 2.9650379957893997e-09,
+      "y-velocity": 1.2284439566194117e-09,
+      "z-velocity": 1.1460950349627542e-09
+    },
+    {
+      "iteration": 1545,
+      "continuity": 1.500176033776177e-05,
+      "x-velocity": 2.915827111597393e-09,
+      "y-velocity": 1.1820118346726484e-09,
+      "z-velocity": 1.1166529855146644e-09
+    },
+    {
+      "iteration": 1546,
+      "continuity": 1.4507238548444078e-05,
+      "x-velocity": 2.854744267007102e-09,
+      "y-velocity": 1.1358148162039976e-09,
+      "z-velocity": 1.0864151476051103e-09
+    },
+    {
+      "iteration": 1547,
+      "continuity": 1.4014884347587142e-05,
+      "x-velocity": 2.83128425110675e-09,
+      "y-velocity": 1.0964508866455513e-09,
+      "z-velocity": 1.0565310956283817e-09
+    },
+    {
+      "iteration": 1548,
+      "continuity": 1.3525895141761292e-05,
+      "x-velocity": 2.797548960975821e-09,
+      "y-velocity": 1.0579822086296494e-09,
+      "z-velocity": 1.027943627243243e-09
+    },
+    {
+      "iteration": 1549,
+      "continuity": 1.3164380684993472e-05,
+      "x-velocity": 2.756869570789814e-09,
+      "y-velocity": 1.0234195991371442e-09,
+      "z-velocity": 1.0014348791055813e-09
+    },
+    {
+      "iteration": 1550,
+      "continuity": 1.2903336848713981e-05,
+      "x-velocity": 2.718046977206471e-09,
+      "y-velocity": 9.898448098422625e-10,
+      "z-velocity": 9.768461245258592e-10
+    },
+    {
+      "iteration": 1551,
+      "continuity": 1.2734747291829751e-05,
+      "x-velocity": 2.6807945937054223e-09,
+      "y-velocity": 9.581870378868782e-10,
+      "z-velocity": 9.55271222428853e-10
+    },
+    {
+      "iteration": 1552,
+      "continuity": 1.2578015362578345e-05,
+      "x-velocity": 2.6542577580964997e-09,
+      "y-velocity": 9.286047175997053e-10,
+      "z-velocity": 9.38245527681889e-10
+    },
+    {
+      "iteration": 1553,
+      "continuity": 1.2426663702569867e-05,
+      "x-velocity": 2.6219108425742395e-09,
+      "y-velocity": 9.016134085137159e-10,
+      "z-velocity": 9.215992264130961e-10
+    },
+    {
+      "iteration": 1554,
+      "continuity": 1.2182246333354791e-05,
+      "x-velocity": 2.560458043483498e-09,
+      "y-velocity": 8.817212810486266e-10,
+      "z-velocity": 9.082163015419041e-10
+    },
+    {
+      "iteration": 1555,
+      "continuity": 1.1940044972254637e-05,
+      "x-velocity": 2.4992312983199952e-09,
+      "y-velocity": 8.649736412564002e-10,
+      "z-velocity": 8.955183043359461e-10
+    },
+    {
+      "iteration": 1556,
+      "continuity": 1.174368637685239e-05,
+      "x-velocity": 2.4389035179063623e-09,
+      "y-velocity": 8.537606304807502e-10,
+      "z-velocity": 8.810137041276806e-10
+    },
+    {
+      "iteration": 1557,
+      "continuity": 1.1636735339550034e-05,
+      "x-velocity": 2.3732035775128832e-09,
+      "y-velocity": 8.469029497405778e-10,
+      "z-velocity": 8.65072975060116e-10
+    },
+    {
+      "iteration": 1558,
+      "continuity": 1.1643107961948645e-05,
+      "x-velocity": 2.3566977136938675e-09,
+      "y-velocity": 8.419527540921496e-10,
+      "z-velocity": 8.516979204919785e-10
+    },
+    {
+      "iteration": 1559,
+      "continuity": 1.178122692935032e-05,
+      "x-velocity": 2.3442303174880755e-09,
+      "y-velocity": 8.413639496616448e-10,
+      "z-velocity": 8.416070391915727e-10
+    },
+    {
+      "iteration": 1560,
+      "continuity": 1.2030355360699419e-05,
+      "x-velocity": 2.341280072458751e-09,
+      "y-velocity": 8.45079897340581e-10,
+      "z-velocity": 8.355565840224849e-10
+    },
+    {
+      "iteration": 1561,
+      "continuity": 1.2283475947816151e-05,
+      "x-velocity": 2.350695687242317e-09,
+      "y-velocity": 8.583825519649714e-10,
+      "z-velocity": 8.309021608763473e-10
+    },
+    {
+      "iteration": 1562,
+      "continuity": 1.252610267890307e-05,
+      "x-velocity": 2.3646012351100602e-09,
+      "y-velocity": 8.776128213106653e-10,
+      "z-velocity": 8.326333294109526e-10
+    },
+    {
+      "iteration": 1563,
+      "continuity": 1.2793371559310257e-05,
+      "x-velocity": 2.402272319135666e-09,
+      "y-velocity": 9.021109092109132e-10,
+      "z-velocity": 8.399116517141209e-10
+    },
+    {
+      "iteration": 1564,
+      "continuity": 1.3047696335017022e-05,
+      "x-velocity": 2.431827109718598e-09,
+      "y-velocity": 9.318500971747227e-10,
+      "z-velocity": 8.519028688898981e-10
+    },
+    {
+      "iteration": 1565,
+      "continuity": 1.329515653518789e-05,
+      "x-velocity": 2.4636893483585217e-09,
+      "y-velocity": 9.651737460332453e-10,
+      "z-velocity": 8.657855046315132e-10
+    },
+    {
+      "iteration": 1566,
+      "continuity": 1.3587578051230179e-05,
+      "x-velocity": 2.49523090407302e-09,
+      "y-velocity": 1.0020200410570686e-09,
+      "z-velocity": 8.790526585080252e-10
+    },
+    {
+      "iteration": 1567,
+      "continuity": 1.385828944045598e-05,
+      "x-velocity": 2.518263562556582e-09,
+      "y-velocity": 1.0422167618847368e-09,
+      "z-velocity": 8.931849637539096e-10
+    },
+    {
+      "iteration": 1568,
+      "continuity": 1.4272269111205386e-05,
+      "x-velocity": 2.5324121515542002e-09,
+      "y-velocity": 1.0876375109924501e-09,
+      "z-velocity": 9.088175294420481e-10
+    },
+    {
+      "iteration": 1569,
+      "continuity": 1.4824946805471345e-05,
+      "x-velocity": 2.5567601581835693e-09,
+      "y-velocity": 1.1360295267120092e-09,
+      "z-velocity": 9.352700871915922e-10
+    },
+    {
+      "iteration": 1570,
+      "continuity": 1.5372619774667525e-05,
+      "x-velocity": 2.59448997908205e-09,
+      "y-velocity": 1.185875726355639e-09,
+      "z-velocity": 9.658850179045393e-10
+    },
+    {
+      "iteration": 1571,
+      "continuity": 1.5933657198670323e-05,
+      "x-velocity": 2.7338369282228297e-09,
+      "y-velocity": 1.2405342248908564e-09,
+      "z-velocity": 9.96798203326091e-10
+    },
+    {
+      "iteration": 1572,
+      "continuity": 1.661079917670518e-05,
+      "x-velocity": 2.8982792652958697e-09,
+      "y-velocity": 1.2979920399181395e-09,
+      "z-velocity": 1.0302909946872148e-09
+    },
+    {
+      "iteration": 1573,
+      "continuity": 1.7228004585297242e-05,
+      "x-velocity": 3.0534964435765355e-09,
+      "y-velocity": 1.3504600809836992e-09,
+      "z-velocity": 1.0623931574395165e-09
+    },
+    {
+      "iteration": 1574,
+      "continuity": 1.77105208912566e-05,
+      "x-velocity": 3.2023879122540537e-09,
+      "y-velocity": 1.3939172397538391e-09,
+      "z-velocity": 1.0912707952036935e-09
+    },
+    {
+      "iteration": 1575,
+      "continuity": 1.8058681851608994e-05,
+      "x-velocity": 3.331699400164073e-09,
+      "y-velocity": 1.4291459085424895e-09,
+      "z-velocity": 1.1157035336871853e-09
+    },
+    {
+      "iteration": 1576,
+      "continuity": 1.8350591460144694e-05,
+      "x-velocity": 3.439392570890749e-09,
+      "y-velocity": 1.4569787203783917e-09,
+      "z-velocity": 1.1371203091281864e-09
+    },
+    {
+      "iteration": 1577,
+      "continuity": 1.848259829916621e-05,
+      "x-velocity": 3.534208494426285e-09,
+      "y-velocity": 1.4774495343394855e-09,
+      "z-velocity": 1.152373628508535e-09
+    },
+    {
+      "iteration": 1578,
+      "continuity": 1.853743561625017e-05,
+      "x-velocity": 3.5959184542929376e-09,
+      "y-velocity": 1.487110039692864e-09,
+      "z-velocity": 1.168322020491016e-09
+    },
+    {
+      "iteration": 1579,
+      "continuity": 1.8472103419483415e-05,
+      "x-velocity": 3.6225689498443655e-09,
+      "y-velocity": 1.4873476556560759e-09,
+      "z-velocity": 1.1875247605761019e-09
+    },
+    {
+      "iteration": 1580,
+      "continuity": 1.828802320931775e-05,
+      "x-velocity": 3.602606182926401e-09,
+      "y-velocity": 1.4721333747207234e-09,
+      "z-velocity": 1.2060255013508873e-09
+    },
+    {
+      "iteration": 1581,
+      "continuity": 1.8410042426449572e-05,
+      "x-velocity": 3.6436193372882867e-09,
+      "y-velocity": 1.446260924024397e-09,
+      "z-velocity": 1.2226563032919624e-09
+    },
+    {
+      "iteration": 1582,
+      "continuity": 1.8605174832427234e-05,
+      "x-velocity": 3.737562431231617e-09,
+      "y-velocity": 1.4093544958155366e-09,
+      "z-velocity": 1.2328036048645948e-09
+    },
+    {
+      "iteration": 1583,
+      "continuity": 1.862424672433242e-05,
+      "x-velocity": 3.817209047768533e-09,
+      "y-velocity": 1.3710367778919728e-09,
+      "z-velocity": 1.2360680946322636e-09
+    },
+    {
+      "iteration": 1584,
+      "continuity": 1.8529464159824185e-05,
+      "x-velocity": 3.855550155524469e-09,
+      "y-velocity": 1.3229668095633075e-09,
+      "z-velocity": 1.237040675271227e-09
+    },
+    {
+      "iteration": 1585,
+      "continuity": 1.8740644772088568e-05,
+      "x-velocity": 3.843915957751538e-09,
+      "y-velocity": 1.2720375189434259e-09,
+      "z-velocity": 1.232730703137881e-09
+    },
+    {
+      "iteration": 1586,
+      "continuity": 1.901541063709259e-05,
+      "x-velocity": 3.786237230099616e-09,
+      "y-velocity": 1.2395287022071037e-09,
+      "z-velocity": 1.2207404336925162e-09
+    },
+    {
+      "iteration": 1587,
+      "continuity": 1.9430198043402826e-05,
+      "x-velocity": 3.731197484213127e-09,
+      "y-velocity": 1.2187255731294816e-09,
+      "z-velocity": 1.200117725912222e-09
+    },
+    {
+      "iteration": 1588,
+      "continuity": 1.981495905892191e-05,
+      "x-velocity": 3.79130536475992e-09,
+      "y-velocity": 1.229407447636709e-09,
+      "z-velocity": 1.1853516594823822e-09
+    },
+    {
+      "iteration": 1589,
+      "continuity": 2.0120518735017957e-05,
+      "x-velocity": 3.836039127420549e-09,
+      "y-velocity": 1.263395083169818e-09,
+      "z-velocity": 1.1922905516754314e-09
+    },
+    {
+      "iteration": 1590,
+      "continuity": 2.0375238967356446e-05,
+      "x-velocity": 3.846284287495495e-09,
+      "y-velocity": 1.3190995947482117e-09,
+      "z-velocity": 1.2127652827042935e-09
+    },
+    {
+      "iteration": 1591,
+      "continuity": 2.0731921922064703e-05,
+      "x-velocity": 3.838871382390725e-09,
+      "y-velocity": 1.3822274615577905e-09,
+      "z-velocity": 1.2384369690223336e-09
+    },
+    {
+      "iteration": 1592,
+      "continuity": 2.115629370662816e-05,
+      "x-velocity": 3.81296943845685e-09,
+      "y-velocity": 1.452827477661504e-09,
+      "z-velocity": 1.264670101841376e-09
+    },
+    {
+      "iteration": 1593,
+      "continuity": 2.1545554983442088e-05,
+      "x-velocity": 3.863023774031186e-09,
+      "y-velocity": 1.5234073693153398e-09,
+      "z-velocity": 1.2927832937803169e-09
+    },
+    {
+      "iteration": 1594,
+      "continuity": 2.1983753745865883e-05,
+      "x-velocity": 3.916043429353794e-09,
+      "y-velocity": 1.5919812889315673e-09,
+      "z-velocity": 1.3182165500787517e-09
+    },
+    {
+      "iteration": 1595,
+      "continuity": 2.2390152863528392e-05,
+      "x-velocity": 3.992242890121968e-09,
+      "y-velocity": 1.659877015558089e-09,
+      "z-velocity": 1.3520515011558862e-09
+    },
+    {
+      "iteration": 1596,
+      "continuity": 2.2800318948784005e-05,
+      "x-velocity": 4.166817072631218e-09,
+      "y-velocity": 1.729331491004124e-09,
+      "z-velocity": 1.382850741017864e-09
+    },
+    {
+      "iteration": 1597,
+      "continuity": 2.241997089722108e-05,
+      "x-velocity": 4.211310096364992e-09,
+      "y-velocity": 1.7961289326501277e-09,
+      "z-velocity": 1.4094409383440929e-09
+    },
+    {
+      "iteration": 1598,
+      "continuity": 2.147585984786426e-05,
+      "x-velocity": 4.128202083743341e-09,
+      "y-velocity": 1.8321186281418092e-09,
+      "z-velocity": 1.417808705892696e-09
+    },
+    {
+      "iteration": 1599,
+      "continuity": 2.047178936467359e-05,
+      "x-velocity": 3.9854195625218505e-09,
+      "y-velocity": 1.8314779966059284e-09,
+      "z-velocity": 1.4061534935432941e-09
+    },
+    {
+      "iteration": 1600,
+      "continuity": 1.960127498343896e-05,
+      "x-velocity": 3.800418696362598e-09,
+      "y-velocity": 1.7980793476519257e-09,
+      "z-velocity": 1.3873745289868637e-09
+    }
+  ],
+  "new_force_history": [
+    {
+      "iteration": 1501,
+      "Cd": 0.2317543088337739,
+      "Cl": 0.3033944297329346
+    },
+    {
+      "iteration": 1502,
+      "Cd": 0.2317543088324589,
+      "Cl": 0.3033944294683428
+    },
+    {
+      "iteration": 1503,
+      "Cd": 0.2317543088204448,
+      "Cl": 0.3033944291407419
+    },
+    {
+      "iteration": 1504,
+      "Cd": 0.2317543088021492,
+      "Cl": 0.3033944287764649
+    },
+    {
+      "iteration": 1505,
+      "Cd": 0.2317543087814419,
+      "Cl": 0.3033944283940355
+    },
+    {
+      "iteration": 1506,
+      "Cd": 0.2317543087612375,
+      "Cl": 0.3033944280082881
+    },
+    {
+      "iteration": 1507,
+      "Cd": 0.2317543087445551,
+      "Cl": 0.3033944276382006
+    },
+    {
+      "iteration": 1508,
+      "Cd": 0.2317543087365747,
+      "Cl": 0.3033944273223531
+    },
+    {
+      "iteration": 1509,
+      "Cd": 0.231754308735369,
+      "Cl": 0.3033944270529901
+    },
+    {
+      "iteration": 1510,
+      "Cd": 0.2317543087398302,
+      "Cl": 0.303394426827138
+    },
+    {
+      "iteration": 1511,
+      "Cd": 0.2317543087491976,
+      "Cl": 0.3033944266437878
+    },
+    {
+      "iteration": 1512,
+      "Cd": 0.231754308763281,
+      "Cl": 0.3033944265032326
+    },
+    {
+      "iteration": 1513,
+      "Cd": 0.2317543087828044,
+      "Cl": 0.3033944264015451
+    },
+    {
+      "iteration": 1514,
+      "Cd": 0.231754308808135,
+      "Cl": 0.3033944263536886
+    },
+    {
+      "iteration": 1515,
+      "Cd": 0.231754308835757,
+      "Cl": 0.303394426354814
+    },
+    {
+      "iteration": 1516,
+      "Cd": 0.2317543088662717,
+      "Cl": 0.3033944264224772
+    },
+    {
+      "iteration": 1517,
+      "Cd": 0.2317543089001646,
+      "Cl": 0.3033944265711983
+    },
+    {
+      "iteration": 1518,
+      "Cd": 0.2317543089378623,
+      "Cl": 0.3033944268131101
+    },
+    {
+      "iteration": 1519,
+      "Cd": 0.2317543089796969,
+      "Cl": 0.303394427158073
+    },
+    {
+      "iteration": 1520,
+      "Cd": 0.2317543090258595,
+      "Cl": 0.303394427613509
+    },
+    {
+      "iteration": 1521,
+      "Cd": 0.2317543090765701,
+      "Cl": 0.3033944281858304
+    },
+    {
+      "iteration": 1522,
+      "Cd": 0.2317543091318782,
+      "Cl": 0.3033944288789207
+    },
+    {
+      "iteration": 1523,
+      "Cd": 0.2317543091913277,
+      "Cl": 0.3033944296923384
+    },
+    {
+      "iteration": 1524,
+      "Cd": 0.2317543092542794,
+      "Cl": 0.3033944306218908
+    },
+    {
+      "iteration": 1525,
+      "Cd": 0.2317543093202194,
+      "Cl": 0.3033944316598807
+    },
+    {
+      "iteration": 1526,
+      "Cd": 0.2317543093882913,
+      "Cl": 0.3033944327949741
+    },
+    {
+      "iteration": 1527,
+      "Cd": 0.2317543094502143,
+      "Cl": 0.3033944339889625
+    },
+    {
+      "iteration": 1528,
+      "Cd": 0.2317543095120668,
+      "Cl": 0.3033944352556387
+    },
+    {
+      "iteration": 1529,
+      "Cd": 0.2317543095724649,
+      "Cl": 0.3033944365731327
+    },
+    {
+      "iteration": 1530,
+      "Cd": 0.2317543096296001,
+      "Cl": 0.3033944379172608
+    },
+    {
+      "iteration": 1531,
+      "Cd": 0.2317543096820247,
+      "Cl": 0.3033944392643761
+    },
+    {
+      "iteration": 1532,
+      "Cd": 0.231754309705714,
+      "Cl": 0.303394440401173
+    },
+    {
+      "iteration": 1533,
+      "Cd": 0.2317543096993769,
+      "Cl": 0.3033944412638112
+    },
+    {
+      "iteration": 1534,
+      "Cd": 0.2317543096803082,
+      "Cl": 0.3033944419230596
+    },
+    {
+      "iteration": 1535,
+      "Cd": 0.2317543096510209,
+      "Cl": 0.3033944424187077
+    },
+    {
+      "iteration": 1536,
+      "Cd": 0.2317543096156616,
+      "Cl": 0.3033944427781574
+    },
+    {
+      "iteration": 1537,
+      "Cd": 0.2317543095780077,
+      "Cl": 0.3033944430153992
+    },
+    {
+      "iteration": 1538,
+      "Cd": 0.2317543095403049,
+      "Cl": 0.3033944431482762
+    },
+    {
+      "iteration": 1539,
+      "Cd": 0.2317543095030984,
+      "Cl": 0.3033944431892517
+    },
+    {
+      "iteration": 1540,
+      "Cd": 0.2317543094666001,
+      "Cl": 0.3033944431479965
+    },
+    {
+      "iteration": 1541,
+      "Cd": 0.2317543094308676,
+      "Cl": 0.3033944430327079
+    },
+    {
+      "iteration": 1542,
+      "Cd": 0.2317543093958853,
+      "Cl": 0.3033944428507833
+    },
+    {
+      "iteration": 1543,
+      "Cd": 0.2317543093615729,
+      "Cl": 0.3033944426093385
+    },
+    {
+      "iteration": 1544,
+      "Cd": 0.2317543093278385,
+      "Cl": 0.3033944423152373
+    },
+    {
+      "iteration": 1545,
+      "Cd": 0.2317543092944685,
+      "Cl": 0.3033944419742192
+    },
+    {
+      "iteration": 1546,
+      "Cd": 0.231754309261942,
+      "Cl": 0.3033944415968556
+    },
+    {
+      "iteration": 1547,
+      "Cd": 0.231754309229483,
+      "Cl": 0.3033944411843472
+    },
+    {
+      "iteration": 1548,
+      "Cd": 0.2317543091967336,
+      "Cl": 0.303394440739887
+    },
+    {
+      "iteration": 1549,
+      "Cd": 0.2317543091635689,
+      "Cl": 0.3033944402679165
+    },
+    {
+      "iteration": 1550,
+      "Cd": 0.2317543091299823,
+      "Cl": 0.3033944397734611
+    },
+    {
+      "iteration": 1551,
+      "Cd": 0.2317543090960364,
+      "Cl": 0.3033944392617759
+    },
+    {
+      "iteration": 1552,
+      "Cd": 0.2317543090618277,
+      "Cl": 0.3033944387381239
+    },
+    {
+      "iteration": 1553,
+      "Cd": 0.2317543090274709,
+      "Cl": 0.3033944382076825
+    },
+    {
+      "iteration": 1554,
+      "Cd": 0.2317543089925334,
+      "Cl": 0.3033944376667543
+    },
+    {
+      "iteration": 1555,
+      "Cd": 0.2317543089581396,
+      "Cl": 0.3033944371256655
+    },
+    {
+      "iteration": 1556,
+      "Cd": 0.231754308925274,
+      "Cl": 0.3033944365973651
+    },
+    {
+      "iteration": 1557,
+      "Cd": 0.2317543088927279,
+      "Cl": 0.3033944360772421
+    },
+    {
+      "iteration": 1558,
+      "Cd": 0.2317543088549686,
+      "Cl": 0.3033944355218227
+    },
+    {
+      "iteration": 1559,
+      "Cd": 0.2317543088146923,
+      "Cl": 0.3033944349438017
+    },
+    {
+      "iteration": 1560,
+      "Cd": 0.2317543087736561,
+      "Cl": 0.3033944343531876
+    },
+    {
+      "iteration": 1561,
+      "Cd": 0.2317543087331415,
+      "Cl": 0.3033944337572861
+    },
+    {
+      "iteration": 1562,
+      "Cd": 0.2317543086941287,
+      "Cl": 0.3033944331615847
+    },
+    {
+      "iteration": 1563,
+      "Cd": 0.2317543086573391,
+      "Cl": 0.3033944325700691
+    },
+    {
+      "iteration": 1564,
+      "Cd": 0.2317543086233363,
+      "Cl": 0.3033944319858293
+    },
+    {
+      "iteration": 1565,
+      "Cd": 0.231754308592534,
+      "Cl": 0.3033944314112316
+    },
+    {
+      "iteration": 1566,
+      "Cd": 0.2317543085652494,
+      "Cl": 0.3033944308482761
+    },
+    {
+      "iteration": 1567,
+      "Cd": 0.231754308541732,
+      "Cl": 0.3033944302988166
+    },
+    {
+      "iteration": 1568,
+      "Cd": 0.2317543085221885,
+      "Cl": 0.303394429764785
+    },
+    {
+      "iteration": 1569,
+      "Cd": 0.2317543085067967,
+      "Cl": 0.3033944292483834
+    },
+    {
+      "iteration": 1570,
+      "Cd": 0.2317543084957311,
+      "Cl": 0.3033944287522686
+    },
+    {
+      "iteration": 1571,
+      "Cd": 0.2317543084891634,
+      "Cl": 0.3033944282797173
+    },
+    {
+      "iteration": 1572,
+      "Cd": 0.2317543084880733,
+      "Cl": 0.3033944278406224
+    },
+    {
+      "iteration": 1573,
+      "Cd": 0.231754308496586,
+      "Cl": 0.3033944274695051
+    },
+    {
+      "iteration": 1574,
+      "Cd": 0.2317543085116767,
+      "Cl": 0.3033944271510715
+    },
+    {
+      "iteration": 1575,
+      "Cd": 0.2317543085322344,
+      "Cl": 0.303394426875699
+    },
+    {
+      "iteration": 1576,
+      "Cd": 0.2317543085581925,
+      "Cl": 0.3033944266377748
+    },
+    {
+      "iteration": 1577,
+      "Cd": 0.2317543085892839,
+      "Cl": 0.303394426448106
+    },
+    {
+      "iteration": 1578,
+      "Cd": 0.2317543086244958,
+      "Cl": 0.3033944263167743
+    },
+    {
+      "iteration": 1579,
+      "Cd": 0.2317543086629228,
+      "Cl": 0.3033944262510738
+    },
+    {
+      "iteration": 1580,
+      "Cd": 0.2317543087021057,
+      "Cl": 0.3033944262449466
+    },
+    {
+      "iteration": 1581,
+      "Cd": 0.2317543087430931,
+      "Cl": 0.3033944263130229
+    },
+    {
+      "iteration": 1582,
+      "Cd": 0.2317543087867049,
+      "Cl": 0.3033944264679791
+    },
+    {
+      "iteration": 1583,
+      "Cd": 0.2317543088335752,
+      "Cl": 0.3033944267205446
+    },
+    {
+      "iteration": 1584,
+      "Cd": 0.2317543088841599,
+      "Cl": 0.3033944270795699
+    },
+    {
+      "iteration": 1585,
+      "Cd": 0.2317543089387231,
+      "Cl": 0.3033944275518783
+    },
+    {
+      "iteration": 1586,
+      "Cd": 0.2317543089975284,
+      "Cl": 0.303394428144007
+    },
+    {
+      "iteration": 1587,
+      "Cd": 0.2317543090606395,
+      "Cl": 0.3033944288593566
+    },
+    {
+      "iteration": 1588,
+      "Cd": 0.231754309127836,
+      "Cl": 0.3033944296970027
+    },
+    {
+      "iteration": 1589,
+      "Cd": 0.2317543091988931,
+      "Cl": 0.3033944306526709
+    },
+    {
+      "iteration": 1590,
+      "Cd": 0.2317543092728027,
+      "Cl": 0.303394431718254
+    },
+    {
+      "iteration": 1591,
+      "Cd": 0.2317543093416753,
+      "Cl": 0.3033944328565386
+    },
+    {
+      "iteration": 1592,
+      "Cd": 0.2317543094117347,
+      "Cl": 0.3033944340871941
+    },
+    {
+      "iteration": 1593,
+      "Cd": 0.2317543094816956,
+      "Cl": 0.3033944353904497
+    },
+    {
+      "iteration": 1594,
+      "Cd": 0.2317543095503458,
+      "Cl": 0.3033944367438486
+    },
+    {
+      "iteration": 1595,
+      "Cd": 0.231754309615886,
+      "Cl": 0.3033944381235076
+    },
+    {
+      "iteration": 1596,
+      "Cd": 0.2317543096765576,
+      "Cl": 0.3033944395053477
+    },
+    {
+      "iteration": 1597,
+      "Cd": 0.2317543097086635,
+      "Cl": 0.3033944406814091
+    },
+    {
+      "iteration": 1598,
+      "Cd": 0.2317543097094042,
+      "Cl": 0.3033944415767498
+    },
+    {
+      "iteration": 1599,
+      "Cd": 0.2317543096968963,
+      "Cl": 0.3033944422561233
+    },
+    {
+      "iteration": 1600,
+      "Cd": 0.2317543096742574,
+      "Cl": 0.3033944427596171
+    }
+  ],
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\source.cas.h5": "d5c17b20edd3658326347fc056dcb60494b3913b5b243502915a01a99fc291f3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\source.dat.h5": "b6f951d8a93386a0299d6cbd17d0faee9e09dfed4bbff8936073a6c12d7019df",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\loaded-restart.cas.h5": "5269d0f0fc867d61a7ded70e20b970614294356bb829dd1144215c67aac3d2f8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\loaded-restart.dat.h5": "bd851cdffe8873239b8a8b4181b21d402ea8953e3d18958c154e7f671c6b0446",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\wing-final.cas.h5": "01ec3fd5646db81c920c4ea579920a3e97143f9d054096c6424dd665e73cff39",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\wing-final.dat.h5": "6e5d456a8af18036269d50906f90e06137c0071f3325f15cb52c92d78915a4f1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\forces-history.out": "3672a419fa099f9dca382c6cb84c504c68105f1de6e5bb2c5586afcd988708ee",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\solver-transcript.txt": "73549d8877b1a560494e9977f3880051a678956539b5002fecbde51451ecacab",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\loaded-source-settings.json": "bff4097780ef461d4413caa9ed4675246f9a8252cfbaa776115c4ef8c9273a8e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\candidate-settings.json": "7bd35eb80bf7dd99f1adfdc818501f890cd40a35db463048d462951939cb8f70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\final-settings.json": "7bd35eb80bf7dd99f1adfdc818501f890cd40a35db463048d462951939cb8f70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\initial-field-check.json": "19a023b0201104483898d7b597f1911c399111fb7bdbf945226f7ec145d75ebd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\geometry-quality.json": "23bcbe4edc1fdc63bb9ab505a7c3ab09319cd108871fb321fe061f20b76613d5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\declared-test.json": "c124a4daa7973323c66c3832a48f2a4be0dd52c4c6def9c50e2625ec119d0f34",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\solver-version.json": "c7a633153d2613537c86752a669d9af9f9df5c060ff4b4f058b8a2293d92a4e8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\mass-1520.txt": "5594ae5ef691646fc1ea42b81a9e0699a86f508cf4f5cfd7fefbbf8e670827b9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\drag-1520.txt": "e54c533b7cf9a10ea04b50c125f099866050b14855cf8b8be38487e50e234120",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\lift-1520.txt": "d27f78f6893a3860c1bd0187d598768c15d3129447597999b2c468f9d1eecc00",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\mass-1540.txt": "4e6c1af8ee3777b9754391e06009abdc7defc379dc72052150b49e43f9ed2df8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\drag-1540.txt": "2cc8dfdd679fe628ad2e612520090fc6c74ab55a25ffc9d332f1311aa1a4234a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\lift-1540.txt": "fbe246f2c7488db5e2c91a6ccc456bb000b400807f7b5bbf2df69355f81bcc62",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\mass-1560.txt": "174737a133e291e0294440b992e1f57e68da2db9125f8b8bf1e36e38dd0d6bca",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\drag-1560.txt": "544a586d8eaea642dacaf7b4a3c481747f9fb0999fbd1c2fd8b9aa7b49a47e75",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\lift-1560.txt": "b2bb56afbad831cd15aebb756478e8c0617309e7975c82a1863cad44343825ce",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\mass-1580.txt": "f8ae5b448a621b1f385f027b03de8effe2befbf076ed03d217dfdf37af5be1da",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\drag-1580.txt": "3c848738972dee58e54cd86c6f23e92df8594458af99d73003643d8c30a7b428",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\lift-1580.txt": "450d9cf0c8a1ab46262a5dadb0577383bd4cf1bc0b528a35cd88797d448ee4c2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\mass-1600.txt": "022b7e8f895456e5fe0d2c5943d0f7f7c26ddc32d99e097fb5bf93c5997bfb86",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\drag-1600.txt": "38555a820e6ae854ad526931bda913ce96c29547b5437781beb039b50cd1fb80",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\force-reports\\lift-1600.txt": "a567a447a8a0e6bfae36c9986874b58f9922a1ab9b99f36bed74b8f943442917",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1520.cas.h5": "986ca980b241179ef2b6b8620c2fcc4e9fe4b9114b8c02220c734adee5b712f1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1520.dat.h5": "6eb0310789a8d31396d3cae6e8ab235bf4602d2ba8c38250aae726d0c5173ba8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1540.cas.h5": "6dbcf653bf79b59f18fe971082ff8b6873c92a03d1933d8491d10a18f1bc5656",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1540.dat.h5": "2ae1f1efe680a11d0d067e9a574a5c16bf93a197bb160e11c49b1ab0447dd0f3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1560.cas.h5": "252df77780a246c031a3321859e2bd2492e53fc37d85cc3a70ab7945dafbb254",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1560.dat.h5": "32cf3ef9866b38736ce2ad08a3cb6a8714ac8d6b6aefdc96e3a384d5b68dc6d1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1580.cas.h5": "c39518e0d8ad24834eaab3be52cac5ec41b5c17e7f97b004b53ae11ef8bc1ab2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1580.dat.h5": "f0785929ac4ab51df721d83996d6e7877f90c8513579f4347c1fe6a2333fde72",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1600.cas.h5": "269347ec984986fe9e87e2829b50ea82b8c8d6434498bfd9e0bbf27bef48c3f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-low-relax25-v001\\iter-1600.dat.h5": "2bc495d99673ddf561ccfc241e1ad9dd3921d8398f73348e17ae60499581d0d2"
+  },
+  "physical_validation": false,
+  "mesh_independence": false,
+  "steady_iterations_not_physical_time": true
+}

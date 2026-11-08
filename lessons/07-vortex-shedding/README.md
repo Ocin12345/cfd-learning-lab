@@ -1,5 +1,9 @@
 # Cylinder vortex shedding: an actual transient model
 
+**8November2026 update:** [A new versioned continuation record](../20-cylinder-benchmark/convergence-v001/README.md) covers4–8s with800accepted new steps/801nativefields per code, actual paired media, cycle stability and wall-pressure estimates. The inherited startup and unmatched benchmark conditions remain explicit.
+
+## Earlier startup record, retained
+
 Saved Fluent and OpenFOAM calculations at nominal Re_D=100, on the same modest
 21,598-cell mesh. The main figures use actual matching snapshots from the
 stronger-iteration continuation, 2.05 to 4 s.

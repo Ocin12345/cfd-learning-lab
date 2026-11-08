@@ -1,0 +1,12 @@
+{
+  "blocked_before_solver_launch": true,
+  "root_cause": "Diagnostic proof included an auto .trn that Fluent appended and an ephemeral cleanup .bat that Fluent removed after session.exit returned. No consumed field, named transcript or settings changed.",
+  "changed_sidecars": [
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\half-dt-window1900-v001\\fluent-20261108-011403-80764.trn",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\half-dt-window1900-v001\\cleanup-fluent-PC-20260816VFYM-61080.bat"
+  ],
+  "consumed_source_hashes_preserved": 14,
+  "original_audit_unchanged": true,
+  "original_numerical_miss_retained": true,
+  "correction": "Whitelist actual consumed HDF5/settings/named solver transcript/mass monitor/executed driver and recheck after waits."
+}

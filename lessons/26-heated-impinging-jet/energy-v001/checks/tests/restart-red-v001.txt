@@ -1,0 +1,77 @@
+FFFFFF
+======================================================================
+FAIL: test_any_restart_field_change_rejected (test_jet_energy_restart_v001.Restart.test_any_restart_field_change_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 20, in test_any_restart_field_change_rejected
+    f=self.api('same_restart');a={'T':np.array([300.,310.]),'phi':np.array([-.1,.1])};b={k:v.copy() for k,v in a.items()};b['T'][0]+=1e-10
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 5, in api
+    def api(self,n):self.assertTrue(hasattr(r,n),n+' missing');return getattr(r,n)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : same_restart missing
+
+======================================================================
+FAIL: test_clock_reset_or_wrong_split_rejected (test_jet_energy_restart_v001.Restart.test_clock_reset_or_wrong_split_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 15, in test_clock_reset_or_wrong_split_rejected
+    with self.assertRaises(ValueError):self.api('merge_steps')(self.rows(1,20),a)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 5, in api
+    def api(self,n):self.assertTrue(hasattr(r,n),n+' missing');return getattr(r,n)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : merge_steps missing
+
+======================================================================
+FAIL: test_exact_restart_arrays (test_jet_energy_restart_v001.Restart.test_exact_restart_arrays)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 18, in test_exact_restart_arrays
+    a={'T':np.array([300.,310.]),'phi':np.array([-.1,.1])};self.assertTrue(self.api('same_restart')(a,{k:v.copy() for k,v in a.items()}))
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 5, in api
+    def api(self,n):self.assertTrue(hasattr(r,n),n+' missing');return getattr(r,n)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : same_restart missing
+
+======================================================================
+FAIL: test_exact_two_segment_coverage (test_jet_energy_restart_v001.Restart.test_exact_two_segment_coverage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 8, in test_exact_two_segment_coverage
+    a=self.api('merge_steps')(self.rows(1,20),self.rows(21,600));self.assertEqual(len(a),600);self.assertEqual(a[-1]['step'],600)
+      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 5, in api
+    def api(self,n):self.assertTrue(hasattr(r,n),n+' missing');return getattr(r,n)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : merge_steps missing
+
+======================================================================
+FAIL: test_missing_terminal_step_rejected (test_jet_energy_restart_v001.Restart.test_missing_terminal_step_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 12, in test_missing_terminal_step_rejected
+    with self.assertRaises(ValueError):self.api('merge_steps')(self.rows(1,20),self.rows(21,599))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 5, in api
+    def api(self,n):self.assertTrue(hasattr(r,n),n+' missing');return getattr(r,n)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : merge_steps missing
+
+======================================================================
+FAIL: test_restart_duplicate_is_rejected (test_jet_energy_restart_v001.Restart.test_restart_duplicate_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 10, in test_restart_duplicate_is_rejected
+    with self.assertRaises(ValueError):self.api('merge_steps')(self.rows(1,20),self.rows(20,600))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_restart_v001.py", line 5, in api
+    def api(self,n):self.assertTrue(hasattr(r,n),n+' missing');return getattr(r,n)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : merge_steps missing
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=6)

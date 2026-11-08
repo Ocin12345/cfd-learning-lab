@@ -1,0 +1,16 @@
+F
+======================================================================
+FAIL: test_actual_current_clock_ignores_saved_history (test_native_clock_v001.Clock.test_actual_current_clock_ignores_saved_history)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_native_clock_v001.py", line 7, in test_actual_current_clock_ignores_saved_history
+    old.clock(p,1)
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\audit_jet_energy_qualification_v001.py", line 14, in clock
+    assert a and all(abs(float(x)-expected)<=1e-10 for x in a),(name,a,expected)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('flow-time', ['0.005', '0', '0.005'], 0.005)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=1)

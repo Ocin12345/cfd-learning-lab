@@ -1,0 +1,15 @@
+{
+  "actual_native_records": 3,
+  "old_accessor_red": "'current'",
+  "new_current_time_records": [
+    {
+      "dataset": "settings/Data Variables",
+      "flow_time_s": 3.99999999999999,
+      "nesting_depth": 2,
+      "scope": "current",
+      "native_expression": "(flow-time 3.99999999999999)",
+      "context": "(37 (\n(flow-time 3.99999999999999)\n(solvertime 0.)\n(time-step 800)\n(time/adaptive/dt-min-status 100000000.)\n(time/"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,55 @@
+{
+  "publication_ready": true,
+  "Critical_remaining": 0,
+  "Important_remaining": 0,
+  "Minor_deferred": 0,
+  "original_review_counts": {
+    "critical": 0,
+    "important": 1,
+    "minor": 0
+  },
+  "important_fixed": [
+    {
+      "id": "I1",
+      "fix": "Adjacent README caption and METHODS/RESULTS distinguish saved Fluent face pressure from OpenFOAM owner-cell proxy; no native/image/source changes",
+      "test": "test_wing_publication_pressure_v001 watched RED then GREEN",
+      "suite": "57/57 PASS"
+    }
+  ],
+  "rulings": [
+    {
+      "item": "Previously completed seven improvements",
+      "ruling": "Retain their independently completed reviews/proof hashes and all deferred limits; do not duplicate reviews or solvers.",
+      "cost": "Previous bounded limitations and two recorded minor documentation notes remain, rather than being presented as newly revalidated."
+    },
+    {
+      "item": "Physical truth and unique root cause",
+      "ruling": "Leave physical validation, accuracy ranking, induced drag, independence and unique residual-floor cause unclaimed.",
+      "cost": "The portfolio cannot support those stronger physical conclusions."
+    },
+    {
+      "item": "Clean-machine reproduction",
+      "ruling": "Preserve the external E: native archive and existing licensed D: installation requirement explicitly; no clean-machine restart is offered.",
+      "cost": "Exact replay requires those external native files, software and licences."
+    },
+    {
+      "item": "Live state and publication",
+      "ruling": "Root verifies closed solver processes and configured Git destination; remote success is established only after push by matching main commit and tree bytes, with a separate receipt.",
+      "cost": "The review alone is not proof of a current licence or a successful upload; no solver is newly launched."
+    },
+    {
+      "item": "Independent native recalculation scope",
+      "ruling": "Accept the single sampled technical review backed by complete preserved native audits and independently verified source hashes; do not imply a second exhaustive audit.",
+      "cost": "Some native values are supported by the complete original audits, not duplicated independent calculation."
+    },
+    {
+      "item": "Convergence repair outcome",
+      "ruling": "Close only the bounded investigation record and stop all further wing experiments at1600; refined and zero-incidence Fluent convergence remain unresolved.",
+      "cost": "These endpoints must not be shown as accepted converged showcases; a new bounded ruling is needed for further CFD."
+    }
+  ],
+  "review_sha256": "c9b187339e65c1309191bae3887585c9aa76c4bf8f18a3b6f5b28e5de6036f08",
+  "no_second_review": true,
+  "no_new_solver": true,
+  "wing_convergence_repair_success": false
+}

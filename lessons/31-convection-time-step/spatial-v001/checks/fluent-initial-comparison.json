@@ -1,0 +1,9 @@
+{
+  "velocity_relative_L2": null,
+  "temperature_departure_relative_L2": null,
+  "max_velocity_difference_m_s": 2.0190641018580725e-07,
+  "max_temperature_difference_K": 4.476135018194327e-09,
+  "method": "Conservative equal-area2x2 average onto matching coarse cells; relative denominators use coarse U and coarse(T-300)",
+  "relative_metrics_enabled": false,
+  "relative_total_mass_difference": 2.9670836454442906e-08
+}

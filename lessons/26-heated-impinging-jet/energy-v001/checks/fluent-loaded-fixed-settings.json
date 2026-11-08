@@ -1,0 +1,119 @@
+{
+  "energy": {
+    "enabled": true,
+    "viscous_dissipation": false,
+    "pressure_work": false,
+    "kinetic_energy": false,
+    "inlet_diffusion": true
+  },
+  "material": {
+    "name": "air",
+    "chemical_formula": "",
+    "density": {
+      "option": "value",
+      "value": 1.225
+    },
+    "viscosity": {
+      "option": "value",
+      "value": 1.7894e-05
+    },
+    "specific_heat": {
+      "option": "value",
+      "value": 1006.0
+    },
+    "thermal_conductivity": {
+      "option": "value",
+      "value": 0.0262
+    }
+  },
+  "equations": {
+    "flow": false,
+    "temperature": true
+  },
+  "methods": {
+    "p_v_coupling": {
+      "flow_scheme": "SIMPLE",
+      "flux_type": "Rhie-Chow: momentum based",
+      "flux_auto_select": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "mom": "second-order-upwind",
+        "pressure": "second-order",
+        "temperature": "first-order-upwind"
+      }
+    },
+    "pseudo_time_method": {
+      "formulation": {
+        "segregated_solver": "off"
+      }
+    },
+    "transient_formulation": "unsteady-1st-order",
+    "expert": {
+      "implicit_bodyforce_treatment": false,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "frozen_flux": false,
+    "high_order_term_relaxation": {
+      "enable": false,
+      "relaxation_factor": 0.75,
+      "select_variables": "flow-variables",
+      "type": "standard"
+    },
+    "nita": false,
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "plate": {
+    "thermal_condition": "Temperature",
+    "material": "aluminum",
+    "temperature": {
+      "option": "value",
+      "value": 320.0
+    },
+    "wall_thickness": {
+      "option": "value",
+      "value": 0
+    },
+    "heat_generation_rate": {
+      "option": "value",
+      "value": 0
+    },
+    "caf": {
+      "option": "value",
+      "value": 1
+    }
+  },
+  "ceiling": {
+    "thermal_condition": "Heat Flux",
+    "material": "aluminum",
+    "heat_flux": {
+      "option": "value",
+      "value": 0
+    },
+    "wall_thickness": {
+      "option": "value",
+      "value": 0
+    },
+    "heat_generation_rate": {
+      "option": "value",
+      "value": 0
+    },
+    "caf": {
+      "option": "value",
+      "value": 1
+    }
+  }
+}

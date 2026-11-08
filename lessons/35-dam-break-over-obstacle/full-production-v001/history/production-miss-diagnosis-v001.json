@@ -1,0 +1,146 @@
+{
+  "original_run_preserved": true,
+  "numerical_checks_pass": false,
+  "failed_residual_steps": [
+    {
+      "step": 1944,
+      "time_s": 0.19440000000000002,
+      "residuals": {
+        "continuity": 0.009859,
+        "x-velocity": 2.2875e-07,
+        "y-velocity": 6.3857e-08
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 2315,
+      "time_s": 0.2315,
+      "residuals": {
+        "continuity": 0.014942,
+        "x-velocity": 6.5889e-07,
+        "y-velocity": 1.0922e-07
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 2426,
+      "time_s": 0.2426,
+      "residuals": {
+        "continuity": 0.032589,
+        "x-velocity": 7.2879e-07,
+        "y-velocity": 2.0856e-06
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 2473,
+      "time_s": 0.24730000000000002,
+      "residuals": {
+        "continuity": 0.14111,
+        "x-velocity": 3.6621e-06,
+        "y-velocity": 5.8504e-07
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 2557,
+      "time_s": 0.25570000000000004,
+      "residuals": {
+        "continuity": 0.0084395,
+        "x-velocity": 2.9946e-07,
+        "y-velocity": 7.4964e-08
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 2629,
+      "time_s": 0.2629,
+      "residuals": {
+        "continuity": 0.36705,
+        "x-velocity": 1.8322e-05,
+        "y-velocity": 8.4242e-06
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 2651,
+      "time_s": 0.2651,
+      "residuals": {
+        "continuity": 0.24889,
+        "x-velocity": 7.4988e-06,
+        "y-velocity": 2.409e-06
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 2722,
+      "time_s": 0.2722,
+      "residuals": {
+        "continuity": 0.057029,
+        "x-velocity": 1.7392e-06,
+        "y-velocity": 1.059e-06
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 2744,
+      "time_s": 0.27440000000000003,
+      "residuals": {
+        "continuity": 0.086967,
+        "x-velocity": 2.7237e-06,
+        "y-velocity": 7.6893e-07
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 3091,
+      "time_s": 0.30910000000000004,
+      "residuals": {
+        "continuity": 0.041584,
+        "x-velocity": 4.8054e-07,
+        "y-velocity": 2.3278e-06
+      },
+      "inner_iterations": 400,
+      "passed": false
+    },
+    {
+      "step": 3468,
+      "time_s": 0.3468,
+      "residuals": {
+        "continuity": 0.0045889,
+        "x-velocity": 7.5747e-09,
+        "y-velocity": 1.2398e-08
+      },
+      "inner_iterations": 400,
+      "passed": false
+    }
+  ],
+  "courant_miss_count": 48,
+  "peak_courant": 0.364925,
+  "first_courant_miss_time_s": 0.3281,
+  "all_saved_states_pass": true,
+  "maximum_relative_mass_closure": 4.15361701523212e-06,
+  "hypothesis": "Smaller dt may improve impact convergence and reduce the explicit VOF Courant number. This is a hypothesis, not an accepted correction.",
+  "planned_pilots": [
+    {
+      "start_time_s": 0.19,
+      "end_time_s": 0.2,
+      "dt_s": 5e-05
+    },
+    {
+      "start_time_s": 0.32,
+      "end_time_s": 0.34,
+      "dt_s": 5e-05
+    }
+  ],
+  "audit_sha256": "6927f9b741a92eca279859dd436d4e1dd26796ab2ff8872e183f8cc608573ffc"
+}

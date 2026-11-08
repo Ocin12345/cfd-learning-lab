@@ -260,3 +260,39 @@ Model 34 completes the paired 160 x 80 sloshing repeat: both 1.2 s cases pass 2,
 ## Portfolio publication preparation — 8 November 2026
 
 The owner requested upload of the complete prepared portfolio. Records through study 34 and the explicitly unfinished study-35 qualification snapshot are included. A study index links all records. Native simulations, installed environments, credentials and licence files remain outside Git. Existing numerical misses and contribution boundaries are retained. Publication success is established by the GitHub commit, not by this preparation note.
+
+## Full obstacle dam break — 8 November2026
+
+Model35 adds the selected0.5s paired calculation,10000steps/101states each, actual source-bound GIF/MP4 and numerical CSVs. Fluent passes a fresh smaller-step Coupled calculation. OpenFOAM preserves a verified0.25s prefix and continues with momentum damping0.7; its original full pressure miss and unused quiet-control normalized miss remain. No physical validation, independent full OpenFOAM rerun or new upload is claimed.
+
+## Cylinder showcase convergence repair — 8November2026
+
+Studies07/20 gain a versioned4–8s paired continuation:800newsteps/801nativefields per solver, unchanged numerical limits, predeclared last-six-cycle stability, native forces, explicit wall-face pressure interpolation and source-checked media. Original misses/startup are preserved; no matched benchmark pass, physical validation or new upload is claimed. The model count remains35records.
+
+
+The [local airfoil refinement comparison](../lessons/22-airfoil-incidence/trailing-edge-v001/README.md) preserves the 5° polygon and far domain, with paired Fluent/OpenFOAM images and numerical checks. Earlier misses are retained; global mesh/domain independence and physical validation remain open.
+
+
+## Mach2 wedge refinement —8November2026
+
+The [local two-grid comparison](../lessons/24-mach2-wedge/spatial-v001/README.md) adds paired89,600-cell endpoints, native numerical-shock-width measurements and a bounded saved-state late-CFL diagnostic. It preserves the original study and its historical limits; no global mesh/time independence, experimental validation or new upload is claimed.
+
+
+## Cavity spatial comparison — 8 November 2026
+
+The [paired 48/96-cell-per-side comparison](../lessons/31-convection-time-step/spatial-v001/README.md) retains dt = 0.01 s through 20 s, accepted numerical histories, actual native-field media and disclosed initialisation/energy limits. At 20 s the restricted velocity response is 0.63445% in Fluent and 0.60716% in OpenFOAM. This improves studies 30/31 without adding a model or claiming independence, physical validation or a new upload.
+
+
+## Fine-grid sloshing time-step comparison — 8 November 2026
+
+The [paired 0.50/0.25 ms comparison](../lessons/34-sloshing-mesh-sensitivity/time-step-v001/README.md) keeps the same 12,800 cells through 1.2 s and adds 4,800 accepted steps per smaller-step code, actual four-case video and native depth/phase evidence. Maximum native-column step-size responses are 0.046934 mm in Fluent and 0.047127 mm in OpenFOAM. This improves existing studies 33/34 without adding a model, claiming time independence or physical validation, or claiming a new upload.
+
+
+## Heated-jet energy evidence — 8 November 2026
+
+The [complete discrete-energy record](../lessons/26-heated-impinging-jet/energy-v001/README.md) adds 600 actual thermal steps and 601 unique states per code, independent per-step and cumulative boundary-input/storage checks, and actual paired video. It retains the original 14,400 cells and 0.005 s step and each code’s frozen flow; the prescribed 320 K plate does not cool. This improves study 26 without adding a model or claiming physical validation, time independence or a new upload.
+
+
+## Refined-wing formulation investigation — 8 November 2026
+
+The [completed investigation record](../lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/README.md) preserves all five finite trial misses, actual retained-residual maps and the source-bound SIMPLEC/OpenFOAM comparison. Refined Fluent convergence remains **unresolved**; no confirmation or additional solver run is admitted. The separate zero-incidence miss remains open.

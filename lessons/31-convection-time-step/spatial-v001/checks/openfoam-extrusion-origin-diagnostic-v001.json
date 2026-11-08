@@ -1,0 +1,18 @@
+{
+  "baseline": {
+    "centroid_z_min": -1.609392010649413e-19,
+    "centroid_z_max": 1.609392010649414e-19,
+    "point_z_min": -0.0025,
+    "point_z_max": 0.0025,
+    "depth_m": 0.005,
+    "physical_depth_unchanged": true
+  },
+  "fine": {
+    "centroid_z_min": -2.602008745712949e-19,
+    "centroid_z_max": 2.602008745712946e-19,
+    "point_z_min": -0.0025,
+    "point_z_max": 0.0025,
+    "depth_m": 0.005,
+    "physical_depth_unchanged": true
+  }
+}

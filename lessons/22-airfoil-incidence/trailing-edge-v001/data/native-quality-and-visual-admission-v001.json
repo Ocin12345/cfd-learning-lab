@@ -1,0 +1,50 @@
+{
+  "observed_at": "2026-11-08T09:12:23.391980+08:00",
+  "both_native_quality_gates_passed": true,
+  "required_quality": 0.2,
+  "results": [
+    {
+      "level": 1,
+      "minimum_orthogonal_quality": 0.325002,
+      "cells": 119580,
+      "native_run": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level1-v002",
+      "flow_iterations_executed": false
+    },
+    {
+      "level": 2,
+      "minimum_orthogonal_quality": 0.225313,
+      "cells": 159300,
+      "native_run": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level2-v001",
+      "flow_iterations_executed": false
+    }
+  ],
+  "actual_mesh_image_inspected": true,
+  "image": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-mesh-v002\\airfoil-TE-mesh.png",
+  "image_observation": "Three actual mesh panels, identical airfoil outline; local refinement near trailing edge, readable axes and counts. No flow result depicted.",
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\airfoil-quality-inputs-v003.json": "08ad1a62efe5761edcec9fb12da784c7f2f88943a6eb194a821b525860bb46e5",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\airfoil_prelaunch_v003.py": "dd09e5e1371d236f6d256d40d44c8b9ccbddf4ad9d0675ab6f077e479960a33e",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\airfoil_run_guarded_v003.py": "d05673f758ac59487236981f7cd694abfe7ca756797a7baf1e5bbf6b65b306d5",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\plot_TE_mesh_v002.py": "7cbd2279f70ef84a3f83ca53989f55174120d8e2ee7248f75a73555094e034c1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-mesh-v002\\airfoil-TE-mesh.png": "abaf33fc2e60ddfe7b1ceb5e575916b31d33fc020e192e0c57a233aabf082029",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-mesh-v002\\plot-receipt.json": "8480408876b7089d3c3cef2233df44ee0eaa46f75a685d450c7a867d55c707d6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level1-v002\\status.json": "6fcdb51b7fe8268641614ca8fd4e9f177bf83e743b5f33b617e679df3a2f0167",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level1-v002\\executed-script.py": "d05673f758ac59487236981f7cd694abfe7ca756797a7baf1e5bbf6b65b306d5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level1-v002\\quality-accepted-mesh.cas.h5": "a86b4715b7fcd7193709e14f0dc7ccae0b9eef1f512ff6bbdbbc570049ad0034",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level1-v002\\solver-transcript.txt": "8f0fa2ba887569ee41d010648b2884c750708ce400bfc2b25c4dc36302c5f476",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level1-v002\\immediately-prelaunch-resources.json": "b4efdb16896ee3cc4daddde8ea89ec4f87f765fbabeaa60edbf7d2c86d306f22",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level1-v001\\airfoil.msh": "6e47bfaea669b3e2e78c2fb31d1f8c1f6fabd7d773decb62ca1934fb00047d4a",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level1-v001\\setup.json": "60ab2e6a68355602e4f52198f03476f59adda41bd122967aae2a9faa5fc5aca4",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level1-v001\\geometry-proof.json": "cfc965fabbbeee55dafaa304fdfe57046999b955b4ea878f57ecfb5d91d718e7",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level1-v001\\mesh-arrays.npz": "00b7a3230c2653e96d1f8da65953f03adb0bc65dead938ad9202433c2e13e08f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level2-v001\\status.json": "70c7569aa3b7f2526532f5108bb7b1780456d9b1586c692433005ed01acba46a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level2-v001\\executed-script.py": "d05673f758ac59487236981f7cd694abfe7ca756797a7baf1e5bbf6b65b306d5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level2-v001\\quality-accepted-mesh.cas.h5": "98af9657bd58b3c36af8064b1370909df0178d6bdee0ee9e171f775b3e07a629",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level2-v001\\solver-transcript.txt": "ac8412f24a61a60da87a3e9df43f8441bfa40d0259124fea9be895302590c6f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-quality-level2-v001\\immediately-prelaunch-resources.json": "c38dd0a5d1bb12850ba561edc82403d03863b7beb5c3a1ade79a439d278f8287",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level2-v001\\airfoil.msh": "031226c429acb7b3e3f758bc13dab0bff17568600d1e31721be8c9650f364314",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level2-v001\\setup.json": "cbf33dbe97e69a115b0e18d17e36ad9eab361bddc7e94e11978fa90bf26f59fb",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level2-v001\\geometry-proof.json": "e5e07efa534d899ad81fdd65ac057dd74b8ea77c9c780af4e91831e54298f926",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level2-v001\\mesh-arrays.npz": "b9015235d64fde17c74c2a38a4dea90c434bbbb34b76eb7aa65cc8cc4b5dde22"
+  }
+}

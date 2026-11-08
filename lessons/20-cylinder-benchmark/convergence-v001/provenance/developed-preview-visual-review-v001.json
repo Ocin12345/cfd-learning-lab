@@ -1,0 +1,21 @@
+{
+  "reviewed_by": "Codex",
+  "visually_inspected_frames": [
+    1,
+    2
+  ],
+  "physical_times_s": [
+    6,
+    8
+  ],
+  "shown_in_chat_frame": 2,
+  "fixed_speed_and_vorticity_scales": true,
+  "readable_axes_and_captions": true,
+  "raw_velocity_derived_vorticity_saturation_disclosed": true,
+  "physical_validation": false,
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-preview-v001\\frame-001.png": "ac1826a022765fb949f75ee5471f3b1a5ba804eac1b7661f9f0eed80a86c9c5f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-preview-v001\\frame-002.png": "6fd49f750fee870ce97414579d23c12e790a2e31357c1fcf9aec3061cef4859e",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-preview-v001\\native-field-audit.json": "7084ab5cf635032fd80045983922a95ae544e643ecd4f92314015afe1bf730c4"
+  }
+}

@@ -1,0 +1,34 @@
+# Execution ledger - plan: E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\cylinder-convergence-v001\PLAN.md
+
+Pre-flight: native driver produces transcripts/snapshots/force/mass and all-step auditor consumes them. Existing oldanalysers assume5step sampling/20or60cap, so newwindowauditor must use declaredactualtimes and120cap rather thanmisapplyoldgridchecks.
+Ruling: owner already opted out of teaching/design/approval checkpoints; execute boundeddiagnostic autonomously. Retaincodexcheckout andallworkspaces; no publication/cleanup. Cost if candidate fails: only10stepdiagnostic; preserveevidence.
+Task1: preparingtests.
+
+Task1 guard: missingmoduleRED observed; minimalimplementationGREEN3/3 includingstalehash/reusedpath. Deriveddriverfrompreservedexecuted120inner source, samplesnativeforce/mass/data everynewstep. Controlreadbackprovesonlypressureterminationchanges; frozeninputsrecheckedafterimports/immediatelyprelaunchresourcegate.
+
+PrelaunchschemaRED/GREEN: original native forceCSV lacksnewmasscolumn; carryingoldrowsmakesDictWriterrejectnewrow. Preservedunlauncheddriver001/manifest001. Driver002records onlynewwindowrows/states, retainsparentviahashprovenance; nativeCSVschemaregression001 provesoldrejection/newheaderacceptance. No solveradvancedinthispreflight.
+
+PrelaunchnativeclockRED/GREEN: helperuses scope/flow_time_s, not current/value. RealparentHDF reproducesKeyError; auditor002usesactualschema andcurrent4s verified. Preservedunlaunchedauditor001/controller001. Controller002/frozencontrollerinputs001selected.
+
+Launchgatecorrection: controller002stoppedbeforecreatingnativecase/launchingsolver. WSL -- sentregexpipeviashell; localizedUTF16warningalsofailedUTF8decode. Actualold127commandfailurepreserved, direct -e pgrep bytes-modeGREENreturn1(noactiveprocess). Newcontroller003/manifest002/statusv002, no scientificlimit/sourcechange.
+
+Task1 current launch: controller003 launcher74832/venvchild8728, starts2026-11-08T05:15:53.792/.830+08, verified commands/parent identity. Status cylinder-diagnostic-pair-v002-status.json. Baseline native Fluent session connected and advancing t4.01/step802, 3realstates/force/masssamples; diagnostics not yet accepted. LastfreshlaunchgateRAM8600281088bytes/Efree297103523840bytes. No additional solver launched. Existing heartbeat updated with exact current pointers; no new GitHub upload.
+
+Task1 pressurehypothesis: COMPLETE as preservednegativecomparison. Both10newstepsMISS1e-5continuity, baseline.1/tight.001 terminal histories practicallyidentical; fields/materials/nativeclocks/mass pass. Pressuretolerancealonehypothesisrejected; no extensionadmitted. Ruling: testCoupledsolutionbundle20Courant/.5explicitrelaxation on same4s checkpoint for10steps, preservingphysicalmodelandcriteria. Cost: shortdiagnostic, notuniquelyisolatedcause. Newalgorithmqualifiesonlyafterallstepspass.
+
+Task1 coupledpilot: PASS10/10newsteps,11states; physicalinputs/spatialandtimeschemes/residualsettings exactlymatchbaseline. Actualdiagnosticfigurev002inspected/shown; v001clippedrange/legendretained. Noteearlierpracticallyidenticalpressurehistorieswording: bothfail,buttightfinalcontinuity1.2519e-5versusbaseline1.2003e-5, exactdifferencesretained.
+Task2: nativeHDFtime/residual/material/massruntimeguardREDmissingimplementationthenGREEN3/3realnativepass/MISS/wrongtime. Guardeddriver001preparedfor4.05..4.55s100steps; acceptancepending. Alloldsources/casespreserved.
+
+Task2 launchedguardedwindow: launcher80096/child83552 at05:32:25.793/.829+08, commands/parentsverified; oldmodel35PID80096notcurrentidentity. Statuscylinder-guarded-window-v001-status.json. NativeFluent2026R1connected;100stepall-stateacceptancepending. Baseline2037currentportfoliofileshashedbeforecylinderrecordchanges. ContinuationguideCONTINUE-CYLINDER-v001.md.
+
+Task2 halfsecond: ACCEPTED100steps/101states/100runtimeguards, maxrelativeboundaryimbalance3.27617e-6; all415nativesourcehashesrechecked. Actualfield/residual/forcesfigureinspected/shown. Ruling: finiteextensionfromexact4.55scheckpointto8s(690steps) withinexistingbound, thenmeasurecycledevelopment; noassumedbenchmarkpass orretroactivestartuprepair. Newsource002/receiptcylinder-developed-inputs001/controllerdeveloped001frozen.
+
+OpenFOAMpreparationonly: exactrootand2partition4srestart/historyand0meshes copied/byteverified, originals preserved. Onlytop-levelcontrolstart/end/write modified, functionblockidentical. Prepared100step4..4.5qualification, NOTLAUNCHEDbeforeFluent8sacceptance. Nativeallstepcoverage/residualmissingregressionsREDthenGREEN2/2; sameoriginalterminalinitial/finalresidualdefinition1e-5, enforcedallnewsteps. Courantnativepre-advancetimesandinitialduplicatereportexplicit.
+
+Cycleanalysisprotocoldeclaredbeforefull8scompletion: lastsixcompletecycles period/native-sampledClpeak-to-peak/time-meanCd range/mean<=0.5%, diagnosticstabilitycriteriononly. Crossingandcycle-boundaryforceinterpolationexplicit; nofield/video interpolation. Independentknownsinusoidperiod/mean,growingamplitude,duplicateclock,insufficientcyclesREDthenGREEN4/4. No actual8smetricsyetclaimed.
+
+Task2 activefiniteextension: launcher21900/child73204 verified at05:58:06.858/.892+08,690steps4.55..8s; no accepted8s claim. QueuedOqualwatcher83488/43684 at06:04:57.783/.820+08, waitsforfullF8sacceptance then100steps4..4.5serially; source634files frozen. Newactivepointers andpressure/cycleprotocol inlatestCONTINUEsection. No new upload or count increase.
+
+FullFluent4..8interval: all800newstepsPASS/801uniquefields; duplicateboundaryU/V/Pidentical/forcevaluesmatch.11completecycles; last6criterionPASS(periodrange0.002265%,liftamplituderange0.033566%,meanCdrange0.002914%). Inherited4sinitialresidualnotrepaired. OpenFOAM100step4..4.5qualificationPASS101states, actualpaired4.5sfield/nativeforce/Fcyclefigureinspected/shown. ExactO4.5root+bothnativepartitioncheckpoints/history/meshes copiedandverified; onlystart/endcontrols changed for700steps to8. No thresholdrelaxed; finalfullpairrecord/reviewpending.
+
+ActiveOcontinuationlaunched53940/80776at06:30:33.236/.299+08; source1199frozen, nativecaseopenfoam-developed-v001,700steps4.5..8. FullF8andOqualificationalreadyacceptedandreused; actualpairedimageinspected/shown. Finalpairedmedia/pressure/record/reviewpending. LatestCONTINUEsectioncontainsmetricsandcurrentidentity.

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_openfoam_audit_v001.py", line 2, in <module>
+    from audit_refined_openfoam_v001 import outcome
+ModuleNotFoundError: No module named 'audit_refined_openfoam_v001'

@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-11-08T13:51:58.795250+08:00",
+  "no_windows_fluent_or_cortex": true,
+  "no_wsl_foam_or_mpi": true,
+  "wsl_pgrep_returncode": 1,
+  "wsl_stdout_bytes": 0,
+  "wsl_stderr_bytes": 132,
+  "stderr_note": "Localized WSL localhost proxy warning; not solver output or a match. Probe accepts only no stdout and exit1.",
+  "passed": true
+}

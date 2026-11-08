@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "observed_at": "2026-11-08T13:48:21.516241+08:00",
+  "actual_inspection": "Codex viewed actual initial/end PNGs, decoded MP4 middle and GIF end, four-case map and numerical plots. Uniform initial T, clockwise rising-warm-left circulation, fixed scales, unclipped readable axes, no central arrowhead blob in final display. Histories are unchanged from prior inspected version.",
+  "preferred_figures": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-convection-spatial-full-v003",
+  "preferred_video": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-convection-spatial-v003\\cavity-refined-development.mp4",
+  "inspected_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-convection-spatial-full-v003\\frames\\frame-000.png": "c178204a89aabd0b396544f3da37954b8bc38b1ddc84e0cde2639c8d5acd094b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-convection-spatial-full-v003\\frames\\frame-040.png": "bda2b5c88d40aab94a315ff1db7d5607715e22eccc157e715170f2db2d5af227",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-convection-spatial-full-v003\\coarse-fine-at20s.png": "7e1869472132026d45a65ebbf10fe0cb3742a4a6f7a4f1bb0ec1f118142480fb",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-convection-spatial-full-v003\\mesh-response-histories.png": "8d8daf74339d5abc730fa28403357a1195a3ad8ceb5b96870eff4afc466dac9b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-convection-spatial-full-v003\\full-numerical-checks.png": "943ed597c6ace4d43b2cbb7b718dc61cc7497a13de1487956541e2c93da0920c",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-convection-spatial-v003\\decoded-020.png": "8987cad712175c2505dbd50ae8a97f8a866199a800759a8c9c577f26806df055",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-convection-spatial-v003\\gif-v001\\decoded-040.png": "71e00d78d1f80e9fbc19deef53113e52b02c112848b3412391c17864bebd06f8"
+  },
+  "numeric_analysis_equal_to_preserved_v001": true,
+  "csv_bytes_equal_to_v001": true,
+  "all_frame_decode_pass": true,
+  "source_bound_audit_sha256": "86f00e130c61814db5726585592b5e35dc2088ad84fa6a2517ffabdce5d80f95",
+  "video_record_sha256": "ba7ae85157105741277025cbd742674c152771deb31fb39c789f5e1e87c89f59",
+  "gif_record_sha256": "b755d72cd5505aa7eff8f6387b8e00b162cfbebb45f1a79df655246ea2228c39",
+  "streamline_local_display_cutoff_mm_s": 0.5,
+  "native_fields_modified": false
+}

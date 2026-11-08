@@ -1,0 +1,935 @@
+{
+  "all_saved_field_checks_pass": true,
+  "preview": false,
+  "selection": {
+    "fluent": {
+      "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001",
+      "audit": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\production-audit-v001.json",
+      "audit_sha256": "d2028c1f9e7bd13b1aadd2943f703537976fb8d579635346ad0a3e5b6d72454a",
+      "prefix_case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001",
+      "continuation_not_independent_full_rerun": true
+    },
+    "openfoam": {
+      "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001",
+      "audit": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\production-audit-v001.json",
+      "audit_sha256": "54c5ecff987e68ceb14e2fa5b71cd510c7274ad60bd1f0517f79c6fce5c08aca",
+      "prefix_case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001",
+      "continuation_not_independent_full_rerun": true
+    }
+  },
+  "selection_sha256": "2fbea209b79ef5e20ba703fb9bc9003cc5a17bf063e5efed1ae23fab7a9c0044",
+  "native_frame_binding": {
+    "fluent": [
+      {
+        "step": 0,
+        "time_s": 0.0,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001\\heat-0000.dat.h5",
+        "sha256": "5c94b315305375c8d9df4b325e9381626d6db3b85f09bc7f4144ad2adbfbb4b0"
+      },
+      {
+        "step": 10,
+        "time_s": 0.05,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001\\heat-0010.dat.h5",
+        "sha256": "6c7fe923a31de255d204525b6102cd93cdc49063c6e03e6c9110dee6b1d121c8"
+      },
+      {
+        "step": 20,
+        "time_s": 0.1,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001\\heat-0020.dat.h5",
+        "sha256": "dcb33e30cb9ba41a13138e39229db61cb8e2f90036a49c79c3b136ddd53dc716"
+      },
+      {
+        "step": 30,
+        "time_s": 0.15,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0030.dat.h5",
+        "sha256": "1d93b063f794368307adda1242dbde6b9bbad84d8625893103c66af58a7aa1ee"
+      },
+      {
+        "step": 40,
+        "time_s": 0.2,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0040.dat.h5",
+        "sha256": "dd84e6244d076277cd1fb8ed3c2a4e9b4ef513f0d7c94ae0b5872d4611ad7892"
+      },
+      {
+        "step": 50,
+        "time_s": 0.25,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0050.dat.h5",
+        "sha256": "06dd87579ee92a05d1716b3b4238055635da306b97a0cb81b508484cfce42bdb"
+      },
+      {
+        "step": 60,
+        "time_s": 0.3,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0060.dat.h5",
+        "sha256": "78481a66d699f949fef64ca9eb088ba68f11abf64ad2c7c3346ee40b4b2deac6"
+      },
+      {
+        "step": 70,
+        "time_s": 0.35000000000000003,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0070.dat.h5",
+        "sha256": "b6db17e4178f76cc0e8014177ed7a991e86d94e82e755f0629955ab15791c5a7"
+      },
+      {
+        "step": 80,
+        "time_s": 0.4,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0080.dat.h5",
+        "sha256": "22a27759facff24bed0e808680c651e048ed1026edd433a40a53c244fbecc970"
+      },
+      {
+        "step": 90,
+        "time_s": 0.45,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0090.dat.h5",
+        "sha256": "f6cd464ca1b602adf7a8d584211b16104230787cc968fb15adb0750771658c73"
+      },
+      {
+        "step": 100,
+        "time_s": 0.5,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0100.dat.h5",
+        "sha256": "d7ea5fb5925b1d6591be2cf98589b610ea031fa13fbd99b2dc8f4e3e3e245f71"
+      },
+      {
+        "step": 110,
+        "time_s": 0.55,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0110.dat.h5",
+        "sha256": "c2d94ff7e8f1f8222ab0324c125cedb972b5ede46222a5b501b99f56e3446d11"
+      },
+      {
+        "step": 120,
+        "time_s": 0.6,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0120.dat.h5",
+        "sha256": "2e7afc67cb9fe1183f39ae5e6ad0ad8de6e0f60346792c045149a75615c88766"
+      },
+      {
+        "step": 130,
+        "time_s": 0.65,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0130.dat.h5",
+        "sha256": "c6d49d80b5dc60d4f908aa9a38fee506589d619ad7ae6d91a9dbe09919acca66"
+      },
+      {
+        "step": 140,
+        "time_s": 0.7000000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0140.dat.h5",
+        "sha256": "50fc8c3b40ddfc0acc6c0d2b8229b4094ed0056d0d4374cd9f3ab658141cc4a3"
+      },
+      {
+        "step": 150,
+        "time_s": 0.75,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0150.dat.h5",
+        "sha256": "a0ad09614cf45ddc192baae434a34a13409d559c425d81911da58393b760081c"
+      },
+      {
+        "step": 160,
+        "time_s": 0.8,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0160.dat.h5",
+        "sha256": "f604fbac85f76f60a872115c47765910b4a0920f04a1c90b1f168a54c5844483"
+      },
+      {
+        "step": 170,
+        "time_s": 0.85,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0170.dat.h5",
+        "sha256": "2681bb0c9f539dffbbb0c481b0cd8e5dee4c42d12e77238ca43f90b02114f5a6"
+      },
+      {
+        "step": 180,
+        "time_s": 0.9,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0180.dat.h5",
+        "sha256": "4509cde4bf7d5af184d2149fd598dbc6fadb17cde5774cb3c5e4ddcc471d6cad"
+      },
+      {
+        "step": 190,
+        "time_s": 0.9500000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0190.dat.h5",
+        "sha256": "c3ff540fc062ff9af07248aa4f700f54b8f756a5c6b37a374efe895808015b4e"
+      },
+      {
+        "step": 200,
+        "time_s": 1.0,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0200.dat.h5",
+        "sha256": "34f32ee3b4826965fc38fbe9d87a76899d9e760609bd6d0ecb7bd0f8a2ce836a"
+      },
+      {
+        "step": 210,
+        "time_s": 1.05,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0210.dat.h5",
+        "sha256": "268a21a0f98a7a73d5b9e66a2d7ffec92a29f29c47152814ef2ec57e55695a55"
+      },
+      {
+        "step": 220,
+        "time_s": 1.1,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0220.dat.h5",
+        "sha256": "087011f747a311e67628d774297c1369775c1df6555b74949cd8a704f8dbf583"
+      },
+      {
+        "step": 230,
+        "time_s": 1.1500000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0230.dat.h5",
+        "sha256": "3d93edb4103ee13214e67962def7742414f7f00a9a968c18b70081e983a9c9da"
+      },
+      {
+        "step": 240,
+        "time_s": 1.2,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0240.dat.h5",
+        "sha256": "0bb656ef900ecd4ae144ea8e3062af91a49edac0539df3182f5d2d1f4a908ee7"
+      },
+      {
+        "step": 250,
+        "time_s": 1.25,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0250.dat.h5",
+        "sha256": "561536d80f52755645c4fce48122e981d89e3edbe13bc7a96d3d2108c3110508"
+      },
+      {
+        "step": 260,
+        "time_s": 1.3,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0260.dat.h5",
+        "sha256": "2228a0dd99bb76b421400361ace1e5e650e523eaf95fb0b79f213e6f5f2b4911"
+      },
+      {
+        "step": 270,
+        "time_s": 1.35,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0270.dat.h5",
+        "sha256": "b8dfe78401428b9b5d7a4c4a7d09d7cea09dfe3518c841d5f381a1c7c03b65b8"
+      },
+      {
+        "step": 280,
+        "time_s": 1.4000000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0280.dat.h5",
+        "sha256": "235c1025934894786237086088f5f941d551f128c458db60521925439bed5d3c"
+      },
+      {
+        "step": 290,
+        "time_s": 1.45,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0290.dat.h5",
+        "sha256": "53ea85b185dd3ea00ba4a0a3ed9502052c721fbad796185188a8d93373dd9b84"
+      },
+      {
+        "step": 300,
+        "time_s": 1.5,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0300.dat.h5",
+        "sha256": "b6286ebd21b25779d742147b223ec93fe79b09b6587171cb7172f835241d11f0"
+      },
+      {
+        "step": 310,
+        "time_s": 1.55,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0310.dat.h5",
+        "sha256": "83eaa6fadc88e158bb13050f8da66314c2541f4e17829c9760d118eba4f25b04"
+      },
+      {
+        "step": 320,
+        "time_s": 1.6,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0320.dat.h5",
+        "sha256": "a5b17c940db66029fc98efc8de669d15a047b724f4f594858eb86ccd2bdec894"
+      },
+      {
+        "step": 330,
+        "time_s": 1.6500000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0330.dat.h5",
+        "sha256": "eae84ec75e5e95f7f130f500f301e5d6c0bea3f635f1f970f9b9ce07297f714d"
+      },
+      {
+        "step": 340,
+        "time_s": 1.7,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0340.dat.h5",
+        "sha256": "ca0b1897057797ee7dcaa4d78deecfa39300447069228517401477b8b53331e0"
+      },
+      {
+        "step": 350,
+        "time_s": 1.75,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0350.dat.h5",
+        "sha256": "62b0b1780c891c722d859d931698af5be32b815b68756ec7024e78a4243ec658"
+      },
+      {
+        "step": 360,
+        "time_s": 1.8,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0360.dat.h5",
+        "sha256": "3268d12612b0907d66b6d3c3ee81642f19f6b3dd10239ddd7c38372fd026cd5e"
+      },
+      {
+        "step": 370,
+        "time_s": 1.85,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0370.dat.h5",
+        "sha256": "dbdfb8b472cf681484cbc791aa86526ad4f04b7fb9ce53c269339238fcca1725"
+      },
+      {
+        "step": 380,
+        "time_s": 1.9000000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0380.dat.h5",
+        "sha256": "61a3c34dcedba227bfc3ebbcdac70dbd4b669bb0b6e44f7f77c78b20ea4306d4"
+      },
+      {
+        "step": 390,
+        "time_s": 1.95,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0390.dat.h5",
+        "sha256": "92d140aa60217f2f92c749bbc8da68b646fed2f73380a3e97c52030ac6f57121"
+      },
+      {
+        "step": 400,
+        "time_s": 2.0,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0400.dat.h5",
+        "sha256": "890418f7deff9a868290346949c040eeb3af966e0585f12f3655939aaea45020"
+      },
+      {
+        "step": 410,
+        "time_s": 2.05,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0410.dat.h5",
+        "sha256": "0437de70c71e24c201308804211f11eab03eb67d7e2f0cd3c2de02c94e1f89ce"
+      },
+      {
+        "step": 420,
+        "time_s": 2.1,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0420.dat.h5",
+        "sha256": "872c7f8d674d812b73774e4b8ba958f52eeb0f41ba2fcc8c5cda882889f95864"
+      },
+      {
+        "step": 430,
+        "time_s": 2.15,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0430.dat.h5",
+        "sha256": "02c12d1daeda7f1dcb42f39dbfc9a12dee798d31fe5e9809c51a9ee207506e57"
+      },
+      {
+        "step": 440,
+        "time_s": 2.2,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0440.dat.h5",
+        "sha256": "77b67d605e2094e3fa53fafc030b96c3a0104f8bfd984cf4a1a529f598c79992"
+      },
+      {
+        "step": 450,
+        "time_s": 2.25,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0450.dat.h5",
+        "sha256": "6a0c93d3df5647e1cdef9fa32df0c811974a7f4f3866c7c6a7bf79c53960245d"
+      },
+      {
+        "step": 460,
+        "time_s": 2.3000000000000003,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0460.dat.h5",
+        "sha256": "456bdc08bcbdda9bab3b27e820f2387aa98a99e914e5b98d2ae5a125fd9f39ba"
+      },
+      {
+        "step": 470,
+        "time_s": 2.35,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0470.dat.h5",
+        "sha256": "8f9481ccd91ee7c9a91acc8d5826edf62c86caaf3a083060a186b942afb77d3c"
+      },
+      {
+        "step": 480,
+        "time_s": 2.4,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0480.dat.h5",
+        "sha256": "7b4a0f05f6a9e53a2c8bdb7cc11fdee882442db0eb9c7ec701130ec78bffa9bc"
+      },
+      {
+        "step": 490,
+        "time_s": 2.45,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0490.dat.h5",
+        "sha256": "d6b996713e0bc7c66dfb6b8857a5e962618db78b23351740fbb145e82b7052b5"
+      },
+      {
+        "step": 500,
+        "time_s": 2.5,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0500.dat.h5",
+        "sha256": "dd244cbc89d6062540b44f177e54bad856d587cef4b47d220a11341a5c8d1b02"
+      },
+      {
+        "step": 510,
+        "time_s": 2.5500000000000003,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0510.dat.h5",
+        "sha256": "086fc466b9aa498de658e9b4e44ab36c63600136da314ebefd33d9b7f0f5f14c"
+      },
+      {
+        "step": 520,
+        "time_s": 2.6,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0520.dat.h5",
+        "sha256": "93bcaebc791b25654d05070748eee2f9de2a944047600fba8cc19fb7b94b5b9a"
+      },
+      {
+        "step": 530,
+        "time_s": 2.65,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0530.dat.h5",
+        "sha256": "604f189ccb8e2eee0044fd6a1a6dabe13a7574fa264c435e380ddb4334813572"
+      },
+      {
+        "step": 540,
+        "time_s": 2.7,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0540.dat.h5",
+        "sha256": "a7035c9b9593f6af22b6df4f030087dc3e3b5fcd7e0aff24a34ea125fb6b2daf"
+      },
+      {
+        "step": 550,
+        "time_s": 2.75,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0550.dat.h5",
+        "sha256": "1a92daa8b372907a1902e49e5359d75487735b5992404f66b0768f3c260fd6ee"
+      },
+      {
+        "step": 560,
+        "time_s": 2.8000000000000003,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0560.dat.h5",
+        "sha256": "c3c1105b6df59de445b053bb59057caa58b5cb9ff4a265392fa702e590ac97d2"
+      },
+      {
+        "step": 570,
+        "time_s": 2.85,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0570.dat.h5",
+        "sha256": "132e897ceabb42043e6a8798935471a8bbc6cfdc1e490540137027cdeea07ebf"
+      },
+      {
+        "step": 580,
+        "time_s": 2.9,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0580.dat.h5",
+        "sha256": "df33249f8bebb6a8b40496cbf2e5cdbdef85e895ed2f9bc5b3f08c3dff4f450a"
+      },
+      {
+        "step": 590,
+        "time_s": 2.95,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0590.dat.h5",
+        "sha256": "d7a5d3c1b162521d52725127fbdcfd9269cd7fc8330dd18a2204897ef35a3374"
+      },
+      {
+        "step": 600,
+        "time_s": 3.0,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\heat-0600.dat.h5",
+        "sha256": "bb526e62e421d657e4229b3146cc3833712140f1266a5a0f6dc3efd990cd8685"
+      }
+    ],
+    "openfoam": [
+      {
+        "step": 0,
+        "time_s": 0.0,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\0\\T",
+        "sha256": "0eb477a438dd1271e2a871beac069f73dddd4314f9441ec075ff6b939dc81f26"
+      },
+      {
+        "step": 10,
+        "time_s": 0.05,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\0.05\\T",
+        "sha256": "b1104daefa3de4aa86900cea3b0a4dddbe621bdd87bb53c70eebbbee1f0bf3ac"
+      },
+      {
+        "step": 20,
+        "time_s": 0.1,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\0.1\\T",
+        "sha256": "db983705f2ca689dd9894549570eb3bf35cacebbfccc5206f512c8730612c4d8"
+      },
+      {
+        "step": 30,
+        "time_s": 0.15,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.15\\T",
+        "sha256": "6054f4ea785881a0ce799c117e048ee326bf75985a746ccc4928be161b970e28"
+      },
+      {
+        "step": 40,
+        "time_s": 0.2,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.2\\T",
+        "sha256": "43373c532f7c81e99f267011c8491cd46d41ff4c3f3d8599f1657ba90315e0e7"
+      },
+      {
+        "step": 50,
+        "time_s": 0.25,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.25\\T",
+        "sha256": "e9ab1c85d0b1747204d2e5371f3672ab3a95dd4f7c918298f3160d73195df7c9"
+      },
+      {
+        "step": 60,
+        "time_s": 0.3,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.3\\T",
+        "sha256": "40e29033ff71b5e8ffa0ed33c4adf8475b8d9455e1d3658b4aabed6441979885"
+      },
+      {
+        "step": 70,
+        "time_s": 0.35000000000000003,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.35\\T",
+        "sha256": "0570f08c9005e1bf98fe0ac8390bbe839824d8790e19b545e87722823a62ee90"
+      },
+      {
+        "step": 80,
+        "time_s": 0.4,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.4\\T",
+        "sha256": "050796386693b8fd4712eb52ebd7d236be9ec2c2dac19652def70489be999081"
+      },
+      {
+        "step": 90,
+        "time_s": 0.45,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.45\\T",
+        "sha256": "2aeada83298158bb0f7a3c12de42c3c0176caef6cf77521c942adc4fb496f9e4"
+      },
+      {
+        "step": 100,
+        "time_s": 0.5,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.5\\T",
+        "sha256": "2c30e372035627bf9cc9e45c2b57479c38280b3baf5bc2108a8890eb2c03a824"
+      },
+      {
+        "step": 110,
+        "time_s": 0.55,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.55\\T",
+        "sha256": "6547235af0db9cdef8500ca5b7066b9c4275e260b97446fcd10229943b4d1564"
+      },
+      {
+        "step": 120,
+        "time_s": 0.6,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.6\\T",
+        "sha256": "b92df944303a30602b17c01f5bc34b4f4849d1e97e21268827ddf464d60318cc"
+      },
+      {
+        "step": 130,
+        "time_s": 0.65,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.65\\T",
+        "sha256": "5d0d4e9630ae46b74caec5cf21e2e68dbe7b1cca4be7377aa1e63562e354a44f"
+      },
+      {
+        "step": 140,
+        "time_s": 0.7000000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.7\\T",
+        "sha256": "76f107a68659fd369640bc3f77720b16802a4041ae156ac29037d9eca7796623"
+      },
+      {
+        "step": 150,
+        "time_s": 0.75,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.75\\T",
+        "sha256": "ab4ef0da5c40d7188062ee9097eebf70533e8dae623cf8611998c33f8ea59d17"
+      },
+      {
+        "step": 160,
+        "time_s": 0.8,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.8\\T",
+        "sha256": "285270ea82165f110d1d9907f9fecec458c375a680a653422d662a54b8a034b4"
+      },
+      {
+        "step": 170,
+        "time_s": 0.85,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.85\\T",
+        "sha256": "e2176e260cdaeace2d3cfc1a6312b377c0015f958b56c829cb0a44fb1a1005bb"
+      },
+      {
+        "step": 180,
+        "time_s": 0.9,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.9\\T",
+        "sha256": "c72724ce687c13312df8f936096f1c4af4d5f92616a1beade1d2648542dfa646"
+      },
+      {
+        "step": 190,
+        "time_s": 0.9500000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\0.95\\T",
+        "sha256": "ef8990636dec30f1b79ce60b19e304c5ccd439cb380d726a67659321e7ee0f83"
+      },
+      {
+        "step": 200,
+        "time_s": 1.0,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1\\T",
+        "sha256": "1dcd09f835b28fd66eb36f69e44c33ef9555cf4fde4a0249cc198ebe2a88dcba"
+      },
+      {
+        "step": 210,
+        "time_s": 1.05,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.05\\T",
+        "sha256": "cf15703da99cb172387524ab28f078c955eed0a0a44e4ccbca4d62df1a40f0ac"
+      },
+      {
+        "step": 220,
+        "time_s": 1.1,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.1\\T",
+        "sha256": "a3b8c87f9573342324ade3e72032943e38bc9901e6fd25497dae63c8bbd214b6"
+      },
+      {
+        "step": 230,
+        "time_s": 1.1500000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.15\\T",
+        "sha256": "9b1576ce965f961117bb78997e5540902227529cb1e6c9d4e18737582d020f4a"
+      },
+      {
+        "step": 240,
+        "time_s": 1.2,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.2\\T",
+        "sha256": "d1973dd3fc7928b2f89d92df08dda3c3ce10ffd2656faccebee2d9a36cfed3fe"
+      },
+      {
+        "step": 250,
+        "time_s": 1.25,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.25\\T",
+        "sha256": "f0e2266fe71689f7a0e049f424f1e9a753a25714b80c12932bb5825ce6afe577"
+      },
+      {
+        "step": 260,
+        "time_s": 1.3,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.3\\T",
+        "sha256": "b97d02f6767a093737366285fc7180acf0aebd6d136c0657979770397a8d64d0"
+      },
+      {
+        "step": 270,
+        "time_s": 1.35,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.35\\T",
+        "sha256": "2047fb029125f59b409c4073aad125cc6d0d2054e7c039420ab1fcbe764512a3"
+      },
+      {
+        "step": 280,
+        "time_s": 1.4000000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.4\\T",
+        "sha256": "5524da616f474ef36c316cb063f380f1c40a77e01e28d88ffc46fa168d02a87f"
+      },
+      {
+        "step": 290,
+        "time_s": 1.45,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.45\\T",
+        "sha256": "59383d73ccd29ef0783169b1b5856462475d8a847b33b5c3d3661c6eca773916"
+      },
+      {
+        "step": 300,
+        "time_s": 1.5,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.5\\T",
+        "sha256": "e9f7793907589022b1bb0d0bec49e223bae548073284d8a9222c8cb636ca34f1"
+      },
+      {
+        "step": 310,
+        "time_s": 1.55,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.55\\T",
+        "sha256": "5abcbea21521784cf9cb71e2ba6bf6cacfee887d67c612b3bd4632ca2b7b6e3d"
+      },
+      {
+        "step": 320,
+        "time_s": 1.6,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.6\\T",
+        "sha256": "86d53688ab92769ea74c02d70fced8873bdc6c6f8811c1e005e00b37252766c0"
+      },
+      {
+        "step": 330,
+        "time_s": 1.6500000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.65\\T",
+        "sha256": "79da37bbd10b1c41443803199ee58386950cf16e29df7cf1cca20388ee4324e5"
+      },
+      {
+        "step": 340,
+        "time_s": 1.7,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.7\\T",
+        "sha256": "9caedfffe5c4826cd578d7fb26acfc2b175541e9360cd250b238bd3209b6a1cd"
+      },
+      {
+        "step": 350,
+        "time_s": 1.75,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.75\\T",
+        "sha256": "4d9f4184e44899f994ed3105caa74489842bbe0695c1a45497a0b72f5c45beb4"
+      },
+      {
+        "step": 360,
+        "time_s": 1.8,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.8\\T",
+        "sha256": "bc0b28a0299896d2cb0ad0755faec2a634164d3df3bb89f9fdb994777c09ed77"
+      },
+      {
+        "step": 370,
+        "time_s": 1.85,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.85\\T",
+        "sha256": "040a65875bb22a5c17be524716e194a916c82ebebc6964656fe41d96176a2989"
+      },
+      {
+        "step": 380,
+        "time_s": 1.9000000000000001,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.9\\T",
+        "sha256": "a24a5a802222f3b05536d27343cb120420b5404386480a0301eedcff52539b01"
+      },
+      {
+        "step": 390,
+        "time_s": 1.95,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\1.95\\T",
+        "sha256": "bf7876f5be7f6810c2adfe799c76282c0b5568699f80d8425b605bc6c5485980"
+      },
+      {
+        "step": 400,
+        "time_s": 2.0,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2\\T",
+        "sha256": "16cb0ec57d4da046eafda8f3c62b74c943a42371736a39e62baf75efb13922b4"
+      },
+      {
+        "step": 410,
+        "time_s": 2.05,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.05\\T",
+        "sha256": "e8c5b48e0188204316d36116a668f665111f9e7e5725e7078a4e5ebadc60e228"
+      },
+      {
+        "step": 420,
+        "time_s": 2.1,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.1\\T",
+        "sha256": "1f642ff3ce65c4e05b1431088b7ddfa2a6abb893838cb1a0ce88a28d46c4044e"
+      },
+      {
+        "step": 430,
+        "time_s": 2.15,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.15\\T",
+        "sha256": "ea027c95f68527551ea7c91331960595b3fc14d57b7056c5c8ebc773a647589d"
+      },
+      {
+        "step": 440,
+        "time_s": 2.2,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.2\\T",
+        "sha256": "8df206e6eb5c44fe63ba6972ec7e7935c20540abf3783d2312274c6cd72cbac4"
+      },
+      {
+        "step": 450,
+        "time_s": 2.25,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.25\\T",
+        "sha256": "27eb8d2f82670fd16f21ba1d9f97a47231e0640e3cce122c139ab7f4722dce84"
+      },
+      {
+        "step": 460,
+        "time_s": 2.3000000000000003,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.3\\T",
+        "sha256": "09e7a074013c089cefb9c04808896cb06b7875755816e8bbd010b870bf1270aa"
+      },
+      {
+        "step": 470,
+        "time_s": 2.35,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.35\\T",
+        "sha256": "b7126b819abc24d39e3a6aab8ba040ccfb4d0145edc65fc763ab9b8578429d72"
+      },
+      {
+        "step": 480,
+        "time_s": 2.4,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.4\\T",
+        "sha256": "2738b482f76344a9d648e8a573a8448c2276e352683dd477cb50b2c62495c100"
+      },
+      {
+        "step": 490,
+        "time_s": 2.45,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.45\\T",
+        "sha256": "0b6e134876ac61fedc62b4fb5f6de84307f8ef655e940849d07cc7fc0965b408"
+      },
+      {
+        "step": 500,
+        "time_s": 2.5,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.5\\T",
+        "sha256": "4c7c290af7e64e64a3a6f402a17e08a86b901a4c77900db6ae78cab1bf93332a"
+      },
+      {
+        "step": 510,
+        "time_s": 2.5500000000000003,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.55\\T",
+        "sha256": "9e7f91f32e18d6bef02c903694f48ba74ab7e1215a9ab89021a04d562f47ac1a"
+      },
+      {
+        "step": 520,
+        "time_s": 2.6,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.6\\T",
+        "sha256": "96149a94cdc860c94ce7b7de13ed9542d79eef3b27f6b4529f77443c99d91249"
+      },
+      {
+        "step": 530,
+        "time_s": 2.65,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.65\\T",
+        "sha256": "af318b4da863fd7a6e4ce2be4c3edd81db13a773f9fe8a299884bca072a9acc4"
+      },
+      {
+        "step": 540,
+        "time_s": 2.7,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.7\\T",
+        "sha256": "237131f4e2117608b1c99ee0479859e39b31e542592a62c1eb3d8e65b505a785"
+      },
+      {
+        "step": 550,
+        "time_s": 2.75,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.75\\T",
+        "sha256": "3e26e4987e28ac94b43fe996b2a71a416203a8fee250b6310106f222d2a1d127"
+      },
+      {
+        "step": 560,
+        "time_s": 2.8000000000000003,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.8\\T",
+        "sha256": "50c8bc409569f7f5351acb2296cc926337223af831e451e8e1e1f9e99230a69b"
+      },
+      {
+        "step": 570,
+        "time_s": 2.85,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.85\\T",
+        "sha256": "764e0bfa313c8d9d27296f69b50433b4b77c2c2adcb492395a3a73f8adeca5dc"
+      },
+      {
+        "step": 580,
+        "time_s": 2.9,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.9\\T",
+        "sha256": "aa4557cd916f94361e13633d7e7f14b6152132d3214fae7e54b752bac812b6b3"
+      },
+      {
+        "step": 590,
+        "time_s": 2.95,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\2.95\\T",
+        "sha256": "ed2655006049e017c8dc75dca97a2cf275e48b12774736f6ec754e2dece9a13e"
+      },
+      {
+        "step": 600,
+        "time_s": 3.0,
+        "path": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\3\\T",
+        "sha256": "d3433a495ae86906e9e663299dfa9a5bdd65b8efe771e6b9d225d1cb466c45e4"
+      }
+    ]
+  },
+  "rendered_png_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-000.png": "f82fd4e347c817669706be166d1074b486ef1c2212f0f774e4dbc253ba48f1f1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-001.png": "b425bf72e10a215f821e5fc18f4cd1e80bd61a74fa83f8ab1191af70825482e2",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-002.png": "396a136cb4dfa7c4c0f9885335191bf4d96779f3fa6ba2d7421209fd56a291cb",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-003.png": "3c4ffec2395ac27db97664ef8ee16a9bbefaa3b89e03842b396d04ae899f1328",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-004.png": "2657dcd0425edc2190466e9a7bbc3831c6aca17e1a3748d0f899ef6f1e210797",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-005.png": "9322aaf1faa1b6790469f8dd086450390c46a236ead76fc59d5f1245e13e5a6c",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-006.png": "228a3d4c69f5d8f1b3d9f6ba879853f647dbf9fd5baf8343a79d8ac2cf5fc0bd",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-007.png": "2e4850cacbca080efdd641d97028344fc18ebd6f3c5ce78acf166da6e8c2e026",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-008.png": "06eeb5c2b1701e61e1c3c9707502422fd446120ebe85a76f95cc42e81c01d508",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-009.png": "103ede8d27c6a7436ed106df20485f452cab1748864c140eb4d91551e8bf0dd3",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-010.png": "dce76f11eb9c27a9ef8a8df3221c22ad3545845fd659c908b0cd9c79bd5dd8b5",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-011.png": "7a1c1f17c8de775355a1c01c438d93156fe63e13d97421600dc63e298d925bf1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-012.png": "e573087ac613347aa1589ccf4fc6e0443dc0583cf6bd9de9ef06f2a2bbac4316",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-013.png": "c1231964d7b32c75e97788490b56c0e1c2265a7987873b50dd16c8e657150770",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-014.png": "40b9ea62f74d047b00855a640c9d69ca0ab73d059714286a509d410c9a9e151e",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-015.png": "fd6c2e9d9da9615cfb210f41e6d975130afc2b088b469b8889a5b8c16500546c",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-016.png": "b08ea4fb543d5035d22b3bd10d9e13db0d08917e05ed362af38f93b0ff6e9935",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-017.png": "dca5451ecfa93d6dabbb9a6e707610a8546c493eb2202dc79212c8d241850dce",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-018.png": "158498a3c6f14bd0ab809a449083f3106f9bfd915aa4b570a2c380c3a1380b14",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-019.png": "82cc510c36f33579afa13dce3254a0df345b2bf5b2162d117761dad052ab2666",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-020.png": "2a94abfc2ad1b64ec3b61a5f5359e76102f3a42a8e0f63090cc0c6a93225ec9a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-021.png": "a191fe252dd25387a0bf8fd99f91374f003153c6f9a3a62eb5f5ace2dec5d492",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-022.png": "07c67289caa7989bd101d3c7fae393c6694475d5766853a95cbb46166920a9c9",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-023.png": "6dee4d3cb209774f2c9e1448544baf69c192b06315d5d2f43dafe47a5815608e",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-024.png": "7075910833fa9ed5661b3e4c06cc8a2aa2fcca7108e2dfcf5f45d31afc4f617d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-025.png": "0b6a2c489efefadfec2ee15f1b3b2881f424a7af12eb206e0986795e81b41d99",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-026.png": "fcf2f4bf22c520567589f4c98241e192a08981edee98c0a975e51f61e7a1a947",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-027.png": "32c5583cc088101b4ce3e56f2d47e17a1eafe2cbc630a252a2ed2a61b223af76",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-028.png": "0f30a066adf8393e234ec703f32e50ed3d51b05ef8f49e7f27a879a1ef953bb5",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-029.png": "1f9370206697d2769fdacf748eafb33ed0002fef6bbc955bbd879c2336206b81",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-030.png": "3b993ffbae4b9231bb80ae333f52ee083b92138fa96c62fd05b302fd92f0eb83",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-031.png": "f55db56ad13f0ca59df746cfa37839892400ab607a565970cc8f8d9e5f9eea85",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-032.png": "4434b6d5606a117da6556b2207d8682a1ca5733f56f21aa68b441560c7e241c7",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-033.png": "250ee5c65214781f4012a0d999da31377bd0da1f2b2c5bf72371c24ecc6ab353",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-034.png": "b75f47d9f039ae72d72fb2eb2c4fd5d269c942b7c76f0d271247353dc8d98f6d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-035.png": "6c71258a330e2ecb7be5db99e929567e713ea5ccbfc1938699ca9138988af233",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-036.png": "db1cec86ab2b65541c0fb43efbaa308442aec22ec0c67aa57549ac108b77832b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-037.png": "4e6d98804b9cf3eb845b7a5e0b1abca679a90d3d038d125fb083569114bdc2a2",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-038.png": "8c9a9e8ea3d3957cd557388f08346407938d15f0956564105f5cba07bdfda41b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-039.png": "559cd1f10f62b87b97471b7ec0297793d84b7d79afe60bce30aba11aab23c072",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-040.png": "0df6d13b6aed4a03928eb582f47feed8b24863875a64e2ff7ec38ef51c17f951",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-041.png": "c2735b2cefc4ecd09f450f17e49888e45eefb35405dba40d1d747a0f4d2e8572",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-042.png": "8ef4d82c543e53f53aef4de9f52b2f442781c0aad77f6d84ff818de97b1af308",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-043.png": "a16ef5710ce85daeb0b422810acafa56299268ba77f64a23ab2af6c81413ca4a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-044.png": "b92a2c3cde649002d189598da7ff1230340feacaf2776fddd73fd92c80bd32e3",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-045.png": "76a3623edd2e864668af728765a90082a7b4e95c4abb94373668d7b93e3ced4b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-046.png": "34dc0c79bc6d01206a2f03396c21bdbbcb4518a6f0ed3e3abaed65c671be1748",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-047.png": "6e36904552ab91b7ae6fb9174d806809b6019a21b119eddcf17e3f68a102c296",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-048.png": "5dfccc9c5adaaead6dfbc0c956738222faa91e39db0061b4233e4b340de9d785",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-049.png": "6ca54b0895758d0719231dd0e65f835a57d7744a330f74f41570ecff8e7480bf",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-050.png": "53561411bf8d9371317a97a6439b96765164601c724e450adcd56e61a629165b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-051.png": "bd6253cbdfc9d83beb0b4bba7744512eae227e7ae6ea45027db981f4fdcdd8d9",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-052.png": "ae378f7f13fa7f9a7c716b4b79c88d8174f44e672b5dbc10a4fab82e42ca819f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-053.png": "6fb6724b0ddf553b701d333d4977e6c53850b37a82591ae1c70a2258c1ec46af",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-054.png": "30a924d6918fc808d0b6f9ce505cdac70ebdfc469d3215a79cb0ecc6606571e9",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-055.png": "c7f7870e31734cfcbb95576bea13f9249c9648cbad15316d15de9f0074c6d7d5",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-056.png": "cde427fb80e46cb19210518751876abe3ae39acb015435232514c6e307ceb738",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-057.png": "7f27d8e20c2bf813b44ffea22142f95578632ed251d0f8d7078607caf6d1ba3f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-058.png": "83a29c503e984357e8a9300918ba09a0d9a1504352371641f59a388e4c99f0ad",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-059.png": "eded2f1cad23206a2ac5ed68cbab00327aec178d5e5b68054627f62de78aea84",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-060.png": "2bfea2165870bd70ca5f6ba501cbb4728c9c28b54298c57de23fc90d7ad70855"
+  },
+  "static_png_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002\\temperature-comparison-3s.png": "2f01be25a1242be899f3f455131739ceca200b484725f8aae7e36b2b06b59428",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002\\wall-heat-transfer.png": "4e7afd87d2ed8c68c7dc861e0c1071b257012bc5be2d9db57730ef9b5b6bec46",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002\\complete-energy-ledger.png": "fe430880854382d8d793db1a7c82afebd22b77593885de2b6f65f63ae24bc7f1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002\\thermal-residuals.png": "dad781969cea0bfeaf9aef8bfbed0d3a9e5aa34efe2714eb04453f8aa362cfe8"
+  },
+  "rendering": {
+    "frames": 61,
+    "frame_duration_ms": 100
+  },
+  "plot": {
+    "times_s": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35000000000000003,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7000000000000001,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.9500000000000001,
+      1.0,
+      1.05,
+      1.1,
+      1.1500000000000001,
+      1.2,
+      1.25,
+      1.3,
+      1.35,
+      1.4000000000000001,
+      1.45,
+      1.5,
+      1.55,
+      1.6,
+      1.6500000000000001,
+      1.7,
+      1.75,
+      1.8,
+      1.85,
+      1.9000000000000001,
+      1.95,
+      2.0,
+      2.05,
+      2.1,
+      2.15,
+      2.2,
+      2.25,
+      2.3000000000000003,
+      2.35,
+      2.4,
+      2.45,
+      2.5,
+      2.5500000000000003,
+      2.6,
+      2.65,
+      2.7,
+      2.75,
+      2.8000000000000003,
+      2.85,
+      2.9,
+      2.95,
+      3.0
+    ],
+    "temperature_limits_K": [
+      300,
+      320
+    ],
+    "streamlines": "Each code own frozen native U; static postprocessing, not transient tracers"
+  },
+  "energy_summary": {
+    "fluent": {
+      "total_plate_input_J_per_m": 70.56270339913007,
+      "net_boundary_input_J_per_m": 55.91926435781275,
+      "stored_energy_change_J_per_m": 55.919288829298544,
+      "max_step_relative": 6.139811391582627e-07,
+      "max_prefix_relative": 3.261146192848552e-07,
+      "max_original_T_replay_difference_K": 0.0,
+      "final_plate_heat_W_per_m": 17.582615272353035,
+      "max_mass_relative": 7.142615041086663e-10,
+      "max_terminal_residual": 9.8854e-09
+    },
+    "openfoam": {
+      "total_plate_input_J_per_m": 70.56727444978694,
+      "net_boundary_input_J_per_m": 55.966020892041094,
+      "stored_energy_change_J_per_m": 55.96602066940444,
+      "max_step_relative": 4.014675966758359e-09,
+      "max_prefix_relative": 2.6310996797911997e-09,
+      "max_original_T_replay_difference_K": 1.000444171950221e-11,
+      "final_plate_heat_W_per_m": 17.59432231778643,
+      "max_mass_relative": 1.2654557138372293e-10,
+      "max_terminal_residual": 9.9896939002324e-13
+    }
+  },
+  "interpolated_transient_frames": false,
+  "physical_validation": false,
+  "display_parent": {
+    "path": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\native-field-audit.json",
+    "sha256": "083be10ba65c4113d7c0d26607e18d23ef84d115473fe198cad69980045b7add"
+  },
+  "display_changes": [
+    "Insert a missing space in All 600 title; no numerical data, frame or video change"
+  ]
+}

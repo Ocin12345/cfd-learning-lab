@@ -1,0 +1,42 @@
+{
+  "actual_selected_case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-simplec-qualification-v001",
+  "native_inputs_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-simplec-qualification-v001\\qualification-audit-v001.json": "8bfee21218b4ca28dfe6e52397ec38e4f37f8e1e354186fe8c9347c6e139c689",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\finite-wing-refined-v002\\geometry.npz": "40e773e16e81d14433f801a7961337eda3cf3d0f92ba6fa9641f658f4102ae44",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\wing-convergence-repair-v001\\native-evidence-inventory-v001.json": "90d9aaeb639e15c1481e3c88d3c15f2bd4e0f055cfb591c5dacea8e48744cfba",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-baseline-v001\\qualification-audit-v001.json": "beb3c5562d9c1a0fdd17b6b7fe7390a2942076f5d37ce384e710f53be1f8b38f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-simplec-qualification-v001\\wing-final.cas.h5": "fa7d498f2886bd9efa0d05b652e0270d0829beb7c209c965ccf2901aee925638",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-simplec-qualification-v001\\wing-final.dat.h5": "e0559b3b2ba6e08fa4c04dbab647b0f6770a21142df216fdd12fc48f3dcd42b4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\0\\polyMesh\\points": "21d1a29c8b9615eebde010ad10a0aebaf5622ea88ba8ef926ae411f342e243e2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\0\\polyMesh\\faces": "f02c3d63d90c67bb5a53af96a350cbcde224c0d1ea451738bcc3d0b2686f892c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\0\\polyMesh\\owner": "789f2e78776a221e833f277ad1f1866ffa5dde96bc60f8e90c0e08905acb3db9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\0\\polyMesh\\neighbour": "65e2e2c3d1d61cab6aeeb5f888aa2338f02538f92a82c997c93775dd77826c9d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\0\\polyMesh\\boundary": "f517272648a8320cad3eacf011a69d646883b9a230687354474ba821f59e1efa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\1500\\U": "57bda409b49e492d83a48625bc8eb9f82bcf255c37e56a22e6975aa8a42c1e9f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\1500\\p": "b2ae3d0d60140a45e8da2c2598ad6932b2c14bae9c2c89675a2b86f9118dda12",
+    "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\openfoam\\1500\\C": "509a2d11e19f1da90845eea779d7370c84c624a2c2e92cf6df6b2fdcf6946a44"
+  },
+  "figures_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-SIMPLEC-qualification-v002\\paired-wing-pressure.png": "53027932b82779eb0515b72f216b3772d6feba33babbdc0e02ac137093988dea",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-SIMPLEC-qualification-v002\\paired-downstream-crossflow.png": "16e92e8be20f77f4c2ff1e742064f10c2d1aa3eb18f92ded6deed012f9911a52",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-SIMPLEC-qualification-v002\\qualification-numerics.png": "3fe30ff106b99182d1689f7909ebac63a7f26f4b3dac78f3f13485ec8810ed3c",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-SIMPLEC-qualification-v002\\native-fields.npz": "b8f170944b6dabf25f3e6b6e532180b515bc58938eb72fb36d0dc640c8c3118f"
+  },
+  "shared_Cp_limits": [
+    -1.4,
+    1.4
+  ],
+  "shared_crossflow_limits_m_s": [
+    0,
+    0.1708715664041232
+  ],
+  "pressure_methods": {
+    "Fluent": "saved native wing-face pressure",
+    "OpenFOAM": "owner-cell pressure proxy; exact wall pressure is not claimed"
+  },
+  "crossflow_method": "piecewise constant native cell velocities on actual common tetrahedral cut",
+  "fluent_numerical_pass": false,
+  "openfoam_reused_not_rerun": true,
+  "no_transient_or_video_claim": true,
+  "actual_inspection_pending": true
+}

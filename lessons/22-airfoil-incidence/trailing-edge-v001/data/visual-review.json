@@ -1,0 +1,43 @@
+{
+  "inspected_at": "2026-11-08T10:53:58.589714+08:00",
+  "all_selected_images_inspected": true,
+  "inspected_by": "Codex",
+  "images": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-paired-v003\\airfoil-speed-comparison.png": {
+      "width": 2250,
+      "height": 1674,
+      "sha256": "4639e81dd3bef9af601469416d8c4d30dd9ab4041d7670ffbf355d5a37c15e33"
+    },
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-paired-v003\\airfoil-Cp-comparison.png": {
+      "width": 2250,
+      "height": 1674,
+      "sha256": "9d031ebfe70b13cbe59cc07d8783ca3a0e45a027c863c714f6dd7c2f1bc434f6"
+    },
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-paired-v003\\airfoil-force-sensitivity.png": {
+      "width": 1800,
+      "height": 810,
+      "sha256": "1cc6ec7e58b6d2dcb1b601259d3b684d4d3ea6a83fd7b2e5f8c32e2dfcdd5257"
+    },
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-paired-v003\\airfoil-wall-pressure-sensitivity.png": {
+      "width": 2160,
+      "height": 1764,
+      "sha256": "9f0ca9768e76ee867638f3156883a52ee50802840802ffe67b4661a8fa851ed8"
+    },
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-numerics-v002\\airfoil-numerical-checks.png": {
+      "width": 2160,
+      "height": 1440,
+      "sha256": "7d0877db252a9a308f70c644708fed215b0e5cb5b1e434ffb156a98d3ba312aa"
+    }
+  },
+  "observations": {
+    "velocity": "Actual six-case native fields, shared speed scale/view and correct code/level/cell labels; fine pair is bottom row.",
+    "pressure": "Actual native cell Cp, shared scale includes all extrema; no physical validation implied.",
+    "wall_pressure": "Original v002 legend/footer overlap rejected. Selected v003 legend is separated and readable; same data/axes, actual sample locations retained; no fixed-point or continuum-pressure claim.",
+    "forces": "Code-labelled Cd/Cl responses, no misleading offset; remaining cross-code gap unresolved.",
+    "numerics": "Distinct native residual definitions and target line, actual iteration history and final force-window samples; flat Fluent values limited by report precision."
+  },
+  "selected_case_binding": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\accepted-native-selection-v002.json",
+  "numerical_acceptance_established": true,
+  "physical_validation": false,
+  "fresh_whole_improvement_review_pending": true
+}

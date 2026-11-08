@@ -1,0 +1,27 @@
+{
+  "samples": [
+    {
+      "iteration": 12000,
+      "Uy": 1.0288764761893e-05
+    },
+    {
+      "iteration": 16000,
+      "Uy": 3.12127018776e-06
+    },
+    {
+      "iteration": 20000,
+      "Uy": 9.3559765539219e-07
+    },
+    {
+      "iteration": 24000,
+      "Uy": 2.7976861013804e-07
+    }
+  ],
+  "last4000_log_decay_per_iteration": 0.0003018056648895933,
+  "proposed_new_finite_endpoint": 32000,
+  "empirical_extrapolated_Uy_at_endpoint": 2.5016048277985016e-08,
+  "guaranteed": false,
+  "acceptance_target_unchanged": 1e-07,
+  "reason": "Only terminal residual criterion missed; native fields/material/geometry/mass and force windows passed. Preserve prior endpoint and continue exact saved fields.",
+  "source_sha256": "68c0402e028a7e3e253459b49b4b05a7495fec43d7281fd4278a2ee506475214"
+}

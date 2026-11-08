@@ -1,0 +1,522 @@
+{
+  "diagnostic_capture_pass": true,
+  "additional_iterations": 8,
+  "parent_iteration": 1502,
+  "endpoint_iteration": 1510,
+  "total_actual_steps_from_original1500": 10,
+  "retained_map_iterations": [
+    1502,
+    1503,
+    1504,
+    1505,
+    1506,
+    1507,
+    1508,
+    1509,
+    1510
+  ],
+  "first1501_map_unavailable_preserved": true,
+  "original_global_residual_limit": 1e-05,
+  "original_full_qualification_not_claimed": true,
+  "original_qualification_pass": false,
+  "force100_window_not_available": true,
+  "steps": [
+    {
+      "iteration": 1503,
+      "stage": "assembled_initial",
+      "native": {
+        "iteration": 1503,
+        "final_residuals": {
+          "continuity": 1.8094984333519496e-05,
+          "x-velocity": 2.910218638876928e-09,
+          "y-velocity": 1.3162925255471967e-09,
+          "z-velocity": 1.0762315215708522e-09
+        },
+        "last100_max_residuals": {
+          "continuity": 2.8852555094786784e-05,
+          "x-velocity": 5.062936898577111e-09,
+          "y-velocity": 2.243040524473745e-09,
+          "z-velocity": 1.7575794304951205e-09
+        },
+        "native_scaling_denominators": {
+          "continuity": 2.2344914086503613,
+          "x-velocity": 11139.185158751232,
+          "y-velocity": 11139.185158751232,
+          "z-velocity": 11139.185158751232
+        },
+        "boundary_mass_in_kg_s": 96.0,
+        "net_outward_mass_kg_s": -1.959449491550913e-08,
+        "relative_mass_imbalance": 2.0410932203655344e-10,
+        "cell_mass_imbalance_abs_sum_kg_s": 8.318718534653646e-07,
+        "cell_mass_imbalance_max_kg_s": 4.396461361633186e-09,
+        "maximum_speed_m_s": 1.2322095795512655,
+        "cells": 224972
+      },
+      "forces": {
+        "iteration": 1503,
+        "Cd": 0.2317543087268553,
+        "Cl": 0.3033944283501502
+      },
+      "capture_pass": true,
+      "top1_cells": 2250,
+      "top1_absolute_residual_fraction": 0.9676750094200546,
+      "top1_min_x_m": 2.5899081736494813,
+      "top1_max_x_m": 8.867036528243224,
+      "top1_wing_adjacent_count": 0,
+      "wing_adjacent_residual_fraction": 1.2025511597114286e-05,
+      "outer_boundary_adjacent_residual_fraction": 0.025925795042371948,
+      "downstream_of_wing_residual_fraction": 0.9991047059865911,
+      "top1_jaccard_with1502": 0.8602728400165358,
+      "descriptive_persistence_pass": true,
+      "original_residual_pass": false,
+      "original_cell_mass_not_worse": false,
+      "maximum_centroid_distance_m": 2.0350724194510405e-15
+    },
+    {
+      "iteration": 1504,
+      "stage": "assembled_initial",
+      "native": {
+        "iteration": 1504,
+        "final_residuals": {
+          "continuity": 1.9526523898831973e-05,
+          "x-velocity": 3.2602201873643064e-09,
+          "y-velocity": 1.4370826329357977e-09,
+          "z-velocity": 1.1446320816017178e-09
+        },
+        "last100_max_residuals": {
+          "continuity": 2.8852555094786784e-05,
+          "x-velocity": 5.062936898577111e-09,
+          "y-velocity": 2.243040524473745e-09,
+          "z-velocity": 1.7575794304951205e-09
+        },
+        "native_scaling_denominators": {
+          "continuity": 2.2344914086503613,
+          "x-velocity": 11139.185157360116,
+          "y-velocity": 11139.185157360116,
+          "z-velocity": 11139.185157360116
+        },
+        "boundary_mass_in_kg_s": 96.0,
+        "net_outward_mass_kg_s": -3.171788875988568e-08,
+        "relative_mass_imbalance": 3.303946745821425e-10,
+        "cell_mass_imbalance_abs_sum_kg_s": 9.17892710025676e-07,
+        "cell_mass_imbalance_max_kg_s": 4.643484874389259e-09,
+        "maximum_speed_m_s": 1.232209579303673,
+        "cells": 224972
+      },
+      "forces": {
+        "iteration": 1504,
+        "Cd": 0.2317543087184174,
+        "Cl": 0.3033944279975458
+      },
+      "capture_pass": true,
+      "top1_cells": 2250,
+      "top1_absolute_residual_fraction": 0.969163999561021,
+      "top1_min_x_m": 2.924161883932598,
+      "top1_max_x_m": 8.867036528243224,
+      "top1_wing_adjacent_count": 0,
+      "wing_adjacent_residual_fraction": 1.063945742795949e-05,
+      "outer_boundary_adjacent_residual_fraction": 0.023463082797633452,
+      "downstream_of_wing_residual_fraction": 0.9991736140909994,
+      "top1_jaccard_with1502": 0.7730496453900709,
+      "descriptive_persistence_pass": true,
+      "original_residual_pass": false,
+      "original_cell_mass_not_worse": false,
+      "maximum_centroid_distance_m": 2.0350724194510405e-15
+    },
+    {
+      "iteration": 1505,
+      "stage": "assembled_initial",
+      "native": {
+        "iteration": 1505,
+        "final_residuals": {
+          "continuity": 2.0917196368639807e-05,
+          "x-velocity": 3.620298035313352e-09,
+          "y-velocity": 1.554914901486426e-09,
+          "z-velocity": 1.216765081487395e-09
+        },
+        "last100_max_residuals": {
+          "continuity": 2.8852555094786784e-05,
+          "x-velocity": 5.062936898577111e-09,
+          "y-velocity": 2.243040524473745e-09,
+          "z-velocity": 1.7575794304951205e-09
+        },
+        "native_scaling_denominators": {
+          "continuity": 2.2344914086503613,
+          "x-velocity": 11139.185153380744,
+          "y-velocity": 11139.185153380744,
+          "z-velocity": 11139.185153380744
+        },
+        "boundary_mass_in_kg_s": 96.0,
+        "net_outward_mass_kg_s": -4.080331450495578e-08,
+        "relative_mass_imbalance": 4.2503452609328935e-10,
+        "cell_mass_imbalance_abs_sum_kg_s": 9.616604304457183e-07,
+        "cell_mass_imbalance_max_kg_s": 4.105691620015506e-09,
+        "maximum_speed_m_s": 1.2322095790911285,
+        "cells": 224972
+      },
+      "forces": {
+        "iteration": 1505,
+        "Cd": 0.231754308726866,
+        "Cl": 0.3033944278072814
+      },
+      "capture_pass": true,
+      "top1_cells": 2250,
+      "top1_absolute_residual_fraction": 0.9703926906293643,
+      "top1_min_x_m": 2.924161883932598,
+      "top1_max_x_m": 8.867036528243224,
+      "top1_wing_adjacent_count": 0,
+      "wing_adjacent_residual_fraction": 9.597073939451599e-06,
+      "outer_boundary_adjacent_residual_fraction": 0.02147802816930236,
+      "downstream_of_wing_residual_fraction": 0.9991691691012768,
+      "top1_jaccard_with1502": 0.6942771084337349,
+      "descriptive_persistence_pass": true,
+      "original_residual_pass": false,
+      "original_cell_mass_not_worse": false,
+      "maximum_centroid_distance_m": 2.0350724194510405e-15
+    },
+    {
+      "iteration": 1506,
+      "stage": "assembled_initial",
+      "native": {
+        "iteration": 1506,
+        "final_residuals": {
+          "continuity": 2.178786073871634e-05,
+          "x-velocity": 3.911828516304091e-09,
+          "y-velocity": 1.6307731279223453e-09,
+          "z-velocity": 1.2758728770180348e-09
+        },
+        "last100_max_residuals": {
+          "continuity": 2.8852555094786784e-05,
+          "x-velocity": 5.062936898577111e-09,
+          "y-velocity": 2.243040524473745e-09,
+          "z-velocity": 1.7575794304951205e-09
+        },
+        "native_scaling_denominators": {
+          "continuity": 2.2344914086503613,
+          "x-velocity": 11139.185146004349,
+          "y-velocity": 11139.185146004349,
+          "z-velocity": 11139.185146004349
+        },
+        "boundary_mass_in_kg_s": 96.0,
+        "net_outward_mass_kg_s": -4.471378645121149e-08,
+        "relative_mass_imbalance": 4.657686088667864e-10,
+        "cell_mass_imbalance_abs_sum_kg_s": 9.828393427329028e-07,
+        "cell_mass_imbalance_max_kg_s": 3.6302422734557638e-09,
+        "maximum_speed_m_s": 1.2322095788985175,
+        "cells": 224972
+      },
+      "forces": {
+        "iteration": 1506,
+        "Cd": 0.2317543087388889,
+        "Cl": 0.3033944277152542
+      },
+      "capture_pass": true,
+      "top1_cells": 2250,
+      "top1_absolute_residual_fraction": 0.9709351282596406,
+      "top1_min_x_m": 2.924161883932598,
+      "top1_max_x_m": 8.867036528243224,
+      "top1_wing_adjacent_count": 0,
+      "wing_adjacent_residual_fraction": 8.977573481750752e-06,
+      "outer_boundary_adjacent_residual_fraction": 0.02032767246642993,
+      "downstream_of_wing_residual_fraction": 0.999105308021401,
+      "top1_jaccard_with1502": 0.6519823788546255,
+      "descriptive_persistence_pass": true,
+      "original_residual_pass": false,
+      "original_cell_mass_not_worse": false,
+      "maximum_centroid_distance_m": 2.0350724194510405e-15
+    },
+    {
+      "iteration": 1507,
+      "stage": "assembled_initial",
+      "native": {
+        "iteration": 1507,
+        "final_residuals": {
+          "continuity": 2.222114684938858e-05,
+          "x-velocity": 4.104393706088226e-09,
+          "y-velocity": 1.676801269944326e-09,
+          "z-velocity": 1.3185143502050653e-09
+        },
+        "last100_max_residuals": {
+          "continuity": 2.8852555094786784e-05,
+          "x-velocity": 5.062936898577111e-09,
+          "y-velocity": 2.243040524473745e-09,
+          "z-velocity": 1.7575794304951205e-09
+        },
+        "native_scaling_denominators": {
+          "continuity": 2.2344914086503613,
+          "x-velocity": 11139.185135959482,
+          "y-velocity": 11139.185135959482,
+          "z-velocity": 11139.185135959482
+        },
+        "boundary_mass_in_kg_s": 96.0,
+        "net_outward_mass_kg_s": -4.323595703681349e-08,
+        "relative_mass_imbalance": 4.503745524668072e-10,
+        "cell_mass_imbalance_abs_sum_kg_s": 9.769000394174142e-07,
+        "cell_mass_imbalance_max_kg_s": 3.993148735281782e-09,
+        "maximum_speed_m_s": 1.232209578729444,
+        "cells": 224972
+      },
+      "forces": {
+        "iteration": 1507,
+        "Cd": 0.2317543087564099,
+        "Cl": 0.3033944277182994
+      },
+      "capture_pass": true,
+      "top1_cells": 2250,
+      "top1_absolute_residual_fraction": 0.9708650452762102,
+      "top1_min_x_m": 2.924161883932598,
+      "top1_max_x_m": 8.867036528243224,
+      "top1_wing_adjacent_count": 0,
+      "wing_adjacent_residual_fraction": 8.65961424991485e-06,
+      "outer_boundary_adjacent_residual_fraction": 0.019405929240556816,
+      "downstream_of_wing_residual_fraction": 0.9990071391606911,
+      "top1_jaccard_with1502": 0.6169601149838304,
+      "descriptive_persistence_pass": true,
+      "original_residual_pass": false,
+      "original_cell_mass_not_worse": false,
+      "maximum_centroid_distance_m": 2.0350724194510405e-15
+    },
+    {
+      "iteration": 1508,
+      "stage": "assembled_initial",
+      "native": {
+        "iteration": 1508,
+        "final_residuals": {
+          "continuity": 2.2083766676579314e-05,
+          "x-velocity": 4.159269385827505e-09,
+          "y-velocity": 1.674928394727627e-09,
+          "z-velocity": 1.370110791914176e-09
+        },
+        "last100_max_residuals": {
+          "continuity": 2.8852555094786784e-05,
+          "x-velocity": 5.062936898577111e-09,
+          "y-velocity": 2.243040524473745e-09,
+          "z-velocity": 1.7575794304951205e-09
+        },
+        "native_scaling_denominators": {
+          "continuity": 2.2344914086503613,
+          "x-velocity": 11139.185123200325,
+          "y-velocity": 11139.185123200325,
+          "z-velocity": 11139.185123200325
+        },
+        "boundary_mass_in_kg_s": 96.0,
+        "net_outward_mass_kg_s": -3.2729673193898634e-08,
+        "relative_mass_imbalance": 3.4093409576977746e-10,
+        "cell_mass_imbalance_abs_sum_kg_s": 9.321533261707886e-07,
+        "cell_mass_imbalance_max_kg_s": 4.128240083112189e-09,
+        "maximum_speed_m_s": 1.2322095785823386,
+        "cells": 224972
+      },
+      "forces": {
+        "iteration": 1508,
+        "Cd": 0.2317543087819976,
+        "Cl": 0.3033944278674454
+      },
+      "capture_pass": true,
+      "top1_cells": 2250,
+      "top1_absolute_residual_fraction": 0.9703563440266813,
+      "top1_min_x_m": 2.9955596776796907,
+      "top1_max_x_m": 8.867036528243224,
+      "top1_wing_adjacent_count": 0,
+      "wing_adjacent_residual_fraction": 8.614295476053388e-06,
+      "outer_boundary_adjacent_residual_fraction": 0.019156901727273294,
+      "downstream_of_wing_residual_fraction": 0.9989007240220293,
+      "top1_jaccard_with1502": 0.5991471215351812,
+      "descriptive_persistence_pass": true,
+      "original_residual_pass": false,
+      "original_cell_mass_not_worse": false,
+      "maximum_centroid_distance_m": 2.0350724194510405e-15
+    },
+    {
+      "iteration": 1509,
+      "stage": "assembled_initial",
+      "native": {
+        "iteration": 1509,
+        "final_residuals": {
+          "continuity": 2.2632065007910075e-05,
+          "x-velocity": 4.379473502041832e-09,
+          "y-velocity": 1.6275401401080893e-09,
+          "z-velocity": 1.40663005988263e-09
+        },
+        "last100_max_residuals": {
+          "continuity": 2.8852555094786784e-05,
+          "x-velocity": 5.062936898577111e-09,
+          "y-velocity": 2.243040524473745e-09,
+          "z-velocity": 1.7575794304951205e-09
+        },
+        "native_scaling_denominators": {
+          "continuity": 2.2344914086503613,
+          "x-velocity": 11139.185108471043,
+          "y-velocity": 11139.185108471043,
+          "z-velocity": 11139.185108471043
+        },
+        "boundary_mass_in_kg_s": 96.0,
+        "net_outward_mass_kg_s": -1.8984053440362914e-08,
+        "relative_mass_imbalance": 1.9775055667044702e-10,
+        "cell_mass_imbalance_abs_sum_kg_s": 8.667921410029451e-07,
+        "cell_mass_imbalance_max_kg_s": 4.099762751508251e-09,
+        "maximum_speed_m_s": 1.232209578477821,
+        "cells": 224972
+      },
+      "forces": {
+        "iteration": 1509,
+        "Cd": 0.2317543088255465,
+        "Cl": 0.303394428298041
+      },
+      "capture_pass": true,
+      "top1_cells": 2250,
+      "top1_absolute_residual_fraction": 0.971072019865916,
+      "top1_min_x_m": 2.9955596776796907,
+      "top1_max_x_m": 8.867036528243224,
+      "top1_wing_adjacent_count": 0,
+      "wing_adjacent_residual_fraction": 8.291884007607075e-06,
+      "outer_boundary_adjacent_residual_fraction": 0.018529098120284946,
+      "downstream_of_wing_residual_fraction": 0.998855446122895,
+      "top1_jaccard_with1502": 0.5884221673138016,
+      "descriptive_persistence_pass": true,
+      "original_residual_pass": false,
+      "original_cell_mass_not_worse": false,
+      "maximum_centroid_distance_m": 2.0350724194510405e-15
+    },
+    {
+      "iteration": 1510,
+      "stage": "assembled_initial",
+      "native": {
+        "iteration": 1510,
+        "final_residuals": {
+          "continuity": 2.273025374059548e-05,
+          "x-velocity": 4.565007544096072e-09,
+          "y-velocity": 1.547006304469968e-09,
+          "z-velocity": 1.4270053170005991e-09
+        },
+        "last100_max_residuals": {
+          "continuity": 2.8852555094786784e-05,
+          "x-velocity": 5.062936898577111e-09,
+          "y-velocity": 2.243040524473745e-09,
+          "z-velocity": 1.7575794304951205e-09
+        },
+        "native_scaling_denominators": {
+          "continuity": 2.2344914086503613,
+          "x-velocity": 11139.18509189173,
+          "y-velocity": 11139.18509189173,
+          "z-velocity": 11139.18509189173
+        },
+        "boundary_mass_in_kg_s": 96.0,
+        "net_outward_mass_kg_s": -5.985569373478938e-09,
+        "relative_mass_imbalance": 6.234968097373894e-11,
+        "cell_mass_imbalance_abs_sum_kg_s": 8.328286124361137e-07,
+        "cell_mass_imbalance_max_kg_s": 4.679431231391362e-09,
+        "maximum_speed_m_s": 1.2322095784476905,
+        "cells": 224972
+      },
+      "forces": {
+        "iteration": 1510,
+        "Cd": 0.2317543088997334,
+        "Cl": 0.3033944291553915
+      },
+      "capture_pass": true,
+      "top1_cells": 2250,
+      "top1_absolute_residual_fraction": 0.9716464499321323,
+      "top1_min_x_m": 2.9955596776796907,
+      "top1_max_x_m": 8.867036528243224,
+      "top1_wing_adjacent_count": 0,
+      "wing_adjacent_residual_fraction": 8.016743731373571e-06,
+      "outer_boundary_adjacent_residual_fraction": 0.019515055141890357,
+      "downstream_of_wing_residual_fraction": 0.9988285623226232,
+      "top1_jaccard_with1502": 0.5800561797752809,
+      "descriptive_persistence_pass": true,
+      "original_residual_pass": false,
+      "original_cell_mass_not_worse": false,
+      "maximum_centroid_distance_m": 2.0350724194510405e-15
+    }
+  ],
+  "wing_max_x_m": 0.9927010515561778,
+  "descriptive_persistence_all_eight": true,
+  "nine_map_conclusion_requires_parent1502_audit": true,
+  "no_new_algorithm_or_openfoam_solve": true,
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\source.cas.h5": "5297f7a770faceb36ec02c315b4d6b66891669dd556997bc35b43a6c281d04bd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\source.dat.h5": "a3b93f940299d3bccc6e34ce1aa3faab2138c18582cedaf3de4d26805b68e71e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\expected-source-settings.json": "f2f864aa8577385f48ae88b8e86b1e856c7368cb3a4b769ff8ae71b1b9507c7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\loaded-restart.cas.h5": "73e9bb58e633b7be796d03689664cdecfaeb944a4a1fa7903845a8798bfadf64",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\loaded-restart.dat.h5": "685a7c84d06dc702d82bb4231109bbd19fa808659023b65d5079970eb0c10f35",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\wing-final.cas.h5": "f0e8ec654b71656d0dde654aff6ab383d2196617d32ba6b60e8025e0c82968a0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\wing-final.dat.h5": "bf083757f6b09f9a2de928e1620fe0858dc1224bb6f916f00e4f665c67c9d95e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\solver-transcript.txt": "fff70a8ed50c2f77ec0b3dafee5683b436278a844bf95d1cd5eac8aa859f6506",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\forces-history.out": "9083a7c5505ca2ac6a694003f09dd9d02959ecf491eb488e35927ec946472bf5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\loaded-source-settings.json": "f2f864aa8577385f48ae88b8e86b1e856c7368cb3a4b769ff8ae71b1b9507c7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\candidate-settings.json": "f2f864aa8577385f48ae88b8e86b1e856c7368cb3a4b769ff8ae71b1b9507c7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\final-settings.json": "f2f864aa8577385f48ae88b8e86b1e856c7368cb3a4b769ff8ae71b1b9507c7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\initial-field-check.json": "19a023b0201104483898d7b597f1911c399111fb7bdbf945226f7ec145d75ebd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\geometry-quality.json": "23bcbe4edc1fdc63bb9ab505a7c3ab09319cd108871fb321fe061f20b76613d5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\solver-version.json": "c7a633153d2613537c86752a669d9af9f9df5c060ff4b4f058b8a2293d92a4e8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\declared-test.json": "14760cda7ca6f3754accddc5831cb26e1c46f3b27d72b7b5eba551484724e15f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\status.json": "bad463896181e660d98816debf4a012dd947fa189198cc4b9f3eff007e9f9907",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1503.cas.h5": "58d810e9ea5c4146b5df9bac88c188c17fb8cdc844e05d0a12421926b891141c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1503.dat.h5": "649f9535179d0ede71f8529513e66cd207b2a1003d4eb3b52b970ed3bbc8157a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1503\\runtime-residual-arrays.npz": "08fd2465d8bf183984af257757d00c5df17ac574ba511ff4f37bd8ab38b7ce8b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1503\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1503\\native-runtime-guard.json": "78e7ff0e0cc6a6bd1cc8da626148dd430c21deaf1604951358f83657bbac82f3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\mass-1503.txt": "684482bde54f3a26f0537cc006e27c6ed4b28fe20db7fbab75eac5c9d6e0e39d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\drag-1503.txt": "a6431117233140d10a0553c133774e1269000004e464d322e2d111bfc0cb6a8d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\lift-1503.txt": "f2ff7b7ccbbc2c2559e9fe30c0d15179c09717307b033671a6b983d77766f766",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1504.cas.h5": "a781a6559940d663f6582b58916eba4699e42ebf40a3564c551b39e2215c9722",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1504.dat.h5": "5e80d501bb18aa6f65b38fd98f60531f786b9c176bbe0f8de62e0faf336a6375",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1504\\runtime-residual-arrays.npz": "c6f2961a8e5eeec01486019feb95f00b1c85cb31d248172cdaf1e5c51df6b744",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1504\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1504\\native-runtime-guard.json": "dd92db805320fb935aad78ba4b9ccd29dace00f21b7e99640488fa8d97a280c9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\mass-1504.txt": "a91c7d3904c2155f18a88537b39b58828b98025fb5cea98adf4d60c754b41097",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\drag-1504.txt": "3596ed9dab610e3e7d09278dfbeedc37beff6306aa279da0d9d3923ec5f183c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\lift-1504.txt": "32e8a8d541d21b46357367242394796256ab51cbd8cded783c12868263cf31d6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1505.cas.h5": "079bf005d9eab1fdd8a39b949a02c64a64892814e12ecfaba33a7ae2a4ee8edb",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1505.dat.h5": "1e8a322ab88d435981cc75ba00d5d3458443b2114053a6f7e4f1629b1269e49a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1505\\runtime-residual-arrays.npz": "cf19d511601b1360a2465d80386268714370d524c216bbcec01ec16fbcef312d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1505\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1505\\native-runtime-guard.json": "943115d35486856c887c761f4e3d87573dd163a807dd88c148d85b6629b01547",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\mass-1505.txt": "6d73d45292d1bc903ebd6f781a21424b59d4bb8b8d07b9d4e2c154ca33689b4c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\drag-1505.txt": "e843d18dd0099e4851057291c506702c99400a6c60f607e3f19cd85e6f744045",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\lift-1505.txt": "4cf49bd63aa0e4accf1c00b88b5ceee6655bcf9bb738245083cb6390df42b895",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1506.cas.h5": "b0fe2f85ac8a92d92c7cf629b2cd0544006b26c16f7fef2916c351a51a9d347c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1506.dat.h5": "453645f63434819e1b67c848c8177d487755bdf4a018f2bb27491bc623ed2caa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1506\\runtime-residual-arrays.npz": "85de3121a1d2e2dd4cbc7a7f1b2d6db657796fbc66b1c5c0cadc0c6f6627edb2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1506\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1506\\native-runtime-guard.json": "6a037a7002a488ba07dca8989ba8535752c61af3e6a7dc1772c102f0cd465bfa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\mass-1506.txt": "3a6dd670641cef7bc768d03700dc0f6614f241dd61f576465473d2f37f833b95",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\drag-1506.txt": "9e21571897a6115bfd9bffd346ef533b7a69faaa23fec0f56985872f51d1242f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\lift-1506.txt": "558a8c28bb5a59b5e97543312c1abe6a58992497894edb414e4b0ecf0c2535e3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1507.cas.h5": "985e06a002ba6ea777d50fc2489d5b0fb4f51f5044dfecd68f040916ba217f26",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1507.dat.h5": "27e7afaad6081c3daacdbf8620f127ef15bca36673bcb9f2f47cf2624f8ef6da",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1507\\runtime-residual-arrays.npz": "f6c348b931955908883fb16f7b67976abc2efaf0b2e38d2cb6c565f6358feabf",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1507\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1507\\native-runtime-guard.json": "af4a445162a388b8129f457808c0207256e836a5e48ac9f5c7da6f3787069fa9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\mass-1507.txt": "dd79b17bdbd83971fafa5c6398491041e723ef509ad5ff54d08d471b99035863",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\drag-1507.txt": "3269e9e6b6066554c9c052d009fb055460d73f0c602288b09f85c1dffb28fe19",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\lift-1507.txt": "0895d65be9d6b5c726697d822e22687e872c2d70f7760d1c22a8eb3c21498544",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1508.cas.h5": "eb55905edfad46f728944b173e2f4653d200c81c83f1dec2a6c26de13b3e9998",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1508.dat.h5": "16bc8e878459bc203780b22beaae9a926add0396025de3a8fa9a0f8731641915",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1508\\runtime-residual-arrays.npz": "c879a98b79dd28fe0042ef058692ca9e124da18fcb0d919007cc20bdecb0b634",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1508\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1508\\native-runtime-guard.json": "ba078972bee4988a4234ae69fcbf0ef85d84ff121499f8bd57ca7c621dcb5bdd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\mass-1508.txt": "d6adb2d9659e24ac9956fac72e5ec5f2c1d9e0b4a1a1ae1d11edd6a8af6fbef2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\drag-1508.txt": "7b984fb863238bc042fa8e9eda1834371f6529bf3afb8dcca817ba28e0c6bf20",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\lift-1508.txt": "3647f87248b0a937ba57df02047e563bc17830784233f5a22ccb6c3285ef1975",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1509.cas.h5": "d66b44665028f6778da71d688ea566a5277c158b70363933deb94d8e72cbf879",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1509.dat.h5": "67f6472bdb84e49764e584fc1dfb13e667e9caa1ac22c1d36110a030193be50b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1509\\runtime-residual-arrays.npz": "1f7a4d0972f1f5532f329e1a20b30d174c42cc27b52bc9cb48ba737e6a25a97c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1509\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1509\\native-runtime-guard.json": "a9df27ded9af8014560d0913c75af8fd698b3a2f207ff7d108c3a99514e9b22a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\mass-1509.txt": "6638b1cc645a2e9b0a8cdefc583236e06cb8f2fb57b317315984253091f26fee",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\drag-1509.txt": "3057b440acd48081674d40ee3c00de3fa979196adf5b01eb032a1887cdbfee4c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\lift-1509.txt": "d1027734aa014ae03b888df02fe23f9df20267dd35a9d5c49946da81af0ab0f6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1510.cas.h5": "ffa8c7699681ea02ac732a5fd6db1dff1dd32b432b02fc817e17e2815a62d919",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\iter-1510.dat.h5": "201f6b29745fbb9fb72f167c981e70a3906d1e29e1d44984df63fa6b91809437",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1510\\runtime-residual-arrays.npz": "d23a3baba643af91146db3e9eb9c57ec23433376b7580f1dfc6f03cfa56fe419",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1510\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\runtime\\1510\\native-runtime-guard.json": "2e5d4e19635d09be2d91461abcc494ecb198747cba8aefd9486753e3b97a5900",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\mass-1510.txt": "f34368c995fe39de50a4274b4d6e579eab2c7e8b21adc0bc134e9928fa43df73",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\drag-1510.txt": "c0c6435008247e8964ce74a8ffb83596e9ae77775ad20feac0e6e72aa743a573",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-window-v001\\force-reports\\lift-1510.txt": "a0357029c0ac0cba440c451c73dab6459e24f4e51b7a9a86eafc1e52bd8ec9fc"
+  },
+  "physical_validation": false,
+  "full_cycle_or_time_independence": false
+}

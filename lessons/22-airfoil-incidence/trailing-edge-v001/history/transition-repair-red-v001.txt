@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_transition_repair_v001.py", line 5, in <module>
+    from quality_aware_refinement_v001 import repair_refinement
+ModuleNotFoundError: No module named 'quality_aware_refinement_v001'

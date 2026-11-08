@@ -1,0 +1,21 @@
+from pathlib import Path
+import hashlib,json
+S=Path('E:/CFD-Learning-Lab/local/showcase-improvements-2026-11-08-v001/cylinder-convergence-v001');R=Path('E:/CFD-Learning-Lab');N=R/'native/runs/2026-11-01-vortex-shedding-v001';parent=N/'fluent-corrected-v003'
+s=(parent/'executed-script.py').read_text()
+s=s.replace('SAMPLE_STEPS = 5','SAMPLE_STEPS = 1')
+s=s.replace("    args = parser.parse_args()","    parser.add_argument('--pressure-termination', type=float)\n    args = parser.parse_args()\n    from cylinder_guard_v001 import verify_inputs\n    frozen=Path(__file__).with_name('cylinder-inputs-v001.json')\n    verify_inputs(frozen,args.out)")
+s=s.replace("        update('launching_single_session'","        # Revalidate after dependency imports, immediately before native launch.\n        verify_inputs(frozen)\n        free_memory=available_memory();free_disk=shutil.disk_usage(out.anchor).free\n        if free_memory<4*1024**3 or free_disk<10*1024**3:raise RuntimeError('Fresh resource gate failed')\n        write_json(out/'immediately-prelaunch-resources.json',dict(available_ram_bytes=free_memory,free_E_bytes=free_disk,frozen_inputs_verified=verify_inputs(frozen)))\n        update('launching_single_session'")
+s=s.replace("        run = st.solution.run_calculation","        pressure_control=st.solution.controls.advanced.multi_grid.mg_controls['pressure']\n        old=float(pressure_control.termination_criteria())\n        before=st.solution.controls.get_state()\n        if args.pressure_termination is not None:\n            expected=json.loads(json.dumps(before));expected['advanced']['multi_grid']['mg_controls']['pressure']['termination_criteria']=args.pressure_termination\n            pressure_control.termination_criteria=args.pressure_termination\n            if st.solution.controls.get_state()!=expected:raise ValueError('Unexpected control change')\n        write_json(out/'pressure-controls.json',dict(original=old,actual=float(pressure_control.termination_criteria()),before=before,after=st.solution.controls.get_state(),same_parent=str(resume)))\n        run = st.solution.run_calculation",1)
+s=s.replace("            row = dict(step=step, time_s=physical_time)","            row = dict(step=step, time_s=physical_time)\n            from analyse_vortex_fluent_v003 import mass_values\n            mass_path=out/'force-reports'/f'mass-{step:06d}.txt'\n            st.results.report.fluxes.mass_flow(zones=['inlet','outlet'],write_to_file=True,file_name=str(mass_path))\n            row['relative_mass_imbalance']=mass_values(mass_path.read_text())['relative_imbalance']")
+s=s.replace("every five time steps (.025 s)","every time step (.005 s)")
+assert 'MAX_INNER = 120' in s and s.count('verify_inputs(frozen')>=3
+(S/'cylinder_fluent_pressure_v001.py').write_text(s,encoding='utf-8')
+# Bind actual unchanged parent, mesh and executed helpers, not mutable generated statuses.
+files=[S/n for n in ['SPEC.md','PLAN.md','cylinder_guard_v001.py','cylinder_fluent_pressure_v001.py','test_cylinder_guard_v001.py']]
+files += [parent/n for n in ['vortex-final.cas.h5','vortex-final.dat.h5','executed-script.py','code-provenance.json','geometry-setup.json','snapshots.json','force-history.csv','final-settings.json']]
+files += [N/'mesh'/n for n in ['vortex.msh','setup.json','parabolic-inlet.prof','inlet-face-profile.json']]
+files += [R/'repo/cfd-learning-lab/scripts/analyse_vortex_fluent_v003.py']
+manifest={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
+(S/'cylinder-inputs-v001.json').write_text(json.dumps(manifest,indent=2)+'\n')
+with (S/'progress.md').open('a') as f:f.write('\nTask1 guard: missingmoduleRED observed; minimalimplementationGREEN3/3 includingstalehash/reusedpath. Deriveddriverfrompreservedexecuted120inner source, samplesnativeforce/mass/data everynewstep. Controlreadbackprovesonlypressureterminationchanges; frozeninputsrecheckedafterimports/immediatelyprelaunchresourcegate.\n')
+print(json.dumps(dict(frozen_inputs=len(files),driver=str(S/'cylinder_fluent_pressure_v001.py'))))

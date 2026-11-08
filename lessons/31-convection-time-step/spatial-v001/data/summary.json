@@ -1,0 +1,43 @@
+{
+  "new_models": 0,
+  "studies": [
+    30,
+    31
+  ],
+  "cells": [
+    2304,
+    9216
+  ],
+  "dt_s": 0.01,
+  "physical_endpoint_s": 20,
+  "actual_steps_each": 2000,
+  "continued_steps_each": 1900,
+  "matched_states_each": 41,
+  "final_mesh_responses": [
+    {
+      "code": "Fluent",
+      "time_s": 20.0,
+      "velocity_relative_L2": 0.006344539381922505,
+      "temperature_departure_relative_L2": 0.002780963405711375,
+      "max_velocity_difference_m_s": 0.00013069603946452306,
+      "max_temperature_difference_K": 0.0017830826218414586,
+      "method": "Conservative equal-area2x2 average onto matching coarse cells; relative denominators use coarse U and coarse(T-300)",
+      "relative_metrics_enabled": true
+    },
+    {
+      "code": "OpenFOAM",
+      "time_s": 20.0,
+      "velocity_relative_L2": 0.00607164022967904,
+      "temperature_departure_relative_L2": 0.0022572979109085254,
+      "max_velocity_difference_m_s": 0.00013232495209189853,
+      "max_temperature_difference_K": 0.001520368905403302,
+      "method": "Conservative equal-area2x2 average onto matching coarse cells; relative denominators use coarse U and coarse(T-300)",
+      "relative_metrics_enabled": true
+    }
+  ],
+  "native_heat_reconstruction_max_relative_difference": 6.654264796985633e-08,
+  "physical_validation": false,
+  "full_transient_global_energy_audit": false,
+  "new_upload": false,
+  "owner_execution_or_reflection_claimed": false
+}

@@ -1,0 +1,13 @@
+{
+  "reviewed_by": "Codex",
+  "visually_inspected": true,
+  "shown_in_chat": true,
+  "figure": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-convergence-diagnostic-v002\\cylinder-diagnostic.png",
+  "sha256": "4428424abc2a686d306ca97ec60ca1565f2ffde20ee4b09113d5804335e45c10",
+  "notes": [
+    "Actual native topology/field, physical time and speed units clear.",
+    "All residual points visible with unchanged threshold; legend no longer covers data.",
+    "Native force traces nearly coincide; this does not establish accuracy or developed cycles."
+  ],
+  "prior_plot_clipping_preserved": true
+}

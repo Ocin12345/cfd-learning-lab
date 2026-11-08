@@ -32,3 +32,6 @@ Fluent's accepted 0° saved case was reused, and Fluent recomputed the 5° case.
 Use the [mesh rotation script](morph_airfoil_incidence_v001.py) and existing [Fluent driver](../../scripts/airfoil_run.py). The [OpenFOAM setup](prepare_openfoam_airfoil_incidence_v001.py) and [two-rank runner](run-openfoam-incidence-v001.sh) produce the first endpoints. The [verified restart copy](prepare_incidence_continuation_v001.py) and [continuation runner](run-openfoam-incidence-continuation-v001.sh) reproduce the saved-state extension. [Audit and plotting code](audit_plot_airfoil_incidence_v003.py) reads the archived native fields on E: and uses the existing [analysis helpers](../../scripts/). The native case/data, full logs and environments remain outside Git.
 
 This is an educational comparison at two low-Re conditions. It does not establish stall angle, experimental validation or aircraft performance. The user directed model progression; Codex configured, ran and checked the workflow and prepared the figures. Fluent and OpenFOAM computed their respective fields. User reflection remains unprovided.
+
+
+The [local airfoil refinement comparison](trailing-edge-v001/README.md) preserves the 5° polygon and far domain, with paired Fluent/OpenFOAM images and numerical checks. Earlier misses are retained; global mesh/domain independence and physical validation remain open.

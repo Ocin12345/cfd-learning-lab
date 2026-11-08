@@ -1,0 +1,24 @@
+{
+  "fluent": {
+    "total_plate_input_J_per_m": 70.56270339913007,
+    "net_boundary_input_J_per_m": 55.91926435781275,
+    "stored_energy_change_J_per_m": 55.919288829298544,
+    "max_step_relative": 6.139811391582627e-07,
+    "max_prefix_relative": 3.261146192848552e-07,
+    "max_original_T_replay_difference_K": 0.0,
+    "final_plate_heat_W_per_m": 17.582615272353035,
+    "max_mass_relative": 7.142615041086663e-10,
+    "max_terminal_residual": 9.8854e-09
+  },
+  "openfoam": {
+    "total_plate_input_J_per_m": 70.56727444978694,
+    "net_boundary_input_J_per_m": 55.966020892041094,
+    "stored_energy_change_J_per_m": 55.96602066940444,
+    "max_step_relative": 4.014675966758359e-09,
+    "max_prefix_relative": 2.6310996797911997e-09,
+    "max_original_T_replay_difference_K": 1.000444171950221e-11,
+    "final_plate_heat_W_per_m": 17.59432231778643,
+    "max_mass_relative": 1.2654557138372293e-10,
+    "max_terminal_residual": 9.9896939002324e-13
+  }
+}

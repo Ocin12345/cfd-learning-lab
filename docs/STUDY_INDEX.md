@@ -1,6 +1,6 @@
 # CFD study index
 
-There are 34 existing study records and one in-progress study. Entries include geometry models, numerical sensitivity studies and comparisons; they are not 35 independently validated physical predictions. Read each record for its actual numerical status and limitations.
+There are 35 study records. Entries include geometry models, numerical sensitivity studies and comparisons; they are not 35 independently validated physical predictions. Read each record for its actual numerical status and limitations.
 
 | Study | Record |
 | --- | --- |
@@ -38,4 +38,9 @@ There are 34 existing study records and one in-progress study. Entries include g
 | 32 | [32. Heat above a localized floor heater](../lessons/32-heater-plume/README.md) |
 | 33 | [33. Water-tank sloshing](../lessons/33-tank-sloshing/README.md) |
 | 34 | [34. Sloshing mesh sensitivity](../lessons/34-sloshing-mesh-sensitivity/README.md) |
-| 35 | [35. Dam break over an obstacle — in progress](../lessons/35-dam-break-over-obstacle/README.md) |
+| 35 | [35. Dam break over an obstacle](../lessons/35-dam-break-over-obstacle/README.md) |
+
+
+## Refined-wing formulation investigation — 8 November 2026
+
+The [completed investigation record](../lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/README.md) preserves all five finite trial misses, actual retained-residual maps and the source-bound SIMPLEC/OpenFOAM comparison. Refined Fluent convergence remains **unresolved**; no confirmation or additional solver run is admitted. The separate zero-incidence miss remains open.

@@ -1,0 +1,65 @@
+{
+  "review_type": "One fresh whole-improvement technical review requested by executing-plans",
+  "observed_at": "2026-11-08T13:54:40.106404+08:00",
+  "scope": "Bounded local study30/31 spatial sensitivity, authoritative2426-file repository baseline; earlier uncommitted showcase changes are outside this improvement. No solver/controller/renderer or Git/source mutation during review.",
+  "verdict": "Accept bounded local numerical record with one Minor documentation correction or explicit ledger entry. No Critical or Important findings. Not a physical-validation, independence, publication, submission or owner-authorship verdict.",
+  "strengths": [
+    "Both accepted native trajectories preserve fixed0.01s and original residual definitions/limits. Independently reparsed all2000 Fluent terminal scaled steps and all2000 OpenFOAM final-outer INITIAL-residual maxima from actual solver logs; exact match to archived step records and all pass.",
+    "Independently read164 selected native fields through dynamic native mesh readers; positive finite thermodynamic fields, EOS/temperature bounds, clocks, exact history metrics and all82 conservative2x2 comparisons verified. Native cell mappings are bijective for48/96; archived native mesh quality is1 and OpenFOAM extrusion/bijection tests passed.",
+    "Both1s restart U/T/p/rho arrays independently compared exactly equal. Continuations are disclosed as100+1900 rather than independent full reruns. Saved-control iteration counts and differing initial arrays are disclosed.",
+    "Reintegrated native face/report heat with native geometry/depth for20s allfour cases and1s fineboth. Hot/cold signs agree; reconstructed heat histories independently recomputed. No t0 heat or transient global energy closure claim.",
+    "All40 Fluent continuation wall-mass reports independently meet absolute limit. Native mass histories and endpoint heat match stored records; OpenFOAM saved phi leakage audits inspected and source-bound.",
+    "Independently verified all2426 prior files or exact sixallowed backups, all2562 manifest entries, all135 packet source copies, and4136 unique input/baseline/native-audit source hashes plus all selected field source bindings. Private/exclusion patterns, Python/JSON syntax, and relative Markdown targets independently checked across2563 repository files.",
+    "24 read-only selected helper tests freshly pass; archived27-test result inspected, with three file-creating mesh tests deliberately not rerun. No regeneration of accepted CFD or figures.",
+    "Personally inspected initial PNG, decoded MP4 at10s, four-case endpoint map, response histories and all-step numerical plot. Fixed scales, instantaneous-streamline interpretation, display-only stagnation masking and explicit limits are coherent. Archived every-frame decode evidence inspected; no new movie encoding.",
+    "Attribution distinguishes owner request, Codex execution and solver computation; initialization sensitivity and two-grid/energy/benchmark limitations remain explicit."
+  ],
+  "critical": [],
+  "important": [],
+  "minor": [
+    {
+      "id": "M1",
+      "file": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\convection-spatial-v001\\SPEC.md",
+      "line": 7,
+      "also_in_packet": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\lessons\\31-convection-time-step\\spatial-v001\\methods\\SPEC.md",
+      "title": "Thermodynamic class name disagrees with the native baseline and executed case",
+      "evidence": "SPEC says heRhoThermo/sensibleEnthalpy/dpdt true. Native accepted coarse and fine constant/physicalProperties line3 specify hePsiThermo; fine solver.log thermodynamics selection also says hePsiThermo. sensibleEnthalpy and dpdt true agree.",
+      "effect": "A literal reproduction from the prose could choose a different OpenFOAM thermodynamic class. This does not invalidate the recorded comparison: actual coarse/fine native dictionaries retain the same hePsiThermo perfectGas formulation and the public README makes no heRhoThermo claim.",
+      "recommendation": "Preserve frozen execution/spec evidence; add a clear versioned erratum or minor-ledger correction naming hePsiThermo as the executed unchanged baseline. Do not alter accepted native dictionaries or rerun CFD to match the typo."
+    }
+  ],
+  "declined_to_judge": [
+    "Experimental/physical validation, benchmark accuracy, observed spatial order/GCI, mesh/time/domain independence, or complete steady equilibrium from these two grids.",
+    "Full transient global energy/storage closure; only the stated residual/EOS/work-settings and instantaneous face-heat checks are supported.",
+    "Unique causal attribution of every mesh-response difference to grid resolution: separately converged initial arrays and disclosed startup sensitivity remain confounds.",
+    "Independent full-run reproducibility: these are exact native-checkpoint continuations, and no solver rerun was authorized for this review.",
+    "Fresh runtime/binary equivalence to installed OpenFOAM source or live license/resource admission at historical launch; archived source/settings/admission evidence inspected, no fresh WSL/solver invocation.",
+    "Every pixel of every media frame by human inspection; representative visual review plus archived all-frame decode/RMSE evidence and source binding supports the limited media verdict.",
+    "Exhaustive absence of all possible secrets/private text beyond inspected exclusion and credential patterns; no flagged matches in the2563-file bounded repository inventory.",
+    "Owner execution/reflection, novelty, admissions outcomes, publication readiness/authorization, remote upload or university submission.",
+    "Older completed model35/cylinder/airfoil/wedge reviews or unrelated uncommitted showcase work."
+  ],
+  "fresh_verification": {
+    "repository_baseline": 2426,
+    "allowed_changed_backups_verified": 6,
+    "manifest_entries_verified": 2562,
+    "repository_files_scanned": 2563,
+    "packet_copies_verified": 135,
+    "unique_baseline_input_audit_source_files_verified": 4136,
+    "selected_native_fields": 164,
+    "restricted_comparisons": 82,
+    "Fluent_actual_steps_reparsed": 2000,
+    "OpenFOAM_actual_steps_reparsed": 2000,
+    "read_only_helper_tests_passed": 24,
+    "archived_total_helper_tests": 27,
+    "native_endpoint_heat_reintegrations": 6,
+    "restart_arrays_exact": true
+  },
+  "review_basis_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\convection-spatial-v001\\SPEC.md": "396a7c55d703d1d06b54cc95459cc3f55b09b94398bcedfbf8a441a7ef934ccb",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\convection-spatial-v001\\PLAN.md": "fe0be5e5ec17daac5738ddf40d509af284ca84a0ec9444f2b527dec27f394af4",
+    "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\lessons\\31-convection-time-step\\spatial-v001\\README.md": "8d0b86c771e06cc61e32553fcc0237eae0bc908e49b38ae07e75d73d134db621",
+    "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\lessons\\31-convection-time-step\\spatial-v001\\data\\selected-native-analysis.json": "d4258c4063e11c65f6d710b8185c8f27b8d1a96efb596e59d1bcdb8869b289ae",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\convection-spatial-v001\\repository-before-convection-improvement-v001.json": "a90bfdde66832f41353fc1ab32a297f22153540a0d9f6324ff69d997649e8abf"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cell_mapping": {
+    "method": "unique geometric neighbour-bucket bijection",
+    "source_nodes": 89600,
+    "unique_source_matches": 89600,
+    "tolerance_m": 1e-10,
+    "maximum_component_error_m": 7.73114905427974e-12,
+    "maximum_euclidean_error_m": 1.0013138543601332e-11,
+    "euclidean_error_quantiles_m": {
+      "p50": 4.4086244367880653e-13,
+      "p90": 1.3455507613675024e-12,
+      "p99": 3.667592097465666e-12
+    },
+    "extrusion_depth_m": 0.01,
+    "native_z_plane_m": 0.005
+  },
+  "maximum_actual_centroid_error_m": 1.0013138543601332e-11,
+  "native_mesh_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\constant\\polyMesh\\points": "facb902febad981e0146ad4ecb115ae787eb6fc38c63003a9d7b83f1e17e6860",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\constant\\polyMesh\\neighbour": "33f944eb61bb429c7ba1075e068ca281a73b288017855281f3f68b8c8b8ea6e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\constant\\polyMesh\\faces": "0600df69db4fa7c4c081712433e3684709cbbb926d3af35a65a276efa9c58719",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\constant\\polyMesh\\owner": "ce324140eb6d027b84a5e36f3cf0a722cb74e7b09f667b3553ae7b3273dfe9a8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\constant\\polyMesh\\boundary": "310b4a3ff6180d0851654c3e6e3e111bb83f5bac0f51ad1d48fafd85bda85d94",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\constant\\polyMesh\\cellProc": "27bc3d93a068349b4ee1538699a4abddbcfa533ef40154754ff99ac10ca56ec3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor0\\constant\\polyMesh\\points": "d21a12e6481ae776e0fa14078f1effa9e8e5011c2879d1759f5e99a430eb22c5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor0\\constant\\polyMesh\\neighbour": "021f25ac56f16acee6f85bc3472db0d891cb9afe9b494e1ef05b96b6e23ce3ee",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor0\\constant\\polyMesh\\faces": "480e68fcbe721f9dffd02a9f5cf70d9d7fa1edef34c30194c326a52e7e08dda5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor0\\constant\\polyMesh\\owner": "0bd7de9fd8a7960257b2b44ca29063c3f684460d752810b13d517714a728ac43",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor0\\constant\\polyMesh\\boundary": "22508a0538e146d224e978cbbcdf4c887f9fa16494de4037ee2e723d456bf908",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor0\\constant\\polyMesh\\pointProcAddressing": "1f22e36c33b45763734ab0d07cddcd3c663ac9beb1e194e4ac260710e670d889",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor0\\constant\\polyMesh\\faceProcAddressing": "dd6748d71dbdd68fd55b7b9b8827039913b093659112b7bc54ff9ce00681d72a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor0\\constant\\polyMesh\\cellProcAddressing": "8df2ada0a78023ee48b15c5619b4b95e4781eba7d7c80b6df3351c7c7900ca30",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor1\\constant\\polyMesh\\points": "7175b6c4c6566b66015208df8584da4edc356a1fdf00d9cd4b028a38af1a5db4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor1\\constant\\polyMesh\\neighbour": "2e45ceccc6ac37950e78d9f2d417febaa92f3d494cc9d14d26b918534fd04a6c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor1\\constant\\polyMesh\\faces": "665277767b4a3b0fad2d33fbc082b9b664e9c691baa44acd6dccd77b8ebcedaa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor1\\constant\\polyMesh\\owner": "54e646a1548b627b2ed9db5f92f7a15899054e54184713f263972b7fa209894d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor1\\constant\\polyMesh\\boundary": "6d0de448c97d045a644e70fed3a752b22a74da8186b9dc663ccbbf92a52cad20",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor1\\constant\\polyMesh\\pointProcAddressing": "cd1a0d1fbc29ea5e6c360ff6d703a06db5ab0a477268ab328508b490ae738a0d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor1\\constant\\polyMesh\\faceProcAddressing": "b96080663fbd06a88b22c905f43f3b7e3850dd53b1e79823abf735369c17bb25",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\processor1\\constant\\polyMesh\\cellProcAddressing": "9ca3048c5168d86eb49b5c359ddd8c71f5a9c184dea7a941dc2980f99a23fcf2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\0\\C": "0f9ed78356d6b2765b0445bc03045bd4fec3e5305731e20451a490ea93c76151"
+  },
+  "geometry_sha256": "30bda0d91440ab7427e5ec3ed1d7bf049f1198a40a2aa6bdb9336f4cf9a30cb7"
+}

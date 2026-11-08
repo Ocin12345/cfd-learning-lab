@@ -1,0 +1,300 @@
+{
+  "capability_native_schema_review_pass": true,
+  "source_audit": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-simplec-capability-v002\\capability-audit-v001.json",
+  "source_audit_sha256": "667f81ce9d55bf7a2c2498b162c1f956e7583ca6cda125b1646d5a5f1007f1dc",
+  "new_iterations": 0,
+  "all_native_changes_reviewed": 37,
+  "categories": {
+    "Newly visible native flag explicitly disabled": [
+      {
+        "path": "controls/advanced/enhanced_skewness_correction",
+        "before": {
+          "__missing__": true
+        },
+        "after": false
+      }
+    ],
+    "Diagnostic storage/verbosity only": [
+      {
+        "path": "controls/advanced/expert/save_cell_residuals",
+        "before": false,
+        "after": true
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/options/verbosity",
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "Coupled-only controls become inactive": [
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/coarsening_parameters/aggressive_coarsening",
+        "before": true,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/coarsening_parameters/coarsen_by_interval",
+        "before": 6,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/coarsening_parameters/conservative_coarsening",
+        "before": true,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/coarsening_parameters/laplace_coarsening",
+        "before": false,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/coarsening_parameters/max_coarse_levels",
+        "before": 40,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/fixed_cycle_parameters/max_cycle",
+        "before": 10,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/fixed_cycle_parameters/post_sweeps",
+        "before": 3,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/fixed_cycle_parameters/pre_sweeps",
+        "before": 0,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/amg_controls/coupled_parameters/smoother_type",
+        "before": "ILU",
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/pressure-coupled/cycle_type",
+        "before": "f-cycle",
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/pressure-coupled/stabilization",
+        "before": "none",
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/pressure-coupled/termination_criteria",
+        "before": 0.1,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/p_v_controls",
+        "before": {
+          "__missing__": true
+        },
+        "after": {}
+      },
+      {
+        "path": "controls/p_v_controls/explicit_momentum_under_relaxation",
+        "before": 0.5,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/p_v_controls/explicit_pressure_under_relaxation",
+        "before": 0.5,
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "controls/p_v_controls/flow_courant_number",
+        "before": 20.0,
+        "after": {
+          "__missing__": true
+        }
+      }
+    ],
+    "Active scalar pressure/momentum AMG schema and declared settings": [
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/pressure/cycle_type",
+        "before": {
+          "__missing__": true
+        },
+        "after": "v-cycle"
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/pressure/stabilization",
+        "before": {
+          "__missing__": true
+        },
+        "after": "none"
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/pressure/termination_criteria",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.001
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/x-mom/cycle_type",
+        "before": {
+          "__missing__": true
+        },
+        "after": "flexible-cycle"
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/x-mom/residual_reduction_tolerance",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.7
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/x-mom/termination_criteria",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.1
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/y-mom/cycle_type",
+        "before": {
+          "__missing__": true
+        },
+        "after": "flexible-cycle"
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/y-mom/residual_reduction_tolerance",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.7
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/y-mom/termination_criteria",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.1
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/z-mom/cycle_type",
+        "before": {
+          "__missing__": true
+        },
+        "after": "flexible-cycle"
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/z-mom/residual_reduction_tolerance",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.7
+      },
+      {
+        "path": "controls/advanced/multi_grid/mg_controls/z-mom/termination_criteria",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.1
+      }
+    ],
+    "Declared SIMPLEC algorithm/relaxation bundle": [
+      {
+        "path": "controls/under_relaxation/mom",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.7
+      },
+      {
+        "path": "controls/under_relaxation/pressure",
+        "before": {
+          "__missing__": true
+        },
+        "after": 0.7
+      },
+      {
+        "path": "methods/p_v_coupling/flow_scheme",
+        "before": "Coupled",
+        "after": "SIMPLEC"
+      },
+      {
+        "path": "methods/p_v_coupling/skewness_correction_itr_count",
+        "before": {
+          "__missing__": true
+        },
+        "after": 1
+      }
+    ],
+    "Pseudo-time stays off under active segregated key": [
+      {
+        "path": "methods/pseudo_time_method/formulation/coupled_solver",
+        "before": "off",
+        "after": {
+          "__missing__": true
+        }
+      },
+      {
+        "path": "methods/pseudo_time_method/formulation/segregated_solver",
+        "before": {
+          "__missing__": true
+        },
+        "after": "off"
+      }
+    ]
+  },
+  "physical_spatial_reference_flux_exact": true,
+  "all_seven_initial_fields_and_rawhistory_exact": true,
+  "live_before_and_after_iteration": 1500,
+  "stored_residual_targets": 1e-05,
+  "active_pressure_cycle": "v-cycle",
+  "pressure_AMG_termination": 0.001,
+  "active_momentum_names": [
+    "x-mom",
+    "y-mom",
+    "z-mom"
+  ],
+  "momentum_AMG_cycle": "flexible-cycle",
+  "momentum_AMG_termination": 0.1,
+  "momentum_residual_reduction_tolerance": 0.7,
+  "scalar_smoother": "Gauss-Seidel",
+  "implicit_pressure_and_momentum_relaxation": 0.7,
+  "skewness_correction_iterations": 1,
+  "enhanced_skewness_correction": false,
+  "pseudo_time": "off",
+  "frozen_expected_state": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\wing-convergence-repair-v001\\accepted-native-SIMPLEC-settings-v001.json",
+  "expected_state_sha256": "5c322ec48388f86f6ea772f02b1c0a1a42762a3612758551854a3188010b43ab",
+  "original_source_still_underconverged": true,
+  "qualification_not_prepared_or_launched": true,
+  "tests_pass": 48,
+  "source_binding_count": 436,
+  "first_failed_zero_case_preserved": true
+}

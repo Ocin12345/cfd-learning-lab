@@ -1,0 +1,6 @@
+{
+  "stage": "failed",
+  "observed_at": "2026-11-08T16:18:43.080592+08:00",
+  "pid": 94080,
+  "error": "Traceback (most recent call last):\n  File \"E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\heated-jet-energy-v001\\run_jet_energy_openfoam_only_v002.py\", line 15, in <module>\n    try:main()\n        ^^^^^^\n  File \"E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\heated-jet-energy-v001\\run_jet_energy_openfoam_only_v002.py\", line 13, in main\n    assert p.returncode==0,p.returncode;verify();a=audit_openfoam();assert a['numerical_pass'];mark(STATUS,'paired_20step_qualifications_pass',Fluent_reused=True,actual_visual_inspection_pending=True,full_not_launched=True)\n           ^^^^^^^^^^^^^^^\nAssertionError: 1\n"
+}

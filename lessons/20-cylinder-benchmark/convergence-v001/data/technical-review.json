@@ -1,0 +1,72 @@
+{
+  "reviewed_at": "2026-11-08T08:49:12.591903+08:00",
+  "reviewer": "Fresh read-only Codex subagent /root/cylinder_whole_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "review_count": 1,
+  "read_only": true,
+  "critical": [],
+  "important": [],
+  "minor_deferred": [
+    {
+      "location": "README.md:26,28-38 and root README.md:15",
+      "finding": "Missing spaces around numbers/words/units reduce readability; examples Courant20, relaxation0.5, remaining700steps, adds800numerically.",
+      "effect": "Documentation polish, scientific meaning recoverable; no completion blocker.",
+      "action": "Deferred. Preserve historical/source archives; later human-facing prose polish may restore normal spacing."
+    }
+  ],
+  "independent_checks": {
+    "manifest_entries": 2198,
+    "baseline_files": 2037,
+    "only_six_authorized_prior_files_changed": true,
+    "archived_prior_READMEs_byte_identical": true,
+    "new_terminal_residual_records_per_solver": 800,
+    "maximum_fluent_declared_terminal_residual": 9.9959e-06,
+    "maximum_openfoam_declared_terminal_residual": 1.8071057698203e-08,
+    "cycles_recomputed_per_solver": 11,
+    "cycle_stability_and_pressure_means_recomputed": true,
+    "wall_geometry_hashes_face_ids_stencils_verified": true,
+    "native_pressure_samples_per_solver": 12,
+    "compact_gif_frames_independently_decoded": 81,
+    "read_only_tests_passed": 8,
+    "representative_figures_inspected": true
+  },
+  "declined_to_judge": [
+    {
+      "item": "Full benchmark validity, mesh/time independence and physical accuracy",
+      "ruling": "Not established; explicit limitations stand. Cost of assuming otherwise: unsupported validation/accuracy claims."
+    },
+    {
+      "item": "Inherited0..4s startup repair",
+      "ruling": "Not repaired; inherited misses retained. Cost if disregarded: continuation mistaken for an independently converged-from-zero trajectory."
+    },
+    {
+      "item": "Unique cause among Coupled controls",
+      "ruling": "Algorithm bundle, not isolated causal attribution. Cost if ignored: unsupported single-parameter explanation."
+    },
+    {
+      "item": "Exact continuum point pressure",
+      "ruling": "Only documented discrete wall-vertex estimates claimed. Cost if ignored: spatial sampling bias mistaken for exact pressure."
+    },
+    {
+      "item": "Fresh-machine restart portability",
+      "ruling": "Requires external native checkpoints/environment; no portable complete restart claim. Cost if unavailable: exact reconstruction/restart cannot be repeated from Git alone."
+    },
+    {
+      "item": "Earlier uncommitted model35 changes",
+      "ruling": "Excluded by pre-cylinder2037-file baseline; those files preserved. Cost if baseline were wrong: unrelated changes could be attributed to this work."
+    },
+    {
+      "item": "Publication/upload beyond local record",
+      "ruling": "Not performed or claimed. Cost if assumed otherwise: local prepared contents mistaken for remote GitHub state."
+    }
+  ],
+  "verification_limits": [
+    "No solver reruns by reviewer.",
+    "Reviewer did not re-audit every native HDF field or decode the entire MP4; checked complete raw residual histories, selected implementations, representative native states, manifest bindings and media receipts."
+  ],
+  "verdict": "Bounded local cylinder numerical showcase improvement complete; fresh technical review passed",
+  "physical_validation": false,
+  "benchmark_pass": false,
+  "github_upload_performed": false
+}

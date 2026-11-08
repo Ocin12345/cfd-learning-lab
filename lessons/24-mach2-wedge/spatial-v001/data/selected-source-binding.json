@@ -1,0 +1,14 @@
+{
+  "measurement_record": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\mach2-wedge-spatial-v001\\wedge-selected-measurements-v001.json",
+  "sha256": "d528c4fddd18e4d8228282e47ae394d0063a5f6d938f94b95740157fd241e3e7",
+  "script_sha256": "1cab8d277d2fad6f71d1d9ba1a3662beca1bfdcecaeeb0a768aa1c185601e058",
+  "plots": {
+    "wedge-coarse-fine-native-fields.png": "c849eb9661a3d8ce3d94158f566b1b849e1e7c1c89061d2add449277368ab999",
+    "wedge-coarse-fine-native-fields.pdf": "18b51da0235f5f3c67e8b575d62f90b8cd40a1a1f2ad3c8633af52b4a84bbfb3",
+    "wedge-coarse-fine-shock-detail.png": "89ec9a783103233b5f45838eb16716f2db33d180d8bb64eb5e008b3c1477d1cd",
+    "wedge-coarse-fine-shock-detail.pdf": "743bef77ee2a6273db4aa624ed9c138ade2d4bd0dc4ae3a938d61ebf46d89c34",
+    "wedge-shock-width-and-profiles.png": "3e0e8db47aa9f55593a603452757b41c72db2f8bffbcf4fe77bb8de0aea85b26",
+    "wedge-shock-width-and-profiles.pdf": "35b1dbb7a3088cb82b9503167bda3aeab77b5582364dbe83f303e66be813635f"
+  },
+  "actual_inspection_pending": true
+}

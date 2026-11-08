@@ -1,0 +1,3 @@
+# OpenFOAM quiet-control admission
+
+Reuse the accepted study30 600-iteration steady control dictionaries byte-for-byte, replacing only the input mesh by the common9216-cell refinement. Match the strengthened Fluent quiet-state speed target<=1e-6m/s; retain all original thermal/mass/EOS/no-slip guards. This is a steady initialization control, not600physical seconds of heating. No heating/full20s job is launched by this controller. Native preflow geometry/patch/depth/C bijection must pass before the MPI control solve; fresh source/parent/process/resources gates after imports and immediately prelaunch. All original acceptedF andOF baselines remain untouched.

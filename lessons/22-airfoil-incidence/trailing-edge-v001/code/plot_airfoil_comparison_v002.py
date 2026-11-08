@@ -1,0 +1,79 @@
+"""Source-bound, equal-scale actual Fluent/OpenFOAM local-refinement comparisons."""
+from pathlib import Path
+import argparse,csv,hashlib,json,math
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.collections import LineCollection
+from matplotlib.colors import TwoSlopeNorm,Normalize
+from matplotlib.lines import Line2D
+import numpy as np
+from airfoil_comparison_fields_v001 import fluent,openfoam,check_fields
+from wing_fluent_v001 import available_memory
+R=Path('E:/CFD-Learning-Lab');S=Path(__file__).parent
+COLORS=['#637383','#087e8b','#d17b24'];LEVEL=['Baseline','Local level 1','Local level 2'];NAMES={'fluent':'ANSYS Fluent','openfoam':'OpenFOAM'}
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def verify(a):
+ for n,h in a.items():assert sha(Path(n))==h,n
+
+def visible(f,box):
+ p=f['xy'][f['tri']];return (p[:,:,0].max(1)>=box[0])&(p[:,:,0].min(1)<=box[1])&(p[:,:,1].max(1)>=box[2])&(p[:,:,1].min(1)<=box[3])
+def save(fig,out,name):
+ fig.savefig(out/(name+'.png'),dpi=180);fig.savefig(out/(name+'.pdf'));plt.close(fig)
+def main(selection,out):
+ assert available_memory()>=4*2**30 and not out.exists();selected=json.loads(selection.read_text());cases={};inputs={str(selection):sha(selection)};rows=[]
+ base=R/'native/runs/2026-11-06-airfoil-incidence-paired-v001'
+ baseline_plot=R/'exports/figures/2026-11-06-airfoil-incidence-paired-v002'
+ old=json.loads((baseline_plot/'native-input-hashes-private.json').read_text());verify(old)
+ inputs.update(old);inputs[str(baseline_plot/'native-input-hashes-private.json')]=sha(baseline_plot/'native-input-hashes-private.json')
+ baseline=json.loads((baseline_plot/'summary.json').read_text())
+ for code in ('fluent','openfoam'):
+  for level in (0,1,2):
+   if level==0:
+    path=base/('fluent-alpha5' if code=='fluent' else 'openfoam-alpha5-v002');end=4800;detail=baseline['cases'][code+'_alpha5'];assert not detail['failed_checks']
+   else:
+    item=selected[code][str(level)];path=Path(item['case']);end=item.get('endpoint');check=Path(item['audit']);detail=json.loads(check.read_text());assert detail['numerical_checks_passed'] and not detail['failed_checks'];verify(detail['source_sha256']);inputs[str(check)]=sha(check);inputs.update(detail['source_sha256'])
+   f=check_fields(fluent(path) if code=='fluent' else openfoam(path,end));cases[code,level]=f
+   for p in f['inputs']:inputs[str(p)]=sha(p)
+   rows.append(dict(solver=NAMES[code],level=level,cells=len(f['tri']),Cd=detail['Cd'],Cl=detail['Cl'],Cp_min=float(f['Cp'].min()),wall_Cp_min=float(f['wall_Cp'].min()),wall_adjacent_max_difference=float(np.max(np.abs(f['wall_Cp']-f['adjacent_Cp'])))))
+ plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False,'axes.titleweight':'semibold','savefig.facecolor':'white'})
+ out.mkdir(parents=True)
+ box=(-.35,2.25,-.48,.48)
+ maxspeed=max(float(f['speed'].max()) for f in cases.values());speedmax=math.ceil(maxspeed*10)/10
+ cpmin=math.floor(min(float(f['Cp'].min()) for f in cases.values())*2)/2;cpmax=math.ceil(max(float(f['Cp'].max()) for f in cases.values())*2)/2
+ for key,label,cmap,norm in [('speed','Speed / inlet speed','viridis',Normalize(0,speedmax)),('Cp',r'Cell pressure coefficient $C_p$','RdBu_r',TwoSlopeNorm(0,vmin=cpmin,vmax=cpmax))]:
+  fig,axes=plt.subplots(3,2,figsize=(12.5,9.3),layout='constrained');fig.suptitle(('Velocity and wake' if key=='speed' else 'Pressure field')+' | same geometry, local mesh refinement\nNACA 0012 · 5° · Re = 100 · steady laminar flow',fontsize=16)
+  for j,code in enumerate(('fluent','openfoam')):
+   for level in (0,1,2):
+    ax=axes[level,j];f=cases[code,level];sel=visible(f,box);art=ax.tripcolor(f['xy'][:,0],f['xy'][:,1],f['tri'][sel],facecolors=f[key][sel],shading='flat',cmap=cmap,norm=norm,rasterized=True);ax.add_collection(LineCollection(f['wall'],colors='#192b36',linewidths=.8));ax.set(xlim=box[:2],ylim=box[2:],aspect='equal',xlabel='x / chord',ylabel='y / chord',title=NAMES[code]+' · '+LEVEL[level]+' · '+format(len(f['tri']),',')+' cells')
+  fig.colorbar(art,ax=axes,label=label,shrink=.8);fig.supxlabel('Actual native cell values. Identical view and colour scale across all six cases; no temporal interpolation.\nNumerical agreement is not physical validation or proof of mesh independence.',fontsize=9);save(fig,out,'airfoil-'+key+'-comparison')
+ fig,axes=plt.subplots(2,2,figsize=(12,8.6),layout='constrained');fig.suptitle('Pressure near the sharp trailing edge\nActual finite-volume wall values; local refinement sensitivity',fontsize=16);sample_rows=[]
+ for j,code in enumerate(('fluent','openfoam')):
+  for level in (0,1,2):
+   f=cases[code,level];x,y=f['wall_frame'].T
+   for upper in (True,False):
+    ids=np.where((y>=0)==upper)[0];ids=ids[np.argsort(x[ids])]
+    for i in ids:sample_rows.append(dict(solver=NAMES[code],level=level,side='upper' if upper else 'lower',x_over_c=float(x[i]),y_over_c=float(y[i]),wall_Cp=float(f['wall_Cp'][i]),adjacent_cell_Cp=float(f['adjacent_Cp'][i])))
+    for ax in axes[:,j]:ax.plot(x[ids],f['wall_Cp'][ids],color=COLORS[level],ls='-' if upper else '--',lw=1.2,marker='.' if ax is axes[1,j] else None,ms=2)
+  for i,ax in enumerate(axes[:,j]):
+   ax.set(xlim=(0,1) if i==0 else (.985,1.0002),xlabel='x / chord in airfoil frame',ylabel=r'Wall $C_p$',title=NAMES[code]+(' · full chord' if i==0 else ' · final 1.5% chord'));ax.invert_yaxis();ax.grid(alpha=.17)
+ # Match wall-pressure y scales between codes for each row.
+ for i in (0,1):
+  values=[r['wall_Cp'] for r in sample_rows if i==0 or .985<=r['x_over_c']<=1.0002]
+  lo,hi=min(values),max(values);margin=max(.02,.04*(hi-lo))
+  for ax in axes[i]:ax.set_ylim(hi+margin,lo-margin)
+ handles=[Line2D([],[],color=COLORS[i],label=LEVEL[i]) for i in (0,1,2)]+[Line2D([],[],color='#354451',ls='-',label='Upper side'),Line2D([],[],color='#354451',ls='--',label='Lower side')]
+ fig.legend(handles=handles,loc='outside lower center',ncols=5,frameon=False,fontsize=9);fig.supxlabel('Fluent: native saved face pressure. OpenFOAM: zeroGradient wall value = owner-cell pressure.\nThe table separately retains adjacent-cell samples; no exact continuum surface-pressure claim.',fontsize=9);save(fig,out,'airfoil-wall-pressure-sensitivity')
+ fig,axes=plt.subplots(1,2,figsize=(10,4.5),layout='constrained');fig.suptitle('Force response to local trailing-edge refinement',fontsize=15)
+ for code,color,marker in [('fluent','#167a9e','o'),('openfoam','#bd622d','s')]:
+  rr=[r for r in rows if r['solver']==NAMES[code]]
+  for ax,key in zip(axes,('Cd','Cl')):ax.plot([r['level'] for r in rr],[r[key] for r in rr],marker=marker,color=color,label=NAMES[code]);ax.set(xticks=[0,1,2],xticklabels=['Baseline','Local 1','Local 2'],ylabel=key);ax.grid(alpha=.18);ax.ticklabel_format(axis='y',style='plain',useOffset=False)
+ axes[1].legend(frameon=False);fig.supxlabel('Same polygon, 20-chord outer radius, Re = 100 and unit force references. Cross-code difference remains a diagnostic.',fontsize=9);save(fig,out,'airfoil-force-sensitivity')
+ for name,rr in [('force-comparison.csv',rows),('wall-pressure-samples.csv',sample_rows)]:
+  with (out/name).open('x',newline='') as f:w=csv.DictWriter(f,fieldnames=list(rr[0]));w.writeheader();w.writerows(rr)
+ verify(inputs)
+ for p in [Path(__file__),S/'airfoil_comparison_fields_v001.py']:inputs[str(p)]=sha(p)
+ result=dict(actual_native_fields=True,steady=True,temporal_interpolation=False,fixed_speed_colour_range=[0,speedmax],fixed_cell_Cp_colour_range=[cpmin,cpmax],cell_values_clipped=False,source_sha256=inputs,forces=rows,physical_validation=False,mesh_independence=False)
+ (out/'comparison-visual-audit.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(rows,indent=2))
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('--selection',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args();main(a.selection,a.out)

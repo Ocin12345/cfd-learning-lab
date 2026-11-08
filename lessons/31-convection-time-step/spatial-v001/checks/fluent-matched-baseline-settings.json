@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "numeric_relative_tolerance": 1e-14,
+  "roundoff_only": [
+    {
+      "path": "material/thermal_conductivity/value",
+      "actual": 0.025478873239436622,
+      "baseline": 0.02547887323943662
+    }
+  ],
+  "baseline": "E:\\CFD-Learning-Lab\\native\\runs\\natural-convection-dt001-v001\\fluent-v002\\heated-settings.json",
+  "compared_keys": [
+    "general",
+    "energy",
+    "viscous",
+    "material",
+    "boundaries",
+    "references",
+    "methods",
+    "controls"
+  ]
+}

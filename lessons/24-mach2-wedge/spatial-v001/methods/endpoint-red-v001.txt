@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\mach2-wedge-spatial-v001\test_wedge_acceptance_v001.py", line 2, in <module>
+    from wedge_endpoint_v001 import accepted
+ModuleNotFoundError: No module named 'wedge_endpoint_v001'

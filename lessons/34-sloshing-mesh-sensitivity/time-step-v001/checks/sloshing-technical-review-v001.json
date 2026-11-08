@@ -1,0 +1,74 @@
+{
+  "review_kind": "One fresh whole-improvement technical review",
+  "scope": "Bounded local fine-grid sloshing dt 0.0005 versus 0.00025 s comparison, existing studies33/34 only; authoritative2567-file pre-sloshing baseline, not Git HEAD",
+  "verdict": "ACCEPT for the bounded local numerical record, with one nonblocking documentation/traceability minor",
+  "critical": [],
+  "important": [],
+  "minor": [
+    {
+      "id": "M1",
+      "title": "README promises explicit crossing brackets that the summary does not serialize separately",
+      "file": "lessons/34-sloshing-mesh-sensitivity/time-step-v001/README.md",
+      "line": 44,
+      "supporting_source": "sloshing_cycles_v001.py:14",
+      "evidence": "The README says exact counts, brackets and sampled amplitudes are in summary.json. The helper returns positive_crossing_times_s and complete-cycle endpoints, but not the adjacent sample bracket endpoints/indices. The archived times and right-strip arrays allow exact recovery.",
+      "user_effect": "A reader must reconstruct the interpolation brackets instead of finding the explicitly promised bracket records. This does not change any result or acceptance criterion.",
+      "independent_check": "All four traces cross positively in [0.47,0.48] and [1.10,1.11] s. Independent PowerShell linear interpolation matches the recorded crossing times to floating roundoff.",
+      "suggestion": "For a future documentation-only edit, say interpolated crossing times and sampled traces, or add explicit bracket indices/endpoints in a new supplementary record. No native rerun, analysis rewrite or media regeneration is needed.",
+      "blocking": false
+    }
+  ],
+  "strengths": [
+    {
+      "finding": "The comparison holds native initial fields, geometry and fixed methods constant and preserves exact checkpoint restart provenance.",
+      "evidence": "Fresh readback found identical original/new alpha/U/p for both solvers and identical0.02s checkpoint fields; Fluent fixed-setting comparisons passed. All56 initial-copy and77 continuation-copy source hashes match, excluding only declared controlDict scheduling changes. Partition restart directories retain alphaPhi.water, phi, rho, p, p_rgh, U and alpha.water. Native endpoint partition clocks show index4800,dt0.00025,time1.19999999999998441.",
+      "sources": ["prepare_sloshing_qualification_v001.py", "prepare_sloshing_full_intervals_v001.py", "qualification-copy-provenance-v001.json", "full-checkpoint-copy-provenance-v001.json"]
+    },
+    {
+      "finding": "Actual global-step, residual and Courant evidence supports both80+4720 continuations without a counter reset or a residual-norm substitution.",
+      "evidence": "Fresh native-log replay exactly matches all4800 steps per code. Fluent80+4720 Courant reports; OpenFOAM81+4721 reports retaining the native initial/restart duplicates. Fluent maximum terminal scaled residual9.9999e-5; OpenFOAM maximum final-outer initial residual1.59166408552e-8. Maximum new native Co0.021246/0.0223010060466. All saved OF phi wall-flux checks pass.",
+      "sources": ["sloshing_fluent_steps_v001.py:3", "sloshing_openfoam_steps_v001.py:3", "sloshing_courant_v001.py:3", "sloshing_full_audits_v002.py:28", "sloshing_full_audits_v002.py:39"]
+    },
+    {
+      "finding": "The quantitative analysis uses consistent physical positions and times and states its limits honestly.",
+      "evidence": "Read-only recollection of484 native case states/121 times reproduced the entire selected-native-analysis JSON exactly. The inspected mapping preserves phase alpha, pressure and velocity ordering; column depth is sum(alpha*dy), paired strips average adjacent native columns, and no clipping or phase alignment changes metrics. Independent crossing interpolation confirms two positive crossings and one complete cycle in each trace.",
+      "sources": ["render_sloshing_full_comparison_v002.py:40", "sloshing_depth_compare_v001.py:4", "sloshing_cycles_v001.py:3", "POSTPROCESSING-v001.md"]
+    },
+    {
+      "finding": "The finished media and local record are bound to actual outputs and preserve prior work.",
+      "evidence": "Inspected all three preferred static plots, initial native PNG, decoded MP4 middle and decoded GIF endpoint. Current MP4/GIF hashes match the receipts; each receipt covers121 decoded frames with maximum RGB RMSE3.2275479/1.1625771 below5/8. Fresh read-only record check passes2682 files/2681 manifest entries, syntax, links, private-pattern/excluded-file checks and baseline preservation. All six allowed changed-root backups independently match the2567-file baseline.",
+      "sources": ["sloshing-visual-review-v001.json", "exports/videos/2026-11-08-sloshing-time-step-v002/video-export-record.json", "exports/videos/2026-11-08-sloshing-time-step-v002/gif-v001/gif-export-record.json", "check_sloshing_record_v001.py", "repository-before-sloshing-improvement-v001.json"]
+    },
+    {
+      "finding": "Admission/source gates remain conservative across waits, and non-numerical launch problems remain distinguishable from solver failures.",
+      "evidence": "Inspected qualification/full controllers, immediate pre-MPI gate, frozen-input scopes and resource addenda. The tested wait helper repeats frozen-source verification on each resource/process wait; full inputs bind both accepted qualification parents and restart sources. Fresh19-test helper suite passes, including changed-source-during-wait rejection and transient-resource-race retry. Saved immediate pre-MPI admission shows1285 verified inputs and RAM4624920576 bytes above4GiB.",
+      "sources": ["sloshing_wait_admission_v001.py:6", "sloshing_prelaunch_v001.py", "gate_sloshing_full_mpi_v002.py", "RESOURCE-ADMISSION-ADDENDUM-v002.md"]
+    }
+  ],
+  "fresh_verification": {
+    "helper_tests": "19 PASS",
+    "native_recollection": "484 actual case states, exact selected-analysis JSON equality",
+    "native_step_and_courant_replay": "Both qualification and continuation logs exactly match recorded rows",
+    "qualification_saved_fields": "81 states per solver PASS",
+    "initial_and_restart_fields": "Exact equality PASS",
+    "fixed_settings_and_OF_wall_flux": "PASS",
+    "initial_and_checkpoint_copy_provenance": "56 and77 entries PASS; only declared scheduling controls differ",
+    "repository_manifest_private_syntax_links_baseline": "PASS;2682 files,2681 manifest entries",
+    "allowed_root_backups": "All six exactly match authoritative baseline",
+    "media": "Current output hashes verified; existing all121-frame decode receipts inspected; representative images inspected",
+    "runtime_note": "Sandbox heavy readbacks stalled. Only their identified read-only Python processes were stopped; one sequential elevated read-only retry completed with existing E:Python -B and E:cache/temp. No solver/controller/watcher/renderer/exporter was launched. No repository/native/source artifact changed. This review JSON is the sole review write."
+  },
+  "declined_to_judge": [
+    "Physical/experimental/aircraft accuracy, continuum interface accuracy or whether local air/interface currents are physically resolved.",
+    "Time, mesh or domain independence; observed temporal order or an accuracy ranking from two time steps on one grid.",
+    "Validated damping, asymptotic periodic development or certified sub-sample phase accuracy from one complete cycle and0.01s samples.",
+    "Equivalence to an independent uninterrupted smaller-step run; the accepted trajectory includes the disclosed exact checkpoint restart.",
+    "Fluent alpha bounds at every unsaved internal state; independent field checks cover the saved states.",
+    "A new all-frame decode or visual inspection of every frame; current media hashes and existing all-frame receipts were checked, with representative actual images inspected.",
+    "A portable one-command reproduction bundle or a fresh solver rerun; native checkpoints and installed environments remain external under documented E:/D: paths.",
+    "Historical live licence/process state beyond retained execution/admission evidence; no live solver was started for this review.",
+    "Owner execution, reflection, research novelty, admissions readiness, publication, remote GitHub state or authorization to upload.",
+    "The technical merits of older studies and completed reviews, which remain outside this bounded improvement."
+  ],
+  "review_scope_completion": "One fresh whole-improvement review complete. No Critical or Important repair required for the stated local record. Keep M1 in the minor ledger. Publishing is not authorized by this verdict."
+}

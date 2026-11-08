@@ -1,0 +1,56 @@
+{
+  "cross_code": [
+    {
+      "level": 0,
+      "Cd_difference_percent_OpenFOAM_denominator": 2.257493762519343,
+      "cross_code_Cd_learning_target_percent": 0.5,
+      "cross_code_learning_target_pass": false,
+      "individual_endpoint_numerical_checks_passed": true
+    },
+    {
+      "level": 1,
+      "Cd_difference_percent_OpenFOAM_denominator": 2.1776412547398403,
+      "cross_code_Cd_learning_target_percent": 0.5,
+      "cross_code_learning_target_pass": false,
+      "individual_endpoint_numerical_checks_passed": true
+    },
+    {
+      "level": 2,
+      "Cd_difference_percent_OpenFOAM_denominator": 2.3195835763532724,
+      "cross_code_Cd_learning_target_percent": 0.5,
+      "cross_code_learning_target_pass": false,
+      "individual_endpoint_numerical_checks_passed": true
+    }
+  ],
+  "local_responses": [
+    {
+      "solver": "ANSYS Fluent",
+      "level": 1,
+      "Cd_change_from_baseline_percent": 0.003242036565616753,
+      "Cl_change_from_baseline_percent": 0.0014886765441488679
+    },
+    {
+      "solver": "ANSYS Fluent",
+      "level": 2,
+      "Cd_change_from_baseline_percent": 0.01383973725219302,
+      "Cl_change_from_baseline_percent": -0.03584016762722081
+    },
+    {
+      "solver": "OpenFOAM",
+      "level": 1,
+      "Cd_change_from_baseline_percent": 0.08139523686108674,
+      "Cl_change_from_baseline_percent": -0.3637284034614339
+    },
+    {
+      "solver": "OpenFOAM",
+      "level": 2,
+      "Cd_change_from_baseline_percent": -0.04685089960393219,
+      "Cl_change_from_baseline_percent": -0.9818379201321444
+    }
+  ],
+  "mesh_independence_established": false,
+  "physical_validation": false,
+  "numerical_cause_identified": false,
+  "source_csv": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-airfoil-TE-paired-v002\\force-comparison.csv",
+  "source_sha256": "e8073cc5fff69f23e1a292f943d58c1df5cf2d108effb782afce541f9191344a"
+}

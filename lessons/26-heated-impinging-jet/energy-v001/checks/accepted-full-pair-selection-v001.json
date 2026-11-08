@@ -1,0 +1,16 @@
+{
+  "fluent": {
+    "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001",
+    "audit": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-production-v001\\production-audit-v001.json",
+    "audit_sha256": "d2028c1f9e7bd13b1aadd2943f703537976fb8d579635346ad0a3e5b6d72454a",
+    "prefix_case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001",
+    "continuation_not_independent_full_rerun": true
+  },
+  "openfoam": {
+    "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001",
+    "audit": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-production-v001\\production-audit-v001.json",
+    "audit_sha256": "54c5ecff987e68ceb14e2fa5b71cd510c7274ad60bd1f0517f79c6fce5c08aca",
+    "prefix_case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001",
+    "continuation_not_independent_full_rerun": true
+  }
+}

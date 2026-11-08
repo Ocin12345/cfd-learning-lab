@@ -1,0 +1,150 @@
+{
+  "diagnostic_capture_pass": true,
+  "iteration": 1502,
+  "actual_new_steps_total": 2,
+  "trajectory": "one step original1500->1501; one exact checkpoint continuation1501->1502",
+  "first_capture_missing_runtime_export_preserved": true,
+  "source_history_and_settings_exact": true,
+  "baseline_iteration1502_residual_force_replay_pass": true,
+  "runtime_to_native_centroid_bijection": true,
+  "maximum_centroid_match_distance_m": 2.0350724194510405e-15,
+  "runtime_U_p_match_native": true,
+  "all_four_retained_residual_sums_match_raw_HDF": true,
+  "stage": "assembled_initial",
+  "residual_absolute_sums": {
+    "SV_P_R": 3.774709177230633e-05,
+    "SV_U_R": 3.156435756096985e-05,
+    "SV_V_R": 1.3478943227005704e-05,
+    "SV_W_R": 1.1411987065702353e-05
+  },
+  "cell_statistics": {
+    "0.01": {
+      "cells": 2250,
+      "fraction_absolute_residual": 0.965527157312361,
+      "centre_bounds_m": [
+        [
+          2.5899081736494813,
+          -3.8559598288185026,
+          -4.595077949892595
+        ],
+        [
+          8.867036528243224,
+          3.8764888273932563,
+          4.962398006057013
+        ]
+      ],
+      "wing_adjacent_cells": 0,
+      "outer_boundary_adjacent_cells": 132
+    },
+    "0.05": {
+      "cells": 11249,
+      "fraction_absolute_residual": 0.9964666213228921,
+      "centre_bounds_m": [
+        [
+          -2.8061396650181902,
+          -3.8788629808790573,
+          -5.895752155012939
+        ],
+        [
+          8.88315352120564,
+          3.8764888273932563,
+          5.8885839242200735
+        ]
+      ],
+      "wing_adjacent_cells": 0,
+      "outer_boundary_adjacent_cells": 647
+    },
+    "0.1": {
+      "cells": 22498,
+      "fraction_absolute_residual": 0.9989041590682549,
+      "centre_bounds_m": [
+        [
+          -2.876031623917283,
+          -3.8849652110636725,
+          -5.895752155012939
+        ],
+        [
+          8.88315352120564,
+          3.8764888273932563,
+          5.8885839242200735
+        ]
+      ],
+      "wing_adjacent_cells": 0,
+      "outer_boundary_adjacent_cells": 1047
+    }
+  },
+  "regions": {
+    "Wing-adjacent cells": {
+      "cells": 26132,
+      "fraction_absolute_residual": 1.3574541355360929e-05
+    },
+    "Outer-boundary-adjacent cells": {
+      "cells": 1244,
+      "fraction_absolute_residual": 0.02794124611357676
+    },
+    "Other cells": {
+      "cells": 197596,
+      "fraction_absolute_residual": 0.972045179345068
+    }
+  },
+  "native": {
+    "iteration": 1502,
+    "final_residuals": {
+      "continuity": 1.6892923206675018e-05,
+      "x-velocity": 2.8336325425072175e-09,
+      "y-velocity": 1.2100475066813918e-09,
+      "z-velocity": 1.0244902929382798e-09
+    },
+    "last100_max_residuals": {
+      "continuity": 2.8852555094786784e-05,
+      "x-velocity": 5.062936898577111e-09,
+      "y-velocity": 2.243040524473745e-09,
+      "z-velocity": 1.7575794304951205e-09
+    },
+    "native_scaling_denominators": {
+      "continuity": 2.2344914086503613,
+      "x-velocity": 11139.185158087204,
+      "y-velocity": 11139.185158087204,
+      "z-velocity": 11139.185158087204
+    },
+    "boundary_mass_in_kg_s": 96.0,
+    "net_outward_mass_kg_s": -7.516291589126922e-09,
+    "relative_mass_imbalance": 7.829470405340544e-11,
+    "cell_mass_imbalance_abs_sum_kg_s": 7.50853209729598e-07,
+    "cell_mass_imbalance_max_kg_s": 3.95336657854628e-09,
+    "maximum_speed_m_s": 1.232209579825831,
+    "cells": 224972
+  },
+  "forces": {
+    "iteration": 1502,
+    "Cd": 0.2317543087447003,
+    "Cl": 0.3033944287945299
+  },
+  "original_residual_acceptance_pass": false,
+  "numerical_convergence_not_claimed": true,
+  "root_cause_not_yet_proved": true,
+  "nine_iteration_window_not_admitted": true,
+  "figure": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-retained-residual-probe-v002\\retained-residual-map.png",
+  "figure_sha256": "52da9858ff48e4fb66a223059b028aa383c950650c272ca89dd878846b51a6a4",
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\source.cas.h5": "ce77a18849ff544011432acad858bd0b2b37f946b4b95de25c1925aba15a640e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\source.dat.h5": "2261445708c0a4093bb0b7d30a2e147294c030c5fc67be63b9b890f77a352599",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\loaded-restart.cas.h5": "a74a2b10971d1e61a53f9fe6201060a8844dc90c402809e9fe52c67b5effbd50",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\loaded-restart.dat.h5": "ac0ca6ca8ffe99716308bff064253bb90763b3294033673f1802a4de6a619ee6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\wing-final.cas.h5": "5297f7a770faceb36ec02c315b4d6b66891669dd556997bc35b43a6c281d04bd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\wing-final.dat.h5": "a3b93f940299d3bccc6e34ce1aa3faab2138c18582cedaf3de4d26805b68e71e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\solver-transcript.txt": "1ea0ae65433f4f745352e8b9cd453a531ef2f03e7c52d4ce6558ca10eb7070fe",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\forces-history.out": "9ded46ca57954907993b3724ead37ee7e9b496b3cf17bcd2aa960d0a38a59a88",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\loaded-source-settings.json": "f2f864aa8577385f48ae88b8e86b1e856c7368cb3a4b769ff8ae71b1b9507c7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\candidate-settings.json": "f2f864aa8577385f48ae88b8e86b1e856c7368cb3a4b769ff8ae71b1b9507c7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\final-settings.json": "f2f864aa8577385f48ae88b8e86b1e856c7368cb3a4b769ff8ae71b1b9507c7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\runtime-residual-arrays.npz": "119941d8a6a67193c64fab42cc385e03b92a3fa5d64f1c322e66ed6acabe8af8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\runtime-residual-catalogue.json": "e361a97f72e8e200ea3ebcd1689a07e820d6a31d8120801c850cf8b6a62415b1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\initial-field-check.json": "19a023b0201104483898d7b597f1911c399111fb7bdbf945226f7ec145d75ebd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\geometry-quality.json": "b673c42ce1287047aade4048a3cdef91ebdcd28aca8a4875ed461a19da9d2065",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\solver-version.json": "c7a633153d2613537c86752a669d9af9f9df5c060ff4b4f058b8a2293d92a4e8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\force-reports\\mass-1502.txt": "9d73b3164a34d1d6803c8e78bbe254b84e414d4119edf61e2a74edd2e66e1a7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\force-reports\\drag-1502.txt": "6e97644592e22508e3f9e91285aabbf91568460b030ef4e88b53b9fe9d39dc70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-retained-residual-probe-v002\\force-reports\\lift-1502.txt": "adef1e8a69eb2e584cec234bc66d9b23e4af3a2ce831af92113e922d579406e1"
+  }
+}

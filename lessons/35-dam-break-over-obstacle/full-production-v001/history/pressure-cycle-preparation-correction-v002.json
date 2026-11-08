@@ -1,0 +1,7 @@
+{
+  "first_diagnostic_attempt_solver_steps": 0,
+  "root_cause": "controlDict contains top-level writeInterval and a nested native flux writeInterval; an unqualified substitution found both and stopped before writing or launching.",
+  "correction": "Change the first/top-level entry only and prove the entire functions block unchanged.",
+  "original_failed_preparation_preserved": true,
+  "physical_inputs_and_limits_unchanged": true
+}

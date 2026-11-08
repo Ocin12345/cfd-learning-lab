@@ -1,0 +1,34 @@
+{
+  "fluent": {
+    "mean_period_s": 0.33466891347019806,
+    "St": 0.29880277484722195,
+    "time_mean_Cd": 3.199419714083602,
+    "mean_sampled_Cl_peak_to_peak": 2.003008058333333,
+    "last_six_stable": true,
+    "relative_cycle_ranges": {
+      "period_s": 2.2651832967657852e-05,
+      "sampled_Cl_peak_to_peak": 0.0003356551648419432,
+      "time_mean_Cd": 2.9136128376227004e-05
+    },
+    "maximum_relative_boundary_mass_imbalance": 3.511857387784292e-06,
+    "new_converged_steps": 800,
+    "native_states": 801,
+    "last_six_mean_wall_pressure_difference_Pa": 2.414885361575594
+  },
+  "openfoam": {
+    "mean_period_s": 0.33487746358960013,
+    "St": 0.298616690798137,
+    "time_mean_Cd": 3.196473592657196,
+    "mean_sampled_Cl_peak_to_peak": 2.001065911222057,
+    "last_six_stable": true,
+    "relative_cycle_ranges": {
+      "period_s": 1.5316826017790572e-05,
+      "sampled_Cl_peak_to_peak": 0.0002790645674420144,
+      "time_mean_Cd": 3.568292489235251e-05
+    },
+    "maximum_relative_boundary_mass_imbalance": 4.2032726788697546e-11,
+    "new_converged_steps": 800,
+    "native_states": 801,
+    "last_six_mean_wall_pressure_difference_Pa": 2.420589605720638
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-11-08T04:23:04.811850+08:00",
+  "fluent_full_numerical_checks_pass": true,
+  "fluent_steps": 10000,
+  "original_openfoam_full_numerical_checks_pass": false,
+  "original_openfoam_failed_pressure_steps": 5,
+  "baseline_restart_missed_steps": 6,
+  "damped_restart_missed_steps": 0,
+  "damped_restart_worst_pressure": 3.41974158154543e-06,
+  "global_damped_quiet_diagnostic_pass": false,
+  "global_damped_quiet_speed_m_s": 6.515151629815888e-10,
+  "chosen_strategy": "Continue the rigorously accepted0..0.25s prefix from its native checkpoint, applying momentum damping0.7 only in established flow after0.25s. Actual startup/quiet controls retain the original operator1.",
+  "thresholds_unchanged": true,
+  "full_continued_result_pending": true,
+  "physical_validation": false
+}

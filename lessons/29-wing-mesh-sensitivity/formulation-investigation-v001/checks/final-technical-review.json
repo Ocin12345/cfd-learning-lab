@@ -1,0 +1,99 @@
+{
+  "schema": "wing-whole-technical-review-v001",
+  "reviewer": "single fresh whole-improvement reviewer",
+  "observed_at": "2026-11-08",
+  "base_head": "8baa6533bd8855c04eabeb1afa78c18ea853e648",
+  "branch": "codex/initial-learning-lab",
+  "scope": "Working additions and modified release documentation, especially the complete untracked study29 formulation-investigation-v001 packet. Prior seven numerical reviews were not repeated; their completion-proof hashes and release descriptions were checked.",
+  "counts": {
+    "critical": 0,
+    "important": 1,
+    "minor": 0
+  },
+  "verdict": "With fixes",
+  "ready_to_publish": "With the single documentation correction below, subject to executor regrading and publication checks.",
+  "strengths": [
+    "Original1500 and all five finite trials remain MISS. Stable forces, improved local mass closure and successful residual capture never override the outer continuity gate; no earlier passing checkpoint or inherited miss is relabelled.",
+    "Native HDF inspection independently confirms consecutive1..1600 residual history, exact original1..1500 raw prefixes for all four equations and exactly unchanged2.2344914086503613 continuity denominator throughout the100 new SIMPLEC rows. Final continuity is6.544525275492616e-4 and all final20 continuity rows exceed1e-5.",
+    "Independent HDF face-owner/neighbour accumulation confirms224972 cells, endpoint summed absolute cell mass5.297061393936663e-7kg/s and relative boundary imbalance2.0849248253777356e-10. Native report net is consistent with this signed flux result.",
+    "Driver redirects every report-file monitor before advance, checks original targets with restoration of inactive flags, records exact initial/configured fields and live iteration counters, requires the complete admitted SIMPLEC template, and saves five20-step checkpoints. Auditor keeps structural and numerical outcomes separate.",
+    "The finite retained-map provenance preserves failed1501 capture and exactly1+1+8=10 diagnostic advances, yielding nine actual1502..1510 maps. SIMPLEC residual-stage classification remains unidentified at all five saved checkpoints rather than inheriting Coupled-stage interpretation.",
+    "All122 packet/source-copy hashes and80 selected SIMPLEC native-audit source bindings independently match. All481 frozen inputs and2928 repository-manifest entries independently rehash without mismatch.",
+    "Release index distinguishes the eight bounded outcomes and unresolved limits. All seven prior completion-proof hashes match their bound originals. The execution archive clearly disclaims clean-machine portability, full native restart inclusion, physical validation, independence, accuracy ranking and invented owner execution."
+  ],
+  "issues": {
+    "critical": [],
+    "important": [
+      {
+        "id": "I1",
+        "title": "Disclose the OpenFOAM owner-cell pressure proxy beside the paired surface comparison",
+        "file": "lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/METHODS.md",
+        "line": 13,
+        "additional_locations": [
+          "lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/RESULTS.md:11",
+          "lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/README.md:42",
+          "lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/checks/simplec-qualification-visual-binding-v002.json:33-35"
+        ],
+        "finding": "METHODS describes both plotted pressure sources as saved wing-face/boundary values, and RESULTS repeats that characterization. The bound data instead explicitly records Fluent saved native wing-face pressure and OpenFOAM owner-cell pressure proxy; exact wall pressure is not claimed. The README image and the image itself do not disclose this distinction where readers see the paired pressure comparison.",
+        "effect": "A reasonable reader can interpret the same-scale surface image as a comparison of two saved boundary-pressure fields, overlooking that one side uses adjacent cell pressure as a surface proxy. This changes what the plotted pressure agreement/difference establishes, even though the numerical MISS and no-accuracy-ranking limits are otherwise correct.",
+        "evidence": "Exact visual-binding pressure_methods and the inspected native-reader fallback at code/dependencies/plot_finite_wing_native_v002.py:350-351 establish the proxy. The actual paired-wing-pressure.png was inspected.",
+        "recommended_fix": "Keep frozen images, arrays, bindings and executed sources unchanged. Add a clear adjacent README caption stating Fluent uses saved wing-face pressure while OpenFOAM uses adjacent owner-cell pressure mapped to the wing and does not supply exact saved wall pressure. Correct METHODS and current RESULTS wording to match. An optional new presentation version is unnecessary for the repository-level correction; any standalone sharing must carry the same caveat.",
+        "severity_reason": "Important scientific presentation mismatch in the human-facing methods/results, rather than a solver/data defect. No new solver, audit or rendering run is needed."
+      }
+    ],
+    "minor": []
+  },
+  "plan_alignment": {
+    "original_goal": "A successfully repaired/confirmed refined Fluent endpoint was not achieved.",
+    "justified_final_scope": "The explicit final ruling in progress.md and SIMPLEC-QUALIFICATION-RESULTS-v001.md stops at1600 and closes only the bounded investigation record as unresolved. No confirmation or further algorithm is admitted.",
+    "assessed_acceptance": "The packet correctly preserves this scope adjustment and the separate study28 zero-incidence miss. Study27 and refined accepted OpenFOAM are reused."
+  },
+  "verification": {
+    "fresh_read_only_checks": [
+      "Reviewed current README/METHODS/RESULTS/REPRODUCING, release-index and relevant root documentation diffs including untracked packet.",
+      "Read original SPEC/PLAN, chronological rulings in progress.md, latest CONTINUE header and final SIMPLEC results.",
+      "Read executed SIMPLEC driver/auditor, helper parsers, raw prefix/scaling checks, strict native settings projection, stage classifier, native geometry/flux reader and representative negative-path tests.",
+      "Independently inspected selected native HDF residual histories and recomputed endpoint native mass closure directly from HDF owner/neighbour/flux arrays.",
+      "Read force report, complete native audit structure, five stage findings, endpoint table, retained-window summary and selected source-bound images.",
+      "Rehashed122 exact packet copies against originals,80 selected native bindings,481 frozen inputs and2928 manifest entries.",
+      "Rehashed all seven accepted prior completion proofs and checked their bounded statuses against the latest collection index."
+    ],
+    "recorded_not_rerun": "The preserved56-test suite receipt ends Ran56 tests / OK; representative test implementations were inspected. No test suite, solver, fixed-output auditor, renderer or controller was run by this reviewer.",
+    "preserved_checkout": "No working-tree, index, HEAD, branch, native data, previous receipt or frozen output was changed. The only intended write is this new report outside Git.",
+    "mechanical_receipt": "Existing wing-record-audit-v001.json reports2929files/2928manifest,387.2844409942627MiB, no syntax/JSON/markdown-target/private-material findings, and preservation of the2798-file baseline except declared roots; its checker was not rerun."
+  },
+  "declined_to_judge": [
+    {
+      "behavior": "A fresh numerical re-review of the seven already completed showcase improvements",
+      "reason": "Explicitly outside this single final review assignment; their existing proof hashes/release claims were checked instead. Executor must preserve their previous limits and deferred issues."
+    },
+    {
+      "behavior": "Physical truth, code accuracy ranking, induced drag, mesh/time/domain independence or the unique cause of the wing residual floor",
+      "reason": "Neither the finite experiments nor the final specification establish these; current documents correctly leave them unclaimed."
+    },
+    {
+      "behavior": "A clean-machine one-command solver reproduction from Git alone",
+      "reason": "The archive explicitly requires preserved external native checkpoints, E:/D: layout, environments and licences; portability is not offered. Loss of that external archive would prevent exact replay."
+    },
+    {
+      "behavior": "Current licence/process state and GitHub publication success",
+      "reason": "No solver launch or publication is part of this review. Historical execution receipts were inspected; final live process/remote/authentication verification belongs to the executor."
+    },
+    {
+      "behavior": "Every native checkpoint field and every retained cell-array value independently recalculated",
+      "reason": "This is a sampled technical review backed by complete preserved audits and independently verified hashes, not a second exhaustive native audit. Selected HDF histories and endpoint mass were recomputed; all source bindings were checked."
+    }
+  ],
+  "recommendations": [
+    "Apply one bounded human-facing pressure-source clarification pass and regenerate only the repository manifest/necessary new publication receipts. Preserve all frozen numerical and visual provenance.",
+    "Executor should rule explicitly on each declined-to-judge item, retain unresolved convergence in the final publication message, and perform its authorized final publication verification.",
+    "No second reviewer or solver rerun is recommended."
+  ],
+  "assessment": "The investigation and acceptance logic are technically supported and faithfully retain failure. One pressure-source disclosure correction is needed before presenting the methods/results as the final shareable archive.",
+  "reviewed_hashes": {
+    "packet/README.md": "ee4ce01f86f51520175b0e31a92fd6dc590ab0b81f96f0d18f2a5ff83b94b380",
+    "packet/METHODS.md": "00436f220ec102f9208dc1935c81ea24426508d4dd3003685addcaf4fb06046b",
+    "packet/RESULTS.md": "0e4fd64b2ab9f579381900de680cf53946832ddd1e442e918af81367e303feb4",
+    "manifest-sha256.json": "c062cf90398c411a45c6ee0e77257c4afb8582279cccd1e356d39bf01cd3da2e"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "actual_passed_prefix_accepted": {
+    "start_step": 1801,
+    "completed_steps": 1900,
+    "steps_checked": 100,
+    "maximum_residual_limit_ratio": 0.99337,
+    "peak_reported_interface_courant": 0.0850777,
+    "relative_mixture_mass_closure": 7.400146956507139e-10,
+    "passed": true
+  },
+  "actual_failed_full_run_rejected": true,
+  "failed_run_reason": "{'start_step': 1, 'completed_steps': 5000, 'steps_checked': 5000, 'maximum_residual_limit_ratio': 3670.4999999999995, 'peak_reported_interface_courant': 0.364925, 'relative_mixture_mass_closure': -4.153587487509149e-06, 'passed': False, 'residual_misses': [{'step': 1944, 'residuals': {'continuity': 0.009859, 'x-velocity': 2.2875e-07, 'y-velocity': 6.3857e-08}}, {'step': 2315, 'residuals': {'continuity': 0.014942, 'x-velocity': 6.5889e-07, 'y-velocity': 1.0922e-07}}, {'step': 2426, 'residuals': {'continuity': 0.032589, 'x-velocity': 7.2879e-07, 'y-velocity': 2.0856e-06}}, {'step': 2473, 'residuals': {'continuity': 0.14111, 'x-velocity': 3.6621e-06, 'y-velocity': 5.8504e-07}}, {'step': 2557, 'residuals': {'continuity': 0.0084395, 'x-velocity': 2.9946e-07, 'y-velocity': 7.4964e-08}}]}",
+  "missing_native_flux_row_rejected": true,
+  "solver_launched": false
+}

@@ -1,0 +1,37 @@
+{
+  "reviewed_by": "Codex",
+  "actual_source_frames_visually_inspected": [
+    0,
+    25,
+    50,
+    75,
+    100
+  ],
+  "decoded_representatives_visually_inspected": [
+    "MP4midpoint",
+    "GIFendpoint"
+  ],
+  "pressure_and_numerical_figures_inspected": true,
+  "all101_MP4_and_GIF_frames_decoded_and_source_checked": true,
+  "all_native_audit_source_hashes_rechecked": true,
+  "correct_case_binding_pass": true,
+  "wrong_parent_case_binding_rejected": true,
+  "no_test_output_created": true,
+  "visual_findings": [
+    "Fixed scales, native clocks, units and obstacle geometry remain readable across representative states.",
+    "No synthetic intermediate flow, particle-track claim or physical-validation claim is introduced.",
+    "Cross-code jet/drop differences remain visible on the coarse mesh.",
+    "Pressure plot deliberately retains a common all-time symmetric scale; later pressures are pale."
+  ],
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-dam-break-scheduled-paired-v001\\frame-000.png": "9832236018d65a0a2db949d0ce1f96ada64c1baac6cb23f7a69ce8ed95e06e15",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-dam-break-scheduled-paired-v001\\frame-025.png": "8c2d32b0a951a237fea21728d01e835443dc490524e17096f3db8b37c03feda6",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-dam-break-scheduled-paired-v001\\frame-050.png": "fdcb70bed6212d300e7d1ffb14ac340d002a43615438a0ca989d262c13e638fb",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-dam-break-scheduled-paired-v001\\frame-075.png": "0b2718364c243be66cd90e681e6be1244ba5da1bb15b65b78bb89153208cafd5",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-dam-break-scheduled-paired-v001\\frame-100.png": "aa531c4f5cccc24e94fe29a25b5732525ecab04cc2ae7a8eb74915ddf0390112",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-dam-break-scheduled-paired-v001\\pressure-final.png": "53d2c40c2156e4a694134876b3457fa494f2e580a9d1fc826a68b02e2a8f166d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-dam-break-scheduled-paired-v001\\numerical-checks.png": "c0d5d46c9a6cea963ef9499028cb07b497d99111d549ea92da7531898dff2826",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-dam-break-scheduled-v001\\decoded-050.png": "841da75a2f12e30175b63135757e36f576d746eff44e439b856344c334d13a17",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-dam-break-scheduled-v001\\gif-preview-v001\\decoded-100.png": "113ed9f332fd4d32ba02568e2eece7509bfa48c7fde4c03115126e1bfd0fb718"
+  }
+}

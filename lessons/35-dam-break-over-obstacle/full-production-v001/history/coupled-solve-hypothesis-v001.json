@@ -1,0 +1,8 @@
+{
+  "pressure_AMG_tightening_accepted": false,
+  "baseline_residual": 0.00693,
+  "tight_pressure_residual": 0.0069139,
+  "next_hypothesis": "The plateau may arise in segregated pressure/velocity correction rather than pressure linear-solve termination. Test the supported coupled pressure/velocity algorithm, retaining explicit VOF and all physical fields/thresholds.",
+  "reference": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v252/en/flu_ug/flu_ug_sec_multiphase_solution.html",
+  "scope": "Official guidance supports Coupled pressure/velocity with separate volume fraction solution; Coupled WITH volume fractions is incompatible with explicit VOF and is not selected."
+}

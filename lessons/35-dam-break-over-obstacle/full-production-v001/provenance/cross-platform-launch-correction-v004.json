@@ -1,0 +1,10 @@
+{
+  "actual_launch_failure": "Bash CRLF pipefail stopped at line2 before any case operation.",
+  "old_wrapper_CRLF_count": 29,
+  "new_wrapper_CR_count": 0,
+  "posix_proof_key_failure_reproduced": true,
+  "correction": "New Bash wrapper uses LF; new admission normalizes Windows-keyed proof paths before Linux lookup.",
+  "all90_prior_source_and_input_hashes_unchanged": true,
+  "originals_preserved": true,
+  "physics_or_threshold_changes": false
+}

@@ -1,0 +1,17 @@
+{
+  "all_four_numerical_checks_pass": true,
+  "steps_each": 400,
+  "time_s_each": 0.02,
+  "dt_s": 5e-05,
+  "fluent_algorithm": "Coupled pressure/velocity, explicit VOF",
+  "audit_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-flat-dt005ms-audit.json": "c1db4a870224430d7087a41bc45d2070eb7bb3030cd40c2d5b887b9f27f78de3",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-flat-dt005ms-audit.json": "6a0e9fcffb2c061b33bef178af7f2c120da08c5add61127ebe667f360a4ded6f",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-collapse-dt005ms-audit.json": "018a6614a8faea0c67f8d2448f8f07c52a45d9c055c4b16adb38c36dbfd2cdfb",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-collapse-dt005ms-audit.json": "606bb4f9fac78fd9f77abfe237a554e5c5eaa31e6c47a39d15d8828512d3ba88"
+  },
+  "actual_qualified_figure": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-dam-break-coupled-qualification-v001\\paired-qualification.png",
+  "actual_qualified_figure_sha256": "389ccab7fc8c74ee7b475f77a87e26ad4a849dbcde27fe311606c7657f53edd6",
+  "full_production_complete": false,
+  "physical_validation": false
+}

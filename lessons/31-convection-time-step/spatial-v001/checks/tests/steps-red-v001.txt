@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\convection-spatial-v001\test_cavity_steps_v001.py", line 2, in <module>
+    from cavity_step_audit_v001 import audit_steps
+ModuleNotFoundError: No module named 'cavity_step_audit_v001'

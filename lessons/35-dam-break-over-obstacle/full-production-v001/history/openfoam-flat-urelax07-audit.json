@@ -1,0 +1,5385 @@
+{
+  "solver": "OpenFOAM14",
+  "mode": "flat",
+  "cells": 9072,
+  "steps": 400,
+  "dt_s": 5e-05,
+  "saved_states": 21,
+  "final_time_s": 0.02,
+  "numerical_checks_pass": false,
+  "reported_interface_courant_count": 401,
+  "expected_courant_reports": 401,
+  "peak_interface_courant": 1.37710356210334e-13,
+  "native_flux_rows": 401,
+  "maximum_relative_mixture_mass_closure": 4.124503982017256e-14,
+  "maximum_relative_water_flux_closure": 1.626859912051417e-16,
+  "maximum_saved_speed_m_s": 6.515151629815888e-10,
+  "mass_flux_sign": "Native orientedSum rhoPhi outward-positive; divided by extrusion depth",
+  "mass_integration": "Euler: end-of-step native flux, every actual step",
+  "records": [
+    {
+      "step": 0,
+      "time_s": 0.0,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 0.0,
+      "relative_mixture_mass_closure": 0.0,
+      "relative_water_flux_closure": -1.626511655534122e-16,
+      "max_speed_m_s": 0.0,
+      "maximum_alpha_change": 0.0,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 20,
+      "time_s": 0.001,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 4.953774639671914e-14,
+      "relative_mixture_mass_closure": 1.1531550752382992e-15,
+      "relative_water_flux_closure": -1.626859912051417e-16,
+      "max_speed_m_s": 3.872217377636801e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 40,
+      "time_s": 0.002,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.8179232493252582e-13,
+      "relative_mixture_mass_closure": 4.2318183079316695e-15,
+      "relative_water_flux_closure": -1.6266414503427256e-16,
+      "max_speed_m_s": 2.357426835921679e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 60,
+      "time_s": 0.003,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 2.060196755262083e-13,
+      "relative_mixture_mass_closure": 4.79579011385405e-15,
+      "relative_water_flux_closure": -1.6266131778281e-16,
+      "max_speed_m_s": 2.1480064942484325e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 80,
+      "time_s": 0.004,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.7385411725498546e-13,
+      "relative_mixture_mass_closure": 4.047030239489025e-15,
+      "relative_water_flux_closure": -1.626596689667026e-16,
+      "max_speed_m_s": 1.899483601864018e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 100,
+      "time_s": 0.005,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.5788932772320238e-13,
+      "relative_mixture_mass_closure": 3.675396901019147e-15,
+      "relative_water_flux_closure": -1.6263875271829238e-16,
+      "max_speed_m_s": 1.5573676043773988e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 120,
+      "time_s": 0.006,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.973798031058664e-13,
+      "relative_mixture_mass_closure": 4.594668475192091e-15,
+      "relative_water_flux_closure": -1.6267425974776265e-16,
+      "max_speed_m_s": 3.2765143862968154e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 140,
+      "time_s": 0.007,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 2.477880970979072e-13,
+      "relative_mixture_mass_closure": 5.768088428241792e-15,
+      "relative_water_flux_closure": -1.6261783874651372e-16,
+      "max_speed_m_s": 3.463125013714192e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 160,
+      "time_s": 0.008,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 2.8812163924861354e-13,
+      "relative_mixture_mass_closure": 6.706985172977545e-15,
+      "relative_water_flux_closure": -1.6264372006940772e-16,
+      "max_speed_m_s": 1.7416076827960623e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 180,
+      "time_s": 0.009000000000000001,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 2.79497699141543e-13,
+      "relative_mixture_mass_closure": 6.50623441166156e-15,
+      "relative_water_flux_closure": -1.626483208435274e-16,
+      "max_speed_m_s": 1.7030535778045665e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 200,
+      "time_s": 0.01,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 4.134053603455784e-13,
+      "relative_mixture_mass_closure": 9.623378617094188e-15,
+      "relative_water_flux_closure": -1.626753326934927e-16,
+      "max_speed_m_s": 4.011634569256922e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 220,
+      "time_s": 0.011000000000000001,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 6.486190348737378e-13,
+      "relative_mixture_mass_closure": 1.509875572398576e-14,
+      "relative_water_flux_closure": -1.6265129321297293e-16,
+      "max_speed_m_s": 4.899342705186188e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 240,
+      "time_s": 0.012,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 9.027755359995806e-13,
+      "relative_mixture_mass_closure": 2.1015089842840324e-14,
+      "relative_water_flux_closure": -1.6264840164446034e-16,
+      "max_speed_m_s": 4.35857325267244e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 260,
+      "time_s": 0.013000000000000001,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.1284011390776778e-12,
+      "relative_mixture_mass_closure": 2.626727283900588e-14,
+      "relative_water_flux_closure": -1.62644091875037e-16,
+      "max_speed_m_s": 4.633114905106869e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 280,
+      "time_s": 0.014,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.3470086744138458e-12,
+      "relative_mixture_mass_closure": 3.1356087070469054e-14,
+      "relative_water_flux_closure": -1.6264555755319565e-16,
+      "max_speed_m_s": 4.983807709186678e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 300,
+      "time_s": 0.015000000000000001,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.5610482114727205e-12,
+      "relative_mixture_mass_closure": 3.633856601661353e-14,
+      "relative_water_flux_closure": -1.6264063836884502e-16,
+      "max_speed_m_s": 4.128966743883458e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 320,
+      "time_s": 0.016,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.7167383813387443e-12,
+      "relative_mixture_mass_closure": 3.9962770236723325e-14,
+      "relative_water_flux_closure": -1.6262383343477798e-16,
+      "max_speed_m_s": 2.121521447731999e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 340,
+      "time_s": 0.017,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.7718226859575385e-12,
+      "relative_mixture_mass_closure": 4.124503982017256e-14,
+      "relative_water_flux_closure": -1.6260571615716823e-16,
+      "max_speed_m_s": 6.515151629815888e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 360,
+      "time_s": 0.018000000000000002,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.743067119536453e-12,
+      "relative_mixture_mass_closure": 4.05756587971791e-14,
+      "relative_water_flux_closure": -1.6259395500147739e-16,
+      "max_speed_m_s": 4.665987184001283e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 380,
+      "time_s": 0.019,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.6599651283717952e-12,
+      "relative_mixture_mass_closure": 3.8641184788077214e-14,
+      "relative_water_flux_closure": -1.6258485263357724e-16,
+      "max_speed_m_s": 5.178833495094298e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    },
+    {
+      "step": 400,
+      "time_s": 0.02,
+      "water_area_m2": 0.04266119999999999,
+      "mixture_mass_per_m": 42.958442849919535,
+      "integrated_outward_mass_per_m": 1.5216164324730771e-12,
+      "relative_mixture_mass_closure": 3.542066079510904e-14,
+      "relative_water_flux_closure": -1.6257386988207561e-16,
+      "max_speed_m_s": 5.546486859151743e-10,
+      "maximum_alpha_change": 4.163336342344337e-16,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "fields_pass": true
+    }
+  ],
+  "step_records": [
+    {
+      "step": 1,
+      "time_s": 5e-05,
+      "residuals": {
+        "Ux": 0.000363838015925285,
+        "Uy": 2.63134836990273e-05,
+        "p_rgh": 7.92057795764481e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 2,
+      "time_s": 0.0001,
+      "residuals": {
+        "Ux": 0.000525132943209733,
+        "Uy": 8.78049054091547e-06,
+        "p_rgh": 8.28627384232965e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 3,
+      "time_s": 0.00015,
+      "residuals": {
+        "Ux": 3.04866442752009e-05,
+        "Uy": 7.43940802113553e-07,
+        "p_rgh": 9.15194706480891e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 4,
+      "time_s": 0.0002,
+      "residuals": {
+        "Ux": 4.47134830378518e-05,
+        "Uy": 1.19654985765116e-06,
+        "p_rgh": 8.9010323532172e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 5,
+      "time_s": 0.00025,
+      "residuals": {
+        "Ux": 8.67847812700139e-05,
+        "Uy": 1.6894330318605e-06,
+        "p_rgh": 9.2586451682066e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 6,
+      "time_s": 0.0003,
+      "residuals": {
+        "Ux": 6.6275312006816e-05,
+        "Uy": 1.412603298557e-06,
+        "p_rgh": 9.55484034624613e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 7,
+      "time_s": 0.00035,
+      "residuals": {
+        "Ux": 4.85038349001827e-05,
+        "Uy": 1.24349162305712e-06,
+        "p_rgh": 9.71550173768042e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 8,
+      "time_s": 0.0004,
+      "residuals": {
+        "Ux": 4.38426518216522e-06,
+        "Uy": 2.31879466163126e-07,
+        "p_rgh": 9.99565026784024e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 9,
+      "time_s": 0.00045,
+      "residuals": {
+        "Ux": 9.43007377186116e-06,
+        "Uy": 8.07356161726849e-07,
+        "p_rgh": 9.21613888090208e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 10,
+      "time_s": 0.0005,
+      "residuals": {
+        "Ux": 8.62684131320108e-06,
+        "Uy": 5.48932489236925e-07,
+        "p_rgh": 9.52578998978931e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 11,
+      "time_s": 0.00055,
+      "residuals": {
+        "Ux": 6.2640882904484e-06,
+        "Uy": 5.96567027697573e-07,
+        "p_rgh": 8.61359744067845e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 12,
+      "time_s": 0.0006,
+      "residuals": {
+        "Ux": 6.13518391425145e-06,
+        "Uy": 4.87126512326922e-07,
+        "p_rgh": 9.90589399979443e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 13,
+      "time_s": 0.00065,
+      "residuals": {
+        "Ux": 7.82640375211894e-06,
+        "Uy": 8.64445296074188e-07,
+        "p_rgh": 8.15389114927287e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 14,
+      "time_s": 0.0007,
+      "residuals": {
+        "Ux": 2.98254982956329e-05,
+        "Uy": 3.30953338803704e-06,
+        "p_rgh": 7.79940887173377e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 15,
+      "time_s": 0.00075,
+      "residuals": {
+        "Ux": 3.82327644399277e-06,
+        "Uy": 8.46309627086391e-07,
+        "p_rgh": 9.37189139713338e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 16,
+      "time_s": 0.0008,
+      "residuals": {
+        "Ux": 6.68733503904554e-06,
+        "Uy": 1.04672982680442e-06,
+        "p_rgh": 8.92706096801481e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 17,
+      "time_s": 0.00085,
+      "residuals": {
+        "Ux": 7.72887675599358e-06,
+        "Uy": 9.64404551384149e-07,
+        "p_rgh": 9.02234077240632e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 18,
+      "time_s": 0.0009,
+      "residuals": {
+        "Ux": 1.23377160557804e-05,
+        "Uy": 8.5988008443157e-07,
+        "p_rgh": 9.43040495632108e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 19,
+      "time_s": 0.00095,
+      "residuals": {
+        "Ux": 1.29580974186513e-05,
+        "Uy": 8.11239439423813e-07,
+        "p_rgh": 9.79711118147617e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 20,
+      "time_s": 0.001,
+      "residuals": {
+        "Ux": 1.08131206014264e-05,
+        "Uy": 6.0520605466578e-07,
+        "p_rgh": 9.43689406918154e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 21,
+      "time_s": 0.00105,
+      "residuals": {
+        "Ux": 1.40562592131201e-05,
+        "Uy": 7.50503058094459e-07,
+        "p_rgh": 9.71152023482701e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 22,
+      "time_s": 0.0011,
+      "residuals": {
+        "Ux": 1.16457162090037e-05,
+        "Uy": 5.37134871736942e-07,
+        "p_rgh": 9.49110369381157e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 23,
+      "time_s": 0.00115,
+      "residuals": {
+        "Ux": 4.18853429542854e-05,
+        "Uy": 8.37084821380546e-07,
+        "p_rgh": 9.53017112025132e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 24,
+      "time_s": 0.0012,
+      "residuals": {
+        "Ux": 2.24616708173188e-05,
+        "Uy": 2.57231731507339e-07,
+        "p_rgh": 9.85909407387737e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 25,
+      "time_s": 0.00125,
+      "residuals": {
+        "Ux": 6.04946474189076e-05,
+        "Uy": 6.04005309316098e-07,
+        "p_rgh": 8.78182072520184e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 26,
+      "time_s": 0.0013,
+      "residuals": {
+        "Ux": 2.14942570311388e-05,
+        "Uy": 5.99216221533697e-07,
+        "p_rgh": 9.60565778820341e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 27,
+      "time_s": 0.00135,
+      "residuals": {
+        "Ux": 3.53822631293799e-05,
+        "Uy": 1.15012546348632e-06,
+        "p_rgh": 9.69341379798078e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 28,
+      "time_s": 0.0014,
+      "residuals": {
+        "Ux": 1.17549193255426e-05,
+        "Uy": 6.04895713125477e-07,
+        "p_rgh": 9.8788076377008e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 29,
+      "time_s": 0.00145,
+      "residuals": {
+        "Ux": 4.64223760168234e-06,
+        "Uy": 3.7224536045942e-07,
+        "p_rgh": 9.31979884787935e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 30,
+      "time_s": 0.0015,
+      "residuals": {
+        "Ux": 3.92508480564715e-06,
+        "Uy": 3.3590897179372e-07,
+        "p_rgh": 8.66976060513403e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 31,
+      "time_s": 0.00155,
+      "residuals": {
+        "Ux": 3.34490372687286e-06,
+        "Uy": 3.35203353470643e-07,
+        "p_rgh": 9.01310125921901e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 32,
+      "time_s": 0.0016,
+      "residuals": {
+        "Ux": 2.90397044087484e-06,
+        "Uy": 3.34457998574287e-07,
+        "p_rgh": 9.69622931870102e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 33,
+      "time_s": 0.00165,
+      "residuals": {
+        "Ux": 2.31980621164068e-06,
+        "Uy": 3.39216585918109e-07,
+        "p_rgh": 9.39923833112095e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 34,
+      "time_s": 0.0017,
+      "residuals": {
+        "Ux": 7.060920100577e-06,
+        "Uy": 8.4513361493727e-07,
+        "p_rgh": 9.16937209974318e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 35,
+      "time_s": 0.00175,
+      "residuals": {
+        "Ux": 1.79222473571825e-06,
+        "Uy": 2.85814911542659e-07,
+        "p_rgh": 9.49754371993483e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 36,
+      "time_s": 0.0018,
+      "residuals": {
+        "Ux": 5.71675002064792e-06,
+        "Uy": 8.35636114630917e-07,
+        "p_rgh": 9.52290561698389e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 37,
+      "time_s": 0.00185,
+      "residuals": {
+        "Ux": 7.15596389652009e-07,
+        "Uy": 1.64343547072217e-07,
+        "p_rgh": 9.65888844820485e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 38,
+      "time_s": 0.0019,
+      "residuals": {
+        "Ux": 2.41388658004516e-06,
+        "Uy": 3.55479059228361e-07,
+        "p_rgh": 9.8064679941933e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 39,
+      "time_s": 0.00195,
+      "residuals": {
+        "Ux": 5.98118645267327e-07,
+        "Uy": 1.27399811692745e-07,
+        "p_rgh": 9.98555921943163e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 40,
+      "time_s": 0.002,
+      "residuals": {
+        "Ux": 7.42747026066251e-06,
+        "Uy": 1.42647974368312e-06,
+        "p_rgh": 9.76315335576816e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 41,
+      "time_s": 0.00205,
+      "residuals": {
+        "Ux": 5.33564266139356e-05,
+        "Uy": 6.49609062454375e-06,
+        "p_rgh": 9.06420403607297e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 42,
+      "time_s": 0.0021,
+      "residuals": {
+        "Ux": 3.86420691137092e-06,
+        "Uy": 4.94602024608903e-07,
+        "p_rgh": 9.48224144047266e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 43,
+      "time_s": 0.00215,
+      "residuals": {
+        "Ux": 1.95834199349415e-05,
+        "Uy": 8.18255151503429e-07,
+        "p_rgh": 8.39026659685766e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 44,
+      "time_s": 0.0022,
+      "residuals": {
+        "Ux": 0.00112219365950905,
+        "Uy": 9.71302114756116e-06,
+        "p_rgh": 8.62300661070074e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 45,
+      "time_s": 0.00225,
+      "residuals": {
+        "Ux": 0.000271750063789179,
+        "Uy": 7.30364554758174e-06,
+        "p_rgh": 9.48458121732157e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 46,
+      "time_s": 0.0023,
+      "residuals": {
+        "Ux": 9.00692764137185e-05,
+        "Uy": 5.7451877099643e-06,
+        "p_rgh": 8.97105145686235e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 47,
+      "time_s": 0.00235,
+      "residuals": {
+        "Ux": 2.19954969333442e-05,
+        "Uy": 2.65055161411488e-06,
+        "p_rgh": 8.50804754047532e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 48,
+      "time_s": 0.0024,
+      "residuals": {
+        "Ux": 2.52382474946094e-05,
+        "Uy": 3.65974325802407e-06,
+        "p_rgh": 9.07213307528279e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 49,
+      "time_s": 0.00245,
+      "residuals": {
+        "Ux": 2.43125633642007e-05,
+        "Uy": 4.49976130916546e-06,
+        "p_rgh": 8.86994574070322e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 50,
+      "time_s": 0.0025,
+      "residuals": {
+        "Ux": 1.44226912926678e-05,
+        "Uy": 4.19444532115628e-06,
+        "p_rgh": 8.91135909993436e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 51,
+      "time_s": 0.00255,
+      "residuals": {
+        "Ux": 9.18208320591096e-06,
+        "Uy": 7.5895827327769e-06,
+        "p_rgh": 9.63843391689812e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 52,
+      "time_s": 0.0026,
+      "residuals": {
+        "Ux": 1.84024114900149e-05,
+        "Uy": 6.67916173944413e-05,
+        "p_rgh": 9.02439149680367e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 53,
+      "time_s": 0.00265,
+      "residuals": {
+        "Ux": 1.06763206793925e-05,
+        "Uy": 5.89368054187158e-05,
+        "p_rgh": 8.16547377634051e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 54,
+      "time_s": 0.0027,
+      "residuals": {
+        "Ux": 1.20421754631449e-05,
+        "Uy": 1.89524526849883e-05,
+        "p_rgh": 9.85473789096855e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 55,
+      "time_s": 0.00275,
+      "residuals": {
+        "Ux": 3.54731295291063e-05,
+        "Uy": 1.83668645641823e-05,
+        "p_rgh": 8.12785377037329e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 56,
+      "time_s": 0.0028,
+      "residuals": {
+        "Ux": 3.70454602888363e-06,
+        "Uy": 2.28871164634539e-06,
+        "p_rgh": 9.56368674103283e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 57,
+      "time_s": 0.00285,
+      "residuals": {
+        "Ux": 4.21409442084198e-06,
+        "Uy": 1.70115430162935e-06,
+        "p_rgh": 9.61749554541117e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 58,
+      "time_s": 0.0029,
+      "residuals": {
+        "Ux": 5.99915143624561e-06,
+        "Uy": 2.18317651493846e-06,
+        "p_rgh": 9.2840264783436e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 59,
+      "time_s": 0.00295,
+      "residuals": {
+        "Ux": 3.94829909389094e-06,
+        "Uy": 1.61578655751001e-06,
+        "p_rgh": 8.98001172511385e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 60,
+      "time_s": 0.003,
+      "residuals": {
+        "Ux": 1.16301254422426e-05,
+        "Uy": 3.21184103887366e-06,
+        "p_rgh": 9.54831519832045e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 61,
+      "time_s": 0.00305,
+      "residuals": {
+        "Ux": 3.13019916794999e-06,
+        "Uy": 9.05774297343241e-07,
+        "p_rgh": 9.12992327608172e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 62,
+      "time_s": 0.0031,
+      "residuals": {
+        "Ux": 1.84829398873119e-06,
+        "Uy": 5.87705875803646e-07,
+        "p_rgh": 9.59430293643651e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 63,
+      "time_s": 0.00315,
+      "residuals": {
+        "Ux": 5.5383360234301e-06,
+        "Uy": 8.11240089869455e-07,
+        "p_rgh": 9.59069328686591e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 64,
+      "time_s": 0.0032,
+      "residuals": {
+        "Ux": 3.60995055570642e-06,
+        "Uy": 5.16766360521661e-07,
+        "p_rgh": 9.39673836539027e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 65,
+      "time_s": 0.00325,
+      "residuals": {
+        "Ux": 3.93948428507358e-06,
+        "Uy": 5.06423890420443e-07,
+        "p_rgh": 9.38016884937814e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 66,
+      "time_s": 0.0033,
+      "residuals": {
+        "Ux": 1.18139189087788e-06,
+        "Uy": 2.48698892993579e-07,
+        "p_rgh": 9.7248819658246e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 67,
+      "time_s": 0.00335,
+      "residuals": {
+        "Ux": 1.22141807021872e-06,
+        "Uy": 2.29308959797387e-07,
+        "p_rgh": 9.68300847836203e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 68,
+      "time_s": 0.0034,
+      "residuals": {
+        "Ux": 9.86127310996664e-07,
+        "Uy": 1.87897356168653e-07,
+        "p_rgh": 9.71369355742174e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 69,
+      "time_s": 0.00345,
+      "residuals": {
+        "Ux": 1.0097933886369e-06,
+        "Uy": 1.76559002463867e-07,
+        "p_rgh": 9.99216508519524e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 70,
+      "time_s": 0.0035,
+      "residuals": {
+        "Ux": 0.000382685110660834,
+        "Uy": 3.29652716618034e-06,
+        "p_rgh": 9.9902329412928e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 71,
+      "time_s": 0.00355,
+      "residuals": {
+        "Ux": 5.39333042381608e-05,
+        "Uy": 3.48494742568395e-06,
+        "p_rgh": 9.49237164047234e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 72,
+      "time_s": 0.0036,
+      "residuals": {
+        "Ux": 2.01277061836042e-05,
+        "Uy": 2.2354979432274e-06,
+        "p_rgh": 9.68281625077794e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 73,
+      "time_s": 0.00365,
+      "residuals": {
+        "Ux": 3.42529434335082e-05,
+        "Uy": 5.97136370205687e-06,
+        "p_rgh": 9.19843616397005e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 74,
+      "time_s": 0.0037,
+      "residuals": {
+        "Ux": 1.53776477606817e-05,
+        "Uy": 2.53044077625803e-06,
+        "p_rgh": 9.43158343370878e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 75,
+      "time_s": 0.00375,
+      "residuals": {
+        "Ux": 0.00046992484853654,
+        "Uy": 5.80230237434533e-05,
+        "p_rgh": 8.39419409210161e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 76,
+      "time_s": 0.0038,
+      "residuals": {
+        "Ux": 5.6076056388723e-05,
+        "Uy": 7.44772513477392e-06,
+        "p_rgh": 8.48822967727461e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 77,
+      "time_s": 0.00385,
+      "residuals": {
+        "Ux": 0.000258108693447473,
+        "Uy": 0.000174831742137616,
+        "p_rgh": 9.30987118683081e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 78,
+      "time_s": 0.0039,
+      "residuals": {
+        "Ux": 0.000928297063286288,
+        "Uy": 4.85850137610741e-05,
+        "p_rgh": 9.06340448896874e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 79,
+      "time_s": 0.00395,
+      "residuals": {
+        "Ux": 9.53611678354937e-05,
+        "Uy": 9.21566273495606e-06,
+        "p_rgh": 9.43380006998562e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 80,
+      "time_s": 0.004,
+      "residuals": {
+        "Ux": 1.71728003989107e-05,
+        "Uy": 3.73796550093652e-06,
+        "p_rgh": 9.9447617712094e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 81,
+      "time_s": 0.00405,
+      "residuals": {
+        "Ux": 5.98612416566724e-05,
+        "Uy": 6.84345641412669e-06,
+        "p_rgh": 8.81232058656274e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 82,
+      "time_s": 0.0041,
+      "residuals": {
+        "Ux": 2.99053587573617e-05,
+        "Uy": 5.80566526848812e-06,
+        "p_rgh": 9.23480367043063e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 83,
+      "time_s": 0.00415,
+      "residuals": {
+        "Ux": 5.58075946871299e-05,
+        "Uy": 5.71920771266171e-06,
+        "p_rgh": 8.09113389249721e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 84,
+      "time_s": 0.0042,
+      "residuals": {
+        "Ux": 5.19994385236845e-05,
+        "Uy": 2.86465315372404e-06,
+        "p_rgh": 8.32829909154325e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 85,
+      "time_s": 0.00425,
+      "residuals": {
+        "Ux": 2.7989474446699e-05,
+        "Uy": 4.62495510745761e-06,
+        "p_rgh": 9.41377265010182e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 86,
+      "time_s": 0.0043,
+      "residuals": {
+        "Ux": 3.3767738337566e-05,
+        "Uy": 6.90355074837878e-06,
+        "p_rgh": 8.87060920356193e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 87,
+      "time_s": 0.00435,
+      "residuals": {
+        "Ux": 0.000264205219655529,
+        "Uy": 1.02491721783691e-05,
+        "p_rgh": 9.89609667083814e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 88,
+      "time_s": 0.0044,
+      "residuals": {
+        "Ux": 0.000375017737122693,
+        "Uy": 0.00112152564719147,
+        "p_rgh": 8.63392656468995e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 89,
+      "time_s": 0.00445,
+      "residuals": {
+        "Ux": 0.000109943655874154,
+        "Uy": 3.12803278569402e-05,
+        "p_rgh": 9.36576583151266e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 90,
+      "time_s": 0.0045,
+      "residuals": {
+        "Ux": 7.76503344216209e-05,
+        "Uy": 6.85150008711294e-06,
+        "p_rgh": 8.6659499868387e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 91,
+      "time_s": 0.00455,
+      "residuals": {
+        "Ux": 0.000223918371201091,
+        "Uy": 1.15357591718348e-05,
+        "p_rgh": 9.44796524841116e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 92,
+      "time_s": 0.0046,
+      "residuals": {
+        "Ux": 0.000100914691571166,
+        "Uy": 7.01026898279929e-06,
+        "p_rgh": 9.2899816213725e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 93,
+      "time_s": 0.00465,
+      "residuals": {
+        "Ux": 0.000830945443391389,
+        "Uy": 3.32274225913689e-05,
+        "p_rgh": 8.23990473968064e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 94,
+      "time_s": 0.0047,
+      "residuals": {
+        "Ux": 6.46611275458563e-05,
+        "Uy": 2.62051739062206e-06,
+        "p_rgh": 8.47010905928209e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 95,
+      "time_s": 0.00475,
+      "residuals": {
+        "Ux": 4.59694014147381e-05,
+        "Uy": 3.5043852580902e-06,
+        "p_rgh": 9.32563743290488e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 96,
+      "time_s": 0.0048,
+      "residuals": {
+        "Ux": 0.0284701582136831,
+        "Uy": 0.000275887947378878,
+        "p_rgh": 7.07225815415886e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 97,
+      "time_s": 0.00485,
+      "residuals": {
+        "Ux": 0.000348899980364927,
+        "Uy": 5.56184675077943e-06,
+        "p_rgh": 8.68585977483608e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 98,
+      "time_s": 0.0049,
+      "residuals": {
+        "Ux": 3.17879413581554e-05,
+        "Uy": 2.02591363581969e-06,
+        "p_rgh": 8.33241874222097e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 99,
+      "time_s": 0.00495,
+      "residuals": {
+        "Ux": 1.70629390667639e-05,
+        "Uy": 2.54014058875422e-06,
+        "p_rgh": 8.96472752457986e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 100,
+      "time_s": 0.005,
+      "residuals": {
+        "Ux": 0.00135201741899737,
+        "Uy": 3.59113284397088e-05,
+        "p_rgh": 9.47075893579276e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 101,
+      "time_s": 0.00505,
+      "residuals": {
+        "Ux": 0.000375924752511743,
+        "Uy": 1.89447348801214e-05,
+        "p_rgh": 7.45664271164836e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 102,
+      "time_s": 0.0051,
+      "residuals": {
+        "Ux": 0.000138025374857746,
+        "Uy": 9.84908982482916e-06,
+        "p_rgh": 7.93556626204587e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 103,
+      "time_s": 0.00515,
+      "residuals": {
+        "Ux": 2.03469958392182e-05,
+        "Uy": 4.06488850787488e-06,
+        "p_rgh": 8.46840183788159e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 104,
+      "time_s": 0.0052,
+      "residuals": {
+        "Ux": 1.89753435309477e-05,
+        "Uy": 1.38272928402828e-05,
+        "p_rgh": 9.04081839935508e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 105,
+      "time_s": 0.00525,
+      "residuals": {
+        "Ux": 1.47664770137724e-05,
+        "Uy": 2.92216374955592e-05,
+        "p_rgh": 9.49581630423582e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 106,
+      "time_s": 0.0053,
+      "residuals": {
+        "Ux": 0.000668275642798209,
+        "Uy": 0.000380331121947992,
+        "p_rgh": 7.20428157421065e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 107,
+      "time_s": 0.00535,
+      "residuals": {
+        "Ux": 4.04139558334385e-05,
+        "Uy": 5.76944594133435e-06,
+        "p_rgh": 9.1705580094222e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 108,
+      "time_s": 0.0054,
+      "residuals": {
+        "Ux": 2.15864774306332e-05,
+        "Uy": 4.05186148353994e-06,
+        "p_rgh": 9.70545851143065e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 109,
+      "time_s": 0.00545,
+      "residuals": {
+        "Ux": 2.17360141382217e-05,
+        "Uy": 3.26949717131558e-06,
+        "p_rgh": 6.61863894023655e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 110,
+      "time_s": 0.0055,
+      "residuals": {
+        "Ux": 1.09465336024172e-05,
+        "Uy": 1.13514153420047e-06,
+        "p_rgh": 9.70256277888852e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 111,
+      "time_s": 0.00555,
+      "residuals": {
+        "Ux": 2.49183602714561e-05,
+        "Uy": 1.55305585603596e-06,
+        "p_rgh": 9.62747101406713e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 112,
+      "time_s": 0.0056,
+      "residuals": {
+        "Ux": 3.61641290961909e-05,
+        "Uy": 1.113398591492e-06,
+        "p_rgh": 8.82620381930649e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 113,
+      "time_s": 0.00565,
+      "residuals": {
+        "Ux": 5.48756869561432e-05,
+        "Uy": 7.60401926847805e-07,
+        "p_rgh": 9.53025233070787e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 114,
+      "time_s": 0.0057,
+      "residuals": {
+        "Ux": 1.91568767949941e-05,
+        "Uy": 6.27294267691295e-07,
+        "p_rgh": 8.38039583217237e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 115,
+      "time_s": 0.00575,
+      "residuals": {
+        "Ux": 9.74669004959817e-06,
+        "Uy": 3.67221042825268e-07,
+        "p_rgh": 7.19952858399793e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 116,
+      "time_s": 0.0058,
+      "residuals": {
+        "Ux": 6.45763529805096e-06,
+        "Uy": 3.32930307842349e-07,
+        "p_rgh": 9.14795406793296e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 117,
+      "time_s": 0.00585,
+      "residuals": {
+        "Ux": 4.68996794242174e-06,
+        "Uy": 2.87218702191362e-07,
+        "p_rgh": 8.58257329400334e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 118,
+      "time_s": 0.0059,
+      "residuals": {
+        "Ux": 2.23945274660761e-06,
+        "Uy": 1.6437916507106e-07,
+        "p_rgh": 8.50360804643887e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 119,
+      "time_s": 0.00595,
+      "residuals": {
+        "Ux": 1.89417011016431e-06,
+        "Uy": 1.52502800866364e-07,
+        "p_rgh": 9.12798493478384e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 120,
+      "time_s": 0.006,
+      "residuals": {
+        "Ux": 2.83079654224278e-05,
+        "Uy": 1.62878794451255e-06,
+        "p_rgh": 8.80407410349992e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 121,
+      "time_s": 0.00605,
+      "residuals": {
+        "Ux": 1.78488004543506e-06,
+        "Uy": 1.49563103543385e-07,
+        "p_rgh": 9.68894248779774e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 122,
+      "time_s": 0.0061,
+      "residuals": {
+        "Ux": 1.85564177284574e-06,
+        "Uy": 1.42034753352865e-07,
+        "p_rgh": 9.43042676199892e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 123,
+      "time_s": 0.00615,
+      "residuals": {
+        "Ux": 1.0022211897011e-06,
+        "Uy": 9.22037546713796e-08,
+        "p_rgh": 9.84111034235301e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 124,
+      "time_s": 0.0062,
+      "residuals": {
+        "Ux": 3.76802426467116e-06,
+        "Uy": 2.35346596540665e-07,
+        "p_rgh": 9.6510446199875e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 125,
+      "time_s": 0.00625,
+      "residuals": {
+        "Ux": 1.12860721984259e-06,
+        "Uy": 9.79452580662093e-08,
+        "p_rgh": 9.70085981059772e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 126,
+      "time_s": 0.0063,
+      "residuals": {
+        "Ux": 1.11001935902253e-06,
+        "Uy": 9.36181524375328e-08,
+        "p_rgh": 9.99031668275648e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 127,
+      "time_s": 0.00635,
+      "residuals": {
+        "Ux": 1.66641011682518e-06,
+        "Uy": 1.02702386149683e-07,
+        "p_rgh": 9.77128218422329e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 128,
+      "time_s": 0.0064,
+      "residuals": {
+        "Ux": 8.95293975774896e-07,
+        "Uy": 7.10251212110962e-08,
+        "p_rgh": 9.58922147889737e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 129,
+      "time_s": 0.00645,
+      "residuals": {
+        "Ux": 8.95919299942189e-07,
+        "Uy": 6.82718854107121e-08,
+        "p_rgh": 9.76889561441416e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 130,
+      "time_s": 0.0065,
+      "residuals": {
+        "Ux": 1.40157845887276e-06,
+        "Uy": 7.35582157930513e-08,
+        "p_rgh": 9.81219395871184e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 131,
+      "time_s": 0.00655,
+      "residuals": {
+        "Ux": 1.0757363983745e-06,
+        "Uy": 5.81853884319267e-08,
+        "p_rgh": 9.94691840268608e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 132,
+      "time_s": 0.0066,
+      "residuals": {
+        "Ux": 0.00010956394778221,
+        "Uy": 7.79607834212001e-06,
+        "p_rgh": 9.16297627584843e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 133,
+      "time_s": 0.00665,
+      "residuals": {
+        "Ux": 4.10177986736708e-05,
+        "Uy": 2.40877134556507e-06,
+        "p_rgh": 8.21350790822441e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 134,
+      "time_s": 0.0067,
+      "residuals": {
+        "Ux": 2.50487621317539e-05,
+        "Uy": 1.12171955796477e-05,
+        "p_rgh": 9.06574177567606e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 135,
+      "time_s": 0.00675,
+      "residuals": {
+        "Ux": 0.000107941819301623,
+        "Uy": 1.35918886533424e-05,
+        "p_rgh": 9.24166621489936e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 136,
+      "time_s": 0.0068,
+      "residuals": {
+        "Ux": 0.000134132422922624,
+        "Uy": 1.06097992008203e-06,
+        "p_rgh": 9.8797017373047e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 137,
+      "time_s": 0.00685,
+      "residuals": {
+        "Ux": 0.000189328814504313,
+        "Uy": 4.82605435350157e-06,
+        "p_rgh": 8.76367581355202e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 138,
+      "time_s": 0.0069,
+      "residuals": {
+        "Ux": 7.54649380960777e-05,
+        "Uy": 1.36614034543199e-06,
+        "p_rgh": 9.29960441566034e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 139,
+      "time_s": 0.00695,
+      "residuals": {
+        "Ux": 4.39377531525005e-05,
+        "Uy": 8.72687166907567e-07,
+        "p_rgh": 9.91326226452791e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 140,
+      "time_s": 0.007,
+      "residuals": {
+        "Ux": 0.000142089031754493,
+        "Uy": 9.53970197083528e-07,
+        "p_rgh": 9.71571659660943e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 141,
+      "time_s": 0.00705,
+      "residuals": {
+        "Ux": 4.17149476815141e-05,
+        "Uy": 1.42626425469222e-06,
+        "p_rgh": 8.72629320442661e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 142,
+      "time_s": 0.0071,
+      "residuals": {
+        "Ux": 0.000670444435230488,
+        "Uy": 3.66987248568334e-06,
+        "p_rgh": 8.56944085224884e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 143,
+      "time_s": 0.00715,
+      "residuals": {
+        "Ux": 0.000891891519724411,
+        "Uy": 2.22295002464477e-05,
+        "p_rgh": 8.63754769860949e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 144,
+      "time_s": 0.0072,
+      "residuals": {
+        "Ux": 5.23003766438361e-05,
+        "Uy": 4.62662420483918e-06,
+        "p_rgh": 8.87583641869109e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 145,
+      "time_s": 0.00725,
+      "residuals": {
+        "Ux": 2.1392225824702e-05,
+        "Uy": 1.02857662066957e-06,
+        "p_rgh": 9.4794737363403e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 146,
+      "time_s": 0.0073,
+      "residuals": {
+        "Ux": 0.00028404650311419,
+        "Uy": 3.68523578147381e-06,
+        "p_rgh": 7.59591009081724e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 147,
+      "time_s": 0.00735,
+      "residuals": {
+        "Ux": 8.53320932086027e-05,
+        "Uy": 7.60682392073757e-07,
+        "p_rgh": 8.43451077203046e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 148,
+      "time_s": 0.0074,
+      "residuals": {
+        "Ux": 2.37661825511423e-05,
+        "Uy": 2.56647409121022e-07,
+        "p_rgh": 9.32131746426934e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 149,
+      "time_s": 0.00745,
+      "residuals": {
+        "Ux": 6.55341360790291e-05,
+        "Uy": 4.52517936057307e-07,
+        "p_rgh": 9.10875590369331e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 150,
+      "time_s": 0.0075,
+      "residuals": {
+        "Ux": 2.69981349840797e-05,
+        "Uy": 2.62606499858474e-07,
+        "p_rgh": 9.7371378593045e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 151,
+      "time_s": 0.00755,
+      "residuals": {
+        "Ux": 0.000111841670842859,
+        "Uy": 1.32668192520841e-05,
+        "p_rgh": 8.42963010884208e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 152,
+      "time_s": 0.0076,
+      "residuals": {
+        "Ux": 8.94247448541864e-06,
+        "Uy": 1.41650869593561e-05,
+        "p_rgh": 9.27216027929742e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 153,
+      "time_s": 0.00765,
+      "residuals": {
+        "Ux": 0.000472829413861876,
+        "Uy": 3.44924780731963e-05,
+        "p_rgh": 7.93052455574803e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 154,
+      "time_s": 0.0077,
+      "residuals": {
+        "Ux": 5.68610675979845e-06,
+        "Uy": 2.40471649952322e-05,
+        "p_rgh": 8.70537453755456e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 155,
+      "time_s": 0.00775,
+      "residuals": {
+        "Ux": 3.61915850209401e-06,
+        "Uy": 2.50888386418954e-06,
+        "p_rgh": 9.84020876144422e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 156,
+      "time_s": 0.0078,
+      "residuals": {
+        "Ux": 3.25355181685246e-06,
+        "Uy": 2.4481498627403e-06,
+        "p_rgh": 9.31179792184625e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 157,
+      "time_s": 0.00785,
+      "residuals": {
+        "Ux": 9.06629000611201e-06,
+        "Uy": 6.08841676950749e-06,
+        "p_rgh": 7.83233898266858e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 158,
+      "time_s": 0.0079,
+      "residuals": {
+        "Ux": 0.000207796468158539,
+        "Uy": 0.0012514408088709,
+        "p_rgh": 8.01762087332638e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 159,
+      "time_s": 0.00795,
+      "residuals": {
+        "Ux": 5.25026041104398e-05,
+        "Uy": 6.28773716031972e-06,
+        "p_rgh": 8.56785779500386e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 160,
+      "time_s": 0.008,
+      "residuals": {
+        "Ux": 5.20229728139829e-06,
+        "Uy": 5.81355118800426e-06,
+        "p_rgh": 8.51896598881278e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 161,
+      "time_s": 0.00805,
+      "residuals": {
+        "Ux": 5.49438709846093e-06,
+        "Uy": 2.51246956491814e-06,
+        "p_rgh": 9.78955456109067e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 162,
+      "time_s": 0.0081,
+      "residuals": {
+        "Ux": 6.90264189662756e-06,
+        "Uy": 6.32064377899107e-06,
+        "p_rgh": 8.29188551149167e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 163,
+      "time_s": 0.00815,
+      "residuals": {
+        "Ux": 2.82119412507444e-05,
+        "Uy": 0.00016055816596316,
+        "p_rgh": 7.80891393442768e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 164,
+      "time_s": 0.0082,
+      "residuals": {
+        "Ux": 2.51258161311426e-06,
+        "Uy": 3.64468763535777e-06,
+        "p_rgh": 7.40732098999413e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 165,
+      "time_s": 0.00825,
+      "residuals": {
+        "Ux": 5.86377019277124e-06,
+        "Uy": 8.72032748312329e-06,
+        "p_rgh": 9.37015592825609e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 166,
+      "time_s": 0.0083,
+      "residuals": {
+        "Ux": 1.25542357978567e-06,
+        "Uy": 1.54898047700505e-06,
+        "p_rgh": 8.36706607482725e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 167,
+      "time_s": 0.00835,
+      "residuals": {
+        "Ux": 1.03886282549171e-06,
+        "Uy": 9.81345903635497e-07,
+        "p_rgh": 9.06602327664619e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 168,
+      "time_s": 0.0084,
+      "residuals": {
+        "Ux": 9.13841089498278e-07,
+        "Uy": 7.92818695446073e-07,
+        "p_rgh": 9.36033531028375e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 169,
+      "time_s": 0.00845,
+      "residuals": {
+        "Ux": 3.05069552911771e-06,
+        "Uy": 4.32813565908851e-06,
+        "p_rgh": 9.60266321941979e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 170,
+      "time_s": 0.0085,
+      "residuals": {
+        "Ux": 1.42546232885234e-06,
+        "Uy": 6.82154983935703e-07,
+        "p_rgh": 9.91359097148862e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 171,
+      "time_s": 0.00855,
+      "residuals": {
+        "Ux": 2.25098043709402e-05,
+        "Uy": 8.71920523883379e-06,
+        "p_rgh": 8.66062388677024e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 172,
+      "time_s": 0.0086,
+      "residuals": {
+        "Ux": 2.66284091633239e-05,
+        "Uy": 3.06482613706063e-05,
+        "p_rgh": 9.04756255920101e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 173,
+      "time_s": 0.00865,
+      "residuals": {
+        "Ux": 1.47598487415042e-05,
+        "Uy": 1.22026432953406e-05,
+        "p_rgh": 9.76291928513685e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 174,
+      "time_s": 0.0087,
+      "residuals": {
+        "Ux": 9.31063437332724e-06,
+        "Uy": 2.2677367432119e-06,
+        "p_rgh": 9.46812384072152e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 175,
+      "time_s": 0.00875,
+      "residuals": {
+        "Ux": 3.36473545959049e-05,
+        "Uy": 3.29762894370187e-06,
+        "p_rgh": 8.95376609090809e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 176,
+      "time_s": 0.0088,
+      "residuals": {
+        "Ux": 2.0986394123461e-05,
+        "Uy": 8.74058195383311e-06,
+        "p_rgh": 8.72328613978276e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 177,
+      "time_s": 0.00885,
+      "residuals": {
+        "Ux": 6.36328379141623e-06,
+        "Uy": 1.54689217736419e-05,
+        "p_rgh": 9.83975665814179e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 178,
+      "time_s": 0.0089,
+      "residuals": {
+        "Ux": 1.02352275571109e-05,
+        "Uy": 3.83603085944222e-06,
+        "p_rgh": 8.55054280832641e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 179,
+      "time_s": 0.00895,
+      "residuals": {
+        "Ux": 7.63776994977335e-06,
+        "Uy": 1.33103741539457e-06,
+        "p_rgh": 9.15975285843461e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 180,
+      "time_s": 0.009,
+      "residuals": {
+        "Ux": 3.6971716125469e-06,
+        "Uy": 5.7941666504152e-06,
+        "p_rgh": 9.06287475080859e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 181,
+      "time_s": 0.00905,
+      "residuals": {
+        "Ux": 6.57714368736411e-06,
+        "Uy": 3.53355961594211e-05,
+        "p_rgh": 8.73978700776373e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 182,
+      "time_s": 0.0091,
+      "residuals": {
+        "Ux": 8.96635585958368e-06,
+        "Uy": 6.12698308068403e-06,
+        "p_rgh": 7.82293711657302e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 183,
+      "time_s": 0.00915,
+      "residuals": {
+        "Ux": 7.39692189692378e-06,
+        "Uy": 1.96472302525172e-06,
+        "p_rgh": 8.50074258258391e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 184,
+      "time_s": 0.0092,
+      "residuals": {
+        "Ux": 3.94648482536976e-05,
+        "Uy": 1.99447485740752e-06,
+        "p_rgh": 9.78299240807829e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 185,
+      "time_s": 0.00925,
+      "residuals": {
+        "Ux": 3.75580887210797e-05,
+        "Uy": 5.19994323529424e-06,
+        "p_rgh": 9.19563580532903e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 186,
+      "time_s": 0.0093,
+      "residuals": {
+        "Ux": 0.000132989115680269,
+        "Uy": 1.75217559137674e-05,
+        "p_rgh": 6.13717919665267e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 187,
+      "time_s": 0.00935,
+      "residuals": {
+        "Ux": 5.12755731943821e-06,
+        "Uy": 1.08396878636e-06,
+        "p_rgh": 8.83753146162256e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 188,
+      "time_s": 0.0094,
+      "residuals": {
+        "Ux": 2.94150140646622e-05,
+        "Uy": 5.13899166406609e-06,
+        "p_rgh": 6.94314682687834e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 189,
+      "time_s": 0.00945,
+      "residuals": {
+        "Ux": 2.04780781426696e-06,
+        "Uy": 4.54548452430423e-07,
+        "p_rgh": 8.46775681392274e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 190,
+      "time_s": 0.0095,
+      "residuals": {
+        "Ux": 2.44785613906606e-06,
+        "Uy": 5.17207254680043e-07,
+        "p_rgh": 9.30047660487902e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 191,
+      "time_s": 0.00955,
+      "residuals": {
+        "Ux": 1.65345539665297e-05,
+        "Uy": 3.44639509089035e-06,
+        "p_rgh": 8.2376793018017e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 192,
+      "time_s": 0.0096,
+      "residuals": {
+        "Ux": 1.03574331777024e-06,
+        "Uy": 2.34916738742329e-07,
+        "p_rgh": 9.88753141087115e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 193,
+      "time_s": 0.00965,
+      "residuals": {
+        "Ux": 1.53929686146636e-05,
+        "Uy": 4.05224609947682e-06,
+        "p_rgh": 6.90104192452932e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 194,
+      "time_s": 0.0097,
+      "residuals": {
+        "Ux": 2.14130602008726e-06,
+        "Uy": 3.94446937559776e-07,
+        "p_rgh": 8.98975495409171e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 195,
+      "time_s": 0.00975,
+      "residuals": {
+        "Ux": 2.47501103579879e-06,
+        "Uy": 4.85114021831526e-07,
+        "p_rgh": 9.71128038246979e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 196,
+      "time_s": 0.0098,
+      "residuals": {
+        "Ux": 2.29645786264902e-06,
+        "Uy": 3.68304952420103e-07,
+        "p_rgh": 9.68151916064374e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 197,
+      "time_s": 0.00985,
+      "residuals": {
+        "Ux": 1.57843300090377e-06,
+        "Uy": 2.78512423628873e-07,
+        "p_rgh": 8.51464313044129e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 198,
+      "time_s": 0.0099,
+      "residuals": {
+        "Ux": 1.14769217392911e-06,
+        "Uy": 1.67413535293994e-07,
+        "p_rgh": 8.55789328753258e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 199,
+      "time_s": 0.00995,
+      "residuals": {
+        "Ux": 1.66862803493553e-05,
+        "Uy": 1.82117590227004e-06,
+        "p_rgh": 8.48334109845464e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 200,
+      "time_s": 0.01,
+      "residuals": {
+        "Ux": 9.02230261095736e-07,
+        "Uy": 1.01854026302124e-07,
+        "p_rgh": 9.2032516595935e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 201,
+      "time_s": 0.01005,
+      "residuals": {
+        "Ux": 1.17906456298138e-06,
+        "Uy": 1.11589198913169e-07,
+        "p_rgh": 8.97927874435218e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 202,
+      "time_s": 0.0101,
+      "residuals": {
+        "Ux": 1.22351936167786e-06,
+        "Uy": 1.09891712037921e-07,
+        "p_rgh": 9.37929882939926e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 203,
+      "time_s": 0.01015,
+      "residuals": {
+        "Ux": 1.82172529375171e-05,
+        "Uy": 1.24835541108621e-06,
+        "p_rgh": 8.91433001676979e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 204,
+      "time_s": 0.0102,
+      "residuals": {
+        "Ux": 1.43944060177371e-06,
+        "Uy": 1.00101643600444e-07,
+        "p_rgh": 9.04795918976084e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 205,
+      "time_s": 0.01025,
+      "residuals": {
+        "Ux": 1.51515129245056e-06,
+        "Uy": 9.88008103725323e-08,
+        "p_rgh": 9.51327900241434e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 206,
+      "time_s": 0.0103,
+      "residuals": {
+        "Ux": 1.90665551977025e-06,
+        "Uy": 1.0675354198633e-07,
+        "p_rgh": 8.96215984147113e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 207,
+      "time_s": 0.01035,
+      "residuals": {
+        "Ux": 2.01518061371064e-06,
+        "Uy": 1.05386932270263e-07,
+        "p_rgh": 9.37686680936164e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 208,
+      "time_s": 0.0104,
+      "residuals": {
+        "Ux": 0.00014487302334566,
+        "Uy": 5.96910195075915e-06,
+        "p_rgh": 8.72229927710761e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 209,
+      "time_s": 0.01045,
+      "residuals": {
+        "Ux": 2.29958704144058e-06,
+        "Uy": 1.04032526313138e-07,
+        "p_rgh": 8.96480880409962e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 210,
+      "time_s": 0.0105,
+      "residuals": {
+        "Ux": 2.44318186705794e-06,
+        "Uy": 1.0290782070896e-07,
+        "p_rgh": 9.44965187059383e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 211,
+      "time_s": 0.01055,
+      "residuals": {
+        "Ux": 1.91194926958211e-05,
+        "Uy": 5.76643040068779e-07,
+        "p_rgh": 8.66271430857535e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 212,
+      "time_s": 0.0106,
+      "residuals": {
+        "Ux": 4.94792367351053e-06,
+        "Uy": 1.44716504982987e-07,
+        "p_rgh": 9.37023356094682e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 213,
+      "time_s": 0.01065,
+      "residuals": {
+        "Ux": 4.11292674779874e-06,
+        "Uy": 1.0582245570216e-07,
+        "p_rgh": 8.79625717819016e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 214,
+      "time_s": 0.0107,
+      "residuals": {
+        "Ux": 4.63647250211302e-06,
+        "Uy": 1.04870352293028e-07,
+        "p_rgh": 9.26827047702949e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 215,
+      "time_s": 0.01075,
+      "residuals": {
+        "Ux": 0.00358020459472454,
+        "Uy": 6.02881448158096e-05,
+        "p_rgh": 9.00822674303028e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 216,
+      "time_s": 0.0108,
+      "residuals": {
+        "Ux": 4.88342313753486e-06,
+        "Uy": 7.69318225418745e-08,
+        "p_rgh": 9.44995999454951e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 217,
+      "time_s": 0.01085,
+      "residuals": {
+        "Ux": 5.65234625495939e-06,
+        "Uy": 7.62477810752156e-08,
+        "p_rgh": 9.97929565783268e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 218,
+      "time_s": 0.0109,
+      "residuals": {
+        "Ux": 1.1724083955567e-05,
+        "Uy": 1.07984450266686e-07,
+        "p_rgh": 9.37252961114403e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 219,
+      "time_s": 0.01095,
+      "residuals": {
+        "Ux": 1.49757532428424e-05,
+        "Uy": 1.07239141117526e-07,
+        "p_rgh": 9.73212906866052e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 220,
+      "time_s": 0.011,
+      "residuals": {
+        "Ux": 2.03975250172832e-05,
+        "Uy": 8.47840360301083e-08,
+        "p_rgh": 9.13872796033895e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 221,
+      "time_s": 0.01105,
+      "residuals": {
+        "Ux": 4.39059705660381e-05,
+        "Uy": 8.42876060083362e-08,
+        "p_rgh": 9.20806124437742e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 222,
+      "time_s": 0.0111,
+      "residuals": {
+        "Ux": 2.36796618478627e-05,
+        "Uy": 8.37648731436796e-08,
+        "p_rgh": 9.40605297452421e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 223,
+      "time_s": 0.01115,
+      "residuals": {
+        "Ux": 1.18232254823361e-05,
+        "Uy": 8.32704471740083e-08,
+        "p_rgh": 9.71173445670782e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 224,
+      "time_s": 0.0112,
+      "residuals": {
+        "Ux": 9.29532705661749e-05,
+        "Uy": 5.73158313907429e-07,
+        "p_rgh": 9.02682638411702e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 225,
+      "time_s": 0.01125,
+      "residuals": {
+        "Ux": 1.51692947951793e-05,
+        "Uy": 1.4248684780262e-07,
+        "p_rgh": 9.64514879603979e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 226,
+      "time_s": 0.0113,
+      "residuals": {
+        "Ux": 8.67997385598849e-06,
+        "Uy": 1.01212140738723e-07,
+        "p_rgh": 9.05344089383415e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 227,
+      "time_s": 0.01135,
+      "residuals": {
+        "Ux": 6.94892922421113e-06,
+        "Uy": 1.00844876167935e-07,
+        "p_rgh": 9.42718610445801e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 228,
+      "time_s": 0.0114,
+      "residuals": {
+        "Ux": 5.5757610652341e-06,
+        "Uy": 1.00444746447718e-07,
+        "p_rgh": 9.95010135382946e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 229,
+      "time_s": 0.01145,
+      "residuals": {
+        "Ux": 7.61237941182725e-06,
+        "Uy": 1.38061269478245e-07,
+        "p_rgh": 9.10648526379945e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 230,
+      "time_s": 0.0115,
+      "residuals": {
+        "Ux": 6.60098810848283e-06,
+        "Uy": 1.37650835511512e-07,
+        "p_rgh": 9.61341915634682e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 231,
+      "time_s": 0.01155,
+      "residuals": {
+        "Ux": 3.88050039715469e-06,
+        "Uy": 9.32678823113341e-08,
+        "p_rgh": 8.92846094875471e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 232,
+      "time_s": 0.0116,
+      "residuals": {
+        "Ux": 3.51105111072266e-06,
+        "Uy": 9.30624132855164e-08,
+        "p_rgh": 9.09770721223098e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 233,
+      "time_s": 0.01165,
+      "residuals": {
+        "Ux": 3.11718006356562e-06,
+        "Uy": 9.28866957001473e-08,
+        "p_rgh": 9.38462521816304e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 234,
+      "time_s": 0.0117,
+      "residuals": {
+        "Ux": 2.79794463474346e-06,
+        "Uy": 9.27147092255656e-08,
+        "p_rgh": 9.72453493718514e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 235,
+      "time_s": 0.01175,
+      "residuals": {
+        "Ux": 5.69743827949809e-06,
+        "Uy": 1.74224669602423e-07,
+        "p_rgh": 8.71548775505852e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 236,
+      "time_s": 0.0118,
+      "residuals": {
+        "Ux": 5.22124683412204e-06,
+        "Uy": 1.74031839286514e-07,
+        "p_rgh": 9.37651999405543e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 237,
+      "time_s": 0.01185,
+      "residuals": {
+        "Ux": 3.14271485187522e-06,
+        "Uy": 1.14642124590103e-07,
+        "p_rgh": 8.66026022098601e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 238,
+      "time_s": 0.0119,
+      "residuals": {
+        "Ux": 2.96057684668009e-06,
+        "Uy": 1.14576666533207e-07,
+        "p_rgh": 9.06401325147994e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 239,
+      "time_s": 0.01195,
+      "residuals": {
+        "Ux": 2.72844295175377e-06,
+        "Uy": 1.14508523850224e-07,
+        "p_rgh": 9.6402313790893e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 240,
+      "time_s": 0.012,
+      "residuals": {
+        "Ux": 3.7258083832476e-06,
+        "Uy": 1.54499058050887e-07,
+        "p_rgh": 8.86976610617646e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 241,
+      "time_s": 0.01205,
+      "residuals": {
+        "Ux": 3.50758969899061e-06,
+        "Uy": 1.54466419515147e-07,
+        "p_rgh": 9.55383238180335e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 242,
+      "time_s": 0.0121,
+      "residuals": {
+        "Ux": 2.10111893149308e-06,
+        "Uy": 9.89586906252612e-08,
+        "p_rgh": 9.03151274777663e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 243,
+      "time_s": 0.01215,
+      "residuals": {
+        "Ux": 2.02331728129918e-06,
+        "Uy": 9.90236924849833e-08,
+        "p_rgh": 9.40514762114171e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 244,
+      "time_s": 0.0122,
+      "residuals": {
+        "Ux": 1.9145747350902e-06,
+        "Uy": 9.91171864128663e-08,
+        "p_rgh": 9.88857368242712e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 245,
+      "time_s": 0.01225,
+      "residuals": {
+        "Ux": 2.63569700793393e-06,
+        "Uy": 1.2924963920303e-07,
+        "p_rgh": 9.2405688584789e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 246,
+      "time_s": 0.0123,
+      "residuals": {
+        "Ux": 2.52017421079104e-06,
+        "Uy": 1.2937717692835e-07,
+        "p_rgh": 9.74311005906523e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 247,
+      "time_s": 0.01235,
+      "residuals": {
+        "Ux": 1.57143927371175e-06,
+        "Uy": 8.59778965432688e-08,
+        "p_rgh": 9.24316643652314e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 248,
+      "time_s": 0.0124,
+      "residuals": {
+        "Ux": 1.53220617830477e-06,
+        "Uy": 8.60751596382485e-08,
+        "p_rgh": 9.50511564660986e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 249,
+      "time_s": 0.01245,
+      "residuals": {
+        "Ux": 1.47494750365925e-06,
+        "Uy": 8.62301544669738e-08,
+        "p_rgh": 9.87774813628777e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 250,
+      "time_s": 0.0125,
+      "residuals": {
+        "Ux": 2.00389036020386e-06,
+        "Uy": 1.15941165832463e-07,
+        "p_rgh": 9.3443801001308e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 251,
+      "time_s": 0.01255,
+      "residuals": {
+        "Ux": 1.93584249765927e-06,
+        "Uy": 1.16202597694818e-07,
+        "p_rgh": 9.83524492417795e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 252,
+      "time_s": 0.0126,
+      "residuals": {
+        "Ux": 1.21259211042193e-06,
+        "Uy": 7.78440248024954e-08,
+        "p_rgh": 9.44702139061238e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 253,
+      "time_s": 0.01265,
+      "residuals": {
+        "Ux": 1.19080023256627e-06,
+        "Uy": 7.80288911048683e-08,
+        "p_rgh": 9.71722290218346e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 254,
+      "time_s": 0.0127,
+      "residuals": {
+        "Ux": 5.53662014466383e-06,
+        "Uy": 3.35480778853299e-07,
+        "p_rgh": 9.4423196177932e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 255,
+      "time_s": 0.01275,
+      "residuals": {
+        "Ux": 9.0053702233579e-07,
+        "Uy": 6.17910519580219e-08,
+        "p_rgh": 9.65455291389149e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 256,
+      "time_s": 0.0128,
+      "residuals": {
+        "Ux": 8.79676477802549e-07,
+        "Uy": 6.19865674644607e-08,
+        "p_rgh": 9.89644279456741e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 257,
+      "time_s": 0.01285,
+      "residuals": {
+        "Ux": 1.33608480822038e-06,
+        "Uy": 9.24754768129185e-08,
+        "p_rgh": 9.40913080124399e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 258,
+      "time_s": 0.0129,
+      "residuals": {
+        "Ux": 1.32168690457676e-06,
+        "Uy": 9.27687610821638e-08,
+        "p_rgh": 9.66323538049811e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 259,
+      "time_s": 0.01295,
+      "residuals": {
+        "Ux": 6.27744018805413e-06,
+        "Uy": 4.21304398466815e-07,
+        "p_rgh": 9.30928486013563e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 260,
+      "time_s": 0.013,
+      "residuals": {
+        "Ux": 1.02730650981672e-06,
+        "Uy": 7.92815616128608e-08,
+        "p_rgh": 9.50906217667426e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 261,
+      "time_s": 0.01305,
+      "residuals": {
+        "Ux": 1.00842804630315e-06,
+        "Uy": 7.95485500007224e-08,
+        "p_rgh": 9.76549060944889e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 262,
+      "time_s": 0.0131,
+      "residuals": {
+        "Ux": 7.9165443180447e-06,
+        "Uy": 5.62047187611773e-07,
+        "p_rgh": 9.1081457321158e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 263,
+      "time_s": 0.01315,
+      "residuals": {
+        "Ux": 1.73169726743493e-06,
+        "Uy": 1.31687675663202e-07,
+        "p_rgh": 9.54204966331945e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 264,
+      "time_s": 0.0132,
+      "residuals": {
+        "Ux": 1.20904282291226e-06,
+        "Uy": 9.83014145943845e-08,
+        "p_rgh": 8.9134880123861e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 265,
+      "time_s": 0.01325,
+      "residuals": {
+        "Ux": 1.19361182030612e-06,
+        "Uy": 9.87138972968176e-08,
+        "p_rgh": 9.16621019111086e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 266,
+      "time_s": 0.0133,
+      "residuals": {
+        "Ux": 1.1775060864122e-06,
+        "Uy": 9.91729158895781e-08,
+        "p_rgh": 9.55768445648705e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 267,
+      "time_s": 0.01335,
+      "residuals": {
+        "Ux": 3.25047957401032e-05,
+        "Uy": 2.50558402340477e-06,
+        "p_rgh": 8.75226314426891e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 268,
+      "time_s": 0.0134,
+      "residuals": {
+        "Ux": 1.88333476835966e-06,
+        "Uy": 1.54921650913668e-07,
+        "p_rgh": 9.40567573911216e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 269,
+      "time_s": 0.01345,
+      "residuals": {
+        "Ux": 1.39641871571273e-06,
+        "Uy": 1.1936450059214e-07,
+        "p_rgh": 8.63853299926115e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 270,
+      "time_s": 0.0135,
+      "residuals": {
+        "Ux": 1.38642154379659e-06,
+        "Uy": 1.20010680025396e-07,
+        "p_rgh": 9.04003177724931e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 271,
+      "time_s": 0.01355,
+      "residuals": {
+        "Ux": 1.3747656479513e-06,
+        "Uy": 1.20623307485078e-07,
+        "p_rgh": 9.61299413169168e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 272,
+      "time_s": 0.0136,
+      "residuals": {
+        "Ux": 1.97315386504359e-06,
+        "Uy": 1.67865670138057e-07,
+        "p_rgh": 8.50585968608917e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 273,
+      "time_s": 0.01365,
+      "residuals": {
+        "Ux": 1.98868170583224e-06,
+        "Uy": 1.68821375954073e-07,
+        "p_rgh": 9.19794885993795e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 274,
+      "time_s": 0.0137,
+      "residuals": {
+        "Ux": 9.61291253794668e-06,
+        "Uy": 7.8174751588107e-07,
+        "p_rgh": 8.44383063256371e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 275,
+      "time_s": 0.01375,
+      "residuals": {
+        "Ux": 1.53164728349679e-06,
+        "Uy": 1.3484208591917e-07,
+        "p_rgh": 9.0728711495529e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 276,
+      "time_s": 0.0138,
+      "residuals": {
+        "Ux": 1.52499073132474e-06,
+        "Uy": 1.35756545741399e-07,
+        "p_rgh": 9.81307989635073e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 277,
+      "time_s": 0.01385,
+      "residuals": {
+        "Ux": 2.49297092035224e-06,
+        "Uy": 2.13947260525007e-07,
+        "p_rgh": 8.37123093815862e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 278,
+      "time_s": 0.0139,
+      "residuals": {
+        "Ux": 2.52307385307243e-06,
+        "Uy": 2.15490756920528e-07,
+        "p_rgh": 9.3781924323848e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 279,
+      "time_s": 0.01395,
+      "residuals": {
+        "Ux": 1.60397807876534e-06,
+        "Uy": 1.39199253842836e-07,
+        "p_rgh": 8.31111299331846e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 280,
+      "time_s": 0.014,
+      "residuals": {
+        "Ux": 1.61173883137694e-06,
+        "Uy": 1.40237586357382e-07,
+        "p_rgh": 8.86088101989963e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 281,
+      "time_s": 0.01405,
+      "residuals": {
+        "Ux": 1.6143487265757e-06,
+        "Uy": 1.41365062987508e-07,
+        "p_rgh": 9.63438793828409e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 282,
+      "time_s": 0.0141,
+      "residuals": {
+        "Ux": 2.32926339855739e-06,
+        "Uy": 1.93775293846276e-07,
+        "p_rgh": 8.23160551856577e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 283,
+      "time_s": 0.01415,
+      "residuals": {
+        "Ux": 2.37562358692376e-06,
+        "Uy": 1.95444287199886e-07,
+        "p_rgh": 9.14779797710795e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 284,
+      "time_s": 0.0142,
+      "residuals": {
+        "Ux": 1.49866497799251e-06,
+        "Uy": 1.25847869162938e-07,
+        "p_rgh": 8.20849591860082e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 285,
+      "time_s": 0.01425,
+      "residuals": {
+        "Ux": 1.51738647180074e-06,
+        "Uy": 1.2704816674415e-07,
+        "p_rgh": 8.69329943949416e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 286,
+      "time_s": 0.0143,
+      "residuals": {
+        "Ux": 1.53255068385178e-06,
+        "Uy": 1.28245417716238e-07,
+        "p_rgh": 9.37694425760907e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 287,
+      "time_s": 0.01435,
+      "residuals": {
+        "Ux": 1.18182425374071e-05,
+        "Uy": 8.86473604950417e-07,
+        "p_rgh": 8.26668856046585e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 288,
+      "time_s": 0.0144,
+      "residuals": {
+        "Ux": 2.54216298673851e-06,
+        "Uy": 1.9812423293724e-07,
+        "p_rgh": 9.23912819810992e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 289,
+      "time_s": 0.01445,
+      "residuals": {
+        "Ux": 1.87561516915556e-06,
+        "Uy": 1.48776468255611e-07,
+        "p_rgh": 8.25766419725743e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 290,
+      "time_s": 0.0145,
+      "residuals": {
+        "Ux": 1.91242608893134e-06,
+        "Uy": 1.50525409177855e-07,
+        "p_rgh": 8.8027363241141e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 291,
+      "time_s": 0.01455,
+      "residuals": {
+        "Ux": 1.94147117706922e-06,
+        "Uy": 1.52250608739655e-07,
+        "p_rgh": 9.55754890647361e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 292,
+      "time_s": 0.0146,
+      "residuals": {
+        "Ux": 2.89905499256817e-06,
+        "Uy": 2.13065982656551e-07,
+        "p_rgh": 8.2045337322602e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 293,
+      "time_s": 0.01465,
+      "residuals": {
+        "Ux": 3.00076481680187e-06,
+        "Uy": 2.15834620519866e-07,
+        "p_rgh": 9.04202475775339e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 294,
+      "time_s": 0.0147,
+      "residuals": {
+        "Ux": 1.511901171965e-05,
+        "Uy": 1.01004703603392e-06,
+        "p_rgh": 8.10380861469378e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 295,
+      "time_s": 0.01475,
+      "residuals": {
+        "Ux": 2.47956538827529e-06,
+        "Uy": 1.75559632650448e-07,
+        "p_rgh": 8.77433739466863e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 296,
+      "time_s": 0.0148,
+      "residuals": {
+        "Ux": 2.52913185115523e-06,
+        "Uy": 1.77977940802613e-07,
+        "p_rgh": 9.57535447018012e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 297,
+      "time_s": 0.01485,
+      "residuals": {
+        "Ux": 4.38169269142924e-06,
+        "Uy": 2.84180544817862e-07,
+        "p_rgh": 7.86685700985498e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 298,
+      "time_s": 0.0149,
+      "residuals": {
+        "Ux": 4.55169572882156e-06,
+        "Uy": 2.88676709765209e-07,
+        "p_rgh": 8.90194260219161e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 299,
+      "time_s": 0.01495,
+      "residuals": {
+        "Ux": 2.36659573659141e-05,
+        "Uy": 1.37364731812476e-06,
+        "p_rgh": 7.67390722541977e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 300,
+      "time_s": 0.015,
+      "residuals": {
+        "Ux": 3.90368895048086e-06,
+        "Uy": 2.36498472156038e-07,
+        "p_rgh": 8.48661135298471e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 301,
+      "time_s": 0.01505,
+      "residuals": {
+        "Ux": 3.98927775719665e-06,
+        "Uy": 2.40584611383326e-07,
+        "p_rgh": 9.43784747711026e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 302,
+      "time_s": 0.0151,
+      "residuals": {
+        "Ux": 7.23000747444612e-06,
+        "Uy": 3.8575060318013e-07,
+        "p_rgh": 7.33225837285125e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 303,
+      "time_s": 0.01515,
+      "residuals": {
+        "Ux": 7.52136821689233e-06,
+        "Uy": 3.93030153490191e-07,
+        "p_rgh": 8.52695533695597e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 304,
+      "time_s": 0.0152,
+      "residuals": {
+        "Ux": 0.00016198637971207,
+        "Uy": 7.38828067213003e-06,
+        "p_rgh": 7.08806499154777e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 305,
+      "time_s": 0.01525,
+      "residuals": {
+        "Ux": 7.15074416278829e-06,
+        "Uy": 3.38742001578195e-07,
+        "p_rgh": 8.09717161240706e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 306,
+      "time_s": 0.0153,
+      "residuals": {
+        "Ux": 7.28023362406508e-06,
+        "Uy": 3.45740231417035e-07,
+        "p_rgh": 9.24256141050362e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 307,
+      "time_s": 0.01535,
+      "residuals": {
+        "Ux": 1.52995433374229e-05,
+        "Uy": 5.80653923870257e-07,
+        "p_rgh": 6.63887667156167e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 308,
+      "time_s": 0.0154,
+      "residuals": {
+        "Ux": 1.5710523940517e-05,
+        "Uy": 5.93869865064155e-07,
+        "p_rgh": 8.1403448309635e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 309,
+      "time_s": 0.01545,
+      "residuals": {
+        "Ux": 0.000101981811173391,
+        "Uy": 2.90609332634836e-06,
+        "p_rgh": 6.35918887021538e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 310,
+      "time_s": 0.0155,
+      "residuals": {
+        "Ux": 1.65387459092679e-05,
+        "Uy": 4.86262555580028e-07,
+        "p_rgh": 7.47755565711881e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 311,
+      "time_s": 0.01555,
+      "residuals": {
+        "Ux": 1.64332587992001e-05,
+        "Uy": 4.98163583812703e-07,
+        "p_rgh": 8.8571189690043e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 312,
+      "time_s": 0.0156,
+      "residuals": {
+        "Ux": 0.000254056275861338,
+        "Uy": 4.07910729190227e-06,
+        "p_rgh": 6.04202056668007e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 313,
+      "time_s": 0.01565,
+      "residuals": {
+        "Ux": 4.58033063094396e-05,
+        "Uy": 9.19606044211572e-07,
+        "p_rgh": 8.18728433264868e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 314,
+      "time_s": 0.0157,
+      "residuals": {
+        "Ux": 0.000116643414667801,
+        "Uy": 6.70925934472198e-07,
+        "p_rgh": 5.79029331683238e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 315,
+      "time_s": 0.01575,
+      "residuals": {
+        "Ux": 6.47844302870267e-05,
+        "Uy": 6.90602641212052e-07,
+        "p_rgh": 6.61942920267415e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 316,
+      "time_s": 0.0158,
+      "residuals": {
+        "Ux": 2.63952559994382e-05,
+        "Uy": 7.10982650168678e-07,
+        "p_rgh": 8.03830655683679e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 317,
+      "time_s": 0.01585,
+      "residuals": {
+        "Ux": 1.65042401158757e-05,
+        "Uy": 7.30213945533376e-07,
+        "p_rgh": 9.60153590838674e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 318,
+      "time_s": 0.0159,
+      "residuals": {
+        "Ux": 5.61850709487125e-05,
+        "Uy": 1.66687602471366e-06,
+        "p_rgh": 5.24944918676159e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 319,
+      "time_s": 0.01595,
+      "residuals": {
+        "Ux": 3.81786460607808e-05,
+        "Uy": 1.72214335054402e-06,
+        "p_rgh": 8.09870060046077e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 320,
+      "time_s": 0.016,
+      "residuals": {
+        "Ux": 2.52615124008624e-05,
+        "Uy": 1.11456807731308e-06,
+        "p_rgh": 5.03829277761735e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 321,
+      "time_s": 0.01605,
+      "residuals": {
+        "Ux": 1.86991810095979e-05,
+        "Uy": 1.15582628140061e-06,
+        "p_rgh": 6.10050588429044e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 322,
+      "time_s": 0.0161,
+      "residuals": {
+        "Ux": 1.35871763299758e-05,
+        "Uy": 1.19348736240352e-06,
+        "p_rgh": 7.95447949836528e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 323,
+      "time_s": 0.01615,
+      "residuals": {
+        "Ux": 1.06397887056766e-05,
+        "Uy": 1.22884486613408e-06,
+        "p_rgh": 9.9804090848702e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 324,
+      "time_s": 0.0162,
+      "residuals": {
+        "Ux": 3.09042464921653e-05,
+        "Uy": 2.85262870710089e-06,
+        "p_rgh": 4.68541333279691e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 325,
+      "time_s": 0.01625,
+      "residuals": {
+        "Ux": 2.53948294057367e-05,
+        "Uy": 2.96242862337208e-06,
+        "p_rgh": 8.45779878850902e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 326,
+      "time_s": 0.0163,
+      "residuals": {
+        "Ux": 1.65081966342787e-05,
+        "Uy": 1.92352244442108e-06,
+        "p_rgh": 4.74215729922297e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 327,
+      "time_s": 0.01635,
+      "residuals": {
+        "Ux": 1.38260359101639e-05,
+        "Uy": 2.012067827317e-06,
+        "p_rgh": 6.34092053325367e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 328,
+      "time_s": 0.0164,
+      "residuals": {
+        "Ux": 1.10332734829799e-05,
+        "Uy": 2.07728834000393e-06,
+        "p_rgh": 8.7774360988829e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 329,
+      "time_s": 0.01645,
+      "residuals": {
+        "Ux": 1.86127350246816e-05,
+        "Uy": 3.1164301523888e-06,
+        "p_rgh": 4.4258629189778e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 330,
+      "time_s": 0.0165,
+      "residuals": {
+        "Ux": 1.63948034806314e-05,
+        "Uy": 3.27306235712427e-06,
+        "p_rgh": 7.21685585494858e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 331,
+      "time_s": 0.01655,
+      "residuals": {
+        "Ux": 8.26508791971461e-05,
+        "Uy": 1.67033803547084e-05,
+        "p_rgh": 4.53328867727394e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 332,
+      "time_s": 0.0166,
+      "residuals": {
+        "Ux": 1.08547958891185e-05,
+        "Uy": 2.79018406527479e-06,
+        "p_rgh": 6.8473536032894e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 333,
+      "time_s": 0.01665,
+      "residuals": {
+        "Ux": 9.10860200446709e-06,
+        "Uy": 2.89486356953565e-06,
+        "p_rgh": 9.38160480401516e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 334,
+      "time_s": 0.0167,
+      "residuals": {
+        "Ux": 1.77125378092517e-05,
+        "Uy": 5.27585306314723e-06,
+        "p_rgh": 5.07041502974435e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 335,
+      "time_s": 0.01675,
+      "residuals": {
+        "Ux": 1.56945069372759e-05,
+        "Uy": 5.56555416137609e-06,
+        "p_rgh": 8.43540929359346e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 336,
+      "time_s": 0.0168,
+      "residuals": {
+        "Ux": 1.03917457144796e-05,
+        "Uy": 3.85150070403001e-06,
+        "p_rgh": 5.39196898788048e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 337,
+      "time_s": 0.01685,
+      "residuals": {
+        "Ux": 9.42794577311983e-06,
+        "Uy": 4.1460113429613e-06,
+        "p_rgh": 7.17314911089143e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 338,
+      "time_s": 0.0169,
+      "residuals": {
+        "Ux": 8.13860425638657e-06,
+        "Uy": 4.36521737270928e-06,
+        "p_rgh": 9.40591512251006e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 339,
+      "time_s": 0.01695,
+      "residuals": {
+        "Ux": 1.29916548397139e-05,
+        "Uy": 7.1633886981207e-06,
+        "p_rgh": 5.83978448462282e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 340,
+      "time_s": 0.017,
+      "residuals": {
+        "Ux": 1.19675812258519e-05,
+        "Uy": 7.8403537842754e-06,
+        "p_rgh": 8.42169257131047e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 341,
+      "time_s": 0.01705,
+      "residuals": {
+        "Ux": 7.67402603168478e-06,
+        "Uy": 5.80352720580171e-06,
+        "p_rgh": 6.09030545365144e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 342,
+      "time_s": 0.0171,
+      "residuals": {
+        "Ux": 7.16126134170823e-06,
+        "Uy": 6.57265396753494e-06,
+        "p_rgh": 7.53282600687342e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 343,
+      "time_s": 0.01715,
+      "residuals": {
+        "Ux": 6.40379999845927e-06,
+        "Uy": 7.31461938981825e-06,
+        "p_rgh": 9.2242116584863e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 344,
+      "time_s": 0.0172,
+      "residuals": {
+        "Ux": 1.00963601135819e-05,
+        "Uy": 1.4535365384451e-05,
+        "p_rgh": 6.50386422269776e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 345,
+      "time_s": 0.01725,
+      "residuals": {
+        "Ux": 9.50196477875934e-06,
+        "Uy": 1.8093038958615e-05,
+        "p_rgh": 8.56236846439498e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 346,
+      "time_s": 0.0173,
+      "residuals": {
+        "Ux": 6.05316247000404e-06,
+        "Uy": 2.00691132778722e-05,
+        "p_rgh": 6.58407213847485e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 347,
+      "time_s": 0.01735,
+      "residuals": {
+        "Ux": 5.7697102458892e-06,
+        "Uy": 3.63221817692115e-05,
+        "p_rgh": 7.78288128423527e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 348,
+      "time_s": 0.0174,
+      "residuals": {
+        "Ux": 5.29550656093477e-06,
+        "Uy": 2.36384843537045e-05,
+        "p_rgh": 9.15438076878096e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 349,
+      "time_s": 0.01745,
+      "residuals": {
+        "Ux": 8.04311907086878e-06,
+        "Uy": 2.49743589998092e-05,
+        "p_rgh": 6.76588508630758e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 350,
+      "time_s": 0.0175,
+      "residuals": {
+        "Ux": 7.68713505375475e-06,
+        "Uy": 1.52098838518189e-05,
+        "p_rgh": 8.46668649546655e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 351,
+      "time_s": 0.01755,
+      "residuals": {
+        "Ux": 4.87434698332891e-06,
+        "Uy": 7.592508803144e-06,
+        "p_rgh": 6.72077067512238e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 352,
+      "time_s": 0.0176,
+      "residuals": {
+        "Ux": 4.71769346128407e-06,
+        "Uy": 5.90709128795427e-06,
+        "p_rgh": 7.70691535429356e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 353,
+      "time_s": 0.01765,
+      "residuals": {
+        "Ux": 4.41436188067331e-06,
+        "Uy": 4.67090984070603e-06,
+        "p_rgh": 8.84990521820268e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 354,
+      "time_s": 0.0177,
+      "residuals": {
+        "Ux": 3.52562152441827e-05,
+        "Uy": 3.13865350471217e-05,
+        "p_rgh": 6.83270691440748e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 355,
+      "time_s": 0.01775,
+      "residuals": {
+        "Ux": 6.9865546089044e-06,
+        "Uy": 5.58545707462559e-06,
+        "p_rgh": 8.57199036592803e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 356,
+      "time_s": 0.0178,
+      "residuals": {
+        "Ux": 5.16930867860258e-06,
+        "Uy": 3.70442486105804e-06,
+        "p_rgh": 6.66545995534128e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 357,
+      "time_s": 0.01785,
+      "residuals": {
+        "Ux": 5.02496145339789e-06,
+        "Uy": 3.30191235819921e-06,
+        "p_rgh": 7.77034770611451e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 358,
+      "time_s": 0.0179,
+      "residuals": {
+        "Ux": 4.707846980897e-06,
+        "Uy": 2.91960955828887e-06,
+        "p_rgh": 9.0981730304736e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 359,
+      "time_s": 0.01795,
+      "residuals": {
+        "Ux": 7.20038192010296e-06,
+        "Uy": 3.90976109071331e-06,
+        "p_rgh": 6.53706107140388e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 360,
+      "time_s": 0.018,
+      "residuals": {
+        "Ux": 6.96977591379187e-06,
+        "Uy": 3.56832409143568e-06,
+        "p_rgh": 8.27285146705659e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 361,
+      "time_s": 0.01805,
+      "residuals": {
+        "Ux": 3.51654884968703e-05,
+        "Uy": 1.61133367690467e-05,
+        "p_rgh": 6.48089758036065e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 362,
+      "time_s": 0.0181,
+      "residuals": {
+        "Ux": 5.28677329117603e-06,
+        "Uy": 2.40983820467226e-06,
+        "p_rgh": 7.98307874573734e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 363,
+      "time_s": 0.01815,
+      "residuals": {
+        "Ux": 4.95121093306363e-06,
+        "Uy": 2.21577638401322e-06,
+        "p_rgh": 9.63677039625634e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 364,
+      "time_s": 0.0182,
+      "residuals": {
+        "Ux": 8.84601704286282e-06,
+        "Uy": 3.4529909294099e-06,
+        "p_rgh": 6.40105026467939e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 365,
+      "time_s": 0.01825,
+      "residuals": {
+        "Ux": 8.52341147253929e-06,
+        "Uy": 3.23152712486173e-06,
+        "p_rgh": 8.77074237240445e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 366,
+      "time_s": 0.0183,
+      "residuals": {
+        "Ux": 5.58761357222801e-06,
+        "Uy": 1.9328801283325e-06,
+        "p_rgh": 6.28432825013479e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 367,
+      "time_s": 0.01835,
+      "residuals": {
+        "Ux": 5.47237202743088e-06,
+        "Uy": 1.83563919712014e-06,
+        "p_rgh": 7.6416048878364e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 368,
+      "time_s": 0.0184,
+      "residuals": {
+        "Ux": 5.14813992787891e-06,
+        "Uy": 1.7283278389483e-06,
+        "p_rgh": 9.22974133216998e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 369,
+      "time_s": 0.01845,
+      "residuals": {
+        "Ux": 7.97262679796023e-06,
+        "Uy": 2.3130679533934e-06,
+        "p_rgh": 6.15874344905547e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 370,
+      "time_s": 0.0185,
+      "residuals": {
+        "Ux": 7.7974899952201e-06,
+        "Uy": 2.20570755503639e-06,
+        "p_rgh": 8.25545832763031e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 371,
+      "time_s": 0.01855,
+      "residuals": {
+        "Ux": 5.02477441816576e-06,
+        "Uy": 1.30514119251252e-06,
+        "p_rgh": 6.10501998111128e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 372,
+      "time_s": 0.0186,
+      "residuals": {
+        "Ux": 4.96316424878902e-06,
+        "Uy": 1.25442732664622e-06,
+        "p_rgh": 7.30982738372344e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 373,
+      "time_s": 0.01865,
+      "residuals": {
+        "Ux": 4.7213362650103e-06,
+        "Uy": 1.19978441938754e-06,
+        "p_rgh": 8.66523961734492e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 374,
+      "time_s": 0.0187,
+      "residuals": {
+        "Ux": 0.000145933215191457,
+        "Uy": 3.14465465098195e-05,
+        "p_rgh": 6.33125587092698e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": false
+    },
+    {
+      "step": 375,
+      "time_s": 0.01875,
+      "residuals": {
+        "Ux": 8.14373654358056e-06,
+        "Uy": 1.78292920025097e-06,
+        "p_rgh": 8.56788630292578e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 376,
+      "time_s": 0.0188,
+      "residuals": {
+        "Ux": 6.43547006358405e-06,
+        "Uy": 1.29468036821017e-06,
+        "p_rgh": 6.29521622715232e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 377,
+      "time_s": 0.01885,
+      "residuals": {
+        "Ux": 6.33390076620004e-06,
+        "Uy": 1.25289897335463e-06,
+        "p_rgh": 7.72526102801879e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 378,
+      "time_s": 0.0189,
+      "residuals": {
+        "Ux": 5.95659425317811e-06,
+        "Uy": 1.20651891980339e-06,
+        "p_rgh": 9.35662565195127e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 379,
+      "time_s": 0.01895,
+      "residuals": {
+        "Ux": 9.63675963383948e-06,
+        "Uy": 1.66168819068915e-06,
+        "p_rgh": 6.42697037273556e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 380,
+      "time_s": 0.019,
+      "residuals": {
+        "Ux": 9.43844382544189e-06,
+        "Uy": 1.61024942934085e-06,
+        "p_rgh": 8.48812179889534e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 381,
+      "time_s": 0.01905,
+      "residuals": {
+        "Ux": 6.30972124862999e-06,
+        "Uy": 9.66365148894063e-07,
+        "p_rgh": 6.3668120035307e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 382,
+      "time_s": 0.0191,
+      "residuals": {
+        "Ux": 6.2574762961363e-06,
+        "Uy": 9.40130102377627e-07,
+        "p_rgh": 7.49039058396444e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 383,
+      "time_s": 0.01915,
+      "residuals": {
+        "Ux": 5.93383124634627e-06,
+        "Uy": 9.12745507932668e-07,
+        "p_rgh": 8.82216948217835e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 384,
+      "time_s": 0.0192,
+      "residuals": {
+        "Ux": 5.12074801757722e-05,
+        "Uy": 6.52334097330142e-06,
+        "p_rgh": 6.4636647574402e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 385,
+      "time_s": 0.01925,
+      "residuals": {
+        "Ux": 1.02908253858749e-05,
+        "Uy": 1.33558584591854e-06,
+        "p_rgh": 8.45963107494577e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 386,
+      "time_s": 0.0193,
+      "residuals": {
+        "Ux": 8.15436104293646e-06,
+        "Uy": 9.42151091795522e-07,
+        "p_rgh": 6.36001762869576e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 387,
+      "time_s": 0.01935,
+      "residuals": {
+        "Ux": 8.04708099032993e-06,
+        "Uy": 9.2015516175668e-07,
+        "p_rgh": 7.56187729156336e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 388,
+      "time_s": 0.0194,
+      "residuals": {
+        "Ux": 7.51713015901938e-06,
+        "Uy": 8.96688067799399e-07,
+        "p_rgh": 8.99609873946379e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 389,
+      "time_s": 0.01945,
+      "residuals": {
+        "Ux": 1.29047729342923e-05,
+        "Uy": 1.24166670444468e-06,
+        "p_rgh": 6.33747266466671e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 390,
+      "time_s": 0.0195,
+      "residuals": {
+        "Ux": 1.27202271708095e-05,
+        "Uy": 1.21382979188076e-06,
+        "p_rgh": 8.12866252339363e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 391,
+      "time_s": 0.01955,
+      "residuals": {
+        "Ux": 7.02049066361822e-05,
+        "Uy": 5.73785142831775e-06,
+        "p_rgh": 6.38468266556867e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 392,
+      "time_s": 0.0196,
+      "residuals": {
+        "Ux": 1.04040230044279e-05,
+        "Uy": 9.01160337036376e-07,
+        "p_rgh": 7.85193024321202e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 393,
+      "time_s": 0.01965,
+      "residuals": {
+        "Ux": 9.50718792814487e-06,
+        "Uy": 8.80043487691642e-07,
+        "p_rgh": 9.47865992358641e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 394,
+      "time_s": 0.0197,
+      "residuals": {
+        "Ux": 2.04057675714664e-05,
+        "Uy": 1.40065673177991e-06,
+        "p_rgh": 6.45311036484497e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 395,
+      "time_s": 0.01975,
+      "residuals": {
+        "Ux": 1.96443963186201e-05,
+        "Uy": 1.37287312183696e-06,
+        "p_rgh": 8.65965250404213e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 396,
+      "time_s": 0.0198,
+      "residuals": {
+        "Ux": 1.5020168815096e-05,
+        "Uy": 8.39757814749949e-07,
+        "p_rgh": 6.42435710362697e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 397,
+      "time_s": 0.01985,
+      "residuals": {
+        "Ux": 1.45504266553958e-05,
+        "Uy": 8.25165120116929e-07,
+        "p_rgh": 7.67516054540532e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 398,
+      "time_s": 0.0199,
+      "residuals": {
+        "Ux": 1.28950830608589e-05,
+        "Uy": 8.0947525051237e-07,
+        "p_rgh": 9.15759931204389e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 399,
+      "time_s": 0.01995,
+      "residuals": {
+        "Ux": 2.61262204881147e-05,
+        "Uy": 1.10631117690748e-06,
+        "p_rgh": 6.50568512769928e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    },
+    {
+      "step": 400,
+      "time_s": 0.02,
+      "residuals": {
+        "Ux": 2.56869167122826e-05,
+        "Uy": 1.08751420366449e-06,
+        "p_rgh": 8.37568664369762e-11
+      },
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "passed": true
+    }
+  ],
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_common_v002.py": "254beff66c67eb0482a9350c621f58aa24ab9889bd9747b754a82ce804fc4c9b",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_admission_v003.py": "fbddccf09f88a079f0b1f92a3ff9e13c55230967ee4c7d29da7ab8272f09de9c",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\prepare_dam_break_openfoam_v003.py": "fa21585fe6c51184eb32c15977b6d295295bdab720ca2f270a9cd0fe9fc30411",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\check_dam_break_inputs_v003.py": "7aa8e5226b64b23179f264c98bc8ddeab967ed0be4a98154431d884f89b7a484",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\check_smaller_dt_meshes_v001.sh": "2586b5c6b53ea9c78066262bd6f1688adb6dea3bba641e42a28d4c0c67788eb0",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_fluent_v005.py": "6e78b52243bb47ce489f2807d82ef73a3f3eb50572cc2ea2a4a910c6e91ef1c8",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\audit_dam_break_fluent_v003.py": "699318cd86cf10e9c11440b33c2efb1b4049c5bfe92e4de18fbe47c8a34dd438",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\audit_dam_break_openfoam_v002.py": "297ba416f1ff46de79171b6668fee3343544cb397f78f7211edcaf4c93bf0656",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_openfoam_v003.sh": "4a487d8311512d45bd3420b193ce5292aaf81000940877a8ec86427662171daf",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_single_openfoam_v003.py": "c68714986a79d6594c478b91ce5ea55078b26870727e4f816b68ff30f9af7993",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_corrected_qualification_pair_v001.py": "40f93c1c0f0c0664cba66f0322894a1a9acbd65e65b73d8729756efc68e72425",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\render_dam_break_qualification_v004.py": "045a78b473de6ed973d91242c4ab45915be51801cbf2e3d5191240804f5688dd",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_coupled_half_dt_windows_v001.py": "b7f7e038b67195e9170f835d2815df1bb0254d3dd05874961afdc8076bf44ff1",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\CORRECTED-METHOD-v001.md": "75229804b253dfa79690791b8480899f52193e1c15b1b0ea29959da7bca375bf",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\COMPLETION-ADDENDUM-v001.md": "a9de06a8c2f9f99e80e28fdae3d8b2f3ba3672bb4f2ed1dba26e86fd5d4ec348",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\solver-inputs-v002.json": "7f463083aa8714f636566b730b0e9eae9a882dcf47738a7fc51ba616b4eb7e1a",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-inputs-v003.json": "0425bb291328d6b9728e7b48b3248d3435f150a47d01ef64e2ca4859a621f728",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-native-input-check-v003.json": "d428abfbbc2115fd50e42b05507f66ec9c9eaa64ed16a6bf5953b23c2a093749",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\smaller-dt-native-copy-verification-v001.json": "68e237ef936c45b7b50a09485f147f49854d89cf44ab811e8d417410f55320b5",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\dam-break-over-obstacle-9072-v001\\tank.msh": "1e282faa24d9be68e0685d82822bc8359e886b7c4e204ba80067747205e80ebc",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\dam-break-over-obstacle-9072-v001\\geometry.npz": "857a10be8a620b7e33dad364af234aeaf7f2a70d7ed8795585896482f760af39",
+    "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\wing_fluent_v001.py": "ce5c3ac2f783b64381b5d99b6bc8cc32624f24999d9d73e3c052ab036499a1c8",
+    "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\scripts\\analyse_nozzle_fluent_v005.py": "dc5ecfaf78f278ccc9693aa68a4a03ae4369948c1be3655fa0ecfbefc62b7a4e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\window-audit.json": "3f497cbc6c8237ab3e67b94c76e19d5a81c8ed88df89a1ed9bd58a19146035a2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\declared-settings.json": "246dddbfefe12754dc59000b9790950ac5b7719ecbb25b7fd3bf3eb21a1fd147",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\mesh-check.log": "2ca2d3e1906bf0c3eea5d153d33146f8daf5814c46aa1e9296bce92899e984fe",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\system\\blockMeshDict": "223cedba71febc6705590e3a7bbd941f90bb9750fc8195b82380645ee814b019",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\system\\controlDict": "4838178fcc084d31b9131c14539d3467a963c9c87b0507719e65e9c24638d37b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\system\\fvSchemes": "07cc2b3a3f686bb9300eb4886722e33a14bd5891d2a2596e160793818eec97e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\system\\fvSolution": "100ecbc66fede42b76e916400c0af1c842664fae233f5c6befe4c522017a8f4a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\system\\decomposeParDict": "ef788d7bbb4fe8d922f9e11144d42d2ac5bbfcd2d6aeb724e7b4834eaf497072",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\0\\alpha.water": "fe749eaaa8333988c905b9de5ad12b2e9ef6e6c85b6d5b2f43fb5dfa248eea3b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\0\\U": "750f9405d82326576a228b94f470f57cbaf450447bb659aa23877a7b2b949916",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\0\\p_rgh": "1c15656703bf0a2cca280a344751bd6a64cdd06f05e8798183087e42f0c814d9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\0\\C": "30315bbc286d538645095b809cebada849d1145f659dde1a8dd55dc1184f2a1e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\0\\Vc": "8b4c4699a6d79281da20c68ccde4168fa5f97b11f497fb99e487e9b8a04838f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\g": "5fbc3114b43ae55d4251cbec1d2f44a8fd7a4612bd99c3258088634fa9a8acfd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\phaseProperties": "d03381781d73a53ef29d485449186d9e3602b528951b3135ce5a0cb5d8595b96",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\physicalProperties.water": "c4cf7c0b013df05bbdb006ed2a7f054780908f8b6107c8a3523c69d020de6d70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\physicalProperties.air": "21fd1d5de51008438eb5875ef14a745087b1b349acbf8ae0175c1631e7f9ddfc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\momentumTransport": "462475fb839bf7259c364c64517a5493e57f5becbdbc7cb886eff7230bfa4f7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\polyMesh\\points": "978bdf8fe65e3749e0975c1acc4f589c8a7017f2f23cd872033b131e026a68c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\polyMesh\\neighbour": "3ed837ae87e90ab9667204ccf3ead662d357facf2f768f94bbda889ea50d4dd6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\polyMesh\\faces": "10c39ffec3b9af443e726c9fc16421e37ac53ba57c1bceb4e6b9792bd26a288d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\polyMesh\\owner": "c31a825e416f1b063f7ad295406745eb1f171bee2de1c9ed6f6b479a3b406958",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-dt005ms-v001\\constant\\polyMesh\\boundary": "4bf44763f841db0030c198c349a672bdc615dde4c1bc9c0d6e71bed4370642fc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\declared-settings.json": "f1d10202614e14e4020d987157802cfbacb6271baa1f9d5afa34114d164a220b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\mesh-check.log": "f7c5111e94ed52ab4236d11e930531e3066a4ef08d2daa76a47f3c2e78f05c68",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\system\\blockMeshDict": "223cedba71febc6705590e3a7bbd941f90bb9750fc8195b82380645ee814b019",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\system\\controlDict": "4838178fcc084d31b9131c14539d3467a963c9c87b0507719e65e9c24638d37b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\system\\fvSchemes": "07cc2b3a3f686bb9300eb4886722e33a14bd5891d2a2596e160793818eec97e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\system\\fvSolution": "100ecbc66fede42b76e916400c0af1c842664fae233f5c6befe4c522017a8f4a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\system\\decomposeParDict": "ef788d7bbb4fe8d922f9e11144d42d2ac5bbfcd2d6aeb724e7b4834eaf497072",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\0\\alpha.water": "6f3ba850547f0f2fdf843bdcf37ba0085d3a338c6c41a3058b0ab362fc6abc63",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\0\\U": "750f9405d82326576a228b94f470f57cbaf450447bb659aa23877a7b2b949916",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\0\\p_rgh": "721ab53801ab511521701eb8a7b49e8b9469fc3cc5bcc7451cd2d953ccf3cf3c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\0\\C": "30315bbc286d538645095b809cebada849d1145f659dde1a8dd55dc1184f2a1e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\0\\Vc": "8b4c4699a6d79281da20c68ccde4168fa5f97b11f497fb99e487e9b8a04838f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\g": "5fbc3114b43ae55d4251cbec1d2f44a8fd7a4612bd99c3258088634fa9a8acfd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\phaseProperties": "d03381781d73a53ef29d485449186d9e3602b528951b3135ce5a0cb5d8595b96",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\physicalProperties.water": "c4cf7c0b013df05bbdb006ed2a7f054780908f8b6107c8a3523c69d020de6d70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\physicalProperties.air": "21fd1d5de51008438eb5875ef14a745087b1b349acbf8ae0175c1631e7f9ddfc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\momentumTransport": "462475fb839bf7259c364c64517a5493e57f5becbdbc7cb886eff7230bfa4f7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\polyMesh\\points": "978bdf8fe65e3749e0975c1acc4f589c8a7017f2f23cd872033b131e026a68c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\polyMesh\\neighbour": "3ed837ae87e90ab9667204ccf3ead662d357facf2f768f94bbda889ea50d4dd6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\polyMesh\\faces": "10c39ffec3b9af443e726c9fc16421e37ac53ba57c1bceb4e6b9792bd26a288d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\polyMesh\\owner": "c31a825e416f1b063f7ad295406745eb1f171bee2de1c9ed6f6b479a3b406958",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-dt005ms-v001\\constant\\polyMesh\\boundary": "4bf44763f841db0030c198c349a672bdc615dde4c1bc9c0d6e71bed4370642fc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\declared-settings.json": "6b4b97c08617646354615c01a079b08da632cc97a1b193076d5be4fea8d84b7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\mesh-check.log": "574af4a5a265199ee83a1671c1c8640011e4c506595bcfb979219f0f351e33de",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\system\\blockMeshDict": "223cedba71febc6705590e3a7bbd941f90bb9750fc8195b82380645ee814b019",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\system\\controlDict": "6d5ce5e0ced9de05634a155e87c72ff1eb997369f419ce7e0da63ca242350d02",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\system\\fvSchemes": "07cc2b3a3f686bb9300eb4886722e33a14bd5891d2a2596e160793818eec97e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\system\\fvSolution": "100ecbc66fede42b76e916400c0af1c842664fae233f5c6befe4c522017a8f4a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\system\\decomposeParDict": "ef788d7bbb4fe8d922f9e11144d42d2ac5bbfcd2d6aeb724e7b4834eaf497072",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\0\\alpha.water": "6f3ba850547f0f2fdf843bdcf37ba0085d3a338c6c41a3058b0ab362fc6abc63",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\0\\U": "750f9405d82326576a228b94f470f57cbaf450447bb659aa23877a7b2b949916",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\0\\p_rgh": "721ab53801ab511521701eb8a7b49e8b9469fc3cc5bcc7451cd2d953ccf3cf3c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\0\\C": "30315bbc286d538645095b809cebada849d1145f659dde1a8dd55dc1184f2a1e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\0\\Vc": "8b4c4699a6d79281da20c68ccde4168fa5f97b11f497fb99e487e9b8a04838f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\g": "5fbc3114b43ae55d4251cbec1d2f44a8fd7a4612bd99c3258088634fa9a8acfd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\phaseProperties": "d03381781d73a53ef29d485449186d9e3602b528951b3135ce5a0cb5d8595b96",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\physicalProperties.water": "c4cf7c0b013df05bbdb006ed2a7f054780908f8b6107c8a3523c69d020de6d70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\physicalProperties.air": "21fd1d5de51008438eb5875ef14a745087b1b349acbf8ae0175c1631e7f9ddfc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\momentumTransport": "462475fb839bf7259c364c64517a5493e57f5becbdbc7cb886eff7230bfa4f7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\polyMesh\\points": "978bdf8fe65e3749e0975c1acc4f589c8a7017f2f23cd872033b131e026a68c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\polyMesh\\neighbour": "3ed837ae87e90ab9667204ccf3ead662d357facf2f768f94bbda889ea50d4dd6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\polyMesh\\faces": "10c39ffec3b9af443e726c9fc16421e37ac53ba57c1bceb4e6b9792bd26a288d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\polyMesh\\owner": "c31a825e416f1b063f7ad295406745eb1f171bee2de1c9ed6f6b479a3b406958",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-v001\\constant\\polyMesh\\boundary": "4bf44763f841db0030c198c349a672bdc615dde4c1bc9c0d6e71bed4370642fc",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_admission_v004.py": "5779adb1fab6298b21584760b637a29610125ad5291a2de5018adcbea76e9645",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_openfoam_v004.sh": "8fa1c022131da51cd33641f94859820b90399a7b3a64746678e66c4ac1c7af8d",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_single_openfoam_v004.py": "0f54bb8fa9e1f3fabf8d4d92b1962591dd815a25a21c9650f529c627b7162e55",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_fluent_v007.py": "e5530f433fee5d1d1b323ef23c1463abd58a6af0178452f317b60de3ffb1ade9",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_fluent_v008.py": "2b7332b0d13d98ca0ea3b66e42f4fef4a9633ab0178b3f1cf2b1f1ef9cef7a70",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\audit_dam_break_fluent_v005.py": "eb923cc29b353655d6a950d1b57f6ee06275aea4b0fb14506b3cde56363d8d45",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\audit_dam_break_fluent_v006.py": "255549d8b1204523cc7d594dbad3bfebff843f856a49146c68ef4fd7f25d2050",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\audit_dam_break_openfoam_v003.py": "64eb219931191335626c92030ff6df155e0e9bb7d2958b07994b23b8ebac7b68",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_corrected_qualification_pair_v002.py": "9bfd84ee81c7e5e25dda39c2d2a4858b6ff4886cb255e48baa6698c2326ce86c",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_runtime_guard_v001.py": "6d78a979c5b921ac599d0234b4324d3d77f8e33defeab0a8798cfdb129c95aa8",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\runtime-guard-native-regression-v001.json": "f6135d8110dcc9c44a705b5e1ae074f9dcbb79604883836a16321d9c38822018",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\solver-inputs-v003.json": "fa838d6585b740d6cb584c27f029194ef42f634de7aedf21a4b9dbfe5b57d451",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\cross-platform-launch-correction-v004.json": "55f498cd95d534ee62e3db835b6b9624e9f4c943504322561df02aa6aa964448",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_production_pair_v002.py": "3b60366c961c96db239b23e387eb282311701a5f17141391e5411a7a43041078",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_openfoam_admission_v005.py": "864f11c77c4c20bfded3b760c2a3fdbb8980f1e1abff859c0c10f076d259c69d",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_openfoam_urelax07_v001.sh": "0b5f83107b1e79ba1619750e9f70dd538bb89b98b03305057e92913483a6a19f",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_openfoam_urelax07_pipeline_v001.py": "ad126184253394b41d9e01a91bd1f8302066965f25dcdf20213566a34fdfa3ef",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\audit_dam_break_openfoam_v004.py": "00b7d962052337f8bf605ecc9abc4f3e33cdebe80f75ccb9a8eb523a293707c5",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\solver-inputs-v004.json": "e3874f30955459ebfd3f9d6b1623bc2f49751f669f0ffffcf4394f8d96c26611",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-production-dt005ms-audit.json": "ccf6ed4356721fd08a13dd1e7ee8640327a3e1e3f299529ec39936ddd4bd37ae",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-production-dt005ms-audit.json": "21ba1c48f126daaa84fcb918d3db44d95d2fb1286126ddff7939cc691e184156",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-pressure-cycle-inputs-v002.json": "d0c1bf821cf1994c9fc250ac123b3b54274a6f8084ebae4ad4e24f351debbdeb",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\openfoam-pressure-cycle-urelax07-v002\\window-audit.json": "6a9a965a0f987a59d23369056e7d8db15b020594b9be14c046c979dcb0de6add",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\declared-settings.json": "2b491450286e47f717ed5089cca99fc775d96692dddbd6a836ac561eabcd5893",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0\\alpha.water": "fe749eaaa8333988c905b9de5ad12b2e9ef6e6c85b6d5b2f43fb5dfa248eea3b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0\\U": "750f9405d82326576a228b94f470f57cbaf450447bb659aa23877a7b2b949916",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0\\p_rgh": "1c15656703bf0a2cca280a344751bd6a64cdd06f05e8798183087e42f0c814d9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0\\C": "30315bbc286d538645095b809cebada849d1145f659dde1a8dd55dc1184f2a1e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0\\Vc": "8b4c4699a6d79281da20c68ccde4168fa5f97b11f497fb99e487e9b8a04838f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\g": "5fbc3114b43ae55d4251cbec1d2f44a8fd7a4612bd99c3258088634fa9a8acfd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\phaseProperties": "d03381781d73a53ef29d485449186d9e3602b528951b3135ce5a0cb5d8595b96",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\physicalProperties.water": "c4cf7c0b013df05bbdb006ed2a7f054780908f8b6107c8a3523c69d020de6d70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\physicalProperties.air": "21fd1d5de51008438eb5875ef14a745087b1b349acbf8ae0175c1631e7f9ddfc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\momentumTransport": "462475fb839bf7259c364c64517a5493e57f5becbdbc7cb886eff7230bfa4f7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\system\\blockMeshDict": "223cedba71febc6705590e3a7bbd941f90bb9750fc8195b82380645ee814b019",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\system\\controlDict": "4838178fcc084d31b9131c14539d3467a963c9c87b0507719e65e9c24638d37b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\system\\fvSchemes": "07cc2b3a3f686bb9300eb4886722e33a14bd5891d2a2596e160793818eec97e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\system\\fvSolution": "be944d2c2adf1c7a01f63a9214fb44ec07d41de97e0e90a3bb041fa0d077669f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\system\\decomposeParDict": "ef788d7bbb4fe8d922f9e11144d42d2ac5bbfcd2d6aeb724e7b4834eaf497072",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\polyMesh\\points": "978bdf8fe65e3749e0975c1acc4f589c8a7017f2f23cd872033b131e026a68c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\polyMesh\\neighbour": "3ed837ae87e90ab9667204ccf3ead662d357facf2f768f94bbda889ea50d4dd6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\polyMesh\\faces": "10c39ffec3b9af443e726c9fc16421e37ac53ba57c1bceb4e6b9792bd26a288d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\polyMesh\\owner": "c31a825e416f1b063f7ad295406745eb1f171bee2de1c9ed6f6b479a3b406958",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\polyMesh\\boundary": "4bf44763f841db0030c198c349a672bdc615dde4c1bc9c0d6e71bed4370642fc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\constant\\polyMesh\\cellProc": "7a5eea3d7a489fd63a8b878ce27b34272081ef627d92c2ba2a78926ca013b3f2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\declared-settings.json": "1c91bd89b583a2042a017f37975dc53be741fbd00ba8750b02b5732bce8ef158",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\0\\alpha.water": "6f3ba850547f0f2fdf843bdcf37ba0085d3a338c6c41a3058b0ab362fc6abc63",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\0\\U": "750f9405d82326576a228b94f470f57cbaf450447bb659aa23877a7b2b949916",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\0\\p_rgh": "721ab53801ab511521701eb8a7b49e8b9469fc3cc5bcc7451cd2d953ccf3cf3c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\0\\C": "30315bbc286d538645095b809cebada849d1145f659dde1a8dd55dc1184f2a1e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\0\\Vc": "8b4c4699a6d79281da20c68ccde4168fa5f97b11f497fb99e487e9b8a04838f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\g": "5fbc3114b43ae55d4251cbec1d2f44a8fd7a4612bd99c3258088634fa9a8acfd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\phaseProperties": "d03381781d73a53ef29d485449186d9e3602b528951b3135ce5a0cb5d8595b96",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\physicalProperties.water": "c4cf7c0b013df05bbdb006ed2a7f054780908f8b6107c8a3523c69d020de6d70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\physicalProperties.air": "21fd1d5de51008438eb5875ef14a745087b1b349acbf8ae0175c1631e7f9ddfc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\momentumTransport": "462475fb839bf7259c364c64517a5493e57f5becbdbc7cb886eff7230bfa4f7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\system\\blockMeshDict": "223cedba71febc6705590e3a7bbd941f90bb9750fc8195b82380645ee814b019",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\system\\controlDict": "4838178fcc084d31b9131c14539d3467a963c9c87b0507719e65e9c24638d37b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\system\\fvSchemes": "07cc2b3a3f686bb9300eb4886722e33a14bd5891d2a2596e160793818eec97e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\system\\fvSolution": "be944d2c2adf1c7a01f63a9214fb44ec07d41de97e0e90a3bb041fa0d077669f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\system\\decomposeParDict": "ef788d7bbb4fe8d922f9e11144d42d2ac5bbfcd2d6aeb724e7b4834eaf497072",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\polyMesh\\points": "978bdf8fe65e3749e0975c1acc4f589c8a7017f2f23cd872033b131e026a68c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\polyMesh\\neighbour": "3ed837ae87e90ab9667204ccf3ead662d357facf2f768f94bbda889ea50d4dd6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\polyMesh\\faces": "10c39ffec3b9af443e726c9fc16421e37ac53ba57c1bceb4e6b9792bd26a288d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\polyMesh\\owner": "c31a825e416f1b063f7ad295406745eb1f171bee2de1c9ed6f6b479a3b406958",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\polyMesh\\boundary": "4bf44763f841db0030c198c349a672bdc615dde4c1bc9c0d6e71bed4370642fc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-collapse-urelax07-v001\\constant\\polyMesh\\cellProc": "7a5eea3d7a489fd63a8b878ce27b34272081ef627d92c2ba2a78926ca013b3f2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\declared-settings.json": "72ef1ac761c128a2b20de46223c2dbe52ba2d3edd3e57ba36a6ed5d95a27d069",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\0\\alpha.water": "6f3ba850547f0f2fdf843bdcf37ba0085d3a338c6c41a3058b0ab362fc6abc63",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\0\\U": "750f9405d82326576a228b94f470f57cbaf450447bb659aa23877a7b2b949916",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\0\\p_rgh": "721ab53801ab511521701eb8a7b49e8b9469fc3cc5bcc7451cd2d953ccf3cf3c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\0\\C": "30315bbc286d538645095b809cebada849d1145f659dde1a8dd55dc1184f2a1e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\0\\Vc": "8b4c4699a6d79281da20c68ccde4168fa5f97b11f497fb99e487e9b8a04838f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\g": "5fbc3114b43ae55d4251cbec1d2f44a8fd7a4612bd99c3258088634fa9a8acfd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\phaseProperties": "d03381781d73a53ef29d485449186d9e3602b528951b3135ce5a0cb5d8595b96",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\physicalProperties.water": "c4cf7c0b013df05bbdb006ed2a7f054780908f8b6107c8a3523c69d020de6d70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\physicalProperties.air": "21fd1d5de51008438eb5875ef14a745087b1b349acbf8ae0175c1631e7f9ddfc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\momentumTransport": "462475fb839bf7259c364c64517a5493e57f5becbdbc7cb886eff7230bfa4f7f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\system\\blockMeshDict": "223cedba71febc6705590e3a7bbd941f90bb9750fc8195b82380645ee814b019",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\system\\controlDict": "6d5ce5e0ced9de05634a155e87c72ff1eb997369f419ce7e0da63ca242350d02",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\system\\fvSchemes": "07cc2b3a3f686bb9300eb4886722e33a14bd5891d2a2596e160793818eec97e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\system\\fvSolution": "be944d2c2adf1c7a01f63a9214fb44ec07d41de97e0e90a3bb041fa0d077669f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\system\\decomposeParDict": "ef788d7bbb4fe8d922f9e11144d42d2ac5bbfcd2d6aeb724e7b4834eaf497072",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\polyMesh\\points": "978bdf8fe65e3749e0975c1acc4f589c8a7017f2f23cd872033b131e026a68c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\polyMesh\\neighbour": "3ed837ae87e90ab9667204ccf3ead662d357facf2f768f94bbda889ea50d4dd6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\polyMesh\\faces": "10c39ffec3b9af443e726c9fc16421e37ac53ba57c1bceb4e6b9792bd26a288d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\polyMesh\\owner": "c31a825e416f1b063f7ad295406745eb1f171bee2de1c9ed6f6b479a3b406958",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\polyMesh\\boundary": "4bf44763f841db0030c198c349a672bdc615dde4c1bc9c0d6e71bed4370642fc",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-dt005ms-urelax07-v001\\constant\\polyMesh\\cellProc": "7a5eea3d7a489fd63a8b878ce27b34272081ef627d92c2ba2a78926ca013b3f2",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-urelax07-copy-check-v001.json": "48b64f9be2b0fd934e9340645a3612e13756603fe998391c50d309c4a2d8553c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\solver.log": "5550e170e3ce9c3d7469a404bd65ae34d69a4805c8572e7516c6c3a69e2bee66",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\mesh-check.log": "8e3b6e5557333aacc3203ffb5a170594077fdb77b19301e33e607b0264e4b267",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\postProcessing\\atmosphereFlux\\0\\surfaceFieldValue.dat": "3167168b688d6428a8f16c984a974f7cff4537be731c61e28ec10c6f05b5cb85",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.001\\uniform\\time": "5a2c6019d7a9699dfbf05388fd4f94494a8e6c93ed60b6bce0bd9f68a56d78a5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.001\\alpha.water": "c5556750a227444e402698bd0aa78a77afdb98f592a052c0ab9bca028b6d6885",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.001\\U": "21439ab16423bcd87c8148cc8295bf61a68825f1cf39f65db860c08efc5360bb",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.001\\p_rgh": "1b0ce78b068072e0ef75d161cb43a3d7433f3a7326b103d53a96fbf230d174b4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.002\\uniform\\time": "cd1ea3b73d573cada774cfaa1c253c484915b8bfdab8b7954c7a234e1971e4aa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.002\\alpha.water": "96fa310f8fc209436de79ae2fa6635957851dc241c3cbd0dfaf72757f52fa760",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.002\\U": "ffb97797b98adf9dd2cf45fc41dd8f3ed888dae0469185973859978c081d132c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.002\\p_rgh": "1763af16953eb3a2d6f4b536177feffefe892be8e4f1c70b85bfd62042dc59a5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.003\\uniform\\time": "fbe99fd7eef268bde60faa2a39f51a55ea7f096d61657ba429c7fd37ac80c34a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.003\\alpha.water": "1b834b20e89bbb7a34b5ce2d5484eb41008913e726a12940d8ca5fb58e80f307",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.003\\U": "f1c3cf0f5118f26d3c51cebe708569405a1dc7e90056439b4bc1bf37eb148ba6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.003\\p_rgh": "f8949a5826d41e32b40ea1037173f3d6be0677fbe3efd7c9ede63e745106a024",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.004\\uniform\\time": "cefe34170646cdace1c3f612d8a6552bcc3e1278b75bbca7fa470941da93f592",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.004\\alpha.water": "17a50c83887ea271ecc927a9f99063666024468b41da58b480d2fb95e6cbb6e9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.004\\U": "4a74881b9875a1670fa49794088c9f83ab7570cb79b63108c05af242033a7756",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.004\\p_rgh": "566971baeb049106405b3ac67a874d4a849ac2646d49f6f9e5463955fd886476",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.005\\uniform\\time": "bdede13fe0e12ae43062078dc67706b5039d14f49c89e1bc921c686e15a46d3c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.005\\alpha.water": "15fd333b1151c5ba9edaf31b009ca32a7109e16780faeee9f5328c9484135f3c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.005\\U": "51c69541ade88b449ebae95bf4a3a0d958c43e77a0f23252d4f02b1895c112e1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.005\\p_rgh": "4ba05d46bb584dbbb3ab552a3455db20f67c57d645499c5e5f749cec96713c62",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.006\\uniform\\time": "2a63540296c4d72f2f770e163f6c73374c6ed14f300f3b3c3496bc799973d2c8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.006\\alpha.water": "34b6c0a351bc8252c222d86da4dcc6e7f7a1ff3978e2517301951ceb24c8e098",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.006\\U": "bf1fe775c1dc78c0b625b650a2b61d541a18e014735142eadd48198a1a2d5914",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.006\\p_rgh": "e0e338bffaf62164a7aeeddb56cc6b881e67e2ac3fbe0cd7340c8d9d04050c3c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.007\\uniform\\time": "03eb3762de7912e4504c22dd903489a25d81cec056f4f12d3295bcb187e051af",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.007\\alpha.water": "75a898e0c261f39788188fe73ced07c9f4fa2450c38638733872c2be5777a60e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.007\\U": "f28d20d4b91f16597ce1a07dad3c78558b22c6c8b9ea6db772d3cbe0d94b8822",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.007\\p_rgh": "0633a51bc24d79f105055f269aa6ecf5540cb969e2522033dc444b05409bf6db",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.008\\uniform\\time": "fb6c3d1b1e70e5e39d26f9ccdfd90b483b5b06ea22c95cd028610a910b453371",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.008\\alpha.water": "ec021570e665e599764023e6399195cf7f658c92252c2a5da46efeaf40f10160",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.008\\U": "45809634e8e5edaf18c661c5cae9ebaa19ddccd011f4853725dc3e06ce591f8e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.008\\p_rgh": "2bf6f10f6c66c68a712eafa4697daa5967d532104ba4bbfc6fa0d9dfb823abea",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.009\\uniform\\time": "f535edf72bb5118a745cfe3097963a4f490b4d2237638da94cfb0201ac5c6351",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.009\\alpha.water": "5d61bd9e5d8d46494acd5f2cdbaddad88323687ed40bc80224cb11e9263b2b96",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.009\\U": "ad9d099e1d0af14825e883154d5a375c2a95a82cb0e076e7fa4b55964a99d74e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.009\\p_rgh": "5a2ef1b83c8def538cd67eb68994f758c828f5883f1cbce4fe74452917becf6d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.01\\uniform\\time": "cffa3dce8b991fe417122c9f7bb2a085f97a1e04eab1d6ef09a8ac23577645a5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.01\\alpha.water": "372d8516159496f60c70ac9677e9e46b9766deea9420b1baa5e6b61db20af822",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.01\\U": "a1e2da40c837b9ffc1bdeacfb69a21be9356a85ebe28d941efdf83c5243e637d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.01\\p_rgh": "7ed26d49ad3a018a6d382f001b19263ecb6268b3679f9b912348c2feda553a90",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.011\\uniform\\time": "eefb5f68c32e09b309a33940a679300df5c96fc4918ab41f0d9379bd894c237c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.011\\alpha.water": "deff2df6d54caa5cb2105dd96df74b8432cd678b080a68da8bca24d940f34abb",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.011\\U": "dae0e1c1095d01e1f7e611225c463e42c27f8f577a15705d623b0d7ef506929b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.011\\p_rgh": "a215715eeceb8b6ba3a6aafe83feebcf5bb1c5f2fe42520e7af07d6ed780a208",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.012\\uniform\\time": "1f2e00c02a53e5de64fb898e683edb55a53d7616804ee3cf02713d78e6ef38ac",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.012\\alpha.water": "88c74d023f61b2150549101180bfad3d9b1eea2fdb6a40ed1cf621b072dafc1b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.012\\U": "5e5e240a0dcd525b1b8ccb2f3b3be4a3fea1123664e3e421d929c277d05ee965",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.012\\p_rgh": "478d2e6a9341624de8c45c243e371ae7a1af0d566741617b53eaad024083a200",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.013\\uniform\\time": "ee665e89617406e441b97985148e870275d0369ddf946554f9dc44b1f991c922",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.013\\alpha.water": "9ade6bd976dcfd6bbe2ef8379a20a460ed198425eabb928ae91bb37a0aa38f9e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.013\\U": "698931272779b8b1dc761f07898f3827ba57a2937462008f79f623f3189a92a4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.013\\p_rgh": "de19c2ad2a71e081ce4a86cb19dda43cef162c2a7ed8d221fe53a92f047519ad",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.014\\uniform\\time": "11a53388c05f94dc2ee0d25bae8cb1550e02fb3556843ecf84365ffdfbd29d30",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.014\\alpha.water": "6dbd775b9c0e78fcf05b19e2fe2cd25854e13b8fa6a22fb9e05096d7fbdb34f9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.014\\U": "ec916a4e8dc13cf1236784617578bffcc6249b7d0a074e00ed04ce948b31a928",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.014\\p_rgh": "8f65ec122a9a9d2b0b124f51f8eb895eaf9975b20fa7380fdda2aca624f19461",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.015\\uniform\\time": "0e50bb4a69a462dac5ab220f7c523e617785ba86b669dcedf88fa121d4de5286",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.015\\alpha.water": "617887ec51c7ff55b79755cf89a75851e0f3558775282f184aa399470d6e8fd2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.015\\U": "8cb47681ef8efcb21497b1a47ee50f0abfe72427f528d98640edd83c14b69725",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.015\\p_rgh": "62b01b43bf24a4cc3b6934b4185ec8dd02106baa34038adb26028eef2b4a64ec",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.016\\uniform\\time": "de2063ea76116dd0a5117cf284a28c53b81e98e5368bd469977416ca1076e80d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.016\\alpha.water": "2eafb63af8177a4408296c0960022504147969e777b074a9f8caebfce0f670a6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.016\\U": "6b5dc3cff655ecf3796bd6c88593a7c96f724d5c04d5454a0cec90dc324b24b7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.016\\p_rgh": "53a6df5746a9427ef63c7e70ff6316ec45d4f7e687fca07d2c97d808bef98b1f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.017\\uniform\\time": "eb4c9df9ed8ff6d258fa77b1fbbd6659b7c445df1686a44d7ce3b059c75106f3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.017\\alpha.water": "df1760d248668a5dd4813ba86a256c3a1029ebe93a4cc90625ae8f315e3d7b91",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.017\\U": "8b9e3c574acb413b90bc364978b73c290b68429e4b7fdeac7d5d357789be161c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.017\\p_rgh": "f6331e8fac8914eb4f80de5606a0e4ff7f59d7588131dffae3c4c76e1d62c858",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.018\\uniform\\time": "9ef50f568defff37e4a1f0cb6d8b59c11f8e285b406d47e7a0319f340e228472",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.018\\alpha.water": "dc2f0a5f453597c620631fdbc87d8ea6bd5027b5c0a3d5f2cfe8faa1446006a5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.018\\U": "6fae52dc516221fd9b97ffa9021d46b4fa50e8bf9d553fc1475365cf92f02fb8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.018\\p_rgh": "496b56baf5d791360badbd2c16beeb092e2934d7b0f72043196224b7c65081c4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.019\\uniform\\time": "d84c03cc2d4a63044620affa50d9863dcd723d8ec22fa5c0002556d9dc75a12f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.019\\alpha.water": "ac3a398526ed7a2fa311a4a0890595e5f6cddd17d8bed97dae1db527b679f211",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.019\\U": "b4329dd039d1b14bc53b26d01d6cdbc161a3e88e449508eca40fd3105671c936",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.019\\p_rgh": "428c893ba4a59a816731cb129d3849ddd2fc5b0a684ded85da4400fc410a7995",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.02\\uniform\\time": "42701949df0975cb10fe4e59e22a860e55e5a88136bae8f89ce67603674aff7a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.02\\alpha.water": "fc0f11247f0c1e43addf0c8869e78fe16a5dcdcd6981cbd223923696458c18d0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.02\\U": "93679574cf27333619b3215c3f84ca8ec3b0bb99855c3240ef0bbf42a6ad23c1",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\qualification\\openfoam-flat-urelax07-v002\\0.02\\p_rgh": "dccaed174b5a6f04c821ceed772d2a0c1aa59f04d6bbaf029357ce9190be97fb",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-urelax07-inputs-v001.json": "19963563c5df1fd829fe6ed7c7258b70af85b783f83d794fba920a8d223afdd3"
+  },
+  "physical_validation": false,
+  "production_complete": false
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_steady_continuation_v001.py", line 2, in <module>
+    from prepare_airfoil_continuation_v001 import rewrite_control
+ModuleNotFoundError: No module named 'prepare_airfoil_continuation_v001'

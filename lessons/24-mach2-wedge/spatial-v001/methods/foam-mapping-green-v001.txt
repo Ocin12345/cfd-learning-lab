@@ -1,0 +1,21 @@
+E..
+======================================================================
+ERROR: test_actual_baseline_bijection (__main__.Mapping.test_actual_baseline_bijection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\mach2-wedge-spatial-v001\test_wedge_foam_mapping_v001.py", line 12, in test_actual_baseline_bijection
+    order,m=native_mapping(self.C,self.xy,.01);self.assertEqual(len(np.unique(order)),22400);self.assertLess(m['maximum_euclidean_error_m'],2e-10)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\mach2-wedge-spatial-v001\wedge_foam_mapping_v001.py", line 6, in native_mapping
+    mapping,metrics=coordinate_bijection(reference,native[:,:2],1e-9)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\repo\cfd-learning-lab\scripts\plot_openfoam_airfoil_fields_v002.py", line 199, in coordinate_bijection
+    require(0 < tolerance <= 1e-10, "Coordinate tolerance must not exceed 1e-10 m")
+  File "E:\CFD-Learning-Lab\repo\cfd-learning-lab\scripts\plot_openfoam_airfoil_fields_v002.py", line 23, in require
+    raise ValueError(message)
+ValueError: Coordinate tolerance must not exceed 1e-10 m
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.111s
+
+FAILED (errors=1)

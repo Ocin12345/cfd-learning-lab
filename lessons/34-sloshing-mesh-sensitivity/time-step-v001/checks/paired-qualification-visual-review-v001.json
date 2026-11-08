@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "observed_at": "2026-11-08T14:16:44.673075+08:00",
+  "inspected_actual_images_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-sloshing-dt-qualification-v001\\actual-qualification-fields.png": "1da8efdb3357b41ea98980bf4b93f4c9f504dbcbfa954ee52ef6298e6f6ff357",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-sloshing-dt-qualification-v001\\qualification-numerical-evidence.png": "ed421ccd2ad769ac4338b704a3f711d024351098dbf4bd403da72ba1b77ddae6"
+  },
+  "selected_audits_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-sloshing-time-step-v001\\fluent-qualification-v001\\qualification-audit-v001.json": "cdc25a1d22156acf7160c2ba0b8c2e7a9cc091e0b8be63cad707b23477db0b70",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-sloshing-time-step-v001\\openfoam-qualification-v001\\qualification-audit-v001.json": "434a6ccc18ec4e5385bc99dcc535062aaea1a1a74574127990d8446128167d75"
+  },
+  "observations": "Personally inspected both actual PNGs. Tilted native water fraction and local mixture speeds shown without smoothing; four endpoint depth profiles and signed fine-column differences visible. All native residual histories below original limits, norms labelled separately. Qualification only0.02s, notfull1.2s or validation. Local near-interface velocity features are numerical fields, not proof of physically resolved interface currents.",
+  "full_interval_complete": false
+}

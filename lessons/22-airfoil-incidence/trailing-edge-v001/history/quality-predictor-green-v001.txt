@@ -1,0 +1,14 @@
+F..
+======================================================================
+FAIL: test_actual_rejected_native_mesh (__main__.NativeQualityPredictor.test_actual_rejected_native_mesh)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_quality_predictor_v001.py", line 11, in test_actual_rejected_native_mesh
+    p=Path('E:/CFD-Learning-Lab/native/meshes/showcase-airfoil-trailing-edge-v001/level1-v001/mesh-arrays.npz');d=np.load(p);q=cell_quality(d['xy'],d['triangles']);self.assertAlmostEqual(float(q.min()),.115009,delta=1e-6);self.assertLess(float(q.min()),.2)
+                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.263619726891674 != 0.115009 within 1e-06 delta (0.148610726891674 difference)
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.391s
+
+FAILED (failures=1)

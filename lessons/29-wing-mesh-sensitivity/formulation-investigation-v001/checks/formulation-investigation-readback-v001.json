@@ -1,0 +1,21 @@
+{
+  "investigation_only_complete": true,
+  "wing_convergence_not_complete": true,
+  "new_solver_sessions": 0,
+  "new_solver_iterations": 0,
+  "actual_figure_inspected": true,
+  "figure_sha256": "956fa6e3f542be55080853f2ec6dbc90c62e56692937430f031ccaedeeef56b4",
+  "all_400_table_crosschecks": true,
+  "all_20_native_flux_crosschecks": true,
+  "tests_pass": 19,
+  "root_cause_not_established": true,
+  "next_step_proposal": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\wing-convergence-repair-v001\\RETAINED-RESIDUAL-PROPOSAL-v001.md",
+  "proposal_launched": false,
+  "findings_sha256": "f9a493e5ab870fbe205a895785a4432d36c388bc0860c763f1e9914690c432f7",
+  "source_files": {
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\wing-convergence-repair-v001\\wing_amg_transcript_v001.py": "ca7ea1475da4ec5bc585007a9224fd807087a7bc7b9063046c30e41fbb5f9fef",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\wing-convergence-repair-v001\\test_wing_amg_transcript_v001.py": "0108fc5193431267ad454ad135e8bdcc7e09af53ba7dadea736898bdccf0acbd",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\wing-convergence-repair-v001\\investigate_formulation_v001.py": "2b1f0afb72fe8a3bef841fbf328d2bf404041868c3a8500c547545119d3ee508",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\wing-convergence-repair-v001\\RETAINED-RESIDUAL-PROPOSAL-v001.md": "0336e8a1d7ce8b212845b1d84e28cdf8d11416f6896f6608bfa47e55b149fbf0"
+  }
+}

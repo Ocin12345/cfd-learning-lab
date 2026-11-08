@@ -1,0 +1,41 @@
+FFF
+======================================================================
+FAIL: test_parent_change_while_waiting_is_fatal (test_jet_energy_parent_gate_v001.Gate.test_parent_change_while_waiting_is_fatal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_parent_gate_v001.py", line 16, in test_parent_change_while_waiting_is_fatal
+    with self.assertRaisesRegex(RuntimeError,'parent changed'):self.api()(parent,gate,lambda x:None)
+                                                               ^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_parent_gate_v001.py", line 5, in api
+    def api(self):self.assertTrue(hasattr(g,'wait_checked'));return g.wait_checked
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_parent_rechecked_after_wait_and_before_return (test_jet_energy_parent_gate_v001.Gate.test_parent_rechecked_after_wait_and_before_return)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_parent_gate_v001.py", line 12, in test_parent_rechecked_after_wait_and_before_return
+    result=self.api()(parent,gate,lambda x:events.append('wait'))
+           ^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_parent_gate_v001.py", line 5, in api
+    def api(self):self.assertTrue(hasattr(g,'wait_checked'));return g.wait_checked
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_resource_race_rechecks_parent (test_jet_energy_parent_gate_v001.Gate.test_resource_race_rechecks_parent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_parent_gate_v001.py", line 19, in test_resource_race_rechecks_parent
+    parent=Mock();gate=Mock(side_effect=[{},BlockingIOError('RAM race'),{},{}]);self.api()(parent,gate,lambda x:None);self.assertEqual(parent.call_count,4)
+                                                                                ^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_parent_gate_v001.py", line 5, in api
+    def api(self):self.assertTrue(hasattr(g,'wait_checked'));return g.wait_checked
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=3)

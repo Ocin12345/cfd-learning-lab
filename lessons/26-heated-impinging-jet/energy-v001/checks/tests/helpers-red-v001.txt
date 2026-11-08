@@ -1,0 +1,173 @@
+FFFFFFFFFFFFFF
+======================================================================
+FAIL: test_boundary_datum_shift_sign (test_jet_energy_v001.Energy.test_boundary_datum_shift_sign)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 8, in test_boundary_datum_shift_sign
+    self.assertEqual(self.api('fluent_heat300')({'inlet':20.,'outlet':-40.},{'inlet':-.01,'outlet':.01},1000.),{'inlet':10.,'outlet':-30.})
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : fluent_heat300 not implemented
+
+======================================================================
+FAIL: test_cancellation_does_not_mask_local_misses (test_jet_energy_v001.Energy.test_cancellation_does_not_mask_local_misses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 15, in test_cancellation_does_not_mask_local_misses
+    r=self.api('ledger')([1,2],[.5,1.],[0.,1.,2.],{'q':[4.,0.]},.5)
+      ^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ledger not implemented
+
+======================================================================
+FAIL: test_continuation_global_steps_and_missing_report_rejected (test_jet_energy_v001.Energy.test_continuation_global_steps_and_missing_report_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 49, in test_continuation_global_steps_and_missing_report_rejected
+    f=self.api('fluent_steps');t=' 501 1e-9 0:00:00 29\nFlow time = 0.105s, time step = 21'
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : fluent_steps not implemented
+
+======================================================================
+FAIL: test_discrete_conservation_cumulative_and_signs (test_jet_energy_v001.Energy.test_discrete_conservation_cumulative_and_signs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 12, in test_discrete_conservation_cumulative_and_signs
+    r=self.api('ledger')([1,2],[.5,1.],[0.,1.,2.],{'hot':[4.,6.],'out':[-2.,-4.]},.5)
+      ^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ledger not implemented
+
+======================================================================
+FAIL: test_fluent_cap_initial_echo_not_terminal_iteration (test_jet_energy_v001.Energy.test_fluent_cap_initial_echo_not_terminal_iteration)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 41, in test_fluent_cap_initial_echo_not_terminal_iteration
+    f=self.api('fluent_steps')
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : fluent_steps not implemented
+
+======================================================================
+FAIL: test_fluent_no_new_iteration_or_wrong_step_rejected (test_jet_energy_v001.Energy.test_fluent_no_new_iteration_or_wrong_step_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 45, in test_fluent_no_new_iteration_or_wrong_step_rejected
+    f=self.api('fluent_steps')
+      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : fluent_steps not implemented
+
+======================================================================
+FAIL: test_missing_duplicate_and_wrong_clock_rejected (test_jet_energy_v001.Energy.test_missing_duplicate_and_wrong_clock_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 23, in test_missing_duplicate_and_wrong_clock_rejected
+    f=self.api('ledger')
+      ^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ledger not implemented
+
+======================================================================
+FAIL: test_nonfinite_or_wrong_shape_rejected (test_jet_energy_v001.Energy.test_nonfinite_or_wrong_shape_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 27, in test_nonfinite_or_wrong_shape_rejected
+    f=self.api('ledger')
+      ^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ledger not implemented
+
+======================================================================
+FAIL: test_original_limit_unchanged (test_jet_energy_v001.Energy.test_original_limit_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 31, in test_original_limit_unchanged
+    f=self.api('ledger');self.assertFalse(f([1],[1.],[0.,1.],{'q':[1.01]},1.)['passed']);self.assertTrue(f([1],[1.],[0.,1.],{'q':[1.004]},1.)['passed'])
+      ^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ledger not implemented
+
+======================================================================
+FAIL: test_outlet_upwind_and_depth_normalization (test_jet_energy_v001.Energy.test_outlet_upwind_and_depth_normalization)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 33, in test_outlet_upwind_and_depth_normalization
+    f=self.api('foam_patch_heat300')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : foam_patch_heat300 not implemented
+
+======================================================================
+FAIL: test_plate_diffusion_and_inlet_backflow (test_jet_energy_v001.Energy.test_plate_diffusion_and_inlet_backflow)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 37, in test_plate_diffusion_and_inlet_backflow
+    f=self.api('foam_patch_heat300')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : foam_patch_heat300 not implemented
+
+======================================================================
+FAIL: test_right_endpoint_not_trapezoid (test_jet_energy_v001.Energy.test_right_endpoint_not_trapezoid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 18, in test_right_endpoint_not_trapezoid
+    r=self.api('ledger')([1,2],[.1,.2],[0.,.1,.4],{'q':[1.,3.]},.1)
+      ^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ledger not implemented
+
+======================================================================
+FAIL: test_unequal_patch_keys_rejected (test_jet_energy_v001.Energy.test_unequal_patch_keys_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 10, in test_unequal_patch_keys_rejected
+    with self.assertRaises(ValueError):self.api('fluent_heat300')({'a':1.},{'b':0.},0.)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : fluent_heat300 not implemented
+
+======================================================================
+FAIL: test_zero_energy_exact (test_jet_energy_v001.Energy.test_zero_energy_exact)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 21, in test_zero_energy_exact
+    r=self.api('ledger')([1],[.1],[0.,0.],{'q':[0.]},.1);self.assertTrue(r['passed']);self.assertEqual(r['step_relative_error'],[0.])
+      ^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\heated-jet-energy-v001\test_jet_energy_v001.py", line 6, in api
+    self.assertTrue(hasattr(e,name),name+' not implemented');return getattr(e,name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : ledger not implemented
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+FAILED (failures=14)

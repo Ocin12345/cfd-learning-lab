@@ -132,3 +132,8 @@ figures and record. ANSYS Fluent and OpenFOAM computed the fields and forces.
 Owner reflection is unprovided; no independent owner implementation, research
 novelty, aircraft validation or admissions claim is invented. Saved locally;
 this addition has not been uploaded to GitHub.
+
+
+## Refined-wing formulation investigation — 8 November 2026
+
+The [completed investigation record](formulation-investigation-v001/README.md) preserves all five finite trial misses, actual retained-residual maps and the source-bound SIMPLEC/OpenFOAM comparison. Refined Fluent convergence remains **unresolved**; no confirmation or additional solver run is admitted. The separate zero-incidence miss remains open.

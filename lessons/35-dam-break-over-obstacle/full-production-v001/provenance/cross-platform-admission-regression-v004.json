@@ -1,0 +1,9 @@
+{
+  "windows_admission_pass": true,
+  "posix_admission_red_to_green": true,
+  "shell_syntax_pass": true,
+  "both_impact_windows_pass": true,
+  "frozen_source_and_input_files": 104,
+  "new_receipt_sha256": "e3874f30955459ebfd3f9d6b1623bc2f49751f669f0ffffcf4394f8d96c26611",
+  "physics_or_threshold_changes": false
+}

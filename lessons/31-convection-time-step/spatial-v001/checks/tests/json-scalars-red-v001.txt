@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\convection-spatial-v001\test_cavity_json_scalars_v001.py", line 2, in <module>
+    from cavity_json_scalars_v001 import scalar_default
+ModuleNotFoundError: No module named 'cavity_json_scalars_v001'

@@ -114,3 +114,6 @@ native mesh checks. This single accepted Fluent case establishes neither mesh
 independence, domain independence nor physical validation. Owner reflection is
 still blank; Codex prepared the workflow, Gmsh computed the mesh and Fluent
 computed the solution.
+
+
+The [local airfoil refinement comparison](../22-airfoil-incidence/trailing-edge-v001/README.md) preserves the 5° polygon and far domain, with paired Fluent/OpenFOAM images and numerical checks. Earlier misses are retained; global mesh/domain independence and physical validation remain open.

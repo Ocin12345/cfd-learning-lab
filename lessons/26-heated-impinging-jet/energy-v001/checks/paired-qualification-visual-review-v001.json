@@ -1,0 +1,32 @@
+{
+  "inspected": true,
+  "selection_sha256": "ada61f15adfa1c8c5b797ffec563884327fe801b1bd98af3f3b220e50335a294",
+  "figures": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-qualification-v001\\native-temperature-comparison.png": "7dba8015ade3ee5fcc8b1f1e0ba711ae9485f71474a401fd3a2676143cdc6046",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-qualification-v001\\qualification-energy-checks.png": "4189ab1fc5c5f58f88d3f64c6673e262519b3086ddb4cd836fb262bb6f8ef8f9"
+  },
+  "observations": [
+    "Actual matched temperature maps at.1s; fixed300..320K scale; clear labels and plate/inlet markers",
+    "All20real energy/prefix/residual values inspected; curves and limits fit/readable; work/data scopes explicit",
+    "Boundary inputs/storage agree at discrete qualification steps; native solver residual definitions differ"
+  ],
+  "qualification_only": true,
+  "metrics": {
+    "fluent": {
+      "audit_sha256": "0b9abcc4cf36d4fd192bb212244a4d7d1280208e0043937e93214b2524240454",
+      "actual_steps": 20,
+      "states": 21,
+      "max_step_energy_relative": 5.676218033477943e-08,
+      "max_prefix_energy_relative": 5.662640920511102e-08,
+      "max_replay_T_difference_K": 0.0
+    },
+    "openfoam": {
+      "audit_sha256": "2fb43f69c3bf4d3a57acc5c1329a37a59c5e78fb88cb2dfc93dfa94d9b6aae7c",
+      "actual_steps": 20,
+      "states": 21,
+      "max_step_energy_relative": 1.3669411508876432e-09,
+      "max_prefix_energy_relative": 7.329945110007177e-10,
+      "max_replay_T_difference_K": 0.0
+    }
+  }
+}

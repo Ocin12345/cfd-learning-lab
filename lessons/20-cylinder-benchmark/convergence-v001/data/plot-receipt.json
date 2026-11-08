@@ -1,0 +1,19 @@
+{
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\fluent-force-history.csv": "9fb045e502a4bfb8a8dd65244b6ab604f8f49e4df73049a36821fb9173c7baa6",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\fluent-cycle-metrics.json": "af8b9eddc4a184a9c01a51c811b2a77aede03d6cc6c0c536295cc299a84001ba",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-pressure-v001\\fluent-wall-pressure-estimates.csv": "744c47e6f12af580ad00f5cb5d0ee2c949fe8f15198b21c654c77a0df5cea5f7",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-force-history.csv": "00055eb39be3acf1cf810f95adce518a83c6f2713d955e8b972426ec908ffd45",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-cycle-metrics.json": "1e60945e68062f45da6f94b06f2e2c3f6c000f30caefefc78dfaee96a5864055",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-pressure-v001\\openfoam-wall-pressure-estimates.csv": "45cbb72787e0cee8961e32fda3de12a8a0b644257de04fd8a1ea79dc9518d83b"
+  },
+  "code_sha256": "bc49054514e628e61e11fc418550f84e2f4532d08ac4d6a0c54826017186fd2b",
+  "figure_sha256": {
+    "forces-and-pressure.png": "2a96d2a10e9e0993654e53bfd746a9f57faa542c4574c3fb03512431d52b69b1",
+    "forces-and-pressure.pdf": "43fb54e6e7507f19405d079f7ed8d852eb658ed6f544f995c434503707426d31",
+    "numerical-checks.png": "ab686abbe6de62443a0b4deba4d0ff51846889e7eb2db93444e97d46591afbba",
+    "numerical-checks.pdf": "38b57dc7e83c5e759953249ceb7d5e9798c4f8fb6901f0ce452555c2c0da2ec3"
+  },
+  "zero_mass_points_plotted_at_floor_1e_minus16": 0,
+  "physical_validation": false
+}

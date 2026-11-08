@@ -1,0 +1,11 @@
+# Preserved numerical and execution history
+
+The original PISO dt0.1ms Fluent run reached0.5s but missed11 residual steps and48 Courant reports. Its audit remains MISS. Half-dt PISO still stalled; tightening pressure AMG termination from0.1 to0.001 did not remove the stall. A controlled Coupled pressure/velocity test passed, followed by both longer impact windows and four fresh400-step controls. The final fresh Fluent10000-step run passes its original limits.
+
+The first full half-step OpenFOAM run missed5 final-outer pressure steps near0.25865..0.2589s. All saved field/bound/mass/Courant checks passed, but the parent full audit remains MISS. Its pressure residual alternates between two values across outer3..8. A100-step same-checkpoint baseline reproduces6 pressure misses; momentum damping0.7 removes them without changing thresholds.
+
+A global0.7 quiet repeat retains normalized Ux misses despite Umax6.515e-10m/s and passing physical/bound/mass/Courant checks. It is not relabelled PASS. The selected calculation keeps its original startup operator and verified5000-step prefix, then applies damping only in established flow after0.25s. Every actual selected step is checked with the unchanged limits. This is a normal saved-state continuation, not an independent full rerun.
+
+Earlier Fluent setup attempts stopped before time advancement due surface-tension activation order and inactive direct boundary settings; the corrected mixture-scoped configuration passed. A Foundation14 monitor syntax mismatch, a Bash CRLF wrapper and a Windows/Linux proof-key mismatch also stopped before their intended flow. Native RED/GREEN and provenance records are preserved. Automatically changing .trn/cleanup sidecars were excluded from a corrected diagnostic proof only after every consumed field, named transcript and setting was verified unchanged.
+
+One diagnostic preparation stopped before flow because writeInterval appeared at both top level and inside the per-step monitor. The corrected builder changes only the top-level entry and proves the functions block unchanged. No failed attempt is counted as a successful physical calculation. Large originals and failed native directories remain on E:.

@@ -1,0 +1,7 @@
+from pathlib import Path
+S=Path('E:/CFD-Learning-Lab/local/showcase-improvements-2026-11-08-v001/airfoil-trailing-edge-v001');s=(S/'triangle_quality_v001.py').read_text();start=s.index(' angles=[]');end=s.index(" if not np.isfinite(q).all()",start)
+s=s[:start]+''' a=p[:,1]-p[:,0];b=p[:,2]-p[:,0];area=np.abs(a[:,0]*b[:,1]-a[:,1]*b[:,0])/2;lengths=np.linalg.norm(p-np.roll(p,1,axis=1),axis=2)
+ # Area divided by the equilateral triangle area at the same circumradius.
+ one_minus_equivolume_skew=64*area**3/(3*np.sqrt(3)*np.prod(lengths**2,axis=1));q=np.minimum(ortho,one_minus_equivolume_skew)
+''' +s[end:];(S/'triangle_quality_v002.py').write_text(s)
+t=(S/'test_quality_predictor_v001.py').read_text().replace('triangle_quality_v001','triangle_quality_v002').replace('float(np.degrees(np.arctan(.1))/60)','float(.008/(.0101*3*np.sqrt(3)))');(S/'test_quality_predictor_v002.py').write_text(t)

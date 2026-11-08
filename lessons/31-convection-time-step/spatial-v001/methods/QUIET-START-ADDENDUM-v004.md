@@ -1,0 +1,5 @@
+# Quiet-start continuation to1800, bounded version4
+
+The corrected restart v003 reached1200total steady iterations, preserved the physical checkpoint and stopped before heating because maxU=1.4878626e-6m/s missed the tightened1e-6 quiet target. It passes the original1e-5 criterion, but the new stricter miss is retained explicitly. T/mass/EOS checks pass. No thermal trajectory was advanced.
+
+Ruling: one additional finite600-iteration SIMPLE continuation from this exact1200 checkpoint in a NEWv004 directory, total1800, unchanged1e-6 quiet target and all other settings/limits. Observed quiet speed fell byfactor.153 over the previous600iterations, supporting this bounded convergence attempt; that trend is not a guarantee. Stop/save if1800still misses, do not silently extend. Only if the tightened control passes, run the same100heatedsteps atdt.01/PISO200 with original residual/thermal/mass/EOS gates. Retain originalv001 numericalPASS, v002 API setup failure with zero fieldchanges, and v003 tightenedquietMISS. This is continued numerical initialization, not a new model or independent full run. Full20s and OpenFOAM solve remain unlaunched.

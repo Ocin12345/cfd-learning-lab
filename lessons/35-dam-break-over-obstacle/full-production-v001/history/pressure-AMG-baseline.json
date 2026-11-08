@@ -1,0 +1,276 @@
+{
+  "diagnostic_only": true,
+  "start_time_s": 0.195,
+  "end_time_s": 0.196,
+  "dt_s": 5e-05,
+  "steps": 20,
+  "residual_miss_steps": 1,
+  "peak_interface_courant": 0.0422003,
+  "courant_miss_steps": 0,
+  "saved_states": [
+    {
+      "file": "window-0000.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.042661200031818995,
+      "max_speed_m_s": 4.855688813704769,
+      "finite_fields": true,
+      "bounds_pass": true
+    },
+    {
+      "file": "window-0010.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.042661200031820654,
+      "max_speed_m_s": 5.105947667147881,
+      "finite_fields": true,
+      "bounds_pass": true
+    },
+    {
+      "file": "window-0020.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.042661200031821875,
+      "max_speed_m_s": 5.327442403066409,
+      "finite_fields": true,
+      "bounds_pass": true
+    },
+    {
+      "file": "window-final.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.042661200031821875,
+      "max_speed_m_s": 5.327442403066409,
+      "finite_fields": true,
+      "bounds_pass": true
+    },
+    {
+      "file": "window-preserved.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.042661200031821875,
+      "max_speed_m_s": 5.327442403066409,
+      "finite_fields": true,
+      "bounds_pass": true
+    }
+  ],
+  "step_records": [
+    {
+      "step": 2001,
+      "time_s": 0.1950500000000001,
+      "residuals": {
+        "continuity": 8.2932e-05,
+        "x-velocity": 1.1169e-09,
+        "y-velocity": 1.2201e-09
+      },
+      "passed": true
+    },
+    {
+      "step": 2002,
+      "time_s": 0.1951000000000001,
+      "residuals": {
+        "continuity": 9.0386e-05,
+        "x-velocity": 9.8848e-10,
+        "y-velocity": 1.1341e-09
+      },
+      "passed": true
+    },
+    {
+      "step": 2003,
+      "time_s": 0.1951500000000001,
+      "residuals": {
+        "continuity": 8.2315e-05,
+        "x-velocity": 8.1786e-10,
+        "y-velocity": 9.0485e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2004,
+      "time_s": 0.1952000000000001,
+      "residuals": {
+        "continuity": 7.5208e-05,
+        "x-velocity": 6.2626e-10,
+        "y-velocity": 5.9354e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2005,
+      "time_s": 0.1952500000000001,
+      "residuals": {
+        "continuity": 9.483e-05,
+        "x-velocity": 8.6299e-10,
+        "y-velocity": 7.7981e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2006,
+      "time_s": 0.1953000000000001,
+      "residuals": {
+        "continuity": 7.9825e-05,
+        "x-velocity": 7.709e-10,
+        "y-velocity": 6.9505e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2007,
+      "time_s": 0.1953500000000001,
+      "residuals": {
+        "continuity": 7.1298e-05,
+        "x-velocity": 8.892e-10,
+        "y-velocity": 8.0227e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2008,
+      "time_s": 0.1954000000000001,
+      "residuals": {
+        "continuity": 8.4872e-05,
+        "x-velocity": 1.0993e-09,
+        "y-velocity": 1.0258e-09
+      },
+      "passed": true
+    },
+    {
+      "step": 2009,
+      "time_s": 0.1954500000000001,
+      "residuals": {
+        "continuity": 7.6867e-05,
+        "x-velocity": 9.8841e-10,
+        "y-velocity": 9.4215e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2010,
+      "time_s": 0.1955000000000001,
+      "residuals": {
+        "continuity": 8.5012e-05,
+        "x-velocity": 1.1263e-09,
+        "y-velocity": 1.1209e-09
+      },
+      "passed": true
+    },
+    {
+      "step": 2011,
+      "time_s": 0.1955500000000001,
+      "residuals": {
+        "continuity": 9.371e-05,
+        "x-velocity": 1.2615e-09,
+        "y-velocity": 1.328e-09
+      },
+      "passed": true
+    },
+    {
+      "step": 2012,
+      "time_s": 0.1956000000000001,
+      "residuals": {
+        "continuity": 8.6919e-05,
+        "x-velocity": 1.1075e-09,
+        "y-velocity": 1.1773e-09
+      },
+      "passed": true
+    },
+    {
+      "step": 2013,
+      "time_s": 0.1956500000000001,
+      "residuals": {
+        "continuity": 7.7911e-05,
+        "x-velocity": 1.0624e-09,
+        "y-velocity": 1.0935e-09
+      },
+      "passed": true
+    },
+    {
+      "step": 2014,
+      "time_s": 0.1957000000000001,
+      "residuals": {
+        "continuity": 9.4278e-05,
+        "x-velocity": 8.9302e-10,
+        "y-velocity": 9.9446e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2015,
+      "time_s": 0.1957500000000001,
+      "residuals": {
+        "continuity": 0.00693,
+        "x-velocity": 1.136e-07,
+        "y-velocity": 2.8505e-08
+      },
+      "passed": false
+    },
+    {
+      "step": 2016,
+      "time_s": 0.1958000000000001,
+      "residuals": {
+        "continuity": 8.8301e-05,
+        "x-velocity": 8.4294e-10,
+        "y-velocity": 9.3856e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2017,
+      "time_s": 0.1958500000000001,
+      "residuals": {
+        "continuity": 9.2962e-05,
+        "x-velocity": 8.7629e-10,
+        "y-velocity": 8.4408e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2018,
+      "time_s": 0.1959000000000001,
+      "residuals": {
+        "continuity": 9.0275e-05,
+        "x-velocity": 8.7391e-10,
+        "y-velocity": 9.0168e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2019,
+      "time_s": 0.1959500000000001,
+      "residuals": {
+        "continuity": 7.3073e-05,
+        "x-velocity": 6.5789e-10,
+        "y-velocity": 6.9451e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2020,
+      "time_s": 0.1960000000000001,
+      "residuals": {
+        "continuity": 7.7797e-05,
+        "x-velocity": 7.9872e-10,
+        "y-velocity": 8.4753e-10
+      },
+      "passed": true
+    }
+  ],
+  "window_checks_pass": false,
+  "full_production_complete": false,
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\executed-driver.py": "c76f0285ab53f04592919cf61442085a45679f883c7fcc054bab6b1b92bef1e5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\solver-transcript.txt": "51e2dbfd0b7bfa7da52dc7376758454246afa7d488341cc8817358f2bb90f540",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\pressure-controls.json": "ad0d1cb12bd0279b9cc62548f1299c0c37f91d6d1bc380212817cd1fdbb94127",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\restart-settings.json": "db385e2e9309376788d4597226c85bb771ee55eb347a04ba02a9f16eaae44988",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\restart.cas.h5": "39cfd1b475ea653098c73ba1fe3e2fac06b11e3b9d2231a162a70d7b68c4e711",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\window-0000.dat.h5": "5f978e54c4aeff2df703bfd79b4de6b5c733533ccb16f4d81deb4a378d13a5d4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\massflow-history.out": "bcf89b96b3dd4427a640afa8313527aa426b14da2a1607a3fb18b05a4b615ba6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\window-0010.dat.h5": "2f0f6f9a6d70e92b3215e6be70658daa81f875748e7f4d1bfd3d47997d4ae8a0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\window-0020.dat.h5": "e118521660ffe526b27d727917dbef9bf268f27fb456e130c9f94c6d5f21a01f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\window-final.cas.h5": "92d24cfcff949e0a6e2aa9cf403154aa37198ed4115e6c0ba5f5ca726406411d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\window-final.dat.h5": "be9b44199b91a53ca83e5e7afee12822501fcad45666acb22cefd631be6a25ea",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\window-preserved.cas.h5": "10aac73be9a8bfe0dea2551722d32dd1fe1e1e55cfc16c8028c4c9fad0fe13f4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\pressure-solve-baseline-v002\\window-preserved.dat.h5": "53d3191236b07280eaef1bd978c9609c57614f9daa0a8c056fa86f3b18a87b89"
+  }
+}

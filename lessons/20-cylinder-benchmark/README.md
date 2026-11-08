@@ -1,4 +1,8 @@
-# Cylinder wake: comparison with a published periodic benchmark
+# Cylinder wake: convergence and developed-cycle evidence
+
+**8November2026 update:** [A new versioned continuation record](convergence-v001/README.md) covers4–8s with800accepted new steps/801nativefields per code, actual paired media, cycle stability and wall-pressure estimates. The inherited startup and unmatched benchmark conditions remain explicit.
+
+## Earlier startup record, retained
 
 Both solvers shed vortices at nearly the published rate, while the lift amplitude is still growing. The figure compares native force samples over 2.05–4.00 s with periodic reference extrema. Shaded areas show the published extrema, with no acceptance threshold implied.
 

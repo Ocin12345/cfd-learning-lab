@@ -1,0 +1,18 @@
+{
+  "declared_at": "2026-11-08T06:07:12.096916+08:00",
+  "declared_before_completed_eight_second_interval": true,
+  "threshold": 0.005,
+  "last_complete_cycles": 6,
+  "measures": [
+    "period relative range",
+    "native-sampled lift peak-to-peak relative range",
+    "cycle-time-mean Cd relative range"
+  ],
+  "meaning": "Observed stability under this declared half-percent range/mean criterion; not exact periodicity, discretization independence, matched benchmark acceptance or experimental validation.",
+  "force_boundary_interpolation_only": "Rising lift crossings and trapezoidal Cd cycle boundaries use linear interpolation between actual force samples. Field/video interpolation is prohibited.",
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_cycle_metrics_v001.py": "01fed83eccb5893159d478f94c66205de0ad3077d531f5522ee6aa9826532df2",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\test_cylinder_cycle_metrics_v001.py": "c896d4eea8fefe7af2621d892c5f6d7f6af592955ee0f75e4ce0620cfb4bea7f",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cycle-metrics-green-v001.log": "93d9d365c43cf9fad5d6a171dfa7344002bcb75559e11cccb78f389921ad0385"
+  }
+}

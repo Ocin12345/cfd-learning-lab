@@ -1,0 +1,11 @@
+{
+  "actual_mesh_data": true,
+  "no_flow_result": true,
+  "view_derotated_degrees": 5,
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-06-airfoil-incidence-paired-v001\\mesh-alpha5\\airfoil.msh": "38055761ef583799c1db292ff889e403c824e4836d52d287add0f5e3e3535bbc",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level1-v001\\mesh-arrays.npz": "00b7a3230c2653e96d1f8da65953f03adb0bc65dead938ad9202433c2e13e08f",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-airfoil-trailing-edge-v002\\level2-v001\\mesh-arrays.npz": "b9015235d64fde17c74c2a38a4dea90c434bbbb34b76eb7aa65cc8cc4b5dde22",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\plot_TE_mesh_v002.py": "7cbd2279f70ef84a3f83ca53989f55174120d8e2ee7248f75a73555094e034c1"
+  }
+}

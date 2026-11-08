@@ -1,0 +1,13 @@
+{
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\run_dam_break_fluent_v008.py": "2b7332b0d13d98ca0ea3b66e42f4fef4a9633ab0178b3f1cf2b1f1ef9cef7a70",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_common_v002.py": "254beff66c67eb0482a9350c621f58aa24ab9889bd9747b754a82ce804fc4c9b",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_admission_v004.py": "5779adb1fab6298b21584760b637a29610125ad5291a2de5018adcbea76e9645",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\solver-inputs-v004.json": "e3874f30955459ebfd3f9d6b1623bc2f49751f669f0ffffcf4394f8d96c26611",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-flat-audit.json": "f437f31f1a794fd172ed09c08e69ee856b65b9cdd5405c6a6f77f346b483e581",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\dam_break_runtime_guard_v001.py": "6d78a979c5b921ac599d0234b4324d3d77f8e33defeab0a8798cfdb129c95aa8",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\runtime-guard-native-regression-v001.json": "f6135d8110dcc9c44a705b5e1ae074f9dcbb79604883836a16321d9c38822018"
+  },
+  "preparation_snapshot": true,
+  "physics_changed": false
+}

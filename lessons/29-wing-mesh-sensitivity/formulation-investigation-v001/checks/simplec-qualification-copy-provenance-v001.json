@@ -1,0 +1,17 @@
+[
+  {
+    "source": "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\fluent\\wing-final.cas.h5",
+    "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-simplec-qualification-v001\\source.cas.h5",
+    "sha256": "d5c17b20edd3658326347fc056dcb60494b3913b5b243502915a01a99fc291f3"
+  },
+  {
+    "source": "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\fluent\\wing-final.dat.h5",
+    "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-simplec-qualification-v001\\source.dat.h5",
+    "sha256": "b6f951d8a93386a0299d6cbd17d0faee9e09dfed4bbff8936073a6c12d7019df"
+  },
+  {
+    "source": "E:\\CFD-Learning-Lab\\native\\runs\\finite-wing-refined-v001\\fluent\\final-settings.json",
+    "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-wing-convergence-v001\\fluent-simplec-qualification-v001\\expected-source-settings.json",
+    "sha256": "f5301d34d888a37b716ddfb0d3bdf90618f6b4ea7895bb4c22bca0c980aa5ef5"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "reviewed_at": "2026-11-08T08:40:15.291825+08:00",
+  "reviewed_by": "Codex",
+  "actual_frames_inspected": [
+    "fullframe000 at4s",
+    "previewframe001 at6s",
+    "previewframe002 at8s"
+  ],
+  "decoded_frames_inspected": [
+    "fullMP4 frame080 at6s",
+    "fullGIF frame160 at8s"
+  ],
+  "numeric_plots_inspected": [
+    "forces-and-pressure-v002",
+    "numerical-checks-v002"
+  ],
+  "full_MP4_GIF_frames_all_decoded_and_compared": 161,
+  "compact_GIF_selected_native_frames_all_decoded_and_compared": 81,
+  "visual_findings": [
+    "Shared fixed speed/vorticity scales and physical times are readable; no temporal frame interpolation or phase alignment.",
+    "Vorticity reconstruction and color clipping are explicit; field values are unchanged.",
+    "Version001 numerical label/legend overlap retained; version002 moves annotations/legend off data.",
+    "GIF reset is not a simulated transition. Compact GIF samples every second native video frame, with its own4.05s playback. Full161frameGIF kept external because41.3MB; compact10.55MB GIF and4.03MB MP4 are prepared for Git."
+  ],
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-000.png": "e76b8ad389f144878f2e55db5f9e7dadaa96e99daf35d3e11a0aaf1341cd3f85",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\decoded-080.png": "2312cdfc741f8834cccfe8712dcb1512e00cda32397774a4801a6dbab678d416",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\gif-preview-v001\\decoded-160.png": "9eed787b3e537e6544be1454a1f3aed9613403ff304158445f694fc7b1e32a5d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-numerical-record-v002\\numerical-checks.png": "ab686abbe6de62443a0b4deba4d0ff51846889e7eb2db93444e97d46591afbba",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-numerical-record-v002\\forces-and-pressure.png": "2a96d2a10e9e0993654e53bfd746a9f57faa542c4574c3fb03512431d52b69b1",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\video-export-record.json": "bf79d29fba636885e27366f1e50810b4f2267f6ac9acb6c5b3c03c34fddda417",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\gif-preview-v001\\gif-export-record.json": "b4eee2a1a2ab0827a158742edeed0a57af26c12cc3786302d4f6274c8d8bc06b",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\compact-gif-v001\\gif-export-record.json": "4a3a20d8aa993a1fedab13a424b932429e63fbaf2fdb8f7cdb11773336dcc5a7"
+  },
+  "physical_validation": false,
+  "technical_review_pending": true
+}

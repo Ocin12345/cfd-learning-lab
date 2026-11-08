@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\convection-spatial-v001\test_cavity_spatial_mesh_v001.py", line 3, in <module>
+    from cavity_spatial_mesh_v001 import generate,refinement_proof
+ModuleNotFoundError: No module named 'cavity_spatial_mesh_v001'

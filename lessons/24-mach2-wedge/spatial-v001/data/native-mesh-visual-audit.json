@@ -1,0 +1,11 @@
+{
+  "actual_native_mesh_edges": true,
+  "native_connectivity_bijections_checked": true,
+  "new_flow_iterations": 0,
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\mach2-wedge-fluent-v001\\wedge-0720.cas.h5": "9eeae9b61b1243935684c1e4a467548444abdb909ab6fe6284184fe19e5e3b92",
+    "E:\\CFD-Learning-Lab\\native\\runs\\mach2-wedge-fluent-v001\\geometry.npz": "4460267a07971b87ceb8b4002a6141036340bc5e6f174bf8f9bf291c2ba3c14e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\fluent-quality-v001\\quality-accepted.cas.h5": "d757c16ea5d821c1839e8bc1ee92c9d3c3c97a7b3b8e6eed5faa3b36fb392286",
+    "E:\\CFD-Learning-Lab\\native\\meshes\\showcase-mach2-wedge-spatial-v001\\fine-v001\\geometry.npz": "30bda0d91440ab7427e5ec3ed1d7bf049f1198a40a2aa6bdb9336f4cf9a30cb7"
+  }
+}

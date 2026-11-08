@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14 (main, Aug 14 2026, 15:40:22) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "E:\\CFD-Learning-Lab\\environments\\fluent\\Scripts\\python.exe",
+  "packages": {
+    "ansys-fluent-core": "0.43.0",
+    "numpy": "2.5.4",
+    "h5py": "3.16.0",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0"
+  },
+  "fluent": "2026 R1 Student, installed separately on D:",
+  "openfoam": "Foundation14 in existing CFD-Foundation14 WSL distribution",
+  "native_outputs_in_repository": false
+}

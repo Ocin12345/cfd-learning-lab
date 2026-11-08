@@ -1,0 +1,65 @@
+{
+  "review_scope": {
+    "kind": "One fresh whole-improvement technical review of existing study 26 energy-v001",
+    "source": "E:/CFD-Learning-Lab/local/showcase-improvements-2026-11-08-v001/heated-jet-energy-v001",
+    "packet": "E:/CFD-Learning-Lab/repo/cfd-learning-lab/lessons/26-heated-impinging-jet/energy-v001",
+    "native_root": "E:/CFD-Learning-Lab/native/runs/showcase-heated-jet-energy-v001",
+    "scope_basis": "SPEC.md, PLAN.md, FULL-INTERVAL-ADMISSION-v001.md, POSTPROCESSING-v001.md, progress.md and repository-before-heated-jet-v001.json; uncommitted full improvement, not HEAD..HEAD",
+    "coverage": [
+      "physical model and original numerical limits",
+      "independent native boundary heat and thermal storage",
+      "enthalpy datum, sign, dimensions and per-depth normalization",
+      "601 states, 600 steps, exact 20 plus 580 restart and original 32-time replay",
+      "current readers, launch gates and preservation of structural failures",
+      "source-to-figure and encoded-media bindings",
+      "repository preservation, public archive scope, privacy and contribution claims"
+    ],
+    "read_only": true,
+    "solver_controller_watcher_renderer_encoder_launched": false,
+    "accepted_audits_overwritten": false
+  },
+  "reviewer": "Codex fresh technical reviewer /root/heated_jet_whole_review",
+  "observed_at": "2026-11-08T18:17:54.952134+08:00",
+  "findings": [],
+  "counts": {
+    "Critical": 0,
+    "Important": 0,
+    "Minor": 0
+  },
+  "assessment": {
+    "conclusion": "No actionable Critical, Important or Minor discrepancy identified in this single whole-improvement review. The examined implementation, native evidence and public claims support the stated bounded discrete-energy evidence improvement.",
+    "independent_checks": [
+      "Recomputed every single-step and cumulative-prefix normalization from all 600 archived patch-input/storage entries. Maxima reproduce Fluent 6.139811391582627e-7 and 3.261146192848552e-7; OpenFOAM 4.014675966758359e-9 and 2.6310996797911997e-9. The unchanged criterion is 0.005.",
+      "Used separate read-only inline HDF5/text readers at actual native steps 1,20,21,300,599,600 and preceding states. Native stored energy and independently calculated patch heat match accepted arrays within 1e-10. Fluent raw integrated heat and outward mass sums match sampled actual reports; the plus-h300 mass datum shift and h-h300=cp(T-300) relation agree. OpenFOAM heat was recomputed from actual owner-cell T and native patch phi with 0.01 m extrusion, boundary upwind and diffusion contributions.",
+      "Verified all 600 nonempty OpenFOAM boundary faces directly from native points/faces/owner/C: area 1e-5 m2, owner-to-face normal distance 0.0005 m, extrusion depth 0.01 m. Native T boundary definitions and Euler/upwind/orthogonal controls agree with reconstruction assumptions.",
+      "Checked existence and unique global-step coverage of all 601 listed native states per code. Sampled current Fluent native flow-time/time-step/dt and root plus both OpenFOAM partition value/index/deltaT at 0,1,20,21,300,599,600 as applicable. Verified exact Fluent six-field step-20 restart equality.",
+      "Independently compared all 32 original saved temperature states per code at identical times. Maximum changes are 0 K for Fluent and 1.000444171950221e-11 K for OpenFOAM, matching the records and below 1e-8 K.",
+      "Hash-checked all 71 restart-copy and 56 initial-copy provenance entries. Native checkpoint/mesh/field copies match; the only changed targets are exactly the declared OpenFOAM controlDict endpoint/output edits and function write cadences, confirmed with textual diffs.",
+      "Rehashed repository manifest entries against the authoritative 2686-file before snapshot: current 2794 files, 2793 manifest entries, exactly 108 new files all in energy-v001, only four declared navigation documents plus manifest changed, no manifest mismatch. All 104 packet source copies match and all five original navigation/manifest backups match the before snapshot.",
+      "Read and inspected actual temperature, independent energy ledger, residual and wall heat plots. Labels preserve separate frozen flows, prescribed plate temperature, native Fluent versus reconstructed OpenFOAM heat, and different residual norms.",
+      "Rehashed all 122 native display-state bindings, all 61 rendered PNGs, static figure bindings, and both packaged media files against their receipts. Independently decoded every GIF frame: 61 frames, 6.1 s, maximum RGB RMSE 2.019438256396114 on the 0-255 scale. MP4 bytes match its existing all-61-frame decode receipt, whose maximum RGB RMSE is 4.448864459991455; no encoder or new MP4 decoder was launched.",
+      "Reviewed current source-to-media code and selected 25-test PASS receipt, without rerunning fixed-path auditors or tests unnecessarily. Read the closed solver/process receipt. Scanned 95 new packet text files for common credential formats with no matches; no private/licence/connection files were opened.",
+      "Read actual navigation diffs, README, METHODS, REPRODUCING and scope record. They state execution archive dependencies, 20+580 continuation rather than independent uninterrupted run, right-endpoint discrete integration, no plate cooling or thermal feedback, numerical rather than physical validation, no owner independent execution/reflection and no new upload."
+    ],
+    "evidence_paths": [
+      "SPEC.md",
+      "PLAN.md",
+      "FULL-INTERVAL-ADMISSION-v001.md",
+      "POSTPROCESSING-v001.md",
+      "progress.md",
+      "repository-before-heated-jet-v001.json",
+      "full-copy-provenance-v001.json",
+      "qualification-copy-provenance-v001.json",
+      "heated-jet-record-copy-verification-v001.json",
+      "heated-jet-record-audit-v001.json",
+      "heated-jet-visual-review-v001.json",
+      "final-native-source-verification-v001.json",
+      "closed-solver-process-check-v001.json",
+      "selected-suite-before-review-v001.txt",
+      "packet: code/jet_energy_ledger_v001.py, code/audit_jet_energy_full_v001.py, code/audit_jet_energy_qualification_v002.py, code/jet_energy_restart_v001.py",
+      "packet: checks/fluent-production-audit.json, checks/openfoam-production-audit.json, data/energy-summary.json, data/native-field-audit.json",
+      "packet: checks/media/video-export-record.json, checks/media/gif-export-record.json, media/heated-jet-energy-comparison.mp4, media/heated-jet-energy-comparison.gif"
+    ],
+    "limits": "This is a sampled independent technical review backed by existing complete native audits, not a second full native audit, independent uninterrupted solver run, physical validation, mesh/time independence result, publication approval or whole-improvement completion claim. Large native records were not all rehashed; targeted native and media inputs plus the public manifest were independently checked. The recorded 25-test result was inspected, not rerun. No second review was performed or requested."
+  }
+}

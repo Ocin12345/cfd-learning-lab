@@ -1,0 +1,10 @@
+{
+  "original_manifest": "openfoam-heated-qualification-inputs-v001.json",
+  "original_failure_retained": true,
+  "allowed_exact_rewrite": "cellProc location header0/polyMesh -> constant/polyMesh; entire remaining bytes identical",
+  "before_sha256": "d7996a01283055921ac804ce347565f2951ed55a50f3a055d9b70842d79e0513",
+  "after_sha256": "90b419b5c521972b8db75eabc8452a9a3eb146d44e52823e4fa3480037183132",
+  "all_other_inputs_unchanged": 973,
+  "no_solver_rerun": true,
+  "no_numerical_limit_relaxed": true
+}

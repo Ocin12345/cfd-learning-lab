@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\convection-spatial-v001\test_cavity_restart_settings_v001.py", line 2, in <module>
+    from cavity_restart_settings_v001 import compare_restart_settings
+ModuleNotFoundError: No module named 'cavity_restart_settings_v001'

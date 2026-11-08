@@ -134,3 +134,8 @@ record. ANSYS Fluent and OpenFOAM computed the temperature fields. The owner has
 not yet supplied a personal reflection. No independent owner implementation or
 research novelty is claimed. This record is prepared locally; no upload is
 performed by its staging script.
+
+
+## Heated-jet energy evidence — 8 November 2026
+
+The [complete discrete-energy record](energy-v001/README.md) adds 600 actual thermal steps and 601 unique states per code, independent per-step and cumulative boundary-input/storage checks, and actual paired video. It retains the original 14,400 cells and 0.005 s step and each code’s frozen flow; the prescribed 320 K plate does not cool. This improves study 26 without adding a model or claiming physical validation, time independence or a new upload.

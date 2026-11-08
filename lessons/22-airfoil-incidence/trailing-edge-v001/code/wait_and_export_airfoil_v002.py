@@ -1,0 +1,66 @@
+from pathlib import Path
+import csv,datetime,hashlib,json,os,shutil,subprocess,sys,time,traceback
+import numpy,h5py
+from wing_fluent_v001 import available_memory
+import analyse_openfoam_airfoil_v002 as av
+S=Path(__file__).resolve().parent;R=Path('E:/CFD-Learning-Lab');N=R/'native/runs/showcase-airfoil-trailing-edge-v001'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def mark(state,**values):
+ p=S/'airfoil-visual-pipeline-v002-status.json';q=p.with_suffix('.tmp');q.write_text(json.dumps(dict(state=state,observed_at=datetime.datetime.now().astimezone().isoformat(),pid=os.getpid(),**values),indent=2)+'\n');q.replace(p)
+def verify_inputs():
+ a=json.loads((S/'airfoil-visual-inputs-v002.json').read_text())
+ for n,h in a.items():assert sha(Path(n))==h,n
+
+def main():
+ assert not (S/'airfoil-visual-pipeline-v002-status.json').exists();verify_inputs()
+ while True:
+  states=[json.loads((S/('openfoam-level'+str(l)+'-'+('v002' if l==1 else 'v003')+'-status.json')).read_text())['state'] if (S/('openfoam-level'+str(l)+'-'+('v002' if l==1 else 'v003')+'-status.json')).exists() else None for l in (1,2)]
+  if any(s in ('failed','numerical_miss') for s in states):
+   mark('withheld_due_to_unaccepted_openfoam',states=states,solver_runs_not_interrupted=True);return
+  if states==['numerical_pass','numerical_pass']:break
+  mark('waiting_for_both_accepted_openfoam',states=states);time.sleep(30)
+ verify_inputs();selected={c:{} for c in ('fluent','openfoam')};selection_hashes={};windows=[]
+ for code in ('fluent','openfoam'):
+  for level in (1,2):
+   ver='v001' if code=='fluent' else ('v002' if level==1 else 'v003');case=N/f'{code}-level{level}-{ver}';check=S/f'analysis-{code}-level{level}-{ver}/checks.json';a=json.loads(check.read_text());assert a['numerical_checks_passed'] and not a['failed_checks']
+   assert a['source_run' if code=='fluent' else 'source_case']==str(case)
+   for n,h in a['source_sha256'].items():assert sha(Path(n))==h,n
+   selection_hashes[str(check)]=sha(check)
+   item=dict(case=str(case),audit=str(check),cells=a['cells'])
+   if code=='openfoam':
+    endpoint=9000 if level==1 else 32000;assert a['iteration']==endpoint;item['endpoint']=endpoint
+    force,_=av.force_history(case/'postProcessing/forceCoefficients');tail=force[-20:];cd=[r['Cd'] for r in tail];cl=[r['Cl'] for r in tail];rd=(max(cd)-min(cd))/abs(sum(cd)/20);rl=max(cl)-min(cl);assert rd<=1e-4 and rl<=1e-5
+    windows.append(dict(solver=code,level=level,samples=20,Cd_relative_range=rd,Cl_absolute_range=rl,passed=True))
+    for name in ('forces.csv','residuals.csv'):
+     f=check.parent/name;selection_hashes[str(f)]=sha(f)
+    chain=case/('continuation-inputs.json' if level==1 else 'continuation-inputs-v003.json');r=json.loads(chain.read_text());source=Path(r['source_case']);assert r['no_reinitialization'] and r['source_start_iteration']==(3000 if level==1 else 24000) and r['end_iteration']==endpoint
+    for n,h in r['source_manifest'].items():assert sha(source/n)==h,n
+    selection_hashes[str(chain)]=sha(chain)
+    if level==2:
+     previous=source/'continuation-inputs.json';older=json.loads(previous.read_text());assert older['no_reinitialization'] and older['source_start_iteration']==3000 and older['end_iteration']==24000
+     for n,h in older['source_manifest'].items():assert sha(Path(older['source_case'])/n)==h,n
+     selection_hashes[str(previous)]=sha(previous)
+   selected[code][str(level)]=item
+ selection=S/'accepted-native-selection-v002.json';assert not selection.exists();selected['source_sha256']=selection_hashes;selected['additional_OpenFOAM_last20_checks']=windows;selected['physical_validation']=False;selection.write_text(json.dumps(selected,indent=2)+'\n')
+ while available_memory()<4*2**30 or shutil.disk_usage('E:/').free<10*2**30:
+  mark('waiting_analysis_resources');time.sleep(30)
+ verify_inputs()
+ for n,h in selection_hashes.items():assert sha(Path(n))==h,n
+ jobs=[('plot_airfoil_comparison_v002.py',R/'exports/figures/2026-11-08-airfoil-TE-paired-v002'),('plot_airfoil_numerics_v001.py',R/'exports/figures/2026-11-08-airfoil-TE-numerics-v002')]
+ for script,out in jobs:
+  assert not out.exists();mark('exporting_actual_native_fields',script=script)
+  with (S/(script.replace('.py','')+'-v002.log')).open('xb') as f:r=subprocess.run([sys.executable,'-B',str(S/script),'--selection',str(selection),'--out',str(out)],stdin=subprocess.DEVNULL,stdout=f,stderr=subprocess.STDOUT,creationflags=subprocess.CREATE_NO_WINDOW)
+  if r.returncode:raise RuntimeError('Native export failed: '+script)
+ from PIL import Image
+ images={}
+ for script,out in jobs:
+  for p in out.glob('*.png'):
+   with Image.open(p) as im:
+    im.load();assert im.width>=1000 and im.height>=500;assert numpy.asarray(im.convert('RGB')).std()>5
+    images[str(p)]=dict(width=im.width,height=im.height,sha256=sha(p))
+ assert len(images)==5
+ (S/'airfoil-export-readback-v002.json').write_text(json.dumps(dict(actual_native_fields=True,selected_cases=str(selection),images=images,human_visual_inspection_pending=True,record_and_fresh_review_pending=True),indent=2)+'\n')
+ mark('visuals_ready_for_inspection',selection=str(selection),images=list(images),record_and_fresh_review_pending=True)
+if __name__=='__main__':
+ try:main()
+ except Exception:mark('failed',error=traceback.format_exc());raise

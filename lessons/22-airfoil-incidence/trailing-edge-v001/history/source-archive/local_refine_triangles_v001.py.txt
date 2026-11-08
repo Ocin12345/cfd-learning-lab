@@ -1,0 +1,52 @@
+import math
+import numpy as np
+
+def edge(a,b):return (min(int(a),int(b)),max(int(a),int(b)))
+def signed_cross(xy,tri):
+ p=xy[np.asarray(tri)];return np.cross(p[:,1]-p[:,0],p[:,2]-p[:,0])
+def quality(xy,tri):
+ p=xy[np.asarray(tri)];d=p-np.roll(p,1,axis=1);return 2*math.sqrt(3)*signed_cross(xy,tri)/np.sum(d*d,axis=(1,2))
+def edge_counts(tri):
+ counts={}
+ for a,b,c in tri:
+  for e in [edge(a,b),edge(b,c),edge(c,a)]:counts[e]=counts.get(e,0)+1
+ return counts
+
+def refine_mesh(xy,tri,boundary,marked):
+ xy=np.asarray(xy,dtype=float);tri=np.asarray(tri,dtype=int);marked=np.asarray(marked,dtype=bool)
+ if xy.ndim!=2 or xy.shape[1]!=2 or tri.ndim!=2 or tri.shape[1]!=3 or len(marked)!=len(tri) or not np.isfinite(xy).all():raise ValueError('Invalid mesh arrays')
+ if tri.min()<0 or tri.max()>=len(xy) or np.any(signed_cross(xy,tri)<=0):raise ValueError('Positive oriented triangles required')
+ original_counts=edge_counts(tri)
+ if any(n not in [1,2] for n in original_counts.values()) or {e for e,n in original_counts.items() if n==1}!=set(boundary):raise ValueError('Invalid input boundary/incidence')
+ split=set()
+ for a,b,c in tri[marked]:split.update([edge(a,b),edge(b,c),edge(c,a)])
+ order=sorted(split);mid={e:len(xy)+k for k,e in enumerate(order)};extra=np.array([(xy[a]+xy[b])*.5 for a,b in order]).reshape(-1,2);nodes=np.vstack([xy,extra]);new=[];parents=[];affected=[]
+ for parent,(a,b,c) in enumerate(tri):
+  v=[int(a),int(b),int(c)];edges=[edge(v[k],v[(k+1)%3]) for k in range(3)];flags=[e in mid for e in edges];count=sum(flags)
+  if count==0:children=[v]
+  elif count==3:
+   x,y,z=[mid[e] for e in edges];children=[[a,x,z],[x,b,y],[z,y,c],[x,y,z]]
+  elif count==1:
+   k=flags.index(True);u,w,o=v[k],v[(k+1)%3],v[(k+2)%3];m=mid[edges[k]];children=[[u,m,o],[m,w,o]]
+  else:
+   for k in range(3):
+    u,vv,w=v[k],v[(k+1)%3],v[(k+2)%3]
+    if edge(u,vv) in mid and edge(vv,w) in mid and edge(w,u) not in mid:break
+   x,y=mid[edge(u,vv)],mid[edge(vv,w)];left=[[u,x,y],[u,y,w]];right=[[u,x,w],[x,y,w]];best=left if quality(nodes,left).min()>=quality(nodes,right).min() else right;children=[[x,vv,y]]+best
+  if count:affected.append(parent)
+  for child in children:
+   child=list(map(int,child));cross=signed_cross(nodes,[child])[0]
+   if cross<0:child[1],child[2]=child[2],child[1]
+   if cross==0:raise ValueError('Degenerate refined triangle')
+   new.append(child);parents.append(parent)
+ triangles=np.array(new,dtype=int);newboundary={}
+ for (a,b),tag in boundary.items():
+  if (a,b) in mid:
+   m=mid[(a,b)];newboundary[edge(a,m)]=tag;newboundary[edge(m,b)]=tag
+  else:newboundary[(a,b)]=tag
+ counts=edge_counts(triangles);conforming=all(n in [1,2] for n in counts.values()) and {e for e,n in counts.items() if n==1}==set(newboundary)
+ if not conforming:raise ValueError('Nonconforming split or incorrect boundary tags')
+ area_before=float(signed_cross(xy,tri).sum()/2);area_after=float(signed_cross(nodes,triangles).sum()/2)
+ if not math.isclose(area_before,area_after,rel_tol=1e-12,abs_tol=1e-12):raise ValueError('Area not preserved')
+ proof=dict(area_before=area_before,area_after=area_after,conforming=conforming,old_coordinates_identical=bool(np.array_equal(nodes[:len(xy)],xy)),split_edges=len(order),affected_parent_ids=affected,parent_ids=parents,minimum_shape_quality_before=float(quality(xy,tri).min()),minimum_shape_quality_after=float(quality(nodes,triangles).min()))
+ return nodes,triangles,newboundary,proof

@@ -1,0 +1,22 @@
+{
+  "checkpoint_vs_heating_start_settings_differences": [
+    {
+      "path": "/references/zone",
+      "heating_start": "",
+      "accepted_checkpoint": "fluid"
+    }
+  ],
+  "recovery_fields_max_abs_difference": {
+    "U": 0.0,
+    "T": 0.0,
+    "p": 0.0,
+    "rho": 0.0
+  },
+  "recovery_native_clock": {
+    "time_s": 1.0,
+    "step": 100.0,
+    "dt_s": 0.01
+  },
+  "classification": "Setup expected-state mismatch before advancing any new physical step",
+  "ruling": "Restart must match the accepted checkpoint final settings, not the pre-heating reference-zone selection. Preserve all numeric reference values and physical/numerical settings; compare all selected keys recursively at original1e-14 serialization tolerance, with no ignored zone field."
+}

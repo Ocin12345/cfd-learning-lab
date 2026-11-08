@@ -1,0 +1,27 @@
+test_baseline_ascii_mesh_reproduced (test_wedge_geometry_v001.Geometry.test_baseline_ascii_mesh_reproduced) ... ok
+test_corner_must_be_a_node (test_wedge_geometry_v001.Geometry.test_corner_must_be_a_node) ... ok
+test_positive_area_and_same_domain (test_wedge_geometry_v001.Geometry.test_positive_area_and_same_domain) ... ok
+test_descending_input_is_equivalent (test_shock_width_v001.Width.test_descending_input_is_equivalent) ... ok
+test_disconnected_threshold_rejected (test_shock_width_v001.Width.test_disconnected_threshold_rejected) ... ok
+test_does_not_bridge_unrelated_shocks (test_shock_width_v001.Width.test_does_not_bridge_unrelated_shocks) ... ok
+test_known_linear_transition (test_shock_width_v001.Width.test_known_linear_transition) ... ok
+test_missing_bracket_rejected (test_shock_width_v001.Width.test_missing_bracket_rejected) ... ok
+test_energy_or_coverage_miss_retained (test_wedge_acceptance_v001.Endpoints.test_energy_or_coverage_miss_retained) ... ok
+test_native_mass_and_outlet_limits (test_wedge_acceptance_v001.Endpoints.test_native_mass_and_outlet_limits) ... ok
+test_residual_pass_cannot_hide_field_drift (test_wedge_acceptance_v001.Endpoints.test_residual_pass_cannot_hide_field_drift) ... ok
+test_steady_native_endpoint_admitted (test_wedge_acceptance_v001.Endpoints.test_steady_native_endpoint_admitted) ... ok
+test_actual_baseline_bijection (test_wedge_foam_mapping_v002.Mapping.test_actual_baseline_bijection) ... ok
+test_duplicate_native_cell_rejected (test_wedge_foam_mapping_v002.Mapping.test_duplicate_native_cell_rejected) ... ok
+test_wrong_extrusion_rejected (test_wedge_foam_mapping_v002.Mapping.test_wrong_extrusion_rejected) ... ok
+test_linear_width_and_coverage (test_wedge_width_columns_v001.Columns.test_linear_width_and_coverage) ... ok
+test_no_silent_column_drop (test_wedge_width_columns_v001.Columns.test_no_silent_column_drop) ... ok
+test_degenerate_grid_rejected (test_wedge_physical_gradient_v001.Gradient.test_degenerate_grid_rejected) ... ok
+test_linear_physical_field_on_skew_grid (test_wedge_physical_gradient_v001.Gradient.test_linear_physical_field_on_skew_grid) ... ok
+test_actual_large_advance_rejected (test_wedge_late_courant_v001.CFL.test_actual_large_advance_rejected) ... ok
+test_inherited_startup_and_scaled_first_advance (test_wedge_late_courant_v001.CFL.test_inherited_startup_and_scaled_first_advance) ... ok
+test_large_later_native_record_rejected (test_wedge_late_courant_v001.CFL.test_large_later_native_record_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.374s
+
+OK

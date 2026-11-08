@@ -1,0 +1,23 @@
+{
+  "parent": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001",
+  "source_sha256": "5056e9291a785fc57cf565187c902554c76aaffde2a8f6ea0ed4e3d69879088b",
+  "unchanged_files": {
+    "plate-heat-flux-3s.csv": "21c2f7bb18a745e6a94ae806ed7c2cb4ff1ddebb03525f4d6f34b46779ef507c",
+    "temperature-comparison-3s.png": "2f01be25a1242be899f3f455131739ceca200b484725f8aae7e36b2b06b59428",
+    "temperature-comparison-3s.pdf": "7f51ccbb4c3387ff63fb2282aae6041531fccd06cb5d0c346755fca1ee6c75d9",
+    "wall-heat-transfer.png": "4e7afd87d2ed8c68c7dc861e0c1071b257012bc5be2d9db57730ef9b5b6bec46",
+    "wall-heat-transfer.pdf": "06508fe39c4c7e3788d4e98325af99eff98c491dc9376e7f4f52219a3d31c3d1",
+    "complete-energy-ledger.png": "fe430880854382d8d793db1a7c82afebd22b77593885de2b6f65f63ae24bc7f1",
+    "complete-energy-ledger.pdf": "787d32178ddf2ac21f9719d837a7df2bcc0ece645dc38e80da3c247f62c9b3a8",
+    "fluent-complete-energy-history.csv": "50c9ad76c8ae410fc9258a5aa2a36e85b7e11f7924985e4166c707f2a4df91ca",
+    "openfoam-complete-energy-history.csv": "09f8ba238b166fcf98dbf5d6262d2fa8e495d1c33bd56e55209644c4c14c8d78",
+    "energy-summary.json": "a537bfdb8bc9dd18425b32d365cde43ede9495cede40542764ee5227b411896e"
+  },
+  "data_and_all61_native_frames_unchanged": true,
+  "video_still_from_v001": true,
+  "changed_files": [
+    "thermal-residuals.png",
+    "thermal-residuals.pdf",
+    "native-field-audit.json"
+  ]
+}

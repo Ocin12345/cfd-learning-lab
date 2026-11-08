@@ -1,0 +1,55 @@
+{
+  "reviewed_at": "2026-11-08T05:09:33.111158+08:00",
+  "reviewer": "Fresh Codex subagent model35_whole_review",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "high",
+  "read_only": true,
+  "review_count": 1,
+  "critical": [],
+  "important": [],
+  "minor_deferred": [
+    {
+      "location": "code/run_scheduled_openfoam_pipeline_v001.py:51; README.md:26",
+      "finding": "Courant timestamps are associated step times, not distinct native state-sampling times. OpenFOAM prints two restart-state reports before its first time advance.",
+      "effect": "One-step interpretation ambiguity only; peak Courant, coverage, acceptance and mass-flux integration unaffected.",
+      "action": "Preserve frozen executed sources; explicitly retain this timing caveat for the archive and any future analysis."
+    }
+  ],
+  "independently_verified": {
+    "manifest_hashes": 2035,
+    "baseline_files": 1926,
+    "changed_existing_files": 6,
+    "selected_passing_steps_each": 10000,
+    "selected_passing_states_each": 101,
+    "partitioned_restart_checkpoint_matches_parent": true,
+    "nonuniform_mapping_and_area_weighting": true,
+    "phase_properties_and_boundary_matching": true,
+    "signed_open_mass_flux_and_duplicate_restart_integration": true,
+    "explicit_renderer_selected_case_binding": true,
+    "representative_midpoint_and_numerical_plots": true
+  },
+  "continuation_ruling": "Technically defensible for this bounded numerical deliverable: verified original prefix, byte-identical partitioned checkpoint, damping changed only after0.25s, every selected step meets unchanged limits. Parent and global-damping quiet misses retained.",
+  "declined_to_judge": [
+    {
+      "item": "Experimental accuracy, mesh/time independence, wetting, turbulence, resolved impact loads",
+      "ruling": "Not established; recorded as open. Cost of assuming otherwise: unsupported physical or discretization claims."
+    },
+    {
+      "item": "Which solver is more accurate",
+      "ruling": "No ranking; visible differences and unlike residual normalization cannot determine accuracy. Cost of assuming otherwise: misleading comparison."
+    },
+    {
+      "item": "Fresh-machine restart reproducibility",
+      "ruling": "Archive requires preserved external native checkpoints, environments and licences; no portable full restart claim. Cost if unavailable: exact continuation cannot be rerun from Git contents alone."
+    },
+    {
+      "item": "Publication or Git integration success",
+      "ruling": "Not performed or claimed. Cost of assuming otherwise: local contents mistaken for remote publication."
+    }
+  ],
+  "verdict": "Ready to mark the selected numerical model complete",
+  "physical_validation": false,
+  "mesh_independence": false,
+  "time_step_independence": false,
+  "github_upload_performed": false
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "observed_at": "2026-11-08T15:39:49.505518+08:00",
+  "verified_manifests": {
+    "baseline-native-source-hashes-v001.json": 632,
+    "full-interval-inputs-v002.json": 1285,
+    "media-inputs-v001.json": 13,
+    "fluent-qualification": 97,
+    "fluent-production": 133,
+    "openfoam-qualification": 423,
+    "openfoam-production": 2558
+  },
+  "unique_native_source_bindings": 3905,
+  "selected_native_case_states": 484,
+  "matched_times": 121,
+  "repository_baseline_files": 2567,
+  "allowed_exact_backup_changes": [
+    "README.md",
+    "docs/PROJECT_HISTORY.md",
+    "docs/REPRODUCING.md",
+    "lessons/33-tank-sloshing/README.md",
+    "lessons/34-sloshing-mesh-sensitivity/README.md",
+    "manifest-sha256.json"
+  ],
+  "verified_packet_copies": 113,
+  "preferred_native_analysis_sha256": "5e729814ed30ea018c33719dedd589c45ac95c2c5b355ad81b514e4b6cf0bd28",
+  "preferred_native_render_source_sha256": "8799f7bc8372f8fa85190ca71e93f28256a9e3d5e833eb7c8481ceec7664fbb5"
+}

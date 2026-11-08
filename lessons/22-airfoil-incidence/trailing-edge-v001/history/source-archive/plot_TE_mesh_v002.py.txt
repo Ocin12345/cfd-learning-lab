@@ -1,0 +1,26 @@
+from pathlib import Path
+import hashlib,json,re
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import matplotlib.tri as mtri
+from matplotlib.collections import LineCollection
+import numpy as np
+from local_refine_triangles_v002 import signed_cross
+S=Path(__file__).parent;R=Path('E:/CFD-Learning-Lab');src=R/'native/runs/2026-11-06-airfoil-incidence-paired-v001/mesh-alpha5/airfoil.msh';M=R/'native/meshes/showcase-airfoil-trailing-edge-v002';O=R/'exports/figures/2026-11-08-airfoil-TE-mesh-v002';assert not O.exists();O.mkdir()
+lines=src.read_text().splitlines();start=next(i for i,x in enumerate(lines) if x.startswith('(10 (1 '))+1;end=lines.index('))',start);xy=np.array([list(map(float,s.split())) for s in lines[start:end]]);groups={}
+for j,line in enumerate(lines):
+ m=re.match(r'^\(13 \(([3456]) ',line)
+ if m:k=lines.index('))',j+1);groups[int(m[1])]=np.array([[int(v,16) for v in s.split()] for s in lines[j+1:k]],dtype=np.int64)
+edges=np.vstack(list(groups.values()));internal=edges[:,3]>0;n=len(xy);pairs=edges[:,:2]-1;keys=np.unique(np.r_[(edges[:,2,None]-1)*n+pairs,(edges[internal,3,None]-1)*n+pairs[internal]]);tri=(keys%n).reshape(-1,3);boundary=groups[4][:,:2]-1
+sets=[('Accepted baseline',xy,tri,boundary)]
+for level in [1,2]:
+ p=M/('level'+str(level)+'-v001');d=np.load(p/'mesh-arrays.npz');sets.append(('Local level '+str(level),d['xy'],d['triangles'],d['boundary_edges'][d['boundary_tags']==4]))
+angle=np.deg2rad(5);rot=np.array([[np.cos(angle),np.sin(angle)],[-np.sin(angle),np.cos(angle)]])
+plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False,'savefig.facecolor':'white'})
+f,axes=plt.subplots(3,1,figsize=(12,8.4),layout='constrained')
+for ax,(label,nodes,triangles,wall) in zip(axes,sets):
+ q=(nodes-[.5,0])@rot+[.5,0];p=q[triangles];chosen=(p[:,:,0].max(axis=1)>=.92)&(p[:,:,0].min(axis=1)<=1.01)&(p[:,:,1].max(axis=1)>=-.015)&(p[:,:,1].min(axis=1)<=.015)
+ ax.triplot(mtri.Triangulation(q[:,0],q[:,1],triangles[chosen]),color='#547085',lw=.25);ax.add_collection(LineCollection(q[wall],colors='#1c2930',linewidths=1));ax.set(xlim=(.92,1.01),ylim=(-.015,.015),xlabel='x / chord, airfoil frame',ylabel='y / chord',title=label+' | '+format(len(triangles),',')+' triangles');ax.set_aspect('equal')
+f.suptitle('Airfoil trailing edge: controlled local mesh refinement',fontsize=16);f.supxlabel('Actual accepted 5° polygon; view rotated into airfoil coordinates for comparison. Original vertices and far boundary unchanged.\nRefinement affects 3,378 (level 1) and 3,391 (level 2) baseline cells, within 0.0892 chord of the trailing edge.\nActual repaired meshes. Native quality checks precede flow sensitivity. No new flow result is shown here.',fontsize=9);f.savefig(O/'airfoil-TE-mesh.png',dpi=140);f.savefig(O/'airfoil-TE-mesh.pdf');plt.close(f)
+(O/'plot-receipt.json').write_text(json.dumps(dict(actual_mesh_data=True,no_flow_result=True,view_derotated_degrees=5,source_sha256={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in [src,M/'level1-v001/mesh-arrays.npz',M/'level2-v001/mesh-arrays.npz',Path(__file__)]}),indent=2)+'\n');print(str(O/'airfoil-TE-mesh.png'))

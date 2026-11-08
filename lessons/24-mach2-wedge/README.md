@@ -76,3 +76,8 @@ with the two native run directories, the repository scripts path and a fresh exp
 The owner requested paired CFD models and solver-derived visuals. Codex prepared,
 ran and checked the cases, then made the plots and animation. Fluent and OpenFOAM
 computed the fields. The owner reflection remains open.
+
+
+## Mach2 wedge refinement —8November2026
+
+The [local two-grid comparison](spatial-v001/README.md) adds paired89,600-cell endpoints, native numerical-shock-width measurements and a bounded saved-state late-CFL diagnostic. It preserves the original study and its historical limits; no global mesh/time independence, experimental validation or new upload is claimed.

@@ -1,0 +1,5 @@
+# OpenFOAM quiet continuation to1200
+
+The first600 steady iterations pass geometry, temperature, mass, EOS and impermeable-wall checks, but maxU4.500778e-6 misses the strengthened1e-6 quiet target. This is retained as a numerical control MISS, even though the original1e-5 criterion would pass. Actual partition fields at100:100:600 show monotonically falling speeds1.2078e-4,5.3074e-5,2.6718e-5,1.4407e-5,8.0043e-6,4.5008e-6m/s.
+
+Ruling: admit only600additional steady iterations from the exact root/bothpartition600 checkpoint to1200, in NEWopenfoam-control-v003. Copy and byteverify original0/mesh,constant,system and exact600 states; change ONLY rootstartTime0->600/endTime600->1200. Original steady schemes, linear tolerances, relaxation, gas, gravity and BCs unchanged. Same tightened1e-6 quiet target; all other original checks retained. Save/stop if1200 misses; no silent extension. This is continued numerical initialization, not600physical seconds or an independent full run. It has no heating or20s launch capability. Previous cases/source guards remain untouched.

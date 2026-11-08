@@ -44,3 +44,8 @@ Executed scripts are in [code](code/run_fluent_v002.py); actual small OpenFOAM d
 Accepted native output: E:/CFD-Learning-Lab/native/runs/natural-convection-dt001-v001/fluent-v002 and openfoam. Audit and rendering helpers launch no solver. Initial input-copy hashes, saved-field hashes and final numerical evidence are included here.
 
 The owner chose the visual CFD portfolio direction and authorized continuation. Codex prepared, executed, checked and documented the runs. ANSYS Fluent and OpenFOAM computed their respective numerical fields. No independent owner execution or personal reflection is invented. This study does not validate Concorde or ornithopter aerodynamics. The record is prepared locally; no new GitHub upload is claimed.
+
+
+## Cavity spatial comparison — 8 November 2026
+
+The [paired 48/96-cell-per-side comparison](spatial-v001/README.md) retains dt = 0.01 s through 20 s, accepted numerical histories, actual native-field media and disclosed initialisation/energy limits. At 20 s the restricted velocity response is 0.63445% in Fluent and 0.60716% in OpenFOAM. This improves studies 30/31 without adding a model or claiming independence, physical validation or a new upload.

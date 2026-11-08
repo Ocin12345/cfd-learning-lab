@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "observed_at": "2026-11-08T13:50:59.966849+08:00",
+  "checked_manifests": {
+    "baseline-native-source-hashes-v001.json": 422,
+    "fluent-production-inputs-v002.json": 3129,
+    "openfoam-production-inputs-v002.json": 3201,
+    "fluent-production-v002": 132,
+    "openfoam-production-v001": 875
+  },
+  "unique_native_source_files_checked": 4176,
+  "baseline_repository_files_checked": 2426,
+  "allowed_prior_changes_backups_exact": [
+    "README.md",
+    "docs/PROJECT_HISTORY.md",
+    "docs/REPRODUCING.md",
+    "lessons/30-natural-convection/README.md",
+    "lessons/31-convection-time-step/README.md",
+    "manifest-sha256.json"
+  ],
+  "native_and_frozen_sources_preserved": true
+}

@@ -1,0 +1,23 @@
+{
+  "baseline_misses": 10,
+  "tight_misses": 10,
+  "baseline_terminal_residuals": [
+    1.2003e-05,
+    1.2581e-07,
+    6.9636e-09
+  ],
+  "tight_terminal_residuals": [
+    1.2519e-05,
+    1.2725e-07,
+    9.4777e-09
+  ],
+  "maximum_absolute_difference_terminal_history": 5.159999999999998e-07,
+  "maximum_mass_imbalance_each": [
+    2.0125659453243113e-09,
+    3.8687780549175676e-10
+  ],
+  "native_hashes_rechecked": true,
+  "hypothesis_rejected": "Pressure AMG termination .1 to .001 alone does not remove continuity plateau.",
+  "next_hypothesis": "Change pressure-velocity solution algorithm from segregated PISO to coupled block, Courant20/explicit pressure-momentum relaxation.5, same4s checkpoint/dt.005/120cap/physics/1e-5 target. This is an algorithm bundle, not isolated causality or retroactive startup repair.",
+  "source": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v251/en/flu_th/flu_th_sec_uns_solve_pv.html"
+}

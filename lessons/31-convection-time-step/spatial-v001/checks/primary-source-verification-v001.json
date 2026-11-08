@@ -1,0 +1,9 @@
+{
+  "accessed": "2026-11-08",
+  "official_source": "https://github.com/OpenFOAM/OpenFOAM-14/blob/master/applications/modules/fluid/thermophysicalPredictor.C",
+  "installed_energy_sha256": "b3271ffca3d544eec49c79cf220ade3013204a5de959a9d887a4f46a64223be9",
+  "installed_buoyant_pressure_sha256": "df74db389155088f37c5739e340c25b9aef9c52792abdc96c42f64492b20c237",
+  "installed_psiThermo_sha256": "2e9cf80ae0e5cc84d9d4cdd729c5c706e7a037c78041b270c91bca3136d73c41",
+  "gravity_work_present": true,
+  "no_new_benchmark_claim": true
+}

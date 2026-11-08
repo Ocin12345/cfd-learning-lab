@@ -1,0 +1,15 @@
+{
+  "study": 26,
+  "new_models": 0,
+  "actual_steps_each": 600,
+  "prefix_steps": 20,
+  "continued_steps": 580,
+  "unique_native_states_each": 601,
+  "dt_s": 0.005,
+  "end_time_s": 3.0,
+  "display_frames": 61,
+  "physical_validation": false,
+  "time_independence": false,
+  "new_upload": false,
+  "owner_execution_or_reflection_claimed": false
+}

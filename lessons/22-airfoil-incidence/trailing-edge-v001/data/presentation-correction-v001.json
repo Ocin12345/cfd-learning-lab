@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-11-08T10:52:37.176989+08:00",
+  "reason": "Original v002 wall-pressure legend overlapped its footer; preserve that version and repair only layout.",
+  "data_changed": false,
+  "source_csv_sha256": "4c4158a65a0e54f1c332014afc85ae51cb5c5c55f3c033e2e4eb2759f7483ef7",
+  "unchanged_copies_sha256": {
+    "airfoil-speed-comparison.png": "4639e81dd3bef9af601469416d8c4d30dd9ab4041d7670ffbf355d5a37c15e33",
+    "airfoil-speed-comparison.pdf": "0094ed570cba9744796bf2fe78c61df7a4ddd0a2eadcb281eb26c25a7fc1f262",
+    "airfoil-Cp-comparison.png": "9d031ebfe70b13cbe59cc07d8783ca3a0e45a027c863c714f6dd7c2f1bc434f6",
+    "airfoil-Cp-comparison.pdf": "a303215577755db07916f7bb0987943f3eb0f57377051c810db397718c41ca92",
+    "airfoil-force-sensitivity.png": "1cc6ec7e58b6d2dcb1b601259d3b684d4d3ea6a83fd7b2e5f8c32e2dfcdd5257",
+    "airfoil-force-sensitivity.pdf": "83d7d8306db9a9d2675193e29d8b304a939aadb7cf5ded5061caeecf18898b2a",
+    "force-comparison.csv": "e8073cc5fff69f23e1a292f943d58c1df5cf2d108effb782afce541f9191344a",
+    "wall-pressure-samples.csv": "4c4158a65a0e54f1c332014afc85ae51cb5c5c55f3c033e2e4eb2759f7483ef7",
+    "comparison-visual-audit.json": "551b03246eb9d7f99e722b84ead69dd9cfa526674d488f3ad6524dfbb84fde11"
+  },
+  "source_script_sha256": "e951116ffac94314b0824c48a1a29a2d60f025f5df8bfa59b62e1ed816c56036"
+}

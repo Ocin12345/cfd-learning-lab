@@ -1,0 +1,12 @@
+from pathlib import Path
+import ast,hashlib,json
+S=Path('E:/CFD-Learning-Lab/local/showcase-improvements-2026-11-08-v001/airfoil-trailing-edge-v001')
+s=(S/'airfoil_prelaunch_v001.py').read_text().replace('airfoil-quality-inputs-v001.json','airfoil-quality-inputs-v002.json');(S/'airfoil_prelaunch_v002.py').write_text(s)
+s=(S/'airfoil_run_guarded_v001.py').read_text().replace('from airfoil_prelaunch_v001','from airfoil_prelaunch_v002').replace('        import os\n','').replace("+'\\\\n')","+'\\n')")
+main=next(n for n in ast.parse(s).body if isinstance(n,ast.FunctionDef) and n.name=='main');assert not any(isinstance(n,ast.Import) and any(v.name=='os' for v in n.names) for n in ast.walk(main));compile(s,'guardeddriver002','exec');(S/'airfoil_run_guarded_v002.py').write_text(s)
+a=json.loads((S/'airfoil-quality-inputs-v001.json').read_text())
+for old,new in [('airfoil_prelaunch_v001.py','airfoil_prelaunch_v002.py'),('airfoil_run_guarded_v001.py','airfoil_run_guarded_v002.py')]:a.pop(str(S/old));a[str(S/new)]=hashlib.sha256((S/new).read_bytes()).hexdigest()
+(S/'airfoil-quality-inputs-v002.json').write_text(json.dumps(a,indent=2)+'\n')
+(S/'prelaunch-scope-correction-v002.json').write_text(json.dumps(dict(old_error='UnboundLocalError: old main-local import os shadowed the early E:temp setup',old_attempt_stopped_before_output_or_solver=True,new_main_has_no_local_os_binding=True,resource_JSON_newline_corrected=True,original_sources_preserved=True),indent=2)+'\n')
+with (S/'progress.md').open('a') as f:f.write('\nQualityattempt001stoppedbeforeoutputdir/solvercreation: legacy main-localimportosshadowedearlytempassignment. Preserveddriver001/helper001/receipt001/stderr. Driver002removeslocalbinding(verifiedAST), fixesresourceJSONnewline; helper002/manifest002. Same mesh/qualitycriteria, no flow has run.\n')
+print('Pre-solver scope failure corrected in preserved new versions')

@@ -1,0 +1,632 @@
+{
+  "copies": {
+    "data/fluent-force-history.csv": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\fluent-force-history.csv",
+      "sha256": "9fb045e502a4bfb8a8dd65244b6ab604f8f49e4df73049a36821fb9173c7baa6"
+    },
+    "data/fluent-step-residuals.csv": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\fluent-step-residuals.csv",
+      "sha256": "c3902a30f321476c3e19c5a7159ab01f78d0488fda6e0bbfc6c63af559ad028d"
+    },
+    "data/fluent-snapshots.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\fluent-snapshots.json",
+      "sha256": "849088e3946d4062ec6fa9a2f2f42be29e3abffb018ca30b80e8d00165e86424"
+    },
+    "data/fluent-cycle-metrics.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\fluent-cycle-metrics.json",
+      "sha256": "af8b9eddc4a184a9c01a51c811b2a77aede03d6cc6c0c536295cc299a84001ba"
+    },
+    "data/combined-fluent-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\combined-fluent-audit.json",
+      "sha256": "bb6ad82c08f05395133254c7c171105d8d050e2b80cc0a1ddabb109443997e79"
+    },
+    "data/openfoam-force-history.csv": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-force-history.csv",
+      "sha256": "00055eb39be3acf1cf810f95adce518a83c6f2713d955e8b972426ec908ffd45"
+    },
+    "data/openfoam-snapshots.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-snapshots.json",
+      "sha256": "134246d770cb8dbd65922eacc198aa921a37d84b85835d7567d5c60f29528cb3"
+    },
+    "data/openfoam-step-records.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-step-records.json",
+      "sha256": "8220e25d6ded1508c52119a8da2c3687fb1e7c799a363f30ee4a2617c176d346"
+    },
+    "data/openfoam-courant-records.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-courant-records.json",
+      "sha256": "5c939552994ec6ce64dd9013b02ec7d8f8d7c15425335968419d0ca86fddf941"
+    },
+    "data/openfoam-cycle-metrics.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-cycle-metrics.json",
+      "sha256": "1e60945e68062f45da6f94b06f2e2c3f6c000f30caefefc78dfaee96a5864055"
+    },
+    "data/combined-openfoam-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\combined-openfoam-audit.json",
+      "sha256": "c160c6481050c4a82d3cfe7316521e3cc2e06e013b7bea36c758961dc6be7fac"
+    },
+    "data/fluent-wall-pressure-estimates.csv": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-pressure-v001\\fluent-wall-pressure-estimates.csv",
+      "sha256": "744c47e6f12af580ad00f5cb5d0ee2c949fe8f15198b21c654c77a0df5cea5f7"
+    },
+    "data/openfoam-wall-pressure-estimates.csv": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-pressure-v001\\openfoam-wall-pressure-estimates.csv",
+      "sha256": "45cbb72787e0cee8961e32fda3de12a8a0b644257de04fd8a1ea79dc9518d83b"
+    },
+    "data/wall-pressure-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-pressure-v001\\wall-pressure-audit.json",
+      "sha256": "714643766d08c1e9c345a8594379604c4fb882c1541191bc48822603a61a5656"
+    },
+    "data/summary.json": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-numerical-record-v002\\summary.json",
+      "sha256": "fada1273ebad17882367e9478b3c106dc2fc7f2db8df3d6fe4db5a9e5a71d6f4"
+    },
+    "data/plot-receipt.json": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-numerical-record-v002\\plot-receipt.json",
+      "sha256": "c3b44dbad5482703c4bc75c9a8e3c300656cccb59f0c25f43939e24adc53bf52"
+    },
+    "numerical-checks.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-numerical-record-v002\\numerical-checks.png",
+      "sha256": "ab686abbe6de62443a0b4deba4d0ff51846889e7eb2db93444e97d46591afbba"
+    },
+    "numerical-checks.pdf": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-numerical-record-v002\\numerical-checks.pdf",
+      "sha256": "38b57dc7e83c5e759953249ceb7d5e9798c4f8fb6901f0ce452555c2c0da2ec3"
+    },
+    "forces-and-pressure.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-numerical-record-v002\\forces-and-pressure.png",
+      "sha256": "2a96d2a10e9e0993654e53bfd746a9f57faa542c4574c3fb03512431d52b69b1"
+    },
+    "forces-and-pressure.pdf": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-numerical-record-v002\\forces-and-pressure.pdf",
+      "sha256": "43fb54e6e7507f19405d079f7ed8d852eb658ed6f544f995c434503707426d31"
+    },
+    "state-000.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-000.png",
+      "sha256": "e76b8ad389f144878f2e55db5f9e7dadaa96e99daf35d3e11a0aaf1341cd3f85"
+    },
+    "state-040.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-040.png",
+      "sha256": "50c838a3f284736267bbe3d1e89474251f1af73804392edef4cb9a1343d41f61"
+    },
+    "state-080.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-080.png",
+      "sha256": "ac1826a022765fb949f75ee5471f3b1a5ba804eac1b7661f9f0eed80a86c9c5f"
+    },
+    "state-120.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-120.png",
+      "sha256": "e2e03ee82ceb59e1d0303fe4eb70ad210d3a5ebae867ab595db2cc2ffd0dba7c"
+    },
+    "state-160.png": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-160.png",
+      "sha256": "6fd49f750fee870ce97414579d23c12e790a2e31357c1fcf9aec3061cef4859e"
+    },
+    "state-000.pdf": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\state-000.pdf",
+      "sha256": "dcfb5f6b1f0f0db55bbac5693ac93446fdf390cd26d76adcdfd2e6526d4ac719"
+    },
+    "state-080.pdf": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\state-080.pdf",
+      "sha256": "0f18ad6a746ecfb1296375332fd6d2e0c9b61bed147acaf39ca5aa7bd34b876f"
+    },
+    "state-160.pdf": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\state-160.pdf",
+      "sha256": "557d3cba38506c97d7f298cf6790d0b17fe962e5b9220e89e302d95678dd3072"
+    },
+    "data/native-field-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\native-field-audit.json",
+      "sha256": "d9c6c6167de636fa92a1dfc9b4accde1fa0c0c1a541497caadc750e7bd3620ab"
+    },
+    "cylinder-developed.mp4": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\cylinder-developed.mp4",
+      "sha256": "6278404b3125fa5c6a506438f9dba9119669a66368f380bcb9d52c9928072e66"
+    },
+    "cylinder-compact.gif": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\compact-gif-v001\\cylinder-compact.gif",
+      "sha256": "64952c9f3dbb329d362c4b17313581051a75f7044994395a6467389307f09e8a"
+    },
+    "data/video-export-record.json": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\video-export-record.json",
+      "sha256": "bf79d29fba636885e27366f1e50810b4f2267f6ac9acb6c5b3c03c34fddda417"
+    },
+    "data/external-full-gif-export-record.json": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\gif-preview-v001\\gif-export-record.json",
+      "sha256": "b4eee2a1a2ab0827a158742edeed0a57af26c12cc3786302d4f6274c8d8bc06b"
+    },
+    "data/compact-gif-export-record.json": {
+      "source": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-cylinder-developed-v001\\compact-gif-v001\\gif-export-record.json",
+      "sha256": "4a3a20d8aa993a1fedab13a424b932429e63fbaf2fdb8f7cdb11773336dcc5a7"
+    },
+    "code/admit_cylinder_media_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\admit_cylinder_media_v001.py",
+      "sha256": "44cc428968cc8ab84f5bca002cd44d51450fd413093c8475f977a2125b4c68ed"
+    },
+    "code/audit_cylinder_guarded_window_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\audit_cylinder_guarded_window_v001.py",
+      "sha256": "b46caf4f62668edf558f2917b42a3c038d50f0f78d75f86283c16db91e29e64b"
+    },
+    "code/audit_cylinder_openfoam_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\audit_cylinder_openfoam_v001.py",
+      "sha256": "979a340cdb58c3fb0e75545b602ae63f4c1b43f6da09e87c3a53eef351e42428"
+    },
+    "code/audit_cylinder_openfoam_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\audit_cylinder_openfoam_v002.py",
+      "sha256": "024472ec8fe3d86431e285e3f43c9484fc9854fc62477633bcd8ed5274d58fef"
+    },
+    "code/audit_cylinder_window_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\audit_cylinder_window_v001.py",
+      "sha256": "a2b1ac8b4082cb8cf6b1a5e1339c343e90a8f2ccbfddf6dac8846857aed79fbf"
+    },
+    "code/audit_cylinder_window_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\audit_cylinder_window_v002.py",
+      "sha256": "d44be0691130003108e3bae01b6f7f197eafeccf87176a6edf57a0378f53275d"
+    },
+    "code/combine_fluent_interval_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\combine_fluent_interval_v001.py",
+      "sha256": "0d3bbc38b020d3257617a969b620c1a760055f56b21fde5d3103e599e1226be2"
+    },
+    "code/combine_openfoam_interval_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\combine_openfoam_interval_v001.py",
+      "sha256": "2a2d1b2dcf6f65bd262daf023e9338f7b8b51c21500aef537e9a5487d8632f66"
+    },
+    "code/compute_wall_pressure_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\compute_wall_pressure_v001.py",
+      "sha256": "3370b148ded1f9bbc729ee3e6c949ee5f569d7916f05ca68116dbc0a2bf22fa8"
+    },
+    "code/correct_force_window_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\correct_force_window_v002.py",
+      "sha256": "30a8f1b130b194613e8152c539268dd6976b702015b7e03150e24bd62415fa79"
+    },
+    "code/correct_wsl_gate_v003.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\correct_wsl_gate_v003.py",
+      "sha256": "e5fc14c9746c097ed437b71747030d0999b4e1106a38c5a46a05cd7506808c08"
+    },
+    "code/cylinder_cycle_metrics_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_cycle_metrics_v001.py",
+      "sha256": "01fed83eccb5893159d478f94c66205de0ad3077d531f5522ee6aa9826532df2"
+    },
+    "code/cylinder_fluent_coupled_guarded_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_fluent_coupled_guarded_v001.py",
+      "sha256": "b5441a1d3e6c3bbe7ae70a87a1c12981433a3ca04bf6e93f3343bfc304c1c742"
+    },
+    "code/cylinder_fluent_coupled_guarded_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_fluent_coupled_guarded_v002.py",
+      "sha256": "44f2b0a0cc8452c7b2ab129d7aacdfc494b5aeade3b3b44893a423d8948d5c49"
+    },
+    "code/cylinder_fluent_coupled_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_fluent_coupled_v001.py",
+      "sha256": "73a80ec3b70cc1e2108e36f1133a95d0b584cf1be793d7aee620e82166742d29"
+    },
+    "code/cylinder_fluent_pressure_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_fluent_pressure_v001.py",
+      "sha256": "67d1b7eb3b2d0b670da1f993befaacf30ff326ed0ce11008be6c3178a37cde39"
+    },
+    "code/cylinder_fluent_pressure_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_fluent_pressure_v002.py",
+      "sha256": "695d2490f10303180403e1b4d6b60bfc65786c8b9428cb8ea5baa549b26e18ed"
+    },
+    "code/cylinder_guard_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_guard_v001.py",
+      "sha256": "7f66cb20d91cae2cf43e2ce0dd10a17724c1dce708457aab470b7d0b39652dbc"
+    },
+    "code/cylinder_runtime_guard_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_runtime_guard_v001.py",
+      "sha256": "dd731a9ab5d17edf9f5156425d6a28ed416a7a4c15b73472fd5e0a207ebc1621"
+    },
+    "code/cylinder_wall_pressure_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder_wall_pressure_v001.py",
+      "sha256": "570a8591405ee9ba78e0297e7c1e73aeefc41ef2fde8feb13860b55c66f077c5"
+    },
+    "code/export_cylinder_compact_gif_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\export_cylinder_compact_gif_v001.py",
+      "sha256": "fd9f7173a870457d25447bc88e3830efcce19696117f5edd09436f03af9f2646"
+    },
+    "code/export_cylinder_gif_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\export_cylinder_gif_v001.py",
+      "sha256": "7aa7a3771afd6d0f0a63ed317941b876dfa46908adbab95b9bfb0b3b0065f041"
+    },
+    "code/export_cylinder_video_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\export_cylinder_video_v001.py",
+      "sha256": "30f26bcdc6347c28617537c8a48be7a4da7602514ad2469ecac47661519d5ae1"
+    },
+    "code/freeze_guarded_window_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\freeze_guarded_window_v001.py",
+      "sha256": "fa1f7abba8fc89ab8bf287c8a5e709083c6372347cbeb94193960b686253a016"
+    },
+    "code/freeze_media_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\freeze_media_v001.py",
+      "sha256": "1aba7d5f14b2111e2664bcfc4d49fad9862acd9d35fb07f03362f97c52729f35"
+    },
+    "code/freeze_openfoam_qualification_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\freeze_openfoam_qualification_v001.py",
+      "sha256": "d2da1b56a3aa6262d4409eb6b3b566e8aaaa2f4bb33f678c0bacc93fcd7ac372"
+    },
+    "code/plot_cylinder_diagnostic_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\plot_cylinder_diagnostic_v001.py",
+      "sha256": "c32c4678e78e3906839aff84a875bb06f6dae58c7d4693f2ef8211b1837d4a2a"
+    },
+    "code/plot_cylinder_diagnostic_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\plot_cylinder_diagnostic_v002.py",
+      "sha256": "eef3074fd6f17587f13e864a0ef369ae1fbb18dd9d937cdd790836050f3941aa"
+    },
+    "code/plot_cylinder_half_second_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\plot_cylinder_half_second_v001.py",
+      "sha256": "0e2a0acb872838b825b5d6aef43778f616e7da417fceb66d4c9b39b09b4867c0"
+    },
+    "code/plot_cylinder_numerics_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\plot_cylinder_numerics_v001.py",
+      "sha256": "7c2fac54ba65a4599a18709ecd216eb8a913db7d42a22c63b04c951b4d4c1a9c"
+    },
+    "code/plot_cylinder_numerics_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\plot_cylinder_numerics_v002.py",
+      "sha256": "bc49054514e628e61e11fc418550f84e2f4532d08ac4d6a0c54826017186fd2b"
+    },
+    "code/prepare_compact_gif_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_compact_gif_v001.py",
+      "sha256": "e4fc156b158df8fb10be03abe4854f314e7373f103096e126eea12dc847ae90e"
+    },
+    "code/prepare_coupled_controller_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_coupled_controller_v001.py",
+      "sha256": "96b73c161c38561bcb32521983912c5082a8d15e72f3a20485f44158360fa1c3"
+    },
+    "code/prepare_coupled_diagnostic_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_coupled_diagnostic_v001.py",
+      "sha256": "49fee34acee9b99bb1a44affcb23612e205183fc5185904d8f60961649e03597"
+    },
+    "code/prepare_cylinder_diagnostic_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_cylinder_diagnostic_v001.py",
+      "sha256": "de53a51034769a3e697006c8fed5439ff7890cf4426a481722e5fdadbc4f2d68"
+    },
+    "code/prepare_cylinder_exporters_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_cylinder_exporters_v001.py",
+      "sha256": "c22bcf22b566b42ae82d1d6e6471224382350a4bc7adc98f0df6f80d8baae4c1"
+    },
+    "code/prepare_cylinder_record_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_cylinder_record_v001.py",
+      "sha256": "bea6a15b8be3855fcd3c6177dd5590898c6561ab055578001887a643eb6b06dc"
+    },
+    "code/prepare_development_interval_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_development_interval_v001.py",
+      "sha256": "1960b286bf3a69ce83a0f756e8112c6a9eb8108b3ca31bdaf5a786e517fa7fe0"
+    },
+    "code/prepare_guarded_auditor_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_guarded_auditor_v001.py",
+      "sha256": "3dd0d7f06c57da67038bbc2bc813d2985420def1fb67c16120769293b898d84e"
+    },
+    "code/prepare_guarded_window_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_guarded_window_v001.py",
+      "sha256": "c82e7ab6e691fc4bc50c2de2f07cb409980c149dc2c065820ad09277bec0ef89"
+    },
+    "code/prepare_half_second_plot_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_half_second_plot_v001.py",
+      "sha256": "2bdf1da5b9a16e41e18470ed22441aaf826303d432424fd8c6a55d37da9be934"
+    },
+    "code/prepare_launch_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_launch_v002.py",
+      "sha256": "265a6aaba73d7f0116478b76df9c6a5c1cfd242a0cee6a19c21f4fb2b088aa3b"
+    },
+    "code/prepare_openfoam_developed_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_openfoam_developed_v001.py",
+      "sha256": "28c8e32ec724c1a0691f416d8e164d855f353184ed3a587593bb8ddfb746ba8d"
+    },
+    "code/prepare_openfoam_qualification_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\prepare_openfoam_qualification_v001.py",
+      "sha256": "d1567ba23934dbe5beb6a30fc849da59e1d0b6424d99fdfaaff62a5a78e426bd"
+    },
+    "code/render_cylinder_developed_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\render_cylinder_developed_v001.py",
+      "sha256": "7bdfc871b675a2acc4cf48f4169f789c07e20039f8b5a836e4493556cb6e1f07"
+    },
+    "code/render_paired_qualification_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\render_paired_qualification_v001.py",
+      "sha256": "f23f8e54b32c0ed6e7238e99936886db00a658bd85f73c3e636f16c1131815d6"
+    },
+    "code/run_cylinder_coupled_pilot_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_coupled_pilot_v001.py",
+      "sha256": "838da881bedb9f1506a01f0a2e887b8c7279c0bb6abee2550fabed54108ab35b"
+    },
+    "code/run_cylinder_developed_fluent_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_developed_fluent_v001.py",
+      "sha256": "48727995ba48888e5a4546c74447b82f1709ddc0a1dbc863a6a3caafd8e0f178"
+    },
+    "code/run_cylinder_guarded_window_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_guarded_window_v001.py",
+      "sha256": "4d9625d4498aa804b164d317131f43cb901343aaaeb5d58ba0048a7712960a72"
+    },
+    "code/run_cylinder_media_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_media_v001.py",
+      "sha256": "e2217a13de2e8b605935ab2df6d35ef79b6f97f94d4870be17e5d2ebd0475153"
+    },
+    "code/run_cylinder_openfoam_developed_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_openfoam_developed_v001.py",
+      "sha256": "d32a3a7e5568d5df405e92b21e0ef3b9d4aaf7a6bc4f482a992d9707258b28e4"
+    },
+    "code/run_cylinder_pressure_pair_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_pressure_pair_v001.py",
+      "sha256": "e0508d395e3b7d3456c2ca20f2ace5935d5d4551cefd4dc61cf44b474bbb1be1"
+    },
+    "code/run_cylinder_pressure_pair_v002.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_pressure_pair_v002.py",
+      "sha256": "d7807d02074bc0900bf642accb51cb518ec00aa7d61f66bc38be8bf7bd302ccc"
+    },
+    "code/run_cylinder_pressure_pair_v003.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_pressure_pair_v003.py",
+      "sha256": "bfb0c903aa987842ba7db17616e5a937415328468446cd33e77bf9bec649bcb5"
+    },
+    "code/save_cycle_protocol_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\save_cycle_protocol_v001.py",
+      "sha256": "6468d9ed649dfc78a3279eb4ae99c176fd1ef6791a2759f16dcec4ad4ddf983a"
+    },
+    "code/save_cylinder_handoff_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\save_cylinder_handoff_v001.py",
+      "sha256": "a1ecd01dc89eff77e59dfdf4578860226668315cd0248aa41756f08295eaaf82"
+    },
+    "code/save_final_visual_review_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\save_final_visual_review_v001.py",
+      "sha256": "4e48d8a8430e5095b60d49816901940fa0d9d5d6e98e1eeef2162b39782653a7"
+    },
+    "code/test_cylinder_cycle_metrics_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\test_cylinder_cycle_metrics_v001.py",
+      "sha256": "c896d4eea8fefe7af2621d892c5f6d7f6af592955ee0f75e4ce0620cfb4bea7f"
+    },
+    "code/test_cylinder_guard_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\test_cylinder_guard_v001.py",
+      "sha256": "bc2313685d7bc386440ad1dff7a637841a6b97b5a490f588f0bfdd57b2f60fdf"
+    },
+    "code/test_cylinder_runtime_guard_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\test_cylinder_runtime_guard_v001.py",
+      "sha256": "75733dc58b6441ef91b4685ed329f9db6fff4bba5e1ccca96785fa33482e39ee"
+    },
+    "code/test_native_coverage_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\test_native_coverage_v001.py",
+      "sha256": "d98026d6dee991da92aedb79d5873f746298bd61563727b4a19c239fe5249197"
+    },
+    "code/test_openfoam_coverage_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\test_openfoam_coverage_v001.py",
+      "sha256": "67ad063334b34f33224a5f25f97d636fd92a92b8a610c9c083415a9a2b3746cd"
+    },
+    "code/test_wall_pressure_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\test_wall_pressure_v001.py",
+      "sha256": "15860da7aff4c5a386e0408e9bc9bbdc1b7423d20ff6fe438cb4b8c1a7b06446"
+    },
+    "code/verify_openfoam_developed_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\verify_openfoam_developed_v001.py",
+      "sha256": "ebdabcaa381e7097e0b3872c7da89b3aa76716ae22df092c137eee74baa5e091"
+    },
+    "code/verify_openfoam_qualification_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\verify_openfoam_qualification_v001.py",
+      "sha256": "d035875579031d977b0ee9ab662a11e5a8a104a27da7a51b78e7bd92863f293e"
+    },
+    "code/wait_and_run_openfoam_qualification_v001.py": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\wait_and_run_openfoam_qualification_v001.py",
+      "sha256": "a3e737fbf26a9899e43e2c9f7b623317a2a8e0de450b050dc1d9dfc0f2071f0b"
+    },
+    "code/run_cylinder_openfoam_developed_v001.sh": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_openfoam_developed_v001.sh",
+      "sha256": "23b797e18786d39ef0a4efb5cf422665f773b2a8617ba776974644568afc1e71"
+    },
+    "code/run_cylinder_openfoam_qualification_v001.sh": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\run_cylinder_openfoam_qualification_v001.sh",
+      "sha256": "8c86cce24bc38dd00c142b3b19e8f8bde3806c3f225c3fe74631cb8028e1363d"
+    },
+    "history/SPEC.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\SPEC.md",
+      "sha256": "96ec85f0942d91285959e60dbe4720b16b372be59d9cc4b8b3b83ee83d852409"
+    },
+    "history/PLAN.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\PLAN.md",
+      "sha256": "1428ef65227aaa5fd7d1ae1c02c3ed54b9491a407827a1204ba5fa9805465ffe"
+    },
+    "history/COUPLED-ADDENDUM-v001.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\COUPLED-ADDENDUM-v001.md",
+      "sha256": "083442ed77857b5870abce9aefb3735807c21e5854391a8e9b423cf1bef1867a"
+    },
+    "history/DEVELOPED-INTERVAL-v001.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\DEVELOPED-INTERVAL-v001.md",
+      "sha256": "c0a5c2c43c52979ac1796e033250438565d8338522f290a4b2b8ad6da7fc0119"
+    },
+    "history/progress.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\progress.md",
+      "sha256": "36c337b4457737aef2ae5e6ac831dab7872792e96df396e8c398ac9ea63f41ec"
+    },
+    "provenance/actual-coupled-diagnostic-image-review-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\actual-coupled-diagnostic-image-review-v001.json",
+      "sha256": "0f182be1fba055df0881af3a189ffd5664f7e5fe64f78e0ab37c3f145561e536"
+    },
+    "provenance/actual-half-second-image-review-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\actual-half-second-image-review-v001.json",
+      "sha256": "a38b8750d00f0f3df9af61601e3829c91587f01111240ad247e07109f515c225"
+    },
+    "provenance/coupled-controller-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\coupled-controller-inputs-v001.json",
+      "sha256": "e9a9787d1c18e38626d27436203b2572b21c0f6bf2bee71d3bc31ff1ff55c048"
+    },
+    "provenance/cycle-development-protocol-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cycle-development-protocol-v001.json",
+      "sha256": "119517dc9bb7f9bc49e137067ffc4064974e96f113c23c2b9721dbaa2b3ebaa4"
+    },
+    "provenance/cylinder-coupled-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder-coupled-inputs-v001.json",
+      "sha256": "81589a3d92a3cc62199153c5fb308b668a4dde1f7c16614017bbb655d4e0ceed"
+    },
+    "provenance/cylinder-coupled-window-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder-coupled-window-inputs-v001.json",
+      "sha256": "0146fca233c5d1cb19cf2e0472a89e260912c615d791c66373e1f377b9b1be1a"
+    },
+    "provenance/cylinder-developed-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder-developed-inputs-v001.json",
+      "sha256": "aabbae8d465e68bd6f1d7a2bc86f88bfd746ce90754f606e4642ce41dfabc3b0"
+    },
+    "provenance/cylinder-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder-inputs-v001.json",
+      "sha256": "b47e2093f223fe605ce3b752b9576ee436cc66109b48e5f4616e86c015044722"
+    },
+    "provenance/cylinder-inputs-v002.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder-inputs-v002.json",
+      "sha256": "2308294f4b094bcd147012279f9ebe8e38772b05d9d8c717688f13d0c69b8c9c"
+    },
+    "provenance/cylinder-media-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cylinder-media-inputs-v001.json",
+      "sha256": "a24d09801557352a8742f9757fa7de232fda1b34637d02fe4d81039fb4115230"
+    },
+    "provenance/developed-controller-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\developed-controller-inputs-v001.json",
+      "sha256": "9951b1f77eaacdbb90db5f47479434218241de5c39d2bda5e9b3cc8bf3e3b255"
+    },
+    "provenance/developed-preview-visual-review-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\developed-preview-visual-review-v001.json",
+      "sha256": "c179f413515d7c78a4f1ecc61568fa9cebe7b25d1a31c600c1ce9b3a62757608"
+    },
+    "provenance/diagnostic-controller-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\diagnostic-controller-inputs-v001.json",
+      "sha256": "a7a2191ec9e37c85762ce5d43fd67741bf56f6309c05f162ca81a26adff1069b"
+    },
+    "provenance/diagnostic-controller-inputs-v002.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\diagnostic-controller-inputs-v002.json",
+      "sha256": "c66c39f7598c55393ce52e1a625e0ea131b7abaed5d69e475478306e3a39880f"
+    },
+    "provenance/final-cylinder-visual-review-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\final-cylinder-visual-review-v001.json",
+      "sha256": "c0ab615288d82315db2434db14a714d5cc789b330a70064db34e85c3736896dc"
+    },
+    "provenance/guarded-window-controller-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\guarded-window-controller-inputs-v001.json",
+      "sha256": "ec34b5c15633d6c84aff114b0287dc38a80ddcd7b69f924c292d802ad7c593e6"
+    },
+    "provenance/native-clock-schema-regression-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\native-clock-schema-regression-v001.json",
+      "sha256": "c7e6446f0c45e3ea89bd750498f73aef6ed78cd64e1634363e808cf169412755"
+    },
+    "provenance/native-force-schema-regression-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\native-force-schema-regression-v001.json",
+      "sha256": "fb1596a8c7bd6bec21653cc0d23a5f8f5b50053763c8708a282d4a3f37c991f8"
+    },
+    "provenance/openfoam-developed-copy-proof-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\openfoam-developed-copy-proof-v001.json",
+      "sha256": "1fa17d11282e1b75d7ad6d2bd78137baf5e8e93a33aa99f7b0c88755ec9f5cb5"
+    },
+    "provenance/openfoam-developed-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\openfoam-developed-inputs-v001.json",
+      "sha256": "efe11e9c3634ed421e2bd902300ac2d9658202013db979abacaf8a7811468100"
+    },
+    "provenance/openfoam-qualification-copy-proof-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\openfoam-qualification-copy-proof-v001.json",
+      "sha256": "f30e75efbd6a2a3ac1b3a0c6303152da4823d22052c6f53dee76ba14d98e2565"
+    },
+    "provenance/openfoam-qualification-inputs-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\openfoam-qualification-inputs-v001.json",
+      "sha256": "248f777d626367323fc432c4f6e88d6db97db125a7015baf974a49346be6f52c"
+    },
+    "provenance/paired-qualification-visual-review-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\paired-qualification-visual-review-v001.json",
+      "sha256": "06d3e1739cb2884a6d9fb848c56f6190bb4bd9a7a1ce8ec4b89f09b810faef6a"
+    },
+    "provenance/pressure-hypothesis-result-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\pressure-hypothesis-result-v001.json",
+      "sha256": "e62b9b9347b4767dd8df2e3d341ce3f585f96e274e16c23102d0478961e87cf5"
+    },
+    "provenance/preview-export-rejection-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\preview-export-rejection-v001.json",
+      "sha256": "cfbcf7c89ecc1ea6464846a958222c08bf4920ae591372967f539440a6be024d"
+    },
+    "provenance/wsl-process-gate-regression-v001.json": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\wsl-process-gate-regression-v001.json",
+      "sha256": "ad52f0b119a4ebf902b913ed0e14b1446e907f11f1c410a256b7fdad25de0a1d"
+    },
+    "data/pressure-only-baseline-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\fluent-pressure-baseline-v001\\window-audit.json",
+      "sha256": "7dac95c8b069e62e5c7de262957f7fb8f12f1ba4305e326eada17c2a1918cae5"
+    },
+    "data/pressure-only-tight-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\fluent-pressure-tight-v001\\window-audit.json",
+      "sha256": "97fa9ea83407c02398ca402500ab0ec3b3a189ff3e8cd2bc8a1b902f90685378"
+    },
+    "data/fluent-coupled-pilot-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\fluent-coupled-pilot-v001\\window-audit.json",
+      "sha256": "bba614d15bc3396a9e14ef3359501a4139e687bbda8e6fbb7d9dcabbb86c959a"
+    },
+    "data/fluent-half-second-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\fluent-coupled-window-v001\\window-audit.json",
+      "sha256": "997b82215316a79f87695476ec23fa45e052166bf3adfbdd8b5c4b0c511c76b8"
+    },
+    "data/fluent-suffix-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\fluent-developed-v001\\window-audit.json",
+      "sha256": "28e3282c02cdad8ae49a0b8c03deb09ba7ec51ab2956d04aef250f3fa64f0130"
+    },
+    "data/openfoam-qualification-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\window-audit.json",
+      "sha256": "5787fbbd6dd7165c5bab98fb6e7ab5df31073e6873caeab8983df0ec70194911"
+    },
+    "data/openfoam-suffix-audit.json": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\window-audit.json",
+      "sha256": "d8931ccc6b3d1282d8b253650b5a2730f912a13b2790a606bd87188ae3451691"
+    },
+    "openfoam-inputs/system/controlDict": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\system\\controlDict",
+      "sha256": "a67ceaeb95f02f8705a1951cd3a5e6f7120833f1d4fe9c406cb3e3c06ec5b9cd"
+    },
+    "openfoam-inputs/system/fvSchemes": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\system\\fvSchemes",
+      "sha256": "10527a4b72853f3e8fa9d7b15643bac177e2f4df02214473f8a8f821fafc827c"
+    },
+    "openfoam-inputs/system/fvSolution": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\system\\fvSolution",
+      "sha256": "74d8143df5498fcf84cc4aa9bf7f4a58f8d763b1843ec41b8e0fa2344b1eb009"
+    },
+    "openfoam-inputs/system/decomposeParDict": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\system\\decomposeParDict",
+      "sha256": "5c4d636cb3070a405d3437172ffbf73a3104582ae6347170c91cc11666011797"
+    },
+    "openfoam-inputs/constant/physicalProperties": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\constant\\physicalProperties",
+      "sha256": "0c2cccd25f6ff7637351833f35ea078390e21633c99246122dc74f495fa94b0b"
+    },
+    "openfoam-inputs/constant/momentumTransport": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\constant\\momentumTransport",
+      "sha256": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844"
+    },
+    "openfoam-inputs/0/U": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\0\\U",
+      "sha256": "602bfad0c9ee7708445413db7e4b2e25e996e046e235bea7a9f59fc5876eb1a0"
+    },
+    "openfoam-inputs/0/p": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-developed-v001\\0\\p",
+      "sha256": "bb9817522929bdaa6ebb2239774819ef994c6f426ef34a85545a096e1dd16a56"
+    },
+    "history/earlier-benchmark-README.txt": {
+      "source": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\lessons\\20-cylinder-benchmark\\README.md",
+      "sha256": "216697d1af4108cec8c279985fef0dfea7bd5a6ee8f53ac091dca970f22b2668"
+    },
+    "history/earlier-wake-README.txt": {
+      "source": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\lessons\\07-vortex-shedding\\README.md",
+      "sha256": "e3abe496af5cb6339c54607c94152c02976ef48e8425a9b151a5d1f498bc6544"
+    },
+    "provenance/coverage-green-v001.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\coverage-green-v001.log",
+      "sha256": "0da1ba9fa2ec1fb62d21f09a929eed5d069af55156e577af08823d6f08935857"
+    },
+    "provenance/cycle-metrics-green-v001.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\cycle-metrics-green-v001.log",
+      "sha256": "93d9d365c43cf9fad5d6a171dfa7344002bcb75559e11cccb78f389921ad0385"
+    },
+    "provenance/guard-green-v001.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\guard-green-v001.log",
+      "sha256": "d60b983d6733cab68df6fd988a1d0ac1d0f3d018a8e283178b6d4433b003e781"
+    },
+    "provenance/openfoam-coverage-green-v001.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\openfoam-coverage-green-v001.log",
+      "sha256": "6db9973fc8f440143634b1725a36d574fd87a4480852059c39f2cb740b9ee0a4"
+    },
+    "provenance/runtime-green-v001.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\runtime-green-v001.log",
+      "sha256": "8c8feb12dde810019cf0527787a42355f0cd7afe82f6e4d675562664cc906ddf"
+    },
+    "provenance/wall-pressure-green-v001.txt": {
+      "source": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\wall-pressure-green-v001.log",
+      "sha256": "5ccab29804d10399d37a1e42fcce6c3fb7408f413b9a6c263788ce0fa594f82d"
+    }
+  },
+  "all_copied_files_byte_identical": true,
+  "native_solver_files_included": false,
+  "technical_review_pending": false,
+  "technical_review": "data/technical-review.json"
+}

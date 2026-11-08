@@ -1,0 +1,16 @@
+{
+  "fluent_case": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\fluent-coupled-dt005ms-v001",
+  "openfoam_case": "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\production\\openfoam-scheduled-urelax07-v001",
+  "fluent_audit": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-production-dt005ms-audit.json",
+  "openfoam_audit": "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-production-scheduled-audit.json",
+  "audit_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\fluent-production-dt005ms-audit.json": "ccf6ed4356721fd08a13dd1e7ee8640327a3e1e3f299529ec39936ddd4bd37ae",
+    "E:\\CFD-Learning-Lab\\local\\dam-break-over-obstacle-v001\\openfoam-production-scheduled-audit.json": "8a971ffa8c35a2da7776709f4348d791d37acf0ac285807212703ab25c7517d7"
+  },
+  "full_pair_numerical_checks_pass": true,
+  "dt_s": 5e-05,
+  "steps_each": 10000,
+  "states_each": 101,
+  "openfoam_continued_from_verified_prefix": true,
+  "physical_validation": false
+}

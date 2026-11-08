@@ -1,0 +1,15 @@
+{
+  "old_failure": "WSL -- interpreted unquoted pipe-separated pattern through shell; localized UTF16 warning broke UTF8 text decoding. Controller failed before native output/session.",
+  "new_direct_exec": [
+    "wsl.exe",
+    "-d",
+    "CFD-Foundation14",
+    "-e",
+    "pgrep",
+    "-af",
+    "[f]oamRun|[s]impleFoam|[p]impleFoam|[m]pirun"
+  ],
+  "actual_no_solver_returncode": 1,
+  "raw_stderr_bytes": 132,
+  "passed": true
+}

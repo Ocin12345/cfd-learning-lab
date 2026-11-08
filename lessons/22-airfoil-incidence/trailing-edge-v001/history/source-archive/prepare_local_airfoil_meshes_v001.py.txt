@@ -1,0 +1,50 @@
+from pathlib import Path
+import datetime,hashlib,json,os,re,shutil
+import numpy as np
+from local_refine_triangles_v002 import refine_mesh,signed_cross,edge
+from wing_fluent_v001 import available_memory
+S=Path(__file__).resolve().parent;R=Path('E:/CFD-Learning-Lab');SRC=R/'native/runs/2026-11-06-airfoil-incidence-paired-v001/mesh-alpha5/airfoil.msh';OUT=R/'native/meshes/showcase-airfoil-trailing-edge-v001'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def mark(state,**kw):
+ (S/'meshing-v001-status.json').write_text(json.dumps(dict(state=state,observed_at=datetime.datetime.now().astimezone().isoformat(),pid=os.getpid(),**kw),indent=2)+'\n')
+def write_mesh(folder,xy,tri,boundary):
+ faces={}
+ for cid,(a,b,c) in enumerate(tri,1):
+  for u,v in [(a,b),(b,c),(c,a)]:
+   key=edge(u,v)
+   if key in faces:assert faces[key][:2]==[int(v)+1,int(u)+1] and not faces[key][3];faces[key][3]=cid
+   else:faces[key]=[int(u)+1,int(v)+1,cid,0]
+ groups={k:[] for k in [3,4,5,6]}
+ for k,face in faces.items():groups[3 if face[3] else boundary[k]].append(face)
+ with (folder/'airfoil.msh').open('x',newline='\n') as f:
+  f.write('(0 "Exact-polygon locally refined Re100 airfoil")\n(2 2)\n');f.write(f'(10 (0 1 {len(xy):x} 1 2))\n(10 (1 1 {len(xy):x} 1 2)(\n')
+  for x,y in xy:f.write(f'{x:.17g} {y:.17g}\n')
+  f.write('))\n');f.write(f'(12 (0 1 {len(tri):x} 0))\n(12 (2 1 {len(tri):x} 1 1))\n');f.write(f'(13 (0 1 {len(faces):x} 0))\n');first=1
+  for zone,bc in [(3,2),(4,3),(5,10),(6,5)]:
+   rows=groups[zone];f.write(f'(13 ({zone:x} {first:x} {first+len(rows)-1:x} {bc:x} 2)(\n')
+   for row in rows:f.write(' '.join(f'{v:x}' for v in row)+'\n')
+   f.write('))\n');first+=len(rows)
+  for zone,kind,name in [(2,'fluid','fluid'),(3,'interior','interior'),(4,'wall','airfoil'),(5,'velocity-inlet','inlet'),(6,'pressure-outlet','outlet')]:f.write(f'(45 ({zone} {kind} {name})())\n')
+ return {str(k):len(v) for k,v in groups.items()}
+def main():
+ assert SRC.is_file() and Path('D:/ANSYS Inc/ANSYS Student/v261/fluent/ntbin/win64/fluent.exe').is_file() and not OUT.exists();assert OUT.resolve().is_relative_to((R/'native/meshes').resolve())
+ assert available_memory()>=4*2**30 and shutil.disk_usage(R).free>=10*2**30
+ source_hash=sha(SRC);meta=json.loads(SRC.with_name('setup.json').read_text());assert meta['cells']==109600 and meta['angle_degrees']==5 and meta['mesh_sha256']==source_hash
+ mark('building_local_meshes',source_mesh=str(SRC),source_sha256=source_hash)
+ lines=SRC.read_text().splitlines();start=next(i for i,x in enumerate(lines) if x.startswith('(10 (1 '))+1;end=lines.index('))',start);base_xy=np.array([list(map(float,s.split())) for s in lines[start:end]]);groups={}
+ for j,line in enumerate(lines):
+  m=re.match(r'^\(13 \(([3456]) ',line)
+  if m:k=lines.index('))',j+1);groups[int(m[1])]=np.array([[int(v,16) for v in s.split()] for s in lines[j+1:k]],dtype=np.int64)
+ assert set(groups)=={3,4,5,6};allfaces=np.vstack(list(groups.values()));n=len(base_xy);internal=allfaces[:,3]>0;nodes=allfaces[:,:2]-1;keys=np.unique(np.r_[(allfaces[:,2,None]-1)*n+nodes,(allfaces[internal,3,None]-1)*n+nodes[internal]]);ids,counts=np.unique(keys//n,return_counts=True);assert np.array_equal(ids,np.arange(109600)) and (counts==3).all();base_tri=(keys%n).reshape(-1,3);flip=signed_cross(base_xy,base_tri)<0;base_tri[flip]=base_tri[flip][:,[0,2,1]]
+ base_boundary={edge(a-1,b-1):zone for zone in [4,5,6] for a,b,c,d in groups[zone]};far={e:z for e,z in base_boundary.items() if z in [5,6]};body=np.unique(np.array([e for e,z in base_boundary.items() if z==4]));ang=np.deg2rad(5);body_frame=(base_xy[body]-[.5,0])@np.array([[np.cos(ang),np.sin(ang)],[-np.sin(ang),np.cos(ang)]]);te_idx=body[np.argmax(body_frame[:,0])];te=base_xy[te_idx];assert abs(body_frame[:,0].max()-.5)<1e-10
+ xy=base_xy.copy();tri=base_tri.copy();boundary=base_boundary.copy();base_parent=np.arange(len(tri));OUT.mkdir();outcomes=[]
+ for level in [1,2]:
+  marked=np.linalg.norm(xy[tri].mean(axis=1)-te,axis=1)<=.08;assert marked.any();q,t,b,p=refine_mesh(xy,tri,boundary,marked);base_parent=base_parent[np.array(p['parent_ids'])];assert len(t)<=250000,'Bounded mesh budget exceeded; no solver admitted';counts=np.bincount(base_parent,minlength=len(base_tri));affected=np.where(counts>1)[0];extent=float(np.linalg.norm(base_xy[base_tri[affected]]-te,axis=2).max());assert extent<=.15
+  assert np.array_equal(q[:len(base_xy)],base_xy) and {e:z for e,z in b.items() if z in [5,6]}==far
+  first=np.full(len(base_tri),len(t),dtype=int);np.minimum.at(first,base_parent,np.arange(len(t)));untouched=np.where(counts==1)[0];assert np.array_equal(t[first[untouched]],base_tri[untouched])
+  folder=OUT/('level'+str(level)+'-v001');folder.mkdir();zones=write_mesh(folder,q,t,b);proof=dict(level=level,source_mesh=str(SRC),source_sha256=source_hash,old_nodes_bit_identical=True,outer_edges_and_tags_identical=True,original_polygon_preserved_by_collinear_midpoints=True,conforming=True,affected_base_cells=len(affected),unchanged_base_cells=len(untouched),maximum_affected_original_vertex_distance_from_TE_m=extent,TE_vertex_m=te.tolist(),area_before=p['area_before'],area_after=p['area_after'],minimum_shape_quality=p['minimum_shape_quality_after'],native_orthogonal_quality_not_yet_measured=True,zone_face_counts=zones)
+  np.savez(folder/'mesh-arrays.npz',xy=q,triangles=t,base_parent=base_parent,boundary_edges=np.array(list(b)),boundary_tags=np.array(list(b.values())))
+  setup=dict(meta);setup.update(cells=len(t),nodes=len(q),mesh_sha256=sha(folder/'airfoil.msh'),geometry='Exact preserved accepted5degree airfoil polygon; local midpoint refinement',local_TE_refinement_level=level,minimum_triangle_area_m2=float(signed_cross(q,t).min()/2),source_baseline_mesh_sha256=source_hash,locality_proof='geometry-proof.json')
+  (folder/'setup.json').write_text(json.dumps(setup,indent=2)+'\n');(folder/'geometry-proof.json').write_text(json.dumps(proof,indent=2)+'\n');outcomes.append(dict(level=level,cells=len(t),nodes=len(q),affected_base_cells=len(affected),affected_extent_m=extent,minimum_shape_quality=p['minimum_shape_quality_after'],mesh=str(folder/'airfoil.msh')));mark('level_mesh_prepared',**outcomes[-1]);xy,tri,boundary=q,t,b
+ assert sha(SRC)==source_hash;mark('two_local_meshes_prepared_quality_pending',results=outcomes,flow_launched=False);print(json.dumps(outcomes,indent=2))
+if __name__=='__main__':main()

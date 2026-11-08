@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "observed_at": "2026-11-08T15:37:01.920905+08:00",
+  "preferred_figures": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-sloshing-dt-full-v002",
+  "preferred_video": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-sloshing-time-step-v002\\sloshing-time-step-comparison.mp4",
+  "preferred_gif": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-sloshing-time-step-v002\\gif-v001\\sloshing-time-step-comparison.gif",
+  "actual_inspected_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-sloshing-dt-full-v002\\frames\\frame-000.png": "2a7d35d730b847abadeefd33082d024e52ea21c9b741dc1c1b2698cd21a9d207",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-sloshing-dt-full-v002\\frames\\frame-120.png": "bb726048570acac3597ca31fa9a48e8059d18d8f3d1d940f180e106c50019ce8",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-sloshing-time-step-v002\\decoded-060.png": "10b2597ffc7bbc8caa401bbacaffc4b1e157374b1862390c2d550414c5c841c6",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-sloshing-time-step-v002\\gif-v001\\decoded-120.png": "d1f8b609cff2c8aa27e2849d2a00f1f72798ff8f90a032ebb3491c3848a60f5d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-sloshing-dt-full-v002\\full-numerical-evidence.png": "97b1afb1d88aea93de81f5e5ecc6958a622e40589fb2cb7ad4f2d109500a3b0b"
+  },
+  "additional_v001_static_inspection": "All three static figures inspected in v001; v002 changes only OpenFOAM label capitalisation. Numerical analysis and CSV bytes independently equal.",
+  "observations": "Actual initial/end and decoded middle/end inspected: physical tank scale, tilted oscillating depth, fixedalpha andarrow scales, unobstructed labels/legends, no generatedintermediatefluidmotion. Actualstaticdepth/velocity/numericalplotsreadable; mixturewatermaskandnativeinterfacefeaturesexplicit. BothnewnativeauditsPASS.",
+  "analysis_and_CSV_bytes_equal_v001": true,
+  "all121_MP4_and_GIF_frames_decoded": true,
+  "video_record_sha256": "7d78ced378a510ebcf9779b5d77b5b8e0fb9a5fa3f8b8cf4ec795d90eb1d5f21",
+  "gif_record_sha256": "0b537144be0dea92d4a82f2f6686c3b6b08a3e45e34ccf241ed0e45bdc53ba4a",
+  "native_field_audit_sha256": "9bc8a0b53700ee0ef39f67afa85d861f0d81145aa2d1e4e9f18f0ae940857667",
+  "selection_sha256": "0428a038d89f6d47e54907de83949c9a0a9042eab8fe0cb52d473ad4df4013ad"
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_quality_predictor_v001.py", line 4, in <module>
+    from triangle_quality_v001 import cell_quality
+ModuleNotFoundError: No module named 'triangle_quality_v001'

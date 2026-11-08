@@ -1,0 +1,289 @@
+{
+  "exact_initial_copies": [
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-fluent-v002\\heated-jet.cas.h5",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001\\source.cas.h5",
+      "sha256": "8afc03406c1a2ca44593f06cc9f73c8f4bdd605ff30255f85aa5fb20b703e83c"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-fluent-v002\\heat-0000.dat.h5",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001\\source-0000.dat.h5",
+      "sha256": "2fbd861b8ebfa139e1e61493d5e462e52aa8031b9506d68cfa253cd468e0fbc5"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-fluent-v002\\setup.json",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001\\expected-setup.json",
+      "sha256": "2c709d1ad0937a91e5bafd7fa4342e4b4360c9102285ae25da525f3e33cbded6"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\constant\\physicalProperties",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\constant\\physicalProperties",
+      "sha256": "b517fb9555c53e103e8027a2016f9de9210867bfc95ba6137e4299f095bd22c8"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\constant\\momentumTransport",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\constant\\momentumTransport",
+      "sha256": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\constant\\polyMesh\\points",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\constant\\polyMesh\\points",
+      "sha256": "2ae521155f9db2241d9d71a1b80101a412d04c7963cbdcb621b99a68a0eb8a92"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\constant\\polyMesh\\faces",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\constant\\polyMesh\\faces",
+      "sha256": "73e49b03a17af679bca14e136132d776fba6ac53cb9975c0aa8124e55ba53fe7"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\constant\\polyMesh\\owner",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\constant\\polyMesh\\owner",
+      "sha256": "5020bdc887daab9d5d187c9493810df5a6b6b5d707fe1d40697ea3317d73dc91"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\constant\\polyMesh\\neighbour",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\constant\\polyMesh\\neighbour",
+      "sha256": "b42a0f23acefc8f17385e0e82b258838da736f4c318fe41c349acb8006c17464"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\constant\\polyMesh\\boundary",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\constant\\polyMesh\\boundary",
+      "sha256": "e918eede9ba606852c7936975529a3d22f5dde71e726026171c5345a7f28cabd"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\constant\\polyMesh\\cellProc",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\constant\\polyMesh\\cellProc",
+      "sha256": "5837645ae6a6e3d887b9b3c07ee6d4ae656e16efe2dc50b63f9f23fc4e50c13f"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\system\\decomposeParDict",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\system\\decomposeParDict",
+      "sha256": "997ffc1e183174dd42737a7854640d4b4b353d79439439c76cb38374e6297472"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\system\\controlDict",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\system\\controlDict",
+      "sha256": "e6ce18c8582cf21da0e332711e049c48b09746d3458b1e58f7e01a63e09180fa"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\system\\fvSchemes",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\system\\fvSchemes",
+      "sha256": "8576f192e69273e6854873cbfd9c1fb366dd21592cbbdd9f617bd2bd64b8bb0b"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\system\\fvSolution",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\system\\fvSolution",
+      "sha256": "bfa2e846bb1962c0b7c7994262d0a4dcd88b7e36f40f1802bee846705f070dc1"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\system\\functions",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\system\\functions",
+      "sha256": "acc1fa062ff6befbba56196525e0b0cfdf6015f4ca2b024d0fa734a66aa72fc2"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\0\\U",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\0\\U",
+      "sha256": "ef81506bf9df71555317dc0dfb327d7e32c036534e61bdac275d138629dcfc9e"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\0\\p",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\0\\p",
+      "sha256": "ffa7da7634fad1b522ce1e362037309ca5ca20f1d83b1ea6142d249132dbb15f"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\0\\phi",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\0\\phi",
+      "sha256": "183da50bdbf4bddaacbf1e71dc67834b015f752afb3228fe7c0bf985db014aea"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\0\\T",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\0\\T",
+      "sha256": "0eb477a438dd1271e2a871beac069f73dddd4314f9441ec075ff6b939dc81f26"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\1250\\U",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\1250\\U",
+      "sha256": "ef81506bf9df71555317dc0dfb327d7e32c036534e61bdac275d138629dcfc9e"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\1250\\p",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\1250\\p",
+      "sha256": "ffa7da7634fad1b522ce1e362037309ca5ca20f1d83b1ea6142d249132dbb15f"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\1250\\phi",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\1250\\phi",
+      "sha256": "183da50bdbf4bddaacbf1e71dc67834b015f752afb3228fe7c0bf985db014aea"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\1250\\C",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\1250\\C",
+      "sha256": "ef064653d826e918bfa932243ef2e2ad963267b37dfffcb56f9e5c80585a10a6"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\constant\\polyMesh\\points",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\constant\\polyMesh\\points",
+      "sha256": "dabe77efbb583377a810c37d431df58844934fa52ba0fd0216460dc0594838fc"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\constant\\polyMesh\\neighbour",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\constant\\polyMesh\\neighbour",
+      "sha256": "e4328f3ea6d352cf9c8c95e224cb413af905f6d58fb66d9d84edc65634e72773"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\constant\\polyMesh\\faces",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\constant\\polyMesh\\faces",
+      "sha256": "03a0b4cadf87b86b8be92817963cda8a41763ccdffd1fbf45a2fcf88ae48bf39"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\constant\\polyMesh\\owner",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\constant\\polyMesh\\owner",
+      "sha256": "721b578a22c792a148e94d4154a991059d3b6698b4e9f4306262c9a3ad8544fe"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\constant\\polyMesh\\boundary",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\constant\\polyMesh\\boundary",
+      "sha256": "865aebeb7aee124093cf615590a6ca98c86938a047d96ffa1fc3891a5cb24527"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\constant\\polyMesh\\pointProcAddressing",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\constant\\polyMesh\\pointProcAddressing",
+      "sha256": "759f9b11f22b2661b332482d6893018bc9ea98b6bb4cd68b12f1b88079562060"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\constant\\polyMesh\\faceProcAddressing",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\constant\\polyMesh\\faceProcAddressing",
+      "sha256": "abbafc0ea5728e01b52d30e00510bbea4c20a0bd169c21652caf999f85504d19"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\constant\\polyMesh\\cellProcAddressing",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\constant\\polyMesh\\cellProcAddressing",
+      "sha256": "7a37454cca7a982af4bf439946363f48c88c38940a9f07033a112fa4d59622b9"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\constant\\polyMesh\\points",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\constant\\polyMesh\\points",
+      "sha256": "1e71e018ff97b7f2e47440f81ff74e28ffca14cd129681a9b24f84229d62db6f"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\constant\\polyMesh\\neighbour",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\constant\\polyMesh\\neighbour",
+      "sha256": "9fd52b21671a1bc510ab5938483b5040e36ce760143f7c14cee7dfef1ede963b"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\constant\\polyMesh\\faces",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\constant\\polyMesh\\faces",
+      "sha256": "e266bd6121f1d4d6808dab556443203257f4e6a34c3075f13a30538fbc4e5bcf"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\constant\\polyMesh\\owner",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\constant\\polyMesh\\owner",
+      "sha256": "4727f231772355fbc60ca813b242a34b366d1bcddb4c7d688c3e9b8caaa750d3"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\constant\\polyMesh\\boundary",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\constant\\polyMesh\\boundary",
+      "sha256": "0b41c330f90370562a04cd8a2b8db57c008bbf5133d5f7e1da728aad1351fddd"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\constant\\polyMesh\\pointProcAddressing",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\constant\\polyMesh\\pointProcAddressing",
+      "sha256": "1dc10e993b813419118f3a6c886c9c851696722fd243834573e536feefcc0830"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\constant\\polyMesh\\faceProcAddressing",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\constant\\polyMesh\\faceProcAddressing",
+      "sha256": "3f4ea1398036e8387da055a834fc2e4bcb64eed2c04b1f4e43220211a4082cc1"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\constant\\polyMesh\\cellProcAddressing",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\constant\\polyMesh\\cellProcAddressing",
+      "sha256": "f3149b5df03975fb50c3ad29d3987b1de0a866b45be9d341a687cc0e874c5919"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\0\\T",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\0\\T",
+      "sha256": "08dfd762a33490697a1ee6415731ff64014a144b4163578646e1155f0d78a2b2"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\0\\p",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\0\\p",
+      "sha256": "584aa301416d14f7f00b2266e9723ca59be4cf429e292654a852a2508e62e406"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\0\\U",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\0\\U",
+      "sha256": "307634a328f18ee8057163c8de638703e35ce9150e6c534443a1cb6a4c0e8461"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\0\\phi",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\0\\phi",
+      "sha256": "28cec68af59bec6a644e1776de50ca00fa029b7ec7b46bbda508efa6a67d676b"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\0\\T",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\0\\T",
+      "sha256": "af2520df1c4d3743992f0a89a2609472284474a2f75fa3a156c2dfc796f7575c"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\0\\p",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\0\\p",
+      "sha256": "3f4d71c5a7b254bc2e00619b34c5dff7ef7a83a7927989af01867151803ac4e3"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\0\\U",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\0\\U",
+      "sha256": "2d4817c535f642908eff6a910f5791585db68f565b4151fca3cd7ffa6a55ae30"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\0\\phi",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\0\\phi",
+      "sha256": "c5d11356dcd6a1c319e0fb1350f614dfcf695e8fa38b0813c4f25e9fa9603589"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\1250\\p",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\1250\\p",
+      "sha256": "8bba9fb9da49008193e5dacb458c5f069b775acdfe1218927e83f9783d50c7d0"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\1250\\C",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\1250\\C",
+      "sha256": "adb646d07dc7241c6c8030f4c1d7594cfbfcefb25b1e9fea54149b768283ae5a"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\1250\\U",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\1250\\U",
+      "sha256": "ac8ab26956df544a586a300e86d088f8682d841392f7ff5cd03d0587e166b609"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor0\\1250\\phi",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor0\\1250\\phi",
+      "sha256": "0b79aa1db4ad73ed82b2ac0aedc8d88701e6d417bf7f9f30571c647329d055ec"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\1250\\p",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\1250\\p",
+      "sha256": "6ff82b221704a9940caea78ccd2bcb8dcab1b159c624ec55ce63c390d66be8ae"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\1250\\C",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\1250\\C",
+      "sha256": "6ef7e87b59823d7c5b13487cde7cc1013adfce54094dcccb1152f64a4dfdc8c7"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\1250\\U",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\1250\\U",
+      "sha256": "c276bd9c1ed1ed93ff53192218bcf8c6c27771a4a22de368ed982b35287d3d6f"
+    },
+    {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\heated-impinging-jet-openfoam-v002\\processor1\\1250\\phi",
+      "target": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001\\processor1\\1250\\phi",
+      "sha256": "5315b87d2b9cedc860de325efa1f6453b5fca51d9d0092271809b8ddbaab28a3"
+    }
+  ],
+  "output_only_edits": [
+    "OpenFOAM root endTime3->.1, root writeInterval20->1; three function writeInterval ->1"
+  ],
+  "no_reinitialization": true,
+  "no_redecomposition": true
+}

@@ -1,0 +1,9 @@
+# Finite cylinder development interval
+
+The accepted half-second continuation covers4.05..4.55s,100steps/101states, zeroresidualmisses, maxrelativeboundaryimbalance3.2761735869050655e-6(<1e-4), all100nativeHDFguards pass. Its actualfield/force/residualfigurewasinspected/shown.
+
+Continue its exact4.55s checkpoint to absolute8s,690steps atdt0.005s,120innercap, unchangedCoupledbundle/physics/mesh/boundaries/spatialandtimeschemes/residualdefinitions. Eachnative state/force/massreport saved andcheckedbeforeadvancing. No extension beyond8s is admitted by this version. On anymisssave/stop/preserve; do notrelaxcriteria.
+
+Combine accepted4..4.05,4.05..4.55 and4.55..8s only after all audits pass; exclude duplicate initialrows at segment boundaries. Expected800actualsteps/801uniquestates. Earlier0..4startup and numericalmisses remain inherited, not retrospectivelyrepaired. Quantifycyclewiseperiod, extrema, liftamplitude and drift from nativeforces. A settledwindow will be an observed metric, not assumed fromendtime or agreementinfrequency.
+
+MatchingOpenFOAMcontinuationbegins only afterFluentacceptance, sequential2ranks. Practicalpressureoutlets/tractionequivalence, polygonalgeometry, inheritedstartup, mesh/timeindependence andexperimentalvalidation remainlimits. The publishedreference's longer development protocol andpressurepointdefinition are not silently replaced by this8srun. Anyadjacentcellpressureestimate must stateitscoordinates andsamplingmethod andmust notbe called exactbenchmarkwallpressure.

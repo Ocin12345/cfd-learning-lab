@@ -51,3 +51,8 @@ The MP4/GIF show 121 actual native states 0.01 s apart, at 12 fps (10.08 s playb
 See [REPRODUCING.md](REPRODUCING.md), [executed sources](code/), [small OpenFOAM inputs](openfoam-inputs/), [environment](environment.json) and [CSV histories](data/). Native solver files remain outside Git. An additional mapping check initially assumed a coarse geometry hash existed in its older audit; its preserved v002 correction instead proves the complete analytic/native geometry. No simulation fields or acceptance limits changed.
 
 The owner requested paired visual CFD models and authorized background operation. Codex prepared, ran, checked, plotted and documented the cases. ANSYS Fluent and OpenFOAM computed their respective fields. The owner's reflection and independent execution have not been supplied or invented. The record is prepared locally; no new GitHub upload, research novelty or admissions claim is made.
+
+
+## Fine-grid sloshing time-step comparison — 8 November 2026
+
+The [paired 0.50/0.25 ms comparison](time-step-v001/README.md) keeps the same 12,800 cells through 1.2 s and adds 4,800 accepted steps per smaller-step code, actual four-case video and native depth/phase evidence. Maximum native-column step-size responses are 0.046934 mm in Fluent and 0.047127 mm in OpenFOAM. This improves existing studies 33/34 without adding a model, claiming time independence or physical validation, or claiming a new upload.

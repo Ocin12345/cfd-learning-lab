@@ -1,0 +1,16 @@
+{
+  "fluent": {
+    "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\fluent-qualification-v001",
+    "audit_sha256": "0b9abcc4cf36d4fd192bb212244a4d7d1280208e0043937e93214b2524240454",
+    "step": 20,
+    "time_s": 0.1,
+    "full_interval": false
+  },
+  "openfoam": {
+    "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-heated-jet-energy-v001\\openfoam-qualification-v001",
+    "audit_sha256": "2fb43f69c3bf4d3a57acc5c1329a37a59c5e78fb88cb2dfc93dfa94d9b6aae7c",
+    "step": 20,
+    "time_s": 0.1,
+    "full_interval": false
+  }
+}

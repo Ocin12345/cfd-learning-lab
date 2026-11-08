@@ -1,0 +1,105 @@
+from pathlib import Path
+import csv,hashlib,json,shutil,subprocess
+R=Path('E:/CFD-Learning-Lab');S=Path(__file__).parent;REPO=R/'repo/cfd-learning-lab';P=REPO/'lessons/22-airfoil-incidence/trailing-edge-v001'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def write(p,s):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(s,encoding='utf-8')
+def main():
+ assert not P.exists()
+ selection=S/'accepted-native-selection-v002.json';a=json.loads(selection.read_text())
+ assert json.loads((S/'final-airfoil-visual-review-v001.json').read_text())['all_selected_images_inspected']
+ for n,h in a['source_sha256'].items():assert sha(Path(n))==h,n
+ for code in ('fluent','openfoam'):
+  for l in ('1','2'):
+   c=json.loads(Path(a[code][l]['audit']).read_text());assert c['numerical_checks_passed'] and not c['failed_checks']
+   for n,h in c['source_sha256'].items():assert sha(Path(n))==h,n
+ baseline=json.loads((S/'repository-before-airfoil-improvement-v001.json').read_text())
+ assert all(sha(REPO/n)==h for n,h in baseline.items()),'Prior repository files changed'
+ changed=['README.md','docs/PROJECT_HISTORY.md','docs/REPRODUCING.md','lessons/03-airfoil-mesh/README.md','lessons/22-airfoil-incidence/README.md','manifest-sha256.json']
+ backup=S/'record-root-backups-v001';assert not backup.exists();backup.mkdir()
+ for n in changed:
+  dest=backup/n;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(REPO/n,dest)
+ P.mkdir(parents=True);copied={}
+ def cp(source,relative):
+  dest=P/relative;assert not dest.exists();dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,dest);assert sha(source)==sha(dest);copied[relative]=dict(source=str(source),sha256=sha(dest))
+ maps=R/'exports/figures/2026-11-08-airfoil-TE-paired-v003';nums=R/'exports/figures/2026-11-08-airfoil-TE-numerics-v002';mesh=R/'exports/figures/2026-11-08-airfoil-TE-mesh-v002'
+ for folder in (maps,nums,mesh):
+  for p in folder.iterdir():
+   if p.is_file() and p.suffix in ('.png','.pdf','.csv','.json'):cp(p,('figures/' if p.suffix in ('.png','.pdf') else 'data/')+p.name)
+ for code in ('fluent','openfoam'):
+  for l in ('1','2'):
+   check=Path(a[code][l]['audit']);cp(check,f'data/{code}-level{l}-checks.json')
+   for n in (('forces.csv','residuals.csv') if code=='openfoam' else ('force-history.csv','residuals.xy','mass-balance.txt')):
+    cp((check.parent if code=='openfoam' else Path(a[code][l]['case']))/n,f'data/{code}-level{l}-{n}')
+ for l in (1,2):cp(R/f'native/meshes/showcase-airfoil-trailing-edge-v002/level{l}-v001/geometry-proof.json',f'data/mesh-level{l}-geometry-proof.json')
+ cp(selection,'data/selected-native-cases.json');cp(S/'final-airfoil-visual-review-v001.json','data/visual-review.json');cp(S/'record-draft-v001/METHODS.md','METHODS.md')
+ for n in ('native-quality-and-visual-admission-v001.json','finer-24000-miss-diagnosis-v001.json','airfoil-response-metrics-v001.json'):cp(S/n,'data/'+n)
+ selected={'local_refine_triangles_v002.py','triangle_quality_v002.py','quality_aware_refinement_v001.py','prepare_local_airfoil_meshes_v002.py','airfoil_run_guarded_v003.py','airfoil_prelaunch_v003.py','audit_refined_fluent_v001.py','audit_refined_openfoam_v001.py','prepare_airfoil_continuation_v001.py','run_airfoil_openfoam_v001.py','run_airfoil_continuation_v001.py','prepare_finer_extension_v001.py','run_finer_extension_v001.py','airfoil_comparison_fields_v001.py','plot_airfoil_comparison_v002.py','plot_airfoil_numerics_v001.py','wait_and_export_airfoil_v002.py','plot_wall_pressure_clean_v001.py','measure_airfoil_responses_v001.py'}
+ selected.update(p.name for p in S.glob('test_*.py') if p.name in ('test_local_refinement_v002.py','test_quality_predictor_v002.py','test_transition_repair_v001.py','test_fluent_audit_contract_v001.py','test_openfoam_audit_v001.py','test_steady_continuation_v001.py','test_finer_extension_v001.py'))
+ for p in S.glob('*.py'):cp(p,('code/'+p.name if p.name in selected else 'history/source-archive/'+p.name+'.txt'))
+ for p in S.glob('*.sh'):cp(p,'code/'+p.name)
+ for p in S.glob('*inputs*.json'):cp(p,'code/'+p.name)
+ for n in ('SPEC.md','PLAN.md','progress.md'):cp(S/n,'history/'+n)
+ for p in S.glob('*.txt'):
+  if any(k in p.name for k in ('red','green','selected-suite-final')):cp(p,'history/'+p.name)
+ for folder,name in [('analysis-openfoam-level1-v001','initial-openfoam-level1-miss.json'),('analysis-openfoam-level2-v001','initial-openfoam-level2-miss.json'),('analysis-openfoam-level2-v002','openfoam-level2-24000-miss.json')]:cp(S/folder/'checks.json','history/'+name)
+ with (maps/'force-comparison.csv').open(newline='') as f:rows=list(csv.DictReader(f))
+ table=['| Solver | Local level | Cells | Cd | Cl |','|---|---:|---:|---:|---:|']
+ for r in rows:table.append(f"| {r['solver']} | {r['level']} | {int(r['cells']):,} | {float(r['Cd']):.8f} | {float(r['Cl']):.8f} |")
+ intro="""# Airfoil trailing-edge refinement: comparing two solvers
+
+The original polygon and far domain are preserved while two local refinements resolve the sharp trailing edge. Both codes reached endpoints that passed their predeclared numerical checks. The remaining differences are unresolved; this is local spatial sensitivity, not physical validation or global mesh independence.
+
+![Actual native velocity comparison](figures/airfoil-speed-comparison.png)
+
+NACA 0012, 5° incidence, Re = 100, steady laminar flow. All six panels share the same view and colour scale.
+
+"""
+ ending="""
+
+The [force plot](figures/airfoil-force-sensitivity.png) shows local mesh response and the cross-code gap. Small integrated-force changes do not establish accurate point pressure. [Wall-pressure traces](figures/airfoil-wall-pressure-sensitivity.png) retain actual mesh-dependent sample coordinates; a changing sampled minimum does not compare one fixed physical point or prove a singularity. See also [pressure maps](figures/airfoil-Cp-comparison.png) and [actual meshes](figures/airfoil-TE-mesh.png).
+
+![Native numerical evidence](figures/airfoil-numerical-checks.png)
+
+Residual definitions differ between codes. Endpoint residual, mass and force-stability checks passed; printed flat force windows reflect report precision. Earlier OpenFOAM misses remain [preserved](history/FAILURES.md). The finer selected solution continues exact saved checkpoints through 32,000 steady iterations; it is not an independent full rerun.
+
+Read [methods and limits](METHODS.md), [reproduction requirements](REPRODUCING.md), [selected native cases](data/selected-native-cases.json) and [machine-readable forces](data/force-comparison.csv). Native meshes/cases/data, environments, licence information and credentials remain outside this repository. This is a local GitHub-ready record; no new upload is claimed.
+
+The user directed the comparison. Codex prepared, executed and checked the workflow and figures. Fluent and OpenFOAM computed their respective fields. User reflection remains unprovided. No independent owner execution, novelty or aircraft-performance claim is made.
+"""
+ metrics=json.loads((S/'airfoil-response-metrics-v001.json').read_text());assert not any(r['cross_code_learning_target_pass'] for r in metrics['cross_code'])
+ gaps=', '.join(f"{r['Cd_difference_percent_OpenFOAM_denominator']:.3f}%" for r in metrics['cross_code'])
+ diagnostic='\n\nThe retained 0.5% cross-code drag learning goal is not met: baseline/local-1/local-2 gaps are '+gaps+' using OpenFOAM as denominator. Independent endpoint convergence does not establish cross-code agreement.\n'
+ write(P/'README.md',intro+'\n'.join(table)+diagnostic+ending)
+ write(P/'history/FAILURES.md',"""# Preserved unsuccessful stages
+
+- An initial driver attempt failed on Python local scope before a native solver/output case was created.
+- The first local split mesh failed native quality at 0.115009, below the unchanged 0.20 floor. No flow ran on it. A new quality-aware transition closure repaired the mesh.
+- An initial quality predictor failed its native comparison. Its log was prematurely called GREEN before checking the exit code; the ledger explicitly corrects that statement. Failed source/logs remain preserved. The corrected predictor does not replace native quality checks.
+- Both OpenFOAM 3,000-iteration endpoints missed residual and force stability. Native geometry, fields, settings and mass passed. Exact checkpoint continuations preserved these misses.
+- The finer 24,000 endpoint passed mass and force stability but missed Uy residual: 2.79768610138e-7 against 1e-7. Its exact checkpoint was copied into a new directory and continued to a finite 32,000 endpoint without changing methods or limits.
+
+Native unsuccessful cases and full logs stay in the external archive. JSON here retains failed-check labels. Historical source snapshots are archival text, not selected executable versions.
+""")
+ write(P/'REPRODUCING.md',"""# Reproduce or audit this record
+
+This repository holds methods, source snapshots, small numerical records and figures. Exact native reproduction also requires the preserved E:/CFD-Learning-Lab tree, its baseline mesh/checkpoints, existing E: Python environment, D: ANSYS Fluent 2026 R1 and OpenFOAM Foundation 14 in WSL CFD-Foundation14. It is not a standalone fresh-machine bundle.
+
+1. Restore the paths and verify selected hashes in data/selected-native-cases.json and each audit. Reuse accepted completed cases; choose fresh versioned outputs for intentional reruns.
+2. The baseline is native/runs/2026-11-06-airfoil-incidence-paired-v001. The selected refiner/quality-aware mesher needs that external ASCII mesh. Current geometry proofs govern coordinates, local connectivity and outside-cell preservation; inherited incidence-morph flags are historical.
+3. Fluent uses the frozen numerical template, two ranks, native quality check, finite initial solve and force observation window. OpenFOAM uses the parent study preparation script, exact mesh conversion/native checks and two ranks. Saved-state continuations must not be initialized again.
+4. Read-only audits require local sources and repository scripts on PYTHONPATH. The finer audit merges solver.log, solver-continuation.log and solver-continuation-v003.log through steady iteration 32,000; the first refinement merges two logs through 9,000. These indices are not elapsed physical simulation time.
+5. The selected plotter reads actual saved native fields and hashes. Export to new directories and inspect the images and numerical/source checks.
+
+Code snapshots retain their original E: execution layout and supporting repository-script imports. Frozen manifests and native parent files remain in that external tree. Historical source-archive files are text records, not recommended commands. No installed dependencies, binaries, licence files, credentials or private application material are distributed.
+
+Use hidden/background operation, two ranks and one solver session at a time. Recheck Windows Fluent/cortex and WSL foam/MPI processes, RAM >= 4 GiB and E: free >= 10 GiB after imports and immediately before launch, again after waits. Temp/cache paths use E: where supported; project OpenMPI FIFO metadata uses /dev/shm where E: is unsupported. Save native outputs before closing.
+""")
+ (S/'record-copy-verification-v001.json').write_text(json.dumps(copied,indent=2)+'\n')
+ for n in changed[:-1]:
+  rel='lessons/22-airfoil-incidence/trailing-edge-v001/README.md' if n=='README.md' else '../lessons/22-airfoil-incidence/trailing-edge-v001/README.md' if n.startswith('docs/') else '../22-airfoil-incidence/trailing-edge-v001/README.md' if '/03-' in n else 'trailing-edge-v001/README.md'
+  write(REPO/n,(REPO/n).read_text()+'\n\nThe [local airfoil refinement comparison]('+rel+') preserves the 5° polygon and far domain, with paired Fluent/OpenFOAM images and numerical checks. Earlier misses are retained; global mesh/domain independence and physical validation remain open.\n')
+ cmd=['git','-c','safe.directory='+REPO.as_posix(),'-C',str(REPO)]
+ names=sorted(set(filter(None,subprocess.check_output(cmd+['ls-files','--cached','--others','--exclude-standard','-z']).decode().split('\0'))))
+ write(REPO/'manifest-sha256.json',json.dumps({n:sha(REPO/n) for n in names if n!='manifest-sha256.json'},indent=2)+'\n')
+ print(json.dumps(dict(packet=str(P),packet_files=sum(p.is_file() for p in P.rglob('*')),repository_files=len(names),upload_performed=False),indent=2))
+if __name__=='__main__':main()

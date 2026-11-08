@@ -1,0 +1,276 @@
+{
+  "diagnostic_only": true,
+  "start_time_s": 0.195,
+  "end_time_s": 0.196,
+  "dt_s": 5e-05,
+  "steps": 20,
+  "residual_miss_steps": 0,
+  "peak_interface_courant": 0.0422005,
+  "courant_miss_steps": 0,
+  "saved_states": [
+    {
+      "file": "window-0000.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.042661200031818995,
+      "max_speed_m_s": 4.855688813704769,
+      "finite_fields": true,
+      "bounds_pass": true
+    },
+    {
+      "file": "window-0010.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.04266120003183971,
+      "max_speed_m_s": 5.105966620768301,
+      "finite_fields": true,
+      "bounds_pass": true
+    },
+    {
+      "file": "window-0020.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.04266120003183958,
+      "max_speed_m_s": 5.327490364752074,
+      "finite_fields": true,
+      "bounds_pass": true
+    },
+    {
+      "file": "window-final.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.04266120003183958,
+      "max_speed_m_s": 5.327490364752074,
+      "finite_fields": true,
+      "bounds_pass": true
+    },
+    {
+      "file": "window-preserved.dat.h5",
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "water_area_m2": 0.04266120003183958,
+      "max_speed_m_s": 5.327490364752074,
+      "finite_fields": true,
+      "bounds_pass": true
+    }
+  ],
+  "step_records": [
+    {
+      "step": 2001,
+      "time_s": 0.1950500000000001,
+      "residuals": {
+        "continuity": 8.3058e-05,
+        "x-velocity": 5.1963e-10,
+        "y-velocity": 4.6315e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2002,
+      "time_s": 0.1951000000000001,
+      "residuals": {
+        "continuity": 8.9289e-05,
+        "x-velocity": 4.8234e-10,
+        "y-velocity": 4.4868e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2003,
+      "time_s": 0.1951500000000001,
+      "residuals": {
+        "continuity": 9.6067e-05,
+        "x-velocity": 2.8806e-10,
+        "y-velocity": 2.8666e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2004,
+      "time_s": 0.1952000000000001,
+      "residuals": {
+        "continuity": 8.0484e-05,
+        "x-velocity": 1.4004e-10,
+        "y-velocity": 1.6028e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2005,
+      "time_s": 0.1952500000000001,
+      "residuals": {
+        "continuity": 8.7497e-05,
+        "x-velocity": 1.5755e-10,
+        "y-velocity": 1.9352e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2006,
+      "time_s": 0.1953000000000001,
+      "residuals": {
+        "continuity": 8.5572e-05,
+        "x-velocity": 1.4664e-10,
+        "y-velocity": 1.7354e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2007,
+      "time_s": 0.1953500000000001,
+      "residuals": {
+        "continuity": 8.4003e-05,
+        "x-velocity": 1.4151e-10,
+        "y-velocity": 1.5849e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2008,
+      "time_s": 0.1954000000000001,
+      "residuals": {
+        "continuity": 8.5477e-05,
+        "x-velocity": 1.3693e-10,
+        "y-velocity": 1.5738e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2009,
+      "time_s": 0.1954500000000001,
+      "residuals": {
+        "continuity": 9.8512e-05,
+        "x-velocity": 1.6068e-10,
+        "y-velocity": 1.8927e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2010,
+      "time_s": 0.1955000000000001,
+      "residuals": {
+        "continuity": 9.7972e-05,
+        "x-velocity": 1.6579e-10,
+        "y-velocity": 1.9405e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2011,
+      "time_s": 0.1955500000000001,
+      "residuals": {
+        "continuity": 9.7605e-05,
+        "x-velocity": 1.8862e-10,
+        "y-velocity": 2.188e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2012,
+      "time_s": 0.1956000000000001,
+      "residuals": {
+        "continuity": 8.061e-05,
+        "x-velocity": 1.6929e-10,
+        "y-velocity": 2.1019e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2013,
+      "time_s": 0.1956500000000001,
+      "residuals": {
+        "continuity": 8.4536e-05,
+        "x-velocity": 2.335e-10,
+        "y-velocity": 2.4643e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2014,
+      "time_s": 0.1957000000000001,
+      "residuals": {
+        "continuity": 8.9523e-05,
+        "x-velocity": 2.2061e-10,
+        "y-velocity": 2.4304e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2015,
+      "time_s": 0.1957500000000001,
+      "residuals": {
+        "continuity": 7.7627e-05,
+        "x-velocity": 1.7347e-10,
+        "y-velocity": 2.0803e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2016,
+      "time_s": 0.1958000000000001,
+      "residuals": {
+        "continuity": 8.2597e-05,
+        "x-velocity": 1.7619e-10,
+        "y-velocity": 2.2773e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2017,
+      "time_s": 0.1958500000000001,
+      "residuals": {
+        "continuity": 9.0725e-05,
+        "x-velocity": 3.1904e-10,
+        "y-velocity": 3.3946e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2018,
+      "time_s": 0.1959000000000001,
+      "residuals": {
+        "continuity": 8.3315e-05,
+        "x-velocity": 3.2188e-10,
+        "y-velocity": 3.2931e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2019,
+      "time_s": 0.1959500000000001,
+      "residuals": {
+        "continuity": 9.7539e-05,
+        "x-velocity": 3.3269e-10,
+        "y-velocity": 3.3853e-10
+      },
+      "passed": true
+    },
+    {
+      "step": 2020,
+      "time_s": 0.1960000000000001,
+      "residuals": {
+        "continuity": 8.5435e-05,
+        "x-velocity": 2.2542e-10,
+        "y-velocity": 2.4981e-10
+      },
+      "passed": true
+    }
+  ],
+  "window_checks_pass": true,
+  "full_production_complete": false,
+  "native_source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\executed-driver.py": "00803497c0dfae0226d6d9cb06d7da829d829f586bd49bdc91934deb299d61c6",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\solver-transcript.txt": "9f34e273269939180aec47518961edf3bc8e4cd3057e4bf0b16628a7b87282cf",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\pressure-controls.json": "3b0e3803fca698546b3ab04e7d74f762fafdb13fd5f516125f2398099b15e580",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\restart-settings.json": "cf2c675e895b236a2e38e67a5db0fd6ab1d2fe5cbe8583045f30d746e869e3b5",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\restart.cas.h5": "5d52d98b1f4784414f0da371fd1b0ab172df7e0db18f890a20eb39705f76d9d9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\window-0000.dat.h5": "1b66676136708020bdfdcaa4642396a7ef71b60c37c622ecee3bdec0826bb8b7",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\massflow-history.out": "2601296b6712945592f38a2224922f7767c4cc42976864361b4d2ccb1a14aacf",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\window-0010.dat.h5": "f83104aaabce93041616358af45d941d56d7de671d541db10d99b15993331eff",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\window-0020.dat.h5": "0ea4341fcc23dc1e2921f2eda8cb94f59a87ac60fb79fcf07f387e01b0ddb1d0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\window-final.cas.h5": "bd12e60f8a4972da900356ae952ef1ed3ee31a57c06d1f71e2cd8cbb1034fc4b",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\window-final.dat.h5": "3f67245fa9acfbf1494c258904f8c974e6083892cb30b87d72fc1c86efce1510",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\window-preserved.cas.h5": "d9859ec22e986575c0598225ba915fcac5a75e4b2ab036d9a1c0b968fa6c68e3",
+    "E:\\CFD-Learning-Lab\\native\\runs\\dam-break-over-obstacle-v001\\diagnostics\\coupled-solve-coupled-v001\\window-preserved.dat.h5": "2bff125b6601c21ee3d0ad03f48c91143562d577afacd684e395d922b0767781"
+  }
+}

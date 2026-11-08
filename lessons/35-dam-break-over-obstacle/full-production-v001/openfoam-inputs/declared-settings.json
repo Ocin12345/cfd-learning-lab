@@ -1,0 +1,51 @@
+{
+  "mode": "production",
+  "cells": 9072,
+  "domain_m": [
+    0.584,
+    0.584
+  ],
+  "obstacle_m": [
+    0.292,
+    0.31599948,
+    0.04799896
+  ],
+  "depth_m": 0.0146,
+  "dt_s": 5e-05,
+  "steps": 10000,
+  "save_interval": 100,
+  "water_area_m2": 0.04266120000000001,
+  "mixture_mass_per_m": 42.958442849919535,
+  "static_atmosphere_gauge_Pa": 0,
+  "backflow_water_fraction": 0,
+  "surface_tension_N_m": 0.07,
+  "wall_adhesion": false,
+  "materials": {
+    "air": [
+      1.0,
+      1.48e-05
+    ],
+    "water-liquid": [
+      1000.0,
+      0.001
+    ]
+  },
+  "initial_pressure": "shared hydrostatic physical gauge; converted to p_rgh",
+  "all_native_flux_accounting_pending": true,
+  "physical_validation": false,
+  "momentum_relaxation_schedule": [
+    {
+      "start_s": 0,
+      "end_s": 0.25,
+      "value": 1
+    },
+    {
+      "start_s": 0.25,
+      "end_s": 0.5,
+      "value": 0.7
+    }
+  ],
+  "prefix_steps": 5000,
+  "continued_steps": 5000,
+  "parent_full_audit_retained_as_MISS": true
+}

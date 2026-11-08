@@ -1,0 +1,13 @@
+{
+  "accessed": "2026-11-08",
+  "sources": [
+    {
+      "url": "https://www.grc.nasa.gov/www/BGH/oblique.html",
+      "title": "NASA Glenn: Oblique Shock Waves",
+      "supports": "Inviscid two-dimensional wedge assumptions, attached weak/strong branches and normal-component jump relations; not experimental validation"
+    }
+  ],
+  "derived_reference_code": "E:\\CFD-Learning-Lab\\repo\\cfd-learning-lab\\lessons\\24-mach2-wedge\\wedge_common_v001.py",
+  "gamma": 1.4,
+  "physical_validation": false
+}

@@ -1,0 +1,366 @@
+{
+  "study": 24,
+  "new_models": 0,
+  "conditions": {
+    "Mach": 2,
+    "wedge_angle_deg": 10,
+    "gamma": 1.4,
+    "R_J_kgK": 287.05,
+    "p_Pa": 101325,
+    "T_K": 300,
+    "domain_m": [
+      1,
+      0.82
+    ],
+    "corner_x_m": 0.2,
+    "OpenFOAM_depth_m": 0.01,
+    "assumptions": "2D perfect-gas Euler/slip, no viscosity or turbulence"
+  },
+  "cases": [
+    {
+      "code": "Fluent",
+      "grid": "Coarse",
+      "cells": 22400,
+      "metrics": {
+        "shock_angle_deg": 39.31665852962874,
+        "shock_angle_error_deg": 0.0027266848098719265,
+        "shock_fit_slope": 0.8189761565033026,
+        "shock_fit_intercept_m": -0.16358033577944564,
+        "extrapolated_shock_foot_x_m": 0.19973760466710974,
+        "shock_fit_columns": 96,
+        "shock_fit_rms_m": 0.00011336802679778466,
+        "pressure_upstream_pa": 101324.99999999999,
+        "pressure_downstream_pa": 172933.47276193276,
+        "pressure_ratio": 1.7067206786275133,
+        "pressure_ratio_relative_error": 8.325114773333198e-05,
+        "upstream_mach": 2.0000015672542952,
+        "downstream_mach": 1.6403822002136117,
+        "outlet_minimum_cell_mach": 1.630075232081571,
+        "maximum_ideal_gas_relative_error": 1.1850501394627955e-06,
+        "relative_field_change_l2": {
+          "p": 0.00025763740565681626,
+          "mach": 4.365911594989612e-05
+        },
+        "analytical_angle_check": true,
+        "analytical_pressure_check": true,
+        "field_stability_check": true
+      },
+      "native": {
+        "final_iteration": 720,
+        "previous_iteration": 520,
+        "scaled_residuals": {
+          "continuity": 3.8126251712473635e-08,
+          "x-velocity": 3.474965345497793e-08,
+          "y-velocity": 4.576418288581927e-08,
+          "energy": 3.335149879455899e-08
+        },
+        "mesh_quality": {
+          "minimum_orthogonal_quality": 0.984829,
+          "minimum_cell_volume_m3": 3.032943e-05,
+          "maximum_cell_volume_m3": 3.660714e-05,
+          "total_cell_volume_m3": 0.7635754
+        },
+        "native_mass_flux_kg_s_per_m_depth": {
+          "inlet": 670.01581,
+          "outlet": -670.01581,
+          "top": -0.0,
+          "ramp": -0.0,
+          "Net": -4.7026663e-07
+        },
+        "mass_imbalance": 7.018739304077018e-10,
+        "native_case": "wedge-0720.cas.h5",
+        "native_data": "wedge-0720.dat.h5"
+      },
+      "width": {
+        "prescribed_x_band_m": [
+          0.36,
+          0.84
+        ],
+        "prescribed_columns": 96,
+        "valid_columns": 96,
+        "full_coverage": true,
+        "pressure_plateaus_pa": [
+          101324.99999999999,
+          172933.47276193276
+        ],
+        "fit_slope": 0.8189761565033026,
+        "fit_intercept_m": -0.16358033577944564,
+        "median_width_m": 0.012162569237378757,
+        "p05_width_m": 0.011219133332572833,
+        "p95_width_m": 0.013097677783094001,
+        "median_projected_column_intervals": 2.3910116435969195,
+        "cell_unit_definition": "Width / median normal-projected vertical-column centroid increment near threshold brackets; not isotropic cell size",
+        "interpolation": "Linear between actual native cell centres, connected 10 and 90 percent brackets around strongest 50 percent compression crossing, no smoothing/extrapolation",
+        "physical_shock_thickness": false
+      }
+    },
+    {
+      "code": "Fluent",
+      "grid": "Fine",
+      "cells": 89600,
+      "metrics": {
+        "shock_angle_deg": 39.31461698452053,
+        "shock_angle_error_deg": 0.0006851397016660599,
+        "shock_fit_slope": 0.8189166276040832,
+        "shock_fit_intercept_m": -0.16365936460481084,
+        "extrapolated_shock_foot_x_m": 0.1998486281608807,
+        "shock_fit_columns": 192,
+        "shock_fit_rms_m": 6.402547914392203e-05,
+        "pressure_upstream_pa": 101325.0,
+        "pressure_downstream_pa": 172923.6494662722,
+        "pressure_ratio": 1.7066237302370808,
+        "pressure_ratio_relative_error": 2.6442518933578185e-05,
+        "upstream_mach": 2.000001567254295,
+        "downstream_mach": 1.640476462843318,
+        "outlet_minimum_cell_mach": 1.6301744387628794,
+        "maximum_ideal_gas_relative_error": 1.1850501394627955e-06,
+        "relative_field_change_l2": {
+          "p": 2.836830280670115e-05,
+          "mach": 5.027457893705018e-06
+        },
+        "analytical_angle_check": true,
+        "analytical_pressure_check": true,
+        "field_stability_check": true
+      },
+      "native": {
+        "final_iteration": 1520,
+        "previous_iteration": 1320,
+        "scaled_residuals": {
+          "continuity": 1.2050267647764363e-09,
+          "x-velocity": 1.8026884566985684e-09,
+          "y-velocity": 1.753878202626763e-09,
+          "energy": 1.1106663333480444e-09
+        },
+        "mesh_quality": {
+          "minimum_orthogonal_quality": 0.984818,
+          "minimum_cell_volume_m3": 7.579898e-06,
+          "maximum_cell_volume_m3": 9.151786e-06,
+          "total_cell_volume_m3": 0.7635754,
+          "maximum_aspect_ratio": 1.92113
+        },
+        "native_mass_flux_kg_s_per_m_depth": {
+          "inlet": 670.01581,
+          "outlet": -670.01581,
+          "top": -0.0,
+          "ramp": -0.0,
+          "Net": -1.2530563e-09
+        },
+        "mass_imbalance": 1.8701891527007403e-12,
+        "native_case": "wedge-1520.cas.h5",
+        "native_data": "wedge-1520.dat.h5"
+      },
+      "width": {
+        "prescribed_x_band_m": [
+          0.36,
+          0.84
+        ],
+        "prescribed_columns": 192,
+        "valid_columns": 192,
+        "full_coverage": true,
+        "pressure_plateaus_pa": [
+          101325.0,
+          172923.6494662722
+        ],
+        "fit_slope": 0.8189166276040832,
+        "fit_intercept_m": -0.16365936460481084,
+        "median_width_m": 0.006093559219200555,
+        "p05_width_m": 0.005633856325936841,
+        "p95_width_m": 0.006495677168848404,
+        "median_projected_column_intervals": 2.374439733943027,
+        "cell_unit_definition": "Width / median normal-projected vertical-column centroid increment near threshold brackets; not isotropic cell size",
+        "interpolation": "Linear between actual native cell centres, connected 10 and 90 percent brackets around strongest 50 percent compression crossing, no smoothing/extrapolation",
+        "physical_shock_thickness": false
+      }
+    },
+    {
+      "code": "OpenFOAM",
+      "grid": "Coarse",
+      "cells": 22400,
+      "metrics": {
+        "shock_angle_deg": 39.31918858651366,
+        "shock_angle_error_deg": 0.005256741694793732,
+        "shock_fit_slope": 0.8190499346152441,
+        "shock_fit_intercept_m": -0.16363490491961538,
+        "extrapolated_shock_foot_x_m": 0.19978623769316864,
+        "shock_fit_columns": 96,
+        "shock_fit_rms_m": 0.0001587526411545685,
+        "pressure_upstream_pa": 101325.0,
+        "pressure_downstream_pa": 172960.516444,
+        "pressure_ratio": 1.7069875790180113,
+        "pressure_ratio_relative_error": 0.00023964616515148585,
+        "upstream_mach": 1.9999999999988325,
+        "downstream_mach": 1.6402458103921957,
+        "outlet_minimum_cell_mach": 1.6385128971616107,
+        "maximum_ideal_gas_relative_error": 5.981056869774903e-07,
+        "relative_field_change_l2": {
+          "p": 0.0014517288576996151,
+          "mach": 0.0005908245917398049
+        },
+        "analytical_angle_check": true,
+        "analytical_pressure_check": true,
+        "field_stability_check": true
+      },
+      "native": {
+        "final_time_s": 0.008,
+        "comparison_time_s": 0.007,
+        "time_steps": 4599,
+        "maximum_reported_courant": 0.299740424321,
+        "mesh_check": "Mesh OK.",
+        "native_centroid_alignment_error_m": 2.0253605597387274e-12,
+        "final_native_outward_mass_flux_kg_s_per_m_depth": {
+          "time_s": 0.008,
+          "inlet": -670.0154473813599,
+          "outlet": 670.05935649352,
+          "top": 0.0,
+          "ramp": 1.040834085586e-15,
+          "relative_imbalance": 6.553447734934251e-05
+        },
+        "mass_imbalance": 6.553447734934251e-05,
+        "last_five_frames_max_mass_imbalance": 7.114758538244812e-05,
+        "initial_frame": "Prescribed uniform field"
+      },
+      "width": {
+        "prescribed_x_band_m": [
+          0.36,
+          0.84
+        ],
+        "prescribed_columns": 96,
+        "valid_columns": 96,
+        "full_coverage": true,
+        "pressure_plateaus_pa": [
+          101325.0,
+          172960.516444
+        ],
+        "fit_slope": 0.8190499346152441,
+        "fit_intercept_m": -0.16363490491961538,
+        "median_width_m": 0.013629753397904714,
+        "p05_width_m": 0.013009070636899598,
+        "p95_width_m": 0.0142408914347728,
+        "median_projected_column_intervals": 2.6235859932724583,
+        "cell_unit_definition": "Width / median normal-projected vertical-column centroid increment near threshold brackets; not isotropic cell size",
+        "interpolation": "Linear between actual native cell centres, connected 10 and 90 percent brackets around strongest 50 percent compression crossing, no smoothing/extrapolation",
+        "physical_shock_thickness": false
+      }
+    },
+    {
+      "code": "OpenFOAM",
+      "grid": "Fine",
+      "cells": 89600,
+      "metrics": {
+        "shock_angle_deg": 39.32070179407661,
+        "shock_angle_error_deg": 0.006769949257744656,
+        "shock_fit_slope": 0.8190940632870122,
+        "shock_fit_intercept_m": -0.16376310663833735,
+        "extrapolated_shock_foot_x_m": 0.19993199069366765,
+        "shock_fit_columns": 192,
+        "shock_fit_rms_m": 9.332102239868189e-05,
+        "pressure_upstream_pa": 101325.0,
+        "pressure_downstream_pa": 172923.86602,
+        "pressure_ratio": 1.7066258674562051,
+        "pressure_ratio_relative_error": 2.7694860384119835e-05,
+        "upstream_mach": 1.9999999999988325,
+        "downstream_mach": 1.640456346385158,
+        "outlet_minimum_cell_mach": 1.6377596569745092,
+        "maximum_ideal_gas_relative_error": 5.981056869774903e-07,
+        "relative_field_change_l2": {
+          "p": 0.001929676315184807,
+          "mach": 0.0004490791804710707
+        },
+        "analytical_angle_check": true,
+        "analytical_pressure_check": true,
+        "field_stability_check": true
+      },
+      "native": {
+        "final_time_s": 0.008,
+        "comparison_time_s": 0.007,
+        "time_steps": 9188,
+        "maximum_reported_courant": 0.300025225755,
+        "mesh_check": "Mesh OK.",
+        "native_centroid_alignment_error_m": 1.0013138543601332e-11,
+        "final_native_outward_mass_flux_kg_s_per_m_depth": {
+          "time_s": 0.008,
+          "inlet": -670.0154473813299,
+          "outlet": 669.9831169331501,
+          "top": 0.0,
+          "ramp": 1.040834085586e-15,
+          "relative_imbalance": 4.8253287750508005e-05
+        },
+        "mass_imbalance": 4.8253287750508005e-05,
+        "last_five_frames_max_mass_imbalance": 0.00010565386367863706,
+        "initial_frame": "Prescribed uniform field"
+      },
+      "width": {
+        "prescribed_x_band_m": [
+          0.36,
+          0.84
+        ],
+        "prescribed_columns": 192,
+        "valid_columns": 192,
+        "full_coverage": true,
+        "pressure_plateaus_pa": [
+          101325.0,
+          172923.86602
+        ],
+        "fit_slope": 0.8190940632870122,
+        "fit_intercept_m": -0.16376310663833735,
+        "median_width_m": 0.006804172320345238,
+        "p05_width_m": 0.006468982178084352,
+        "p95_width_m": 0.007159041107235351,
+        "median_projected_column_intervals": 2.625733417672212,
+        "cell_unit_definition": "Width / median normal-projected vertical-column centroid increment near threshold brackets; not isotropic cell size",
+        "interpolation": "Linear between actual native cell centres, connected 10 and 90 percent brackets around strongest 50 percent compression crossing, no smoothing/extrapolation",
+        "physical_shock_thickness": false
+      }
+    }
+  ],
+  "late_diagnostic": {
+    "time_steps": 2284,
+    "saved_times_s": [
+      0.007,
+      0.00725,
+      0.0075,
+      0.00775,
+      0.008
+    ],
+    "native_metrics": {
+      "shock_angle_deg": 39.319989639153285,
+      "shock_angle_error_deg": 0.00605779433441711,
+      "shock_fit_slope": 0.8190732949459677,
+      "shock_fit_intercept_m": -0.16377584808654957,
+      "extrapolated_shock_foot_x_m": 0.19995261608102297,
+      "shock_fit_columns": 192,
+      "shock_fit_rms_m": 7.418413292837854e-05,
+      "pressure_upstream_pa": 101325.0,
+      "pressure_downstream_pa": 172923.756624,
+      "pressure_ratio": 1.7066247878016285,
+      "pressure_ratio_relative_error": 2.7062217636597552e-05,
+      "upstream_mach": 1.9999999999988325,
+      "downstream_mach": 1.6404521862547394,
+      "outlet_minimum_cell_mach": 1.6386817230634199,
+      "maximum_ideal_gas_relative_error": 5.981056869774903e-07,
+      "relative_field_change_l2": {
+        "p": 0.0017089477814981294,
+        "mach": 0.0007658622141996849
+      },
+      "analytical_angle_check": true,
+      "analytical_pressure_check": true,
+      "field_stability_check": true
+    },
+    "fine_main_to_late_endpoint_relative_L2": {
+      "p": 0.0016874891636570423,
+      "mach": 0.000682052424063558
+    },
+    "median_width_m": 0.00674317314850319,
+    "width_change_fraction": -0.008964965754858056,
+    "local_signed_pressure_difference_percent_range": [
+      -5.459251555884516,
+      7.376442262028118
+    ],
+    "independent_full_rerun": false,
+    "scope": "Only7..8ms from exact main fine native checkpoint"
+  },
+  "spatial_and_adaptive_time_effects_confounded_for_OpenFOAM": true,
+  "physical_validation": false,
+  "new_upload": false,
+  "owner_execution_or_reflection_claimed": false
+}

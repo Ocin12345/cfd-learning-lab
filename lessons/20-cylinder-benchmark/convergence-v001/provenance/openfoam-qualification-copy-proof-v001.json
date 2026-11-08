@@ -1,0 +1,233 @@
+{
+  "initial_copy_files_verified": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\constant\\physicalProperties": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\constant\\physicalProperties",
+      "sha256": "0c2cccd25f6ff7637351833f35ea078390e21633c99246122dc74f495fa94b0b"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\constant\\momentumTransport": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\constant\\momentumTransport",
+      "sha256": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\system\\controlDict": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\system\\controlDict",
+      "sha256": "e295c32c212d2120acdb1eabaf5338f34b14c453dbfee716ae415ac7cbbf75db"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\system\\fvSchemes": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\system\\fvSchemes",
+      "sha256": "10527a4b72853f3e8fa9d7b15643bac177e2f4df02214473f8a8f821fafc827c"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\system\\fvSolution": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\system\\fvSolution",
+      "sha256": "74d8143df5498fcf84cc4aa9bf7f4a58f8d763b1843ec41b8e0fa2344b1eb009"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\system\\decomposeParDict": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\system\\decomposeParDict",
+      "sha256": "5c4d636cb3070a405d3437172ffbf73a3104582ae6347170c91cc11666011797"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\0\\U": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\U",
+      "sha256": "602bfad0c9ee7708445413db7e4b2e25e996e046e235bea7a9f59fc5876eb1a0"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\0\\p": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\p",
+      "sha256": "bb9817522929bdaa6ebb2239774819ef994c6f426ef34a85545a096e1dd16a56"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\0\\polyMesh\\points": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\points",
+      "sha256": "05f872c1a0b35839650a36b339456881ec7703e06d617f488f33b54a10a18341"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\0\\polyMesh\\neighbour": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\neighbour",
+      "sha256": "653e97a2cb4539d4225b231968024438a166619f7325c96983eaf2fa192ea0e0"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\0\\polyMesh\\faces": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\faces",
+      "sha256": "a46338b89ba82f636586b4280a829cf10169b2a3fb581074bcf039bc21b9c987"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\0\\polyMesh\\owner": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\owner",
+      "sha256": "18c502458198703826d0eb28fecd3a3adc996c28cbfe5bc747d45464d784bb50"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\0\\polyMesh\\boundary": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\boundary",
+      "sha256": "79264657962a42a5169087328957be831e5b7dba0bebaf68909c848b5d8966d7"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\0\\polyMesh\\cellProc": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\0\\polyMesh\\cellProc",
+      "sha256": "97929ad0fc16bbc2ef9c31baa7139442a4cdf170d1a6179f797ae08a59843ea8"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\p": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\p",
+      "sha256": "22bba57289d92a71dbe98e15c44e76675c77311b195fc957893388d65e6bd39a"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\U": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\U",
+      "sha256": "2cbd65282f7c15631b3554a985f3d64b5c1d44bb1883e6b10f2972738c7e0c28"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\U_0": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\U_0",
+      "sha256": "38ccc5bf1c22b27b960db5d74479b12070995aa3f35de4eb44ebe3cfcd81caf4"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\phi": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\phi",
+      "sha256": "44e7de176b9b12a27d3b0c20398b84f794326491232acfa93c54b27b08e9acf6"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\phi_0": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\phi_0",
+      "sha256": "2b48f210ac3ce294942bcc47fa224ade2a387e0264c4f185b973ccd54e656b53"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\C": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\C",
+      "sha256": "83cd69b2ec47882675d88e82361ef093b38b156196c4f7852bea2d106c230436"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\Ccx": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\Ccx",
+      "sha256": "eaecb106fdde5e1f15c1f0e6181a65469868c66ab9ec88ee5a7ce6213deae2ee"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\Ccy": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\Ccy",
+      "sha256": "c8281ccf6d4b0831c09edc4ed33adf24fe5594db00d1f3ea8b4955d620491fd1"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\Ccz": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\Ccz",
+      "sha256": "d91675b7d2775a7a601adc6f2d0568975b8dad0bb2728f3995f183bb0c34be99"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\4\\uniform\\time": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\4\\uniform\\time",
+      "sha256": "8dbe1fdc3491b51d02d4a0b3718ec1ff62dad3cd241821c29f599e28f7319f40"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\p": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\p",
+      "sha256": "7ecab2893fec5546628609b9caa971214e62cc28ed8a371fce30b07710464a57"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\U": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\U",
+      "sha256": "79a8b177ffa74fc1e188c897fa59de8684c123533d9b99fe9668e6ba60d2d2fb"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\polyMesh\\points": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\polyMesh\\points",
+      "sha256": "bacc057c09d7e73b3701260607b89d6f002890617c0b04e950530fa9159efbdd"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\polyMesh\\neighbour": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\polyMesh\\neighbour",
+      "sha256": "a9ab551adfac8654aa3618385a120fff02b286f92156a4d9b3f220c231783e6f"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\polyMesh\\faces": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\polyMesh\\faces",
+      "sha256": "b76ae98e75245258409f02a0236ccb8c2871c8338f75b0908e855ef8f4a6ad1b"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\polyMesh\\owner": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\polyMesh\\owner",
+      "sha256": "c17fc7084c8fc06bc79c2f400caa9c5ed5847d62d3cf5aee1e1f3b4f3b666590"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\polyMesh\\boundary": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\polyMesh\\boundary",
+      "sha256": "32f2de9bafe91b4c2255d97b70324fb76836e46a532c02748d7f8780125ddbd3"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\polyMesh\\pointProcAddressing": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\polyMesh\\pointProcAddressing",
+      "sha256": "7b6f29ab777f6d45a53a2a8361d03d4296c25829528b387679b3f360fce5a61f"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\polyMesh\\faceProcAddressing": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\polyMesh\\faceProcAddressing",
+      "sha256": "40c56ebfb48ce2e2274a91bd833f2210af5ba3722ea4c82757de16d2f168a1cf"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\0\\polyMesh\\cellProcAddressing": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\0\\polyMesh\\cellProcAddressing",
+      "sha256": "cc49f5a23ea9727ccd9855daf5b6698bcf858d1d7db244c20519d3d1599c7c47"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\4\\U_0": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\4\\U_0",
+      "sha256": "76b04c811f6001c7d5226acfdad7a1930154537195f4193cbd3819b29c3c0d8a"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\4\\U": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\4\\U",
+      "sha256": "6b5d1890582a90969555e619ab623c88747f286cd697b71d33bb568ae5b31c28"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\4\\phi": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\4\\phi",
+      "sha256": "3e7d7c01f54bfaf6e66ee975c308d20750f3f4308ba52365cbadec2fe571d167"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\4\\phi_0": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\4\\phi_0",
+      "sha256": "c2a93b1ae1351f56d59666444319534b30183d36d521e0f3afb421f676c2716f"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\4\\p": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\4\\p",
+      "sha256": "0d5e8ea71dc35223fa92d3c7b4634909ffccc5a4bd693a82b6ae59509b684503"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor0\\4\\uniform\\time": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor0\\4\\uniform\\time",
+      "sha256": "8dbe1fdc3491b51d02d4a0b3718ec1ff62dad3cd241821c29f599e28f7319f40"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\p": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\p",
+      "sha256": "8c6796f5b27f77abb1c11d8cb83b9cf2018bbfd96565f703dba5513f0b252266"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\U": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\U",
+      "sha256": "099b713572dd0388fe44437abe919c962bd8999cb23a2ea457d841a1a049db2d"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\polyMesh\\points": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\polyMesh\\points",
+      "sha256": "5b9bb09a220003f50cc91e532fd0accbe716ebb383608ceb905ce507590beedb"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\polyMesh\\neighbour": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\polyMesh\\neighbour",
+      "sha256": "72d29edaba8926af3e06bd233985c4174bb9925d0984cda2a7d4738eb53b1df6"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\polyMesh\\faces": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\polyMesh\\faces",
+      "sha256": "a9ff374f1f9d57b709ee5b55adf46d745398ddb8bddd6f64e052a5353a60e554"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\polyMesh\\owner": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\polyMesh\\owner",
+      "sha256": "a246e3c2bfe79e0dd7d7eba3d9e13197539e3a18b7613abded594e91e2644033"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\polyMesh\\boundary": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\polyMesh\\boundary",
+      "sha256": "54426967a4089e8089aabff327084ca2f85a095bfea27585db87c8a3d6fc229e"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\polyMesh\\pointProcAddressing": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\polyMesh\\pointProcAddressing",
+      "sha256": "86ff937e5c1ea63a2a26250c8b699e3d44b611783ece197b8dc0c38ec210ab35"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\polyMesh\\faceProcAddressing": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\polyMesh\\faceProcAddressing",
+      "sha256": "56fb2f4921837157c6c767d39d0c80d8fc8f404ae9aa775f5945a69e6dde5b47"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\0\\polyMesh\\cellProcAddressing": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\0\\polyMesh\\cellProcAddressing",
+      "sha256": "e5279ff41d42bac4a9bdcbfb79ca622c95a6ba9f367c777452fe44374f695e88"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\4\\U_0": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\4\\U_0",
+      "sha256": "b6104d60d812e38aca6802f5996f7a53afdd77591e9f22bfbe489dc09c101dda"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\4\\U": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\4\\U",
+      "sha256": "ae1050b87ddb53485c734ddcd4cb633c2ad732dcfd5f19e0443fafd43c536203"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\4\\phi": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\4\\phi",
+      "sha256": "b3d8f5c29b5b3f3a72670cffb38d74ff89128f348ac04a72b39c0d21189d3f76"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\4\\phi_0": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\4\\phi_0",
+      "sha256": "1c84c13560e64fd05bf1f662a3c090f3bf67ce4cc940e5bab5a93a7be2fbac36"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\4\\p": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\4\\p",
+      "sha256": "cd444af0d2e2424ef9ee1d8ba5c86a63dac1cffdafd7e514b697741d0e9aa3b4"
+    },
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-cylinder-convergence-v001\\openfoam-qualification-v001\\processor1\\4\\uniform\\time": {
+      "source": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-01-vortex-shedding-v001\\openfoam-extended\\processor1\\4\\uniform\\time",
+      "sha256": "8dbe1fdc3491b51d02d4a0b3718ec1ff62dad3cd241821c29f599e28f7319f40"
+    }
+  },
+  "only_modified_input": "system/controlDict",
+  "modified_source_sha256": "e295c32c212d2120acdb1eabaf5338f34b14c453dbfee716ae415ac7cbbf75db",
+  "modified_copy_sha256": "19f841dd0e151473e00bb3659c0fd215fe7c227365555970f6c7d3de5c801b06",
+  "functions_block_unchanged": true,
+  "originals_preserved": true
+}

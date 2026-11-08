@@ -1,0 +1,133 @@
+{
+  "observed_at": "2026-11-08T18:35:23.618578+08:00",
+  "repository_baseline_files": 2798,
+  "persistent_native_source_bindings": 70,
+  "Fluent": {
+    "iteration": 1500,
+    "final_residuals": {
+      "continuity": 1.5753945420957494e-05,
+      "x-velocity": 2.7416512546635065e-09,
+      "y-velocity": 1.0528151023127746e-09,
+      "z-velocity": 9.865523878371621e-10
+    },
+    "last100_max_residuals": {
+      "continuity": 2.8852555094786784e-05,
+      "x-velocity": 5.062936898577111e-09,
+      "y-velocity": 2.243040524473745e-09,
+      "z-velocity": 1.7575794304951205e-09
+    },
+    "native_scaling_denominators": {
+      "continuity": 2.2344914086503613,
+      "x-velocity": 11139.185152086277,
+      "y-velocity": 11139.185152086277,
+      "z-velocity": 11139.185152086277
+    },
+    "boundary_mass_in_kg_s": 96.0,
+    "net_outward_mass_kg_s": 1.185108544632385e-08,
+    "relative_mass_imbalance": 1.234488067325401e-10,
+    "cell_mass_imbalance_abs_sum_kg_s": 6.536745231970203e-07,
+    "cell_mass_imbalance_max_kg_s": 3.068321652310857e-09,
+    "maximum_speed_m_s": 1.2322095804385074,
+    "cells": 224972,
+    "forces": {
+      "iteration": 1500,
+      "Cd": 0.2317543087995271,
+      "Cl": 0.3033944299158546
+    },
+    "force_stability": {
+      "actual_samples": 100,
+      "consecutive_final100_available": true,
+      "definition": "range/max(abs(mean),1e-3), actual native per-iteration coefficients",
+      "Cd": {
+        "mean": 0.23175430902074687,
+        "relative_range": 4.276346399393026e-09,
+        "passed": true
+      },
+      "Cl": {
+        "mean": 0.3033944345958324,
+        "relative_range": 5.909379237144708e-08,
+        "passed": true
+      },
+      "passed": true
+    },
+    "continuity_windows": {
+      "900": {
+        "min": 1.4270931517303045e-05,
+        "max": 2.941867246833762e-05,
+        "mean": 2.073948206880425e-05
+      },
+      "1200": {
+        "min": 1.4270931517303045e-05,
+        "max": 2.9160757429766712e-05,
+        "mean": 2.0575329095844243e-05
+      },
+      "1401": {
+        "min": 1.4393245158929293e-05,
+        "max": 2.8852555094786784e-05,
+        "mean": 2.049014719679718e-05
+      }
+    },
+    "pressure_coupled_AMG": {
+      "cycle_type": "f-cycle",
+      "termination_criteria": 0.1,
+      "stabilization": "none"
+    }
+  },
+  "OpenFOAM": {
+    "accepted": true,
+    "iteration": 1500,
+    "final_residuals": {
+      "p": 5.3774010931984e-07,
+      "Ux": 1.6118204658821e-08,
+      "Uy": 3.8706986105567e-07,
+      "Uz": 6.1389299684735e-07
+    },
+    "mass": {
+      "signed_outward_volume_flux_m3_s": {
+        "inlet": -96.00000000000006,
+        "outlet": 95.9999999878923,
+        "farfield": 0.0,
+        "wing": 0.0
+      },
+      "total_inward_volume_flux_m3_s": 96.00000000000006,
+      "total_outward_volume_flux_m3_s": 95.9999999878923,
+      "net_outward_volume_flux_m3_s": -1.2107761904189829e-08,
+      "relative_imbalance": 1.2612251983531065e-10,
+      "definition": "abs(sum outward phi over every physical boundary face)/sum magnitude of inward face phi; includes farfield and wing"
+    },
+    "forces": {
+      "iteration": 1500,
+      "Cm": -0.00701179525746221,
+      "Cd": 0.217829417820888,
+      "Cl": 0.278355254386486
+    },
+    "force_stability": {
+      "actual_samples": 100,
+      "consecutive_final100_available": true,
+      "definition": "range/max(abs(mean),1e-3), actual native per-iteration coefficients",
+      "Cd": {
+        "mean": 0.21782941404746203,
+        "relative_range": 3.7675361814077474e-08,
+        "passed": true
+      },
+      "Cl": {
+        "mean": 0.27835524452998966,
+        "relative_range": 7.698361873221361e-08,
+        "passed": true
+      },
+      "passed": true
+    },
+    "quality": {
+      "cells": 224972,
+      "minimum_volume_m3": 2.7015874693356e-08,
+      "maximum_nonorthogonality_degrees": 57.030029259117,
+      "maximum_skewness": 0.70301306752124
+    }
+  },
+  "native_common_refined_geometry_match": true,
+  "shared_force_denominator_N": 2.0,
+  "physical_conditions_unchanged": true,
+  "private_or_transient_metadata_opened_or_copied": false,
+  "selected_hypothesis": "Same1500checkpoint100iteration baseline versus pressure-coupled AMG termination .1->.001 only; no prediction of success",
+  "new_solver_launched": false
+}

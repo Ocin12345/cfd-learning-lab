@@ -1,0 +1,13 @@
+# Reproduction and storage
+
+This is a methods/execution archive with small inputs and derived evidence. It is not a complete native restart bundle or a fresh-machine installation package. Large meshes, all HDF5/processor fields, full native logs, environments, licence/connection information and the41.3MB fullGIF remain outside Git on E:/CFD-Learning-Lab. Original projects and failed attempts are preserved.
+
+Use the source-bound manifests in data/ and provenance/ to identify actual native cases. The code copies retain original E: paths and reject reused output directories. They require existing repository/scripts helpers and the preserved native checkpoints/input receipts; copying code alone does not satisfy those prerequisites. Do not run completed controllers against existing outputs.
+
+On the original workstation, dot-source E:/CFD-Learning-Lab/local/Use-Project.ps1, use environments/fluent/Scripts/python.exe -B, and put local/showcase-improvements-2026-11-08-v001/cylinder-convergence-v001 plus repo/cfd-learning-lab/scripts on PYTHONPATH. Fluent remains on D:; Foundation14 is the existing CFD-Foundation14 WSL distribution. Native restart reproduction requires the exact hash-bound original4s and subsequent partitioned checkpoints, including backward time history.
+
+Executed Fluent correction drivers/guards and all-step auditors, OpenFOAM preparation/gates/LFwrappers/auditor, combination/cycle/pressure/plot/export sources and regression tests are archived in code/. Earlier preparation drafts are retained and distinguished by the history ledger; reuse the selected versions identified in provenance. The small OpenFOAM dictionaries start at4.5s and need the external checkpoint; the0/ fields only document the original initialization. No mesh or installed dependency is bundled here.
+
+Recheck hashes, active native processes, RAM>=4GiB and E:free>=10GiB after imports and immediately before any fresh launch. Use one hidden session at a time, two ranks, save before closing, and fresh versioned directories. The actual resource and source gates remain in the archived scripts/receipts. OMPI uses a project-specific/dev/shm directory for its unsupported E:FIFO; other project temp/cache files use E:.
+
+To inspect without a solver, use the PNG/PDF/MP4/GIF/CSV/JSON files. Rendering again requires the selected external native fields and a fresh E:exports directory. Native velocity supplies speed and the documented spatial vorticity reconstruction. Exporters check source PNG hashes and decode every selected frame; full/compact exports have separate frame/time records.

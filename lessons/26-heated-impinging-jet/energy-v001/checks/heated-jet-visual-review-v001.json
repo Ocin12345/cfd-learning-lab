@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "observed_at": "2026-11-08T18:09:36.240577+08:00",
+  "source_bindings_verified": 7559,
+  "selection_sha256": "2fbea209b79ef5e20ba703fb9bc9003cc5a17bf063e5efed1ae23fab7a9c0044",
+  "figures_preferred": "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002",
+  "media": "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-heated-jet-energy-v001",
+  "actual_inspected": [
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-000.png",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\frames\\frame-030.png",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v001\\temperature-comparison-3s.png",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-heated-jet-energy-v001\\decoded-060.png",
+    "E:\\CFD-Learning-Lab\\exports\\videos\\2026-11-08-heated-jet-energy-v001\\gif-v001\\decoded-030.png"
+  ],
+  "static_figures_inspected": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002\\temperature-comparison-3s.png": "2f01be25a1242be899f3f455131739ceca200b484725f8aae7e36b2b06b59428",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002\\wall-heat-transfer.png": "4e7afd87d2ed8c68c7dc861e0c1071b257012bc5be2d9db57730ef9b5b6bec46",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002\\complete-energy-ledger.png": "fe430880854382d8d793db1a7c82afebd22b77593885de2b6f65f63ae24bc7f1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-heated-jet-energy-full-v002\\thermal-residuals.png": "dad781969cea0bfeaf9aef8bfbed0d3a9e5aa34efe2714eb04453f8aa362cfe8"
+  },
+  "all_MP4_frames_decoded": 61,
+  "all_GIF_frames_decoded": 61,
+  "video_max_rgb_RMSE": 4.448864459991455,
+  "gif_max_rgb_RMSE": 2.0194382667541504,
+  "display_change": "v002 fixes only residual title spacing; data/frame/video remain v001",
+  "observations": [
+    "Actual initial/mid/endpoint temperature evolution, equal color/domain scales and native static streamlines inspected",
+    "All wallheat, independentenergy and perstep residual plots inspected, axes/limits/labels readable",
+    "Video/GIF decoded representatives agree visually; everyframe source/RMSE/count receipts verified",
+    "No platecooling, thermalfeedback, physicalvalidation or continuous-integral inference"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "half_dt_window_complete": true,
+  "half_dt_alone_accepted": false,
+  "miss_time_s": 0.19575,
+  "continuity_plateau": 0.00693,
+  "last100_printed_residuals_equal": true,
+  "next_test": "Same native parent at .195s, half dt unchanged, pressure AMG termination baseline versus .001, diagnostic verbosity1 in both; all residual/Courant limits unchanged",
+  "reference": "https://ansyshelp.ansys.com/public/Views/Secured/corp/v252/en/flu_ug/flu_ug_sec_multiphase_solution.html",
+  "reference_scope": "Official2025R2 guidance recommends monitoring pressure AMG convergence for multiphase flow; current261 equivalent URL inaccessible. Installed261 API and actual native controls are authoritative for this test."
+}

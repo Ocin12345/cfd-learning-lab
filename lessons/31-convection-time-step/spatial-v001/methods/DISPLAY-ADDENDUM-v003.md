@@ -1,0 +1,3 @@
+# Final streamline display threshold
+
+Actual inspection of version002 showed the 0.5%-of-colour-limit mask was too small: the centre seed's nearest native cell was outside it, despite the integrator finding a tiny stagnation loop. Version003 figures (renderer004) use a declared 5% of the shared colour limit (0.5 mm/s) for streamline-only masking/filtering. This removes ambiguous arrows in the quiet core and keeps all native field colours/calculations intact. Prior images and videos remain preserved. Whole-frame suppression still uses 0.5%; only local curve integration uses 5%. No solver or numerical limit changes.

@@ -8,9 +8,21 @@ Explanations are brief; formal lesson checkpoints are no longer required.
 
 ## Study index and current work
 
-[Browse all 35 study records](docs/STUDY_INDEX.md): 34 existing records plus [study 35, dam break over an obstacle](lessons/35-dam-break-over-obstacle/README.md), whose four short qualifications pass. The longer paired production calculation is unfinished in this publication snapshot. Earlier numerical misses remain explicitly labelled in their records.
+[Browse all 35 study records](docs/STUDY_INDEX.md). [Study 35](lessons/35-dam-break-over-obstacle/README.md) now records the complete selected paired calculation and actual video. Earlier numerical misses, including its parent runs, remain explicitly labelled. These entries include sensitivity/comparison studies and are not 35 validated physical predictions.
 
-## Latest visual model: sloshing on a finer grid
+## Latest showcase improvement: cylinder wake
+
+The [versioned cylinder update](lessons/20-cylinder-benchmark/convergence-v001/README.md) adds800numerically accepted new steps per code, actual paired video, developed-cycle evidence and transparent wall-pressure estimates. Earlier startup misses and benchmark/validation limits remain.
+
+![Actual paired cylinder continuation](lessons/20-cylinder-benchmark/convergence-v001/cylinder-compact.gif)
+
+## Latest visual model: dam break over an obstacle
+
+[Model35](lessons/35-dam-break-over-obstacle/README.md) follows0.5s of water-column collapse and splash. Both selected calculations pass their numerical checks; OpenFOAM uses a documented verified-prefix continuation.
+
+![Actual paired obstacle dam break](lessons/35-dam-break-over-obstacle/full-production-v001/dam-break-development.gif)
+
+## Previous visual model: sloshing on a finer grid
 
 [Model 34](lessons/34-sloshing-mesh-sensitivity/README.md) repeats both 1.2-second cases on 12,800 cells. All 2,400 steps and 121 saved states per solver pass the declared checks. Matched-strip two-grid differences are recorded; mesh independence and physical validation remain open.
 
@@ -339,3 +351,34 @@ The [actual Re20 inlet merge](lessons/11-t-junction/README.md) records Fluent PA
 ## Paired planar channel bend - 1 November 2026
 
 The [actual Re20 channel bend](lessons/12-channel-bend/README.md) records Fluent PASS; OpenFOAM PASS, unchanged 2,000-iteration caps and all numerical misses. Tracers visualize fixed fields. No scalar mixing, transient evolution or 3D secondary flow is simulated; no Dean-vortex, validation, reflection or publication claim is added.
+
+
+The [local airfoil refinement comparison](lessons/22-airfoil-incidence/trailing-edge-v001/README.md) preserves the 5° polygon and far domain, with paired Fluent/OpenFOAM images and numerical checks. Earlier misses are retained; global mesh/domain independence and physical validation remain open.
+
+
+## Mach2 wedge refinement —8November2026
+
+The [local two-grid comparison](lessons/24-mach2-wedge/spatial-v001/README.md) adds paired89,600-cell endpoints, native numerical-shock-width measurements and a bounded saved-state late-CFL diagnostic. It preserves the original study and its historical limits; no global mesh/time independence, experimental validation or new upload is claimed.
+
+
+## Cavity spatial comparison — 8 November 2026
+
+The [paired 48/96-cell-per-side comparison](lessons/31-convection-time-step/spatial-v001/README.md) retains dt = 0.01 s through 20 s, accepted numerical histories, actual native-field media and disclosed initialisation/energy limits. At 20 s the restricted velocity response is 0.63445% in Fluent and 0.60716% in OpenFOAM. This improves studies 30/31 without adding a model or claiming independence, physical validation or a new upload.
+
+
+## Fine-grid sloshing time-step comparison — 8 November 2026
+
+The [paired 0.50/0.25 ms comparison](lessons/34-sloshing-mesh-sensitivity/time-step-v001/README.md) keeps the same 12,800 cells through 1.2 s and adds 4,800 accepted steps per smaller-step code, actual four-case video and native depth/phase evidence. Maximum native-column step-size responses are 0.046934 mm in Fluent and 0.047127 mm in OpenFOAM. This improves existing studies 33/34 without adding a model, claiming time independence or physical validation, or claiming a new upload.
+
+
+## Heated-jet energy evidence — 8 November 2026
+
+The [complete discrete-energy record](lessons/26-heated-impinging-jet/energy-v001/README.md) adds 600 actual thermal steps and 601 unique states per code, independent per-step and cumulative boundary-input/storage checks, and actual paired video. It retains the original 14,400 cells and 0.005 s step and each code’s frozen flow; the prescribed 320 K plate does not cool. This improves study 26 without adding a model or claiming physical validation, time independence or a new upload.
+
+
+## Refined-wing formulation investigation — 8 November 2026
+
+The [completed investigation record](lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/README.md) preserves all five finite trial misses, actual retained-residual maps and the source-bound SIMPLEC/OpenFOAM comparison. Refined Fluent convergence remains **unresolved**; no confirmation or additional solver run is admitted. The separate zero-incidence miss remains open.
+
+
+The [8 November showcase collection](docs/SHOWCASE_IMPROVEMENTS_2026-11-08.md) links all latest additions, their actual comparisons/videos and unresolved limits. Older local-only publication statements are historical; Git commit history records subsequent publication.

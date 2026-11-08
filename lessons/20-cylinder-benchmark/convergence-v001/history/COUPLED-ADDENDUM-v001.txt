@@ -1,0 +1,5 @@
+# Bounded Coupled continuation
+
+The pressure-termination-only comparison failed10/10newsteps in both variants; exactnumbers in pressure-hypothesis-result-v001.json. Coupledalgorithm/Courant20/explicitpressure-momentumrelaxation0.5 then passesall10steps and11states fromsame4s checkpoint atdt0.005s/120inner/unchanged1e-5/1e-4limits. Actualimagewasinspected/shown. Nativephysicalinputs, spatial/time schemes andresidualsettings matchthebaseline; no normalizedresidualreset.
+
+Nextwindowcontinues its actual4.05scheckpoint to4.55s for100steps. Eachnewstep savesnativefield andforce/massreport, thenchecks its exactHDFnativecurrentclock, terminalraw/scale residuals, finiteU/V/P/density/viscosity andboundarymass beforeadvancingagain. Afailedstepissavedandstops; nofullclaim. Runtimeguardtests onrealaccepted/missed/wrongtimestates REDthenGREEN3/3. Originalstartup/parentmisses remain. SubsequentdevelopmentwindowandOpenFOAMrequirethiswindowpass andfreshsource/resource/processgates. No benchmarkpass orphysicalvalidation.

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_fluent_audit_contract_v001.py", line 2, in <module>
+    from audit_refined_fluent_v001 import applicable_checks, check_targets
+ModuleNotFoundError: No module named 'audit_refined_fluent_v001'

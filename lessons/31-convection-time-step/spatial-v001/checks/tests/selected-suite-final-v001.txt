@@ -1,0 +1,35 @@
+test_global_steps_not_reset (test_cavity_continued_steps_v001.Continued.test_global_steps_not_reset) ... ok
+test_miss_is_not_pass (test_cavity_continued_steps_v001.Continued.test_miss_is_not_pass) ... ok
+test_no_duplicate_prefix_or_gap (test_cavity_continued_steps_v001.Continued.test_no_duplicate_prefix_or_gap) ... ok
+test_actual_coarse_and_fine (test_cavity_extrusion_geometry_v001.Extrusion.test_actual_coarse_and_fine) ... ok
+test_wrong_centroid_plane_rejected (test_cavity_extrusion_geometry_v001.Extrusion.test_wrong_centroid_plane_rejected) ... ok
+test_wrong_depth_rejected (test_cavity_extrusion_geometry_v001.Extrusion.test_wrong_depth_rejected) ... ok
+test_numpy_scalars_preserve_values (test_cavity_json_scalars_v001.Scalars.test_numpy_scalars_preserve_values) ... ok
+test_unknown_not_silently_stringified (test_cavity_json_scalars_v001.Scalars.test_unknown_not_silently_stringified) ... ok
+test_heat_checks_enabled (test_cavity_residual_settings_v001.Restart.test_heat_checks_enabled) ... ok
+test_loaded_disabled_control_restored_after_setting (test_cavity_residual_settings_v001.Restart.test_loaded_disabled_control_restored_after_setting) ... ok
+test_checkpoint_zone_is_enforced (test_cavity_restart_settings_v001.Reference.test_checkpoint_zone_is_enforced) ... ok
+test_only_original_serialization_roundoff (test_cavity_restart_settings_v001.Reference.test_only_original_serialization_roundoff) ... ok
+test_physical_reference_change_rejected (test_cavity_restart_settings_v001.Reference.test_physical_reference_change_rejected) ... ok
+test_affine_scalar_and_vector_locations (test_cavity_restriction_v001.Restriction.test_affine_scalar_and_vector_locations) ... ok
+test_conserves_integral_for_arbitrary_field (test_cavity_restriction_v001.Restriction.test_conserves_integral_for_arbitrary_field) ... ok
+test_invalid_shape_and_nonfinite_rejected (test_cavity_restriction_v001.Restriction.test_invalid_shape_and_nonfinite_rejected) ... ok
+test_zero_start_absolute_only (test_cavity_restriction_v001.Restriction.test_zero_start_absolute_only) ... ok
+test_exact_original48_mesh (test_cavity_spatial_mesh_v001.Geometry.test_exact_original48_mesh) ... ok
+test_parent_partition_and_nodes (test_cavity_spatial_mesh_v001.Geometry.test_parent_partition_and_nodes) ... ok
+test_refuse_existing_directory (test_cavity_spatial_mesh_v001.Geometry.test_refuse_existing_directory) ... ok
+test_actual_miss_preserved (test_cavity_steps_v001.Steps.test_actual_miss_preserved) ... ok
+test_complete_and_terminal_limits (test_cavity_steps_v001.Steps.test_complete_and_terminal_limits) ... ok
+test_missing_or_wrong_time_rejected (test_cavity_steps_v001.Steps.test_missing_or_wrong_time_rejected) ... ok
+test_quiet_field_has_no_seeds (test_cavity_streamline_display_v001.Display.test_quiet_field_has_no_seeds) ... ok
+test_stagnation_mask_and_unchanged_native_rotation (test_cavity_streamline_display_v001.Display.test_stagnation_mask_and_unchanged_native_rotation) ... ok
+test_invalid_geometry_or_material (test_cavity_wall_gradient_v001.Heat.test_invalid_geometry_or_material) ... ok
+test_linear_conduction_flux_and_refinement (test_cavity_wall_gradient_v001.Heat.test_linear_conduction_flux_and_refinement) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 1.167s
+
+OK
+E:\CFD-Learning-Lab\temp\cavity-spatial-test-de8f9aea6ea34d1f8ebabfe043750f09
+E:\CFD-Learning-Lab\temp\cavity-spatial-test-7d5ff302da2e43bdb3c516038f0ea170
+E:\CFD-Learning-Lab\temp\cavity-spatial-test-391643d2f69c407ab5883ba04ab77c69

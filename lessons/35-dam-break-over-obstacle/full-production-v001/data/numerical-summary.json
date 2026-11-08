@@ -1,0 +1,33 @@
+{
+  "cells": 9072,
+  "dt_s": 5e-05,
+  "physical_time_s": 0.5,
+  "steps_each": 10000,
+  "states_each": 101,
+  "fluent": {
+    "peak_courant": 0.183625,
+    "maximum_relative_mass_closure": 1.1059490056095902e-06,
+    "maximum_all_mixture_speed_m_s": 33.62862389064958,
+    "final_water_area_m2": 0.04200027382440834
+  },
+  "openfoam": {
+    "peak_courant": 0.188793822897902,
+    "maximum_relative_mass_closure": 6.813379248509804e-09,
+    "maximum_all_mixture_speed_m_s": 27.5595364955124,
+    "final_water_area_m2": 0.04171948261866087,
+    "prefix_steps": 5000,
+    "continued_steps": 5000,
+    "raw_courant_reports": 10002,
+    "raw_flux_rows": 10002,
+    "unique_physical_flux_times": 10001
+  },
+  "maximum_cross_code_alpha_area_L1_over_initial_water_area": 0.4067510991120684,
+  "water_dominated_plot_speed_max_m_s": 4.395585791649326,
+  "native_states_interpolated": false,
+  "physical_validation": false,
+  "mesh_independence": false,
+  "time_step_independence": false,
+  "technical_review_pending": false,
+  "technical_review": "technical-review.json",
+  "courant_time_convention": "OpenFOAM reported Courant values are associated with step times; they are evaluated before advancement and are not distinct saved-state sampling times."
+}

@@ -1,0 +1,231 @@
+{
+  "model": {
+    "model": "vof",
+    "hybrid_models": {
+      "coupled_level_set": {
+        "level_set": false
+      }
+    },
+    "number_of_phases": {
+      "number_of_eulerian_phases": 2
+    },
+    "vof_sub_models": {
+      "open_channel_flow": false,
+      "open_channel_flow_wave_bc": false
+    },
+    "vof_parameters": {
+      "vof_formulation": "explicit",
+      "vof_cutoff": 1e-06,
+      "vof_courant_number": 0.25,
+      "interface_modeling_options": {
+        "interface_type": "sharp",
+        "anti_diffusion": false
+      }
+    },
+    "advanced_formulation": {
+      "implicit_body_force": true,
+      "explicit_expert_options": {
+        "sub_time_step_method": "hybrid",
+        "solve_vof_every_iter": false,
+        "vof_filtering": {
+          "enable_vof_filtering": false
+        }
+      }
+    },
+    "phases": {
+      "phase-1": {
+        "name": "phase-1",
+        "material": "air"
+      },
+      "phase-2": {
+        "name": "phase-2",
+        "material": "water-liquid"
+      }
+    },
+    "phase_interaction": {
+      "forces": {
+        "surface_tension_model": false,
+        "surface_tension": [
+          {
+            "ppt_methods": "none"
+          }
+        ]
+      },
+      "mass_transfer_list": []
+    }
+  },
+  "operating_conditions": {
+    "gravity": {
+      "enable": true,
+      "components": [
+        0,
+        -9.81
+      ],
+      "gravity_mrf_behavior": true
+    },
+    "operating_pressure": 101325,
+    "reference_pressure_location": [
+      0,
+      0
+    ],
+    "reference_pressure_method": "Connected and disconnected fluid zones",
+    "operating_density": {
+      "method": "minimum-phase-averaged"
+    }
+  },
+  "materials": {
+    "air": {
+      "name": "air",
+      "chemical_formula": "",
+      "density": {
+        "option": "value",
+        "value": 1.225
+      },
+      "viscosity": {
+        "option": "value",
+        "value": 1.7894e-05
+      }
+    },
+    "water-liquid": {
+      "name": "water-liquid",
+      "chemical_formula": "h2o<l>",
+      "density": {
+        "option": "value",
+        "value": 998.2
+      },
+      "viscosity": {
+        "option": "value",
+        "value": 0.001003
+      }
+    }
+  },
+  "numerical_methods": {
+    "p_v_coupling": {
+      "flow_scheme": "PISO",
+      "skewness_correction_itr_count": 1,
+      "neighbor_correction_itr_count": 1,
+      "skewness_neighbor_coupling": true
+    },
+    "spatial_discretization": {
+      "gradient_scheme": "least-square-cell-based",
+      "discretization_scheme": {
+        "mom": "second-order-upwind",
+        "mp": "geo-reconstruct",
+        "pressure": "body-force-weighted"
+      }
+    },
+    "transient_formulation": "unsteady-1st-order",
+    "expert": {
+      "implicit_bodyforce_treatment": true,
+      "velocity_formulation": "absolute",
+      "physical_velocity_formulation": false,
+      "disable_rhie_chow_flux": false,
+      "presto_pressure_scheme": false,
+      "first_to_second_order_blending": 1.0
+    },
+    "high_order_term_relaxation": {
+      "enable": false,
+      "relaxation_factor": 0.75,
+      "select_variables": "flow-variables",
+      "type": "standard"
+    },
+    "multiphase_numerics": {
+      "compressible_flow": {
+        "enhanced_numerics": true,
+        "alternate_bc_formulation": false
+      },
+      "viscous_flow": {
+        "viscosity_averaging": false
+      },
+      "heat_mass_transfer": {
+        "cavitation": {
+          "schnerr_evap_coeff": 1.0,
+          "schnerr_cond_coeff": 0.2,
+          "max_vapor_pressure_ratio": 5.0,
+          "min_vapor_pressure": 1,
+          "display_clipped_pressure": true,
+          "p_limit_method": "local-pvap-min"
+        },
+        "area_density": {
+          "vof_min_seeding": 1e-06,
+          "ia_grad_sym": false
+        }
+      },
+      "advanced_stability_controls": {
+        "p_v_coupling": {
+          "rhie_chow_flux": {
+            "low_order_rhie_chow": false
+          },
+          "skewness_correction": {
+            "limit_pressure_correction_gradient": false
+          }
+        },
+        "equation_order": {
+          "solve_flow_last": false,
+          "solve_exp_vof_at_end": false
+        }
+      },
+      "default_controls": {
+        "recommended_defaults_for_existing_cases": false,
+        "revert_to_pre_r20_1_default_settings": {
+          "old_default_of_operating_density_method": false,
+          "old_default_of_volume_fraction_smoothing": false,
+          "old_variant_of_presto_for_cases_using_structured_mesh": false
+        }
+      },
+      "solution_stabilization": {
+        "execute_settings_optimization": false,
+        "execute_advanced_stabilization": false,
+        "velocity_limiting_treatment": {
+          "enable_velocity_limiting": false
+        }
+      }
+    },
+    "nita": false,
+    "vof_numerics": {
+      "high_order_rc": false,
+      "high_order_rc_hybrid_treatment": false,
+      "force_treatment_of_unsteady_rc": false,
+      "unstructured_var_presto_scheme": true,
+      "new_framework_for_vof_specific_node_based_treatment": false
+    },
+    "warped_face_gradient_correction": {
+      "enable": false
+    },
+    "poor_mesh_numerics": {
+      "cell_quality_based": false,
+      "solution_and_quality_based": false,
+      "gradient_quality_based": false,
+      "reset_poor_elements": false
+    }
+  },
+  "residual_options": {
+    "criterion_type": "absolute",
+    "n_save": 1000,
+    "normalize": false,
+    "residual_values": {
+      "scale_residuals": true,
+      "compute_local_scale": false
+    },
+    "print": true,
+    "plot": true,
+    "n_display": 1000
+  },
+  "residual_equations": {
+    "continuity": {
+      "monitor": true,
+      "check_convergence": true,
+      "absolute_criteria": 0.0001
+    },
+    "x-velocity": {
+      "monitor": true,
+      "check_convergence": true,
+      "absolute_criteria": 0.0001
+    },
+    "y-velocity": {
+      "monitor": true,
+      "check_convergence": true,
+      "absolute_criteria": 0.0001
+    }
+  }
+}

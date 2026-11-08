@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Original Coupled 1500",
+    "iteration": 1500,
+    "continuity": 1.5753945420957494e-05,
+    "numerical_pass": false
+  },
+  {
+    "label": "Coupled original controls",
+    "iteration": 1600,
+    "continuity": 1.9194930652538367e-05,
+    "numerical_pass": false
+  },
+  {
+    "label": "Coupled tighter AMG",
+    "iteration": 1600,
+    "continuity": 1.9190142078234243e-05,
+    "numerical_pass": false
+  },
+  {
+    "label": "Coupled Courant10",
+    "iteration": 1600,
+    "continuity": 1.3852283154583873e-05,
+    "numerical_pass": false
+  },
+  {
+    "label": "Coupled relaxation0.25",
+    "iteration": 1600,
+    "continuity": 1.960127498343896e-05,
+    "numerical_pass": false
+  },
+  {
+    "label": "SIMPLEC declared bundle",
+    "iteration": 1600,
+    "continuity": 0.0006544525275492616,
+    "numerical_pass": false
+  }
+]

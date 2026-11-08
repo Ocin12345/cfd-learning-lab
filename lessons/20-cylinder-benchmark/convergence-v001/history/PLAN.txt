@@ -1,0 +1,26 @@
+# Cylinder convergence repair implementation plan
+
+> Use superpowers:executing-plans inline. One fresh whole-improvement review at end; no implementeragents.
+
+**Goal:** Restore convergence evidence before extending the existing cylinder showcase.
+**Architecture:** Same-checkpoint pressure-solve comparison; source-bound all-step audits; conditionalboundedextension and actualforce/fieldfigures.
+**Tech stack:** Existing E:PyFluent/HDF5/NumPy/Matplotlib, D:Fluent261, later matchingFoundation14 continuation serially.
+**Spec:** SPEC.md
+
+## Global constraints
+Preserveoriginals/versionedoutputs, E:onlywrites/temp; hidden2process/one solver;RAM>=4GiB/Efree>=10GiBafterimports/immediatelyprelaunch; unchanged1e-5residual/1e-4masslimits. No physicalvalidation/benchmarkpass/independence or owner-execution invention. No publication.
+
+## Review focus
+- Restart histories must use native current time, not nested autosave timestamps.
+- All newly computed steps must meet unchanged residual limits; inherited misses remain.
+- Resource/source gates must be fresh after imports/waits and reject existing outputs.
+- Pressure-solve variants must share mesh/physics/dt/checkpoint, with exact control readback.
+- Developed cycles and matching outlet/pressure metrics must be proved before stronger benchmark language.
+
+## Tasks
+- [ ] 1. Write guard regressions first: stalehash and reusedpathreject; observeRED. Implement minimalguard;GREEN. Freeze source/parent/mesh dependencies. Run two10step Fluent diagnostics sequentially fromt4 with pressureAMGonlydifference. Audit allnewstep residuals/nativeclocks/finitefields/materials/mass andforces; preserve misses.
+- [ ] 2. Only if diagnosticcandidatepasses, bounded0.5s extension and audit; then choose finitewindow developed-cycle run based on actual evidence. SequentialmatchingOpenFOAM only afterFluentaccepted. Record controls/limits/provenance, not exactbenchmarkpass.
+- [ ] 3. Actual shared-scale fields/video and cycleforceplots, pressure sampling/disclosure, localversionedGitHub-readyimprovement. Preserve priorfiles; finalmanifest/exclusioncheck andonefreshtechnicalreview. No newnumberedstudy.
+
+## Verification
+Guardunittest must failbeforeimplementation thenpass. Native diagnostic baseline is the real numericalREDcontrol; candidate must actuallypassallsteps withsamecriteria. Finitefields/materials/nativeclock everynewstate; no interpolation. Test completedcomparisonrejects missingstep and alteredsource. Routineconfig/docgenerationneeds no mirroredtest. Do notcommit/push/cleanup automatically.

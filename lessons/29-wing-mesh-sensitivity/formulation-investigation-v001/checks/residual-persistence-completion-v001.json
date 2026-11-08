@@ -1,0 +1,52 @@
+{
+  "bounded_diagnostic_complete": true,
+  "whole_wing_repair_complete": false,
+  "actual_additional_steps": 8,
+  "total_actual_steps_from1500": 10,
+  "trajectory": "1+1+8 exact saved-state segments",
+  "retained_actual_iterations": [
+    1502,
+    1503,
+    1504,
+    1505,
+    1506,
+    1507,
+    1508,
+    1509,
+    1510
+  ],
+  "first1501_missing_map_preserved": true,
+  "all_eight_runtime_guards_and_closed_audits_pass": true,
+  "all_nine_map_source_bindings_verified": true,
+  "all_static_PNGs_decoded_and_visually_inspected": true,
+  "descriptive_pattern_persists_all_nine": true,
+  "top1_fraction_range": [
+    0.965527157312361,
+    0.9716464499321323
+  ],
+  "wing_adjacent_fraction_range": [
+    8.016743731373571e-06,
+    1.3574541355360929e-05
+  ],
+  "scaled_continuity_range": [
+    1.6892923206675018e-05,
+    2.273025374059548e-05
+  ],
+  "original_qualification_pass": false,
+  "full_force100_window_unavailable": true,
+  "tests_pass": 36,
+  "preserved_repo_files": 2798,
+  "preserved_original_inputs": 70,
+  "frozen_diagnostic_inputs": 314,
+  "repo_changes": 0,
+  "new_upload": false,
+  "all_solver_processes_closed": true,
+  "zero_advance_SIMPLEC_capability_not_prepared_or_launched": true,
+  "finite_SIMPLEC_trial_not_prepared_or_launched": true,
+  "fresh_whole_improvement_review_not_started": true,
+  "figures": [
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-residual-persistence-v001\\three-actual-residual-maps.png",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-residual-persistence-v001\\persistence-and-convergence.png"
+  ],
+  "source_audit_sha256": "00a71ecd3ac670ee4db94c4070cde71091d7dfd92ab205e91719511096218d96"
+}

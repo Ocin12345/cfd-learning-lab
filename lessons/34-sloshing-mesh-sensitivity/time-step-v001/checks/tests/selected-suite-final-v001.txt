@@ -1,0 +1,24 @@
+test_actual_complete_baseline_fluent (test_sloshing_courant_v001.Coverage.test_actual_complete_baseline_fluent) ... ok
+test_actual_complete_baseline_openfoam (test_sloshing_courant_v001.Coverage.test_actual_complete_baseline_openfoam) ... ok
+test_continuation_reads_real_pre_advance_time (test_sloshing_courant_v001.Coverage.test_continuation_reads_real_pre_advance_time) ... ok
+test_missing_or_extra_report_rejected (test_sloshing_courant_v001.Coverage.test_missing_or_extra_report_rejected) ... ok
+test_bad_time_nonfinite_or_ambiguous_plateau (test_sloshing_cycles_v001.Cycles.test_bad_time_nonfinite_or_ambiguous_plateau) ... ok
+test_exact_bracketed_triangle_and_partial_ends (test_sloshing_cycles_v001.Cycles.test_exact_bracketed_triangle_and_partial_ends) ... ok
+test_no_complete_cycle_and_no_extrapolation (test_sloshing_cycles_v001.Cycles.test_no_complete_cycle_and_no_extrapolation) ... ok
+test_bad_geometry_or_nonfinite_rejected (test_sloshing_depth_compare_v001.Depth.test_bad_geometry_or_nonfinite_rejected) ... ok
+test_physical_strip_average_and_statistics (test_sloshing_depth_compare_v001.Depth.test_physical_strip_average_and_statistics) ... ok
+test_reject_method_material_or_extra_key (test_sloshing_fixed_settings_v001.Settings.test_reject_method_material_or_extra_key) ... ok
+test_same_and_serialization_roundoff (test_sloshing_fixed_settings_v001.Settings.test_same_and_serialization_roundoff) ... ok
+test_actual_baseline_inner_counts (test_sloshing_fluent_steps_v001.Steps.test_actual_baseline_inner_counts) ... ok
+test_global_continuation_and_rejections (test_sloshing_fluent_steps_v001.Steps.test_global_continuation_and_rejections) ... ok
+test_actual_baseline_residuals_and_alpha (test_sloshing_openfoam_steps_v001.Steps.test_actual_baseline_residuals_and_alpha) ... ok
+test_global_time_missing_corrector_and_alpha_miss (test_sloshing_openfoam_steps_v001.Steps.test_global_time_missing_corrector_and_alpha_miss) ... ok
+test_reject_wrong_units_count_and_nonfinite (test_sloshing_phi_v001.Flux.test_reject_wrong_units_count_and_nonfinite) ... ok
+test_zero_wall_flux_and_internal_count (test_sloshing_phi_v001.Flux.test_zero_wall_flux_and_internal_count) ... ok
+test_sources_rechecked_after_resource_wait (test_sloshing_wait_admission_v001.Wait.test_sources_rechecked_after_resource_wait) ... ok
+test_transient_gate_resource_race_retries_all_checks (test_sloshing_wait_admission_v001.Wait.test_transient_gate_resource_race_retries_all_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 2.155s
+
+OK

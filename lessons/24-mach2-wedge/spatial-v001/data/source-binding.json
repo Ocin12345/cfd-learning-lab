@@ -1,0 +1,18 @@
+{
+  "source_audit": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-late-cfl-v001\\endpoint-audit.json",
+  "audit_sha256": "3fe749540f974522b9017a3e42d861294c8c76ab5d61ad8eed46d08bbea0b1c4",
+  "script_sha256": "b61fa4f20cb3641d965b32131f30d428387ea008f52733173329b3320a7c7c60",
+  "signed_pressure_difference_percent_min": -5.459251555884516,
+  "signed_pressure_difference_percent_max": 7.376442262028118,
+  "difference_colour_limits_percent": [
+    -8,
+    8
+  ],
+  "clipped_cell_count": 0,
+  "native_data_sources_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-fine-v001\\0.008\\p": "83a48161de020340a5473c2427ed4e1c753df0336168ddae9c88a6636cf3281e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-late-cfl-v001\\0.008\\p": "7eb2b177d87c3be82da3b2cfada87927e01019d538300598a916638a262ac582",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-mach2-wedge-spatial-v001\\openfoam-late-cfl-v001\\0\\C": "0f9ed78356d6b2765b0445bc03045bd4fec3e5305731e20451a490ea93c76151"
+  },
+  "actual_inspection_pending": true
+}

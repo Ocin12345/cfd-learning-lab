@@ -1,0 +1,9 @@
+# Cylinder convergence repair: bounded diagnostic
+
+Improve existing studies07/20, not their count. First test whether tighter pressure AMG termination removes the observed Fluent PISO residual plateau. From the same saved4s case/data, compare10steps atdt0.005s with120inner cap: original pressure termination versus0.001. All physical models, mesh, BCs, spatial/time schemes and residual1e-5/mass1e-4 limits remain. Sample actual forces/native data eachstep. This is a diagnostic continuation, not repair of inherited startup or a matched benchmark pass.
+
+Preserve old sources/native output. New sources/cases/E:temp only. ExistingD:Fluent, hidden2process, one solver session, resource floors4GiBRAM/10GiBEfree afterimports/immediatelyprelaunch. Recheck frozen source/parent hashes after waits. Save beforeclose; rejectreusedoutpaths. No native solver files/env/licence/credentials inGit.
+
+If tested change passes all10steps, first run a bounded0.5s window before deciding on a longer developed-cycle continuation. If it fails, diagnose plateau from actual native evidence; never relax limits. Ultimately quantify amplitude/period drift over successive cycles, record pressure difference with method/locations and retain practicaloutlet equivalence caveat. No fullbenchmark/physicalvalidation/independence claim.
+
+Current primaryreference checked8Nov2026: https://wwwold.mathematik.tu-dortmund.de/~featflow/en/benchmarks/cfdbenchmarking/flow/dfg_benchmark2_re100.html . Defines fullydevelopedperiodic solution, e.g. about25s maturation and comparisons25..30s, tractionnu*du/dn-p*n=0, front/rearpressure at(.15,.2)/(.25,.2). Existing pressureoutlets are not asserted equivalent. A stable shortcyclewindow alone does not meet all referenceconditions. Original1996PDFlink404; retainnoquotationfromunreadPDF.

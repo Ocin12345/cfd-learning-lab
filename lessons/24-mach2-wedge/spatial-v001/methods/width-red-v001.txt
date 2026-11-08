@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\mach2-wedge-spatial-v001\test_shock_width_v001.py", line 3, in <module>
+    from shock_width_v001 import connected_width
+ModuleNotFoundError: No module named 'shock_width_v001'

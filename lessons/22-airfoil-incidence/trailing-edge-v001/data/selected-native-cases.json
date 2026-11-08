@@ -1,0 +1,60 @@
+{
+  "fluent": {
+    "1": {
+      "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-level1-v001",
+      "audit": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-fluent-level1-v001\\checks.json",
+      "cells": 119580
+    },
+    "2": {
+      "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\fluent-level2-v001",
+      "audit": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-fluent-level2-v001\\checks.json",
+      "cells": 159300
+    }
+  },
+  "openfoam": {
+    "1": {
+      "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\openfoam-level1-v002",
+      "audit": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-openfoam-level1-v002\\checks.json",
+      "cells": 119580,
+      "endpoint": 9000
+    },
+    "2": {
+      "case": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\openfoam-level2-v003",
+      "audit": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-openfoam-level2-v003\\checks.json",
+      "cells": 159300,
+      "endpoint": 32000
+    }
+  },
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-fluent-level1-v001\\checks.json": "5335f19e7230f07c5816238cdcf9b86a73636421eb3a61b4a0c1d24e01146606",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-fluent-level2-v001\\checks.json": "655f7eb82059b33873d5b1d6a48a2bde406b5aea75414612edc55d6a53458ecb",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-openfoam-level1-v002\\checks.json": "cb1aed2337fa6a6fc4120769c707e3ac0110e82edd90140174aaf20133542c6a",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-openfoam-level1-v002\\forces.csv": "e869973669cd01b5a370befbbc810574c0ff434b7640833824eb3916d2345f93",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-openfoam-level1-v002\\residuals.csv": "18c7f4e51410e7939fab6db0d2033a0996575bb106a7d73d097ed565cdc7ee6a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\openfoam-level1-v002\\continuation-inputs.json": "4dce1203f5169f6484cfa5288c686af6b5f6281b3ba6d63328ed6978e65713c6",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-openfoam-level2-v003\\checks.json": "9c504d65fe1d074d1aa88f17dce1804b97d4ef3d42dfce3dfbfcdc33abb7377d",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-openfoam-level2-v003\\forces.csv": "29a4b290033c6c2b4ecf06c8ed5c761f1c8c0cf381486b37534639407c09145d",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\airfoil-trailing-edge-v001\\analysis-openfoam-level2-v003\\residuals.csv": "087b853c6775534f5ff97f4b4740cf3b1c826c695d478cee71464294a556c6aa",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\openfoam-level2-v003\\continuation-inputs-v003.json": "f90909ebcd42f34f3f32c2df57892c788327998bcbbbfbfe3cc0d48ec349d6b9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-airfoil-trailing-edge-v001\\openfoam-level2-v002\\continuation-inputs.json": "6a06ff96fc78989b2ab1ec07c127c0bab6e4f488c329994c09982ffc61894be1"
+  },
+  "additional_OpenFOAM_last20_checks": [
+    {
+      "solver": "openfoam",
+      "level": 1,
+      "samples": 20,
+      "Cd_relative_range": 4.1244578157538775e-07,
+      "Cl_absolute_range": 6.322501500122257e-08,
+      "passed": true
+    },
+    {
+      "solver": "openfoam",
+      "level": 2,
+      "samples": 20,
+      "Cd_relative_range": 2.0878193491639554e-07,
+      "Cl_absolute_range": 2.3556503969679454e-08,
+      "passed": true
+    }
+  ],
+  "physical_validation": false
+}

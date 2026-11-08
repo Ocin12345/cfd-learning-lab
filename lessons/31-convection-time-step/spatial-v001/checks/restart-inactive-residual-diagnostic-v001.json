@@ -1,0 +1,152 @@
+{
+  "classification": "Setup/API failure before advancing any control or heated iteration",
+  "native_field_maximum_differences_from_accepted600_control": {
+    "U": 0.0,
+    "T": 0.0,
+    "p": 0.0,
+    "rho": 0.0
+  },
+  "recovery_clock": {
+    "time_s": 0.0,
+    "step": 0.0,
+    "dt_s": 1.0
+  },
+  "actual_source_residual_options": {
+    "equations": {
+      "continuity": {
+        "monitor": true,
+        "check_convergence": false
+      },
+      "energy": {
+        "monitor": true,
+        "check_convergence": false
+      },
+      "x-velocity": {
+        "monitor": true,
+        "check_convergence": false
+      },
+      "y-velocity": {
+        "monitor": true,
+        "check_convergence": false
+      }
+    },
+    "options": {
+      "criterion_type": "absolute",
+      "n_save": 10000,
+      "normalize": false,
+      "residual_values": {
+        "scale_residuals": true,
+        "compute_local_scale": false
+      },
+      "print": true,
+      "plot": true,
+      "n_display": 1000
+    },
+    "axes": {
+      "x": {
+        "label": "",
+        "log_scale": false,
+        "number_format": {
+          "format_type": "float",
+          "precision": 0
+        },
+        "auto_range": {
+          "min_auto": true,
+          "max_auto": true
+        },
+        "show_major_gridlines": false,
+        "show_minor_gridlines": false
+      },
+      "y": {
+        "label": "",
+        "log_scale": true,
+        "number_format": {
+          "format_type": "exponential",
+          "precision": 0
+        },
+        "auto_range": {
+          "min_auto": true,
+          "max_auto": true
+        },
+        "show_major_gridlines": false,
+        "show_minor_gridlines": false
+      }
+    },
+    "curves": {
+      "continuity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "monte carlo green"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "monte carlo green"
+        }
+      },
+      "energy": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "lavender gray"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "lavender gray"
+        }
+      },
+      "x-velocity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "scarlet red"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "scarlet red"
+        }
+      },
+      "y-velocity": {
+        "line": {
+          "pattern": "----",
+          "weight": 2,
+          "color": "grayish blue"
+        },
+        "line_in_file": {
+          "pattern": ""
+        },
+        "marker": {
+          "symbol": ""
+        },
+        "marker_in_file": {
+          "symbol": "(*)",
+          "size": 0.3,
+          "color": "grayish blue"
+        }
+      }
+    }
+  },
+  "root_cause": "Saved control has residual check_convergence=False. Reapplying absolute_criteria before enabling check_convergence hits an inactive native settings property on restart.",
+  "fix": "Temporarily enable convergence checking, set unchanged absolute limit, restore desired check flag before any iteration; verify final state and regression-test inactive-property order."
+}

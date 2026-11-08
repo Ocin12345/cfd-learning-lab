@@ -1,0 +1,59 @@
+{
+  "scope": "Same96grid and heatingmethods; independent heated qualifications after600 versus1800steady initialization iterations",
+  "native_cases": [
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v001",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004"
+  ],
+  "sampled_state_comparisons": [
+    {
+      "step": 0,
+      "time_s": 0.0,
+      "U_relative_L2_to_tightened_start": null,
+      "U_max_absolute_difference_m_s": 9.485408119781344e-06,
+      "T_max_absolute_difference_K": 1.9513976212692796e-07
+    },
+    {
+      "step": 1,
+      "time_s": 0.01,
+      "U_relative_L2_to_tightened_start": 0.10383082099887195,
+      "U_max_absolute_difference_m_s": 9.452532236865424e-06,
+      "T_max_absolute_difference_K": 1.9235562831454445e-07
+    },
+    {
+      "step": 10,
+      "time_s": 0.1,
+      "U_relative_L2_to_tightened_start": 0.07117583740101378,
+      "U_max_absolute_difference_m_s": 9.163117113526213e-06,
+      "T_max_absolute_difference_K": 9.332362083114276e-07
+    },
+    {
+      "step": 25,
+      "time_s": 0.25,
+      "U_relative_L2_to_tightened_start": 0.02342538012992627,
+      "U_max_absolute_difference_m_s": 8.701456916234729e-06,
+      "T_max_absolute_difference_K": 3.22129858432163e-06
+    },
+    {
+      "step": 50,
+      "time_s": 0.5,
+      "U_relative_L2_to_tightened_start": 0.009741352795936376,
+      "U_max_absolute_difference_m_s": 7.986775825683327e-06,
+      "T_max_absolute_difference_K": 7.895471526353504e-06
+    },
+    {
+      "step": 75,
+      "time_s": 0.75,
+      "U_relative_L2_to_tightened_start": 0.005691348702698809,
+      "U_max_absolute_difference_m_s": 7.3350605557791175e-06,
+      "T_max_absolute_difference_K": 1.2813545254175551e-05
+    },
+    {
+      "step": 100,
+      "time_s": 1.0,
+      "U_relative_L2_to_tightened_start": 0.0038172798346502268,
+      "U_max_absolute_difference_m_s": 6.743122271367466e-06,
+      "T_max_absolute_difference_K": 1.7548926678045973e-05
+    }
+  ],
+  "not_mesh_independence": true
+}

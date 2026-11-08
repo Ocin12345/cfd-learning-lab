@@ -1,0 +1,284 @@
+{
+  "numerical_pass": true,
+  "time_steps": 100,
+  "saved_states": 7,
+  "cells": 9216,
+  "dt_s": 0.01,
+  "settings": {
+    "passed": true,
+    "numeric_relative_tolerance": 1e-14,
+    "roundoff_only": [
+      {
+        "path": "material/thermal_conductivity/value",
+        "actual": 0.025478873239436622,
+        "baseline": 0.02547887323943662
+      }
+    ],
+    "baseline": "E:\\CFD-Learning-Lab\\native\\runs\\natural-convection-dt001-v001\\fluent-v002\\heated-settings.json",
+    "compared_keys": [
+      "general",
+      "energy",
+      "viscous",
+      "material",
+      "boundaries",
+      "references",
+      "methods",
+      "controls"
+    ]
+  },
+  "initial_fields": {
+    "velocity_relative_L2": null,
+    "temperature_departure_relative_L2": null,
+    "max_velocity_difference_m_s": 2.0190641018580725e-07,
+    "max_temperature_difference_K": 4.476135018194327e-09,
+    "method": "Conservative equal-area2x2 average onto matching coarse cells; relative denominators use coarse U and coarse(T-300)",
+    "relative_metrics_enabled": false,
+    "relative_total_mass_difference": 2.9670836454442906e-08
+  },
+  "saved_native_states": [
+    {
+      "step": 0,
+      "clock": {
+        "time_s": 0.0,
+        "step": 0.0,
+        "dt_s": 0.01
+      },
+      "metrics": {
+        "Tmin_K": 299.9999999948718,
+        "Tmax_K": 300.0000000051029,
+        "Umax_m_s": 2.3900441375810526e-07,
+        "mass_per_depth_kg_m": 0.0029420356954989414,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "relative_mass_drift": 0.0
+      },
+      "native_wall_mass_kg_ms": {
+        "top": -0.0,
+        "bottom": -0.0,
+        "left": -0.0,
+        "right": -0.0
+      }
+    },
+    {
+      "step": 1,
+      "clock": {
+        "time_s": 0.01,
+        "step": 1.0,
+        "dt_s": 0.01
+      },
+      "metrics": {
+        "Tmin_K": 299.7957419839433,
+        "Tmax_K": 300.2043115573042,
+        "Umax_m_s": 6.424056447717312e-05,
+        "mass_per_depth_kg_m": 0.0029420357049077185,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "relative_mass_drift": 3.1980500470041306e-09
+      },
+      "native_wall_mass_kg_ms": {
+        "top": -0.0,
+        "bottom": -0.0,
+        "left": -0.0,
+        "right": -0.0
+      }
+    },
+    {
+      "step": 10,
+      "clock": {
+        "time_s": 0.09999999999999999,
+        "step": 10.0,
+        "dt_s": 0.01
+      },
+      "metrics": {
+        "Tmin_K": 299.6419749168222,
+        "Tmax_K": 300.35805785728235,
+        "Umax_m_s": 0.0002853804427507367,
+        "mass_per_depth_kg_m": 0.0029420357847610617,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "relative_mass_drift": 3.034025741754931e-08
+      },
+      "native_wall_mass_kg_ms": {
+        "top": -0.0,
+        "bottom": -0.0,
+        "left": -0.0,
+        "right": -0.0
+      }
+    },
+    {
+      "step": 25,
+      "clock": {
+        "time_s": 0.25,
+        "step": 25.0,
+        "dt_s": 0.01
+      },
+      "metrics": {
+        "Tmin_K": 299.6256426665462,
+        "Tmax_K": 300.37437654047886,
+        "Umax_m_s": 0.0006988418313421149,
+        "mass_per_depth_kg_m": 0.0029420358498931645,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "relative_mass_drift": 5.247870493718665e-08
+      },
+      "native_wall_mass_kg_ms": {
+        "top": -0.0,
+        "bottom": -0.0,
+        "left": -0.0,
+        "right": -0.0
+      }
+    },
+    {
+      "step": 50,
+      "clock": {
+        "time_s": 0.5,
+        "step": 50.0,
+        "dt_s": 0.01
+      },
+      "metrics": {
+        "Tmin_K": 299.61775769852346,
+        "Tmax_K": 300.38225517558504,
+        "Umax_m_s": 0.001333713212060038,
+        "mass_per_depth_kg_m": 0.002942035921316226,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "relative_mass_drift": 7.67554537706161e-08
+      },
+      "native_wall_mass_kg_ms": {
+        "top": -0.0,
+        "bottom": -0.0,
+        "left": -0.0,
+        "right": -0.0
+      }
+    },
+    {
+      "step": 75,
+      "clock": {
+        "time_s": 0.75,
+        "step": 75.0,
+        "dt_s": 0.01
+      },
+      "metrics": {
+        "Tmin_K": 299.61424166308376,
+        "Tmax_K": 300.385768428527,
+        "Umax_m_s": 0.0019264696428035514,
+        "mass_per_depth_kg_m": 0.002942035975574382,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "relative_mass_drift": 9.519783916722702e-08
+      },
+      "native_wall_mass_kg_ms": {
+        "top": -0.0,
+        "bottom": -0.0,
+        "left": -0.0,
+        "right": -0.0
+      }
+    },
+    {
+      "step": 100,
+      "clock": {
+        "time_s": 1.0,
+        "step": 100.0,
+        "dt_s": 0.01
+      },
+      "metrics": {
+        "Tmin_K": 299.61209999447044,
+        "Tmax_K": 300.3879083957913,
+        "Umax_m_s": 0.0024865771024426197,
+        "mass_per_depth_kg_m": 0.0029420360212890893,
+        "eos_relative_error": 3.3306690738754696e-16,
+        "relative_mass_drift": 1.1073630012958802e-07
+      },
+      "native_wall_mass_kg_ms": {
+        "top": -0.0,
+        "bottom": -0.0,
+        "left": -0.0,
+        "right": -0.0
+      }
+    }
+  ],
+  "native_wall_heat": {
+    "top": {
+      "face_count": 96,
+      "wall_length_m": 0.05,
+      "heat_per_depth_W_m": 0.0,
+      "report_heat_per_depth_W_m": -0.0,
+      "absolute_mass_flux_per_depth_kg_ms": 0.0,
+      "net_mass_flux_per_depth_kg_ms": 0.0,
+      "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+    },
+    "bottom": {
+      "face_count": 96,
+      "wall_length_m": 0.05,
+      "heat_per_depth_W_m": 0.0,
+      "report_heat_per_depth_W_m": -0.0,
+      "absolute_mass_flux_per_depth_kg_ms": 0.0,
+      "net_mass_flux_per_depth_kg_ms": 0.0,
+      "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+    },
+    "left": {
+      "face_count": 96,
+      "wall_length_m": 0.05,
+      "heat_per_depth_W_m": 0.06225323748714687,
+      "report_heat_per_depth_W_m": 0.062253237,
+      "absolute_mass_flux_per_depth_kg_ms": 0.0,
+      "net_mass_flux_per_depth_kg_ms": 0.0,
+      "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+    },
+    "right": {
+      "face_count": 96,
+      "wall_length_m": 0.05,
+      "heat_per_depth_W_m": -0.06230655019577209,
+      "report_heat_per_depth_W_m": -0.06230655,
+      "absolute_mass_flux_per_depth_kg_ms": 0.0,
+      "net_mass_flux_per_depth_kg_ms": 0.0,
+      "native_heat_representation": "per-face heat rate, independently matched to Fluent Flux Report"
+    }
+  },
+  "Nu_hot_at_1s": 3.0541596611302366,
+  "energy_scope": "Native energy residuals, thermodynamic/source checks and independently integrated instantaneous wall heat; no full transient global energy closure",
+  "physical_validation": false,
+  "source_binding_scope": "Explicit persistent native fields, settings, reports and executed source; asynchronous cleanup script is not a preserved simulation input",
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\launch-admission.json": "ff9584404f9fc3d18f907dd56c671af4dc03ab7cfc242ccccf156a28bd68e3a9",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\executed-driver.py": "9a2d2825af181dfcc37677aa6d28de648aa963bc1b9811e89cf35248f0f5dc81",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\declared-settings.json": "b68c8e3741453e459e01a43e98365da33445d72572d3dc16d4506c4761586d06",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\status.json": "7934a8cc07c3a1759861037af61e0fe2d18e009e64e9864b274ddb7b83c977dd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\solver-transcript.txt": "cb331d5865d84a5242504ac3d72a9052602e0b2b71899f2bb62fbae1b0ed00f2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\gravity-work-source.json": "9ca96947607489726893152895eb286ce0585b78cc53f3cc97e6ade1712ae08a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\mesh-quality.json": "5a078ec579b15251564e9dfaa2f9ace9b8f4f18b574f402584fa37362ca317f0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\control-settings.json": "e6ed2bba0ef8fa4b4445652a90d60031a65864b6671b13c18b39a9d905088301",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\uniform-initial.cas.h5": "d54fb600e35b6bfc4655c0926a75267e9fcd01354074abea02036f98da1eaac4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\uniform-initial.dat.h5": "5abca64da83db6c9b7743cd6fb45cb212235198c16bfa8bb8ec66ff75cdec20c",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\isothermal-control.cas.h5": "d6882c86390a5e2c39ece1944bb5722c328b90286fd31e3d179ee8f179840f76",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\isothermal-control.dat.h5": "04a84b9b69abf53e26e040407714bb8745bb0b3e95192c6cf258a3491142606a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\control-checks.json": "e4d6266e07d2ca83653251d94f58c5dd0ab1fd644c7d74819dfa52cf4aa4e516",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-gravity-work-source.json": "9ca96947607489726893152895eb286ce0585b78cc53f3cc97e6ade1712ae08a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-settings.json": "e24f1f81d8cc2979dc4b73cd80c7cced1027042856724f835e221e7e82d405bf",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\matched-baseline-settings.json": "c4a8e37ae8bdac538755f600acd1d898d843589ac4bd1efec03d0c90744d6fdd",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-start.cas.h5": "7e1681558606c3986208e3b4cf69d38b86b33722e660cef37e3229d282c0d566",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-start.dat.h5": "c9ecc75168df8630bda035a5e3f89ee91321a9a7efb8b604d2b55b76220cc718",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\initial-comparison.json": "b7d0b774cff9b5ae49d439e2d6faffed7e66084dd04471f57986944ae6aae9c2",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-mass-0000.txt": "79279fdaee96b948ba3ee23c39efb6d98d74e54adb2d653a5c3e69fd55f2d0e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-heat-0000.txt": "595cd0d3f16a7e95661cb4567408851ea92b438b3b4552e6db3b226894f256e4",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-0000.dat.h5": "0ac71bc36a3a854fff198cbed43f105c85b31e452c43aa8573b2e88b02c85b44",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\frames.json": "6c83ba4217cd21650f5bbfdf8535777bbca99c3d39f12d31bd064d32ac2d4d25",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-mass-0001.txt": "79279fdaee96b948ba3ee23c39efb6d98d74e54adb2d653a5c3e69fd55f2d0e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-heat-0001.txt": "471b9047091b8c97da04c62c022bc7525fab3ff1cfde6db4b0cb1729fe7c453e",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-0001.dat.h5": "28a1b7c53a1b0d787c7fc015c80e3a707ca6c83706eb223740fd3052f2ecc497",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\time-step-checks.json": "b05a24c3cf2a86b3fa19baa5c3245535ccceaeaca3960cc6c9be5909e18900ee",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-mass-0010.txt": "79279fdaee96b948ba3ee23c39efb6d98d74e54adb2d653a5c3e69fd55f2d0e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-heat-0010.txt": "8c946a36d9f74e3675a0052ba0d0066624203279f8b3d50a2196495833b27075",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-0010.dat.h5": "a139b8869999df958dbc9335ce02daaae6eb6b7229be483f0894f70428d315ad",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-mass-0025.txt": "79279fdaee96b948ba3ee23c39efb6d98d74e54adb2d653a5c3e69fd55f2d0e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-heat-0025.txt": "0b4ad730bfc1673f0804082b68c9ed6357b6f5783c04391740d025c73c991ed8",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-0025.dat.h5": "5b4318d7bceca1f4a350a883cf7f3745192fda36e2b3f3f254c3901a952bbe64",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-mass-0050.txt": "79279fdaee96b948ba3ee23c39efb6d98d74e54adb2d653a5c3e69fd55f2d0e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-heat-0050.txt": "0ef16a3663d673e85e826fb83f5077f76f04a78f7d2e361632564e2f6065f656",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-0050.dat.h5": "fcc32042871f8484154d6398b837c1c225d32f6f3c904a0f63ccc65c2fdb3b20",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-mass-0075.txt": "79279fdaee96b948ba3ee23c39efb6d98d74e54adb2d653a5c3e69fd55f2d0e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-heat-0075.txt": "2fe32ae0e9cc743506db67f32cb7961fdf989d11d097345d47352df58424e64a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-0075.dat.h5": "2bb326b6f0de5ee5625d1e24103646062287e8692a229a0750da1c55e776f478",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-mass-0100.txt": "79279fdaee96b948ba3ee23c39efb6d98d74e54adb2d653a5c3e69fd55f2d0e0",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-heat-0100.txt": "96f006a35f5dd13599181104af30e8f5a9e9556192dec0b658c5f0d37ba49348",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\heated-0100.dat.h5": "cf7e0119a909a18aea2dc24ef8f532936e0f5b8aa8601a6c2981b2ab89a83c1f",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\qualification-final.cas.h5": "9f0fb959e48c1ec12f5ddb48fa8d1939310ce27c53495396b8e9ddd83d326e1a",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\qualification-final.dat.h5": "1062517fc8af22b441eb9c620a8ada91bf77b5e76937352715b4abcc7a8b346d",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\wall-heat-final.txt": "96f006a35f5dd13599181104af30e8f5a9e9556192dec0b658c5f0d37ba49348",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\final-settings.json": "ed82e4d64abe0bd135dae9959647f03c120870e06fb53be6c19e6334b07a0f3b"
+  }
+}

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_local_refinement_v001.py", line 3, in <module>
+    from local_refine_triangles_v001 import refine_mesh
+ModuleNotFoundError: No module named 'local_refine_triangles_v001'

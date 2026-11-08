@@ -1,0 +1,65 @@
+.EEE
+======================================================================
+ERROR: test_empty_mark_keeps_mesh (__main__.LocalRefinement.test_empty_mark_keeps_mesh)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_local_refinement_v001.py", line 18, in test_empty_mark_keeps_mesh
+    xy=np.array([[0.,0.],[1,0],[0,1]]);tri=np.array([[0,1,2]]);q,t,b,p=self.verify(xy,tri,[False],1);self.assertTrue(np.array_equal(q,xy));self.assertTrue(np.array_equal(t,tri))
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_local_refinement_v001.py", line 12, in verify
+    b=boundary_of(tri);q,t,bb,p=refine_mesh(xy,tri,b,np.array(mark,dtype=bool));self.assertEqual(len(t),expected);self.assertTrue(np.array_equal(q[:len(xy)],xy));self.assertAlmostEqual(p['area_before'],p['area_after'],places=12);self.assertEqual(set(boundary_of(t)),set(bb));self.assertTrue(p['conforming']);return q,t,bb,p
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\local_refine_triangles_v001.py", line 18, in refine_mesh
+    if tri.min()<0 or tri.max()>=len(xy) or np.any(signed_cross(xy,tri)<=0):raise ValueError('Positive oriented triangles required')
+                                                   ^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\local_refine_triangles_v001.py", line 6, in signed_cross
+    p=xy[np.asarray(tri)];return np.cross(p[:,1]-p[:,0],p[:,2]-p[:,0])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\environments\fluent\Lib\site-packages\numpy\_core\numeric.py", line 1680, in cross
+    raise ValueError(
+ValueError: Both input arrays must be (arrays of) 3-dimensional vectors, but they are 2 and 2 dimensional instead.
+
+======================================================================
+ERROR: test_one_red_and_one_green (__main__.LocalRefinement.test_one_red_and_one_green)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_local_refinement_v001.py", line 14, in test_one_red_and_one_green
+    xy=np.array([[0.,0.],[1,0],[1,1],[0,1]]);tri=np.array([[0,1,2],[0,2,3]]);q,t,b,p=self.verify(xy,tri,[True,False],6);self.assertEqual(len(q),7)
+                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_local_refinement_v001.py", line 12, in verify
+    b=boundary_of(tri);q,t,bb,p=refine_mesh(xy,tri,b,np.array(mark,dtype=bool));self.assertEqual(len(t),expected);self.assertTrue(np.array_equal(q[:len(xy)],xy));self.assertAlmostEqual(p['area_before'],p['area_after'],places=12);self.assertEqual(set(boundary_of(t)),set(bb));self.assertTrue(p['conforming']);return q,t,bb,p
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\local_refine_triangles_v001.py", line 18, in refine_mesh
+    if tri.min()<0 or tri.max()>=len(xy) or np.any(signed_cross(xy,tri)<=0):raise ValueError('Positive oriented triangles required')
+                                                   ^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\local_refine_triangles_v001.py", line 6, in signed_cross
+    p=xy[np.asarray(tri)];return np.cross(p[:,1]-p[:,0],p[:,2]-p[:,0])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\environments\fluent\Lib\site-packages\numpy\_core\numeric.py", line 1680, in cross
+    raise ValueError(
+ValueError: Both input arrays must be (arrays of) 3-dimensional vectors, but they are 2 and 2 dimensional instead.
+
+======================================================================
+ERROR: test_two_edge_green_closure (__main__.LocalRefinement.test_two_edge_green_closure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_local_refinement_v001.py", line 16, in test_two_edge_green_closure
+    xy=np.array([[0.,0.],[1,0],[.5,.8],[.5,-.8],[1.5,.8]]);tri=np.array([[0,1,2],[1,0,3],[2,1,4]]);q,t,b,p=self.verify(xy,tri,[False,True,True],11);self.assertEqual(sum(np.array(p['parent_ids'])==0),3)
+                                                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\test_local_refinement_v001.py", line 12, in verify
+    b=boundary_of(tri);q,t,bb,p=refine_mesh(xy,tri,b,np.array(mark,dtype=bool));self.assertEqual(len(t),expected);self.assertTrue(np.array_equal(q[:len(xy)],xy));self.assertAlmostEqual(p['area_before'],p['area_after'],places=12);self.assertEqual(set(boundary_of(t)),set(bb));self.assertTrue(p['conforming']);return q,t,bb,p
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\local_refine_triangles_v001.py", line 18, in refine_mesh
+    if tri.min()<0 or tri.max()>=len(xy) or np.any(signed_cross(xy,tri)<=0):raise ValueError('Positive oriented triangles required')
+                                                   ^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\local\showcase-improvements-2026-11-08-v001\airfoil-trailing-edge-v001\local_refine_triangles_v001.py", line 6, in signed_cross
+    p=xy[np.asarray(tri)];return np.cross(p[:,1]-p[:,0],p[:,2]-p[:,0])
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\CFD-Learning-Lab\environments\fluent\Lib\site-packages\numpy\_core\numeric.py", line 1680, in cross
+    raise ValueError(
+ValueError: Both input arrays must be (arrays of) 3-dimensional vectors, but they are 2 and 2 dimensional instead.
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.018s
+
+FAILED (errors=3)

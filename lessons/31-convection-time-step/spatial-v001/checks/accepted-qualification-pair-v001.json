@@ -1,0 +1,40 @@
+{
+  "Fluent_audit": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\qualification-audit-v002.json",
+  "OpenFOAM_audit": "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\openfoam-qualification-v001\\qualification-audit-v001.json",
+  "original_metadata_guard_failure_retained": true,
+  "metadata_correction": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\convection-spatial-v001\\decomposition-header-correction-v002.json",
+  "both_numerical_qualifications_passed": true,
+  "time_s": 1.0,
+  "dt_s": 0.01,
+  "cells": 9216,
+  "coarse_fine_comparisons": {
+    "Fluent": {
+      "velocity_relative_L2": 0.02131379526939935,
+      "temperature_departure_relative_L2": 0.002356162350676714,
+      "max_velocity_difference_m_s": 9.025639969629398e-05,
+      "max_temperature_difference_K": 0.0010067142977163712,
+      "method": "Conservative equal-area2x2 average onto matching coarse cells; relative denominators use coarse U and coarse(T-300)",
+      "relative_metrics_enabled": true
+    },
+    "OpenFOAM": {
+      "velocity_relative_L2": 0.021018389834922532,
+      "temperature_departure_relative_L2": 0.0023452536082652063,
+      "max_velocity_difference_m_s": 9.019217433233991e-05,
+      "max_temperature_difference_K": 0.0009605788217754707,
+      "method": "Conservative equal-area2x2 average onto matching coarse cells; relative denominators use coarse U and coarse(T-300)",
+      "relative_metrics_enabled": true
+    }
+  },
+  "Nu_hot_at_1s": {
+    "Fluent": 3.0541596611302366,
+    "OpenFOAM": 3.0542990938387837
+  },
+  "source_sha256": {
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\fluent-qualification-v004\\qualification-audit-v002.json": "cc265f3a279fdb25c4b095796f4d587d04903fa720f78ac1a64b27cd956daaab",
+    "E:\\CFD-Learning-Lab\\native\\runs\\showcase-convection-spatial-v001\\openfoam-qualification-v001\\qualification-audit-v001.json": "b358e8b24d8ea52a14ae161b3a43933adb4d82e7e668129442112ac0912f1fbe",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\convection-spatial-v001\\decomposition-header-correction-v002.json": "547d04851af1f744dfa1243db42e22d8e6691af40ff76d6b9b9825b7b0a387ee",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\convection-spatial-v001\\plot_cavity_paired_qualification_v001.py": "611e6ecbab3a429fb717046609e79008acd1d36ddd8ca230999c0ad5e3f135ea"
+  },
+  "full20s_complete": false,
+  "physical_validation": false
+}

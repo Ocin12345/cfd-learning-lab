@@ -51,3 +51,8 @@ The initial surface amplitude is one cell height. Near-wall shear layers and int
 See [the source/data guide](REPRODUCING.md), [executed code](code/), [small OpenFOAM inputs](openfoam-inputs/), [environment snapshot](environment.json), [Fluent audit](fluent-production-audit.json) and [OpenFOAM audit](openfoam-production-audit.json). Large native files remain outside Git; the repository is not a complete native restart archive. The exact executed Fluent driver v001 is retained; future reruns should use v002, which rechecks qualification hashes immediately before launch after any memory wait. A [dry-run regression](data/admission-regression.json) reproduces the old stale-input gap and confirms rejection in the corrected launcher. The completed numerical fields are unchanged.
 
 The owner requested continued visual CFD models and authorized background operation. Codex selected, prepared, ran, diagnosed, checked and documented this model. ANSYS Fluent and OpenFOAM computed their respective fields. The owner's reflection has not been supplied. No independent owner execution is invented. This record is prepared locally; no new GitHub upload is claimed.
+
+
+## Fine-grid sloshing time-step comparison — 8 November 2026
+
+The [paired 0.50/0.25 ms comparison](../34-sloshing-mesh-sensitivity/time-step-v001/README.md) keeps the same 12,800 cells through 1.2 s and adds 4,800 accepted steps per smaller-step code, actual four-case video and native depth/phase evidence. Maximum native-column step-size responses are 0.046934 mm in Fluent and 0.047127 mm in OpenFOAM. This improves existing studies 33/34 without adding a model, claiming time independence or physical validation, or claiming a new upload.

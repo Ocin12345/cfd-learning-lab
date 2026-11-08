@@ -1,0 +1,45 @@
+{
+  "diagnostic_capture_pass": true,
+  "nine_observed_iterations": [
+    1502,
+    1503,
+    1504,
+    1505,
+    1506,
+    1507,
+    1508,
+    1509,
+    1510
+  ],
+  "eight_new_steps": 8,
+  "total_new_steps_from1500": 10,
+  "descriptive_pattern_persists_all_nine": true,
+  "top1_fraction_range": [
+    0.965527157312361,
+    0.9716464499321323
+  ],
+  "wing_adjacent_fraction_range": [
+    8.016743731373571e-06,
+    1.3574541355360929e-05
+  ],
+  "top1_minimum_x_range_m": [
+    2.5899081736494813,
+    2.9955596776796907
+  ],
+  "scaled_continuity_range": [
+    1.6892923206675018e-05,
+    2.273025374059548e-05
+  ],
+  "original_convergence_all_nine": false,
+  "one_snapshot_does_not_prove_root_cause": true,
+  "nine_observations_not_full_cycle_or_validation": true,
+  "all_numerical_limits_unchanged": true,
+  "figures": [
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-residual-persistence-v001\\three-actual-residual-maps.png",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-residual-persistence-v001\\persistence-and-convergence.png"
+  ],
+  "figures_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-residual-persistence-v001\\three-actual-residual-maps.png": "82a7c8250d5ffff47ec834240226b0433cdb1ffce7dd0b4b3b25b3f02a1b11ac",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-wing-residual-persistence-v001\\persistence-and-convergence.png": "d58f67ebbbda33e61235d3aee3f6abc34202503de358a340e84399e2d320d091"
+  }
+}

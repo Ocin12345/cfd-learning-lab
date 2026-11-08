@@ -1,0 +1,4557 @@
+{
+  "all_saved_field_checks_pass": true,
+  "preview": false,
+  "selected_case_binding": {
+    "fluent": {
+      "audit": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\combined-fluent-audit.json",
+      "audit_sha256": "bb6ad82c08f05395133254c7c171105d8d050e2b80cc0a1ddabb109443997e79",
+      "manifest": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\fluent-snapshots.json",
+      "manifest_sha256": "849088e3946d4062ec6fa9a2f2f42be29e3abffb018ca30b80e8d00165e86424"
+    },
+    "openfoam": {
+      "audit": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\combined-openfoam-audit.json",
+      "audit_sha256": "c160c6481050c4a82d3cfe7316521e3cc2e06e013b7bea36c758961dc6be7fac",
+      "manifest": "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-snapshots.json",
+      "manifest_sha256": "134246d770cb8dbd65922eacc198aa921a37d84b85835d7567d5c60f29528cb3"
+    }
+  },
+  "native_source_audits_sha256": {
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\combined-fluent-audit.json": "bb6ad82c08f05395133254c7c171105d8d050e2b80cc0a1ddabb109443997e79",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-fluent-v001\\fluent-snapshots.json": "849088e3946d4062ec6fa9a2f2f42be29e3abffb018ca30b80e8d00165e86424",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\combined-openfoam-audit.json": "c160c6481050c4a82d3cfe7316521e3cc2e06e013b7bea36c758961dc6be7fac",
+    "E:\\CFD-Learning-Lab\\local\\showcase-improvements-2026-11-08-v001\\cylinder-convergence-v001\\analysis-openfoam-v001\\openfoam-snapshots.json": "134246d770cb8dbd65922eacc198aa921a37d84b85835d7567d5c60f29528cb3"
+  },
+  "records": [
+    {
+      "time_s": 4.0,
+      "step": 800,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00021816912149634255,
+          "maximum": 2.219174746865227,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 8.702200499343392e-05,
+          "maximum": 2.228505547816902,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -325.5314766640485,
+          "maximum": 283.4080557363276,
+          "saturated_cell_fraction": 0.027178442448374848
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.8004910077609,
+          "maximum": 279.6322810067963,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 4.025,
+      "step": 805,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0007113766307306461,
+          "maximum": 2.223308993789279,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00026562222938338444,
+          "maximum": 2.220554424642536,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.67991886100305,
+          "maximum": 282.3338593306894,
+          "saturated_cell_fraction": 0.027317344198536903
+        },
+        "openfoam_vorticity": {
+          "minimum": -325.37417642045966,
+          "maximum": 280.86086718487127,
+          "saturated_cell_fraction": 0.02791925178257246
+        }
+      }
+    },
+    {
+      "time_s": 4.05,
+      "step": 810,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002310391158995001,
+          "maximum": 2.2135100115244426,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003186915094536683,
+          "maximum": 2.1983972021296294,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -324.9732415492858,
+          "maximum": 283.9429741055274,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -321.437562377645,
+          "maximum": 284.42929215409913,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 4.075,
+      "step": 815,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00027485110897653456,
+          "maximum": 2.1904643374592623,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000767512671649676,
+          "maximum": 2.1664885936042912,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -320.7575573526027,
+          "maximum": 287.89118222331876,
+          "saturated_cell_fraction": 0.027826650615797758
+        },
+        "openfoam_vorticity": {
+          "minimum": -315.81237425434506,
+          "maximum": 289.5566433623186,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 4.1,
+      "step": 820,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00046880151176359995,
+          "maximum": 2.159411350018483,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00022740621560390917,
+          "maximum": 2.169944920778031,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -314.9201834629051,
+          "maximum": 293.25876772759165,
+          "saturated_cell_fraction": 0.027826650615797758
+        },
+        "openfoam_vorticity": {
+          "minimum": -309.7052496739498,
+          "maximum": 295.17186106685483,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 4.125,
+      "step": 825,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00024912187745776225,
+          "maximum": 2.180100071400254,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00028461485214703136,
+          "maximum": 2.1995415816217556,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -308.7399857072095,
+          "maximum": 298.9351427276688,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -304.47810928534636,
+          "maximum": 300.10097819074593,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 4.15,
+      "step": 830,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005544540852720849,
+          "maximum": 2.2086373436743667,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006088986241808078,
+          "maximum": 2.217633825986389,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -303.5946234492328,
+          "maximum": 303.74286757915377,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.31445453853576,
+          "maximum": 303.2981814720904,
+          "saturated_cell_fraction": 0.027363644781924254
+        }
+      }
+    },
+    {
+      "time_s": 4.175,
+      "step": 835,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.000731107690014604,
+          "maximum": 2.224386278627821,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00032841600067880927,
+          "maximum": 2.2202797753155075,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.6404688402748,
+          "maximum": 306.6527946477156,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.909190742587,
+          "maximum": 304.0601332818618,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 4.2,
+      "step": 840,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00029682221832039,
+          "maximum": 2.2243561379602275,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00016394014189639986,
+          "maximum": 2.2067079928330484,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.5001916467887,
+          "maximum": 307.03029672476,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -303.30852371174984,
+          "maximum": 302.1913852149242,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 4.225,
+      "step": 845,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005537603561311291,
+          "maximum": 2.2080300058244946,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0007510374393155644,
+          "maximum": 2.179456890343352,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -303.1702316650153,
+          "maximum": 304.7846551262056,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -307.95651485529663,
+          "maximum": 298.0580247516184,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 4.25,
+      "step": 850,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00021039692699536852,
+          "maximum": 2.1785080762875455,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006476039416607273,
+          "maximum": 2.1557467810817497,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -308.0368613595141,
+          "maximum": 300.316853587774,
+          "saturated_cell_fraction": 0.027826650615797758
+        },
+        "openfoam_vorticity": {
+          "minimum": -313.85956140347645,
+          "maximum": 292.5298218619559,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 4.275,
+      "step": 855,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002097820518700378,
+          "maximum": 2.15603101416929,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00039991569631693736,
+          "maximum": 2.1890466612987245,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -314.08522716754175,
+          "maximum": 294.589960277961,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -319.7646861789434,
+          "maximum": 286.82689242851666,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 4.3,
+      "step": 860,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00027218120600510596,
+          "maximum": 2.190068393704157,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0004210698172080911,
+          "maximum": 2.215174611682272,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -320.0319325266199,
+          "maximum": 288.8613755720664,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -324.4164685921154,
+          "maximum": 282.24059349320055,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 4.325,
+      "step": 865,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002708372758624767,
+          "maximum": 2.214756734032988,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00038711728315625677,
+          "maximum": 2.2287101928492827,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -324.5779839580663,
+          "maximum": 284.45615519937553,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.8220557722448,
+          "maximum": 279.80051069040667,
+          "saturated_cell_fraction": 0.027363644781924254
+        }
+      }
+    },
+    {
+      "time_s": 4.35,
+      "step": 870,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00033681481986508755,
+          "maximum": 2.2250610812217824,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005546300654060974,
+          "maximum": 2.2267584682366475,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.78253008469886,
+          "maximum": 282.3574414379503,
+          "saturated_cell_fraction": 0.027178442448374848
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.46286951614866,
+          "maximum": 280.01050611761514,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 4.375,
+      "step": 875,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0001139003171042041,
+          "maximum": 2.220216757200926,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00013334493762037333,
+          "maximum": 2.2095412331917137,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.14246781218964,
+          "maximum": 282.96722244176664,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -323.3939996563604,
+          "maximum": 282.7696693037575,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 4.4,
+      "step": 880,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00039100114816746254,
+          "maximum": 2.201469829058578,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 2.479912912455686e-05,
+          "maximum": 2.1803968405964684,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -322.7689003278082,
+          "maximum": 286.1404172854021,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -318.2420359909237,
+          "maximum": 287.44994572090894,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 4.425,
+      "step": 885,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005312203697543982,
+          "maximum": 2.172368405844679,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003071824042255679,
+          "maximum": 2.1572428880121377,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -317.3565368176035,
+          "maximum": 291.1335864727031,
+          "saturated_cell_fraction": 0.02791925178257246
+        },
+        "openfoam_vorticity": {
+          "minimum": -312.10024972613166,
+          "maximum": 293.0647236447164,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 4.45,
+      "step": 890,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003617174398457818,
+          "maximum": 2.1676024635077553,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00024003751570613092,
+          "maximum": 2.1898838563257614,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -311.0864308581861,
+          "maximum": 296.8754351922806,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -306.3185506168197,
+          "maximum": 298.4424923884447,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 4.475,
+      "step": 895,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002499968063137944,
+          "maximum": 2.1997973910402897,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00020119583454480266,
+          "maximum": 2.213248968329551,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -305.34015019587804,
+          "maximum": 302.19047249431543,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.199682670022,
+          "maximum": 302.45170793392924,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 4.5,
+      "step": 900,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00013479983701299405,
+          "maximum": 2.221131312577604,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0008046390625880153,
+          "maximum": 2.222244663800633,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.4131010865965,
+          "maximum": 305.9513476097074,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.6655139155952,
+          "maximum": 304.2269472705799,
+          "saturated_cell_fraction": 0.027363644781924254
+        }
+      }
+    },
+    {
+      "time_s": 4.525,
+      "step": 905,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00042900601235897583,
+          "maximum": 2.2273398563772435,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0001825701721099451,
+          "maximum": 2.214795407880118,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.15131202039703,
+          "maximum": 307.34533008410716,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.0182105378283,
+          "maximum": 303.35988548550307,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 4.55,
+      "step": 910,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003155002392930901,
+          "maximum": 2.2169635837325683,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00040912253552086836,
+          "maximum": 2.1921791667672994,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.8041380222734,
+          "maximum": 306.0694292498918,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -305.9142821794879,
+          "maximum": 300.0028458391464,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 4.575,
+      "step": 915,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00011121060137285821,
+          "maximum": 2.191735781748862,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005437584651639683,
+          "maximum": 2.158903902411786,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -305.96008557730346,
+          "maximum": 302.33299656725717,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -311.50625456969135,
+          "maximum": 294.8483395946132,
+          "saturated_cell_fraction": 0.027641448282248356
+        }
+      }
+    },
+    {
+      "time_s": 4.6,
+      "step": 920,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00045044037211364266,
+          "maximum": 2.156596681662639,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000565762167957296,
+          "maximum": 2.1769463864468523,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -311.73309846110476,
+          "maximum": 296.9093796889238,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -317.6037479204123,
+          "maximum": 289.0144694748846,
+          "saturated_cell_fraction": 0.027641448282248356
+        }
+      }
+    },
+    {
+      "time_s": 4.625,
+      "step": 925,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 6.670955709182897e-05,
+          "maximum": 2.1782667475080824,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00035075953005190706,
+          "maximum": 2.206809677003646,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -317.91972584639615,
+          "maximum": 290.9863789806038,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -322.91654770296645,
+          "maximum": 283.8121404106364,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 4.65,
+      "step": 930,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0007920988875604472,
+          "maximum": 2.2074530027236787,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0001058509562829669,
+          "maximum": 2.2258760900602477,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -323.1637765602186,
+          "maximum": 285.89663377199525,
+          "saturated_cell_fraction": 0.027456245948698953
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.31087085114063,
+          "maximum": 280.4193119194669,
+          "saturated_cell_fraction": 0.02727104361514955
+        }
+      }
+    },
+    {
+      "time_s": 4.675,
+      "step": 935,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00025668048157458117,
+          "maximum": 2.2237383626661464,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006849926401741856,
+          "maximum": 2.230139828774404,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.3646585714405,
+          "maximum": 282.8163500274629,
+          "saturated_cell_fraction": 0.027178442448374848
+        },
+        "openfoam_vorticity": {
+          "minimum": -327.0589815815571,
+          "maximum": 279.5672063540981,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 4.7,
+      "step": 940,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00048485598352157784,
+          "maximum": 2.2242700655030347,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0004082204428449125,
+          "maximum": 2.2185886771896777,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.8392703244285,
+          "maximum": 282.3768912681585,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -324.9926750839936,
+          "maximum": 281.38804383982,
+          "saturated_cell_fraction": 0.02791925178257246
+        }
+      }
+    },
+    {
+      "time_s": 4.725,
+      "step": 945,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005917847061299844,
+          "maximum": 2.2107110636344824,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005680434759012726,
+          "maximum": 2.1933664077073263,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -324.4434759945738,
+          "maximum": 284.63227356159894,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -320.52021414145236,
+          "maximum": 285.4392429882337,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 4.75,
+      "step": 950,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00040931449282829394,
+          "maximum": 2.1847615559314986,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005177109729274672,
+          "maximum": 2.15962585560458,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -319.67080775908056,
+          "maximum": 289.0658594819454,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -314.5813818317649,
+          "maximum": 290.8483765693786,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 4.775,
+      "step": 955,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0007532627016480142,
+          "maximum": 2.153926870385319,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003093034954547968,
+          "maximum": 2.178185007803003,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -313.5407922106533,
+          "maximum": 294.68212665094444,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -308.46019416084846,
+          "maximum": 296.48702391690796,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 4.8,
+      "step": 960,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003849180311484278,
+          "maximum": 2.188777016088661,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00037093438599545024,
+          "maximum": 2.2060694723941743,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -307.398566301826,
+          "maximum": 300.32614406555365,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -303.52826739365605,
+          "maximum": 301.17536403798704,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 4.825,
+      "step": 965,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 6.343382703172148e-05,
+          "maximum": 2.2150748609466486,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003841782705210962,
+          "maximum": 2.221195207024564,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -302.6199249814603,
+          "maximum": 304.8196611123276,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.8956963375548,
+          "maximum": 303.9141386068328,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 4.85,
+      "step": 970,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002914312250496295,
+          "maximum": 2.2273991168792735,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005969728627863717,
+          "maximum": 2.2202094681181634,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.2616010858457,
+          "maximum": 307.197527866726,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.12398565263396,
+          "maximum": 304.0957850524369,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 4.875,
+      "step": 975,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00035601569679670193,
+          "maximum": 2.223392419686203,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002960469439929965,
+          "maximum": 2.20309659434003,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.81111649529066,
+          "maximum": 306.9435649394204,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -304.11125980940125,
+          "maximum": 301.64936937430986,
+          "saturated_cell_fraction": 0.02778035003241041
+        }
+      }
+    },
+    {
+      "time_s": 4.9,
+      "step": 980,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005166981365322038,
+          "maximum": 2.2033469171142253,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00044579074113285875,
+          "maximum": 2.1731473083006563,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -304.10040483150084,
+          "maximum": 304.08179754112484,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -309.18327808233175,
+          "maximum": 297.0669292711893,
+          "saturated_cell_fraction": 0.02778035003241041
+        }
+      }
+    },
+    {
+      "time_s": 4.925,
+      "step": 985,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00035067631987306967,
+          "maximum": 2.171145267253696,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000202022548904483,
+          "maximum": 2.1637400447095305,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -309.3972343448748,
+          "maximum": 299.1629389672004,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -315.2579011323948,
+          "maximum": 291.3243675363674,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 4.95,
+      "step": 990,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00045412783638465394,
+          "maximum": 2.1650393127755496,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0007467236474409844,
+          "maximum": 2.1963480946648914,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -315.6037570995248,
+          "maximum": 293.25771036037924,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -321.0486290563357,
+          "maximum": 285.6978157741968,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 4.975,
+      "step": 995,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003133430865444418,
+          "maximum": 2.197788621023725,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000308972422170376,
+          "maximum": 2.2203489103063734,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -321.38044460619597,
+          "maximum": 287.6676423698268,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -325.3224795873451,
+          "maximum": 281.4626127548506,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 5.0,
+      "step": 1000,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00024210012178007875,
+          "maximum": 2.219647730433551,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00020459948285353412,
+          "maximum": 2.2307536130631407,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -325.48315836364645,
+          "maximum": 283.6956797373079,
+          "saturated_cell_fraction": 0.02727104361514955
+        },
+        "openfoam_vorticity": {
+          "minimum": -327.16740116676715,
+          "maximum": 279.5563002347966,
+          "saturated_cell_fraction": 0.027363644781924254
+        }
+      }
+    },
+    {
+      "time_s": 5.025,
+      "step": 1005,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005532500627734632,
+          "maximum": 2.226222297873989,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006505217134329807,
+          "maximum": 2.225311643306437,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -327.0615641746717,
+          "maximum": 282.1994257127606,
+          "saturated_cell_fraction": 0.027178442448374848
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.1867736863021,
+          "maximum": 280.352280769452,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 5.05,
+      "step": 1010,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00021914096347061903,
+          "maximum": 2.217980190987682,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00029627608024950755,
+          "maximum": 2.2049362788202607,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -325.7389154487996,
+          "maximum": 283.4425795228328,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -322.56165226313004,
+          "maximum": 283.62056320347585,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 5.075,
+      "step": 1015,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002287880226870131,
+          "maximum": 2.1961504629349995,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000201059847176229,
+          "maximum": 2.173674468796238,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -321.7779894430822,
+          "maximum": 287.1535717748692,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -317.0441981646884,
+          "maximum": 288.6327535071201,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 5.1,
+      "step": 1020,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002158779755393139,
+          "maximum": 2.1652591231111327,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00016518321338908175,
+          "maximum": 2.165090803063609,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -316.00467698503735,
+          "maximum": 292.45896116029564,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -310.81067329712744,
+          "maximum": 294.3385897647879,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 5.125,
+      "step": 1025,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002401818416916296,
+          "maximum": 2.1761851805469306,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00033591266640213373,
+          "maximum": 2.19658333556269,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -309.68330420922985,
+          "maximum": 298.2461729792639,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -305.2425436340564,
+          "maximum": 299.5470721893082,
+          "saturated_cell_fraction": 0.027641448282248356
+        }
+      }
+    },
+    {
+      "time_s": 5.15,
+      "step": 1030,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 8.804051266069552e-05,
+          "maximum": 2.2065914567670233,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000829698528746629,
+          "maximum": 2.217334838913221,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -304.21484724399664,
+          "maximum": 303.3258430238199,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.59331487492517,
+          "maximum": 303.15929015896666,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 5.175,
+      "step": 1035,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00025685926395563303,
+          "maximum": 2.2247811883556077,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00015075756432520623,
+          "maximum": 2.2228878953013522,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.8270805591344,
+          "maximum": 306.61450653118067,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.6689321146003,
+          "maximum": 304.3894373314102,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 5.2,
+      "step": 1040,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00014934980489460903,
+          "maximum": 2.227219205508625,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00019628358046950393,
+          "maximum": 2.2118841141091403,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.2354316962877,
+          "maximum": 307.39942679219547,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.6269571802515,
+          "maximum": 302.94473202198765,
+          "saturated_cell_fraction": 0.02778035003241041
+        }
+      }
+    },
+    {
+      "time_s": 5.225,
+      "step": 1045,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00014268844097001896,
+          "maximum": 2.213030330735212,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0007087077377513478,
+          "maximum": 2.1863307117331177,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -302.53458200871603,
+          "maximum": 305.50678082006664,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -306.9964927796997,
+          "maximum": 299.10161157581484,
+          "saturated_cell_fraction": 0.02778035003241041
+        }
+      }
+    },
+    {
+      "time_s": 5.25,
+      "step": 1050,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00013663062569203383,
+          "maximum": 2.1848121023574314,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0004959837300568546,
+          "maximum": 2.1514120924270927,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -307.1787787921544,
+          "maximum": 301.2683601150226,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -312.8365912433582,
+          "maximum": 293.6627464130972,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 5.275,
+      "step": 1055,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003116918443994604,
+          "maximum": 2.1510270370252327,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00027678116579975617,
+          "maximum": 2.1843175002463924,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -313.19366548764117,
+          "maximum": 295.5842298025426,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -318.905052463515,
+          "maximum": 287.8192438087294,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 5.3,
+      "step": 1060,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00014343001510186269,
+          "maximum": 2.1862598313849073,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000197117753957171,
+          "maximum": 2.2124734377039608,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -319.3114104507294,
+          "maximum": 289.70125937420744,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -323.91700158447554,
+          "maximum": 282.8886600172033,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 5.325,
+      "step": 1065,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00013618390049822363,
+          "maximum": 2.213046386213054,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000567480099993437,
+          "maximum": 2.228696840220853,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -324.18955253266364,
+          "maximum": 284.96337174277676,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.80307357474425,
+          "maximum": 279.98122934317894,
+          "saturated_cell_fraction": 0.027317344198536903
+        }
+      }
+    },
+    {
+      "time_s": 5.35,
+      "step": 1070,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00013536251343695472,
+          "maximum": 2.225860232059826,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0004245924328574317,
+          "maximum": 2.229558830015981,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.81763396996405,
+          "maximum": 282.4438476997273,
+          "saturated_cell_fraction": 0.027178442448374848
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.9445049844441,
+          "maximum": 279.707205934471,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 5.375,
+      "step": 1075,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00010703056332260366,
+          "maximum": 2.223008395880738,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00025358656596015025,
+          "maximum": 2.214731816490848,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.6192099232013,
+          "maximum": 282.636553811406,
+          "saturated_cell_fraction": 0.027456245948698953
+        },
+        "openfoam_vorticity": {
+          "minimum": -324.2974014687018,
+          "maximum": 282.0679159275902,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 5.4,
+      "step": 1080,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003400405654939127,
+          "maximum": 2.2061227181259415,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005504064580752921,
+          "maximum": 2.1870422000453065,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -323.60242404973883,
+          "maximum": 285.47454204331024,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -319.3961001843302,
+          "maximum": 286.51017963052254,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 5.425,
+      "step": 1085,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0008025548280061334,
+          "maximum": 2.1779351321797615,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00019924513782245806,
+          "maximum": 2.1548631667231493,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -318.3881536045687,
+          "maximum": 290.2919287957597,
+          "saturated_cell_fraction": 0.02791925178257246
+        },
+        "openfoam_vorticity": {
+          "minimum": -313.2757682946275,
+          "maximum": 292.0896998062046,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 5.45,
+      "step": 1090,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00022154415931717946,
+          "maximum": 2.162537863347652,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00046964280589184906,
+          "maximum": 2.185241313957399,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -312.10619603878837,
+          "maximum": 296.0385358168262,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -307.2713703728791,
+          "maximum": 297.64326172987955,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 5.475,
+      "step": 1095,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005741150180337607,
+          "maximum": 2.196107846476218,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006506135824198357,
+          "maximum": 2.2109202341748704,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -306.1374994450757,
+          "maximum": 301.5380067579647,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.7320111205693,
+          "maximum": 302.00590395987433,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 5.5,
+      "step": 1100,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00018941992892213013,
+          "maximum": 2.2196720948415223,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006765731998768769,
+          "maximum": 2.222835331940753,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.82356999407057,
+          "maximum": 305.63277881815156,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.67454552765435,
+          "maximum": 304.24251008004404,
+          "saturated_cell_fraction": 0.027363644781924254
+        }
+      }
+    },
+    {
+      "time_s": 5.525,
+      "step": 1105,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005924450069997202,
+          "maximum": 2.2284063199845114,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00037613092475692573,
+          "maximum": 2.2182965556538905,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.1024937321812,
+          "maximum": 307.43914927271743,
+          "saturated_cell_fraction": 0.027317344198536903
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.5209028082146,
+          "maximum": 303.85038901068344,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 5.55,
+      "step": 1110,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 8.528732547812543e-05,
+          "maximum": 2.2205304800318264,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00023441840432111271,
+          "maximum": 2.198001549870504,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.3211066323605,
+          "maximum": 306.56723927831166,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -305.03346008431686,
+          "maximum": 300.88037434015155,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 5.575,
+      "step": 1115,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002734192889268404,
+          "maximum": 2.19718780484585,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00039137210460056174,
+          "maximum": 2.165939089726955,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -305.15968670795036,
+          "maximum": 303.15191071472583,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -310.43546006647375,
+          "maximum": 295.9400041268003,
+          "saturated_cell_fraction": 0.02778035003241041
+        }
+      }
+    },
+    {
+      "time_s": 5.6,
+      "step": 1120,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0001640908020917336,
+          "maximum": 2.162932372100154,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00010411149734741125,
+          "maximum": 2.1712077034108312,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -310.7867548796024,
+          "maximum": 297.88417993181713,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -316.5761911734846,
+          "maximum": 290.0919099391309,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 5.625,
+      "step": 1125,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00043535163023137154,
+          "maximum": 2.1733306623539232,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0001189712511930847,
+          "maximum": 2.202598362064392,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -317.0347557514375,
+          "maximum": 291.91551369815534,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -322.1568346446151,
+          "maximum": 284.6437064632353,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 5.65,
+      "step": 1130,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0008408153633990125,
+          "maximum": 2.20421328467446,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0001621652901687652,
+          "maximum": 2.2241099659274743,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -322.53848953179545,
+          "maximum": 286.575205199269,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -325.98756826655625,
+          "maximum": 280.82951867354865,
+          "saturated_cell_fraction": 0.027178442448374848
+        }
+      }
+    },
+    {
+      "time_s": 5.675,
+      "step": 1135,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003300323547838073,
+          "maximum": 2.222898314612734,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00027008681056651544,
+          "maximum": 2.231254964770469,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.1324924521131,
+          "maximum": 283.10414566757254,
+          "saturated_cell_fraction": 0.0272247430317622
+        },
+        "openfoam_vorticity": {
+          "minimum": -327.24964819823015,
+          "maximum": 279.48115177547083,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 5.7,
+      "step": 1140,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00019897492321632038,
+          "maximum": 2.2256691623552896,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003338494010180311,
+          "maximum": 2.2224469067437904,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -327.0623809660776,
+          "maximum": 282.22888247185045,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -325.6702289886216,
+          "maximum": 280.84145734235653,
+          "saturated_cell_fraction": 0.02791925178257246
+        }
+      }
+    },
+    {
+      "time_s": 5.725,
+      "step": 1145,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0004283499297550985,
+          "maximum": 2.2143123715574307,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005716570878221138,
+          "maximum": 2.1992696622541725,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -325.0869010160208,
+          "maximum": 284.0857574488817,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -321.5541563688222,
+          "maximum": 284.56097856677195,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 5.75,
+      "step": 1150,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 8.414662581996947e-05,
+          "maximum": 2.189855806221301,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0008116319914831727,
+          "maximum": 2.1664060144804136,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -320.61018386916334,
+          "maximum": 288.2572784740596,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -315.76257956644986,
+          "maximum": 289.82654779800174,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 5.775,
+      "step": 1155,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0004070427965704535,
+          "maximum": 2.1577463735823805,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002589612294698459,
+          "maximum": 2.1724828620450434,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -314.57931473394353,
+          "maximum": 293.78613201203103,
+          "saturated_cell_fraction": 0.027826650615797758
+        },
+        "openfoam_vorticity": {
+          "minimum": -309.5388024094401,
+          "maximum": 295.5383626280584,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 5.8,
+      "step": 1160,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002491680566664937,
+          "maximum": 2.1840359715639135,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002617122396256512,
+          "maximum": 2.2022501627581375,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -308.316561705716,
+          "maximum": 299.52783317396677,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -304.27084849499687,
+          "maximum": 300.50334910299694,
+          "saturated_cell_fraction": 0.027641448282248356
+        }
+      }
+    },
+    {
+      "time_s": 5.825,
+      "step": 1165,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002189712734019278,
+          "maximum": 2.212202752049376,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00015642473088310648,
+          "maximum": 2.2201099092162253,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -303.21855861578643,
+          "maximum": 304.2928293920785,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.1437378410204,
+          "maximum": 303.66933915749235,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 5.85,
+      "step": 1170,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005594278401387507,
+          "maximum": 2.227001285800339,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 8.097456388116034e-05,
+          "maximum": 2.222164307619783,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.42024057785636,
+          "maximum": 307.06094925185914,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.8366113636371,
+          "maximum": 304.3407506784036,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 5.875,
+      "step": 1175,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00044480170632996607,
+          "maximum": 2.225634579518258,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003208634827713877,
+          "maximum": 2.2077810221720973,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.50435342338517,
+          "maximum": 307.22952749770013,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -303.365389805002,
+          "maximum": 302.34367964172054,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 5.9,
+      "step": 1180,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0006931352945391356,
+          "maximum": 2.20786720942232,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0011222015485380463,
+          "maximum": 2.1796701867606516,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -303.4079773741979,
+          "maximum": 304.7505132765992,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -308.1443935189877,
+          "maximum": 298.0732975690423,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 5.925,
+      "step": 1185,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00037659741558091815,
+          "maximum": 2.1770947053387695,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005838224089015316,
+          "maximum": 2.157502149593969,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -308.4691626831992,
+          "maximum": 300.07839782147335,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -314.1500578791694,
+          "maximum": 292.43119751026444,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 5.95,
+      "step": 1190,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00018483626029282635,
+          "maximum": 2.1594861646803762,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0004876974778608485,
+          "maximum": 2.1910976445243713,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -314.6358230873435,
+          "maximum": 294.22517622058615,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -320.1088533543509,
+          "maximum": 286.66286140265515,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 5.975,
+      "step": 1195,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00018807370192435558,
+          "maximum": 2.1934643516433168,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00047654947964305774,
+          "maximum": 2.2171929271033557,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -320.5899123912827,
+          "maximum": 288.4757323335097,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -324.7552632220894,
+          "maximum": 282.07317300332227,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 6.0,
+      "step": 1200,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00022459465526404569,
+          "maximum": 2.2174820022813537,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00047152383751872717,
+          "maximum": 2.230382526166778,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -325.03552696397156,
+          "maximum": 284.1629693790526,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -327.0984014289413,
+          "maximum": 279.6866205764456,
+          "saturated_cell_fraction": 0.027363644781924254
+        }
+      }
+    },
+    {
+      "time_s": 6.025,
+      "step": 1205,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00019106613003987808,
+          "maximum": 2.226670090198563,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0007099314439606882,
+          "maximum": 2.2278527068018428,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -327.0570982779705,
+          "maximum": 282.23601631198693,
+          "saturated_cell_fraction": 0.0272247430317622
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.63583490134386,
+          "maximum": 279.98832736083955,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 6.05,
+      "step": 1210,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00014228660784185637,
+          "maximum": 2.2205594956218215,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 4.536416549363933e-05,
+          "maximum": 2.209948339059366,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.18976445323256,
+          "maximum": 283.05302325898435,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -323.4452806933359,
+          "maximum": 282.85302366885526,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 6.075,
+      "step": 1215,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002095551355639145,
+          "maximum": 2.2006250961621197,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00040245365693757914,
+          "maximum": 2.1801612280991995,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -322.59610050123865,
+          "maximum": 286.4263709170185,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -318.18113507051885,
+          "maximum": 287.6284918151798,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 6.1,
+      "step": 1220,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00021523381293299035,
+          "maximum": 2.170651539056426,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0004184210537301641,
+          "maximum": 2.1587703534336393,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -317.01832885629045,
+          "maximum": 291.56013868088996,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -311.9607294252978,
+          "maximum": 293.3089053611502,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 6.125,
+      "step": 1225,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 4.5120653475729185e-05,
+          "maximum": 2.1707856759728847,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00025870897507665474,
+          "maximum": 2.1916526754182315,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -310.6756722044204,
+          "maximum": 297.3616016078862,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -306.15276270341775,
+          "maximum": 298.709674181494,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 6.15,
+      "step": 1230,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0004999109781795455,
+          "maximum": 2.202655851825505,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000284896309792383,
+          "maximum": 2.2148338527473936,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -304.9678194203469,
+          "maximum": 302.6425954416155,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.0632696207049,
+          "maximum": 302.69474572098284,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 6.175,
+      "step": 1235,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00011948697873921028,
+          "maximum": 2.223169717381098,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00038930250419917737,
+          "maximum": 2.223399599257207,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.1781929155786,
+          "maximum": 306.28245823214843,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.6031008890306,
+          "maximum": 304.4037155443398,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 6.2,
+      "step": 1240,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005000545909049281,
+          "maximum": 2.2282192025160326,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 3.602647125973538e-05,
+          "maximum": 2.2153674181544827,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.1159761702012,
+          "maximum": 307.4941166663859,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.0521485602427,
+          "maximum": 303.4442470333366,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 6.225,
+      "step": 1245,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00024704735854234796,
+          "maximum": 2.2165712530094517,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0004670787220453246,
+          "maximum": 2.1921358217483204,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.98163433385275,
+          "maximum": 306.01428688083115,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -306.04471871085303,
+          "maximum": 299.98827086384637,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 6.25,
+      "step": 1250,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00020015317504500362,
+          "maximum": 2.1902268614344678,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005522622163429852,
+          "maximum": 2.1583546031226026,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -306.31630777275336,
+          "maximum": 302.0935481400685,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -311.7119528128842,
+          "maximum": 294.75158271997225,
+          "saturated_cell_fraction": 0.027641448282248356
+        }
+      }
+    },
+    {
+      "time_s": 6.275,
+      "step": 1255,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0004205907425172315,
+          "maximum": 2.154371291073486,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000569848804377712,
+          "maximum": 2.178378663128741,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -312.20153585601366,
+          "maximum": 296.5504223699557,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -317.8471915613177,
+          "maximum": 288.8714174807974,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 6.3,
+      "step": 1260,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00021267193961810812,
+          "maximum": 2.181169230417422,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00033826692851173564,
+          "maximum": 2.2082031611773774,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -318.4058877814644,
+          "maximum": 290.6000652367468,
+          "saturated_cell_fraction": 0.027456245948698953
+        },
+        "openfoam_vorticity": {
+          "minimum": -323.15368735892565,
+          "maximum": 283.6688634831488,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 6.325,
+      "step": 1265,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0006275774091056128,
+          "maximum": 2.20978798403666,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 8.616434288469951e-05,
+          "maximum": 2.2269945314725548,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -323.5671999336899,
+          "maximum": 285.5862372013183,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.4988800030843,
+          "maximum": 280.31959496732156,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 6.35,
+      "step": 1270,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00040867359179757033,
+          "maximum": 2.225086039501161,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0007882967238988702,
+          "maximum": 2.23080996424583,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.60761491803896,
+          "maximum": 282.6601785541696,
+          "saturated_cell_fraction": 0.027178442448374848
+        },
+        "openfoam_vorticity": {
+          "minimum": -327.1665455686684,
+          "maximum": 279.54064076378313,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 6.375,
+      "step": 1275,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005348585444507663,
+          "maximum": 2.22450900358508,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00029320075231824256,
+          "maximum": 2.2187320612212993,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.87648249519725,
+          "maximum": 282.4123777728586,
+          "saturated_cell_fraction": 0.027456245948698953
+        },
+        "openfoam_vorticity": {
+          "minimum": -325.0065602661059,
+          "maximum": 281.44569113068394,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 6.4,
+      "step": 1280,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00039603408558465625,
+          "maximum": 2.2098378055898866,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005992857736396242,
+          "maximum": 2.1930171763240893,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -324.27560741425964,
+          "maximum": 284.85949348358963,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -320.44797697908893,
+          "maximum": 285.57197430619743,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 6.425,
+      "step": 1285,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.000443032922267549,
+          "maximum": 2.183041486192016,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005051805810819696,
+          "maximum": 2.1589280236053874,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -319.34121911137635,
+          "maximum": 289.432204477909,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -314.4490585844065,
+          "maximum": 291.0324082962978,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 6.45,
+      "step": 1290,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003796873926364558,
+          "maximum": 2.156755815395773,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002739745512414145,
+          "maximum": 2.1794942652660936,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -313.1318299951029,
+          "maximum": 295.11542870725617,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -308.30825868180364,
+          "maximum": 296.688446475489,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 6.475,
+      "step": 1295,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.000426508539034675,
+          "maximum": 2.191370577776358,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00037207381508127466,
+          "maximum": 2.2072203236695094,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -307.0105642551061,
+          "maximum": 300.7413586034694,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -303.40194078853165,
+          "maximum": 301.35624100394864,
+          "saturated_cell_fraction": 0.027641448282248356
+        }
+      }
+    },
+    {
+      "time_s": 6.5,
+      "step": 1300,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0001977724352041929,
+          "maximum": 2.2169566560079605,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00042777901334471713,
+          "maximum": 2.2219952834833347,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -302.3497582045812,
+          "maximum": 305.13331840997046,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.83093279677036,
+          "maximum": 304.0413231119207,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 6.525,
+      "step": 1305,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005676779022585473,
+          "maximum": 2.228232763851209,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00045519816193804937,
+          "maximum": 2.220532332757012,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.173844013063,
+          "maximum": 307.3472025942921,
+          "saturated_cell_fraction": 0.027317344198536903
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.140868568958,
+          "maximum": 304.1473356457171,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 6.55,
+      "step": 1310,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002525196067930654,
+          "maximum": 2.2230328290151737,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003483107026901919,
+          "maximum": 2.202919046674997,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.92883465471255,
+          "maximum": 306.90345430504476,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -304.2092982671743,
+          "maximum": 301.6198902355153,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 6.575,
+      "step": 1315,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00048189166509402757,
+          "maximum": 2.2018990174820234,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003541636078187062,
+          "maximum": 2.1725542586569095,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -304.3976717450592,
+          "maximum": 303.86091435922435,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -309.34520426443567,
+          "maximum": 296.9694671885781,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 6.6,
+      "step": 1320,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0004824337710027299,
+          "maximum": 2.1689415804595793,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003686454020828233,
+          "maximum": 2.164871196896307,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -309.8151727199659,
+          "maximum": 298.81496602681557,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -315.45241040750466,
+          "maximum": 291.18772247169164,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 6.625,
+      "step": 1325,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005955786973149334,
+          "maximum": 2.1677364100939496,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000742915046536203,
+          "maximum": 2.197446934029293,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -316.0587298253554,
+          "maximum": 292.8659113451187,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -321.23830163449924,
+          "maximum": 285.5602330036339,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 6.65,
+      "step": 1330,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0004226830604389684,
+          "maximum": 2.2000453119143826,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002599624969004459,
+          "maximum": 2.221216002512217,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -321.7744182939008,
+          "maximum": 287.32824545901644,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -325.4711343376599,
+          "maximum": 281.3621100688298,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 6.675,
+      "step": 1335,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00019285018156207882,
+          "maximum": 2.2210235395540816,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00021371206067295298,
+          "maximum": 2.2312377078109695,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -325.737722117471,
+          "maximum": 283.49199361963923,
+          "saturated_cell_fraction": 0.02727104361514955
+        },
+        "openfoam_vorticity": {
+          "minimum": -327.2473756456735,
+          "maximum": 279.5196052155195,
+          "saturated_cell_fraction": 0.027363644781924254
+        }
+      }
+    },
+    {
+      "time_s": 6.7,
+      "step": 1340,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0004444577172907161,
+          "maximum": 2.2264708406696503,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0007049012576906919,
+          "maximum": 2.2253437361867547,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -327.1258862398571,
+          "maximum": 282.17728617927935,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.1860722412306,
+          "maximum": 280.38994695242565,
+          "saturated_cell_fraction": 0.02778035003241041
+        }
+      }
+    },
+    {
+      "time_s": 6.725,
+      "step": 1345,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002432089896504161,
+          "maximum": 2.217223897635624,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00037602157648372966,
+          "maximum": 2.2045397946448864,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -325.6014143363979,
+          "maximum": 283.6074328936559,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -322.4856448235661,
+          "maximum": 283.7258497229943,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 6.75,
+      "step": 1350,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 3.188611999449538e-05,
+          "maximum": 2.1945155050746514,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 8.788060317236875e-05,
+          "maximum": 2.1729674735708913,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -321.471478264597,
+          "maximum": 287.4710389557279,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -316.9144139083359,
+          "maximum": 288.7853160331222,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 6.775,
+      "step": 1355,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00014677474755585325,
+          "maximum": 2.163144379115036,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00020097709540690704,
+          "maximum": 2.1661824251179653,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -315.6010846595999,
+          "maximum": 292.85999228470837,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -310.6611901218548,
+          "maximum": 294.50883842463145,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 6.8,
+      "step": 1360,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00019600539626141836,
+          "maximum": 2.1787103713876084,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00034951642597527206,
+          "maximum": 2.1975498753038782,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -309.27621337730756,
+          "maximum": 298.65099146912064,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -305.11283959323055,
+          "maximum": 299.70190997783874,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 6.825,
+      "step": 1365,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 9.653734714055217e-05,
+          "maximum": 2.2085337488275902,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006292932707726223,
+          "maximum": 2.2179982432004683,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -303.90076671111024,
+          "maximum": 303.6511504718232,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.51745152499444,
+          "maximum": 303.26830642086395,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 6.85,
+      "step": 1370,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00036403776251365893,
+          "maximum": 2.225755891575627,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00013940461249383862,
+          "maximum": 2.2231284202996795,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.67909071796834,
+          "maximum": 306.7933787655633,
+          "saturated_cell_fraction": 0.027456245948698953
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.66714609863,
+          "maximum": 304.43161783690925,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 6.875,
+      "step": 1375,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00047661622527545407,
+          "maximum": 2.227065261165579,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002480284601151511,
+          "maximum": 2.211674104617931,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.2875293760294,
+          "maximum": 307.39515368413703,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.70061046700073,
+          "maximum": 302.91406843657404,
+          "saturated_cell_fraction": 0.02778035003241041
+        }
+      }
+    },
+    {
+      "time_s": 6.9,
+      "step": 1380,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003134796997809599,
+          "maximum": 2.211769320563082,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006494097553170461,
+          "maximum": 2.185733568397943,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -302.7736437365898,
+          "maximum": 305.32260601702916,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -307.13147145235274,
+          "maximum": 299.00736071587517,
+          "saturated_cell_fraction": 0.02778035003241041
+        }
+      }
+    },
+    {
+      "time_s": 6.925,
+      "step": 1385,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00024285074594367634,
+          "maximum": 2.1827062301942926,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003672369149234159,
+          "maximum": 2.1510244573563284,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -307.5539378516054,
+          "maximum": 300.9423407818607,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -313.00577913830693,
+          "maximum": 293.5290915547767,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 6.95,
+      "step": 1390,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00020510866007536857,
+          "maximum": 2.1536208821929863,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002684227850130925,
+          "maximum": 2.185288518287597,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -313.62975243149776,
+          "maximum": 295.1918144545183,
+          "saturated_cell_fraction": 0.027456245948698953
+        },
+        "openfoam_vorticity": {
+          "minimum": -319.07455554573033,
+          "maximum": 287.68000537588546,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 6.975,
+      "step": 1395,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 2.9423157856427104e-05,
+          "maximum": 2.1885710954935886,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00022038877209990307,
+          "maximum": 2.2132527548386816,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -319.7148605507135,
+          "maximum": 289.33236769209554,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -324.05277745778807,
+          "maximum": 282.7793925608333,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 7.0,
+      "step": 1400,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 5.371922883768442e-05,
+          "maximum": 2.214598286277394,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006611465687303289,
+          "maximum": 2.229139898634282,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -324.4756392057763,
+          "maximum": 284.7085089136854,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.87873811494933,
+          "maximum": 279.9288559556943,
+          "saturated_cell_fraction": 0.027317344198536903
+        }
+      }
+    },
+    {
+      "time_s": 7.025,
+      "step": 1405,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 6.094114710058857e-05,
+          "maximum": 2.226362897617966,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00032720311125399726,
+          "maximum": 2.229587855681305,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.92949510686185,
+          "maximum": 282.35909636558165,
+          "saturated_cell_fraction": 0.027178442448374848
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.9461960077674,
+          "maximum": 279.7241794739922,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 7.05,
+      "step": 1410,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0001346431253841135,
+          "maximum": 2.222514182302152,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003218120478205082,
+          "maximum": 2.2143524306505746,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.53140252340904,
+          "maximum": 282.7381122619362,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -324.22678775073507,
+          "maximum": 282.1513588949016,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 7.075,
+      "step": 1415,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 9.448522539361969e-05,
+          "maximum": 2.2046751236419966,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005897626474509187,
+          "maximum": 2.1863504534979548,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -323.3361510710903,
+          "maximum": 285.7419398948434,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -319.271223718375,
+          "maximum": 286.6423113481981,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 7.1,
+      "step": 1420,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0007738830668292924,
+          "maximum": 2.1758837027057316,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00018014537559839266,
+          "maximum": 2.1553610076405074,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -318.00129056729196,
+          "maximum": 290.663544145809,
+          "saturated_cell_fraction": 0.02791925178257246
+        },
+        "openfoam_vorticity": {
+          "minimum": -313.12603882704417,
+          "maximum": 292.24435034698524,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 7.125,
+      "step": 1425,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00022961543498038165,
+          "maximum": 2.1650633246621935,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005042833582474102,
+          "maximum": 2.1861449447699637,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -311.6867991795962,
+          "maximum": 296.43843250155,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -307.1335179636404,
+          "maximum": 297.78924474580566,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 7.15,
+      "step": 1430,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005471470336562744,
+          "maximum": 2.1981951026292847,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006574910947878221,
+          "maximum": 2.2115650057833594,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -305.78150388086,
+          "maximum": 301.8850302306829,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.6401025565132,
+          "maximum": 302.1136883801265,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 7.175,
+      "step": 1435,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00023715499876101438,
+          "maximum": 2.2209042053444423,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0007373866529392719,
+          "maximum": 2.2230966993491514,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.6136636322573,
+          "maximum": 305.8532081467081,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.6507536083139,
+          "maximum": 304.2902756228596,
+          "saturated_cell_fraction": 0.027363644781924254
+        }
+      }
+    },
+    {
+      "time_s": 7.2,
+      "step": 1440,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0007230372032282325,
+          "maximum": 2.228562811027673,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003603460853103507,
+          "maximum": 2.218129833656485,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.08368177999023,
+          "maximum": 307.48710409524983,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.57080945434245,
+          "maximum": 303.82915171689115,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 7.225,
+      "step": 1445,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 4.721658332634166e-05,
+          "maximum": 2.2195558792702212,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002944196837218518,
+          "maximum": 2.197447197830369,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.49663770594503,
+          "maximum": 306.4334992562826,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -305.14647333143967,
+          "maximum": 300.79547013818336,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 7.25,
+      "step": 1450,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00022340876051696627,
+          "maximum": 2.1952785596196276,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003284979852419343,
+          "maximum": 2.1651251931187225,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -305.48896788270827,
+          "maximum": 302.86155438509616,
+          "saturated_cell_fraction": 0.02773404944902306
+        },
+        "openfoam_vorticity": {
+          "minimum": -310.5884687230265,
+          "maximum": 295.81135888487927,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 7.275,
+      "step": 1455,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00037571879949337535,
+          "maximum": 2.1604823814171823,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0001695846527070691,
+          "maximum": 2.172126834931361,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -311.2030016141505,
+          "maximum": 297.50169405039924,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -316.73750262186,
+          "maximum": 289.94998789575584,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 7.3,
+      "step": 1460,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0005769651879688884,
+          "maximum": 2.17572882909994,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00012926478298851845,
+          "maximum": 2.2033738623543075,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -317.45040225602474,
+          "maximum": 291.5264091554177,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -322.2932044665372,
+          "maximum": 284.5227910871241,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 7.325,
+      "step": 1465,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0009707850729389733,
+          "maximum": 2.206001280468356,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0001429225789988704,
+          "maximum": 2.224589085854544,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -322.86309753250646,
+          "maximum": 286.2717406818349,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.07136675016295,
+          "maximum": 280.7585103706468,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 7.35,
+      "step": 1470,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00020527029022807282,
+          "maximum": 2.2237173369549206,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.000315318562021275,
+          "maximum": 2.2313467418511372,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.3000192849288,
+          "maximum": 282.9548087880302,
+          "saturated_cell_fraction": 0.0272247430317622
+        },
+        "openfoam_vorticity": {
+          "minimum": -327.26405411964356,
+          "maximum": 279.47591330521897,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 7.375,
+      "step": 1475,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002899900258408681,
+          "maximum": 2.2254634715822226,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00033243105548938197,
+          "maximum": 2.2221363496262736,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -327.0369463855897,
+          "maximum": 282.26333432133197,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -325.612993341659,
+          "maximum": 280.9031513247667,
+          "saturated_cell_fraction": 0.02791925178257246
+        }
+      }
+    },
+    {
+      "time_s": 7.4,
+      "step": 1480,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.000188834220034491,
+          "maximum": 2.2131321993904187,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005645029205363017,
+          "maximum": 2.1986256432973974,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -324.87292439373596,
+          "maximum": 284.29819905800014,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -321.43873470685656,
+          "maximum": 284.67572491074696,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 7.425,
+      "step": 1485,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0002760999590246166,
+          "maximum": 2.187939326652283,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0008177364386500137,
+          "maximum": 2.1655732315568352,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -320.2530651952418,
+          "maximum": 288.59510430258337,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -315.61481778295234,
+          "maximum": 289.97074979462303,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 7.45,
+      "step": 1490,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.000522966823227756,
+          "maximum": 2.1555356409204274,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00022972726801368199,
+          "maximum": 2.1733759899770746,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -314.15895499689157,
+          "maximum": 294.17863881752777,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -309.3927977726856,
+          "maximum": 295.6825283723379,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 7.475,
+      "step": 1495,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00044109265891826557,
+          "maximum": 2.186278097048596,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00034699078809891695,
+          "maximum": 2.202936155381731,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -307.9266915796084,
+          "maximum": 299.89583440663307,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -304.1611139678307,
+          "maximum": 300.6181526614791,
+          "saturated_cell_fraction": 0.027641448282248356
+        }
+      }
+    },
+    {
+      "time_s": 7.5,
+      "step": 1500,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0001798648584612395,
+          "maximum": 2.2137306511930404,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0001974367624520156,
+          "maximum": 2.2204510455559694,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -302.9482771293379,
+          "maximum": 304.5585836573863,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.09582341686945,
+          "maximum": 303.730751131862,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 7.525,
+      "step": 1505,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0006589156440391131,
+          "maximum": 2.227510630048031,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00010244040188899577,
+          "maximum": 2.2220904950114244,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.3285679932949,
+          "maximum": 307.1681449769039,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.86163343302667,
+          "maximum": 304.33576406873215,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 7.55,
+      "step": 1510,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00041386333083725694,
+          "maximum": 2.2250198412485784,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00045488780396578203,
+          "maximum": 2.20730965747151,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.61042508942563,
+          "maximum": 307.1568707782877,
+          "saturated_cell_fraction": 0.027456245948698953
+        },
+        "openfoam_vorticity": {
+          "minimum": -303.4568450161143,
+          "maximum": 302.2737249636899,
+          "saturated_cell_fraction": 0.02787295119918511
+        }
+      }
+    },
+    {
+      "time_s": 7.575,
+      "step": 1515,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0009078539035432057,
+          "maximum": 2.206235229832776,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0010254845192332425,
+          "maximum": 2.178901243751681,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -303.6849887862037,
+          "maximum": 304.5082522291518,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -308.2829806119945,
+          "maximum": 297.9536154760852,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 7.6,
+      "step": 1520,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00023622233960024424,
+          "maximum": 2.1747712093067735,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006032022754859218,
+          "maximum": 2.1583925925414613,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -308.85844519604507,
+          "maximum": 299.71845899144546,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -314.3065664413149,
+          "maximum": 292.28891468756547,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 7.625,
+      "step": 1525,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00025464935032737027,
+          "maximum": 2.161945570902642,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00041654151743728186,
+          "maximum": 2.191901287762768,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -315.0574666508588,
+          "maximum": 293.8275578747176,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -320.2509140542743,
+          "maximum": 286.5308477612024,
+          "saturated_cell_fraction": 0.027502546532086305
+        }
+      }
+    },
+    {
+      "time_s": 7.65,
+      "step": 1530,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00024181970722094237,
+          "maximum": 2.1954860414866157,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00038796246937579544,
+          "maximum": 2.217746941901007,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -320.9507099010259,
+          "maximum": 288.1304897261591,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -324.85311486497756,
+          "maximum": 281.98263781346685,
+          "saturated_cell_fraction": 0.0272247430317622
+        }
+      }
+    },
+    {
+      "time_s": 7.675,
+      "step": 1535,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00024293905992258159,
+          "maximum": 2.218645905674012,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0004280925679327206,
+          "maximum": 2.2305765555947317,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -325.2610778504723,
+          "maximum": 283.95101930708387,
+          "saturated_cell_fraction": 0.027317344198536903
+        },
+        "openfoam_vorticity": {
+          "minimum": -327.13188113654974,
+          "maximum": 279.65763828911855,
+          "saturated_cell_fraction": 0.027456245948698953
+        }
+      }
+    },
+    {
+      "time_s": 7.7,
+      "step": 1540,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00030904403912386004,
+          "maximum": 2.2267496967217535,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0007065501850981988,
+          "maximum": 2.2276475089831718,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -327.10009828811434,
+          "maximum": 282.20134204386534,
+          "saturated_cell_fraction": 0.0272247430317622
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.59818622510903,
+          "maximum": 280.02664671941466,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 7.725,
+      "step": 1545,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00036407842846123366,
+          "maximum": 2.2197027356487458,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 6.478249865236153e-05,
+          "maximum": 2.209385546679911,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -326.038468633562,
+          "maximum": 283.1993877591368,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -323.3445394009009,
+          "maximum": 282.94963393917914,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 7.75,
+      "step": 1550,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00035080138888380437,
+          "maximum": 2.1989177718337207,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005880095838583327,
+          "maximum": 2.179361276365493,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -322.2822956467834,
+          "maximum": 286.7222877375708,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -318.0395010625549,
+          "maximum": 287.7624364597783,
+          "saturated_cell_fraction": 0.027826650615797758
+        }
+      }
+    },
+    {
+      "time_s": 7.775,
+      "step": 1555,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0004384464025524369,
+          "maximum": 2.168486954406325,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006133684986590577,
+          "maximum": 2.159668315785067,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -316.6099621213624,
+          "maximum": 291.9381096853121,
+          "saturated_cell_fraction": 0.02787295119918511
+        },
+        "openfoam_vorticity": {
+          "minimum": -311.8092402560393,
+          "maximum": 293.45285627295556,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 7.8,
+      "step": 1560,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00021267645722356047,
+          "maximum": 2.1731532750478393,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0002273513559765418,
+          "maximum": 2.192400254573255,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -310.2628860533477,
+          "maximum": 297.74432371868966,
+          "saturated_cell_fraction": 0.027687748865635707
+        },
+        "openfoam_vorticity": {
+          "minimum": -306.02644617464296,
+          "maximum": 298.83381329382564,
+          "saturated_cell_fraction": 0.027548847115473656
+        }
+      }
+    },
+    {
+      "time_s": 7.825,
+      "step": 1565,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003903330059378919,
+          "maximum": 2.2044668482114442,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00026330671312058097,
+          "maximum": 2.215279856537767,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -304.64378763459695,
+          "maximum": 302.9507658893044,
+          "saturated_cell_fraction": 0.027641448282248356
+        },
+        "openfoam_vorticity": {
+          "minimum": -301.99135236688,
+          "maximum": 302.77296821322506,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 7.85,
+      "step": 1570,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0001259699577669978,
+          "maximum": 2.2240444195411833,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00019712818317069,
+          "maximum": 2.2234492610685197,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -301.0156324467916,
+          "maximum": 306.4496151630904,
+          "saturated_cell_fraction": 0.027548847115473656
+        },
+        "openfoam_vorticity": {
+          "minimum": -300.6015490465116,
+          "maximum": 304.41932812774814,
+          "saturated_cell_fraction": 0.027409945365311602
+        }
+      }
+    },
+    {
+      "time_s": 7.875,
+      "step": 1575,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.0003728499404561102,
+          "maximum": 2.2280059064628137,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 9.225495190653179e-05,
+          "maximum": 2.2150105688812154,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -300.1483557805765,
+          "maximum": 307.4845231849654,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -302.1200872456513,
+          "maximum": 303.3938564085714,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 7.9,
+      "step": 1580,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00026543713109824265,
+          "maximum": 2.215273257054683,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00044423492228149396,
+          "maximum": 2.1914427871202147,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -302.1985617773727,
+          "maximum": 305.82892246516207,
+          "saturated_cell_fraction": 0.027595147698861004
+        },
+        "openfoam_vorticity": {
+          "minimum": -306.16717067240296,
+          "maximum": 299.882149184214,
+          "saturated_cell_fraction": 0.02773404944902306
+        }
+      }
+    },
+    {
+      "time_s": 7.925,
+      "step": 1585,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00016111392733751746,
+          "maximum": 2.1880976863820623,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0006036033984456964,
+          "maximum": 2.157473993236672,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -306.66952064810226,
+          "maximum": 301.7681778100806,
+          "saturated_cell_fraction": 0.02778035003241041
+        },
+        "openfoam_vorticity": {
+          "minimum": -311.8629903697939,
+          "maximum": 294.61295439482967,
+          "saturated_cell_fraction": 0.027687748865635707
+        }
+      }
+    },
+    {
+      "time_s": 7.95,
+      "step": 1590,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00032926251327744586,
+          "maximum": 2.1518495710646204,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0005615088294071193,
+          "maximum": 2.1792139326276057,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -312.618873763822,
+          "maximum": 296.156197014977,
+          "saturated_cell_fraction": 0.027502546532086305
+        },
+        "openfoam_vorticity": {
+          "minimum": -317.9950491522817,
+          "maximum": 288.73156284821135,
+          "saturated_cell_fraction": 0.027595147698861004
+        }
+      }
+    },
+    {
+      "time_s": 7.975,
+      "step": 1595,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00016765899200407735,
+          "maximum": 2.18339236917126,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.0003696820653399115,
+          "maximum": 2.20884280900241,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -318.796992597639,
+          "maximum": 290.22400478676093,
+          "saturated_cell_fraction": 0.027409945365311602
+        },
+        "openfoam_vorticity": {
+          "minimum": -323.26706756270386,
+          "maximum": 283.5601967062118,
+          "saturated_cell_fraction": 0.027317344198536903
+        }
+      }
+    },
+    {
+      "time_s": 8.0,
+      "step": 1600,
+      "fields": {
+        "fluent_speed": {
+          "minimum": 0.00040718748854098256,
+          "maximum": 2.2112900545918843,
+          "saturated_cell_fraction": 0.0
+        },
+        "openfoam_speed": {
+          "minimum": 0.00012737347539101484,
+          "maximum": 2.2273090637179425,
+          "saturated_cell_fraction": 0.0
+        },
+        "fluent_vorticity": {
+          "minimum": -323.84757924001815,
+          "maximum": 285.3169574635003,
+          "saturated_cell_fraction": 0.027363644781924254
+        },
+        "openfoam_vorticity": {
+          "minimum": -326.55441550263646,
+          "maximum": 280.266560436938,
+          "saturated_cell_fraction": 0.02727104361514955
+        }
+      }
+    }
+  ],
+  "plot": {
+    "times_s": [
+      4.0,
+      4.025,
+      4.05,
+      4.075,
+      4.1,
+      4.125,
+      4.15,
+      4.175,
+      4.2,
+      4.225,
+      4.25,
+      4.275,
+      4.3,
+      4.325,
+      4.35,
+      4.375,
+      4.4,
+      4.425,
+      4.45,
+      4.475,
+      4.5,
+      4.525,
+      4.55,
+      4.575,
+      4.6,
+      4.625,
+      4.65,
+      4.675,
+      4.7,
+      4.725,
+      4.75,
+      4.775,
+      4.8,
+      4.825,
+      4.85,
+      4.875,
+      4.9,
+      4.925,
+      4.95,
+      4.975,
+      5.0,
+      5.025,
+      5.05,
+      5.075,
+      5.1,
+      5.125,
+      5.15,
+      5.175,
+      5.2,
+      5.225,
+      5.25,
+      5.275,
+      5.3,
+      5.325,
+      5.35,
+      5.375,
+      5.4,
+      5.425,
+      5.45,
+      5.475,
+      5.5,
+      5.525,
+      5.55,
+      5.575,
+      5.6,
+      5.625,
+      5.65,
+      5.675,
+      5.7,
+      5.725,
+      5.75,
+      5.775,
+      5.8,
+      5.825,
+      5.85,
+      5.875,
+      5.9,
+      5.925,
+      5.95,
+      5.975,
+      6.0,
+      6.025,
+      6.05,
+      6.075,
+      6.1,
+      6.125,
+      6.15,
+      6.175,
+      6.2,
+      6.225,
+      6.25,
+      6.275,
+      6.3,
+      6.325,
+      6.35,
+      6.375,
+      6.4,
+      6.425,
+      6.45,
+      6.475,
+      6.5,
+      6.525,
+      6.55,
+      6.575,
+      6.6,
+      6.625,
+      6.65,
+      6.675,
+      6.7,
+      6.725,
+      6.75,
+      6.775,
+      6.8,
+      6.825,
+      6.85,
+      6.875,
+      6.9,
+      6.925,
+      6.95,
+      6.975,
+      7.0,
+      7.025,
+      7.05,
+      7.075,
+      7.1,
+      7.125,
+      7.15,
+      7.175,
+      7.2,
+      7.225,
+      7.25,
+      7.275,
+      7.3,
+      7.325,
+      7.35,
+      7.375,
+      7.4,
+      7.425,
+      7.45,
+      7.475,
+      7.5,
+      7.525,
+      7.55,
+      7.575,
+      7.6,
+      7.625,
+      7.65,
+      7.675,
+      7.7,
+      7.725,
+      7.75,
+      7.775,
+      7.8,
+      7.825,
+      7.85,
+      7.875,
+      7.9,
+      7.925,
+      7.95,
+      7.975,
+      8.0
+    ],
+    "speed_scale": [
+      0,
+      3
+    ],
+    "vorticity_scale": [
+      -60,
+      60
+    ],
+    "native_topology": true,
+    "physical_validation": false
+  },
+  "rendering": {
+    "frames": 161,
+    "frame_duration_ms": 50,
+    "native_state_spacing_s": 0.025,
+    "no_generated_intermediate_states": true
+  },
+  "rendered_png_sha256": {
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-000.png": "e76b8ad389f144878f2e55db5f9e7dadaa96e99daf35d3e11a0aaf1341cd3f85",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-001.png": "f98295f6822714b787e306082cf0dd33926d36a9511c44de5af11771e7c022fd",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-002.png": "0a033f6e14520f99e3f0e563c582bfb78e49d84deb5e0eb50a96579af164521b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-003.png": "9e1a338dbcd0833b3a4af04e586419874e204addacaa8395be7b812d7d394da5",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-004.png": "99bcc6c7ecb401f03e205acb16c605fdd45fe98f87fbadb334528426f59db419",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-005.png": "e39c883e2365bb61a646035e39ae9043570a02d20092a75d90d060d571d61c86",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-006.png": "61575cc72b4835c8cd53c57dfe5c5fcb136be4d907ab5838127b389583bff37d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-007.png": "c464dbedec02cd1f1576f7c1c1660ec358d77aa67efc7f7c8c03b1df673174d3",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-008.png": "ce0f55ab20907fc45c77e7e72cb960df3aeb6cbe107b6b1dc7323491be90a1e4",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-009.png": "60832673518a5aa1cedc020d885db1f8f8ca5aec954b2f9d2793b7d2de6f05d7",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-010.png": "234cb0cf22ce777afabdc2cdc4d6626482753229bac4fcc0165801fadc822c67",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-011.png": "4fea7ca59746b2be20bacf072470b99e2d0c71751670c39aa610bdbb1b37f8eb",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-012.png": "07545caecb9f829b53b340f27bddcd0ac87dbfd4e6c9bad78cbcf756f6e7ddc6",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-013.png": "7959d70df09f18599ef513cfc5bab827b4b1cd385b9fe22b8ce6bacf95204f7d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-014.png": "7db51e8405c2311d9c14e288755cff0533b3e4657e0557622759269292625cc6",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-015.png": "87658cfebdd7f72f32fd8fbead16b2bed58e0dfb092d19694b4a9204d580b5c1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-016.png": "934b40eb50355814f88214787036f59849d97024c0d7780b40bcdcb5cbb3a247",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-017.png": "f6c0bb66ffe3e15443483f8f18f73e3050a7d4ef0721de0f9cb009caf52047df",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-018.png": "5d06689da47b2de30824188a826b41edfd868dfc7e965221b24e6436e63d94b0",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-019.png": "70bef25a5eb7829c7ba1254a1e3f0bec7a8ff64ab7268475eab47867517bad12",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-020.png": "34947a1f2736c96e51408bb69c6ff9659c747d7b2f2ec2b24d6e07223e059556",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-021.png": "7c4787b0be83faaca03e63afe9fd1bfaa31ffabfd8cea31aa3d431ec0e5ed4fe",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-022.png": "442dc1b3df4a7637de97474b66008ffe16a94f34b45617462ed4eacf2b03a1b4",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-023.png": "27528a548780d0b5bb3a6fe976fcd362956eabce91d0e04ab9486b2ae8420063",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-024.png": "00986992b75be07177e31f5957b1db9c5621adf0a9cc30103cee9c037f62a98f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-025.png": "90e4cbb60ea85a3c5995a2378e20aedda1087ebfc7258d41bc4991cdf5d4d846",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-026.png": "9b7c3176dc99a775e2d7b2c55b3ead4dfde6fa3b120f650df9018c9c5d94d5c4",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-027.png": "269e71c56e31b7c20aa4d319613b2386e4f049fc1cbc2dc811b14fef598afe18",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-028.png": "dec31c55e3bc22ea995667ccb54959042634d7b4d0a2ac058afd125358df24ed",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-029.png": "b6f75ff8e6dca67645a7cbc9ff154c8c67979b9daaa5097ac293fd9d6acbb639",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-030.png": "cda80d3ff5c3c73ec3307870002c14d2c03ea971786f9c2e8532b60538a317d4",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-031.png": "4a4e3ee1c8c380899d7ed96e0ca9112171d848c3f1c0489fb00b0dd16db86fe5",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-032.png": "09f39c6f84d4cc14dcf477c0b765929a73c1ea72e9eadbd6f06f5e1badd04b6c",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-033.png": "263330816fa7f44e820ff19de32bd6b2a7be7aab3c8054412d9c149effd783e6",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-034.png": "4f54fbe424d51a4eae7f67c3c4c544c9baaf60929d1a3faee9a27f6b79fdaf93",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-035.png": "90606abd8a967f26eb230ed9fb001db1e0274665e3598acea7a7ed7772b6636b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-036.png": "d0e4858b200018d6f44642c06200e7b6f849ac687b736ac418ac9bd12c29765f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-037.png": "8395e6614f174052e7f7a33aceb63108e76cad898a9df6bbe27b0d3f1e040dab",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-038.png": "391cd6e139d56a4cc13c6fad981319b1340bc4e1829544ac6ef0bb9a3afe710d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-039.png": "5e64468cda7f969bed3f88964928386600c74546ce0265aefe230c4639755756",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-040.png": "50c838a3f284736267bbe3d1e89474251f1af73804392edef4cb9a1343d41f61",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-041.png": "490be194ecef463bee47459d1f5029b0b91c9911fd8caac4d2836160cf04928d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-042.png": "2e3867614ec32694e031e8be07c2d0314c3f3d8c7ea4ff7386ff6f3309cdbffd",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-043.png": "e8358e1e9612bf388f40a056f5b1862e5e814c75ece7af9b9c6c183b6993a933",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-044.png": "53c434694cd7645927a24c14d89a126689ce9b880598f246ef9bc4c161c7694d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-045.png": "181d10460cbd03d7f2498f60ff6bce27793a4ebab18a46cfbfcc7ff706d08f7d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-046.png": "66b525e2c2f6319b818da45f7610fc764e9851c976622ca4e6c51b6c5baf7aa0",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-047.png": "ce96098a358f55fa13a7419adec01ccf43a69b1f3c0f856d30f75e220c1e148c",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-048.png": "a5742aa6ac5faead26949f8e2386e02bac8aacfc044ac6e19ec6769bc4e7d175",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-049.png": "495a7b518ca8ef3a2c55069256de29475b9527ab44cef1ea33ad902f843595f9",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-050.png": "799f2fe5bf2853ac4538876fffe1eb95b7d1aef51066867551383a4975f7d219",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-051.png": "d954084889d502150d99b86cbb8d2069a8e017cdd9f9b1b793cf5ebe46af3c08",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-052.png": "e48a678efeae209981581fc4c19ef410527c80f32eefaeebbdb84e089ec6c18b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-053.png": "a622803e71b07f90758185f60a82a2bc35eb240d5c8a27c3248093ac79f53d1a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-054.png": "0465f047300bfdb3a6e698269cea42ed3ad2d39e74bdebaab232dbdefda3e548",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-055.png": "52cde881f18798d0b0d7c017985f0992e004dd228c041332d726576e0fb2addd",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-056.png": "b24570f56a57a83ce0730054d97ca3c2565b9d28adf9ed0e7ce3886489bdcd27",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-057.png": "8c1f52d2c63553ef01b0ab8a2c48bbb529e488fa10947b3517461ec937fe9e48",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-058.png": "9c6bae050292e806c0d8530a7bdb754796f6f9dc31d3de20936926338ee52d63",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-059.png": "c1d5e21fcf4231d1a76c4675ff32cbd0c1ed66b71b7f0a6560413ade86b50570",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-060.png": "8e4391eab416d3408091c8072368d4cd10280ceda8d74f1f9874be9602211ddc",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-061.png": "9ba21ceaf609f95711f17f2c742c0ef0c0915ba430056ca88d4b97c1db754c62",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-062.png": "580a7358622361e6f6193a944b4783163f0e1c977786530b9a0550104f1c070e",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-063.png": "9c5eccbe3aac29ea1b16440e3165f7434ebe8626bab529910f8e15ec23eb846f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-064.png": "1b25a335fd361cb51bf8a4f216e665f9f506e066ad2d85bbb9e8db51a531ec49",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-065.png": "fa1cb4799379fa6087df5b4c21dac5ba731932be9b8da239c1b0482a9a67b1f9",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-066.png": "59343cdfddee80a7c16dd220b0c42e878ce7878204ef8bfa861290b457a10cb1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-067.png": "16e530d6619dcc4e4d1df5fe4c5ff1ca54a925d28c19accafbf3a4ad3842c8d1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-068.png": "433ded343e5c09082438818d28de8431ac4909be515cc936eef04ac9276d8de9",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-069.png": "de4ef17cbf062c68378747568c9d9c81096e11d7063c2c4dd129283598a00d82",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-070.png": "f7ba78a2db692a9c44c34f52025ef97f2331d661978fc9a34abeeb67c3582d3e",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-071.png": "3a82418dd2076ea27ac00b7b9a4445797c1beae83e8263fa1c7d3711c61028c6",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-072.png": "3767f29bd61036f06278f79dbccd79368c89a87dd19ddd748ceb2cd2212658b2",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-073.png": "0766d3d285f49a855a8480c14d4e67a894b5025ba461cbce265ec2adcfb3ea1b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-074.png": "d4b2e2bcb59934804f32d538dff3c5aafc2b4488a9f56c49016b1a507f3b12d0",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-075.png": "1a083a5a096e9bc79a03ba9a9b23361eff5a5b37ba9e2c2ae214c4c6dffdbef8",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-076.png": "be87bf586494e113ded8bd6813032bfad32462674bc7de2e160a9422fa7981b8",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-077.png": "a603eb16dc2c8d99b034f484c2af2613dd124b786ba7335f893d8066136e5753",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-078.png": "1182dddc6b7da32b5fdc26bd01833e4365047aeae4b1cc1595303db8a53d51a5",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-079.png": "c4c2384c28f040fb627c0d0df30ab9133a55fdd6f05bd5755347fadad0ab5e71",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-080.png": "ac1826a022765fb949f75ee5471f3b1a5ba804eac1b7661f9f0eed80a86c9c5f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-081.png": "970853b404184264a26bce539f91b46b01bdf956593d3d52d79874d1da48661a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-082.png": "19c65d708965d283ae4954148850f436aff07365b78f8c5164f5ad4c6cb56fe4",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-083.png": "a8740c4f2d9025b303739da89f7bd4ee279010a99d82cf2cab52f5489d0dce49",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-084.png": "ae92f245db1f7aef8c24db47e5a53408d78906c238b66cbb4f02486a0c2ca058",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-085.png": "5d4f038e8cd9aae726abb0f540140a2555c5598f3d624bbead1d7f51017bef28",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-086.png": "7716d299d140b6b12cb87e527301034b9c914b6195470ee6a476a4bbedeaa0cf",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-087.png": "a1c7b7f2dd306bd806f669981d63b9af7ca8853674e8b23ae28a03a3cca2d67e",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-088.png": "44234e50dc39f777a35a4845f6aef9144f322c0d40386c619fb4ab82782ed628",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-089.png": "90914c67da38059f6972de201ace7622efb75f8ded0ce21b3401f9b1d822759e",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-090.png": "a05818bede36343511ca26fcce0d2513fb98a90406e28085b8b94d529c3e5a7a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-091.png": "1d1ee04f4094b807ec7710f744b9324e0a42a047617fbec81e50dd8743831adb",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-092.png": "064770d38770373b12de7bd59be8a084a9d739c6fc75a72baf10c8cf14faf72f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-093.png": "1a8f6d3acdf03667576b9749b40eb6badb3e2897845346339094eefda2823efa",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-094.png": "704dbd2c91e3242a5515083df52f86d3b6b67f3d0e0c16350d0f5732b22c8a2a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-095.png": "8488ac50a43b347b4d73ff538668dc13ca0479e2fc0540410e1cd3eaf559021d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-096.png": "ad1137c824350092a8186f703caf22be291a72a2c09b72c2ea93602c1ce84ff4",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-097.png": "0b291ac74dd047ebb2cec2dc0ea1bd9a977cd133c41176b023ddb476739e11e8",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-098.png": "ccda143e4d7ae647c731341da0c3b5a14632ac2625aadf7cb241e9ea2288533b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-099.png": "9871320beb301eded8157d694f8b3b0d8862b729e8569af06c5a2247fa611512",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-100.png": "826cfed6a8007fc3b791cc4cf46776f830c050da1370e6101b9b08bcdd4698de",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-101.png": "0d5654bd24a98183835057f6cda77e98a9b76c0c8ce63bd5153226cad29aa42b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-102.png": "c0354c5479e61f7563ba13ac86dacae730854b85a6f42235a5c1a717076bc416",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-103.png": "c955bbfa1407776e691baf10adc3987f9c729c0a2589ec1937a488d15f57d7d6",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-104.png": "853440c66bfeb073af5f4d90f59cc1d1720e48eeb7ad7ae4b2633a09acbb832f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-105.png": "45024eb39a8f7408ce11fa86a2eedb2b8cd5ad4877ad4849f563308821bfc09a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-106.png": "29b9517efd0bf064c48b0a6467fe4166fd4db3ab10aacfa50b2711af5dac349d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-107.png": "54d336ecd6ff7f4c56dfdd16de3d640f12fb8af253fe4737bf4bbbbbb4c73c37",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-108.png": "f536271fba7e9182310c863efed12637f39c5788d2ecf81f94bb9ff0a70cf0da",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-109.png": "7e2aa39c3696734bf14f832e9382630a98efb0c28c2099c5d581f6177fbdfb74",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-110.png": "8722f6d64b584a53c4d123193f41a830a46d750cbb13945d7ed66f7706667007",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-111.png": "2415d00d7389392f5a93772933e6f4ed215ce261381c10d8c575bd89b74b8107",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-112.png": "82109e2a8d7f58e1b7f26320e6317f88d3833e8618c5ada5b10c2bcf85d2c88d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-113.png": "32d99f5138fb396942b531ea8de9513e8d43304a2195ffdc7d45010ba88bf438",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-114.png": "78fbb953ab491965bbfd3eff41e9db4f956715ef32ff6a3eb41d4c928e59d38f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-115.png": "af90c471a37111d43dfd67662ced6faf1129a03f7a85d61872f9e252c4f21a79",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-116.png": "a2c516d94cf94d0b3c68cfd6eac1cb6de6392185f6c4e3cbe9e2280474508310",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-117.png": "20313f32d6f5cad72d5f552f8740aee19be304e0f345f4f2f94fd783e12ac09c",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-118.png": "6b2912d988c2de64784ea81f24e773d15c9243d5138c74b3864e5ebead3f2b8a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-119.png": "6b0a98945767099e857b8240cef008de80d27916e0add1a2db702d4a95da0594",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-120.png": "e2e03ee82ceb59e1d0303fe4eb70ad210d3a5ebae867ab595db2cc2ffd0dba7c",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-121.png": "91ee687d056e321a3b1910f3cd97ba868ef979c3d6bf79be971658ec3acbd41a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-122.png": "75ebe937c33ea2f1cd706c7cf28ad19fd434308b33178d17896a0e0cbdf3fb42",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-123.png": "9abf218f8d9cd978226d32c8adc638615dd10a2026051765078ded708de6e01c",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-124.png": "ebe3a56dff092cb45b5fcb3bd70980534a63fdda3b741544ee153c3f92118d17",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-125.png": "692e03c8d3921d770b2e42f36efc2e94f22584e21fba83952d45743eaf83f98b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-126.png": "340fb83a7faef1e8c2c20ea024b859e8ac47ae230de40a3a3a50ae312c389de1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-127.png": "e5007a5fb7956a0628066e2379338eb438ba310bb7338668673426c73a4af577",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-128.png": "418bd763915e4f2eb69c0070f0b3331caee8f7fef808f5116ba1e91bb573c2a6",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-129.png": "20e4e6178db64152ad194e8f4c511f1cacf433007eba850be933c802651810ea",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-130.png": "6516353b283221dc9ee0c63150cc7a70fd1c1af63b11d127607df856b0bae4c1",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-131.png": "11882340e2dc2a4f77b6677914ff62cf8e50f0c6ec70daaf8b816181791ae343",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-132.png": "2cf646759d9f7df728957df88715d61b30de63d9599a9f34f0146c0c3ca3c18a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-133.png": "83ddf039754029c7ef12d62bbcfdff6cbded244fa880f3f7d9a509935d1b8210",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-134.png": "95861a03aa650faaf6f810d394cdd4cc82f0a52ef6c7444b46b15a7dfc3ba7f3",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-135.png": "e1e16a353c6bd24075c9db443771b58d527a19a5dee0d66a301580c56708a495",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-136.png": "c6b82cd139e637f6a20bbd4bd6dce687f65c5ff249cba3d23b9e409fc1c0fbe4",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-137.png": "286de9ab66dab6bc1aa0b2485ae2dc854117b53acc233672e91198ab195f1359",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-138.png": "d20c1f51e0c17d22137c8745193070ee9b1ad8753143dd101f0e067350615d22",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-139.png": "a68e2dc6444f1aab6968755bf2edabe5c73ffe1d29c99aa354c1bbb822da75e2",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-140.png": "458e86485c1d74dc543cc380772cfd06619127e3c2f2359bedad5a1743b97dc9",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-141.png": "e40465eccd568120920651933354ff38f952460e5d0667b97dc3a8021fef16ee",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-142.png": "5d855558006bc46b20d6edbdc06136f7361c1992369d111c5081005a55c78008",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-143.png": "4e713466e99d135b8eda9e2c93c298f5dd4167fab3d83327d58c5749b2afa27b",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-144.png": "8ed2538b031eaaa2228b8bc7f4373bdc8bc8b86859012be7c17b7d10315d40a7",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-145.png": "a2fc7f7db2632d352ace5399a34a3b874574de95b4510c47fe65776ca8361545",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-146.png": "b7029fc0fbc7f109e033b04c7203e7c69475189b94d37c6ce2efba72bfc5ac02",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-147.png": "bb912b8b850512c1bbe064eea7a23d14c72011738193a73cb0e35150f3f3701d",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-148.png": "8e12ebc1ddbef4a1ee9bca38385e2cf5536779aa1f13fb61054b7c3476ce6b4a",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-149.png": "0baf9abea091541965b3569167936027cb20b026f635c4a45bd10c9cd080b1d2",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-150.png": "65887f47c7507b78ffaa62e96c6d9fb209c207e84f1bb19f4627a0a57734fa57",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-151.png": "0636750f534acfa525661544111feef4eb6ac1b923cb4a3e560685e5494242bb",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-152.png": "4183bcfda6931b7fe63d9d25294277a2d3ddd569ab0959d66bb6c16113331664",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-153.png": "fecfc6ffc679de407f2de852bc58743ed16db61ecd9a3c3ef0e18e3523316785",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-154.png": "ed386eff0f6ee125daf64994c0087005f668ba0fccb1c52c2c15f53afc6ede88",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-155.png": "b1482088e8a93faf2605040cc219f3b4b689ded5f495ec94dd32eb3234de4d64",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-156.png": "e7d5ebe717d7efc894d34ae660660df7005a4cb71a7b3bc6092f54fb67b221c0",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-157.png": "02d2597bd03f9e794ac70b2c26b8b082ab658502fa37659b27ccd2a488ae7d87",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-158.png": "109b0c58ef7350b3800eea89caf037058c09b3f4379db2b4e751ae6ecbc290c8",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-159.png": "d4fa831eb5705a0f20d6e089d5150f0ffdc0fd20f17316f9de4abb528baf971f",
+    "E:\\CFD-Learning-Lab\\exports\\figures\\2026-11-08-cylinder-developed-paired-v001\\frame-160.png": "6fd49f750fee870ce97414579d23c12e790a2e31357c1fcf9aec3061cef4859e"
+  },
+  "source_sha256": "7bdfc871b675a2acc4cf48f4169f789c07e20039f8b5a836e4493556cb6e1f07"
+}

@@ -1,0 +1,9 @@
+from pathlib import Path
+import datetime,hashlib,json
+import h5py
+S=Path('E:/CFD-Learning-Lab/local/showcase-improvements-2026-11-08-v001/cylinder-convergence-v001');p=S/'cycle-development-protocol-v001.json';assert not p.exists()
+record=dict(declared_at=datetime.datetime.now().astimezone().isoformat(),declared_before_completed_eight_second_interval=True,threshold=.005,last_complete_cycles=6,measures=['period relative range','native-sampled lift peak-to-peak relative range','cycle-time-mean Cd relative range'],meaning='Observed stability under this declared half-percent range/mean criterion; not exact periodicity, discretization independence, matched benchmark acceptance or experimental validation.',force_boundary_interpolation_only='Rising lift crossings and trapezoidal Cd cycle boundaries use linear interpolation between actual force samples. Field/video interpolation is prohibited.',source_sha256={str(S/n):hashlib.sha256((S/n).read_bytes()).hexdigest() for n in ['cylinder_cycle_metrics_v001.py','test_cylinder_cycle_metrics_v001.py','cycle-metrics-green-v001.log']})
+p.write_text(json.dumps(record,indent=2)+'\n')
+with (S/'progress.md').open('a') as f:f.write('\nCycleanalysisprotocoldeclaredbeforefull8scompletion: lastsixcompletecycles period/native-sampledClpeak-to-peak/time-meanCd range/mean<=0.5%, diagnosticstabilitycriteriononly. Crossingandcycle-boundaryforceinterpolationexplicit; nofield/video interpolation. Independentknownsinusoidperiod/mean,growingamplitude,duplicateclock,insufficientcyclesREDthenGREEN4/4. No actual8smetricsyetclaimed.\n')
+with h5py.File('E:/CFD-Learning-Lab/native/runs/showcase-cylinder-convergence-v001/fluent-coupled-window-v001/vortex-final.dat.h5') as h:
+ print('phase1 groups:',list(h['results/1/phase-1'].keys()));print('face fields:',list(h['results/1/phase-1/faces'].keys()) if 'results/1/phase-1/faces' in h else 'none')

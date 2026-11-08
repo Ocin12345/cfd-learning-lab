@@ -1,0 +1,43 @@
+{
+  "level": 1,
+  "source_mesh": "E:\\CFD-Learning-Lab\\native\\runs\\2026-11-06-airfoil-incidence-paired-v001\\mesh-alpha5\\airfoil.msh",
+  "source_sha256": "38055761ef583799c1db292ff889e403c824e4836d52d287add0f5e3e3535bbc",
+  "old_nodes_bit_identical": true,
+  "outer_edges_and_tags_identical": true,
+  "original_polygon_preserved_by_collinear_midpoints": true,
+  "conforming": true,
+  "affected_base_cells": 3378,
+  "unchanged_base_cells": 106222,
+  "maximum_affected_original_vertex_distance_from_TE_m": 0.08916984527455445,
+  "TE_vertex_m": [
+    0.99809734904587,
+    -0.043577871373809
+  ],
+  "area_before": 1256.500220344417,
+  "area_after": 1256.500220344417,
+  "minimum_shape_quality": 0.5312977520931105,
+  "native_orthogonal_quality_not_yet_measured": true,
+  "screening_quality": 0.32500173936143967,
+  "quality_closure_history": [
+    {
+      "pass_index": 0,
+      "marked_cells": 3298,
+      "minimum_screening_quality": 0.11500853073635547,
+      "bad_children": 1,
+      "affected_extent": 0.08916984527455445
+    },
+    {
+      "pass_index": 1,
+      "marked_cells": 3299,
+      "minimum_screening_quality": 0.32500173936143967,
+      "bad_children": 0,
+      "affected_extent": 0.08916984527455445
+    }
+  ],
+  "zone_face_counts": {
+    "3": 178945,
+    "4": 466,
+    "5": 192,
+    "6": 192
+  }
+}
