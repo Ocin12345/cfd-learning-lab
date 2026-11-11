@@ -1,0 +1,27 @@
+{
+  "study": 43,
+  "radius_m": 0.005,
+  "viscosity_m2_s": 0.0001,
+  "results": [
+    {
+      "cells": 40,
+      "maximum_profile_rms_over_exact_peak": 0.0003124999999997997,
+      "maximum_relative_flow_error": 0.0006249999999998757,
+      "maximum_relative_wall_shear_error": 8.881784197001252e-16,
+      "maximum_steady_equation_residual_m_s2": 3.637090628672013e-13,
+      "maximum_acceleration_m_s2": 1.6,
+      "flow_at_maximum_acceleration_m3_s": 3.929445186247857e-06,
+      "exact_flow_at_maximum_acceleration_m3_s": 3.926990816987241e-06
+    },
+    {
+      "cells": 80,
+      "maximum_profile_rms_over_exact_peak": 7.81249999963405e-05,
+      "maximum_relative_flow_error": 0.0001562499999929745,
+      "maximum_relative_wall_shear_error": 8.215650382226158e-15,
+      "maximum_steady_equation_residual_m_s2": 1.4552803406786552e-12,
+      "maximum_acceleration_m_s2": 1.6,
+      "flow_at_maximum_acceleration_m3_s": 3.9276044093023676e-06,
+      "exact_flow_at_maximum_acceleration_m3_s": 3.926990816987241e-06
+    }
+  ]
+}
