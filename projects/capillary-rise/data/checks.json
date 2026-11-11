@@ -1,0 +1,138 @@
+{
+  "cells": 8000,
+  "native_steps": 51310,
+  "accepted_saved_states": 10,
+  "gravity_m_s2": 10.0,
+  "equilibrium_scale_m": 0.010009998951305204,
+  "max_logged_bulk_courant": 0.477906,
+  "max_logged_interface_courant": 0.477906,
+  "samples": [
+    {
+      "time_s": 0.05,
+      "native_step": 5517,
+      "equivalent_water_height_m": 0.008930701351824919,
+      "central_alpha_half_height_m": 0.008865205110391173,
+      "alpha_min": -1.51115e-33,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.1,
+      "native_step": 10812,
+      "equivalent_water_height_m": 0.009730543678297668,
+      "central_alpha_half_height_m": 0.009668471003102091,
+      "alpha_min": -6.52036e-34,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.15,
+      "native_step": 15334,
+      "equivalent_water_height_m": 0.009743970343040486,
+      "central_alpha_half_height_m": 0.009688118303207588,
+      "alpha_min": -5.87989e-34,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.2,
+      "native_step": 20613,
+      "equivalent_water_height_m": 0.009026259051261335,
+      "central_alpha_half_height_m": 0.00895841426406709,
+      "alpha_min": -1.14624e-34,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.25,
+      "native_step": 25582,
+      "equivalent_water_height_m": 0.008748059163565898,
+      "central_alpha_half_height_m": 0.008690901510517242,
+      "alpha_min": -2.47886e-35,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.3,
+      "native_step": 30718,
+      "equivalent_water_height_m": 0.009378902695940413,
+      "central_alpha_half_height_m": 0.009314487795901799,
+      "alpha_min": -9.51623e-36,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.35,
+      "native_step": 35608,
+      "equivalent_water_height_m": 0.009718238865754703,
+      "central_alpha_half_height_m": 0.009653706863939272,
+      "alpha_min": -7.9006e-36,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.4,
+      "native_step": 40792,
+      "equivalent_water_height_m": 0.009322089661844958,
+      "central_alpha_half_height_m": 0.009256599496878383,
+      "alpha_min": -6.76502e-36,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.45,
+      "native_step": 46013,
+      "equivalent_water_height_m": 0.008764762662419606,
+      "central_alpha_half_height_m": 0.008701347578268293,
+      "alpha_min": -3.92366e-36,
+      "alpha_max": 1.0
+    },
+    {
+      "time_s": 0.5,
+      "native_step": 51310,
+      "equivalent_water_height_m": 0.009171965140274586,
+      "central_alpha_half_height_m": 0.009105971450199726,
+      "alpha_min": -2.33015e-36,
+      "alpha_max": 1.0
+    }
+  ],
+  "native_sha256": {
+    "input-sha256.txt": "56b01f9807091620ea3d53e54b92349a7e577aa3727f3b043732eb300635d6cf",
+    "solver.log": "24ff45b0d0c72a36a2cdb32cf3be9e17483efc1063dec4283e6df9385e93f9d0",
+    "check-mesh.log": "2e8a8daaac109e08b604327eb138919cbefe7107039162ebb4c154f5180d8588",
+    "0/C": "65a53bcfc1e96844bbbfaf74eab88479a0036d39fdaff631523919c5c9b221a3",
+    "constant/g": "5a6cfefa30fbc9cf3207399c27d3a8437e9bede77894b40dee4161a7ccf549fb",
+    "0.05/uniform/time": "40a7943d65bf91ef4738fa4f98d6c9f6c8eace9769446ae016d715b44a62ee5b",
+    "0.05/alpha.water": "c2af3ed7836a7e1816dc61a1450e7628eea615ab62dd09296a4c42fe982cc8f7",
+    "0.05/U": "25df53e2377d042d3d466dd208d21332c7fe1b4d68f97da1c7113481fdcdb54f",
+    "0.05/p_rgh": "da9f834c665b033c79ccda0d563f1eedf5c9c4643af30439e35fccd1a74265ff",
+    "0.1/uniform/time": "f59c363a7bb703bc18fc25273fd3ae7281835da2dfb62379e3147ca548d9af15",
+    "0.1/alpha.water": "545128ad401ff8e012f1aba26bb2a38d346f316e140cbd2bc9cf53b5083324f4",
+    "0.1/U": "967c5cdde9b358f027aee2be143ecce19fd9316652baf5633c96e415e2e11754",
+    "0.1/p_rgh": "acb6650d498d01971f3af6855c8a77937633cadef5c0c28e8e1f103e30b717b3",
+    "0.15/uniform/time": "1d54bb41d412542112cd2c149cc2c369cd365c0bb1e90406e5447dea5cdce6a3",
+    "0.15/alpha.water": "4d6b0868eca88ab7140d14c96cfe02dcab635cbded2f1acc1044312304b2a357",
+    "0.15/U": "5849ce5f5ea343a7184140b1b00e2caddac3340619ed13d7e3b04176de67b507",
+    "0.15/p_rgh": "5a65fc8f28ae6c231321d6278e3a67b8d37dabac73cab54e649d80c751d994ac",
+    "0.2/uniform/time": "e35c1da59d631bc8a9ed2882366bb5822926dbdce62846f1956bb49241ce1f76",
+    "0.2/alpha.water": "8fbb6bc425d0dbd3c464b567b56283c63e26e222f2ef1b2974ab8125b5e3f83b",
+    "0.2/U": "dbecb0349553d78e7c370200e33fab5c4d5030e3d98e9a9f655bd6d656e0cc39",
+    "0.2/p_rgh": "cc40c0fac9d41946af38f352c05f70054e6854b9a6967548ac9ef24eb5c224c2",
+    "0.25/uniform/time": "dc76b1ac843d32958ddbdf862aba98ea23e2e9a1ca8be4f28d4f4c6cccfa9b27",
+    "0.25/alpha.water": "9cb3afb2631d3b7802767f37f70b5ba411a9c12cd355703f0c337ee908632f6e",
+    "0.25/U": "9629bd4cfbb27c37efd3d637d714fa109881ac2b1c57b6d01be3e0701ef59243",
+    "0.25/p_rgh": "4b8f4dff46768f03b090251ffacba857984bf0f16d59d9e6c5105e2160d76c83",
+    "0.3/uniform/time": "14d5cae0b55b84c0fc84e7673251e6ad8faa43588c96626c39a6cfdbc5339157",
+    "0.3/alpha.water": "8d8668989fbe90772d237e3206ea485c236921e523121ebda73c0f9caf98a132",
+    "0.3/U": "5069192f8c096a76dc82f2de7e0d431413c091e350a8a829a47d89acb0930649",
+    "0.3/p_rgh": "95b1bcc2ed2b6debe751fdf8657efe46859bdd3cb36d011f1210241387aadbed",
+    "0.35/uniform/time": "9bb290b5544c82f8cc9622555aa8ca7f256160efe9aade356f34d6a6ccd246e4",
+    "0.35/alpha.water": "daa463470e3453296eee7861b0c6cff07a250e428f28fbd4a2900384edce7428",
+    "0.35/U": "e3faa7f97f08621176bf5e5a799c925537d353714de893da1392fabb2fcd3664",
+    "0.35/p_rgh": "ac8d46ccba1876d550bf18740906a86429983b7a017742af0047c3a9793f57a7",
+    "0.4/uniform/time": "0a719e0509bbbde7851f0524a026a07edc089e6b6c16486cf0a0025c1af414be",
+    "0.4/alpha.water": "48c9fca2c9065ee300e1718e70d490acfc97cc9d020da5ff59e1966c32176e03",
+    "0.4/U": "1f9efd0b4375cdd57527689a72593143b30a3ae33b1369905933b871a2229ee4",
+    "0.4/p_rgh": "208399f81881fe842592d458b92ccae9c6a20f9c053747a230b2cbfbce9d9216",
+    "0.45/uniform/time": "54da2c8430cd8b2c0fafb371ebc97463927135ac2db1165d75a9199118537904",
+    "0.45/alpha.water": "39141e13e38fd199d4de81709227b455de481e865e99cfe317c6c858536bb6a3",
+    "0.45/U": "bb1a98668954ab1bacef261a3ccc0de82adfb5638c835f998fe415b668447c4f",
+    "0.45/p_rgh": "a0b22959997725defae028363c6bf8a3a42c738c60ecb21658db3d9479a236de",
+    "0.5/uniform/time": "c8cb4c1acfed0d50a7f65c3fd231a205125089d25a450c236f70832f7e10f1e3",
+    "0.5/alpha.water": "416a499f7b4c97bc3b6099a8984fd5b65b861653eb2c41331d4e1796278f32b0",
+    "0.5/U": "1edea1d84b433b4f0aa7d80193674b6a98ec89cc198171423ba878c3f28863b6",
+    "0.5/p_rgh": "541812cf3933b418e22972f63539d7c3de82cdabaea524f00fe6a6796ec95b21"
+  }
+}
