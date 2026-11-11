@@ -1,0 +1,34 @@
+{
+  "study": 42,
+  "velocity_m_s": 1.0,
+  "diffusivity_m2_s": 0.002,
+  "end_time_s": 0.5,
+  "cases": [
+    {
+      "cells": 160,
+      "method": "muscl",
+      "time_step": 0.0013157894736842105,
+      "steps": 380,
+      "maximum_relative_mass_error_all_steps": 1.4394734418939416e-14,
+      "final_peak": 0.7992810469362452,
+      "final_exact_peak": 0.80085256699704,
+      "final_variance_m2": 0.005603580540164881,
+      "final_exact_variance_m2": 0.005603255207811133,
+      "final_normalized_l1_error": 0.005499346883833327,
+      "maximum_saved_normalized_l1_error": 0.005499346883833327
+    },
+    {
+      "cells": 320,
+      "method": "muscl",
+      "time_step": 0.0004716981132075472,
+      "steps": 1060,
+      "maximum_relative_mass_error_all_steps": 4.0415985099329904e-14,
+      "final_peak": 0.8014156322834816,
+      "final_exact_peak": 0.8015507533718725,
+      "final_variance_m2": 0.005600831075355603,
+      "final_exact_variance_m2": 0.005600813801571599,
+      "final_normalized_l1_error": 0.0014216268407081462,
+      "maximum_saved_normalized_l1_error": 0.0014216268407081462
+    }
+  ]
+}
