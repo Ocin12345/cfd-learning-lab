@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **27 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **28 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -43,6 +43,7 @@ There are **27 distinct CFD projects** with computed flow fields, figures and nu
 | --- | --- | --- |
 | [Supersonic compression wedge](../lessons/24-mach2-wedge/README.md) | Shock angle and pressure rise over a Mach 2 wedge. | 24 |
 | [Shock tube](../projects/shock-tube/README.md) | Propagation of the shock, contact and rarefaction from an initial pressure jump. | 50 |
+| [Pressure oscillations in a Helmholtz resonator](../projects/helmholtz-resonance/README.md) | Measure the decay and frequency of the pressure response in a duct-connected plenum. | — |
 
 ## Free-surface flow
 

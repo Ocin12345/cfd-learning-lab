@@ -1,0 +1,141 @@
+{
+  "cells": 25344,
+  "steps": 500,
+  "time_step_s": 0.0001,
+  "saved_fields": [
+    {
+      "time_s": 0.01,
+      "min_pressure_pa": 99994.50575,
+      "max_pressure_pa": 100000.0021,
+      "min_temperature_k": 299.9946178,
+      "max_temperature_k": 300.0000052,
+      "max_speed_m_s": 1.1574242326090642
+    },
+    {
+      "time_s": 0.02,
+      "min_pressure_pa": 99998.44625,
+      "max_pressure_pa": 100000.0419,
+      "min_temperature_k": 299.9988305,
+      "max_temperature_k": 300.00006,
+      "max_speed_m_s": 1.2783057748327968
+    },
+    {
+      "time_s": 0.03,
+      "min_pressure_pa": 99999.47286,
+      "max_pressure_pa": 100000.8329,
+      "min_temperature_k": 299.9998119,
+      "max_temperature_k": 300.0007367,
+      "max_speed_m_s": 1.2915145240490087
+    },
+    {
+      "time_s": 0.04,
+      "min_pressure_pa": 99999.62448,
+      "max_pressure_pa": 100000.9947,
+      "min_temperature_k": 299.9997926,
+      "max_temperature_k": 300.0008755,
+      "max_speed_m_s": 1.3761997154855112
+    },
+    {
+      "time_s": 0.05,
+      "min_pressure_pa": 99999.61805,
+      "max_pressure_pa": 100000.9863,
+      "min_temperature_k": 299.9998275,
+      "max_temperature_k": 300.0008639,
+      "max_speed_m_s": 1.3751205439913108
+    }
+  ],
+  "probe_locations_m": [
+    [
+      -0.045,
+      0,
+      0
+    ],
+    [
+      -0.045,
+      0.02,
+      0
+    ],
+    [
+      -0.01,
+      0,
+      0
+    ],
+    [
+      0.0125,
+      0,
+      0
+    ],
+    [
+      0.0125,
+      0.02,
+      0
+    ]
+  ],
+  "probe_samples": 501,
+  "neck_window_s": [
+    0.01,
+    0.05
+  ],
+  "neck_swing_pa": 6.314959999988787,
+  "positive_peak_times_s": [
+    0.0113,
+    0.0147,
+    0.0182,
+    0.0217,
+    0.0252,
+    0.0287,
+    0.0322,
+    0.0357
+  ],
+  "peak_spacings_s": [
+    0.0034000000000000002,
+    0.0035000000000000014,
+    0.0034999999999999996,
+    0.0034999999999999996,
+    0.0034999999999999996,
+    0.0034999999999999996,
+    0.003500000000000003
+  ],
+  "median_peak_spacing_s": 0.0034999999999999996,
+  "fft_dominant_bin_hz": 299.2518703241895,
+  "fft_bin_spacing_hz": 24.937655860349125,
+  "interpolated": false,
+  "plenum_volume_m3": 0.00011562499995264,
+  "straight_throat_area_m2": 9.99999999936e-05,
+  "straight_throat_length_m": 0.02,
+  "illustrative_corrected_length_m": 0.02959122292000494,
+  "initial_sound_speed_m_s": 348.1153239989293,
+  "lumped_frequency_estimates": {
+    "straight_length_hz": 364.33626539962165,
+    "illustrative_end_correction_hz": 299.52697695889975
+  },
+  "native_sha256": {
+    "input-sha256.txt": "96847d4916d48c7d61e0790f31f2511229719c5f0c4068b6dc8501fd59db7214",
+    "check-mesh.log": "22f40a12568d3ecb3040b2cacd14ff407befcfd81150f25359b7ef92339cc8d5",
+    "solver.log": "8d6a4d9069f406254b2d261c9e8df2b313c0bf1c0ff0bc0aca4344e999e69e1f",
+    "postProcessing/probes/0/p": "49ca7a67ac6f74d515615c256d9fc3bffa0c1598816c526f05100ef91b300ac5",
+    "0.01/uniform/time": "5fe20a99e76df821181eb4711d17a7aec95cfdd8b782f84448c36fcfb0efbef1",
+    "0.01/U": "69db4693356c3b27de1eed5bd724cc83289b964ee79c448f4a26ede74b186319",
+    "0.01/p": "a3e5153020028b377511014fd3542db0626032207286daa057c0642293cfda2b",
+    "0.01/T": "2eb30d88e6a0e25c73e58746e776733c027f139393515529bdffc196be2afaca",
+    "0.02/uniform/time": "45e184c5f04e3d2b0b8cc7633a627df309f2c785449f8ff4615827a58a7e35bd",
+    "0.02/U": "542d5d459ec10283bb566d2b7b7a799ee1aba75aef821edf289833f13578637d",
+    "0.02/p": "ab1f23c07ee20fa3a8aa4553894cfdda40a9b6dfe33ad1b14dd226510ff07628",
+    "0.02/T": "8ca6da1ff9a6e17b673114cb5375ce225582827916254d4c3f9e3cd32e3b0e3a",
+    "0.03/uniform/time": "7f1d9e56f965529f29aee757db42b6f8ef31b970979b0b328d493173f2a45183",
+    "0.03/U": "00c10e33bc7447c72bbff9ad676e144111d95a58be563d2c929a461b6b59a28e",
+    "0.03/p": "4a3773b4d84559db325b8c2eece6fd4f07b4cc9d74b75a84f728fdab0b6aa7b7",
+    "0.03/T": "57957f35db4dd58e0cc8e98ebff545c2dd3380a55e55e7ea2be09994b9c31ed8",
+    "0.04/uniform/time": "3b8044254411f1f81ea09d76a3a501293c8fc3853853b1c7c9a0da5ba965ebfc",
+    "0.04/U": "926782551a524d0c10fc69c436852753b6c8db95f13585ef163780b2a21c8735",
+    "0.04/p": "4be8e2ff63043415ac55366630362c8ef201f8a0444434ff0df224c1e845239b",
+    "0.04/T": "c59b241d2fa1e00fd970fbbd075abc201f36efe84f54c2d32e3667508afaf73e",
+    "0.05/uniform/time": "9771a42ec5110f3d3609ab3db8d5f8eccd859735670ab49fe944f9dffed9e5dd",
+    "0.05/U": "1b2721f5236153b1fc2df4c12468855b9cef9885f552914fb727baea69b0b1f1",
+    "0.05/p": "f1a87a4abc74311144af39fbbef74bb2a90ae51a23c9f6e51054ee798d216781",
+    "0.05/T": "c63505eacc403c18c335c22b7ab67585a5f2f379c968ab42821af13db0f7cd75",
+    "0/C": "95867288d1f21cbbe7829905c4a87d7889c8aa887795af3e3022a9fb58ec198b",
+    "0/Vc": "6b17ea0232c1f88d0c33a59eeae72f507ba222eceafcf1b0c8729197ac37f78f",
+    "0/T": "3baf1e3019d7f37a82814f39ecd23a9405854c46a7d2b53cb340653321b7aaf1"
+  }
+}
