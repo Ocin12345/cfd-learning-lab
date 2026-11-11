@@ -8,9 +8,13 @@ Explanations are brief; formal lesson checkpoints are no longer required.
 
 ## Study index and current work
 
-[Browse all 35 study records](docs/STUDY_INDEX.md). [Study 35](lessons/35-dam-break-over-obstacle/README.md) now records the complete selected paired calculation and actual video. Earlier numerical misses, including its parent runs, remain explicitly labelled. These entries include sensitivity/comparison studies and are not 35 validated physical predictions.
+[Browse the 35 numbered study records](docs/STUDY_INDEX.md). [Study 35](lessons/35-dam-break-over-obstacle/README.md) now records the complete selected paired calculation and actual video. Earlier numerical misses, including its parent runs, remain explicitly labelled. These entries include sensitivity/comparison studies and are not 35 validated physical predictions.
 
-## Latest showcase improvement: cylinder wake
+## Latest comparison
+
+The [plain cooling-block study](results/cooling-block-plain-v001/README.md) compares 20 s of conjugate heat transfer in Fluent and OpenFOAM. Both runs passed the declared numerical checks and ended with a mean block temperature near 318.533 K. The study includes six figures, a video and all-step cooling data.
+
+## Showcase improvement: cylinder wake
 
 The [versioned cylinder update](lessons/20-cylinder-benchmark/convergence-v001/README.md) adds800numerically accepted new steps per code, actual paired video, developed-cycle evidence and transparent wall-pressure estimates. Earlier startup misses and benchmark/validation limits remain.
 

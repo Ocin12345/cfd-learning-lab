@@ -1,0 +1,162 @@
+{
+  "scope": "plain unfinned block",
+  "physical_validation": false,
+  "steps_per_solver": 2000,
+  "unique_states_per_solver": 2001,
+  "dt_s": 0.01,
+  "max_sampled_cell_temperature_difference_K": 0.055284948908138176,
+  "limits": {
+    "relative_mass_imbalance": 1e-06,
+    "relative_energy_mismatch": 0.005
+  },
+  "solvers": {
+    "fluent": {
+      "accepted_audit_sha256": "97c48c8dcdaf24ceda1f6bb0e900f0e7eb3231335590a2de6fac5fcea5ffd7e8",
+      "qualification_audit_sha256": "e9251c8f80409a781122f9592a125a58899dd4b0475409382d9aa372e452025f",
+      "accepted_audit_checks": {
+        "every_actual_step_residual": true,
+        "every_step_native_mass_T_heat_energy": true,
+        "every_prefix_energy": true,
+        "exact_restart_geometry_fields_phi_and_raw_history": true,
+        "source_prefix_preserved_without_duplicate": true,
+        "all_native_clocks_and_final_endpoint": true,
+        "unchanged_physics_numerics_BCs_materials": true
+      },
+      "max_step_relative_mass_imbalance": 5.68252640945689e-08,
+      "max_step_relative_energy_mismatch": {
+        "global": 3.772740982145869e-06,
+        "fluid": 1.7135578981525421e-06,
+        "solid": 4.041436995001073e-06,
+        "interface": 1.716409290035626e-10
+      },
+      "final_prefix_relative_energy_mismatch": {
+        "global": 3.233315789133292e-06,
+        "fluid": 2.4326322853853553e-07,
+        "solid": 3.493740202703918e-06,
+        "interface": 8.986889435406407e-11
+      },
+      "max_step_residuals_by_native_norm": {
+        "residuals": {
+          "continuity": {
+            "maximum": 9.9921e-06,
+            "limit": 1e-05
+          },
+          "x-velocity": {
+            "maximum": 1.3905e-07,
+            "limit": 1e-05
+          },
+          "y-velocity": {
+            "maximum": 4.8282e-08,
+            "limit": 1e-05
+          },
+          "energy": {
+            "maximum": 4.1806e-10,
+            "limit": 1e-08
+          }
+        }
+      },
+      "endpoint_mean_solid_K": 318.5325646006965,
+      "endpoint_max_solid_K": 318.5468462690876,
+      "solid_sensible_energy_removed_J_per_m": 71.31736040614828,
+      "solid_sensible_energy_removed_fraction": 0.07337176996517314,
+      "endpoint_interface_heat_into_fluid_W_per_m": 3.387035029291511
+    },
+    "openfoam": {
+      "accepted_audit_sha256": "33bb99b89cd515d61c0f13e03b724fa0b733c4729c8bdd890ff9971543f663b8",
+      "qualification_audit_sha256": "96b057d4e887eb55981585cb28e4fb96c6263a6c3066d68b2d4247ddd42d6a7e",
+      "accepted_audit_checks": {
+        "every_step_terminal_outer_initial_and_thermal_linear": true,
+        "every_step_native_mass_T_thermo_heat": true,
+        "every_prefix_energy": true,
+        "native_root_and_both_partition_current_clocks_and_reconstructed_fields": true,
+        "exact_restart_physics_methods_geometry_and_controls": true,
+        "accepted_prefix_included_once": true
+      },
+      "max_step_relative_mass_imbalance": 4.615957559494611e-12,
+      "max_step_relative_energy_mismatch": {
+        "global": 4.58424065280202e-06,
+        "fluid": 4.584246292512156e-06,
+        "solid": 1.0928529976074168e-09,
+        "interface": 1.0301070093738383e-09
+      },
+      "final_prefix_relative_energy_mismatch": {
+        "global": 5.08352795332126e-09,
+        "fluid": 5.111618792450646e-09,
+        "solid": 1.4393170017592467e-11,
+        "interface": 1.3837794393979598e-11
+      },
+      "max_step_residuals_by_native_norm": {
+        "last_outer_initial": {
+          "Ux": {
+            "maximum": 9.409560914885667e-10,
+            "limit": 1e-05
+          },
+          "Uy": {
+            "maximum": 1.155195830020563e-08,
+            "limit": 1e-05
+          },
+          "p": {
+            "maximum": 1.339339540137166e-09,
+            "limit": 1e-05
+          }
+        },
+        "last_outer_final_thermal": {
+          "h": {
+            "maximum": 9.884716845395218e-12,
+            "limit": 1e-10
+          },
+          "e": {
+            "maximum": 9.994216630120807e-13,
+            "limit": 1e-10
+          }
+        }
+      },
+      "endpoint_mean_solid_K": 318.5330599170905,
+      "endpoint_max_solid_K": 318.5473212681944,
+      "solid_sensible_energy_removed_J_per_m": 71.29328802940267,
+      "solid_sensible_energy_removed_fraction": 0.07334700414547601,
+      "endpoint_interface_heat_into_fluid_W_per_m": 3.3859215448863798
+    }
+  },
+  "media": {
+    "matched_physical_sample_interval_s": 0.2,
+    "interpolated_motion": false,
+    "mp4": {
+      "sha256": "c4f05213d2656f0efbae85c174a40bac4a044a465ed10f04b4c4ee0d59cab7f2",
+      "width": 1440,
+      "height": 960,
+      "frames": 101,
+      "decoded_frames": 101,
+      "display_duration_s": 10.1,
+      "maximum_rgb_rmse_0_255": 1.8291029930114746
+    },
+    "gif": {
+      "sha256": "03a0e77d3f878c41a990fe32d0564789ee5ffcc228c3c097283c0364a34e77ff",
+      "width": 840,
+      "height": 560,
+      "frames": 101,
+      "decoded_frames": 101,
+      "display_duration_s": 10.1,
+      "maximum_rgb_rmse_0_255": 1.0518953800201416
+    }
+  },
+  "accepted_case_selection_sha256": "0a1f01a423830e6aa4a011b875bebea1b8d9ee1f0118a6c425da3e9054b055eb",
+  "inspection_receipt_sha256": "083960d1ad090e20367bfe8386d4e1611d95bac0a4051ae24ecb1e84e9310918",
+  "export_sha256": {
+    "cooling-block-plain-comparison.gif": "03a0e77d3f878c41a990fe32d0564789ee5ffcc228c3c097283c0364a34e77ff",
+    "cooling-block-plain-comparison.mp4": "c4f05213d2656f0efbae85c174a40bac4a044a465ed10f04b4c4ee0d59cab7f2",
+    "cooling-heat-allstep.csv": "74f8ca59c0db58e9daf6384fc1fbfdfb62058d9ce64bf033d4b386b54480bb22",
+    "figures/paired-cooling-and-pressure-cost.pdf": "b63099866636fbde046c3d30da6ebfcc159891da85e3c1932a1a0f60b3363e90",
+    "figures/paired-cooling-and-pressure-cost.png": "08adaba6bb0efbb7b3740eb8f13ca4573c805666c66abcb179d3a9eb0c72804a",
+    "figures/paired-numerical-checks.pdf": "4051713de95409960807c591fee31ef5576ec8d17e0bd2659db934b38ad23c59",
+    "figures/paired-numerical-checks.png": "0dcdae8d4ee8fb738de76c872967c4600185a42aead289264abd8a31e14d8049",
+    "figures/paired-prefix-energy-checks.pdf": "50a7c41a40bfe67fe0a5fe0513373f4cb7a42b297aede5ecef7a0cf49b450b54",
+    "figures/paired-prefix-energy-checks.png": "24ca2ee4ba8873c1e6d28ce6947fe823ead9de583d457302321509c4290ecd9f",
+    "figures/paired-regional-energy.pdf": "a41b03d1a27e9adbc6201e1cc8f0a13e747f39edc10ea427bc656851d99afc39",
+    "figures/paired-regional-energy.png": "9797a33c84f7470ea3eb98a7b9d9f6c3079a29ba50c2a3b4d130cc08b2c533d0",
+    "figures/paired-temperature-and-cooling.pdf": "5e8fbb486588c1aefc8044242011e3ea4b8af00d2d8cfe99153b2a87c8a44df6",
+    "figures/paired-temperature-and-cooling.png": "dab133b7c81fbd3be5fbb640944f9da2eca8ea6df1eade64633ee04f528bab83",
+    "figures/paired-velocity-and-pressure.pdf": "ad90d7d348043572166b94980a18d9890e443a56e91cae10b33aa0d3cd9a5b18",
+    "figures/paired-velocity-and-pressure.png": "0d4335d0c6067bbc1f44e8ce07fbba9d4b4fb1f571c16d3bbe3f0968baa9e514"
+  }
+}

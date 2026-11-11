@@ -1,6 +1,6 @@
 # CFD study index
 
-There are 35 study records. Entries include geometry models, numerical sensitivity studies and comparisons; they are not 35 independently validated physical predictions. Read each record for its actual numerical status and limitations.
+There are 35 numbered study records. Entries include geometry models, numerical sensitivity studies and comparisons; they are not 35 independently validated physical predictions. Read each record for its actual numerical status and limitations.
 
 | Study | Record |
 | --- | --- |
@@ -40,6 +40,10 @@ There are 35 study records. Entries include geometry models, numerical sensitivi
 | 34 | [34. Sloshing mesh sensitivity](../lessons/34-sloshing-mesh-sensitivity/README.md) |
 | 35 | [35. Dam break over an obstacle](../lessons/35-dam-break-over-obstacle/README.md) |
 
+
+## Additional comparison
+
+[Plain cooling block in Fluent and OpenFOAM](../results/cooling-block-plain-v001/README.md). Both 20-second runs passed the declared numerical checks.
 
 ## Refined-wing formulation investigation — 8 November 2026
 
