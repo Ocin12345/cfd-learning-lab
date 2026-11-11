@@ -1,0 +1,5 @@
+# Study 48 protocol
+
+Compare two symmetric two-dimensional diffusers with the same 2:1 outlet-to-inlet height ratio. The straight inlet is 50 mm long and 10 mm high. The straight outlet is 60 mm long and 20 mm high. Expansion lengths are 10 and 40 mm. Use 24 cells across each section and 1 mm streamwise spacing. Boundary conditions are a uniform 0.1 m/s inlet, zero kinematic gauge pressure at the outlet and fixed no-slip walls. The empty extrusion is 1 mm. Kinematic viscosity is 0.00002 m²/s.
+
+Run serial OpenFOAM Foundation 14, SIMPLE with bounded upwind convection and corrected diffusion, to 800 iterations on each mesh. Require Mesh OK, finite fields, final reported linear residuals at most 1e-10, final local continuity below 1e-8, inlet/outlet relative flux imbalance below 0.1% and velocity RMS change below 0.001 m/s from iteration 750 to 800. Compare cross-sectional mean static pressures at 5.5 mm before the expansion and 10.5 mm after it. Normalize the pressure difference by 0.5 times the squared mean inlet speed. Report measured reverse flow if present. The comparison uses one grid per geometry.

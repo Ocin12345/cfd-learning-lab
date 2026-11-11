@@ -1,6 +1,6 @@
 # CFD study index
 
-Browse 47 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
+Browse 48 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
 
 [Portfolio home](../README.md) · [Aerodynamics and wakes](#aerodynamics-and-wakes) · [Internal flows and transport](#internal-flows-and-transport) · [Heat transfer](#heat-transfer) · [Compressible flow](#compressible-flow) · [Free-surface flow](#free-surface-flow)
 
@@ -44,6 +44,7 @@ Browse 47 numbered studies. The original study numbers identify related runs and
 | 42 | [Physical spreading of an advected tracer](../lessons/42-periodic-tracer-diffusion/README.md) | Compares peak decay, variance and mass against a periodic advection–diffusion solution. |
 | 43 | [Steady pressure-driven flow in a circular pipe](../lessons/43-steady-pipe-friction/README.md) | Compares velocity, volume flow and wall shear with Hagen–Poiseuille theory. |
 | 44 | [Pulsating pressure-driven pipe flow](../lessons/44-pulsating-pipe-flow/README.md) | Checks flow amplitude and phase lag against the Womersley solution. |
+| 48 | [Pressure recovery in two planar diffusers](../lessons/48-planar-diffuser-recovery/README.md) | Compares two taper lengths at the same area ratio and documents pressure recovery and reverse flow. |
 
 ## Heat transfer
 

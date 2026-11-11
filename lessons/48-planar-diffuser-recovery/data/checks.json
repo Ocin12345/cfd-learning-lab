@@ -1,0 +1,44 @@
+{
+  "short": {
+    "case": "short",
+    "cells": 2880,
+    "expansion_length_m": 0.01,
+    "pressure_sample_x_m": [
+      0.044500000000000005,
+      0.0705
+    ],
+    "pressure_recovery_coefficient": 0.22831891638585644,
+    "inlet_outlet_flux_m3_s": {
+      "inlet": -1.0000000000000019e-06,
+      "outlet": 9.999999999998303e-07
+    },
+    "relative_flux_imbalance": 1.715241718189955e-13,
+    "last_50_iteration_velocity_change_rms_m_s": 2.943778490563423e-14,
+    "terminal_local_continuity_max": 4.3276047059246e-12,
+    "terminal_linear_residual_max": 6.3035432749028e-12,
+    "minimum_axial_velocity_m_s": -0.0014075930608476,
+    "reverse_axial_flow_cells": 28,
+    "source_log_sha256": "2cca6eef88ef14ef2b3c8fc30ccba191e467483ce96c14d87abd936fbc31be32"
+  },
+  "long": {
+    "case": "long",
+    "cells": 3600,
+    "expansion_length_m": 0.04,
+    "pressure_sample_x_m": [
+      0.044500000000000005,
+      0.10049999999999999
+    ],
+    "pressure_recovery_coefficient": -0.02037464658503499,
+    "inlet_outlet_flux_m3_s": {
+      "inlet": -1.0000000000000019e-06,
+      "outlet": 9.99999999999776e-07
+    },
+    "relative_flux_imbalance": 2.2594603868008419e-13,
+    "last_50_iteration_velocity_change_rms_m_s": 1.494977679391881e-14,
+    "terminal_local_continuity_max": 3.5620031829709e-12,
+    "terminal_linear_residual_max": 6.0217518023859e-12,
+    "minimum_axial_velocity_m_s": 0.0030037949675239,
+    "reverse_axial_flow_cells": 0,
+    "source_log_sha256": "5438c9b709095a6e1e53e652d9e69801d9ef89ab2b73d5a86176cec7704295f7"
+  }
+}
