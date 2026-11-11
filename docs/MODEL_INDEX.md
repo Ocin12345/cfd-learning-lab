@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **34 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **35 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -39,6 +39,7 @@ There are **34 distinct CFD projects** with computed flow fields, figures and nu
 | --- | --- | --- |
 | [Buoyant cavity](../lessons/30-natural-convection/README.md) | Circulation and heat transfer in a sealed enclosure driven by buoyancy. | 30, 31, 32 |
 | [Cooling an aluminium block](../results/cooling-block-plain-v001/README.md) | Conjugate heat transfer from a solid block to moving air. | 36 |
+| [Convection rolls in a layer heated from below](../projects/rayleigh-benard-rolls/README.md) | Tracks the development of alternating buoyancy-driven rolls under vertical thermal forcing. | — |
 
 ## Compressible flow
 
