@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **30 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **31 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -29,6 +29,7 @@ There are **30 distinct CFD projects** with computed flow fields, figures and nu
 | [Circular Venturi meter](../projects/venturi-meter/README.md) | Measures speed, pressure drop and recovery in a three-dimensional circular constriction. | - |
 | [Flow through a Darcy porous blockage](../projects/porous-blockage/README.md) | Measures flow through and around a porous zone and the corresponding pressure drop. | — |
 | [Stirred vessel in a rotating frame](../projects/stirred-vessel/README.md) | Compares flow and pressure fields in a baffled vessel with a rotating inner zone. | — |
+| [Secondary flow in a rectangular duct](../projects/duct-secondary-flow/README.md) | Measures cross-section circulation predicted by a Reynolds-stress closure in a periodic duct. | — |
 
 ## Heat transfer
 
