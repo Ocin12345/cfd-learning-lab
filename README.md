@@ -1,6 +1,6 @@
 # CFD Learning Lab
 
-The portfolio contains **32 distinct CFD projects**, covering external and internal flow, heat transfer, compressible flow and free surfaces. Each project links to its simulation setup, computed figures and numerical checks.
+The portfolio contains **33 distinct CFD projects**, covering external and internal flow, heat transfer, compressible flow and free surfaces. Each project links to its simulation setup, computed figures and numerical checks.
 
 **[Browse the CFD projects](docs/MODEL_INDEX.md)** · [Study records and benchmarks](docs/STUDY_INDEX.md)
 
