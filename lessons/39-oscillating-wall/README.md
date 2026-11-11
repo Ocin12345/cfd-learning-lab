@@ -22,4 +22,4 @@ The first fine run at 0.5 ms missed the streamwise uniformity limit. The replace
 
 To reproduce, use the [case inputs](case-inputs/) with OpenFOAM Foundation 14. In each writable case run `blockMesh > mesh.log`, `checkMesh > check-mesh.log`, `foamPostProcess -func writeCellCentres -time 0 > centres.log` and `foamRun > solver.log`. Run [the audit script](audit_oscillation.py) with NumPy and Matplotlib, passing the directory containing the two runs, [the input hashes](case-inputs/input-sha256.json), and `--export` with a new output directory.
 
-The project owner directed the portfolio expansion. Codex prepared the cases, ran and checked the workflow, and produced the figures. OpenFOAM computed the fields.
+OpenFOAM computed the fields.

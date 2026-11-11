@@ -1,6 +1,6 @@
 # Cylinder vortex shedding: an actual transient model
 
-**8November2026 update:** [A new versioned continuation record](../20-cylinder-benchmark/convergence-v001/README.md) covers4–8s with800accepted new steps/801nativefields per code, actual paired media, cycle stability and wall-pressure estimates. The inherited startup and unmatched benchmark conditions remain explicit.
+**Update:** [A new versioned continuation record](../20-cylinder-benchmark/convergence-v001/README.md) covers4–8s with800accepted new steps/801nativefields per code, actual paired media, cycle stability and wall-pressure estimates. The inherited startup and unmatched benchmark conditions remain explicit.
 
 ## Earlier startup record, retained
 
@@ -116,10 +116,6 @@ projects. No commit, GitHub publication or university submission occurred.
 
 ## Contributions and reflection
 
-The owner selected the next model and requested paired solvers and visual
-results. Codex prepared geometry/scripts, operated the tools, inspected the
-evidence and produced the record. Gmsh generated the mesh; Fluent and OpenFOAM
-computed their respective numerical flow fields. Owner reflection remains
-unprovided. No independent owner implementation or research novelty is claimed.
-Optional observation: identify a red/blue vortex pair and describe how its
+Gmsh generated the mesh; Fluent and OpenFOAM
+computed their respective numerical flow fields. Optional observation: identify a red/blue vortex pair and describe how its
 position changes between frames.

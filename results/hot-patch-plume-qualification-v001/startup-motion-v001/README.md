@@ -14,4 +14,4 @@ The renderer independently reads saved physical time and cell geometry before pa
 
 To reproduce on this workstation, dot-source E:/CFD-Learning-Lab/local/Use-Project.ps1. Set PYTHONPATH to repo/cfd-learning-lab/scripts, local/hot-patch-plume-v001 and local/hot-patch-plume-production-v001 beneath the project root. Use the project's Python environment to run executed-renderer.py --qualification --out followed by a fresh directory under E:/CFD-Learning-Lab/exports/figures. The renderer refuses to overwrite an existing output directory. The qualification's code directory contains the native-field helper; the production common file copied here supplies shared constants. The --qualification option explicitly selects the 100-step references and their original criteria, not the longer production settings.
 
-Codex built and checked these visualizations from fields computed by ANSYS Fluent and OpenFOAM. The owner selected the visual CFD direction. The 20-second extension is a separate run in progress; no completion or new GitHub upload is claimed here.
+The 20-second extension is a separate run in progress; no completion or new GitHub upload is claimed here.

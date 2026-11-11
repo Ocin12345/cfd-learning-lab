@@ -1,4 +1,4 @@
-# Latest showcase improvements — 8 November 2026
+# Latest showcase improvements
 
 This collection improves existing records without increasing the35-study count. Numerical acceptance is not physical validation. Earlier statements about local-only status describe the time those records were prepared; repository commit history records publication.
 

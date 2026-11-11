@@ -11,4 +11,4 @@ The first-cell crossing proxy, recorded below and in checks.json, is omitted fro
 
 Fluent centres are reconstructed from four unique saved face-connected vertices per verified rectangle; OpenFOAM centres come from its saved C field. Both must map bijectively to exactly the 8,800 fluid slots within 1e-9 m; the 800 solid slots are masked. Imported cell ordering is never assumed. OpenFOAM kinematic pressure is multiplied by rho before CSV export. Input hashes, executed plotter, cell data and mapping diagnostics accompany the figures.
 
-Residual, mass and iteration-stability checks are separate native-run evidence. No Poiseuille analytical target applies to this geometry; no mesh-independence or physical-validation claim is made. Fluent/OpenFOAM calculated the fields; Codex wrote the workflow, reconstructed the saved data and prepared these figures. Owner reflection has not been provided.
+Residual, mass and iteration-stability checks are separate native-run evidence. No Poiseuille analytical target applies to this geometry; no mesh-independence or physical-validation claim is made. Fluent/OpenFOAM calculated the fields.

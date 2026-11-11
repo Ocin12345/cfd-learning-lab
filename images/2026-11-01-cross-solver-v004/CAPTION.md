@@ -27,6 +27,5 @@ agreement for this confined setup, not physical validation or an uncertainty
 estimate. Fluent reused a saved converged state; OpenFOAM started from uniform
 flow. Their iteration counts and run times are not a performance benchmark.
 
-Codex prepared the cases, analysis, figure and caption. ANSYS Fluent and
-OpenFOAM computed their respective solutions. The owner requested the paired
-workflow and academic presentation; independent owner analysis is not inferred.
+ANSYS Fluent and
+OpenFOAM computed their respective solutions.

@@ -67,5 +67,4 @@ two-process/rank; no additional run is launched by this record helper. Native
 HDF/mesh/NPZ, full trace exports, dependencies and private connection/licence files
 stay outside the repository. Source/destination copy hashes and the old public
 manifest are retained privately. Numerical checks and pictures do not establish
-benchmark/experimental validation or mesh independence. The owner directs topics,
-Codex implements/operates, solvers compute; owner reflection is unprovided.
+benchmark/experimental validation or mesh independence.

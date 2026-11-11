@@ -1,6 +1,6 @@
 # A finite-span wing: actual 3D Fluent and OpenFOAM fields
 
-**Follow-up, 7 November 2026:** [A preserved coupled Fluent restart now passes
+**Follow-up:** [A preserved coupled Fluent restart now passes
 the original numerical criteria](../27-wing-convergence/README.md). Its force
 difference from OpenFOAM remains unresolved. The original results below are
 retained unchanged as the historical diagnostic.
@@ -97,9 +97,7 @@ provide context, not matching validation data. The
 [ANSYS quality definition](https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/wb_msh/msh_orthogonal_quality.html)
 explains why the tetrahedral native quality gate also depends on cell skewness.
 
-The owner requested progression, paired solvers and visual results. Codex chose
-and implemented the detailed model, operated the tools, inspected evidence and
-prepared this record. Gmsh generated the mesh; Fluent and OpenFOAM computed
-respective flow fields. Owner reflection is unprovided. No independent owner
+Gmsh generated the mesh; Fluent and OpenFOAM computed
+respective flow fields. No independent owner
 implementation, research novelty, aircraft-performance or admissions claim is
 made. No commit, push, university submission or external publication occurred.

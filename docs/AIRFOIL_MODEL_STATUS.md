@@ -139,8 +139,7 @@ processor checkpoints are external on E:; recorded dictionaries are in
 
 ![Saved OpenFOAM fields](../images/2026-11-01-openfoam-airfoil-fields-v001/openfoam-airfoil-computed-fields.png)
 
-
-Codex prepared the meshes/cases, code, checks and records. Gmsh computed meshes;
+Gmsh computed meshes;
 Fluent and OpenFOAM compute their respective flow solutions. These models do
 not validate Concorde, the ornithopter or any aircraft performance claim.
 

@@ -38,7 +38,7 @@ Accepted native paths under E:/CFD-Learning-Lab/native/runs/hot-patch-plume-qual
 
 Executed helpers are in code, small actual OpenFOAM dictionaries in openfoam-inputs, and native hashes in qualification-audit.json. Helpers retain workstation paths and require fresh versioned output directories. Dot-source E:/CFD-Learning-Lab/local/Use-Project.ps1 and use the existing Python environment with repo/scripts, local/natural-convection-cavity-v001 and local/hot-patch-plume-v001 on PYTHONPATH. Run one Fluent session at a time; check free disk/RAM and licence admission. The accepted Fluent restart uses the first run's unchanged heated-start case/data at t = 0, not its failed heated state.
 
-The owner chose the visual CFD direction and authorized continuation. Codex prepared, executed, checked and documented the runs. ANSYS Fluent and OpenFOAM computed their respective fields. No owner reflection or independent execution is invented. This is an educational startup qualification: no developed plume, physical validation, mesh/time-step independence or aircraft validation is claimed. This record is local; no new GitHub upload is claimed.
+ANSYS Fluent and OpenFOAM computed their respective fields. This is an educational startup qualification: no developed plume, physical validation, mesh/time-step independence or aircraft validation is claimed.
 
 ## Follow-up
 

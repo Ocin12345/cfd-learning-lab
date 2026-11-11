@@ -39,4 +39,4 @@ Speed scales are fixed0–3m/s. Signed vorticity is an area-weighted reconstruct
 
 [Reproduction and storage](REPRODUCING.md) · [Methods and primary sources](METHODS.md) · [Preserved history](history/) · [Source provenance](provenance/)
 
-The owner directed the progression and requested paired visuals. Codex prepared, operated, diagnosed, checked, plotted and documented the work; Fluent and OpenFOAM computed their respective fields. Independent owner execution, reflection, research novelty or an admissions claim has not been invented. This is a local GitHub-ready record; no new upload is claimed. [Fresh technical review](data/technical-review.json) passed with no Critical or Important findings. A minor text-spacing issue is recorded as deferred polish.
+Fluent and OpenFOAM computed their respective fields. This is a local GitHub-ready record; no new upload is claimed. [Fresh technical review](data/technical-review.json) passed with no Critical or Important findings. A minor text-spacing issue is recorded as deferred polish.

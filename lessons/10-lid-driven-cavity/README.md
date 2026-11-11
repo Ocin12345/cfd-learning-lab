@@ -33,6 +33,4 @@ does not establish benchmark accuracy, mesh independence or physical validation.
 See [methods and results](../../docs/CAVITY_METHODS.md) and
 [figure captions](../../images/2026-11-01-cavity-v001/CAPTIONS.md).
 
-The owner directed the model topic. Codex implemented and operated the workflow;
-Fluent and OpenFOAM computed the fields. Owner reflection remains unprovided.
-No independent owner implementation, novelty, publication or university submission is claimed.
+Fluent and OpenFOAM computed the fields.

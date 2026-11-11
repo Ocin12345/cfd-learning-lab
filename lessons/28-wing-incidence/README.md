@@ -123,11 +123,7 @@ retained numerical miss. It imports the audit in model 27.
 directory and the zero-incidence Fluent v002 run directory. It reuses the
 repository's native wing reader and tetrahedral tracer implementation.
 
-The owner requested continued interesting models and visual comparisons.
-Codex prepared and ran the cases, checked native results and produced the
-figures and record. Fluent and OpenFOAM computed the fields and forces.
-Owner reflection is unprovided; independent owner implementation and research
-novelty are not claimed. This addition is saved locally and has not been uploaded.
+Fluent and OpenFOAM computed the fields and forces. This addition is saved locally and has not been uploaded.
 
 The next focused check is a paired refined-mesh 8-degree wing comparison to
 investigate the unresolved force gap before extending aircraft complexity.

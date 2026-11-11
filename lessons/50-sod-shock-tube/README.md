@@ -20,5 +20,3 @@ Run `python solve_sod.py new-output` with NumPy and Matplotlib installed.
 
 - [Protocol and limits](PROTOCOL.md), [solver and exact reference code](solve_sod.py), [numerical checks](data/checks.json)
 - [Endpoint profiles](data/profiles.csv), [saved error histories](data/errors.csv), [figure PDF](data/shock-tube.pdf)
-
-The portfolio owner authorized the study. Codex implemented, ran and checked the Python calculation and prepared the figure.

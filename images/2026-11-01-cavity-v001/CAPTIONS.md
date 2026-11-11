@@ -1,6 +1,6 @@
 # Lid-driven cavity: actual native field visualization
 
-Closed 1 m square, lid velocity (1,0) m/s, stationary side/bottom walls, density 1 kg/m3, dynamic viscosity .01 Pa s, Re100. Both solvers compute a steady laminar field on the same 80x80 source quads; OpenFOAM uses one .01 m extruded layer.
+Closed 1 m square, lid velocity (1,0) m/s, stationary side/bottom walls, density 1 kg/m3, dynamic viscosity.01 Pa s, Re100. Both solvers compute a steady laminar field on the same 80x80 source quads; OpenFOAM uses one.01 m extruded layer.
 
 Native Fluent face connectivity and native OpenFOAM faces/owner/neighbour reconstruct complete cell vertex sets. A verified bijection maps them to canonical quads. Saved OpenFOAM C independently verifies true polygon centres. Native pressure gauges differ; each pressure field has its own spatial area mean removed. OpenFOAM kinematic pressure is multiplied by rho. Shared scales include all values.
 
@@ -10,7 +10,7 @@ Every failed numerical criterion from the hash-bound audits remains visible in t
 
 Selected final steady snapshots: Fluent iteration 2500, OpenFOAM iteration 2000. Solver iteration counts are independent convergence indices, not a common physical clock.
 
-ANSYS Fluent and OpenFOAM computed the fields; Codex prepared the workflow and visualization. No independent user execution or reflection is claimed.
+ANSYS Fluent and OpenFOAM computed the fields.
 
 ANSYS Fluent: declared numerical checks passed
 OpenFOAM: declared numerical checks passed

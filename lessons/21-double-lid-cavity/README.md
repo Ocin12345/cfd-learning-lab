@@ -28,4 +28,4 @@ The velocity fields differ by 0.63% in relative L2 using OpenFOAM as denominator
 
 [Fluent driver](double_lid_fluent_v001.py) uses the shared mesh from lesson 10. [OpenFOAM preparation](prepare_double_lid_openfoam_v001.py) checks and copies its native mesh, changes the bottom boundary to a fixed velocity and sets the write interval. The [two-rank runner](run-double-lid-openfoam-v001.sh) checks mesh quality and reconstructs iterations 1,800 and 2,000. Both runs save before closure. [Audit and plotting code](audit_plot_double_lid_v002.py) reads those native archives and the shared geometry NPZ, using the existing [analysis helpers](../../scripts/). The native cases and full logs are kept separately on E:.
 
-The user directed progression and requested paired visual models. Codex configured, ran and checked the workflow. Fluent and OpenFOAM computed the fields. User reflection is unprovided.
+Fluent and OpenFOAM computed the fields.

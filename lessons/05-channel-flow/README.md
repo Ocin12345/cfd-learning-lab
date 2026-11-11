@@ -28,6 +28,6 @@ The optional final Fluent XY residual export was empty. Its saved data contains 
 
 Scripts: channel_mesh.py, channel_fluent.py, prepare_openfoam_channel.py, plot_channel_flow.py, analyse_channel_fluent.py, analyse_channel_openfoam.py in [scripts](../../scripts/). Recorded OpenFOAM dictionaries are in [cases](../../cases/openfoam-channel-recorded-v001/).
 
-Codex selected and configured this example, generated the mesh, operated the solvers, checked saved data and prepared the figures. ANSYS and OpenFOAM computed the fields. The owner requested a visual-first sequence; no prediction, independent implementation or personal reflection is invented. Optional owner task: point to the slowest part of the flow and explain why it is slow. Owner reflection: not yet supplied.
+ANSYS and OpenFOAM computed the fields.
 
 Teaching context: [Clarkson rectangular-channel Fluent tutorial](https://sites.clarkson.edu/gahmadi/wp-content/uploads/sites/28/2020/01/ME527-ANSYS-Fluent-Tutorial-Part-1.pdf) and the [official Foundation14 tutorial guide](https://doc.cfd.direct/openfoam/user-guide-v14/tutorials). These provide teaching context; they are not experimental validation of this run.

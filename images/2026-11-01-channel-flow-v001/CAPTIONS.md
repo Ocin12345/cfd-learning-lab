@@ -6,6 +6,6 @@ channel-computed-fields.png/svg uses actual native cell-centred values with flat
 
 channel-velocity-profiles.png/svg shows nearest saved columns to x = 0.02, 0.1, 0.3, 0.8 m; exact column positions are printed in the panels and CSV. The dotted parabola is an analytical fully developed reference, not simulated data. Curves connect actual cell-centred samples and do not append wall values. The near-inlet profiles are developing and are not required to match that downstream reference.
 
-Analytical targets passed: true. See checks.json for measured profile and pressure-gradient checks. Residual, mass-balance and iteration-stability evidence is checked separately. This is a bounded educational analytical check, not mesh independence or experimental validation. Fluent/OpenFOAM calculated the fields; Codex reconstructed their saved data, checked the mappings and prepared the figures.
+Analytical targets passed: true. See checks.json for measured profile and pressure-gradient checks. Residual, mass-balance and iteration-stability evidence is checked separately. This is a bounded educational analytical check, not mesh independence or experimental validation. Fluent/OpenFOAM calculated the fields.
 
 Native Fluent screenshots fluent-native-velocity.png and fluent-native-pressure.png are unchanged exports of the completed channel case. Their own native colour maps and interpolation are preserved; use the common-scale paired figures for comparisons. Source case/data and numerical records remain outside Git on E:.

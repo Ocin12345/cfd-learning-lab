@@ -24,4 +24,4 @@ Both meshes passed checkMesh. The largest final linear residual was 6.31 Ã— 10â
 
 Copy the short and long case inputs into a writable runs directory. In each case run `blockMesh > mesh.log`, `checkMesh > check-mesh.log`, `foamPostProcess -func writeCellCentres -time 0 > centres.log`, and `foamRun > solver.log`. With NumPy and Matplotlib installed, run `python audit_diffuser_v003.py runs case-inputs/input-sha256.json new-output`. The analysis uses the saved cell centres to sort taper cells into streamwise bins. Earlier analysis drafts are kept locally; the calculation was not rerun for those revisions.
 
-The portfolio owner authorized the study. Codex prepared the case inputs, audited the output and produced the figure. OpenFOAM computed the flow fields.
+OpenFOAM computed the flow fields.

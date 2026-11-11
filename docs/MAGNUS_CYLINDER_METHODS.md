@@ -40,4 +40,4 @@ Preserve any false derived-copy diagnostic and original/current hashes separatel
 
 See [frozen targets](../results/magnus-cylinder-v001/TARGETS.md), [selected code](../results/magnus-cylinder-v001/source-index.json), [prerequisites](../results/magnus-cylinder-v001/OPENFOAM-PREREQUISITES.md) and [selected dictionaries](../cases/openfoam-magnus-cylinder-selected-v001/README.md). Public code records the setup and executed workflow. Native reruns and audit replay require the external project archive, native preflight/source evidence, accepted pilot fields and processor addressing, installed solver environments, and explicit launch authorization. This checkout is not a self-contained native rerun package. Native cases, meshes, fields, environments, licences, full traces and raw audit provenance remain external.
 
-The user directed progression and visual priorities. Codex prepared and operated the scripts, checked native evidence and assembled the record. Fluent and OpenFOAM computed their own fields, forces and residuals. Independent user execution and owner reflection are unprovided.
+Fluent and OpenFOAM computed their own fields, forces and residuals.

@@ -47,4 +47,4 @@ The native runs are E:/CFD-Learning-Lab/native/runs/hot-patch-plume-20s-v001/flu
 
 On this workstation, dot-source E:/CFD-Learning-Lab/local/Use-Project.ps1 and use the project Python environment. PYTHONPATH needs repo/cfd-learning-lab/scripts, local/natural-convection-cavity-v001, local/hot-patch-plume-v001 and local/hot-patch-plume-production-v001. Reproduce into fresh versioned directories; drivers reject reuse. Check disk/RAM and licence admission; use one Fluent session at a time. The audit/render scripts launch no flow solver.
 
-The owner chose the visual CFD direction and authorized continuation. Codex prepared, executed, checked and documented the work. ANSYS Fluent and OpenFOAM computed their respective fields. No independent owner execution or reflection is invented. This record is prepared locally; no new GitHub upload is claimed.
+ANSYS Fluent and OpenFOAM computed their respective fields.

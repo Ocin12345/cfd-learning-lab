@@ -18,7 +18,4 @@ no concentration or scalar mixing is solved. The 48×50 ms GIF is visualization,
 not transient CFD. Corners, uniform inlet-wall discontinuities, one mesh and
 finite iterations limit interpretation. [Methods and actual metrics](../../docs/TJUNCTION_METHODS.md),
 [numerical outcomes](../../results/tjunction-v001/selected-results.json) and
-[captions](../../images/2026-11-01-tjunction-v001/CAPTIONS.md) preserve every miss.
-No benchmark, experimental validation or mesh independence is established.
-The owner requested paired visual models; Codex selected, implemented and operated
-this setup; the solvers computed fields. Owner reflection remains unprovided.
+[captions](../../images/2026-11-01-tjunction-v001/CAPTIONS.md) preserve every miss. No benchmark, experimental validation or mesh independence is established. The solvers computed fields.

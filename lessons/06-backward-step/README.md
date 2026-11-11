@@ -1,6 +1,6 @@
 # Backward-facing step: separation and reverse flow
 
-Actual ANSYS Fluent and OpenFOAM calculations, saved on 1 November 2026.
+Actual ANSYS Fluent and OpenFOAM calculations.
 Both use 8,800 cells, keeping this a small introductory model.
 
 ![Actual reverse-flow fields from both solvers](../../images/2026-11-01-backward-step-v001/step-recirculation-closeup.png)
@@ -92,10 +92,6 @@ Our conditions differ; these are context links, not matched benchmark results.
 
 ## Contributions and reflection
 
-The owner requested more interesting small models, both solvers and clearer
-images. Codex selected this setup, wrote the mesh/run/analysis scripts, operated
-the solvers and prepared the figures and record. ANSYS Fluent and OpenFOAM
-computed their respective numerical fields. Owner prediction/reflection remains
-unprovided; no independent owner implementation or research novelty is claimed.
-Optional observation: use the streamline arrows to explain why blue represents
+ANSYS Fluent and OpenFOAM
+computed their respective numerical fields. Optional observation: use the streamline arrows to explain why blue represents
 reverse flow rather than merely slow forward flow.

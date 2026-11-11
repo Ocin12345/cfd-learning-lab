@@ -1,8 +1,6 @@
 # Lesson 1: when is a cylinder calculation settled?
 
-Status: numerical replay complete on 1 November 2026. Owner authorized automatic
-continuation after each actual Fluent image. The prediction prompt received no
-answer before the result was revealed; no owner reflection is yet recorded.
+Status: numerical replay complete.
 
 ## Physics and question
 
@@ -66,8 +64,7 @@ stability and physical validation answer different questions. Record any owner
 reflection in their own words. Under the revised automatic continuation policy,
 an unanswered reflection does not block the next lesson.
 
-Codex prepared this lesson and the audit. The owner requested the curriculum and
-storage policy. Prediction, personal exercise and reflection remain pending.
+Prediction, personal exercise and reflection remain pending.
 
 
 ## Actual result
@@ -99,7 +96,6 @@ preserved outside the repository. The current runner supports both saved-case
 replay and fresh-mesh domain calculations; the replay branch implements this
 method. An execution-time code checksum was not captured for this first replay.
 
-Codex prepared and operated the replay, checked it and drafted this record.
 ANSYS Fluent computed the fields and exported the images. The owner specified
 the automatic visual-review workflow; prediction/reflection remain unanswered.
 

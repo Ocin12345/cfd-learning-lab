@@ -44,8 +44,6 @@ actual schemes, gas rounding, depth normalization, numerical flags and sources.
 These illustrative fields do not establish mesh/domain independence, shock
 position accuracy, matched benchmark agreement or physical validation.
 
-The owner requested the next paired visual model. Codex selected and implemented
-the setup, operated tools and prepared the record. Fluent and OpenFOAM computed
+Fluent and OpenFOAM computed
 their respective fields. Owner reflection remains unprovided; no independent
-owner implementation, novelty, admissions or aircraft/engine validation is claimed.
-No Git commit, publication or university submission occurred.
+owner implementation, novelty, admissions or aircraft/engine validation is claimed. No Git commit, publication or university submission occurred.

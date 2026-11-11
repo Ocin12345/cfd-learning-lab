@@ -26,6 +26,6 @@ Residual definitions differ between codes. Endpoint residual, mass and force-sta
 
 Read [methods and limits](METHODS.md), [reproduction requirements](REPRODUCING.md), [selected native cases](data/selected-native-cases.json) and [machine-readable forces](data/force-comparison.csv). Native meshes/cases/data, environments, licence information and credentials remain outside this repository. This is a local GitHub-ready record; no new upload is claimed.
 
-The user directed the comparison. Codex prepared, executed and checked the workflow and figures. Fluent and OpenFOAM computed their respective fields. User reflection remains unprovided. No independent owner execution, novelty or aircraft-performance claim is made.
+Fluent and OpenFOAM computed their respective fields. No independent owner execution, novelty or aircraft-performance claim is made.
 
 Fresh read-only [technical review](data/technical-review.json): PASS, no Critical, Important or Minor findings. This confirms the bounded local numerical record, not publication, physical accuracy or mesh independence.

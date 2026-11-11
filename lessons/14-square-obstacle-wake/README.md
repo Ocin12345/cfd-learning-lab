@@ -1,6 +1,5 @@
 # A square obstacle and its steady wake
 
-Completed 2 November 2026; stored under the preceding overnight batch namespace.
 
 ![Actual confined square-obstacle wake square-wake-steady-tracers.gif](../../images/2026-11-01-square-wake-v001/square-wake-steady-tracers.gif)
 
@@ -28,9 +27,6 @@ selected from actual native-field timing.
 
 [Methods and actual metrics](../../docs/SQUARE_WAKE_METHODS.md),
 [numerical outcomes](../../results/square-wake-v001/selected-results.json) and
-[captions](../../images/2026-11-01-square-wake-v001/CAPTIONS.md) preserve all misses.
-One mesh, square corners, finite blockage and the fixed iteration cap limit
+[captions](../../images/2026-11-01-square-wake-v001/CAPTIONS.md) preserve all misses. One mesh, square corners, finite blockage and the fixed iteration cap limit
 interpretation. No mesh/domain independence, unbounded-flow prediction or
-benchmark/physical validation is established. The owner directs progression;
-Codex selected, implemented and operated this setup; the solvers computed fields.
-Owner reflection and independent owner implementation remain unprovided.
+benchmark/physical validation is established. The owner directs progression. The solvers computed fields.

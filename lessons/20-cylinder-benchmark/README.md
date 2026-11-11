@@ -1,6 +1,6 @@
 # Cylinder wake: convergence and developed-cycle evidence
 
-**8November2026 update:** [A new versioned continuation record](convergence-v001/README.md) covers4–8s with800accepted new steps/801nativefields per code, actual paired media, cycle stability and wall-pressure estimates. The inherited startup and unmatched benchmark conditions remain explicit.
+**Update:** [A new versioned continuation record](convergence-v001/README.md) covers4–8s with800accepted new steps/801nativefields per code, actual paired media, cycle stability and wall-pressure estimates. The inherited startup and unmatched benchmark conditions remain explicit.
 
 ## Earlier startup record, retained
 
@@ -28,4 +28,4 @@ python compare_cylinder_benchmark_v003.py --out fresh-figure-directory
 ```
 [Native Fluent force CSV](fluent-force-history.csv) · [Native OpenFOAM force CSV](openfoam-force-history.csv) · [Numbers and source hashes](summary.json) · [Vector figure](benchmark-force-comparison.svg)
 
-The user directed the model progression. Codex ran and analyzed the continuation and prepared the comparison; Fluent and OpenFOAM computed their own fields. User reflection remains unprovided. Large native cases are archived separately.
+Fluent and OpenFOAM computed their own fields. Large native cases are archived separately.

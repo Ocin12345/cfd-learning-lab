@@ -1,6 +1,6 @@
 # CFD study index
 
-Browse 50 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
+Browse 50 numbered study records, including numerical benchmarks, sensitivity checks and solver follow-ups. For one entry per distinct model, see the [CFD project index](MODEL_INDEX.md).
 
 [Portfolio home](../README.md) · [Aerodynamics and wakes](#aerodynamics-and-wakes) · [Internal flows and transport](#internal-flows-and-transport) · [Heat transfer](#heat-transfer) · [Compressible flow](#compressible-flow) · [Free-surface flow](#free-surface-flow)
 

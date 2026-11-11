@@ -1,6 +1,6 @@
 # Project errata
 
-## 1 November 2026: R40 native Fluent pressure caption
+## R40 native Fluent pressure caption
 
 The preserved [v001 native-export caption](../images/2026-11-01-airfoil-domain40-fluent-native-v001/caption.md) incorrectly described the Fluent **operating pressure as 0 Pa**. It confused operating pressure with the **0 Pa gauge pressure reference**. The saved R40 continuation and its solver settings use **operating pressure 101325 Pa**, **outlet gauge pressure 0 Pa** and **force/plot reference pressure 0 Pa gauge**. The [corrected v002 caption and unchanged PNG copies](../images/2026-11-01-airfoil-domain40-fluent-native-v002/caption.md) preserve the original labels, interpolation and displayed ranges. The v001 images, caption and manifest remain unchanged as historical evidence.
 

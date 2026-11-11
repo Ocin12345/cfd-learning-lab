@@ -23,4 +23,4 @@ A 40-step smoke run preceded the accepted runs. The first central-advection atte
 
 Copy the coarse and fine input folders into a writable OpenFOAM Foundation 14 directory. In each case run `blockMesh > mesh.log`, `checkMesh > check-mesh.log`, `foamPostProcess -func writeCellCentres -time 0 > centres.log` and `foamRun > solver.log`. Run [the audit script](audit_poiseuille.py) with NumPy and Matplotlib, passing the parent directory of the two runs, [the input hashes](case-inputs/input-sha256.json), and `--export` with a new output directory.
 
-The project owner directed the portfolio expansion. Codex prepared and checked the cases, ran the workflow and produced the figures. OpenFOAM computed the fields.
+OpenFOAM computed the fields.

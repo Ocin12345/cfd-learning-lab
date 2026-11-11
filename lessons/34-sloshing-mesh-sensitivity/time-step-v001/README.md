@@ -57,4 +57,4 @@ This is a methods/execution archive, not a portable native restart bundle. Nativ
 
 Two time steps on one fine grid do not establish observed order, time/mesh/domain independence, damping validation, a continuum interface or experimental/aircraft accuracy. Interface, wall-layer and startup discretisation effects remain. The smaller-step trajectory includes the stated exact checkpoint restart; there is no independent uninterrupted-repeat or unique-discrepancy-cause claim. The original mesh study and all earlier failures remain preserved.
 
-The owner requested paired sloshing models and visuals and authorised background improvements. Codex prepared, executed, diagnosed, checked and documented the study; ANSYS Fluent and OpenFOAM computed the native fields. Owner execution and reflection have not been supplied or invented. No research novelty, admissions outcome, university submission or new GitHub upload is claimed.
+ANSYS Fluent and OpenFOAM computed the native fields. No research novelty, admissions outcome, university submission or new GitHub upload is claimed.

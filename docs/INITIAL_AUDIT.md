@@ -1,4 +1,4 @@
-# Initial evidence audit - 1 November 2026
+# Initial evidence audit
 
 This audit reads existing saved outputs; it is not a new Fluent calculation.
 
@@ -47,8 +47,6 @@ processes and only one session.
 GitHub connector search and accessible repository listing found no
 `Ocin12345/cfd-learning-lab`. Local preparation is not publication.
 
-Codex performed the audit and drafted this record. No owner prediction or
-reflection has yet been supplied.
 
 ## Subsequent status
 

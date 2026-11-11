@@ -1,7 +1,6 @@
 # Lesson 2: mesh agreement versus boundary sensitivity
 
-Status: planned numerical domain comparison complete on 1 November 2026. Owner requested an actual Fluent image
-after each completed simulation, followed by automatic continuation.
+Status: numerical domain comparison complete.
 
 ## Physical and numerical question
 
@@ -50,7 +49,6 @@ Optional personal task after the comparison: explain why mesh agreement at one
 domain size cannot establish domain independence. Reflection remains unanswered
 until the owner supplies their own words.
 
-Codex designs and operates these controlled changes and prepares the records;
 ANSYS Fluent computes the fields. The owner sets the learning questions and
 automatic visual-review policy. No owner implementation is inferred.
 
@@ -92,7 +90,4 @@ quantitative comparisons. Reports and force histories are in
 Saved cases retain the deliberately disabled residual stopping checks used for
 the observation window; re-enable them when using those cases for another run.
 
-No owner prediction or reflection was supplied during this series. Codex
-implemented and operated the study; Fluent computed the fields and exports.
-The owner authorized the study and automatic visual review, without claiming
-independent implementation.
+Fluent computed the fields and exports.

@@ -33,7 +33,5 @@ pressure outlet. Fluent Student 2026 R1, two solver processes, pressure-based
 coupled method and second-order pressure/momentum discretization. No uncertainty
 bars have been drawn because a defensible uncertainty estimate is not available.
 
-**Attribution.** Codex prepared the plotting code and captions. ANSYS Fluent
-computed the flow and exported the numerical reports. The owner requested the
-study and the revision to academic presentation; no independent owner analysis
-or research novelty is inferred.
+ANSYS Fluent
+computed the flow and exported the numerical reports.

@@ -66,9 +66,9 @@ Large native fields, installed dependencies, licence files and credentials stay 
 
 ## Contributions
 
-The user requested interesting paired models, visual results and autonomous continuation. Codex selected and implemented the case, corrected the energy setup, ran the numerical checks and made the visualizations. ANSYS Fluent and OpenFOAM computed their own fields. No independent user execution or reflection is invented. This is a locally prepared learning record; this turn does not claim a GitHub upload.
+ANSYS Fluent and OpenFOAM computed their own fields. This is a locally prepared learning record; this turn does not claim a GitHub upload.
 
 
-## Cavity spatial comparison — 8 November 2026
+## Cavity spatial comparison
 
 The [paired 48/96-cell-per-side comparison](../31-convection-time-step/spatial-v001/README.md) retains dt = 0.01 s through 20 s, accepted numerical histories, actual native-field media and disclosed initialisation/energy limits. At 20 s the restricted velocity response is 0.63445% in Fluent and 0.60716% in OpenFOAM. This improves studies 30/31 without adding a model or claiming independence, physical validation or a new upload.

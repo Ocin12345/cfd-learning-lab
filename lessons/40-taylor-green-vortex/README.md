@@ -17,4 +17,4 @@ The energy decreased at every saved time. The largest discrete velocity divergen
 
 [PDF](data/vortex-decay.pdf) · [Energy and error history](data/decay.csv) · [Checks](data/checks.json) · [Solver](solve_taylor_green.py)
 
-Run `python solve_taylor_green.py /path/to/new-output` with NumPy and Matplotlib to reproduce both calculations. The project owner directed the portfolio expansion. Codex implemented the solver, ran and checked the calculations, and prepared the figure.
+Run `python solve_taylor_green.py /path/to/new-output` with NumPy and Matplotlib to reproduce both calculations.

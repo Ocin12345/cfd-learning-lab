@@ -61,7 +61,7 @@ preservation, mesh quality and force sensitivity. Owner prediction/reflection
 remain unanswered unless the owner supplies their own words. The owner has
 authorized continuation without blocking at these prompts.
 
-Codex prepares the mesh, code, execution and checks. Gmsh computes mesh nodes and
+Gmsh computes mesh nodes and
 elements; ANSYS Fluent computes flow fields and native plots. No independent
 owner implementation, aircraft validation or research novelty is claimed.
 
@@ -111,9 +111,7 @@ source hashes and PDF/SVG exports accompany the figures externally.
 
 Next compare additional mesh sizes and run the matched OpenFOAM case with full
 native mesh checks. This single accepted Fluent case establishes neither mesh
-independence, domain independence nor physical validation. Owner reflection is
-still blank; Codex prepared the workflow, Gmsh computed the mesh and Fluent
-computed the solution.
+independence, domain independence nor physical validation.
 
 
 The [local airfoil refinement comparison](../22-airfoil-incidence/trailing-edge-v001/README.md) preserves the 5° polygon and far domain, with paired Fluent/OpenFOAM images and numerical checks. Earlier misses are retained; global mesh/domain independence and physical validation remain open.

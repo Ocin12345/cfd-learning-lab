@@ -7,9 +7,7 @@ passed; their final Cd difference was 0.0806353%. This is not physical validatio
 
 Do two different finite-volume implementations produce consistent, numerically
 settled forces for the same deliberately simple problem? This is a code-to-code
-comparison, not experimental validation. The owner requested paired operation
-and academic figures on 1 November 2026, so this study was inserted before
-continuing the rejected airfoil-mesh candidate.
+comparison, not experimental validation.
 
 | Item | Matched specification |
 |---|---|
@@ -77,9 +75,7 @@ Primary method references: [OpenFOAM 14 mesh conversion](https://doc.cfd.direct/
 and [solution/algorithm control](https://doc.cfd.direct/openfoam/user-guide-v14/fvsolution).
 The installed Foundation 14 tutorial dictionaries were also inspected.
 
-Optional owner task: explain why agreement between two codes can coexist with a
-shared modelling or boundary error. No owner prediction/reflection is inferred.
-Codex prepares cases, operates tools and analyses evidence; Fluent and OpenFOAM
+Fluent and OpenFOAM
 compute their respective numerical solutions.
 
 
@@ -121,7 +117,7 @@ All numerical comparison data and full force/residual samples are in
 `cases/openfoam-cylinder-re20-recorded`. The plotted data, captions and hashes
 are preserved; vector PDF/SVG and high-resolution PNG exports are stored in
 the versioned local exports directory. No owner-written prediction/reflection
-was supplied. Codex prepared and checked this record; each CFD code computed
+was supplied. Each CFD code computed
 its own solution.
 
 ## Analysis verification

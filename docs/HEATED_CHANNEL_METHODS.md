@@ -140,7 +140,6 @@ RAM, disk, native quality and the actual licence before each launch.
 - [prepare_openfoam_heated_channel_production_v005.py](../scripts/prepare_openfoam_heated_channel_production_v005.py)
 - [prepare_openfoam_heated_channel_v002.py](../scripts/prepare_openfoam_heated_channel_v002.py)
 
-Rejected setup/audit versions remain preserved. The owner directs progression;
-Codex selects, implements and operates; ANSYS/OpenFOAM compute. No independent
+Rejected setup/audit versions remain preserved. The owner directs progression. ANSYS/OpenFOAM compute. No independent
 owner execution, reflection, research novelty, physical validation, mesh/time
 independence, Git publication or university submission is claimed.

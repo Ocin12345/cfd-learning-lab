@@ -10,10 +10,8 @@ The main GIF uses 61 actual saved states over 0–3 s; the early GIF uses 101
 states over 0–0.5 s. Playback is 50 ms per frame. Actual settled map repeats
 are retained. Temperature evolves while each solver's own computed flow stays fixed.
 
-The generic fluid enters at 300 K; stationary walls are held at 350 K.
-[Methods, assumptions and numerical limits](../../docs/HEATED_CHANNEL_METHODS.md)
+The generic fluid enters at 300 K; stationary walls are held at 350 K. [Methods, assumptions and numerical limits](../../docs/HEATED_CHANNEL_METHODS.md)
 and [recorded outcomes](../../results/heated-channel-v001/selected-results.json)
 retain all primary and auxiliary misses. The initial unsolved heat rate is
 unavailable, not a valid zero. No physical validation or mesh/time independence
-is established. The owner directs progression; Codex prepares and operates;
-ANSYS and OpenFOAM compute the fields. Owner reflection is unprovided.
+is established. The owner directs progression. ANSYS and OpenFOAM compute the fields.

@@ -105,5 +105,4 @@ fresh versioned paths and explicitly review guarded path-only script copies;
 never overwrite these records or resume a rejected case automatically. The same
 unchanged numerical criteria apply to a replay. No extra mesh, parameter sweep,
 cap extension, dependency installation, Git staging/commit/push or submission
-was added by the record. Owner direction, Codex implementation and solver
-computation are separated in the visual record; reflection remains unprovided.
+was added by the record. Reflection remains unprovided.

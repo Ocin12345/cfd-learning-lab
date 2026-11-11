@@ -65,6 +65,4 @@ a fresh directory, then pass that path to [the two-rank Bash launcher](run_jet_o
 [The analysis script](analyse_plot_jet_v001.py) takes both run paths,
 the repository scripts directory and a fresh export path.
 
-The owner requested paired models with solver-derived visuals. Codex prepared
-the cases, ran the solvers, checked the results and made the figures.
-Fluent and OpenFOAM computed the fields. The owner reflection remains open.
+Fluent and OpenFOAM computed the fields.

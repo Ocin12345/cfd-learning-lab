@@ -8,7 +8,7 @@ RK4 uses actual bilinearly interpolated native-centre velocity only when all fou
 
 Common travel-clock duration: 24.0s, replayed in2.4s. Seed injection times(s): [0.0, 6.0, 12.0, 18.0].
 
-Native numerical audits and every missed criterion remain explicit. Pictures and solver agreement do not establish accuracy, benchmark agreement, mesh independence or physical validation. ANSYS Fluent/OpenFOAM computed the fields; Codex prepared code/operations/visualization; no independent user execution or reflection is claimed.
+Native numerical audits and every missed criterion remain explicit. Pictures and solver agreement do not establish accuracy, benchmark agreement, mesh independence or physical validation. ANSYS Fluent/OpenFOAM computed the fields.
 
 ANSYS Fluent: declared numerical checks passed
 OpenFOAM: declared numerical checks passed

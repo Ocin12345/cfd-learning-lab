@@ -8,7 +8,7 @@ Dotted reference profiles are exact cell averages of the continuous1D Dirichlet 
 
 E=sum(rho*c*V*(T-300K)); nativeQ is signed positive into the solid. Global backward-Euler balance uses(E_n-E_prev)/2s minus summed nativeQ_n. Paired heat-rate/residual figures use only solved times2..200s. Fluent initialQ is explicitly unsolved; actual OpenFOAM time0boundary powers remain in its native audit and are omitted from paired plots. No time0Euler balance is invented. Energy/power plots divide by native depth1m(Fluent)or.01m(OpenFOAM); rawJ/W remain in metrics. Insulation is reported separately and is not sole conservation proof. No all-cell thermal flux conservation is claimed.
 
-This is numerical verification of an ideal material/PDE model, not experimental physical validation or timestep/mesh independence. The user directs the project; Codex selected/prepared the model and workflow; solvers computed fields. No user reflection or independent user execution is invented.
+This is numerical verification of an ideal material/PDE model, not experimental physical validation or timestep/mesh independence. The user directs the project. Solvers computed fields.
 
 ANSYS Fluent: declared numerical checks passed
 OpenFOAM: declared numerical checks passed

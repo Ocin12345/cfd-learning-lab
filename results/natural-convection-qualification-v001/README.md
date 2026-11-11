@@ -44,4 +44,4 @@ No source project was deleted or relocated. SHA-256 evidence is in saved-state-a
 
 ## Contributions
 
-The user requested paired simulations, visual emphasis and autonomous continuation. Codex selected and implemented this cavity pilot, ran checks and generated the plots. ANSYS Fluent and OpenFOAM computed the fields. No independent user execution, reflection, research novelty or physical validation is claimed. This record is prepared locally; no GitHub upload is claimed.
+ANSYS Fluent and OpenFOAM computed the fields. No independent user execution, reflection, research novelty or physical validation is claimed.

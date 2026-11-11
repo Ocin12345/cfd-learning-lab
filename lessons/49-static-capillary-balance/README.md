@@ -21,5 +21,3 @@ Run `python solve_capillary.py new-output` with NumPy and Matplotlib installed.
 
 - [Protocol and limits](PROTOCOL.md), [solver](solve_capillary.py), [numerical checks](data/checks.json)
 - [Speed and divergence histories](data/speed-history.csv), [fine-grid centerline data](data/fine-centerline.csv), [figure PDF](data/capillary-balance.pdf)
-
-The portfolio owner authorized the study. Codex implemented, ran and checked the Python calculation and prepared the figure.

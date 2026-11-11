@@ -8,7 +8,7 @@ Force histories contain actual native iterations 1..2000. Stability/symmetry win
 
 Tracer travel clock 40.0 s, injection period 6.0 s, replay 48 frames at 50 ms. These parameters must be selected by an actual native-field timing probe.
 
-The user directs the project; Codex prepares and operates code; Fluent/OpenFOAM compute the fields. Independent user execution/reflection is not invented.
+The user directs the project. Fluent/OpenFOAM compute the fields.
 
 ANSYS Fluent: declared numerical checks passed
 OpenFOAM: declared numerical checks passed

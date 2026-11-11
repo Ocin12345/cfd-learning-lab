@@ -1,10 +1,8 @@
 # CFD Learning Lab
 
-An AI-assisted computational fluid dynamics portfolio with ANSYS Fluent and OpenFOAM simulations and focused numerical benchmarks in Python. The collection documents **50 numbered studies**, with simulation results, methods and numerical checks.
+The portfolio contains **20 distinct CFD projects**, covering external and internal flow, heat transfer, compressible flow and free surfaces. Each project links to its simulation setup, computed figures and numerical checks.
 
-**[Browse the full study index](docs/STUDY_INDEX.md)**
-
-[Aerodynamics and wakes](docs/STUDY_INDEX.md#aerodynamics-and-wakes) · [Internal flows](docs/STUDY_INDEX.md#internal-flows-and-transport) · [Heat transfer](docs/STUDY_INDEX.md#heat-transfer) · [Compressible flow](docs/STUDY_INDEX.md#compressible-flow) · [Free-surface flow](docs/STUDY_INDEX.md#free-surface-flow)
+**[Browse the CFD projects](docs/MODEL_INDEX.md)** · [Study records and benchmarks](docs/STUDY_INDEX.md)
 
 ## Selected results
 
@@ -14,7 +12,7 @@ An AI-assisted computational fluid dynamics portfolio with ANSYS Fluent and Open
 | [Dam break over an obstacle](lessons/35-dam-break-over-obstacle/full-production-v001/README.md) | Both solvers formed a jet as the water crossed the obstacle. Breakup details differed on the shared grid. The declared checks passed over the selected 0.5 s trajectory in each solver. | [Numerical checks](lessons/35-dam-break-over-obstacle/full-production-v001/numerical-checks.png) · [Video](lessons/35-dam-break-over-obstacle/full-production-v001/dam-break-development.mp4) |
 | [Cooling an aluminium block](results/cooling-block-plain-v001/README.md) | The block cooled from 320 K to about 318.533 K over 20 s in both solvers. Their final mean temperatures differed by about 0.00050 K. | [Energy checks](results/cooling-block-plain-v001/figures/paired-prefix-energy-checks.png) · [Video](results/cooling-block-plain-v001/cooling-block-plain-comparison.mp4) |
 | [Finite-wing convergence investigation](lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/README.md) | All five Fluent trials missed the continuity target. Residual maps show where the imbalance was concentrated downstream of the wing. | [Residual maps](lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/figures/three-actual-residual-maps.png) · [Convergence histories](lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/figures/qualification-numerics.png) |
-| [Sod shock tube](lessons/50-sod-shock-tube/README.md) | Doubling the grid from 200 to 400 cells reduced the density error against the exact Riemann solution by 37%. | [Profile comparison](lessons/50-sod-shock-tube/data/shock-tube.png) |
+| [Shock tube](projects/shock-tube/README.md) | The OpenFOAM pressure profile at 7 ms had a mean absolute error of 0.110% of the high-side pressure against the exact solution. | [Profile comparison](projects/shock-tube/data/openfoam-shock-tube.png) |
 
 | Dam break at 0.25 s | Cooling block at 20 s |
 | --- | --- |
@@ -24,8 +22,4 @@ An AI-assisted computational fluid dynamics portfolio with ANSYS Fluent and Open
 
 Each study describes its numerical checks and records any missed targets. Some studies vary the mesh, time step or domain size to measure how individual results respond. Experimental validation remains open.
 
-[Study updates](docs/SHOWCASE_IMPROVEMENTS_2026-11-08.md) · [Reproduction notes](docs/REPRODUCING.md) · [Corrections](docs/ERRATA.md) · [Project history](docs/PROJECT_HISTORY.md)
-
-## Contributions
-
-The project owner chose the topics and directed the progression of the studies. Codex prepared meshes and scripts, ran the solver workflows and numerical checks, and prepared the figures and study records. ANSYS Fluent, OpenFOAM, and the Python solvers computed the results described in the individual studies.
+[Reproduction notes](docs/REPRODUCING.md) · [Corrections](docs/ERRATA.md)

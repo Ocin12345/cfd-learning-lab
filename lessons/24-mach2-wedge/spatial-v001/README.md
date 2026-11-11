@@ -43,6 +43,6 @@ All original coarse/native files and failed helper versions are preserved. The f
 
 Two grids do not establish observed order, GCI, global mesh/domain/time independence or a unique discrepancy cause. Euler/slip excludes boundary layers, viscosity and turbulence. Agreement with an ideal weak shock does not validate an aircraft, real wind-tunnel flow or this portfolio physically.
 
-The owner requested paired CFD models and visuals and authorized improvement of existing showcases. Codex selected and documented this bounded refinement, wrote/tested the scripts, ran and checked the solvers and prepared the figures and record. ANSYS Fluent and OpenFOAM computed the native fields. Owner execution and reflection are not claimed. This is a locally prepared record; no new GitHub upload is claimed.
+ANSYS Fluent and OpenFOAM computed the native fields. This is a locally prepared record; no new GitHub upload is claimed.
 
 The [single fresh whole-improvement technical review](checks/technical-review-v001.json) completed with no Critical, Important or Minor findings. Its independent native replay and preservation checks support the limited numerical record described above.

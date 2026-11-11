@@ -47,7 +47,7 @@ Preserved structural failures include a post-Fluent clock auditor that also matc
 
 Edge heat-flux peaks are influenced by cold backflow at nearby side boundaries. This does not establish domain sensitivity, mesh/time independence, observed order, thermal steady state, experimental validation or aircraft accuracy. Native meshes, checkpoints, full logs, installed environments and private files remain outside Git. No new upload is claimed.
 
-The owner requested the paired visual portfolio and authorized background improvements. Codex prepared, executed, diagnosed, checked and documented the work; ANSYS Fluent and OpenFOAM computed the fields. Owner independent execution and reflection have not been supplied or invented. No research novelty, admissions outcome or university submission is claimed.
+ANSYS Fluent and OpenFOAM computed the fields. No research novelty, admissions outcome or university submission is claimed.
 
 
 ## Technical review

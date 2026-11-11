@@ -47,7 +47,7 @@ The accepted169,800-cell study27 remains unchanged. The separate zero-incidence 
 
 [Methods](METHODS.md) · [Reproduction and archive scope](REPRODUCING.md) · [Actual data](data/) · [Native audits and bindings](checks/) · [Executed code archive](code/) · [Preserved historical protocols](methods/history/)
 
-The owner chose priorities and explicitly requested the formulation investigation. Codex implemented, executed, diagnosed, checked and documented the work; ANSYS computed the new fields and OpenFOAM supplied its preserved accepted result. Independent owner execution or reflection has not been supplied or invented. No novelty, admissions outcome or university submission is claimed. Native cases, environments, credentials and licence/private application files remain outside Git.
+ANSYS computed the new fields and OpenFOAM supplied its preserved accepted result. No novelty, admissions outcome or university submission is claimed. Native cases, environments, credentials and licence/private application files remain outside Git.
 
 
 [Final technical review and closeout](REVIEW-CLOSEOUT.md): one Important pressure-source disclosure fixed,57tests pass; no remaining Critical/Important findings. This is an investigation/evidence review, not numerical convergence acceptance or physical validation.

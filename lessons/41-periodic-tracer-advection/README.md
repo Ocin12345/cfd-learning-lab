@@ -14,4 +14,4 @@ The Python finite-volume solver uses 160 uniform cells, the same 460 SSPRK3 step
 
 [PDF](data/periodic-transport.pdf) · [All saved profiles](data/profiles.csv) · [History](data/history.csv) · [Checks](data/checks.json) · [Protocol](PROTOCOL.md) · [Solver](solve_transport.py)
 
-The finite-volume model uses a prescribed velocity in one spatial dimension. Run `python solve_transport.py 41 /path/to/new-output` with NumPy and Matplotlib. The project owner directed the portfolio expansion. Codex implemented and ran the calculations, checked the evidence, and produced the figure.
+The finite-volume model uses a prescribed velocity in one spatial dimension. Run `python solve_transport.py 41 /path/to/new-output` with NumPy and Matplotlib.

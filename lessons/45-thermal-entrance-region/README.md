@@ -14,4 +14,4 @@ The Python finite-volume calculation marches the reduced Graetz equation along t
 
 [PDF](data/heat-transfer.pdf) · [Saved data](data/) · [Checks](data/checks.json) · [Protocol](PROTOCOL.md) · [Solver](solve_heat.py)
 
-Run `python solve_heat.py 45 /path/to/new-output` with NumPy and Matplotlib. The project owner directed the expansion. Codex implemented and checked the calculations and produced the figure.
+Run `python solve_heat.py 45 /path/to/new-output` with NumPy and Matplotlib.

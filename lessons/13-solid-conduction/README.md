@@ -21,10 +21,7 @@ Only solid energy is solved; no fluid motion is simulated.
 
 [Methods and actual metrics](../../docs/THERMAL_SLAB_METHODS.md),
 [numerical outcomes](../../results/thermal-slab-v001/selected-results.json) and
-[captions](../../images/2026-11-01-thermal-slab-v001/CAPTIONS.md) preserve all misses.
-The exact 1D PDE cell-average solution is an analytical reference. Accuracy
-thresholds apply only at 200 s; early boundary-jump/coarse-Euler errors remain.
-This is numerical verification of this ideal PDE, with no experimental physical
-validation or mesh/time independence established. The owner directs the project;
-Codex selected and operated the model; solvers computed the fields. Owner
+[captions](../../images/2026-11-01-thermal-slab-v001/CAPTIONS.md) preserve all misses. The exact 1D PDE cell-average solution is an analytical reference. Accuracy
+thresholds apply only at 200 s; early boundary-jump/coarse-Euler errors remain. This is numerical verification of this ideal PDE, with no experimental physical
+validation or mesh/time independence established. The owner directs the project. Solvers computed the fields. Owner
 reflection and independent owner execution are unprovided.

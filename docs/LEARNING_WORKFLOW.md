@@ -47,11 +47,9 @@ captions, source hashes, vector axes and rendered export checks.
 ## Contributions and publication
 
 The owner selects models and priorities and contributes any work actually
-performed. Codex implements/runs the tools, checks evidence and drafts records.
-Gmsh computes meshes; Fluent and OpenFOAM compute their numerical solutions.
-Keep credentials, connection/licence files, installed dependencies and private
+performed. Gmsh computes meshes; Fluent and OpenFOAM compute their numerical solutions. Keep credentials, connection/licence files, installed dependencies and private
 application records outside Git. Inspect the complete local contents before
-publication. No university submission or admissions claim is authorized.
+publication.
 
 Older lesson folders remain as history of the project. They do not override the
 owner's newer preference for simulation-led work without lesson checkpoints.

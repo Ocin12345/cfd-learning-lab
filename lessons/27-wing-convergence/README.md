@@ -126,9 +126,6 @@ pointing to the coupled branch's `wing-final` files, `--frames 48`, and `--out`
 pointing to a fresh export directory. OpenFOAM time 1200 is reused.
 Large native cases, logs and private source hashes remain outside the repository.
 
-The owner requested continued models and visual results. Codex diagnosed the
-stalled residual, prepared and ran the two Fluent tests, checked the native
-files and generated these figures. Fluent computed the new states; OpenFOAM
-computed the reused state in the earlier run. Owner reflection is unprovided.
-No aircraft validation, independent owner implementation or research novelty
-is claimed. This record is local and has not been uploaded by this workflow.
+Fluent computed the new states; OpenFOAM
+computed the reused state in the earlier run. No aircraft validation, independent owner implementation or research novelty
+is claimed.

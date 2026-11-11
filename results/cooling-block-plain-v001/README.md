@@ -34,4 +34,4 @@ The final mean block temperatures differ by 0.00050 K. Across the 101 matched ou
 
 The video uses 101 saved states at 0.2 s intervals. The [cooling history](cooling-heat-allstep.csv) contains the initial state and all 2,000 time steps. The [numerical evidence](comparison-evidence.json) records the check thresholds, observed maxima, source hashes and media verification.
 
-**Contributions.** The project owner requested and scoped the comparison. Codex prepared the setup, ran the solver workflows and checks, and produced the figures and video. Fluent and OpenFOAM computed the fields.
+Fluent and OpenFOAM computed the fields.

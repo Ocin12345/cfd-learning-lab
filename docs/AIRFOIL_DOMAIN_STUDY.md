@@ -152,8 +152,4 @@ are in `results/airfoil-domain40-fluent-v002`,
 dependencies and large/vector exports stay outside Git on E:. Original projects
 and all failed attempts remain preserved. Supported temp/cache paths are on E:.
 
-The owner selected continued paired model work. Codex selected/implemented the
-controlled extension, operated solvers, checked evidence and drafted records.
-NumPy generated the radial annulus; Fluent and OpenFOAM computed their fields.
-No independent owner implementation, prediction, reflection or novelty is inferred.
-GitHub publication has not occurred.
+NumPy generated the radial annulus; Fluent and OpenFOAM computed their fields. GitHub publication has not occurred.

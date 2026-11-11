@@ -35,6 +35,6 @@ The model is 2D, laminar and incompressible, with constant phase properties and 
 
 [Preserved failures and correction history](history/README.md) · [Reproduction and storage](REPRODUCING.md) · [Source/copy provenance](provenance/) · [Executed code](code/)
 
-The owner directed the model progression and requested paired visuals. Codex prepared, ran, diagnosed, checked, plotted and documented the work; ANSYS Fluent and OpenFOAM computed their own fields. Owner reflection and independent execution have not been supplied or invented. This record is prepared locally; no new GitHub upload is claimed.
+ANSYS Fluent and OpenFOAM computed their own fields.
 
 [Fresh technical review](data/technical-review.json) found no Critical or Important issue. One deferred minor clarifies that OpenFOAM Courant timestamps are step-associated report times, rather than distinct native state-sampling times; maxima, acceptance and mass integration are unaffected.

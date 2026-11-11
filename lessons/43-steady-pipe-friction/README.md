@@ -13,4 +13,4 @@ The Python finite-volume solver balances viscous momentum flux in annular cells 
 
 [PDF](data/pipe-flow.pdf) · [Radial profiles](data/profiles.csv) · [Flow results](data/flow.csv) · [Checks](data/checks.json) · [Protocol](PROTOCOL.md) · [Solver](solve_pipe.py)
 
-This model assumes fully developed axisymmetric axial flow. Run `python solve_pipe.py 43 /path/to/new-output` with NumPy and Matplotlib. The project owner directed the expansion. Codex implemented, ran and checked the calculations and prepared the figure.
+This model assumes fully developed axisymmetric axial flow. Run `python solve_pipe.py 43 /path/to/new-output` with NumPy and Matplotlib.

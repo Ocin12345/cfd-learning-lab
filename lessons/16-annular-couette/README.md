@@ -17,4 +17,4 @@ Frames show actual native velocity states every 0.2 s on a fixed mesh, with a sh
 
 A small visual task: explain why fluid farther from the inner wall starts moving later, and why a fixed outer wall produces a velocity gradient. Owner reflection has not been provided.
 
-The user directed progression and visual priorities. Codex prepared, operated and checked the calculations; Fluent and OpenFOAM computed their own native results. [Reproduction and selected dictionaries](../../cases/openfoam-annular-couette-selected-v001/README.md) explain what is public and what remains in the external native archive.
+Fluent and OpenFOAM computed their own native results. [Reproduction and selected dictionaries](../../cases/openfoam-annular-couette-selected-v001/README.md) explain what is public and what remains in the external native archive.

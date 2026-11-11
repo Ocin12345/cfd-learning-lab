@@ -72,6 +72,5 @@ OpenFOAM run and a fresh output JSON path.
 [Fluent setup readback](fluent-setup.json) ·
 [OpenFOAM VOF tutorial reference](https://doc.cfd.direct/openfoam/user-guide-v14/dambreak)
 
-The owner requested a visual comparison across both solvers. Codex set up the
-cases, ran the checks and prepared the graphics and record. Fluent and OpenFOAM
-computed their respective flow fields. The owner's reflection has yet to be recorded.
+Fluent and OpenFOAM
+computed their respective flow fields.

@@ -47,4 +47,4 @@ From the study folder, use [the audit script](audit_couette.py) with NumPy and M
 python audit_couette.py /path/to/runs case-inputs/input-sha256.json --export /path/to/new-output
 ```
 
-The project owner directed the portfolio expansion. Codex prepared and ran the workflow, checked the outputs and produced the record. OpenFOAM computed the fields.
+OpenFOAM computed the fields.

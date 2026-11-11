@@ -1,6 +1,6 @@
 # Confined square-obstacle wake methods and evidence
 
-Completed 2 November 2026. [Actual visual model](../lessons/14-square-obstacle-wake/README.md).
+[Actual visual model](../lessons/14-square-obstacle-wake/README.md).
 Select the completed fixed 2,000-iteration Fluent run and corrected OpenFOAM v003 setup. Both own numerical audits pass; their separate predeclared paired drag target also passes. Preserve all earlier preparation and parser evidence; no numerical threshold was relaxed.
 
 Geometry is x[0,2], y[-0.4,0.4] m minus square x[0.45,0.55], y[-0.05,0.05] m.

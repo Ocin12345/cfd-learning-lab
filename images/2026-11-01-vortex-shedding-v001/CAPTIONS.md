@@ -10,4 +10,4 @@ Signed vorticity is an explicitly postprocessed numerical reconstruction: area-w
 
 Requested playback is 20 frames/s; GIF uses the nearest 10 ms frame delay, recorded in checks.json. Physical time is printed on every frame; playback speed is separate from physical simulation speed. The exact rendered physical times, any unpaired snapshots, native field ranges, matching-cell differences, and native source hashes are recorded in the accompanying checks and CSVs. Compressed CSVs contain the actual per-cell fields for every paired time; OpenFOAM kinematic p is expressed as Pa using rho=1 kg/m3. Forces are plotted only if actual source force CSVs were supplied.
 
-A transient picture is not evidence of a statistically stationary or periodic shedding state, a validated Strouhal number, mesh independence or physical validation. Fluent and OpenFOAM calculated the fields; Codex reconstructed native topology and prepared exports.
+A transient picture is not evidence of a statistically stationary or periodic shedding state, a validated Strouhal number, mesh independence or physical validation. Fluent and OpenFOAM calculated the fields.
