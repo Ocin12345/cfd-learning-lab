@@ -56,13 +56,10 @@ There are **30 distinct CFD projects** with computed flow fields, figures and nu
 | [Capillary rise between wetting walls](../projects/capillary-rise/README.md) | Follows the oscillating water level in a narrow wetting gap and compares it with a static capillary scale. | — |
 | [Gravity drainage from a slotted tank](../projects/tank-drainage/README.md) | Measures liquid transfer through a bottom slot and the retained liquid in the upper and lower regions. | — |
 | [Overtopping a broad-crested weir](../projects/weir-overflow/README.md) | Follows water across a crest and measures downstream arrival and sampled outlet water flux. | — |
+| [Free-surface flow through a Parshall flume](../projects/parshall-flume/README.md) | Compares native depth and discharge across a three-dimensional metering constriction. | — |
+
 ## Multicomponent flow
 
 | Project | Flow question | Study records |
 | --- | --- | --- |
 | [Miscible lock exchange](../projects/lock-exchange/README.md) | Measures density-driven sludge transport and the advance of a miscible gravity current. | — |
-## Free surfaces and multiphase flow
-
-| Project | Flow question | Study records |
-| --- | --- | --- |
-| [Free-surface flow through a Parshall flume](../projects/parshall-flume/README.md) | Compares native depth and discharge across a three-dimensional metering constriction. | — |
