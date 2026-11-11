@@ -10,7 +10,7 @@ Earlier project notes document OpenFOAM wall-layer and mesh-quality investigatio
 
 ## Ornithopter investigation — mesh qualification in progress
 
-The readiness record dated 16 October 2026 documents a 378,170-cell Gmsh tetrahedral mesh for a simplified fixed-configuration wing-body pilot. All eight wings were retained. The mesh passed several checks, including concavity, but failed two native checks: 6,524 low-determinant cells and 486 low-interpolation-weight faces. It also reported 1,821 severely non-orthogonal faces. A subsequent dual-mesh conversion was rejected.
+The readiness record documents a 378,170-cell Gmsh tetrahedral mesh for a simplified fixed-configuration wing-body pilot. All eight wings were retained. The mesh passed several checks, including concavity, but failed two native checks: 6,524 low-determinant cells and 486 low-interpolation-weight faces. It also reported 1,821 severely non-orthogonal faces. A subsequent dual-mesh conversion was rejected.
 
 No flow solver ran on that pilot mesh. This is geometry/meshing progress, not a prediction of ornithopter flight or a flapping-wing simulation.
 
@@ -24,7 +24,7 @@ The accessible conversation records show the owner choosing the aircraft topics,
 
 ## Evidence inspected
 
-- Ornithopter current-readiness document dated 16 October 2026 and the corresponding chat's latest result.
+- Ornithopter current-readiness document and the corresponding chat's latest result.
 - Concorde introduction source and the corresponding chat recording its revision and PDF compilation.
 - Earlier Concorde mesh-qualification notes, explicitly treated as historical and potentially stale.
 
