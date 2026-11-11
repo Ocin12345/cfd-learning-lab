@@ -1,0 +1,114 @@
+{
+  "pass": true,
+  "gates": {
+    "native_convergence": true,
+    "terminal_residuals": true,
+    "inlet_flow": true,
+    "mass_balance": true,
+    "positive_pressure_drop": true,
+    "velocity_change": true
+  },
+  "cells": 112448,
+  "iterations": 232,
+  "saved_states": 10,
+  "terminal": {
+    "iteration": 232,
+    "Ux": 1.11832449005e-06,
+    "Uy": 1.04324148534e-06,
+    "Uz": 1.91401350751e-06,
+    "p": 9.80554915585e-06,
+    "continuity_sum_local": 4.77440685115e-08,
+    "inlet_flow_m3_s": -0.04,
+    "outlet_flow_m3_s": 0.03999997232467,
+    "relative_flux_imbalance": 6.918832499980265e-07,
+    "inlet_kinematic_pressure_m2_s2": 3.535844650341,
+    "outlet_kinematic_pressure_m2_s2": 0.0
+  },
+  "previous_saved_iteration": 225,
+  "rms_velocity_change_m_s": 5.780445307504418e-06,
+  "terminal_kinematic_pressure_drop_m2_s2": 3.535844650341,
+  "terminal_min_pressure_m2_s2": 0.006268005531,
+  "terminal_max_speed_m_s": 0.4144971381906145,
+  "path_polyline_length_m": 47.59607811703633,
+  "geometry": {
+    "inlet": {
+      "faces": 448,
+      "area_m2": 0.195090636884,
+      "outward_unit_normal": [
+        0.0,
+        1.1114856046424848e-18,
+        -1.0
+      ],
+      "point_centre_m": [
+        2.8949363814150585e-18,
+        -1.3236126651109057e-17,
+        -0.10000000000000084
+      ]
+    },
+    "outlet": {
+      "faces": 448,
+      "area_m2": 0.19508974207914084,
+      "outward_unit_normal": [
+        -0.011481216370818378,
+        -0.20313899899083646,
+        -0.9790825954737666
+      ],
+      "point_centre_m": [
+        1.153137264516129,
+        3.152416387096772,
+        10.373047741935483
+      ]
+    }
+  },
+  "native_sha256": {
+    "input-sha256.txt": "f9abfd1e602861c43163d43579c383e97c0ee4fab3609aee4f7ead2528805235",
+    "0/C": "d43c16e5e076cee7e44343875b1055c5e37e52ce8700c1fb62638d3ba8cdd5b5",
+    "0/Ccx": "aab8396c6e306ae41d105e26a91b00c86d260014d5661709bfef31534173eba7",
+    "0/Ccy": "4670127398c22bd4a67667197433645fae0ff8039969c1fa9a4579b32aabc5cb",
+    "0/Ccz": "979c173d64ea41ec2f3faa5733eada84d993fe15d6a8946a70cb047ee5358a6c",
+    "0/U": "5baaf89362a04e3f75495bdce0d30cf58490f2e9215047caad1e22dc30d09e37",
+    "0/Vc": "db40ef9781f9f122b24628f10b784e6ce58d4ccb84524bae81138ca62485ef54",
+    "0/p": "1975aa54a8ce097aabd76346b3061226a2180e619e5987513f1d0096416b6263",
+    "VTK/inlet/inlet_0.vtk": "23b31db6305cb6b49749f5f71718a64149afb78e10faac8738fda04fce0ae8c8",
+    "VTK/outlet/outlet_0.vtk": "db61a1aa2e14f07b81c1e02b3b0635d255e2a42f859cebca306ca5d6f9a0aff8",
+    "constant/geometry/curve.obj.gz": "9e4b4c66b6a4d32a24d06e5aa78d0213718242ba82b1ca4f794dddfe7038f98c",
+    "constant/momentumTransport": "66eab3db8efd5de004e039fde7e934218d60a092eda599a7b9dbfc4cb907fb33",
+    "constant/physicalProperties": "4ca48e84d034df8d9ccdaccb6f0baf634870209d5a9e3f4a0fd2cdb26ee69a5a",
+    "constant/polyMesh/boundary": "cc072bdb03a39fd32c697779069cb20aad6dd5d62ab5cb55a9b801f337f3d23e",
+    "constant/polyMesh/faces": "9a66c908830540621e9b404355e4b3c629cd2e0e27a69314419c64ba9ed77e1b",
+    "constant/polyMesh/neighbour": "22f7a17a1d5b7cf6ca935f296ad3cae14e6054ee64a95ea6c9dab464f3a9de93",
+    "constant/polyMesh/owner": "0583062b984db95198e457cbb237bc8b3c2bac96f399d3e66058e2e41d90a0a7",
+    "constant/polyMesh/points": "1970f53c3d6731140506656b5b6abbb700e5a7199899c5270a84d9717dcffad1",
+    "constant/polyMesh/sets/addedCells": "cf261adecbb397c50459b41870f5e92ffa935d4c0bcace0cb43e53a038288d5a",
+    "system/controlDict": "74d357a59d5a6ded07e2bef032e2ee76d22f7441ff8d392acd94bcd7bc74390b",
+    "system/functions": "f6bb2c354953a41db46a411f2e4f2e76825e4b2950f44c37992a5f7a8d0c51cf",
+    "system/fvSchemes": "46a53e4ea3c9afc5bc3339eca0efabe57ca39b17ccbd222489ff90cd416a0397",
+    "system/fvSolution": "4e2e54650a1f419e26585e9e50cc075cd80e59020c198d42ee452a9549a237bd",
+    "inputs-verified.log": "d980a3e7659308447230ffc67b7567a9e4fa7933f488fac01662084a544d6615",
+    "extrude.log": "fcf3d0071d128f44682d9abca6b1e99a9e635b2f631d43262a539d98fb92ea99",
+    "patch-export.log": "f5a68a745a871c23ae82ae1edb9dc3a8bae841fd1f53d00911fe9f8e123fc22b",
+    "centres.log": "33c72f7f8d7c56b8ab472c854e1e1509823ae503a25a1f4db27970546b1f8535",
+    "volumes.log": "48eda6241240c1a97872f3e1ff27b63c6646cb52d52daeb3f1fe635de85db359",
+    "mesh-sha256.txt": "6a4d01c9011113148f748e826cf019728040fc6192d913fa25e5ca9e0bb62d45",
+    "check-mesh.log": "30d44ee24e612ccd75a4ca31c67b303fe498c9a852329e3034e023e71c8e8485",
+    "solver.log": "d4c1f8d0212968629f245855ea49e940e8072abf2db2443a778e7217124d5532",
+    "postProcessing/patchFlowRate(patch=inlet)/0/surfaceFieldValue.dat": "0b21487fd50a1d6f2c1cd685a1bfd20516f7b6b46b2237c3f1d2a93f3b4c03fa",
+    "postProcessing/patchFlowRate(patch=outlet)/0/surfaceFieldValue.dat": "c3f33dcefbc2b46882d2d0d963e728f00b04f965ac88781f7824686d790d34e3",
+    "postProcessing/patchAverage(patch=inlet,fields=(p))/0/surfaceFieldValue.dat": "414d824b34516f455ede348539c170a2cc39c3f4ca4bf317e1b3a6381e36dd46",
+    "postProcessing/patchAverage(patch=outlet,fields=(p))/0/surfaceFieldValue.dat": "0b0d46496f9e80674c547d607e812a13c4b94e5dea37ed1855abac8a077278cd",
+    "25/uniform/time": "f5d6f29df80b1941357f02a8e9bcb1e15ef753da5d7cbbd11a8055ec390c0465",
+    "50/uniform/time": "5fc1facf3bca463f1995146ddfb5de7e5ee6d3acce39e7838596b42335af9f59",
+    "75/uniform/time": "e6554903defbae60b5fa0b62f952d03b766577f278ce6e6ad23502527645c28c",
+    "100/uniform/time": "b41eb5f373c32628d1dee217cd134b2754b28983fc88d325646a2fa168cdc34f",
+    "125/uniform/time": "08f1fb8980aa2cfd7e2d00d85843701d9eb35a50aa7abb68b8b171017c41a28d",
+    "150/uniform/time": "745466a7f85b5dc2fcd0d4be21286f5702e3b47766c1b05e83dfba00a3c59a21",
+    "175/uniform/time": "0f8171c08479e4da65eee042417b7cfed9e6a85f727bdf0ee8061e63c7e0ff65",
+    "200/uniform/time": "5d1bfad5e23953fe05740fc17aa61478c0a483d420082ae9835bbf02ac7ddcb1",
+    "225/uniform/time": "cea7f4f13a5020a9703fa9ae691eac38feb934938ede937b82adf5d2549db8a9",
+    "232/uniform/time": "0e0f69b9597651f051a2024d73d2930661e44cf82eb2f2c47041d46e6c5cf6c6",
+    "232/U": "89735db7af94755dd01baf382604bef51d271474fadc97f12ebd78002c47079e",
+    "232/p": "4b16e058c79b503d9558040418d90450a6b333b0ee4699d17e3b5c109ded00d7",
+    "225/U": "6d6f710d7bac9c80059e645eaaeaa651f69a2c4b0770da0e0e27e1cf4108c0ad",
+    "232/phi": "ffcd4480a4713ad9ac0ae72ec4677bcd96971aada21cbbe4acdaf1aa0c3d4b35"
+  }
+}
