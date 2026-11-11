@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **24 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **25 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -52,3 +52,8 @@ There are **24 distinct CFD projects** with computed flow fields, figures and nu
 | [Capillary rise between wetting walls](../projects/capillary-rise/README.md) | Follows the oscillating water level in a narrow wetting gap and compares it with a static capillary scale. | — |
 | [Gravity drainage from a slotted tank](../projects/tank-drainage/README.md) | Measures liquid transfer through a bottom slot and the retained liquid in the upper and lower regions. | — |
 | [Overtopping a broad-crested weir](../projects/weir-overflow/README.md) | Follows water across a crest and measures downstream arrival and sampled outlet water flux. | — |
+## Multicomponent flow
+
+| Project | Flow question | Study records |
+| --- | --- | --- |
+| [Miscible lock exchange](../projects/lock-exchange/README.md) | Measures density-driven sludge transport and the advance of a miscible gravity current. | — |
