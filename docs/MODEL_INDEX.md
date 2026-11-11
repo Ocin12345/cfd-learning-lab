@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **39 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **40 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -81,3 +81,4 @@ There are **39 distinct CFD projects** with computed flow fields, figures and nu
 | Project | Flow question | Study records |
 | --- | --- | --- |
 | [Floating body response to a displaced free surface](../projects/floating-body-response/README.md) | Tracks constrained rigid-body motion, water inventory and adaptive mesh changes in a tank. | — |
+| [Water-film spreading on a vertical panel](../projects/rivulet-panel/README.md) | Tracks wetting, liquid volume and rivulet development on an initially dry wall. | — |
