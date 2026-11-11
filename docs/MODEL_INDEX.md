@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **48 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **49 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -100,3 +100,4 @@ There are **48 distinct CFD projects** with computed flow fields, figures and nu
 | Project | Flow question | Study records |
 | --- | --- | --- |
 | [Buoyant flow and radiation from a hot box](../projects/radiating-room/README.md) | Compares air temperature and incident radiation near and far from a hot box. | — |
+| [Condensation from humid air](../projects/condensing-vapour/README.md) | Liquid formation and humidity reduction in a cooled duct with wall and solid-surface condensation. | — |
