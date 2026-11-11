@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **54 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **55 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -16,6 +16,7 @@ There are **54 distinct CFD projects** with computed flow fields, figures and nu
 | [Slow flow around a fixed sphere](../projects/creeping-sphere/README.md) | Three-dimensional laminar drag compared with the unbounded Stokes limit at diameter Reynolds number 0.1. | — |
 | [Ground effect around a sports prototype](../projects/sports-prototype-ground-effect/README.md) | Compares flat-floor and rear-diffuser forces with rotating wheels and a moving road. | — |
 | [30P30N high-lift aircraft section](../projects/30p30n-high-lift-section/README.md) | Measures lift, drag and surface pressure on a three-element slat, main airfoil and flap. | — |
+| [Ground effect on an open-wheel formula car](../projects/open-wheel-formula-car/README.md) | Resolves front-wing and underfloor flow and component loads with a moving road and rotating wheels. | — |
 
 ## Internal flows
 
