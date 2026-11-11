@@ -1,6 +1,6 @@
 # CFD study index
 
-Browse 45 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
+Browse 46 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
 
 [Portfolio home](../README.md) · [Aerodynamics and wakes](#aerodynamics-and-wakes) · [Internal flows and transport](#internal-flows-and-transport) · [Heat transfer](#heat-transfer) · [Compressible flow](#compressible-flow) · [Free-surface flow](#free-surface-flow)
 
@@ -57,6 +57,7 @@ Browse 45 numbered studies. The original study numbers identify related runs and
 | 32 | [Plume above a floor heater](../lessons/32-heater-plume/README.md) | Compares the flow and heat transfer above a localized heater. |
 | 36 | [Cooling an aluminium block in airflow](../results/cooling-block-plain-v001/README.md) | Compares 20 s of conjugate heat transfer in Fluent and OpenFOAM, with temperature fields, video and discrete energy checks. |
 | 45 | [Thermal entrance region between heated plates](../lessons/45-thermal-entrance-region/README.md) | Compares bulk temperature and wall heat transfer with a fine Graetz eigenmode reference. |
+| 46 | [Heat conduction across a bonded interface](../lessons/46-bonded-layer-conduction/README.md) | Tests flux conservation and temperature continuity for two materials with different conductivities. |
 
 ## Compressible flow
 

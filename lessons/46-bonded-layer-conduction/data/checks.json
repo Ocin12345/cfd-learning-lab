@@ -1,0 +1,39 @@
+{
+  "study": 46,
+  "exact_heat_flux_W_m2": 909.0909090909091,
+  "exact_interface_temperature_K": 318.1818181818182,
+  "results": [
+    {
+      "cells": 20,
+      "face_model": "series resistance",
+      "flux_W_m2": 909.0909090909336,
+      "relative_flux_error": 2.6867397195928788e-14,
+      "max_temperature_error_K": 1.7053025658242404e-13,
+      "extrapolated_interface_temperature_jump_K": 0.0
+    },
+    {
+      "cells": 20,
+      "face_model": "arithmetic conductivity",
+      "flux_W_m2": 940.5728943993252,
+      "relative_flux_error": 0.03463018383925753,
+      "max_temperature_error_K": 0.5981577208597173,
+      "extrapolated_interface_temperature_jump_K": -0.6926036767849837
+    },
+    {
+      "cells": 40,
+      "face_model": "series resistance",
+      "flux_W_m2": 909.0909090909433,
+      "relative_flux_error": 3.774758283725532e-14,
+      "max_temperature_error_K": 7.958078640513122e-13,
+      "extrapolated_interface_temperature_jump_K": 0.0
+    },
+    {
+      "cells": 40,
+      "face_model": "arithmetic conductivity",
+      "flux_W_m2": 924.5639840303908,
+      "relative_flux_error": 0.017020382433429848,
+      "max_temperature_error_K": 0.3017249613166655,
+      "extrapolated_interface_temperature_jump_K": -0.34040764866568907
+    }
+  ]
+}
