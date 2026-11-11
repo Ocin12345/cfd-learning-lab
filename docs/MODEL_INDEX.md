@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **35 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **36 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -62,6 +62,7 @@ There are **35 distinct CFD projects** with computed flow fields, figures and nu
 | [Gravity drainage from a slotted tank](../projects/tank-drainage/README.md) | Measures liquid transfer through a bottom slot and the retained liquid in the upper and lower regions. | — |
 | [Overtopping a broad-crested weir](../projects/weir-overflow/README.md) | Follows water across a crest and measures downstream arrival and sampled outlet water flux. | — |
 | [Free-surface flow through a Parshall flume](../projects/parshall-flume/README.md) | Compares native depth and discharge across a three-dimensional metering constriction. | — |
+| [Liquid redistribution in a periodic trayed pipe](../projects/periodic-trayed-pipe/README.md) | Follows water as it spreads around six alternating baffles under gravity. | — |
 
 ## Multicomponent flow
 
