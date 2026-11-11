@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **25 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **26 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -27,6 +27,7 @@ There are **25 distinct CFD projects** with computed flow fields, figures and nu
 | [Impinging jet](../lessons/25-impinging-jet/README.md) | Stagnation pressure and wall jets formed when a planar jet hits a plate. | 25, 26 |
 | [Planar diffuser](../lessons/48-planar-diffuser-recovery/README.md) | Pressure recovery and reverse flow in an expanding passage. | 48 |
 | [Circular Venturi meter](../projects/venturi-meter/README.md) | Measures speed, pressure drop and recovery in a three-dimensional circular constriction. | - |
+| [Flow through a Darcy porous blockage](../projects/porous-blockage/README.md) | Measures flow through and around a porous zone and the corresponding pressure drop. | — |
 
 ## Heat transfer
 
