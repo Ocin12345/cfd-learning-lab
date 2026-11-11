@@ -1,0 +1,22 @@
+{
+  "study": 47,
+  "results": [
+    {
+      "cells": 160,
+      "steps": 1000,
+      "maximum_temperature_error_over_step": 0.008979646279918208,
+      "maximum_relative_hot_wall_flux_error": 0.022668622790683823,
+      "maximum_discrete_balance_residual": 1.3166551182663966e-15,
+      "final_hot_wall_flux_W_m2": 11288.715489754537
+    },
+    {
+      "cells": 320,
+      "steps": 2000,
+      "maximum_temperature_error_over_step": 0.003960751204043544,
+      "maximum_relative_hot_wall_flux_error": 0.010301837171720507,
+      "maximum_discrete_balance_residual": 4.933553565678039e-15,
+      "final_hot_wall_flux_W_m2": 11286.08028374657
+    }
+  ],
+  "halfspace_temperature_rise_fraction_at_far_boundary_final": 0.0004069520174449589
+}
