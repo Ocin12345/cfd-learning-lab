@@ -1,0 +1,32 @@
+{
+  "coarse": {
+    "label": "coarse",
+    "cell_count": 320,
+    "time_step_s": 0.0005,
+    "end_time_s": 0.4,
+    "actual_steps": 800,
+    "saved_states": 41,
+    "maximum_normalized_rms_error": 0.0033375686942228857,
+    "maximum_normalized_absolute_error": 0.00953875874528845,
+    "maximum_transverse_velocity_m_s": 7.5330040449587e-14,
+    "maximum_within_row_velocity_spread_m_s": 1.0499934255392418e-13,
+    "maximum_reported_local_continuity_error": 2.3111098984533e-18,
+    "maximum_reported_final_linear_residual": 9.9972279209213e-13,
+    "source_log_sha256": "94942dcc03e56b39e6301e0abfc134a8930abc03207f054e16bbd8667f07530d"
+  },
+  "fine": {
+    "label": "fine",
+    "cell_count": 640,
+    "time_step_s": 0.00025,
+    "end_time_s": 0.4,
+    "actual_steps": 1600,
+    "saved_states": 41,
+    "maximum_normalized_rms_error": 0.0014342810969752303,
+    "maximum_normalized_absolute_error": 0.004105644790867308,
+    "maximum_transverse_velocity_m_s": 7.8481542886431e-14,
+    "maximum_within_row_velocity_spread_m_s": 1.0700121344520142e-13,
+    "maximum_reported_local_continuity_error": 1.0793239937425e-18,
+    "maximum_reported_final_linear_residual": 9.9969312286131e-13,
+    "source_log_sha256": "a7431475e215c858a30187d3b055d1d7b989bb505087856d5740bcb043276008"
+  }
+}

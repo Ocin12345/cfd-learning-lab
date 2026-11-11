@@ -1,6 +1,6 @@
 # CFD study index
 
-Browse 36 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
+Browse 37 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
 
 [Portfolio home](../README.md) · [Aerodynamics and wakes](#aerodynamics-and-wakes) · [Internal flows and transport](#internal-flows-and-transport) · [Heat transfer](#heat-transfer) · [Compressible flow](#compressible-flow) · [Free-surface flow](#free-surface-flow)
 
@@ -36,6 +36,7 @@ Browse 36 numbered studies. The original study numbers identify related runs and
 | 19 | [Tracer pulse through a T-junction](../lessons/19-tracer-tjunction/README.md) | Tracks scalar advection and diffusion through a saved flow field. |
 | 21 | [Double-lid cavity](../lessons/21-double-lid-cavity/README.md) | Compares counter-rotating cells driven by two moving walls. |
 | 25 | [Planar impinging jet](../lessons/25-impinging-jet/README.md) | Compares stagnation pressure and the wall jets formed after impingement. |
+| 37 | [Startup of plane Couette flow](../lessons/37-plane-couette-startup/README.md) | Compares two OpenFOAM resolutions with the analytical development of flow between two plates. |
 
 ## Heat transfer
 
