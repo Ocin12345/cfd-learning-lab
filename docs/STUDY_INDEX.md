@@ -1,6 +1,6 @@
 # CFD study index
 
-Browse 48 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
+Browse 49 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
 
 [Portfolio home](../README.md) · [Aerodynamics and wakes](#aerodynamics-and-wakes) · [Internal flows and transport](#internal-flows-and-transport) · [Heat transfer](#heat-transfer) · [Compressible flow](#compressible-flow) · [Free-surface flow](#free-surface-flow)
 
@@ -76,3 +76,4 @@ Browse 48 numbered studies. The original study numbers identify related runs and
 | 33 | [Water-tank sloshing](../lessons/33-tank-sloshing/README.md) | Compares the motion and depth of water in the tank. |
 | 34 | [Sloshing mesh sensitivity](../lessons/34-sloshing-mesh-sensitivity/README.md) | Compares two grid sizes. [Time-step sensitivity on the fine grid](../lessons/34-sloshing-mesh-sensitivity/time-step-v001/README.md). |
 | 35 | [Dam break over an obstacle](../lessons/35-dam-break-over-obstacle/README.md) | Compares jet formation and breakup. [Full calculation, video and checks](../lessons/35-dam-break-over-obstacle/full-production-v001/README.md). |
+| 49 | [Static capillary balance](../lessons/49-static-capillary-balance/README.md) | Measures the Laplace pressure jump and spurious velocity around a fixed circular interface. |

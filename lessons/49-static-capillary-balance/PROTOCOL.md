@@ -1,0 +1,5 @@
+# Study 49 protocol
+
+A circular interface of radius 8 mm is fixed at the centre of a periodic 40 mm square. A smooth color function spans three cell widths. Use surface tension 0.072 N/m, equal density 1,000 kg/m³ and kinematic viscosity 10⁻⁵ m²/s. Solve a staggered pressure projection for a static capillary force and advance the resulting linear Stokes response from rest through 20 steps of 1 ms. Test 64² and 128² grids with the exact curvature and with curvature reconstructed from centred differences of the signed distance normals.
+
+Require the prescribed-curvature pressure jump to agree with the planar Laplace value of 9 Pa within 10⁻⁹ Pa and peak speed below 10⁻¹² m/s. For reconstructed curvature require relative jump error below 1%, peak speed below 10⁻³ m/s, and both errors to improve with refinement. In both comparisons require discrete divergence below 10⁻⁹ s⁻¹. The interface is fixed, density is uniform and inertial advection is omitted.
