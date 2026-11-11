@@ -1,0 +1,2177 @@
+{
+  "pass": true,
+  "comparison_gates": {
+    "counterflow_improvement": true,
+    "counterflow_refinement": true
+  },
+  "counterflow_relative_duty_mesh_change": 0.000289289809866089,
+  "pressure_drop_analytical_pa": 5.4,
+  "cases": [
+    {
+      "case": "plate-counter-base-v001",
+      "direction": "counter",
+      "fine": false,
+      "cells": 4320,
+      "iterations": 900,
+      "saves": 9,
+      "gates": {
+        "initial_residuals": true,
+        "temperature_bounds": true,
+        "boundary_mass": true,
+        "pressure_drop": true,
+        "positive_duties": true,
+        "port_energy": true,
+        "duty_stability": true,
+        "interface_continuity": true
+      },
+      "pass": true,
+      "relative_sensible_port_energy_error": 2.0977104151788338e-07,
+      "relative_terminal_duty_change": 3.8098358968521065e-13,
+      "terminal_maximum_initial_residual": 8.4954372010223e-10,
+      "saved_metrics": [
+        {
+          "iteration": 100,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019076,
+              "max_T_k": 329.32877883618,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999998118,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.2428063213823,
+              "relative_mass_error": 6.272109567828644e-13,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.352479127003768,
+              "port_conduction_w": 0.012931407077054893,
+              "total_port_sensible_w": 15.365410534080825,
+              "pressure_drop_pa": 5.3779153164048825,
+              "native_inlet_mean_p_pa": 5.355507335919863,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.13931756324,
+              "max_T_k": 331.87831337356
+            },
+            "hot": {
+              "min_T_k": 310.69246720648,
+              "max_T_k": 339.99999981198,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999865,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.78250190560715,
+              "relative_mass_error": 4.499439015814844e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.320742610370296,
+              "port_conduction_w": -0.012937151592810009,
+              "total_port_sensible_w": -15.333679761963106,
+              "pressure_drop_pa": 5.377915316291711,
+              "native_inlet_mean_p_pa": 5.355507335807162,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0016545752899901345,
+              "fluid_outward_heat_w": 15.334030830345563,
+              "plate_outward_heat_w": -15.759835741055854,
+              "face_l1_heat_mismatch_w": 0.4258049107102892
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 6.205099998624064e-05,
+              "fluid_outward_heat_w": -15.365050532316488,
+              "plate_outward_heat_w": 14.938261600691316,
+              "face_l1_heat_mismatch_w": 0.42678893162517006
+            }
+          },
+          "hot_net_rejection_w": 15.333679761963106,
+          "cold_net_gain_w": 15.365410534080825,
+          "hot_effectiveness": 0.3056953700550859,
+          "cold_effectiveness": 0.3063279612057581
+        },
+        {
+          "iteration": 200,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019054,
+              "max_T_k": 329.31802131193,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000484,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.22985472424676,
+              "relative_mass_error": 1.6136542333825926e-13,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.33623782420789,
+              "port_conduction_w": 0.012933995913630151,
+              "total_port_sensible_w": 15.34917182012152,
+              "pressure_drop_pa": 5.377915316001421,
+              "native_inlet_mean_p_pa": 5.355507335518082,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.13038207717,
+              "max_T_k": 331.86966020554
+            },
+            "hot": {
+              "min_T_k": 310.68202977139,
+              "max_T_k": 339.99999981178,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000221,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.7702073341365,
+              "relative_mass_error": 7.372574772901431e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336160002990319,
+              "port_conduction_w": -0.012934008067005209,
+              "total_port_sensible_w": -15.349094011057325,
+              "pressure_drop_pa": 5.377915315932314,
+              "native_inlet_mean_p_pa": 5.355507335449262,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 3.8904599932720885e-06,
+              "fluid_outward_heat_w": 15.349096425671952,
+              "plate_outward_heat_w": -15.350097407411655,
+              "face_l1_heat_mismatch_w": 0.0010009817397011178
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 1.4608997389586875e-07,
+              "fluid_outward_heat_w": -15.349169356107845,
+              "plate_outward_heat_w": 15.348166164505951,
+              "face_l1_heat_mismatch_w": 0.0010031916018952702
+            }
+          },
+          "hot_net_rejection_w": 15.349094011057325,
+          "cold_net_gain_w": 15.34917182012152,
+          "hot_effectiveness": 0.3060026716717968,
+          "cold_effectiveness": 0.30600422288918505
+        },
+        {
+          "iteration": 300,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019054,
+              "max_T_k": 329.31799566144,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00030000000000000014,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.22982415264937,
+              "relative_mass_error": 5.421010862427522e-16,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336199487422395,
+              "port_conduction_w": 0.01293400289054997,
+              "total_port_sensible_w": 15.349133490312944,
+              "pressure_drop_pa": 5.377915315931611,
+              "native_inlet_mean_p_pa": 5.3555073354485625,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.1303614133,
+              "max_T_k": 331.86963956173
+            },
+            "hot": {
+              "min_T_k": 310.68200560519,
+              "max_T_k": 339.99999981178,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000068,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.7701785505447,
+              "relative_mass_error": 2.2768245622195596e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336196097616146,
+              "port_conduction_w": -0.012934001457030008,
+              "total_port_sensible_w": -15.349130099073177,
+              "pressure_drop_pa": 5.377915315920565,
+              "native_inlet_mean_p_pa": 5.355507335437562,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 9.180041615763912e-09,
+              "fluid_outward_heat_w": 15.349131708933133,
+              "plate_outward_heat_w": -15.34913405877755,
+              "face_l1_heat_mismatch_w": 2.3498444159386622e-06
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 3.5004177334485576e-10,
+              "fluid_outward_heat_w": -15.349131880074264,
+              "plate_outward_heat_w": 15.349129525657322,
+              "face_l1_heat_mismatch_w": 2.354416942587645e-06
+            }
+          },
+          "hot_net_rejection_w": 15.349130099073177,
+          "cold_net_gain_w": 15.349133490312944,
+          "hot_effectiveness": 0.3060033911298481,
+          "cold_effectiveness": 0.3060034587382964
+        },
+        {
+          "iteration": 400,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019054,
+              "max_T_k": 329.31799560255,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00030000000000000805,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.2298240821014,
+              "relative_mass_error": 2.6924353950056694e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336199398955554,
+              "port_conduction_w": 0.012934002905310046,
+              "total_port_sensible_w": 15.349133401860863,
+              "pressure_drop_pa": 5.377915315925886,
+              "native_inlet_mean_p_pa": 5.355507335442862,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.13036136598,
+              "max_T_k": 331.86963951436
+            },
+            "hot": {
+              "min_T_k": 310.6820055499,
+              "max_T_k": 339.99999981178,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999956,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.77017848434804,
+              "relative_mass_error": 1.463672932855431e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.33619618062815,
+              "port_conduction_w": -0.012934001434200013,
+              "total_port_sensible_w": -15.34913018206235,
+              "pressure_drop_pa": 5.377915315926188,
+              "native_inlet_mean_p_pa": 5.355507335443162,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 1.000444171950221e-11,
+              "fluid_outward_heat_w": 15.349131790493733,
+              "plate_outward_heat_w": -15.34913179056572,
+              "face_l1_heat_mismatch_w": 1.0217826862390922e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.349131791970215,
+              "plate_outward_heat_w": 15.349131791845998,
+              "face_l1_heat_mismatch_w": 1.0114653142823116e-09
+            }
+          },
+          "hot_net_rejection_w": 15.34913018206235,
+          "cold_net_gain_w": 15.349133401860863,
+          "hot_effectiveness": 0.3060033927843372,
+          "cold_effectiveness": 0.30600345697489767
+        },
+        {
+          "iteration": 500,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019054,
+              "max_T_k": 329.31799560255,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000077,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.2298240821002,
+              "relative_mass_error": 2.584015177757119e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336199398954163,
+              "port_conduction_w": 0.012934002905310046,
+              "total_port_sensible_w": 15.349133401859472,
+              "pressure_drop_pa": 5.377915315922285,
+              "native_inlet_mean_p_pa": 5.355507335439275,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.13036136598,
+              "max_T_k": 331.86963951436
+            },
+            "hot": {
+              "min_T_k": 310.6820055499,
+              "max_T_k": 339.99999981178,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999889,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.7701784843479,
+              "relative_mass_error": 3.686287386450716e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336196180629045,
+              "port_conduction_w": -0.012934001434200013,
+              "total_port_sensible_w": -15.349130182063245,
+              "pressure_drop_pa": 5.377915315923339,
+              "native_inlet_mean_p_pa": 5.355507335440325,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 1.000444171950221e-11,
+              "fluid_outward_heat_w": 15.349131790493733,
+              "plate_outward_heat_w": -15.34913179056572,
+              "face_l1_heat_mismatch_w": 1.0217826862390922e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.349131791970215,
+              "plate_outward_heat_w": 15.349131791845998,
+              "face_l1_heat_mismatch_w": 1.0114653142823116e-09
+            }
+          },
+          "hot_net_rejection_w": 15.349130182063245,
+          "cold_net_gain_w": 15.349133401859472,
+          "hot_effectiveness": 0.306003392784355,
+          "cold_effectiveness": 0.3060034569748699
+        },
+        {
+          "iteration": 600,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019054,
+              "max_T_k": 329.31799560255,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999683,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.2298240821009,
+              "relative_mass_error": 1.0552901145525577e-13,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336199398952886,
+              "port_conduction_w": 0.012934002905310046,
+              "total_port_sensible_w": 15.349133401858195,
+              "pressure_drop_pa": 5.377915315922072,
+              "native_inlet_mean_p_pa": 5.355507335439063,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.13036136598,
+              "max_T_k": 331.86963951436
+            },
+            "hot": {
+              "min_T_k": 310.6820055499,
+              "max_T_k": 339.99999981178,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00029999999999999493,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.7701784843479,
+              "relative_mass_error": 1.680513367352532e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336196180628285,
+              "port_conduction_w": -0.012934001434200013,
+              "total_port_sensible_w": -15.349130182062485,
+              "pressure_drop_pa": 5.377915315928898,
+              "native_inlet_mean_p_pa": 5.3555073354458615,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 1.000444171950221e-11,
+              "fluid_outward_heat_w": 15.349131790493733,
+              "plate_outward_heat_w": -15.34913179056572,
+              "face_l1_heat_mismatch_w": 1.0217826862390922e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.349131791970215,
+              "plate_outward_heat_w": 15.349131791845998,
+              "face_l1_heat_mismatch_w": 1.0114653142823116e-09
+            }
+          },
+          "hot_net_rejection_w": 15.349130182062485,
+          "cold_net_gain_w": 15.349133401858195,
+          "hot_effectiveness": 0.30600339278433986,
+          "cold_effectiveness": 0.30600345697484443
+        },
+        {
+          "iteration": 700,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019054,
+              "max_T_k": 329.31799560255,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00030000000000001,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.22982408210095,
+              "relative_mass_error": 3.3429566984969724e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336199398955126,
+              "port_conduction_w": 0.012934002905310046,
+              "total_port_sensible_w": 15.349133401860435,
+              "pressure_drop_pa": 5.377915315927004,
+              "native_inlet_mean_p_pa": 5.355507335443975,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.13036136598,
+              "max_T_k": 331.86963951436
+            },
+            "hot": {
+              "min_T_k": 310.6820055499,
+              "max_T_k": 339.99999981178,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999909,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.77017848434775,
+              "relative_mass_error": 3.017696046751321e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336196180628981,
+              "port_conduction_w": -0.012934001434200013,
+              "total_port_sensible_w": -15.349130182063181,
+              "pressure_drop_pa": 5.377915315923879,
+              "native_inlet_mean_p_pa": 5.355507335440862,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 1.000444171950221e-11,
+              "fluid_outward_heat_w": 15.349131790493733,
+              "plate_outward_heat_w": -15.34913179056572,
+              "face_l1_heat_mismatch_w": 1.0217826862390922e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.349131791970215,
+              "plate_outward_heat_w": 15.349131791845998,
+              "face_l1_heat_mismatch_w": 1.0114653142823116e-09
+            }
+          },
+          "hot_net_rejection_w": 15.349130182063181,
+          "cold_net_gain_w": 15.349133401860435,
+          "hot_effectiveness": 0.30600339278435373,
+          "cold_effectiveness": 0.3060034569748891
+        },
+        {
+          "iteration": 800,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019054,
+              "max_T_k": 329.31799560255,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000029,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.2298240821013,
+              "relative_mass_error": 9.757819552369541e-15,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336199398955166,
+              "port_conduction_w": 0.012934002905310046,
+              "total_port_sensible_w": 15.349133401860476,
+              "pressure_drop_pa": 5.377915315926226,
+              "native_inlet_mean_p_pa": 5.355507335443201,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.13036136598,
+              "max_T_k": 331.86963951436
+            },
+            "hot": {
+              "min_T_k": 310.6820055499,
+              "max_T_k": 339.99999981178,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999909,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.77017848434815,
+              "relative_mass_error": 3.017696046751321e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336196180628484,
+              "port_conduction_w": -0.012934001434200013,
+              "total_port_sensible_w": -15.349130182062684,
+              "pressure_drop_pa": 5.377915315934823,
+              "native_inlet_mean_p_pa": 5.355507335451761,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 1.000444171950221e-11,
+              "fluid_outward_heat_w": 15.349131790493733,
+              "plate_outward_heat_w": -15.34913179056572,
+              "face_l1_heat_mismatch_w": 1.0217826862390922e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.349131791970215,
+              "plate_outward_heat_w": 15.349131791845998,
+              "face_l1_heat_mismatch_w": 1.0114653142823116e-09
+            }
+          },
+          "hot_net_rejection_w": 15.349130182062684,
+          "cold_net_gain_w": 15.349133401860476,
+          "hot_effectiveness": 0.30600339278434385,
+          "cold_effectiveness": 0.30600345697488995
+        },
+        {
+          "iteration": 900,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000019054,
+              "max_T_k": 329.31799560255,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000192,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 312.22982408210066,
+              "relative_mass_error": 6.414862853872569e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336199398955227,
+              "port_conduction_w": 0.012934002905310046,
+              "total_port_sensible_w": 15.349133401860536,
+              "pressure_drop_pa": 5.377915315926415,
+              "native_inlet_mean_p_pa": 5.355507335443388,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 308.13036136598,
+              "max_T_k": 331.86963951436
+            },
+            "hot": {
+              "min_T_k": 310.6820055499,
+              "max_T_k": 339.99999981178,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00030000000000004253,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 327.77017848434804,
+              "relative_mass_error": 1.4184978423352018e-13,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336196180622636,
+              "port_conduction_w": -0.012934001434200013,
+              "total_port_sensible_w": -15.349130182056836,
+              "pressure_drop_pa": 5.377915315934447,
+              "native_inlet_mean_p_pa": 5.355507335451387,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 1.000444171950221e-11,
+              "fluid_outward_heat_w": 15.349131790493733,
+              "plate_outward_heat_w": -15.34913179056572,
+              "face_l1_heat_mismatch_w": 1.0217826862390922e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.349131791970215,
+              "plate_outward_heat_w": 15.349131791845998,
+              "face_l1_heat_mismatch_w": 1.0114653142823116e-09
+            }
+          },
+          "hot_net_rejection_w": 15.349130182056836,
+          "cold_net_gain_w": 15.349133401860536,
+          "hot_effectiveness": 0.3060033927842273,
+          "cold_effectiveness": 0.3060034569748911
+        }
+      ],
+      "native_sha256": {
+        "pre-mesh-sha256.txt": "8620c4e6fcd9d648b6bd4cad7b8ad32cc29dac5c60a49c308adf6c878a5a4646",
+        "0/cold/T": "9fc5380361b747b1c369304045da7d56528e60773d48b261a7053fdbe5d768cf",
+        "0/cold/U": "911305a1012d410707f5b44616754a2412c9aabb8ee2badbb7898ebbdac2411e",
+        "0/cold/p": "2423592d5db246b37ef735456023edd595ea3ea22f85c3e7cdeb7d5557efdcbc",
+        "0/hot/T": "f45040ff6a1c1f8d48aaea09b9097cec511d1c3d9bc686f631f551cf111e85e5",
+        "0/hot/U": "ef6f61f08540efb4ac7c8ad2b293ad2c1387400e80832cc628712d22ff741a11",
+        "0/hot/p": "e43168d0e6a97b83eb3c08317afdf9a8f24944a0a549ebb0df3906f1fec1f28c",
+        "0/plate/T": "078bf1bc6679c632576b1a86d68fc751be3dd7cbcc4d8e4f741b3ac4b388e49f",
+        "constant/cold/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+        "constant/cold/physicalProperties": "b51588b89e17d022b2e8f1b4f2868afdc926e2373b1d702efc5f1320117476f1",
+        "constant/cold/thermophysicalTransport": "81ab01804e813c9a5c0497c77b6d81508c37d8160dd7646d67ff40ec6e6b0646",
+        "constant/hot/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+        "constant/hot/physicalProperties": "b51588b89e17d022b2e8f1b4f2868afdc926e2373b1d702efc5f1320117476f1",
+        "constant/hot/thermophysicalTransport": "81ab01804e813c9a5c0497c77b6d81508c37d8160dd7646d67ff40ec6e6b0646",
+        "constant/plate/physicalProperties": "99019c938c65b9a644f4cdd70b11674765840a4044aa218c84daa0dad6f29bc0",
+        "system/blockMeshDict": "08ed6ca337543c620078e586e4c5560d4ea79f27ba20f8a71b9606f6affd4a61",
+        "system/cold/fvSchemes": "ae2f69de7e3e2f09b8748faee56373e9d6e5283b274ec40e2d0ffc6602717805",
+        "system/cold/fvSolution": "2d83c595daff90920ce6263545f1581e2f6e557cdba8c3b5304dc8e3fa747924",
+        "system/controlDict": "e172fd970876d3a7397c40f6612b17c317d01e9d74cc2a6307d95ccf6fc60cff",
+        "system/fvSolution": "47e27512c9ddf729e6e575b3c893c024f9ba325b37d06a8b7ec1b4c85aa7b51f",
+        "system/hot/fvSchemes": "ae2f69de7e3e2f09b8748faee56373e9d6e5283b274ec40e2d0ffc6602717805",
+        "system/hot/fvSolution": "2d83c595daff90920ce6263545f1581e2f6e557cdba8c3b5304dc8e3fa747924",
+        "system/plate/fvSchemes": "444f7cc77d8980ac71252732715db1f9a4cff31723abea912911b319e539a80a",
+        "system/plate/fvSolution": "af951d24d4f176a2a238869214d708e56f84c5ecd774c0dbed83c8153b78ccd1",
+        "input-sha256.txt": "a021446998bd710dedfb35d838511fe58708c3d0ede5fbf01ea03f984479ada8",
+        "0/cellToRegion": "b4811c1fe53f7f92806056484509727c0c921f71d0e32b6b2fa5e8989211bb49",
+        "0/cold/C": "61f1833bfbd17cc87be394069953fcb6c1e1538236a7b6acff9ecd09a6f65f57",
+        "0/cold/Ccx": "d5cb88520b3fa3e47857332a0fbcb67b47cbe8a2c81e18e056d92937261f39bb",
+        "0/cold/Ccy": "422cc1f23ba7d521fb2417ef83421e805bb9a4cb7cac5b3da053d29e50e3ac23",
+        "0/cold/Ccz": "181423b2187b692be0bd8b66476dfeaff468819c5693c9e3bf0b4a5cca13fd0a",
+        "0/cold/Vc": "95d7ba185b1909b5636826b9035c947bffd15f7bb6e75f1de6858bb4408d2b90",
+        "0/hot/C": "758d9e43ad2fff60f605512327053a94a03755fd995731f8f2f9481214c4e55a",
+        "0/hot/Ccx": "9f6e1772bf25e1a7389ac9b5d0b362441d25cb8a63625e013674504b5ae4d085",
+        "0/hot/Ccy": "b8497792f97ed74d76bc5178a646dd457685b62bf6228c4d5ea568c9e6ffafe4",
+        "0/hot/Ccz": "a49e1fbe5161790aa8a4ab2ceeb70f1c4f762a140e0b276cf967136ab9e16142",
+        "0/hot/Vc": "427827831237592737c61c09ba7e5a51e7b02f8011a055d50e2fdf31fd73be80",
+        "0/plate/C": "37805c75f15dc854c7b9f14d71e950c800f658ff7a4149a7bc7d9448d747011c",
+        "0/plate/Ccx": "db6835514d7d721b8faf6e9d87074a79463d4f76bf7f7a6c44a81943c90bbd65",
+        "0/plate/Ccy": "2619973dc52d2be97882f6dedd93c9c7b547f5aa5f546f9120f1bc66b9054fcf",
+        "0/plate/Ccz": "821618d0f3f2c013d73559c654d4af44319e2807a9e3b05c1d6f2a21f46d0734",
+        "0/plate/Vc": "13ef39a3d139334703dd040bd09aa564fbcd1ec8780a0c467773ac6f6c1ad2e7",
+        "constant/cellToRegion": "5f50928e3a8c73df0c3327a381e715a5e25def2321019e92c6057bbdb7ac6e53",
+        "constant/cold/polyMesh/boundary": "8d95da86e8e9bd3551b135363b1fc59decf7115fb9c7282637983987fa7a4a52",
+        "constant/cold/polyMesh/cellZones": "7403cc86ecc401398037ef9f7a3817005f53ce4a8ebe4535b32e6556135c992d",
+        "constant/cold/polyMesh/faces": "ae9b40cdd4f318a334c68b24823b106b99c7e6cd1ddc7a7d3d8754b18f3a5d7c",
+        "constant/cold/polyMesh/neighbour": "77d7ddf1d29980679fbd9b4ea111cd4127a09bb586b526e219ac38c9f6bc2311",
+        "constant/cold/polyMesh/owner": "6bd5fca53654ce2155ea94c559c1aefed81b6e76c93eac9d1c0f014149de8c14",
+        "constant/cold/polyMesh/points": "ec424bac5e4e9e4bf7d8bf398ce60dde15adaa1d08c36a46c7ffb0d76db761c7",
+        "constant/hot/polyMesh/boundary": "65b5bd123646e76ac37d05bdc832acffbf48e4513cea0e870a5d4146be8c21dd",
+        "constant/hot/polyMesh/cellZones": "976bbb24cbdd8e4fbb4d3ee6649b3bb7b574da765fb24c13d4885d9efcf0cb7e",
+        "constant/hot/polyMesh/faces": "9a67c85f975e221ef0c45ad55e8336a7de4ee2ec3091873b03a910b95ac431b9",
+        "constant/hot/polyMesh/neighbour": "1b860a3df5b60a12e346ae8e1052d32a4b0bee1532dde6d196c3d65b02f944ac",
+        "constant/hot/polyMesh/owner": "b01bd736677920590e5948632a09493dd11aa04373b20b42ebf64deb6484e90a",
+        "constant/hot/polyMesh/points": "1c8e0e45b7bd365559a7c9d02d35aa77abda9f74f8dcd6f4d2f6eb8deeaaf84c",
+        "constant/plate/polyMesh/boundary": "f4feb191e0fcc7ef007f99bd64c04bbd6d392e3bd8b4bbccceb976c9ff7bd750",
+        "constant/plate/polyMesh/cellZones": "bcef91c745702ec9256f453dee8afa53e6598ba78f924cc4131483aea80f3f45",
+        "constant/plate/polyMesh/faces": "0aeb19f8a6a102f195166fc1f2869c87436fc8ae414bf90e510818820b145f52",
+        "constant/plate/polyMesh/neighbour": "6761c66b475470dff1e754617637b4d3fcf6e771e54452dff6d3adafb75ccee5",
+        "constant/plate/polyMesh/owner": "7deb0fb42e50d5371f686481a919ea0d18a1dec8b52b5d06a258920d1041ef86",
+        "constant/plate/polyMesh/points": "184503f783cc3e02997f25b53c690d9e96067b0214070f41da342172a47e598b",
+        "constant/polyMesh/boundary": "cedfa7a00ee3ab082491e073efb8fa5d0760b8de6014d933b92bcf9e2fc2c418",
+        "constant/polyMesh/cellZones": "2133b270b7e321644959f6c232041713cb24b0628e4cbcbee93428645ac5cd31",
+        "constant/polyMesh/faces": "49d20576e5fa1f7ae20c9e33ef03f123602ee2cca10dac99fd9ee53e88212337",
+        "constant/polyMesh/neighbour": "6a107720d63d11e05931f5941bcb76dc23d478f0b91ff3b3ae1a2e4d2d224704",
+        "constant/polyMesh/owner": "608a6d6111207487d8bbb815da99749e53dcdab2448d0519ae2d6b8bb467d6fe",
+        "constant/polyMesh/points": "081cdc9c00a73d7281a9d446acada92b7bbfe45f5a6c951422ceff5e4e6585bc",
+        "generator-sha256.txt": "3226efb804b252a16693e3e4314896370424737e3e22cbc1faae6958aba468a9",
+        "mesh.log": "b6e60e8e03523b6035af8ae5a4c9762133a346111cddcc9868dc640b738c398e",
+        "split.log": "81850dd5f9fbf83eecf4f8a51ec2ec492a6369f770f4ec0d44ca6caf4993cc08",
+        "inputs-verified.log": "7b8914454d506f607b54a50301a120e286a24026395bf958b6b7223a8f673aa3",
+        "original-inputs-verified.log": "d71146fb4416dbcfd48f59b8d06dd0c5609e8f6bfca3540434192041ab352ffc",
+        "solver.log": "400e731b7af1a683fc2ce0c49656d2473a16cde198286aaacf3966c2c8abcee7",
+        "100/uniform/time": "b41eb5f373c32628d1dee217cd134b2754b28983fc88d325646a2fa168cdc34f",
+        "200/uniform/time": "5d1bfad5e23953fe05740fc17aa61478c0a483d420082ae9835bbf02ac7ddcb1",
+        "300/uniform/time": "507fe11a7fc625799085ad51db3f83a1eb1058406c1748c300f062a81dde3935",
+        "400/uniform/time": "ba5025a1acdb1209f0a2352829c7d3e02c906c3a76862a84a9c28d93943df9c0",
+        "500/uniform/time": "f1796f307a88efd07217b0ed4d45cb345bdfa7fb5344c71290eae15b80cce33f",
+        "600/uniform/time": "57ca329a3a14d77476fe0cd4268b5edc7190f0adb40a28034da23c811b0679a6",
+        "700/uniform/time": "5b1e55b520624c596339fa35ba10e795490f4b7fefac0298943893b434d53937",
+        "800/uniform/time": "4f7508c4e37b9410113343a560de555fb7726ce104a458465ecd9367b6d0266f",
+        "900/uniform/time": "8818368c66c71a2b649a4f3593c308e57d39a0a8aaf7ad769baeeb2ecaa013dd",
+        "check-cold.log": "e7a5b2b65a1af5e04cb0463b3f84987a68cc6d97ad98c057ac56d200dc5a52eb",
+        "check-plate.log": "734d540092e6f2b1d976b052ae1f892c6518b80e8b05251f9bc5c4973ce2bb3e",
+        "check-hot.log": "855880f8f6118d5b0db2b4f2a26e63054abfcb0fc8fbbe9942b1b429c7faaa03",
+        "100/cold/T": "3379c367f96fab95a01ded418b4cfb9b6cca2ecd161658b95efada65832f852e",
+        "100/cold/p": "29e1537751de4bb6c656ab8175b2b6b8072177e924a9c5191afa40d392350107",
+        "100/cold/U": "2a680bf98578185e0903d23393807cc29b33652a70e5c880c1b10ba889d0d083",
+        "100/cold/phi": "a60f80478df70ca83e29679b79238a58ea8f2d35ea1290ad54c3da035d253056",
+        "100/plate/T": "2b88c71e5e20f915d3b307159a5e0ef4fdcf33c696e9ab5a9600515491a643a6",
+        "100/hot/T": "fc978a7034e571c589476d2b188b2a7000f2313cde92e31e8ed61d389ba001be",
+        "100/hot/p": "b19fe7bfcb12beda391d236db7eb7ac6b50bb1bee10ffb056f264bb84281d879",
+        "100/hot/U": "5cc25539ec50f497a84f2545e086181d2362bd1fe16a5dd24415413c9eebf6fc",
+        "100/hot/phi": "0da582d4bd9a1e369e15864fec0b4ce5e1d3622055ccfa697eaf0e9e305ce0f8",
+        "200/cold/T": "a51388b46603031045e8acaef289dca6d66d9b6cd220769c0ddfe7d885656335",
+        "200/cold/p": "78f92c2cf1f0f317424585cde18e2f69562cd7952d8b765c1d905886a39899d2",
+        "200/cold/U": "2f3e2e323639ec1f22c4b498e4cfef136a20d787c22e2d2c920f1d4ca78302ad",
+        "200/cold/phi": "0b04ee27293cf3721d54a78800f9fad85957e075202a047e0903fce9cd6b798f",
+        "200/plate/T": "593b587ff9e06ad3d21fa696463340ef96c45bcf3ce7be944ef211571401b969",
+        "200/hot/T": "0b590cd2542dff393ec2f7a957852229df61ce3beb4d49f51a5f8e4665eaebe6",
+        "200/hot/p": "6cfe33e474065b2ca752ac63f5f5982b976f5dd070e1b21ed3d8510a9f8f684d",
+        "200/hot/U": "e73fcc32435774bdfd0c8c6678b772d60299b68e26db64ff07a12f47ada65e5d",
+        "200/hot/phi": "158a9553e76a47a73ff0df6c12c1ecfab00322ef4814bd6af10c029edc9c3abd",
+        "300/cold/T": "4784f739fc727a8c9da50384d8d0a8616b0f79543b3b34c5c8dd0bc4f861bf08",
+        "300/cold/p": "62fa2d4a5c3083a27f618cd42f376e0478bfe7286cce10bbd13085ccb47ffc55",
+        "300/cold/U": "3085d0a2a10b13c803d0b53e6b45c74165fbba112329dbc1c423fddae73c1ffb",
+        "300/cold/phi": "fc6b968d0c32019d48ae7cbfea78e585a49fb7a5a125e9b171bf781aeae7a3e8",
+        "300/plate/T": "1717e07aec70a40c25d9fd407e1910608db9bfbb60f21ec9609fc61c6b0096e1",
+        "300/hot/T": "0913bbe0586738ac793a34252f334adca7302a06be2bdc4cd25ad6cd1d383de0",
+        "300/hot/p": "454d5647780f30e5bd5b0e85111cc381865668858f26fb3a71b535421a03697d",
+        "300/hot/U": "09ecb5efe78b9a9a2ed1a0f408de64cbf704c00d81ec2fa1db4a9665ffc50f18",
+        "300/hot/phi": "4c4cb0054de864ec67ae1793bf77c1d4304c011283446047e143369742670b85",
+        "400/cold/T": "9846eeb0f32d464172a9072ccb7075a51b4a052625d21d5ccdc7c69111c4b1aa",
+        "400/cold/p": "f92b275ec06c4fe9dd793e72b85cc6dafcb921a30ab18db61ee34daed9a33f54",
+        "400/cold/U": "16a7112040f25bdf12548c6b12d22acc0946bd6bda5a1c0246a167962cc83574",
+        "400/cold/phi": "153b3d94d6022774f9104a577091de0dafcaecec4e9593edf3a2b97f7ff9d78d",
+        "400/plate/T": "dcb21ecf4a22cd88c853bed80248b96c74657ef160ab6bf238c402bf5639da5a",
+        "400/hot/T": "81b7c091615519dcf7a7acfddab858db69a3ea0341a9407a84be5ab0861c7db8",
+        "400/hot/p": "3f7e960219b6b20bf10a6a10d630bec94da496c16ee79f0600d8b816dbc77164",
+        "400/hot/U": "97a8a5c75263265160abd29c7d1a710ee0f25f877446398fe7e285d88f802348",
+        "400/hot/phi": "6c5b283d33d56d1e3cbdf79ddf9279de9c827160823172dd4d12d05cf6106fd4",
+        "500/cold/T": "be9e1f44083c648213c7b27b8cff4a4c747d62592dcab9421dfb3fb4ef8e6ea5",
+        "500/cold/p": "6512716f6f7651a361308d1b7001b4c4283a986c8f6fa634eea9e26bb98a1c46",
+        "500/cold/U": "eef090d7a9954757b88400a09c8dd8c59df5ad8a315fbb94863a95216cf77f92",
+        "500/cold/phi": "6b060932ef0f6d5c3757f97b4805f4ee86c7ea218a0f4f3f4b52eca90a712310",
+        "500/plate/T": "cafa8c7bb02d693e14ab6f9c8e0e52b670ceb83dc49299a7f5cc4f0844bfc527",
+        "500/hot/T": "706b7f0443e8efa55266b784db4c845dbfd2372abe15edd24be211d72b9504eb",
+        "500/hot/p": "1c48fd25f86265a759dc490b8042aaf8dffe84f10bbececfae79f2ba22f826e8",
+        "500/hot/U": "9fb7370170db5a010b09e36bec95a39027ef05776bbb8f4cbca9f2232e817be9",
+        "500/hot/phi": "b689306fecee7d36995706bc06c70aced81fa977a218677835701e44cf52a36e",
+        "600/cold/T": "96810b63f2c5a810ae0001738899e30fa19f4341447094f1e918394970eec637",
+        "600/cold/p": "fc1f39267c9be7997271c2caf38bc2487bf0dde6d260c27a1f901f1b53aa2995",
+        "600/cold/U": "15ebbf873327f4a77d23817e9d1e85a924c068a808b633080a188279c14d3ea4",
+        "600/cold/phi": "d7081b8c18769b5ade9f636772f16bc6ba3eff5445e131708aba499a822ae705",
+        "600/plate/T": "de9e1adec2fa25f5c1083bdc283388b7061787c29b666b68ffb9a572feda7bd7",
+        "600/hot/T": "e23c0148a5247554d8c426e4fe62f63d329f2c10d447dd0d2668e0c6b634a638",
+        "600/hot/p": "b3cc56ce83b646a714ee4acde3c783e179dabc57eee4f171a5815da6f0685336",
+        "600/hot/U": "25264fec5f7d188a9fae2289b14f5289ec17c0e7e4daa5da5c2b19d5d140045a",
+        "600/hot/phi": "68c02dab0213ba11af557e595a8b57fbf24958c7c6e8b9b01765d75a9365d825",
+        "700/cold/T": "ae0eb3592fd1b35072eb7d741ea43c7117eaa5dc2b196e2f3eaa875491bf29f3",
+        "700/cold/p": "fbc041e23814cc868219e4552815281ad162e47a499b11ed97e131778c54e4d3",
+        "700/cold/U": "ff28ac840e29c009b99f6fa91faae93dbab9e291a7d27edbdcaf4ae144e0e969",
+        "700/cold/phi": "06a4da98ff218f4068c85bbf09e3bd140ae59346a501332204fdf8faa89870d8",
+        "700/plate/T": "17d9d946a1482ff68972fdb8537e89d59d1932d50e5dd3cfb99d92442a803573",
+        "700/hot/T": "8340abc19e95c3d8a538ab9ca04fb830a916ed48407651bc2a1f96d9fd23e4ce",
+        "700/hot/p": "c86f12a984c08bfe54394f6461593d2395ee2c75d52c109097531fd52a5cb6c9",
+        "700/hot/U": "2816637bcffa8b32b016f22d35b4d162204ea981a07009a519e7a4125605cebc",
+        "700/hot/phi": "838a549bca3805063ecb465cbb49cf84f879b7af762e9fe5fae7c797e94ccac2",
+        "800/cold/T": "81aee55eb25c2e8137e7ff8e6653349a0809ec1ae4553102bbfb9f64ef288abe",
+        "800/cold/p": "d8117c968fc407a071c0c0370bc6eca9c4869fda0817874ae146c797d03ebc0b",
+        "800/cold/U": "d226bed8f97e2479a2363cdc5e8c0294d1caceaefea6dbf229d7cf9b289a834b",
+        "800/cold/phi": "134a239e58ba9613765057e4f7296ed0998ca34cc41df4f046a47d4cb5b344f1",
+        "800/plate/T": "2f4b9d97710b5f159b9c0f347d9a8a96a6a6d4b38e1034e6a5354c9bb1c8410c",
+        "800/hot/T": "4db2d85a6326a8d1545ca12a801a3549e638a0f2a9c039884becb8a1b1288d09",
+        "800/hot/p": "e3b0b5c570b1fe98ce369c2da4f4b2debbf75a08703d66fc7b8fa4338351bfd8",
+        "800/hot/U": "f463f84a4236b6b9aa203100c39ca437b4e1779e63e4f40fc448c650429b3e17",
+        "800/hot/phi": "05242fd1ea66172b23ffc6e932fb50a67da81e03a1ecb809f301b2870d51fcf1",
+        "900/cold/T": "2869e8fb69c63330a78cfc857bc80d557ff97305dedb7906cb989abe9d145b2f",
+        "900/cold/p": "afbe2358ce9dc6018d1ab4863db01bf4fd5a330f11365d1ef75c2b86a77f83bd",
+        "900/cold/U": "6fe60edfcffa72b2ba54f510c17f4811329849648e03f16a66afa7f5f3d558d3",
+        "900/cold/phi": "994f278ae2ae3f230385a21820c79438ea451c74a7bb7b3dc73f3c8909d85abe",
+        "900/plate/T": "a2503933d5a342f664fdebf6b0cfb0d69d267253e35321dd74b5e86ca8e8477a",
+        "900/hot/T": "d730ffb6b721bb95f87213cf8a0c14ff8a43c883d88463bbfd909c2cc9d9aa1d",
+        "900/hot/p": "714a9c75ec407e40623fdb13773523ae05ffadaef155537dca93016fbef58ce2",
+        "900/hot/U": "c72f363bded33bab741adaeb95ee4f3d66cef241b98ed06d3aa95592a955b989",
+        "900/hot/phi": "5a43befcc3d3abd5c436263603db12238c50295919ebb3c6a86b19189599e0bd"
+      }
+    },
+    {
+      "case": "plate-parallel-base-v001",
+      "direction": "parallel",
+      "fine": false,
+      "cells": 4320,
+      "iterations": 900,
+      "saves": 9,
+      "gates": {
+        "initial_residuals": true,
+        "temperature_bounds": true,
+        "boundary_mass": true,
+        "pressure_drop": true,
+        "positive_duties": true,
+        "port_energy": true,
+        "duty_stability": true,
+        "interface_continuity": true
+      },
+      "pass": true,
+      "relative_sensible_port_energy_error": 2.3307577500781128e-07,
+      "relative_terminal_duty_change": 4.4865846709048985e-13,
+      "terminal_maximum_initial_residual": 5.1574950031563e-10,
+      "saved_metrics": [
+        {
+          "iteration": 100,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.22552839987,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00029999999999998084,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.9895412572816,
+              "relative_mass_error": 6.378722781456385e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.780884736630318,
+              "port_conduction_w": 0.030706366062300008,
+              "total_port_sensible_w": 13.811591102692617,
+              "pressure_drop_pa": 5.377915316322013,
+              "native_inlet_mean_p_pa": 5.355507335837338,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974815,
+              "max_T_k": 320.67966028636
+            },
+            "hot": {
+              "min_T_k": 320.78528671738,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999865,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.01300659298306,
+              "relative_mass_error": 4.499439015814844e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.777689732400844,
+              "port_conduction_w": -0.030714316012515185,
+              "total_port_sensible_w": -13.80840404841336,
+              "pressure_drop_pa": 5.377915316291711,
+              "native_inlet_mean_p_pa": 5.355507335807162,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0005942189100096584,
+              "fluid_outward_heat_w": 13.808507831746555,
+              "plate_outward_heat_w": -13.850146493438942,
+              "face_l1_heat_mismatch_w": 0.041638661692383616
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 2.2412519967929256e-05,
+              "fluid_outward_heat_w": -13.811476150697239,
+              "plate_outward_heat_w": 13.769674962609848,
+              "face_l1_heat_mismatch_w": 0.04180118808739035
+            }
+          },
+          "hot_net_rejection_w": 13.80840404841336,
+          "cold_net_gain_w": 13.811591102692617,
+          "hot_effectiveness": 0.2752871620497082,
+          "cold_effectiveness": 0.27535069981444615
+        },
+        {
+          "iteration": 200,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.21984139639,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00030000000000035207,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.98819919857533,
+              "relative_mass_error": 1.1736488517155588e-12,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.77920179502966,
+              "port_conduction_w": 0.03071054702562033,
+              "total_port_sensible_w": 13.80991234205528,
+              "pressure_drop_pa": 5.377915316019477,
+              "native_inlet_mean_p_pa": 5.355507335536062,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974335,
+              "max_T_k": 320.67966028156
+            },
+            "hot": {
+              "min_T_k": 320.78016120589,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000221,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.0118033750755,
+              "relative_mass_error": 7.372574772901431e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.77919856765265,
+              "port_conduction_w": -0.030710546948564683,
+              "total_port_sensible_w": -13.809909114601215,
+              "pressure_drop_pa": 5.377915315932314,
+              "native_inlet_mean_p_pa": 5.355507335449262,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 3.549985194695182e-09,
+              "fluid_outward_heat_w": 13.809910723529278,
+              "plate_outward_heat_w": -13.809910851326556,
+              "face_l1_heat_mismatch_w": 1.2815662775444991e-07
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 1.3000089893466793e-10,
+              "fluid_outward_heat_w": -13.809910732541713,
+              "plate_outward_heat_w": 13.809910605593746,
+              "face_l1_heat_mismatch_w": 1.273453252015333e-07
+            }
+          },
+          "hot_net_rejection_w": 13.809909114601215,
+          "cold_net_gain_w": 13.80991234205528,
+          "hot_effectiveness": 0.2753171673564836,
+          "cold_effectiveness": 0.27531723169966676
+        },
+        {
+          "iteration": 300,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.21984137671,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000114,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.98819919486095,
+              "relative_mass_error": 3.8127776399073575e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.779201790356176,
+              "port_conduction_w": 0.03071054703973512,
+              "total_port_sensible_w": 13.809912337395911,
+              "pressure_drop_pa": 5.3779153159226745,
+              "native_inlet_mean_p_pa": 5.355507335439663,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974335,
+              "max_T_k": 320.67966028156
+            },
+            "hot": {
+              "min_T_k": 320.78016119057,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000068,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.01180337183723,
+              "relative_mass_error": 2.2768245622195596e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.779198571715305,
+              "port_conduction_w": -0.03071054692932,
+              "total_port_sensible_w": -13.809909118644626,
+              "pressure_drop_pa": 5.377915315920565,
+              "native_inlet_mean_p_pa": 5.355507335437562,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 13.80991072835426,
+              "plate_outward_heat_w": -13.809910728473612,
+              "face_l1_heat_mismatch_w": 1.057458731690275e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -13.809910728367656,
+              "plate_outward_heat_w": 13.809910728371893,
+              "face_l1_heat_mismatch_w": 1.066806656901953e-09
+            }
+          },
+          "hot_net_rejection_w": 13.809909118644626,
+          "cold_net_gain_w": 13.809912337395911,
+          "hot_effectiveness": 0.2753171674370939,
+          "cold_effectiveness": 0.27531723160677657
+        },
+        {
+          "iteration": 400,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.21984137671,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999946,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.98819919486084,
+              "relative_mass_error": 1.7889335846010823e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.779201790355248,
+              "port_conduction_w": 0.03071054703973512,
+              "total_port_sensible_w": 13.809912337394984,
+              "pressure_drop_pa": 5.37791531592408,
+              "native_inlet_mean_p_pa": 5.355507335441062,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974335,
+              "max_T_k": 320.67966028156
+            },
+            "hot": {
+              "min_T_k": 320.78016119057,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999956,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.0118033718373,
+              "relative_mass_error": 1.463672932855431e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.779198571716599,
+              "port_conduction_w": -0.03071054692932,
+              "total_port_sensible_w": -13.809909118645919,
+              "pressure_drop_pa": 5.377915315926188,
+              "native_inlet_mean_p_pa": 5.355507335443162,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 13.80991072835426,
+              "plate_outward_heat_w": -13.809910728473612,
+              "face_l1_heat_mismatch_w": 1.057458731690275e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -13.809910728367656,
+              "plate_outward_heat_w": 13.809910728371893,
+              "face_l1_heat_mismatch_w": 1.066806656901953e-09
+            }
+          },
+          "hot_net_rejection_w": 13.809909118645919,
+          "cold_net_gain_w": 13.809912337394984,
+          "hot_effectiveness": 0.27531716743711965,
+          "cold_effectiveness": 0.2753172316067581
+        },
+        {
+          "iteration": 500,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.21984137671,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000141,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.9881991948613,
+              "relative_mass_error": 4.716279450311945e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.779201790356717,
+              "port_conduction_w": 0.03071054703973512,
+              "total_port_sensible_w": 13.809912337396453,
+              "pressure_drop_pa": 5.377915315926364,
+              "native_inlet_mean_p_pa": 5.355507335443337,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974335,
+              "max_T_k": 320.67966028156
+            },
+            "hot": {
+              "min_T_k": 320.78016119057,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999889,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.01180337183723,
+              "relative_mass_error": 3.686287386450716e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.779198571717501,
+              "port_conduction_w": -0.03071054692932,
+              "total_port_sensible_w": -13.809909118646821,
+              "pressure_drop_pa": 5.377915315923339,
+              "native_inlet_mean_p_pa": 5.355507335440325,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 13.80991072835426,
+              "plate_outward_heat_w": -13.809910728473612,
+              "face_l1_heat_mismatch_w": 1.057458731690275e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -13.809910728367656,
+              "plate_outward_heat_w": 13.809910728371893,
+              "face_l1_heat_mismatch_w": 1.066806656901953e-09
+            }
+          },
+          "hot_net_rejection_w": 13.809909118646821,
+          "cold_net_gain_w": 13.809912337396453,
+          "hot_effectiveness": 0.27531716743713763,
+          "cold_effectiveness": 0.2753172316067874
+        },
+        {
+          "iteration": 600,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.21984137671,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000205,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.9881991948611,
+              "relative_mass_error": 6.84854372286677e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.77920179035682,
+              "port_conduction_w": 0.03071054703973512,
+              "total_port_sensible_w": 13.809912337396556,
+              "pressure_drop_pa": 5.377915315926113,
+              "native_inlet_mean_p_pa": 5.355507335443088,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974335,
+              "max_T_k": 320.67966028156
+            },
+            "hot": {
+              "min_T_k": 320.78016119057,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00029999999999999493,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.0118033718372,
+              "relative_mass_error": 1.680513367352532e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.779198571716712,
+              "port_conduction_w": -0.03071054692932,
+              "total_port_sensible_w": -13.809909118646033,
+              "pressure_drop_pa": 5.377915315928898,
+              "native_inlet_mean_p_pa": 5.3555073354458615,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 13.80991072835426,
+              "plate_outward_heat_w": -13.809910728473612,
+              "face_l1_heat_mismatch_w": 1.057458731690275e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -13.809910728367656,
+              "plate_outward_heat_w": 13.809910728371893,
+              "face_l1_heat_mismatch_w": 1.066806656901953e-09
+            }
+          },
+          "hot_net_rejection_w": 13.809909118646033,
+          "cold_net_gain_w": 13.809912337396556,
+          "hot_effectiveness": 0.2753171674371219,
+          "cold_effectiveness": 0.27531723160678945
+        },
+        {
+          "iteration": 700,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.21984137671,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999854,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.98819919486084,
+              "relative_mass_error": 4.8608397399766786e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.779201790354872,
+              "port_conduction_w": 0.03071054703973512,
+              "total_port_sensible_w": 13.809912337394607,
+              "pressure_drop_pa": 5.377915315927895,
+              "native_inlet_mean_p_pa": 5.355507335444862,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974335,
+              "max_T_k": 320.67966028156
+            },
+            "hot": {
+              "min_T_k": 320.78016119057,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999909,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.0118033718371,
+              "relative_mass_error": 3.017696046751321e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.779198571717352,
+              "port_conduction_w": -0.03071054692932,
+              "total_port_sensible_w": -13.809909118646672,
+              "pressure_drop_pa": 5.377915315923879,
+              "native_inlet_mean_p_pa": 5.355507335440862,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 13.80991072835426,
+              "plate_outward_heat_w": -13.809910728473612,
+              "face_l1_heat_mismatch_w": 1.057458731690275e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -13.809910728367656,
+              "plate_outward_heat_w": 13.809910728371893,
+              "face_l1_heat_mismatch_w": 1.066806656901953e-09
+            }
+          },
+          "hot_net_rejection_w": 13.809909118646672,
+          "cold_net_gain_w": 13.809912337394607,
+          "hot_effectiveness": 0.2753171674371347,
+          "cold_effectiveness": 0.2753172316067506
+        },
+        {
+          "iteration": 800,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.21984137671,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000073,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.98819919486107,
+              "relative_mass_error": 2.4394548880923853e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.779201790356083,
+              "port_conduction_w": 0.03071054703973512,
+              "total_port_sensible_w": 13.809912337395819,
+              "pressure_drop_pa": 5.3779153159262885,
+              "native_inlet_mean_p_pa": 5.355507335443263,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974335,
+              "max_T_k": 320.67966028156
+            },
+            "hot": {
+              "min_T_k": 320.78016119057,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0002999999999999909,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.01180337183735,
+              "relative_mass_error": 3.017696046751321e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.779198571717039,
+              "port_conduction_w": -0.03071054692932,
+              "total_port_sensible_w": -13.80990911864636,
+              "pressure_drop_pa": 5.377915315934823,
+              "native_inlet_mean_p_pa": 5.355507335451761,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 13.80991072835426,
+              "plate_outward_heat_w": -13.809910728473612,
+              "face_l1_heat_mismatch_w": 1.057458731690275e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -13.809910728367656,
+              "plate_outward_heat_w": 13.809910728371893,
+              "face_l1_heat_mismatch_w": 1.066806656901953e-09
+            }
+          },
+          "hot_net_rejection_w": 13.80990911864636,
+          "cold_net_gain_w": 13.809912337395819,
+          "hot_effectiveness": 0.2753171674371284,
+          "cold_effectiveness": 0.27531723160677474
+        },
+        {
+          "iteration": 900,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000044792,
+              "max_T_k": 319.21984137671,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.0003000000000000235,
+              "inlet_T_k": 300.0,
+              "outlet_T_k": 310.9881991948608,
+              "relative_mass_error": 7.842395714311816e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 13.77920179035645,
+              "port_conduction_w": 0.03071054703973512,
+              "total_port_sensible_w": 13.809912337396185,
+              "pressure_drop_pa": 5.377915315930204,
+              "native_inlet_mean_p_pa": 5.355507335447162,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 319.32033974335,
+              "max_T_k": 320.67966028156
+            },
+            "hot": {
+              "min_T_k": 320.78016119057,
+              "max_T_k": 339.9999995544,
+              "mass_in_kg_s": 0.0003,
+              "mass_out_kg_s": 0.00030000000000004253,
+              "inlet_T_k": 340.00000000000006,
+              "outlet_T_k": 329.0118033718373,
+              "relative_mass_error": 1.4184978423352018e-13,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -13.779198571710843,
+              "port_conduction_w": -0.03071054692932,
+              "total_port_sensible_w": -13.809909118640164,
+              "pressure_drop_pa": 5.377915315934447,
+              "native_inlet_mean_p_pa": 5.355507335451387,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 13.80991072835426,
+              "plate_outward_heat_w": -13.809910728473612,
+              "face_l1_heat_mismatch_w": 1.057458731690275e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -13.809910728367656,
+              "plate_outward_heat_w": 13.809910728371893,
+              "face_l1_heat_mismatch_w": 1.066806656901953e-09
+            }
+          },
+          "hot_net_rejection_w": 13.809909118640164,
+          "cold_net_gain_w": 13.809912337396185,
+          "hot_effectiveness": 0.2753171674370049,
+          "cold_effectiveness": 0.27531723160678206
+        }
+      ],
+      "native_sha256": {
+        "pre-mesh-sha256.txt": "2e051d65292390a9a0a28044c7e9be6e37fb62473431cfe5c752b979783a8f22",
+        "0/cold/T": "be63d56660ecc0a8296ad3f1be081bd16f2d53ce4f6e4f23d174c13a19ffba07",
+        "0/cold/U": "a301e543c7a740bfd4a251c38b2d993dd0db3fd99bf0104f346e7240f999ae4d",
+        "0/cold/p": "6a07a3e0c8b9cf4ee60dad772bb0f7398e26ee13850a280df77ba41b71050474",
+        "0/hot/T": "f45040ff6a1c1f8d48aaea09b9097cec511d1c3d9bc686f631f551cf111e85e5",
+        "0/hot/U": "ef6f61f08540efb4ac7c8ad2b293ad2c1387400e80832cc628712d22ff741a11",
+        "0/hot/p": "e43168d0e6a97b83eb3c08317afdf9a8f24944a0a549ebb0df3906f1fec1f28c",
+        "0/plate/T": "078bf1bc6679c632576b1a86d68fc751be3dd7cbcc4d8e4f741b3ac4b388e49f",
+        "constant/cold/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+        "constant/cold/physicalProperties": "b51588b89e17d022b2e8f1b4f2868afdc926e2373b1d702efc5f1320117476f1",
+        "constant/cold/thermophysicalTransport": "81ab01804e813c9a5c0497c77b6d81508c37d8160dd7646d67ff40ec6e6b0646",
+        "constant/hot/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+        "constant/hot/physicalProperties": "b51588b89e17d022b2e8f1b4f2868afdc926e2373b1d702efc5f1320117476f1",
+        "constant/hot/thermophysicalTransport": "81ab01804e813c9a5c0497c77b6d81508c37d8160dd7646d67ff40ec6e6b0646",
+        "constant/plate/physicalProperties": "99019c938c65b9a644f4cdd70b11674765840a4044aa218c84daa0dad6f29bc0",
+        "system/blockMeshDict": "08ed6ca337543c620078e586e4c5560d4ea79f27ba20f8a71b9606f6affd4a61",
+        "system/cold/fvSchemes": "ae2f69de7e3e2f09b8748faee56373e9d6e5283b274ec40e2d0ffc6602717805",
+        "system/cold/fvSolution": "2d83c595daff90920ce6263545f1581e2f6e557cdba8c3b5304dc8e3fa747924",
+        "system/controlDict": "e172fd970876d3a7397c40f6612b17c317d01e9d74cc2a6307d95ccf6fc60cff",
+        "system/fvSolution": "47e27512c9ddf729e6e575b3c893c024f9ba325b37d06a8b7ec1b4c85aa7b51f",
+        "system/hot/fvSchemes": "ae2f69de7e3e2f09b8748faee56373e9d6e5283b274ec40e2d0ffc6602717805",
+        "system/hot/fvSolution": "2d83c595daff90920ce6263545f1581e2f6e557cdba8c3b5304dc8e3fa747924",
+        "system/plate/fvSchemes": "444f7cc77d8980ac71252732715db1f9a4cff31723abea912911b319e539a80a",
+        "system/plate/fvSolution": "af951d24d4f176a2a238869214d708e56f84c5ecd774c0dbed83c8153b78ccd1",
+        "input-sha256.txt": "08cc238130afc93b43ccdb3a5aa16973761f261e2231bde9cdba6f161bf95afb",
+        "0/cellToRegion": "b4811c1fe53f7f92806056484509727c0c921f71d0e32b6b2fa5e8989211bb49",
+        "0/cold/C": "61f1833bfbd17cc87be394069953fcb6c1e1538236a7b6acff9ecd09a6f65f57",
+        "0/cold/Ccx": "d5cb88520b3fa3e47857332a0fbcb67b47cbe8a2c81e18e056d92937261f39bb",
+        "0/cold/Ccy": "422cc1f23ba7d521fb2417ef83421e805bb9a4cb7cac5b3da053d29e50e3ac23",
+        "0/cold/Ccz": "181423b2187b692be0bd8b66476dfeaff468819c5693c9e3bf0b4a5cca13fd0a",
+        "0/cold/Vc": "95d7ba185b1909b5636826b9035c947bffd15f7bb6e75f1de6858bb4408d2b90",
+        "0/hot/C": "758d9e43ad2fff60f605512327053a94a03755fd995731f8f2f9481214c4e55a",
+        "0/hot/Ccx": "9f6e1772bf25e1a7389ac9b5d0b362441d25cb8a63625e013674504b5ae4d085",
+        "0/hot/Ccy": "b8497792f97ed74d76bc5178a646dd457685b62bf6228c4d5ea568c9e6ffafe4",
+        "0/hot/Ccz": "a49e1fbe5161790aa8a4ab2ceeb70f1c4f762a140e0b276cf967136ab9e16142",
+        "0/hot/Vc": "427827831237592737c61c09ba7e5a51e7b02f8011a055d50e2fdf31fd73be80",
+        "0/plate/C": "37805c75f15dc854c7b9f14d71e950c800f658ff7a4149a7bc7d9448d747011c",
+        "0/plate/Ccx": "db6835514d7d721b8faf6e9d87074a79463d4f76bf7f7a6c44a81943c90bbd65",
+        "0/plate/Ccy": "2619973dc52d2be97882f6dedd93c9c7b547f5aa5f546f9120f1bc66b9054fcf",
+        "0/plate/Ccz": "821618d0f3f2c013d73559c654d4af44319e2807a9e3b05c1d6f2a21f46d0734",
+        "0/plate/Vc": "13ef39a3d139334703dd040bd09aa564fbcd1ec8780a0c467773ac6f6c1ad2e7",
+        "constant/cellToRegion": "5f50928e3a8c73df0c3327a381e715a5e25def2321019e92c6057bbdb7ac6e53",
+        "constant/cold/polyMesh/boundary": "8d95da86e8e9bd3551b135363b1fc59decf7115fb9c7282637983987fa7a4a52",
+        "constant/cold/polyMesh/cellZones": "7403cc86ecc401398037ef9f7a3817005f53ce4a8ebe4535b32e6556135c992d",
+        "constant/cold/polyMesh/faces": "ae9b40cdd4f318a334c68b24823b106b99c7e6cd1ddc7a7d3d8754b18f3a5d7c",
+        "constant/cold/polyMesh/neighbour": "77d7ddf1d29980679fbd9b4ea111cd4127a09bb586b526e219ac38c9f6bc2311",
+        "constant/cold/polyMesh/owner": "6bd5fca53654ce2155ea94c559c1aefed81b6e76c93eac9d1c0f014149de8c14",
+        "constant/cold/polyMesh/points": "ec424bac5e4e9e4bf7d8bf398ce60dde15adaa1d08c36a46c7ffb0d76db761c7",
+        "constant/hot/polyMesh/boundary": "65b5bd123646e76ac37d05bdc832acffbf48e4513cea0e870a5d4146be8c21dd",
+        "constant/hot/polyMesh/cellZones": "976bbb24cbdd8e4fbb4d3ee6649b3bb7b574da765fb24c13d4885d9efcf0cb7e",
+        "constant/hot/polyMesh/faces": "9a67c85f975e221ef0c45ad55e8336a7de4ee2ec3091873b03a910b95ac431b9",
+        "constant/hot/polyMesh/neighbour": "1b860a3df5b60a12e346ae8e1052d32a4b0bee1532dde6d196c3d65b02f944ac",
+        "constant/hot/polyMesh/owner": "b01bd736677920590e5948632a09493dd11aa04373b20b42ebf64deb6484e90a",
+        "constant/hot/polyMesh/points": "1c8e0e45b7bd365559a7c9d02d35aa77abda9f74f8dcd6f4d2f6eb8deeaaf84c",
+        "constant/plate/polyMesh/boundary": "f4feb191e0fcc7ef007f99bd64c04bbd6d392e3bd8b4bbccceb976c9ff7bd750",
+        "constant/plate/polyMesh/cellZones": "bcef91c745702ec9256f453dee8afa53e6598ba78f924cc4131483aea80f3f45",
+        "constant/plate/polyMesh/faces": "0aeb19f8a6a102f195166fc1f2869c87436fc8ae414bf90e510818820b145f52",
+        "constant/plate/polyMesh/neighbour": "6761c66b475470dff1e754617637b4d3fcf6e771e54452dff6d3adafb75ccee5",
+        "constant/plate/polyMesh/owner": "7deb0fb42e50d5371f686481a919ea0d18a1dec8b52b5d06a258920d1041ef86",
+        "constant/plate/polyMesh/points": "184503f783cc3e02997f25b53c690d9e96067b0214070f41da342172a47e598b",
+        "constant/polyMesh/boundary": "cedfa7a00ee3ab082491e073efb8fa5d0760b8de6014d933b92bcf9e2fc2c418",
+        "constant/polyMesh/cellZones": "2133b270b7e321644959f6c232041713cb24b0628e4cbcbee93428645ac5cd31",
+        "constant/polyMesh/faces": "49d20576e5fa1f7ae20c9e33ef03f123602ee2cca10dac99fd9ee53e88212337",
+        "constant/polyMesh/neighbour": "6a107720d63d11e05931f5941bcb76dc23d478f0b91ff3b3ae1a2e4d2d224704",
+        "constant/polyMesh/owner": "608a6d6111207487d8bbb815da99749e53dcdab2448d0519ae2d6b8bb467d6fe",
+        "constant/polyMesh/points": "081cdc9c00a73d7281a9d446acada92b7bbfe45f5a6c951422ceff5e4e6585bc",
+        "generator-sha256.txt": "3226efb804b252a16693e3e4314896370424737e3e22cbc1faae6958aba468a9",
+        "mesh.log": "5423eae99919ff7a5dce37b22cf3c512714f755ddc90fee1fd110d6289e21f38",
+        "split.log": "31ae1174fd9a1a6db057ccec1f3a40d88479a6a6a90f3e28f7f9be98b082eeac",
+        "inputs-verified.log": "7b8914454d506f607b54a50301a120e286a24026395bf958b6b7223a8f673aa3",
+        "original-inputs-verified.log": "d71146fb4416dbcfd48f59b8d06dd0c5609e8f6bfca3540434192041ab352ffc",
+        "solver.log": "c9b549f86e53280a1d3f95f42c87037197cdebd6ec2cfc0aabb09c6b338860cc",
+        "100/uniform/time": "b41eb5f373c32628d1dee217cd134b2754b28983fc88d325646a2fa168cdc34f",
+        "200/uniform/time": "5d1bfad5e23953fe05740fc17aa61478c0a483d420082ae9835bbf02ac7ddcb1",
+        "300/uniform/time": "507fe11a7fc625799085ad51db3f83a1eb1058406c1748c300f062a81dde3935",
+        "400/uniform/time": "ba5025a1acdb1209f0a2352829c7d3e02c906c3a76862a84a9c28d93943df9c0",
+        "500/uniform/time": "f1796f307a88efd07217b0ed4d45cb345bdfa7fb5344c71290eae15b80cce33f",
+        "600/uniform/time": "57ca329a3a14d77476fe0cd4268b5edc7190f0adb40a28034da23c811b0679a6",
+        "700/uniform/time": "5b1e55b520624c596339fa35ba10e795490f4b7fefac0298943893b434d53937",
+        "800/uniform/time": "4f7508c4e37b9410113343a560de555fb7726ce104a458465ecd9367b6d0266f",
+        "900/uniform/time": "8818368c66c71a2b649a4f3593c308e57d39a0a8aaf7ad769baeeb2ecaa013dd",
+        "check-cold.log": "fda8778d0134c5903791ff1f35262325c1e44bbe35f8739b39496d1dd3c6fee1",
+        "check-plate.log": "e4895eebc9d04c1716c285133988d457cda9a7efcd7e89d8d786019f143e6f3f",
+        "check-hot.log": "c86f8960d2e4ef3e1750f270e52802ad59ea3a3977a82a817cd03e9698753c8e",
+        "100/cold/T": "78821addf7e59086c8baa37565fb6820897c3cad6ba5b4f176b4d1052fbc2874",
+        "100/cold/p": "cc97c0b68ea3f07cda9f0fc3d6442418532bfe199526d788feeacc241c96da7a",
+        "100/cold/U": "9183ed2cf5f98683b5ec761271ec9aab5e86f6c8c4a9e48f5c8435b96928c3e4",
+        "100/cold/phi": "a9868800e9a083fde531e8aca663328296854eb6621fc61352e8b144e3e90374",
+        "100/plate/T": "7a23534401e65c29b5457355762c41c91096c20ed091628c57602ccb323e54a0",
+        "100/hot/T": "5d995f9dca0113412cd50611394cbf6830e4127a4278e3de1e5ccd4cd15d3b33",
+        "100/hot/p": "b19fe7bfcb12beda391d236db7eb7ac6b50bb1bee10ffb056f264bb84281d879",
+        "100/hot/U": "5cc25539ec50f497a84f2545e086181d2362bd1fe16a5dd24415413c9eebf6fc",
+        "100/hot/phi": "0da582d4bd9a1e369e15864fec0b4ce5e1d3622055ccfa697eaf0e9e305ce0f8",
+        "200/cold/T": "fd56e9b432cbd4c3d89e6dbda5cd1fa60ed73281eba67cf1325cf2a7fb68d92f",
+        "200/cold/p": "b72c07cfebe19439991f7c299d901547ef7dccd1b8cbbdb3a50f0e195386d703",
+        "200/cold/U": "c354c3be5b056fabf92660f0c1851e5dfa7a818fc5ca32f29655dd8ae7e6204f",
+        "200/cold/phi": "fba6b71c99d43ae6fe9b918369ed894f37e27bc9efce526353d65294c87bcd74",
+        "200/plate/T": "02d33481be3ff91c8ddaae37efbc6e636e7debeea24516c3f7f12c3fc9683e2d",
+        "200/hot/T": "6ec418d393a000b453b272c367c978d4f2b6746aa41a9b87b187575b251cde5c",
+        "200/hot/p": "6cfe33e474065b2ca752ac63f5f5982b976f5dd070e1b21ed3d8510a9f8f684d",
+        "200/hot/U": "e73fcc32435774bdfd0c8c6678b772d60299b68e26db64ff07a12f47ada65e5d",
+        "200/hot/phi": "158a9553e76a47a73ff0df6c12c1ecfab00322ef4814bd6af10c029edc9c3abd",
+        "300/cold/T": "1819a62735ae2d6f3032f5c76b3006a3cd6740d86b4cce2e483d6b6ce2d1c897",
+        "300/cold/p": "10fa3186d6a6ff9c8599db2b963fef0499ada9ba1ff904a42a757bf8d83298d7",
+        "300/cold/U": "d6fdb5c60e5ec9de9e7d44e8033f458235a2f11b1e51d2c6ceade8df81779d38",
+        "300/cold/phi": "eeb12e61d531874a0a89adce91711bf3361dab059c4a2496a0892e4b567446ae",
+        "300/plate/T": "9edc07860348ba1320063d3a33f6b92ae45ff9da26fa6edfb758e1d9ab653c73",
+        "300/hot/T": "7d95984f7fbc544f4f9f690fef774dd0f4f1382a5b6c4f48d84af31f69a3265f",
+        "300/hot/p": "454d5647780f30e5bd5b0e85111cc381865668858f26fb3a71b535421a03697d",
+        "300/hot/U": "09ecb5efe78b9a9a2ed1a0f408de64cbf704c00d81ec2fa1db4a9665ffc50f18",
+        "300/hot/phi": "4c4cb0054de864ec67ae1793bf77c1d4304c011283446047e143369742670b85",
+        "400/cold/T": "1def5b033d8bfce830b330a3d39d186ec8d9a1671812a7c86d287f06831e5fd8",
+        "400/cold/p": "437d431cc6f629268fe026d9ed751678aa5f55707ce808b81caa9288cbd0ea0b",
+        "400/cold/U": "d40ef98b3a976cf825d138f05cf8f2b139af28aa19bbe95ad81a44adb080d138",
+        "400/cold/phi": "271d72d5fbc8a640d3a0c766cde866e05dd563bfabe90a21ca1f1a68ba4387f4",
+        "400/plate/T": "b63acaaf05572e3c2f6652f69d1aece7017a1e441f4b5d80d0aa82be9685ba2e",
+        "400/hot/T": "89b9257d367f7b00848220f43e4e891d70967b4d9f56f537f28606518fdae81e",
+        "400/hot/p": "3f7e960219b6b20bf10a6a10d630bec94da496c16ee79f0600d8b816dbc77164",
+        "400/hot/U": "97a8a5c75263265160abd29c7d1a710ee0f25f877446398fe7e285d88f802348",
+        "400/hot/phi": "6c5b283d33d56d1e3cbdf79ddf9279de9c827160823172dd4d12d05cf6106fd4",
+        "500/cold/T": "16c4213e097c9173de008eff1a5f4a288ac9c45fe8bef0fa0348bf958b8406b5",
+        "500/cold/p": "5e01fff626acb107c55b376d4bfc8b57a1a11796fa96e993a2b8ed1228c25e26",
+        "500/cold/U": "5d611cf2511af0339350b8a3cacda7e251e398790b046bac29607a563cb3eb33",
+        "500/cold/phi": "b5a4b80c69e59ab8f586c3d6bf68b5eb552f656ddefb5e08640751d89629ed88",
+        "500/plate/T": "9fd6303cf3bc431596809c63278d8c7b3ab9b1d873950ec52b1fe0f5b461f792",
+        "500/hot/T": "fa991cb06d70f5c92947a9e3c6a72a614dcac699503517257fb842f2b34fd309",
+        "500/hot/p": "1c48fd25f86265a759dc490b8042aaf8dffe84f10bbececfae79f2ba22f826e8",
+        "500/hot/U": "9fb7370170db5a010b09e36bec95a39027ef05776bbb8f4cbca9f2232e817be9",
+        "500/hot/phi": "b689306fecee7d36995706bc06c70aced81fa977a218677835701e44cf52a36e",
+        "600/cold/T": "75591dc9cb628babb2511bb7c687fe2a1dcdafc479edeb6c9026b0bf05d758bc",
+        "600/cold/p": "68dd0fba1533e905391764c57c594759c05534f900e2c6d296441f772eebbb3b",
+        "600/cold/U": "66efa2e8ad8136f924c09882b5e987204c11e1fc8ce6c5ecbb24a3cabfba570b",
+        "600/cold/phi": "a9db449613daf11b9fb32a973e4adfec1994b704946d17eb14102a3bc32a11e7",
+        "600/plate/T": "22254816d9dabf140f1dea1729b1cd0f29a300b7110d28627e615e57a1d8b0a5",
+        "600/hot/T": "13e340a70c15e9db91323f12ac4692280a7c62a8f426383efd65ddd6968a12ce",
+        "600/hot/p": "b3cc56ce83b646a714ee4acde3c783e179dabc57eee4f171a5815da6f0685336",
+        "600/hot/U": "25264fec5f7d188a9fae2289b14f5289ec17c0e7e4daa5da5c2b19d5d140045a",
+        "600/hot/phi": "68c02dab0213ba11af557e595a8b57fbf24958c7c6e8b9b01765d75a9365d825",
+        "700/cold/T": "f1295f79b42e74463435c32c160c74d915183c9df644c1e7b8b4b169229f9c33",
+        "700/cold/p": "8d52e6bb6e1cab4f9fe9fcbbb1484e3cc2f3bb7591b5169ee00b74c42593acc2",
+        "700/cold/U": "a17168d85d8270b298d9752e67d73fe6c389344922f66dd881c26496d5c07221",
+        "700/cold/phi": "32d824aab0abcfe0bb8a21a595556c5428977af7c5e3ca5be488bd61e09f2797",
+        "700/plate/T": "22c8e59cb9e487f85a708a76987cc2e76b38888ad53979217b92abb51558e592",
+        "700/hot/T": "1cd9c466a935249d44cff1dfa5fbdc98326c7f41843653f3f84010f2ffd9f1d0",
+        "700/hot/p": "c86f12a984c08bfe54394f6461593d2395ee2c75d52c109097531fd52a5cb6c9",
+        "700/hot/U": "2816637bcffa8b32b016f22d35b4d162204ea981a07009a519e7a4125605cebc",
+        "700/hot/phi": "838a549bca3805063ecb465cbb49cf84f879b7af762e9fe5fae7c797e94ccac2",
+        "800/cold/T": "7663ee22c897e24de7106a8c87a11d1c5e26e0b301b0746b5faba190860b6544",
+        "800/cold/p": "82ff685badf05a29d2fdac4303edb6516e26255e751d65a340dc848b122891d3",
+        "800/cold/U": "b7788ceb696d8b6950933739692ac6d49eb03601ced93b01b860f4455bb40c4c",
+        "800/cold/phi": "69e942264642b49e9857f39fd34342cb2ccaeaa51a0598be783f3af3b2de9c87",
+        "800/plate/T": "117d162785ec0bca2bf96ba63a621406414362147c47f13cdd06108887b9da33",
+        "800/hot/T": "64feb33f5f03dbc78c641b52d5c4d82364aac5582055e448e42caf41f66ee813",
+        "800/hot/p": "e3b0b5c570b1fe98ce369c2da4f4b2debbf75a08703d66fc7b8fa4338351bfd8",
+        "800/hot/U": "f463f84a4236b6b9aa203100c39ca437b4e1779e63e4f40fc448c650429b3e17",
+        "800/hot/phi": "05242fd1ea66172b23ffc6e932fb50a67da81e03a1ecb809f301b2870d51fcf1",
+        "900/cold/T": "11f25f54212828e1d388798defde7759ed2315a8c64e2c1bd135e38bd0b75b67",
+        "900/cold/p": "a03a6c214423e35303bf8baaa5d0fea57753faf839b7aefeeda49eeafaaddd81",
+        "900/cold/U": "c0df7f6c2b1656635cb4df81b5e693c768fe141a66984845faf1f5553d50ff96",
+        "900/cold/phi": "778c40ada555c123dda310bfaef3ca5da4b4fc910ba8d5d0c76c54e4a22e12da",
+        "900/plate/T": "da7251f7e5e7872681017e1a61ba92654d75313c8c4057da6e5cc0620af76ae6",
+        "900/hot/T": "ac646950461adb7f5e00f5b4b2ccdb0dcf7f97c25c087ff85a2f8c9c990e5b3c",
+        "900/hot/p": "714a9c75ec407e40623fdb13773523ae05ffadaef155537dca93016fbef58ce2",
+        "900/hot/U": "c72f363bded33bab741adaeb95ee4f3d66cef241b98ed06d3aa95592a955b989",
+        "900/hot/phi": "5a43befcc3d3abd5c436263603db12238c50295919ebb3c6a86b19189599e0bd"
+      }
+    },
+    {
+      "case": "plate-counter-fine-v001",
+      "direction": "counter",
+      "fine": true,
+      "cells": 9720,
+      "iterations": 900,
+      "saves": 9,
+      "gates": {
+        "initial_residuals": true,
+        "temperature_bounds": true,
+        "boundary_mass": true,
+        "pressure_drop": true,
+        "positive_duties": true,
+        "port_energy": true,
+        "duty_stability": true,
+        "interface_continuity": true
+      },
+      "pass": true,
+      "relative_sensible_port_energy_error": 2.1082926134624325e-07,
+      "relative_terminal_duty_change": 3.8642676533576086e-14,
+      "terminal_maximum_initial_residual": 1.2003496280208e-09,
+      "saved_metrics": [
+        {
+          "iteration": 100,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.00000000363,
+              "max_T_k": 330.19950304772,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.0003000000000001459,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.3267186466009,
+              "relative_mass_error": 4.743384504624025e-13,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.457705182845181,
+              "port_conduction_w": 0.016696958646589016,
+              "total_port_sensible_w": 15.47440214149177,
+              "pressure_drop_pa": 5.394737123292263,
+              "native_inlet_mean_p_pa": 5.379751742394379,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.96143350754,
+              "max_T_k": 332.17239312393
+            },
+            "hot": {
+              "min_T_k": 309.95669841845,
+              "max_T_k": 339.99999999811,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.00029999999999997314,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.8647014093166,
+              "relative_mass_error": 1.1113072267976181e-13,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.217664432721165,
+              "port_conduction_w": -0.016670400454756408,
+              "total_port_sensible_w": -15.234334833175922,
+              "pressure_drop_pa": 5.39473712333893,
+              "native_inlet_mean_p_pa": 5.379751742440766,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.008457276689966875,
+              "fluid_outward_heat_w": 15.234677527569975,
+              "plate_outward_heat_w": -18.493209434505932,
+              "face_l1_heat_mismatch_w": 3.258531906935954
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.000316410970015113,
+              "fluid_outward_heat_w": -15.47425048752197,
+              "plate_outward_heat_w": 12.209789340176417,
+              "face_l1_heat_mismatch_w": 3.2644611473455543
+            }
+          },
+          "hot_net_rejection_w": 15.234334833175922,
+          "cold_net_gain_w": 15.47440214149177,
+          "hot_effectiveness": 0.3037148092738385,
+          "cold_effectiveness": 0.30850084014137924
+        },
+        {
+          "iteration": 200,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.0000000036,
+              "max_T_k": 330.12524730431,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.0003000000000000236,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.23217266612596,
+              "relative_mass_error": 6.667843360785773e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.339144523323084,
+              "port_conduction_w": 0.01667277928848171,
+              "total_port_sensible_w": 15.355817302611564,
+              "pressure_drop_pa": 5.394733123133758,
+              "native_inlet_mean_p_pa": 5.3797477533474245,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.89219766575,
+              "max_T_k": 332.1102422228
+            },
+            "hot": {
+              "min_T_k": 309.87760621382,
+              "max_T_k": 339.99999999809,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.00030000000000003114,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.7713423684281,
+              "relative_mass_error": 8.221866474681564e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.334736669988573,
+              "port_conduction_w": -0.01667232548739043,
+              "total_port_sensible_w": -15.351408995475964,
+              "pressure_drop_pa": 5.39473312327347,
+              "native_inlet_mean_p_pa": 5.379747753486599,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.00015477796000595845,
+              "fluid_outward_heat_w": 15.351415139049855,
+              "plate_outward_heat_w": -15.411197087322456,
+              "face_l1_heat_mismatch_w": 0.05978194827260126
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 5.806359979487752e-06,
+              "fluid_outward_heat_w": -15.355811354273389,
+              "plate_outward_heat_w": 15.295939455886039,
+              "face_l1_heat_mismatch_w": 0.0598718983873448
+            }
+          },
+          "hot_net_rejection_w": 15.351408995475964,
+          "cold_net_gain_w": 15.355817302611564,
+          "hot_effectiveness": 0.3060488236737595,
+          "cold_effectiveness": 0.30613670858475633
+        },
+        {
+          "iteration": 300,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.0000000036,
+              "max_T_k": 330.12382649403,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.0003000000000000075,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.23041666004843,
+              "relative_mass_error": 1.3010426069825897e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.33694249170109,
+              "port_conduction_w": 0.016672533305356955,
+              "total_port_sensible_w": 15.353615025006446,
+              "pressure_drop_pa": 5.394733122975868,
+              "native_inlet_mean_p_pa": 5.3797477531899744,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.89099413301,
+              "max_T_k": 332.10905152539
+            },
+            "hot": {
+              "min_T_k": 309.87622697856,
+              "max_T_k": 339.99999999809,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.00030000000000000545,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.7696504491577,
+              "relative_mass_error": 3.4333068795373567e-15,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336858336756649,
+              "port_conduction_w": -0.016672523171834833,
+              "total_port_sensible_w": -15.353530859928483,
+              "pressure_drop_pa": 5.394733123000377,
+              "native_inlet_mean_p_pa": 5.379747753214266,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 2.8441700123948976e-06,
+              "fluid_outward_heat_w": 15.353532554386806,
+              "plate_outward_heat_w": -15.354630927681862,
+              "face_l1_heat_mismatch_w": 0.0010983732950558128
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 1.0672999906091718e-07,
+              "fluid_outward_heat_w": -15.353613327589542,
+              "plate_outward_heat_w": 15.352513336179577,
+              "face_l1_heat_mismatch_w": 0.001099991409961379
+            }
+          },
+          "hot_net_rejection_w": 15.353530859928483,
+          "cold_net_gain_w": 15.353615025006446,
+          "hot_effectiveness": 0.30609112559665663,
+          "cold_effectiveness": 0.30609280352883295
+        },
+        {
+          "iteration": 400,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.0000000036,
+              "max_T_k": 330.12380027141,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.00030000000000001293,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.23038435640507,
+              "relative_mass_error": 3.108046227791742e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336901982932616,
+              "port_conduction_w": 0.016672529141882143,
+              "total_port_sensible_w": 15.353574512074498,
+              "pressure_drop_pa": 5.394733122986088,
+              "native_inlet_mean_p_pa": 5.379747753200166,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.89097212956,
+              "max_T_k": 332.10902954645
+            },
+            "hot": {
+              "min_T_k": 309.87620175639,
+              "max_T_k": 339.99999999809,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.0003000000000000076,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.76961940280876,
+              "relative_mass_error": 3.7947076036991835e-15,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336897268877983,
+              "port_conduction_w": -0.016672527112184875,
+              "total_port_sensible_w": -15.353569795990168,
+              "pressure_drop_pa": 5.394733122988039,
+              "native_inlet_mean_p_pa": 5.379747753201961,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 5.226002031122334e-08,
+              "fluid_outward_heat_w": 15.353571412338551,
+              "plate_outward_heat_w": -15.353591597274349,
+              "face_l1_heat_mismatch_w": 2.0184935797404324e-05
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 1.960017925739521e-09,
+              "fluid_outward_heat_w": -15.35357289612974,
+              "plate_outward_heat_w": 15.35355268212577,
+              "face_l1_heat_mismatch_w": 2.0214003970092653e-05
+            }
+          },
+          "hot_net_rejection_w": 15.353569795990168,
+          "cold_net_gain_w": 15.353574512074498,
+          "hot_effectiveness": 0.3060919018339311,
+          "cold_effectiveness": 0.30609199585475105
+        },
+        {
+          "iteration": 500,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.0000000036,
+              "max_T_k": 330.12379979126,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.00030000000000000436,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.2303837652183,
+              "relative_mass_error": 2.529805069132813e-15,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.33690124158395,
+              "port_conduction_w": 0.016672529058137122,
+              "total_port_sensible_w": 15.353573770642086,
+              "pressure_drop_pa": 5.3947331229827675,
+              "native_inlet_mean_p_pa": 5.379747753196854,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.89097172728,
+              "max_T_k": 332.10902914423
+            },
+            "hot": {
+              "min_T_k": 309.87620129505,
+              "max_T_k": 339.99999999809,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.0002999999999999965,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.76961883473194,
+              "relative_mass_error": 3.3248866622888085e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336897981247638,
+              "port_conduction_w": -0.016672527189360218,
+              "total_port_sensible_w": -15.353570508436999,
+              "pressure_drop_pa": 5.394733122979332,
+              "native_inlet_mean_p_pa": 5.3797477531932785,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 9.100062925426755e-10,
+              "fluid_outward_heat_w": 15.353572125800017,
+              "plate_outward_heat_w": -15.353572474610697,
+              "face_l1_heat_mismatch_w": 3.488106809917957e-07
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 4.001776687800884e-11,
+              "fluid_outward_heat_w": -15.353572152237257,
+              "plate_outward_heat_w": 15.353571806554132,
+              "face_l1_heat_mismatch_w": 3.4568312463900686e-07
+            }
+          },
+          "hot_net_rejection_w": 15.353570508436999,
+          "cold_net_gain_w": 15.353573770642086,
+          "hot_effectiveness": 0.30609191603741653,
+          "cold_effectiveness": 0.30609198107340313
+        },
+        {
+          "iteration": 600,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.0000000036,
+              "max_T_k": 330.12379978326,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.0003000000000000057,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.2303837550338,
+              "relative_mass_error": 7.0473141211556944e-15,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336901228812762,
+              "port_conduction_w": 0.016672529054266937,
+              "total_port_sensible_w": 15.353573757867029,
+              "pressure_drop_pa": 5.394733122984192,
+              "native_inlet_mean_p_pa": 5.3797477531982745,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.89097172064,
+              "max_T_k": 332.10902913755
+            },
+            "hot": {
+              "min_T_k": 309.87620128742,
+              "max_T_k": 339.99999999809,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.0003000000000000024,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.76961882479304,
+              "relative_mass_error": 1.3552527156068512e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.33689799371028,
+              "port_conduction_w": -0.01667252717590504,
+              "total_port_sensible_w": -15.353570520886185,
+              "pressure_drop_pa": 5.394733122980623,
+              "native_inlet_mean_p_pa": 5.379747753194565,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 15.353572137489905,
+              "plate_outward_heat_w": -15.353572137202715,
+              "face_l1_heat_mismatch_w": 1.5285075566362494e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.35357213934542,
+              "plate_outward_heat_w": 15.353572139071943,
+              "face_l1_heat_mismatch_w": 1.4789973273865442e-09
+            }
+          },
+          "hot_net_rejection_w": 15.353570520886185,
+          "cold_net_gain_w": 15.353573757867029,
+          "hot_effectiveness": 0.30609191628560606,
+          "cold_effectiveness": 0.30609198081871697
+        },
+        {
+          "iteration": 700,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.0000000036,
+              "max_T_k": 330.12379978326,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.000300000000000008,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.23038375503404,
+              "relative_mass_error": 1.4636729328554133e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.33690122881311,
+              "port_conduction_w": 0.016672529054266937,
+              "total_port_sensible_w": 15.353573757867377,
+              "pressure_drop_pa": 5.39473312298257,
+              "native_inlet_mean_p_pa": 5.379747753196657,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.89097172064,
+              "max_T_k": 332.10902913755
+            },
+            "hot": {
+              "min_T_k": 309.87620128742,
+              "max_T_k": 339.99999999809,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.0003000000000000453,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.7696188247931,
+              "relative_mass_error": 1.2938145924993408e-13,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336897993705328,
+              "port_conduction_w": -0.01667252717590504,
+              "total_port_sensible_w": -15.353570520881233,
+              "pressure_drop_pa": 5.394733122968523,
+              "native_inlet_mean_p_pa": 5.3797477531824995,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 15.353572137489905,
+              "plate_outward_heat_w": -15.353572137202715,
+              "face_l1_heat_mismatch_w": 1.5285075566362494e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.35357213934542,
+              "plate_outward_heat_w": 15.353572139071943,
+              "face_l1_heat_mismatch_w": 1.4789973273865442e-09
+            }
+          },
+          "hot_net_rejection_w": 15.353570520881233,
+          "cold_net_gain_w": 15.353573757867377,
+          "hot_effectiveness": 0.3060919162855073,
+          "cold_effectiveness": 0.3060919808187239
+        },
+        {
+          "iteration": 800,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.0000000036,
+              "max_T_k": 330.12379978326,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.0003000000000000056,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.23038375503387,
+              "relative_mass_error": 6.685913396993863e-15,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336901228812838,
+              "port_conduction_w": 0.016672529054266937,
+              "total_port_sensible_w": 15.353573757867105,
+              "pressure_drop_pa": 5.394733122980566,
+              "native_inlet_mean_p_pa": 5.379747753194659,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.89097172064,
+              "max_T_k": 332.10902913755
+            },
+            "hot": {
+              "min_T_k": 309.87620128742,
+              "max_T_k": 339.99999999809,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.0003000000000000111,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.7696188247931,
+              "relative_mass_error": 1.5359530776877647e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.336897993709286,
+              "port_conduction_w": -0.01667252717590504,
+              "total_port_sensible_w": -15.35357052088519,
+              "pressure_drop_pa": 5.394733122985169,
+              "native_inlet_mean_p_pa": 5.3797477531991,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 15.353572137489905,
+              "plate_outward_heat_w": -15.353572137202715,
+              "face_l1_heat_mismatch_w": 1.5285075566362494e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.35357213934542,
+              "plate_outward_heat_w": 15.353572139071943,
+              "face_l1_heat_mismatch_w": 1.4789973273865442e-09
+            }
+          },
+          "hot_net_rejection_w": 15.35357052088519,
+          "cold_net_gain_w": 15.353573757867105,
+          "hot_effectiveness": 0.30609191628558624,
+          "cold_effectiveness": 0.30609198081871847
+        },
+        {
+          "iteration": 900,
+          "regions": {
+            "cold": {
+              "min_T_k": 300.0000000036,
+              "max_T_k": 330.12379978326,
+              "mass_in_kg_s": 0.0003000000000000036,
+              "mass_out_kg_s": 0.0003000000000000163,
+              "inlet_T_k": 299.99999999999994,
+              "outlet_T_k": 312.23038375503404,
+              "relative_mass_error": 4.228388472693416e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": 15.336901228813431,
+              "port_conduction_w": 0.016672529054266937,
+              "total_port_sensible_w": 15.353573757867698,
+              "pressure_drop_pa": 5.394733122983891,
+              "native_inlet_mean_p_pa": 5.379747753197975,
+              "native_outlet_gauge_p_pa": 0.0
+            },
+            "plate": {
+              "min_T_k": 307.89097172064,
+              "max_T_k": 332.10902913755
+            },
+            "hot": {
+              "min_T_k": 309.87620128742,
+              "max_T_k": 339.99999999809,
+              "mass_in_kg_s": 0.0003000000000000065,
+              "mass_out_kg_s": 0.0003000000000000119,
+              "inlet_T_k": 340.0,
+              "outlet_T_k": 327.7696188247931,
+              "relative_mass_error": 1.807003620809135e-14,
+              "maximum_sealed_mass_flux_kg_s": 0.0,
+              "sensible_advection_w": -15.33689799370918,
+              "port_conduction_w": -0.01667252717590504,
+              "total_port_sensible_w": -15.353570520885084,
+              "pressure_drop_pa": 5.394733122984744,
+              "native_inlet_mean_p_pa": 5.379747753198675,
+              "native_outlet_gauge_p_pa": 0.0
+            }
+          },
+          "interfaces": {
+            "hot": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": 15.353572137489905,
+              "plate_outward_heat_w": -15.353572137202715,
+              "face_l1_heat_mismatch_w": 1.5285075566362494e-09
+            },
+            "cold": {
+              "maximum_temperature_jump_k": 0.0,
+              "fluid_outward_heat_w": -15.35357213934542,
+              "plate_outward_heat_w": 15.353572139071943,
+              "face_l1_heat_mismatch_w": 1.4789973273865442e-09
+            }
+          },
+          "hot_net_rejection_w": 15.353570520885084,
+          "cold_net_gain_w": 15.353573757867698,
+          "hot_effectiveness": 0.3060919162855841,
+          "cold_effectiveness": 0.3060919808187303
+        }
+      ],
+      "native_sha256": {
+        "pre-mesh-sha256.txt": "5e0946c3f3292df976c0b955b20fefe7c5d6aa75e4f574d5798224ff1852a1df",
+        "0/cold/T": "9fc5380361b747b1c369304045da7d56528e60773d48b261a7053fdbe5d768cf",
+        "0/cold/U": "c6febac4af8198045cc4c50cdd75a851b345049ec4e56fdc7e67506c8e3fa12a",
+        "0/cold/p": "2423592d5db246b37ef735456023edd595ea3ea22f85c3e7cdeb7d5557efdcbc",
+        "0/hot/T": "f45040ff6a1c1f8d48aaea09b9097cec511d1c3d9bc686f631f551cf111e85e5",
+        "0/hot/U": "efe542febdb2b9337da7de9e347e3e87491f9be548e7031a830f642fe2a17bfe",
+        "0/hot/p": "e43168d0e6a97b83eb3c08317afdf9a8f24944a0a549ebb0df3906f1fec1f28c",
+        "0/plate/T": "078bf1bc6679c632576b1a86d68fc751be3dd7cbcc4d8e4f741b3ac4b388e49f",
+        "constant/cold/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+        "constant/cold/physicalProperties": "b51588b89e17d022b2e8f1b4f2868afdc926e2373b1d702efc5f1320117476f1",
+        "constant/cold/thermophysicalTransport": "81ab01804e813c9a5c0497c77b6d81508c37d8160dd7646d67ff40ec6e6b0646",
+        "constant/hot/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+        "constant/hot/physicalProperties": "b51588b89e17d022b2e8f1b4f2868afdc926e2373b1d702efc5f1320117476f1",
+        "constant/hot/thermophysicalTransport": "81ab01804e813c9a5c0497c77b6d81508c37d8160dd7646d67ff40ec6e6b0646",
+        "constant/plate/physicalProperties": "99019c938c65b9a644f4cdd70b11674765840a4044aa218c84daa0dad6f29bc0",
+        "system/blockMeshDict": "a26c3938db33018b4cbcce3da5fd0fc7bbd654a97c216eaa62874529c99474aa",
+        "system/cold/fvSchemes": "ae2f69de7e3e2f09b8748faee56373e9d6e5283b274ec40e2d0ffc6602717805",
+        "system/cold/fvSolution": "2d83c595daff90920ce6263545f1581e2f6e557cdba8c3b5304dc8e3fa747924",
+        "system/controlDict": "e172fd970876d3a7397c40f6612b17c317d01e9d74cc2a6307d95ccf6fc60cff",
+        "system/fvSolution": "47e27512c9ddf729e6e575b3c893c024f9ba325b37d06a8b7ec1b4c85aa7b51f",
+        "system/hot/fvSchemes": "ae2f69de7e3e2f09b8748faee56373e9d6e5283b274ec40e2d0ffc6602717805",
+        "system/hot/fvSolution": "2d83c595daff90920ce6263545f1581e2f6e557cdba8c3b5304dc8e3fa747924",
+        "system/plate/fvSchemes": "444f7cc77d8980ac71252732715db1f9a4cff31723abea912911b319e539a80a",
+        "system/plate/fvSolution": "af951d24d4f176a2a238869214d708e56f84c5ecd774c0dbed83c8153b78ccd1",
+        "input-sha256.txt": "5cb36afa1743397f4e0094159e549a1040e9384953644b7686f82727300ca008",
+        "0/cellToRegion": "00be0ff985b7258c1151236d399f0fba8042d1f43dc48911ff32e39dfa8ec15d",
+        "0/cold/C": "6eab4ebef76b57efe59dd7bb4b929a068f497392f4b2dd79de977ef38c3f7f7d",
+        "0/cold/Ccx": "ba6d9fde6ab6658d7199887dba7ffe4cc2a6f1268ca8a72218d721385b2cd6f4",
+        "0/cold/Ccy": "1b553f3f3f24698f07b6a622f1b7dd770f5a05229e4823bbfb6d703f12fbb890",
+        "0/cold/Ccz": "519bbd44e50df50c5d34f2e58e283e64d7d42ed6a618e654676f670123428f5e",
+        "0/cold/Vc": "367026f05a971dbdb3b84eb933e53746b0834cca612314ee2a1a1479b5f38ec8",
+        "0/hot/C": "56ec2400185939de3b5b0e26c62e53706434853763d7cdd5db3fe8c7716dccda",
+        "0/hot/Ccx": "58c08d33c8acaa51bce1f4d60476261323dc8313efce24e91bb9fa11d9c93544",
+        "0/hot/Ccy": "9ca1522e394e0c806adf0b3adcf87710189c1950075d546a757152ba2b10b95e",
+        "0/hot/Ccz": "148d383bca29cfd585cc2b20d0d7aa499caf0b9f3f843c61d32877e9c5605df7",
+        "0/hot/Vc": "471acf3fbcc16d0f4bd578821af3e00e3f33e469cd365432f112d9d87b016056",
+        "0/plate/C": "5f0f95f865fe03d02a68ba976158d4cc13871cf774d8978a92e7458d7f51a49b",
+        "0/plate/Ccx": "fc050869e3677c14e65228e45a75cf32a1298c7a5e1ee1d6fd1776b8e51a1a6f",
+        "0/plate/Ccy": "a40fc8f30a43f371cee1417efb029c9f7a538ef33879fb5a8669b3e61e426b46",
+        "0/plate/Ccz": "02d7e01a016e07968ec42e3927d6978d18e9a5786fb2e74e3eae0f2698ce2bee",
+        "0/plate/Vc": "ca821a2d67353815160aa064c280153810c23b7e542bafbf8c73e88f5e1bdb13",
+        "constant/cellToRegion": "a5ff8bd02ce5441ed088b0f6e73b2c03171be55195bb98c050e7deaaa3b07be3",
+        "constant/cold/polyMesh/boundary": "1660e8b2e33cd15c9dffe8f5751ef68246a32bee5c0891e41ccd8cc0995bf449",
+        "constant/cold/polyMesh/cellZones": "f174366d6cb1f02020ab7ca8de7cc3b0b12ddf704f2329cdd255e08e691fed86",
+        "constant/cold/polyMesh/faces": "a775490ee61e22a73020838139e0e38c47548b85a189ac2aab4feb91d4686663",
+        "constant/cold/polyMesh/neighbour": "9304d36b25c6b4b677b15d1533c604a6d45d5f6a4f2d63a1d54c44c0c3b3151b",
+        "constant/cold/polyMesh/owner": "3a3d6b6d94596af5977f958e02f6ecf68be38a93c2e6ddd540a3eaa67640d0d5",
+        "constant/cold/polyMesh/points": "163ba355def5fccefe97ad4779b2b77d47175a0f01b49992b30d5d07573b7fd8",
+        "constant/hot/polyMesh/boundary": "41e928199122b979275b633913eb96b4bf1df9339eb6d269f71b3a11ed6afee5",
+        "constant/hot/polyMesh/cellZones": "a868dfeed87da367cfef2a64b91d243613585f0d46fc49f44d4d0f553a3988d7",
+        "constant/hot/polyMesh/faces": "58b606a8f8ab2c172475df6dcb468cf0334e661de94eee3c44e73d1f9c3f667c",
+        "constant/hot/polyMesh/neighbour": "b1870feb2653a897980e42b1492f60b23d58550414a9a056078a7b93c690baf6",
+        "constant/hot/polyMesh/owner": "49cc34efe7e1eea59299c94156b5269f604fcca6ed0859b39dd06f03db064f04",
+        "constant/hot/polyMesh/points": "e48da30525c7627d7841d4e61c981eb454b9933b75847d3e811f39c78312fb9a",
+        "constant/plate/polyMesh/boundary": "bc48f72d66fce6bcfe2ccec41ec8c0cade43d37fcbe3a054db2f352035698be5",
+        "constant/plate/polyMesh/cellZones": "edaf43db04f5aa67baf45376d0ce4186128d2000aa642584a816cdbc6aab7daa",
+        "constant/plate/polyMesh/faces": "70739e46324eac60382761059a470576f3094ed4ad7e11871aaf71e4b20e6551",
+        "constant/plate/polyMesh/neighbour": "304eb0df55cc7abc9ba502d4c7266cdc58d541cca4584537ece580f2436a6238",
+        "constant/plate/polyMesh/owner": "e8ccafd84a4d9783b69fc1e81bdab2851ae307886b763bed876af85f5b902b46",
+        "constant/plate/polyMesh/points": "9a99d4c99e35e5060cf819e7e8607fc430618e38c5d10c275598cb35d6e3e2ef",
+        "constant/polyMesh/boundary": "159a83df2d32d786f3631464a86b8aeb93de3d4e5ba082847da2ec6207b58da2",
+        "constant/polyMesh/cellZones": "d855b1386bdd305961c85d5b84b4d0bc482ceccfc2524f298a92e7589fa83daa",
+        "constant/polyMesh/faces": "15ccde7865ddfc3d1019eb417723d0967cf07d45c4b3f781d74dc7df99146548",
+        "constant/polyMesh/neighbour": "bd5a407d4352a93a0d750871810ff1d39f2eb4f9395b841b35aa9ae513d5deec",
+        "constant/polyMesh/owner": "8edfb26deb4b4864183a273247eed2b8c5eb34291d95466e0589d4132fb83a5e",
+        "constant/polyMesh/points": "f16fa5aaf9669be43ad25384bc909d209b99ff152696ebacf1a364c35f794ff5",
+        "generator-sha256.txt": "3226efb804b252a16693e3e4314896370424737e3e22cbc1faae6958aba468a9",
+        "mesh.log": "7b0886ae23cd496d06409d741f73269d16fef4d9612603f1a638b093482b2c20",
+        "split.log": "afcbb516241fae63e4d9fb7a756725762f9e1dd255e62fc97263692d022d05f9",
+        "inputs-verified.log": "7b8914454d506f607b54a50301a120e286a24026395bf958b6b7223a8f673aa3",
+        "original-inputs-verified.log": "d71146fb4416dbcfd48f59b8d06dd0c5609e8f6bfca3540434192041ab352ffc",
+        "solver.log": "2e2dc72baf952cc72b40e08308ba6e1f648a084438ffb755c7d46b16561ce344",
+        "100/uniform/time": "b41eb5f373c32628d1dee217cd134b2754b28983fc88d325646a2fa168cdc34f",
+        "200/uniform/time": "5d1bfad5e23953fe05740fc17aa61478c0a483d420082ae9835bbf02ac7ddcb1",
+        "300/uniform/time": "507fe11a7fc625799085ad51db3f83a1eb1058406c1748c300f062a81dde3935",
+        "400/uniform/time": "ba5025a1acdb1209f0a2352829c7d3e02c906c3a76862a84a9c28d93943df9c0",
+        "500/uniform/time": "f1796f307a88efd07217b0ed4d45cb345bdfa7fb5344c71290eae15b80cce33f",
+        "600/uniform/time": "57ca329a3a14d77476fe0cd4268b5edc7190f0adb40a28034da23c811b0679a6",
+        "700/uniform/time": "5b1e55b520624c596339fa35ba10e795490f4b7fefac0298943893b434d53937",
+        "800/uniform/time": "4f7508c4e37b9410113343a560de555fb7726ce104a458465ecd9367b6d0266f",
+        "900/uniform/time": "8818368c66c71a2b649a4f3593c308e57d39a0a8aaf7ad769baeeb2ecaa013dd",
+        "check-cold.log": "08b1e1c92cdbcf65c88a6f2f03da5551658bf9182536ec987e966e49ff93862c",
+        "check-plate.log": "448a00f8973c7ce187601e0bbb6cfd538de9bcfaec5ca4c628a59f07f3e6840d",
+        "check-hot.log": "ff9b2c3ae4a60f0977d4fc727e60106ac3f6c2503dd60778822af1fa84324b9e",
+        "100/cold/T": "efced6a65414bcc36208082e4c1e5736d63e5021bbd6b8176291d24be9e0acec",
+        "100/cold/p": "ac9b5c76d1d4a28b766d5b0d672478eaf69ce1a51eb058c658361dfd697625cd",
+        "100/cold/U": "8c4d1b1406de08fd5f8f0b241698d1b75724d82efbc0bf6eab1908ebdd6cce12",
+        "100/cold/phi": "7a2e0e39dd64c93108cd49a7080f7ec197c642e0247a55cae4018c2eff5f8789",
+        "100/plate/T": "47e59f746d2489b93762c5dbbab15b723c2bb0caed8f18e706af97e0c9c2a6ed",
+        "100/hot/T": "974790c4b72cad90ef553eab2f7523f16230fd385d9486b449193050d081f5d3",
+        "100/hot/p": "2a3439d1a1f5c6da595c847d23e43db8575a987b532e8edd8fa65485813fdb29",
+        "100/hot/U": "5edc1d64e2386a94f270c404365d8ee76e543b3bf527321826cca44c47c55913",
+        "100/hot/phi": "adb284b583d50b2bcb417ffb51c76dc3286f330a5cdd02481e46919fd5105345",
+        "200/cold/T": "71ae10da77368a50b687767c7fd13a50e561dd368aec9957dee11b1487b6ef6f",
+        "200/cold/p": "4af3d299a5c7e33b65cb5974ec200f9523171555e1995f51628692cdde7fbf0f",
+        "200/cold/U": "0d39c7f453da8801adc570336242a2ed1dc747927484184ed4119348770ca937",
+        "200/cold/phi": "8622a2d00f02204010ec9cb3081fbdb2f46f8386a7d30c37fc0b22da210e6990",
+        "200/plate/T": "17095eea11c192b8441aaeefe93723fe4d951a0aaa643b1e3fb9db1bd360a4b7",
+        "200/hot/T": "71113186c12e7f3630dfc15be2d6c062e97ee5ed508d1093d09d4eb9cdcf2b76",
+        "200/hot/p": "69c3d3dd5f0da05dba4b6897c531d4618d171fb9c65e9e45346ee228e6a5aa85",
+        "200/hot/U": "47599e9c0f855a3ae6ef9c93790e668a535ea8fa56892f8b750fb5b38469335c",
+        "200/hot/phi": "631da5bb744eb6c7dfed36fec52ee02c751eafb8272384ef01d2f13803c23c4b",
+        "300/cold/T": "477cdf0096ba2bbd97ce906fe4bda09d28937920b0316d07df163a1ecfd075bb",
+        "300/cold/p": "f04aab52f7ef615a1a9bf69728b6e80e3d5ba601bf0f91edf679d460fd0e4e60",
+        "300/cold/U": "8af10ca4e53a1df097e279f03b24976ff4653343476a5aa4229890c8851fcd7b",
+        "300/cold/phi": "8c88b2283cb545fe0be7f2a90a5e32ec546937ee48c290692ced1676f9ddfa95",
+        "300/plate/T": "3918344a3c290ce5fb2c025c537fc9671d088cb080686e86ed9e2ff8e520620d",
+        "300/hot/T": "0c39defeb1e341714271dd402c54f87af8aa82f24e2a5ef341d326393af8b36c",
+        "300/hot/p": "3303f0338c8eff92f8b3b103455ced5d4c254bfb254177e8627eb1f826a412c9",
+        "300/hot/U": "1b37a2374bc4004b2927dad008f945686a679859bb69a62c1627971e10f90251",
+        "300/hot/phi": "112407b4325bcdb5a738e2bd9e6bff49bc34d691cc25c48edb41cd4e595e42d7",
+        "400/cold/T": "8a6d7ea8b2005b75891dcf467d09d606b6983a6a7926cb80bc6ea7d613709420",
+        "400/cold/p": "27b2a87614bb6228305ee9bc038b04aa35d4eaa2d8349a8b0bb2596535ad4684",
+        "400/cold/U": "5b89621a0412f41626296d1c6f3ee494c7464e7bedb758aa3857285359a7d8f7",
+        "400/cold/phi": "4291b941af825737cecd03fbe7a0ef9b635f293f73de58a187920a136d420fc6",
+        "400/plate/T": "ab587452a3992834dd0395200d78967cbbc2fcf4f576d0bd3654037279564fec",
+        "400/hot/T": "6575cb791f61438e25898babc9688befcfe973d151b972a02db0458255ddd70e",
+        "400/hot/p": "af0de73882ac7c30f07b0cd8968e00ce73563e86eab757ab2886a1234720f72d",
+        "400/hot/U": "743b459c6cbf75d939bd0e61fcb1871fe7a5f78fe8c97d26e7db3d81d911ff5b",
+        "400/hot/phi": "39dd5aba9731ccf4e9a7d03aa063b52048522cfaad35f7c7e7ec04a02fbe2a2e",
+        "500/cold/T": "5b28930b4e589b90824469e20bcd6e1cf7f418002101f9e2a4b0df0356f70fa5",
+        "500/cold/p": "ddb71d5e596929ca391a7847df89e1b2843997ae6b70f0240a0fa548f1c91508",
+        "500/cold/U": "cdb3a0dda1050365ffdd29bad1a9855324c0aed709db6186f0cde5e8f2096572",
+        "500/cold/phi": "bc2c3968ebf80b1c8fe86b522102c06dde6de2ff61eb039e191f0df54d5454a8",
+        "500/plate/T": "07174cec8154e261868421f68da1e23c420d76b5001f136985da31684ac68adb",
+        "500/hot/T": "ae87ab75b7bcc296110d81e4f71d4935a4aaa26e7ea425200aaa8f36ba541ca6",
+        "500/hot/p": "8e556333c62ebd991d6075f6229afe35fa8bc1dfa4b8e9209c962245c4776ff8",
+        "500/hot/U": "091230b4000b4173691bd4c861dcc55a3dfb2192b249804400efd6db584f5470",
+        "500/hot/phi": "abc15736eba79c38709595ba934c42203cccf7710938b936b31cd2ea5712f007",
+        "600/cold/T": "237d4e6b46ed587fca69ff4f01a5d46b5ea317b6d26547ee01a4cd3571710e69",
+        "600/cold/p": "a4bf3fee1054b85e0d09f7a9296dca2e50d1f973ed94cd6d712234ac1945df14",
+        "600/cold/U": "ec2ab782b886650209acde59f57f8908ebc488483e83f0cd6c56c16ad99986dc",
+        "600/cold/phi": "6f2c963c80077762ffc59d6230656461ef4df6491a0bd16017a84516bd00d52b",
+        "600/plate/T": "7a9964d936c780c22ee03961e80c87da90287fd6bd7a38261ca62e93d2187ae4",
+        "600/hot/T": "18a509260861ec11f2e8e8fe72b89a322cde490c8e6bff08763329ebdd346c9b",
+        "600/hot/p": "9f80b2e3c3a85c83dc217f1c17eb907290364d72b6ee9b82f3d6939ab8701cf3",
+        "600/hot/U": "aab56ac0600ee5ea90eedcfcf2790e2b78fa05451093b498a95d36fc3d644ebe",
+        "600/hot/phi": "9d134b22d970ef774ea38c2d5190c1f082192e8f41efd2da4b34e0a58e8198e2",
+        "700/cold/T": "84fca9018f2b40148580fa57d2792834f98905390f6ffc8070fa4c81b2f9f57d",
+        "700/cold/p": "e781c645d16daa26cdac27aa7c952fc3931b9a2106dcb7a536eeea8ea8501c22",
+        "700/cold/U": "e8264bfd9938baf7a448d1b8a7c627fc66697e83075018e2f4192a8e55c4e3c8",
+        "700/cold/phi": "dc62c535a6c22f05d8cb51ce2cd993118efe10bf077bd013c5d3ff0392887659",
+        "700/plate/T": "f710963b71e7cd32c50ae5aed34f78ad4d086b34eef372715204a08d1bd2690a",
+        "700/hot/T": "7b8c18d05fe83e63ea70d9d079353a3fef0501b766ad1054be9c6a82635ff6d3",
+        "700/hot/p": "cbba6ef0d9c32bc91b48e968f392d9740f33b52c8cf82795a722a538581605ab",
+        "700/hot/U": "430312bfa491029bbd1796510a96a1b2356a36de60eb487fd759148b7a8ac275",
+        "700/hot/phi": "36c02f3e8b48a1fdfae8d98af0cdf7541ca468149769e1e52a9e908d7de12615",
+        "800/cold/T": "f556409167187d1a0bf584688e487f0cbf1d15773bfb12e793f43c8aca423009",
+        "800/cold/p": "e97b384aad24c0a2e12e9288db049d41a3869b20750362345d30af118fae1b00",
+        "800/cold/U": "55cf8404c1a04aa278dc2cdb7097a58ed5e0d6c9852eee4a5eb920856a6e99ac",
+        "800/cold/phi": "eb10d252750f119d8ca5f7c64c8bacdc92bbf74a4e004202d2f993dd06011b2e",
+        "800/plate/T": "88e6afd023a93b0449282949374231674dd674cce32bb1ba89eefe7581e2955e",
+        "800/hot/T": "eab1c4b54140245d095bf1070d72540dc94bae7e9913f178d44326a307bdf965",
+        "800/hot/p": "2e70703b934e96df43b398fc797538a6d94b20647ef77c72f2b3fa9b266ea442",
+        "800/hot/U": "46b5ab5f0b28b79fb0935216f7337e661b70cb440af931c4690d3b7526728a7f",
+        "800/hot/phi": "5a634ba74a414caefb9fd80b87e480a91f4548a3a0d12ae4de7eea8cd67cd147",
+        "900/cold/T": "d006e51c4efa8e6fd3d274315820a94b4bd3eb2f88416714ffc938da0e66c208",
+        "900/cold/p": "ffabb3279b9c4e6b2c0e0da6b0fb42e7038cead40c58f7fb8f8b010fe470bcf0",
+        "900/cold/U": "d3b93ec6679ba49eff14c4c6d10fb0f6e8855a2485c7c06dc4d40bc1744bf5ed",
+        "900/cold/phi": "5a1cbc9aa49c01efefdd25cd00aa4f92846355a5abf36a5202f6c48d3272a55b",
+        "900/plate/T": "3923affaaa481f3cf2dccd1eec7738531577274d254c5509b313ee0f4e791122",
+        "900/hot/T": "d7d8481605189f3bd632065b183d422c3cff7b1c0c3f3dd553a15b2061e5c1ad",
+        "900/hot/p": "2cd033b96b7299f26b99e16387327ec8c74cf1f28ccf9ea59adbf528786391c8",
+        "900/hot/U": "5acbc08e158594936ed048627ae8198594f08e5c25589dbf1e2c5355a2134a42",
+        "900/hot/phi": "cbd1ab274151f94a1c0fa7a59409593f91052c352210dcbefa4d0bd1ddeac2fa"
+      }
+    }
+  ]
+}
