@@ -1,6 +1,6 @@
 # CFD study index
 
-Browse 40 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
+Browse 41 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
 
 [Portfolio home](../README.md) · [Aerodynamics and wakes](#aerodynamics-and-wakes) · [Internal flows and transport](#internal-flows-and-transport) · [Heat transfer](#heat-transfer) · [Compressible flow](#compressible-flow) · [Free-surface flow](#free-surface-flow)
 
@@ -40,6 +40,7 @@ Browse 40 numbered studies. The original study numbers identify related runs and
 | 38 | [Startup of pressure-driven channel flow](../lessons/38-plane-poiseuille-startup/README.md) | Compares OpenFOAM profiles and flow-rate development with the transient plane Poiseuille solution. |
 | 39 | [Oscillating wall in a finite gap](../lessons/39-oscillating-wall/README.md) | Compares OpenFOAM velocity attenuation and phase lag against the analytical startup solution. |
 | 40 | [Taylor-Green vortex decay](../lessons/40-taylor-green-vortex/README.md) | Measures energy decay and velocity errors against the exact two-dimensional viscous solution. |
+| 41 | [Numerical diffusion of a tracer pulse](../lessons/41-periodic-tracer-advection/README.md) | Compares upwind and limited MUSCL after one periodic crossing with zero physical diffusivity. |
 
 ## Heat transfer
 

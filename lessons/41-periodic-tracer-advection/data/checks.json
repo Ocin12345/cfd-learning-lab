@@ -1,0 +1,34 @@
+{
+  "study": 41,
+  "velocity_m_s": 1.0,
+  "diffusivity_m2_s": 0.0,
+  "end_time_s": 1.0,
+  "cases": [
+    {
+      "cells": 160,
+      "method": "upwind",
+      "time_step": 0.002173913043478261,
+      "steps": 460,
+      "maximum_relative_mass_error_all_steps": 1.6055665313432428e-14,
+      "final_peak": 0.6045132370588189,
+      "final_exact_peak": 0.9981944905669959,
+      "final_variance_m2": 0.009853231019723177,
+      "final_exact_variance_m2": 0.0036032552083333324,
+      "final_normalized_l1_error": 0.4770442136666706,
+      "maximum_saved_normalized_l1_error": 0.4770442136666706
+    },
+    {
+      "cells": 160,
+      "method": "muscl",
+      "time_step": 0.002173913043478261,
+      "steps": 460,
+      "maximum_relative_mass_error_all_steps": 1.6793856822095988e-14,
+      "final_peak": 0.9715656968072568,
+      "final_exact_peak": 0.9981944905669959,
+      "final_variance_m2": 0.0036077798574462574,
+      "final_exact_variance_m2": 0.0036032552083333324,
+      "final_normalized_l1_error": 0.02390707422431908,
+      "maximum_saved_normalized_l1_error": 0.02390707422431908
+    }
+  ]
+}
