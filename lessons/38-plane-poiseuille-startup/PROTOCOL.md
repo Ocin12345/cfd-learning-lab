@@ -1,0 +1,5 @@
+# Study 38 protocol
+
+Periodic 8 mm streamwise channel, 10 mm plate separation, 1 mm empty extrusion. Both plates stationary, initially quiescent. OpenFOAM Foundation 14, laminar incompressible, viscosity 1e-4 m²/s. Uniform 0.8 m/s² body acceleration represents the constant imposed pressure gradient divided by density. Euler time integration, orthogonal diffusion and upwind momentum advection. The original central-advection attempt was preserved after a symmetry miss on the fine grid. 320 cells with 1 ms steps and 640 cells with 0.5 ms steps to 0.4 s, 41 states each. Smoke to 0.02 s first.
+
+Require native mesh check, expected clock, finite bounded velocity, transverse and streamwise invariance errors ≤ 1e-9 m/s, local continuity ≤ 1e-9 and final linear residuals ≤ 1e-12. Compare analytical cell averages. Require maximum RMS < 0.6%, maximum cell error < 2% of steady peak speed, maximum flow-rate error < 0.6% of steady analytical flow and monotone flow rate. Fine case must improve maximum profile RMS.

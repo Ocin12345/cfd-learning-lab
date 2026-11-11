@@ -1,0 +1,24 @@
+{
+  "coarse": {
+    "system/blockMeshDict": "1f10ca8caa78a4e589656ed09e6e20cb392a94815cc8a9de2d11f2bbbc0fc6e4",
+    "system/controlDict": "189a1f6f098559714115e131f6daa7a082745e1292e61c3e14ec8404e70a0ce9",
+    "system/fvSchemes": "a52579016047b8f44881f2d4258264f2b80e3d30900e3acdfcb19f42fb0caea3",
+    "system/fvSolution": "99f48e7e9195aef9bb942f7d4357c8ba2a59312dead07ed4ce605e2ab4c8af47",
+    "constant/physicalProperties": "34a8cda784cff12ea1322530632f9f742e8059084fc0a9d2cb973b4a1369257f",
+    "constant/momentumTransport": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844",
+    "0/U": "13b51aefdab7040ea2b462ff312a00f63bb7a07456e4b94e5102eb3cd4b6c371",
+    "0/p": "5ebe885c80ce43dcf822cf0b8094f152de765d2e406f4c9b3863efacf6435550",
+    "constant/fvModels": "65c1a8ff08bfdfd32cfaae0e28805e377deb8cb37f4785f86444f80a653d9b0b"
+  },
+  "fine": {
+    "system/blockMeshDict": "23fb21d86bffa7cb1e113a2b03d42fdb72c4223e7cd97b985afca7a2274023b0",
+    "system/controlDict": "8206e0e60e30b9c1149d2fdd11e5cf26dd87d977536e6b7e07b07a4f81d47660",
+    "system/fvSchemes": "a52579016047b8f44881f2d4258264f2b80e3d30900e3acdfcb19f42fb0caea3",
+    "system/fvSolution": "99f48e7e9195aef9bb942f7d4357c8ba2a59312dead07ed4ce605e2ab4c8af47",
+    "constant/physicalProperties": "34a8cda784cff12ea1322530632f9f742e8059084fc0a9d2cb973b4a1369257f",
+    "constant/momentumTransport": "7498c38a3be52e135c3f5a82c90cc81cbe88a784f678ba1fb5fa24483c164844",
+    "0/U": "13b51aefdab7040ea2b462ff312a00f63bb7a07456e4b94e5102eb3cd4b6c371",
+    "0/p": "5ebe885c80ce43dcf822cf0b8094f152de765d2e406f4c9b3863efacf6435550",
+    "constant/fvModels": "65c1a8ff08bfdfd32cfaae0e28805e377deb8cb37f4785f86444f80a653d9b0b"
+  }
+}

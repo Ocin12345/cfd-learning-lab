@@ -1,0 +1,11 @@
+FoamFile { version 2.0; format ascii; class dictionary; object fvModels; }
+pressureGradient
+{
+    type semiImplicitSource;
+    cellZone all;
+    volumeMode specific;
+    sources
+    {
+        U { explicit (0.8 0 0); implicit 0; }
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "coarse": {
+    "label": "coarse",
+    "cell_count": 320,
+    "time_step_s": 0.001,
+    "end_time_s": 0.4,
+    "actual_steps": 400,
+    "saved_states": 41,
+    "maximum_normalized_flow_rate_error": 0.001132297395869692,
+    "maximum_normalized_rms_error": 0.0010711384031383538,
+    "maximum_normalized_absolute_error": 0.001642729660405809,
+    "maximum_transverse_velocity_m_s": 3.7690190034955e-14,
+    "maximum_within_row_velocity_spread_m_s": 6.200595592531499e-14,
+    "maximum_reported_local_continuity_error": 5.6683045774156e-18,
+    "maximum_reported_final_linear_residual": 9.9986574344644e-13,
+    "source_log_sha256": "d5be80cb14cdb5a371baa9272bd28d1ad106b8fd6f617d804710eb873f61cecf"
+  },
+  "fine": {
+    "label": "fine",
+    "cell_count": 640,
+    "time_step_s": 0.0005,
+    "end_time_s": 0.4,
+    "actual_steps": 800,
+    "saved_states": 41,
+    "maximum_normalized_flow_rate_error": 0.0007255458320842064,
+    "maximum_normalized_rms_error": 0.0005872586964908221,
+    "maximum_normalized_absolute_error": 0.0008749701380334624,
+    "maximum_transverse_velocity_m_s": 3.4853150032455e-14,
+    "maximum_within_row_velocity_spread_m_s": 8.198997036856781e-14,
+    "maximum_reported_local_continuity_error": 2.6750441213702e-18,
+    "maximum_reported_final_linear_residual": 9.9951777846954e-13,
+    "source_log_sha256": "635702787562237d18fbe699f4559c971ce8d2d32cc95b8e4553809991d04a82"
+  }
+}
