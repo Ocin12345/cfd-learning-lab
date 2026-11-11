@@ -1,0 +1,22 @@
+{
+  "32": {
+    "grid_points_per_side": 32,
+    "steps": 800,
+    "maximum_normalized_energy_error": 0.004332274907198119,
+    "maximum_velocity_rms_m_s": 0.009110504502307595,
+    "maximum_discrete_divergence_s_inverse": 6.661338147750939e-16,
+    "maximum_absolute_mean_vorticity_s_inverse": 1.1262150066693177e-17,
+    "final_energy_fraction": 0.5316246989502467,
+    "final_exact_energy_fraction": 0.5272924240430485
+  },
+  "64": {
+    "grid_points_per_side": 64,
+    "steps": 1600,
+    "maximum_normalized_energy_error": 0.0010839217860134642,
+    "maximum_velocity_rms_m_s": 0.002273226759638576,
+    "maximum_discrete_divergence_s_inverse": 1.2490009027033011e-15,
+    "maximum_absolute_mean_vorticity_s_inverse": 1.2708882340603522e-17,
+    "final_energy_fraction": 0.528376345829062,
+    "final_exact_energy_fraction": 0.5272924240430485
+  }
+}
