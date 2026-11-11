@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **49 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **50 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -13,6 +13,7 @@ There are **49 distinct CFD projects** with computed flow fields, figures and nu
 | [Finite-span wing](../lessons/27-wing-convergence/README.md) | Spanwise flow and tip effects around a three-dimensional rectangular wing. | 08, 27, 28, 29 |
 | [Confined square obstacle](../lessons/14-square-obstacle-wake/README.md) | Wake recirculation and forces around a square obstruction. | 14 |
 | [Offset tandem obstacles](../lessons/17-tandem-offset-wake/README.md) | Wake interference and individual forces on two staggered bodies. | 17 |
+| [Slow flow around a fixed sphere](../projects/creeping-sphere/README.md) | Three-dimensional laminar drag compared with the unbounded Stokes limit at diameter Reynolds number 0.1. | — |
 
 ## Internal flows
 
