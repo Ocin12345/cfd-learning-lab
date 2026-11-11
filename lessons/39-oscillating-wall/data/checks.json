@@ -1,0 +1,36 @@
+{
+  "coarse": {
+    "maximum_amplitude_error_over_plate_speed": 0.002423668377300292,
+    "maximum_phase_error_rad_where_reference_amplitude_ge_0p1": 0.014204382979130433,
+    "label": "coarse",
+    "cell_count": 320,
+    "time_step_s": 0.001,
+    "end_time_s": 1.0,
+    "actual_steps": 1000,
+    "saved_states": 101,
+    "maximum_normalized_rms_error": 0.001936095197236714,
+    "maximum_normalized_absolute_error": 0.0031146542373809358,
+    "maximum_transverse_velocity_m_s": 6.6937767101816e-14,
+    "maximum_within_row_velocity_spread_m_s": 1.030009411095989e-13,
+    "maximum_reported_local_continuity_error": 2.4048627532662e-18,
+    "maximum_reported_final_linear_residual": 9.9962696393825e-13,
+    "source_log_sha256": "569ee3051719e897c4528b6f93e854afa2c429af7b882a1120b309f8ff2a87c1"
+  },
+  "fine": {
+    "maximum_amplitude_error_over_plate_speed": 0.0006029913869554093,
+    "maximum_phase_error_rad_where_reference_amplitude_ge_0p1": 0.003637704088253742,
+    "label": "fine",
+    "cell_count": 640,
+    "time_step_s": 0.00025,
+    "end_time_s": 1.0,
+    "actual_steps": 4000,
+    "saved_states": 101,
+    "maximum_normalized_rms_error": 0.00048562614493907167,
+    "maximum_normalized_absolute_error": 0.0007809134756235972,
+    "maximum_transverse_velocity_m_s": 1.1115266982523e-13,
+    "maximum_within_row_velocity_spread_m_s": 2.1000562400175227e-13,
+    "maximum_reported_local_continuity_error": 5.9680324773497e-19,
+    "maximum_reported_final_linear_residual": 9.9998025329451e-13,
+    "source_log_sha256": "874fbf28de81304471e79a94d98c934f0a5b20d807dfc8bc37323960873f3ddd"
+  }
+}

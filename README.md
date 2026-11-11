@@ -1,6 +1,6 @@
 # CFD Learning Lab
 
-An AI-assisted computational fluid dynamics portfolio using ANSYS Fluent and OpenFOAM. The collection documents **38 numbered studies**, with simulation results, methods and numerical checks.
+An AI-assisted computational fluid dynamics portfolio using ANSYS Fluent and OpenFOAM. The collection documents **39 numbered studies**, with simulation results, methods and numerical checks.
 
 **[Browse the full study index](docs/STUDY_INDEX.md)**
 
