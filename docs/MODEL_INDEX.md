@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **22 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **23 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -50,3 +50,4 @@ There are **22 distinct CFD projects** with computed flow fields, figures and nu
 | [Water-tank sloshing](../lessons/33-tank-sloshing/README.md) | Free-surface oscillation after a tilted water level is released. | 33, 34 |
 | [Dam break over an obstacle](../lessons/35-dam-break-over-obstacle/full-production-v001/README.md) | Jet formation when a released water front encounters an obstacle. | 35 |
 | [Capillary rise between wetting walls](../projects/capillary-rise/README.md) | Follows the oscillating water level in a narrow wetting gap and compares it with a static capillary scale. | — |
+| [Gravity drainage from a slotted tank](../projects/tank-drainage/README.md) | Measures liquid transfer through a bottom slot and the retained liquid in the upper and lower regions. | — |
