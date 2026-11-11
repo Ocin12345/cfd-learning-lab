@@ -1,0 +1,32 @@
+{
+  "study": 44,
+  "radius_m": 0.005,
+  "viscosity_m2_s": 0.0001,
+  "results": [
+    {
+      "cells": 40,
+      "time_step_s": 0.001,
+      "steps": 1250,
+      "flow_amplitude_m3_s": 1.3402490979137641e-06,
+      "exact_flow_amplitude_m3_s": 1.3394362797920641e-06,
+      "flow_phase_rad": -0.7890185295781591,
+      "exact_flow_phase_rad": -0.7890998632932991,
+      "relative_amplitude_error": 0.0006068359756734587,
+      "phase_error_rad": 8.133371514003005e-05,
+      "maximum_complex_profile_error_over_force_by_frequency": 0.0005443751348305767
+    },
+    {
+      "cells": 80,
+      "time_step_s": 0.0005,
+      "steps": 2500,
+      "flow_amplitude_m3_s": 1.3396394522010765e-06,
+      "exact_flow_amplitude_m3_s": 1.3394362797920641e-06,
+      "flow_phase_rad": -0.7890794540406579,
+      "exact_flow_phase_rad": -0.7890998632932991,
+      "relative_amplitude_error": 0.00015168501262663447,
+      "phase_error_rad": 2.040925264121007e-05,
+      "maximum_complex_profile_error_over_force_by_frequency": 0.0001375963375086315
+    }
+  ],
+  "womersley_number": 2.5066282746310002
+}
