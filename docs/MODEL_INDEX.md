@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **36 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **37 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -69,3 +69,8 @@ There are **36 distinct CFD projects** with computed flow fields, figures and nu
 | Project | Flow question | Study records |
 | --- | --- | --- |
 | [Miscible lock exchange](../projects/lock-exchange/README.md) | Measures density-driven sludge transport and the advance of a miscible gravity current. | — |
+## Combustion
+
+| Project | Flow question | Study records |
+| --- | --- | --- |
+| [Opposed-jet methane diffusion flame](../projects/counterflow-methane-flame/README.md) | Locates a reaction layer and measures its temperature, heat release and species profiles. | — |
