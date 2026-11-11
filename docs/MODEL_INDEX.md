@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **44 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **45 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -91,3 +91,8 @@ There are **44 distinct CFD projects** with computed flow fields, figures and nu
 | --- | --- | --- |
 | [Stochastically forced flow in a periodic cube](../projects/forced-periodic-box/README.md) | Measures how velocity, enstrophy and Fourier energy develop under a prescribed body force. | — |
 | [Laminar flow through a three-dimensional spiral pipe](../projects/spiral-pipe/README.md) | Measures pressure drop and velocity in a long, spatially curved pipe. | — |
+## Heat transfer and buoyancy
+
+| Project | Flow question | Study records |
+| --- | --- | --- |
+| [Buoyant flow and radiation from a hot box](../projects/radiating-room/README.md) | Compares air temperature and incident radiation near and far from a hot box. | — |
