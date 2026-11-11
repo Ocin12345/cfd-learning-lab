@@ -1,6 +1,6 @@
 # CFD Learning Lab
 
-An AI-assisted computational fluid dynamics portfolio using ANSYS Fluent and OpenFOAM. The collection documents **50 numbered studies**, with simulation results, methods and numerical checks.
+An AI-assisted computational fluid dynamics portfolio with ANSYS Fluent and OpenFOAM simulations and focused numerical benchmarks in Python. The collection documents **50 numbered studies**, with simulation results, methods and numerical checks.
 
 **[Browse the full study index](docs/STUDY_INDEX.md)**
 
@@ -14,6 +14,7 @@ An AI-assisted computational fluid dynamics portfolio using ANSYS Fluent and Ope
 | [Dam break over an obstacle](lessons/35-dam-break-over-obstacle/full-production-v001/README.md) | Both solvers formed a jet as the water crossed the obstacle. Breakup details differed on the shared grid. The declared checks passed over the selected 0.5 s trajectory in each solver. | [Numerical checks](lessons/35-dam-break-over-obstacle/full-production-v001/numerical-checks.png) · [Video](lessons/35-dam-break-over-obstacle/full-production-v001/dam-break-development.mp4) |
 | [Cooling an aluminium block](results/cooling-block-plain-v001/README.md) | The block cooled from 320 K to about 318.533 K over 20 s in both solvers. Their final mean temperatures differed by about 0.00050 K. | [Energy checks](results/cooling-block-plain-v001/figures/paired-prefix-energy-checks.png) · [Video](results/cooling-block-plain-v001/cooling-block-plain-comparison.mp4) |
 | [Finite-wing convergence investigation](lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/README.md) | All five Fluent trials missed the continuity target. Residual maps show where the imbalance was concentrated downstream of the wing. | [Residual maps](lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/figures/three-actual-residual-maps.png) · [Convergence histories](lessons/29-wing-mesh-sensitivity/formulation-investigation-v001/figures/qualification-numerics.png) |
+| [Sod shock tube](lessons/50-sod-shock-tube/README.md) | Doubling the grid from 200 to 400 cells reduced the density error against the exact Riemann solution by 37%. | [Profile comparison](lessons/50-sod-shock-tube/data/shock-tube.png) |
 
 | Dam break at 0.25 s | Cooling block at 20 s |
 | --- | --- |
@@ -27,4 +28,4 @@ Each study describes its numerical checks and records any missed targets. Some s
 
 ## Contributions
 
-The project owner chose the topics and directed the progression of the studies. Codex prepared meshes and scripts, ran the solver workflows and numerical checks, and prepared the figures and study records. ANSYS Fluent and OpenFOAM computed the simulation fields.
+The project owner chose the topics and directed the progression of the studies. Codex prepared meshes and scripts, ran the solver workflows and numerical checks, and prepared the figures and study records. ANSYS Fluent, OpenFOAM, and the Python solvers computed the results described in the individual studies.
