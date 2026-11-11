@@ -1,0 +1,5 @@
+# Study 50 protocol
+
+Use the one-dimensional ideal-gas Euler equations with γ = 1.4 on the unit interval. At x = 0.5 join density and pressure pairs (1, 1) and (0.125, 0.1) with zero initial velocity. Use 200 and 400 uniform cells, transmissive ends, first-order conservative HLL fluxes and CFL 0.45. Save comparisons through 0.2 s before waves reach the boundaries.
+
+Require positive finite density and pressure at every step, boundary flux conservation within 10⁻¹¹ in the scaled variables, endpoint density L1 error below 0.035 and improvement with refinement, left star-pressure error below 0.015, contact position error below 0.022 m and shock position error below 0.012 m. Compare with the exact Riemann solution. Estimate wave positions from the strongest density and pressure gradients in declared windows around the corresponding analytical waves.

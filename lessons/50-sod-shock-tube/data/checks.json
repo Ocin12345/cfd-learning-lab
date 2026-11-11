@@ -1,0 +1,39 @@
+{
+  "end_time_s": 0.2,
+  "reference_star_pressure": 0.3031301780506468,
+  "reference_star_velocity": 0.9274526200489499,
+  "exact_wave_positions_m": [
+    0.26335680867601535,
+    0.4859454374877633,
+    0.6854905240097899,
+    0.8504311464060357
+  ],
+  "cases": [
+    {
+      "cells": 200,
+      "actual_steps": 196,
+      "density_l1_at_endpoint": 0.012000121448392582,
+      "velocity_l1_at_endpoint": 0.017954968976938757,
+      "pressure_l1_at_endpoint": 0.009594582879029834,
+      "max_conservation_ledger_error": 1.9984014443252818e-15,
+      "minimum_density": 0.125,
+      "minimum_pressure": 0.1,
+      "mean_left_star_pressure": 0.30289659288421356,
+      "contact_position_m": 0.6799999999999999,
+      "shock_position_m": 0.855
+    },
+    {
+      "cells": 400,
+      "actual_steps": 387,
+      "density_l1_at_endpoint": 0.007540432286922124,
+      "velocity_l1_at_endpoint": 0.009821069372967662,
+      "pressure_l1_at_endpoint": 0.0056352561975806835,
+      "max_conservation_ledger_error": 1.9984014443252818e-15,
+      "minimum_density": 0.125,
+      "minimum_pressure": 0.1,
+      "mean_left_star_pressure": 0.30306156867558437,
+      "contact_position_m": 0.6825,
+      "shock_position_m": 0.8525
+    }
+  ]
+}

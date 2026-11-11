@@ -1,6 +1,6 @@
 # CFD study index
 
-Browse 49 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
+Browse 50 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
 
 [Portfolio home](../README.md) · [Aerodynamics and wakes](#aerodynamics-and-wakes) · [Internal flows and transport](#internal-flows-and-transport) · [Heat transfer](#heat-transfer) · [Compressible flow](#compressible-flow) · [Free-surface flow](#free-surface-flow)
 
@@ -67,6 +67,7 @@ Browse 49 numbered studies. The original study numbers identify related runs and
 | --- | --- | --- |
 | 09 | [Compressible nozzle flow](../lessons/09-nozzle/README.md) | Compares Mach number and pressure fields and records both solvers’ missed numerical targets. |
 | 24 | [Mach 2 flow over a compression wedge](../lessons/24-mach2-wedge/README.md) | Compares the oblique shock with a weak-shock solution. [Spatial refinement](../lessons/24-mach2-wedge/spatial-v001/README.md). |
+| 50 | [Sod shock tube](../lessons/50-sod-shock-tube/README.md) | Compares computed shock and contact locations and gas profiles with the exact Riemann solution. |
 
 ## Free-surface flow
 
