@@ -1,0 +1,23 @@
+{
+  "study": 45,
+  "results": [
+    {
+      "cross_stream_cells": 64,
+      "axial_steps": 500,
+      "maximum_bulk_temperature_error": 0.0006739500352972438,
+      "maximum_relative_nusselt_error_for_s_ge_0p025": 0.008950549238566197,
+      "exit_nusselt": 7.540133719194561,
+      "maximum_discrete_heat_balance_residual": 3.730349362740526e-13
+    },
+    {
+      "cross_stream_cells": 128,
+      "axial_steps": 1000,
+      "maximum_bulk_temperature_error": 0.0003587335285826221,
+      "maximum_relative_nusselt_error_for_s_ge_0p025": 0.004435171956994166,
+      "exit_nusselt": 7.540761312787088,
+      "maximum_discrete_heat_balance_residual": 6.544098596350523e-12
+    }
+  ],
+  "reference_cells": 512,
+  "reference_exit_nusselt": 7.540947421915541
+}

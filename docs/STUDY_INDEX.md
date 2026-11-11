@@ -1,6 +1,6 @@
 # CFD study index
 
-Browse 44 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
+Browse 45 numbered studies. The original study numbers identify related runs and follow-ups. Open each study for the setup, figures, and available numerical evidence. Diagnostic runs and missed targets are documented in the study records.
 
 [Portfolio home](../README.md) · [Aerodynamics and wakes](#aerodynamics-and-wakes) · [Internal flows and transport](#internal-flows-and-transport) · [Heat transfer](#heat-transfer) · [Compressible flow](#compressible-flow) · [Free-surface flow](#free-surface-flow)
 
@@ -56,6 +56,7 @@ Browse 44 numbered studies. The original study numbers identify related runs and
 | 31 | [Natural-convection time-step sensitivity](../lessons/31-convection-time-step/README.md) | Compares the effects of a smaller time step. [Spatial sensitivity follow-up](../lessons/31-convection-time-step/spatial-v001/README.md). |
 | 32 | [Plume above a floor heater](../lessons/32-heater-plume/README.md) | Compares the flow and heat transfer above a localized heater. |
 | 36 | [Cooling an aluminium block in airflow](../results/cooling-block-plain-v001/README.md) | Compares 20 s of conjugate heat transfer in Fluent and OpenFOAM, with temperature fields, video and discrete energy checks. |
+| 45 | [Thermal entrance region between heated plates](../lessons/45-thermal-entrance-region/README.md) | Compares bulk temperature and wall heat transfer with a fine Graetz eigenmode reference. |
 
 ## Compressible flow
 
