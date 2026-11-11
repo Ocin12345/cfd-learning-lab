@@ -1,0 +1,55 @@
+{
+  "mesh_cells": 57600,
+  "iterations": 350,
+  "stopping_rule": "Native PIMPLE residual control",
+  "terminal_initial_residuals": {
+    "Ux": 3.8973744e-07,
+    "Uy": 5.9217824e-06,
+    "Uz": 5.0636101e-06,
+    "p": 9.8429488e-06
+  },
+  "terminal_local_continuity": 1.714693e-06,
+  "relative_flux_imbalance": 9.349874352008085e-07,
+  "boundary_flux_m3_s": {
+    "inlet": -0.0015607225776,
+    "outlet": 0.001560724036856
+  },
+  "velocity_rms_change_300_to_350_m_s": 1.4792288829637287e-05,
+  "sections": [
+    {
+      "section": "upstream",
+      "sample_x_m": 0.053125,
+      "mean_axial_speed_m_s": 0.20000146539123453,
+      "mean_kinematic_pressure_m2_s2": 0.34709803734254596
+    },
+    {
+      "section": "throat",
+      "sample_x_m": 0.246875,
+      "mean_axial_speed_m_s": 0.7993828137028761,
+      "mean_kinematic_pressure_m2_s2": -0.07367716235256701
+    },
+    {
+      "section": "downstream",
+      "sample_x_m": 0.571875,
+      "mean_axial_speed_m_s": 0.20000067035472818,
+      "mean_kinematic_pressure_m2_s2": -0.005049132084237944
+    }
+  ],
+  "upstream_to_throat_pressure_drop_m2_s2": 0.42077519969511296,
+  "ideal_bernoulli_drop_m2_s2": 0.299506148342443,
+  "throat_to_downstream_pressure_recovery_m2_s2": 0.06862803026832906,
+  "native_sha256": {
+    "input-sha256.txt": "a94c402d24f7c16d5cec39333f4454771d8baaff6bd144977446474b2d8cd158",
+    "solver.log": "6dcd48645fa4ca09b1b06e85cf8d2d3726b04513152d3822b0721e752fa8e1f7",
+    "check-mesh.log": "d8a610e7ea10ca3768478b2b832241534ce5a3109304710097419c55feca174c",
+    "0/C": "969d07d4aea2d439fea141b5593e08402e4b0f969f02ad118b1e0963a629c084",
+    "0/Vc": "d6713439282feb6cf4c827a18f3b911e2a6d4eeddd4cb902d6aa077f12f292c1",
+    "300/U": "33429a812d417afc3d91b51ab383f03b37af7b371b484c45a91b355ce2d61df6",
+    "350/U": "bec8cabb534317dbe176af76b098ac144c42ff5b18e2e5297ae1628d71102a54",
+    "350/p": "6e1b195a884b20e6fc7cbf938fc19f9ccb980c73b051aa9dcb36a1abc5283764",
+    "350/phi": "0fd33d6629a8fbeea7562c8ac9e18b9ad6ea78bda3d609b8fab8538212a05bb0",
+    "postProcessing/graphB/350/line.xy": "1c5ab22ccdd16ac8233f82e0b4aaf72ab2c82a93bee575f4701c2fade6907463",
+    "postProcessing/graphD/350/line.xy": "8d11998ab87fd4b184ee6d79b2c101b41491e6e87bc442bfb95365f65059b351",
+    "postProcessing/graphF/350/line.xy": "3524fb085e83015bf7068cf8bf09d9d091e5292838c4c892059d735eba512b6e"
+  }
+}
