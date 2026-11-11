@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **51 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **52 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -52,6 +52,7 @@ There are **51 distinct CFD projects** with computed flow fields, figures and nu
 | [Pressure oscillations in a Helmholtz resonator](../projects/helmholtz-resonance/README.md) | Measure the decay and frequency of the pressure response in a duct-connected plenum. | — |
 | [Early ideal-gas tank blowdown](../projects/gas-tank-blowdown/README.md) | Track pressure decay, gas inventory and nozzle discharge in a depressurizing tank. | — |
 | [Mach 3 flow over a forward-facing step](../projects/supersonic-forward-step/README.md) | Follows the step-generated shock and its reflections inside a tunnel. | — |
+| [Hypersonic flow over a double cone](../projects/hypersonic-double-cone/README.md) | Tracks shock interaction, surface pressure and wall heating on a 25°/55° double cone at Mach 11.3. | — |
 
 ## Free-surface flow
 
