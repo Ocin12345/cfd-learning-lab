@@ -1,5 +1,7 @@
 # Ground effect on an open-wheel formula car
 
+[Front-flap comparison at 8°, 12° and 18°](flap-angle-comparison/README.md)
+
 This three-dimensional OpenFOAM study resolves the airflow around an original F1-style geometry at 30 m/s. The 4.55 m car has a two-element front wing with an 8° flap setting, a raised nose, sidepods, a cockpit fairing, a single rear wing, an 8° diffuser, and four exposed wheels. A moving road and rotating wheel walls reproduce the relative motion in the vehicle frame.
 
 ![Computed pressure on the car, near-centreplane speed, force history and initial residuals](figures/formula-car-flow.png)
