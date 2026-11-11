@@ -1,6 +1,6 @@
 # CFD projects
 
-There are **37 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
+There are **38 distinct CFD projects** with computed flow fields, figures and numerical checks. Each project has one entry. Mesh, time-step and convergence follow-ups are linked through the study records.
 
 [Portfolio home](../README.md) · [Study records](STUDY_INDEX.md)
 
@@ -69,6 +69,8 @@ There are **37 distinct CFD projects** with computed flow fields, figures and nu
 | Project | Flow question | Study records |
 | --- | --- | --- |
 | [Miscible lock exchange](../projects/lock-exchange/README.md) | Measures density-driven sludge transport and the advance of a miscible gravity current. | — |
+| [Selective methane transport through a membrane](../projects/selective-methane-membrane/README.md) | Measures methane exchange between a pipe and sleeve using paired native membrane fluxes. | — |
+
 ## Combustion
 
 | Project | Flow question | Study records |
