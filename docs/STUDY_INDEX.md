@@ -41,9 +41,9 @@ There are 35 numbered study records. Entries include geometry models, numerical 
 | 35 | [35. Dam break over an obstacle](../lessons/35-dam-break-over-obstacle/README.md) |
 
 
-## Additional comparison
+## Supplementary material
 
-[Plain cooling block in Fluent and OpenFOAM](../results/cooling-block-plain-v001/README.md). Both 20-second runs passed the declared numerical checks.
+[Cooling an aluminium block in airflow](../results/cooling-block-plain-v001/README.md). Supplement with paired Fluent and OpenFOAM figures, video, methods and numerical evidence.
 
 ## Refined-wing formulation investigation — 8 November 2026
 

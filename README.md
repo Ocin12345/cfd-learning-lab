@@ -10,9 +10,9 @@ Explanations are brief; formal lesson checkpoints are no longer required.
 
 [Browse the 35 numbered study records](docs/STUDY_INDEX.md). [Study 35](lessons/35-dam-break-over-obstacle/README.md) now records the complete selected paired calculation and actual video. Earlier numerical misses, including its parent runs, remain explicitly labelled. These entries include sensitivity/comparison studies and are not 35 validated physical predictions.
 
-## Latest comparison
+## Supplementary material
 
-The [plain cooling-block study](results/cooling-block-plain-v001/README.md) compares 20 s of conjugate heat transfer in Fluent and OpenFOAM. Both runs passed the declared numerical checks and ended with a mean block temperature near 318.533 K. The study includes six figures, a video and all-step cooling data.
+The [cooling-block supplement](results/cooling-block-plain-v001/README.md) compares 20 s of cooling in Fluent and OpenFOAM. It includes side-by-side results, figures, video, methods and numerical evidence.
 
 ## Showcase improvement: cylinder wake
 
